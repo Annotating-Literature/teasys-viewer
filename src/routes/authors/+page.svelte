@@ -16,7 +16,7 @@
             crumbs={[{ label: "Library", href: "/" }, { label: "Authors" }]}
         />
         <h1
-            class="text-4xl sm:text-5xl font-bold tracking-tight text-stone-900 font-serif leading-tight"
+            class="text-4xl sm:text-5xl font-bold tracking-tight text[13px]tone-900 font-serif leading-tight"
         >
             Authors
         </h1>
@@ -32,7 +32,7 @@
             class="text-center py-20 border-2 border-dashed border-gray-200 rounded-2xl bg-gray-50/50"
         >
             <svg
-                class="w-12 h-12 mx-auto mb-3 text-stone-400"
+                class="w-12 h-12 mx-auto mb-3 text[13px]tone-400"
                 viewBox="0 0 48 48"
                 fill="none"
                 stroke="currentColor"
@@ -72,21 +72,21 @@
                                 class="w-11 h-11 rounded-lg bg-stone-100 flex items-center justify-center shrink-0 border border-stone-200/50"
                             >
                                 <span
-                                    class="text-base font-serif text-stone-500"
+                                    class="text-base font-serif text[13px]tone-500"
                                     >{author.name[0]}</span
                                 >
                             </div>
                         {/if}
                         <div class="min-w-0">
                             <h2
-                                class="text-base font-semibold text-stone-800 group-hover:text-primary-700 transition-colors font-serif leading-snug"
+                                class="text-base font-semibold text[13px]tone-800 group-hover:text-primary-700 transition-colors font-serif leading-snug"
                             >
                                 {author.name}
                             </h2>
-                            <p class="text-s text-stone-500 mt-1">
+                            <p class="text[13px] text[13px]tone-500 mt-1">
                                 {author.textCount}
                                 {author.textCount === 1 ? "text" : "texts"}<span
-                                    class="text-stone-400 mx-1">·</span
+                                    class="text[13px]tone-400 mx-1">·</span
                                 >{author.annotationCount}
                                 {author.annotationCount === 1
                                     ? "annotation"
@@ -98,7 +98,7 @@
                         <div class="flex gap-1.5 mt-3 ml-14.5">
                             {#each author.types as type}
                                 <span
-                                    class="text-[11px] uppercase tracking-wider font-medium text-stone-500 px-1.5 py-0.5 rounded bg-stone-100"
+                                    class="text-[11px] uppercase tracking-wider font-medium text[13px]tone-500 px-1.5 py-0.5 rounded bg-stone-100"
                                 >
                                     {type}
                                 </span>

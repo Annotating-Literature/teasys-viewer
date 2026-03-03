@@ -199,7 +199,7 @@
 				>
 					<button
 						type="button"
-						class="w-6 h-6 rounded flex items-center justify-center text-gray-500 hover:text-gray-700 hover:bg-gray-100 font-sans font-bold text-s"
+						class="w-6 h-6 rounded flex items-center justify-center text-gray-500 hover:text-gray-700 hover:bg-gray-100 font-sans font-bold text[13px]"
 						title="Bold (select text first)"
 						onclick={() => applyMarkdownFormat("**", 2)}
 					>
@@ -207,7 +207,7 @@
 					</button>
 					<button
 						type="button"
-						class="w-6 h-6 rounded flex items-center justify-center text-gray-500 hover:text-gray-700 hover:bg-gray-100 font-serif italic font-bold text-s"
+						class="w-6 h-6 rounded flex items-center justify-center text-gray-500 hover:text-gray-700 hover:bg-gray-100 font-serif italic font-bold text[13px]"
 						title="Italic (select text first)"
 						onclick={() => applyMarkdownFormat("*", 1)}
 					>

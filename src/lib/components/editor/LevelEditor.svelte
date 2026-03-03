@@ -20,7 +20,8 @@
 	<div>
 		<label
 			for="category-select"
-			class="block text-s font-medium text-gray-600 mb-1">Category</label
+			class="block text[13px] font-medium text-gray-600 mb-1"
+			>Category</label
 		>
 		<CategorySelect
 			id="category-select"
@@ -32,7 +33,7 @@
 	<div>
 		<label
 			for="body-editor"
-			class="block text-s font-medium text-gray-600 mb-1"
+			class="block text[13px] font-medium text-gray-600 mb-1"
 		>
 			Body <span class="text-gray-500">(Markdown)</span>
 		</label>
@@ -45,7 +46,7 @@
 	<div>
 		<label
 			for="works-cited-editor"
-			class="block text-s font-medium text-gray-600 mb-1"
+			class="block text[13px] font-medium text-gray-600 mb-1"
 			>Works Cited</label
 		>
 		<WorksCitedEditor

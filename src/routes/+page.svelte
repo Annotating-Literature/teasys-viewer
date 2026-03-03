@@ -60,7 +60,7 @@
 			class="absolute -top-8 -left-12 w-48 h-48 bg-primary-100/30 rounded-full blur-3xl pointer-events-none"
 		></div>
 		<h1
-			class="relative text-4xl sm:text-5xl font-bold tracking-tight text-stone-900 font-serif leading-tight mb-2"
+			class="relative text-4xl sm:text-5xl font-bold tracking-tight text[13px]tone-900 font-serif leading-tight mb-2"
 		>
 			Annotated Literature
 		</h1>
@@ -77,7 +77,7 @@
 			class="text-center py-20 border-2 border-dashed border-gray-200 rounded-2xl bg-gray-50/50"
 		>
 			<svg
-				class="w-14 h-14 mx-auto mb-4 text-stone-400"
+				class="w-14 h-14 mx-auto mb-4 text[13px]tone-400"
 				viewBox="0 0 48 48"
 				fill="none"
 				stroke="currentColor"
@@ -116,7 +116,7 @@
 								/>
 							{/if}
 							<h2
-								class="text-2xl font-serif text-stone-800 tracking-wide"
+								class="text-2xl font-serif text[13px]tone-800 tracking-wide"
 							>
 								{typeLabel[group.type]}
 							</h2>
@@ -130,7 +130,7 @@
 							<div>
 								<div class="flex items-center gap-4 mb-5 pl-1">
 									<h3
-										class="text-s font-bold text-gray-500 uppercase tracking-[0.2em]"
+										class="text[13px] font-bold text-gray-500 uppercase tracking-[0.2em]"
 									>
 										{cat.name}
 									</h3>
@@ -151,7 +151,7 @@
 									       transition-all duration-300 ease-out overflow-hidden"
 										>
 											<h4
-												class="text-base font-semibold text-stone-800 group-hover:text-primary-700 transition-colors leading-snug font-serif"
+												class="text-base font-semibold text[13px]tone-800 group-hover:text-primary-700 transition-colors leading-snug font-serif"
 											>
 												<a
 													href={`/texts/${text.id}`}
@@ -161,7 +161,7 @@
 												</a>
 											</h4>
 											<p
-												class="text-m text-stone-500 mt-2 relative z-10"
+												class="text-m text[13px]tone-500 mt-2 relative z-10"
 											>
 												<a
 													href={`/authors/${slugify(text.author)}`}

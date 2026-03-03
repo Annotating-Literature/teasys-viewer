@@ -133,7 +133,7 @@
 					</h2>
 					<button
 						onclick={handleCancel}
-						class="text-s text-gray-500 hover:text-gray-600 transition-colors"
+						class="text[13px] text-gray-500 hover:text-gray-600 transition-colors"
 					>
 						Cancel
 					</button>
@@ -141,7 +141,7 @@
 				<div
 					class="bg-primary-50 rounded-lg p-3 border-l-4 border-primary-300"
 				>
-					<p class="text-s text-gray-500 mb-0.5">Annotating:</p>
+					<p class="text[13px] text-gray-500 mb-0.5">Annotating:</p>
 					<p class="text-m text-gray-700">
 						“{formAnnotation.anchorText}”
 					</p>
@@ -169,7 +169,7 @@
 			<!-- Annotation list -->
 			<div class="p-4 border-b border-gray-100">
 				<h2 class="font-semibold text-m text-gray-900">Annotations</h2>
-				<p class="text-s text-gray-500 mt-0.5">
+				<p class="text[13px] text-gray-500 mt-0.5">
 					Select text in the reading area to annotate
 				</p>
 			</div>
@@ -182,7 +182,7 @@
 							<span class="text-gray-500">—</span>
 						</div>
 						<p class="text-m text-gray-500">No annotations yet</p>
-						<p class="text-s text-gray-500 mt-1">
+						<p class="text[13px] text-gray-500 mt-1">
 							Highlight text to create one
 						</p>
 					</div>

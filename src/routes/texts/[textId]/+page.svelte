@@ -187,14 +187,14 @@
 							class="sticky top-0 bg-white/90 backdrop-blur-sm border-b border-gray-100 px-5 py-3 flex items-center justify-between"
 						>
 							<span
-								class="text-s font-semibold text-gray-500 uppercase tracking-wider"
+								class="text[13px] font-semibold text-gray-500 uppercase tracking-wider"
 								>Annotation</span
 							>
 							<div class="flex items-center gap-2">
 								{#if data.user}
 									<a
 										href={`/texts/${data.text.metadata.id}/annotate?annotationId=${activeAnnotation.id}`}
-										class="text-s font-medium text-primary-600 hover:text-primary-700 px-2 py-1 rounded-md bg-primary-50 hover:bg-primary-100 transition-colors"
+										class="text[13px] font-medium text-primary-600 hover:text-primary-700 px-2 py-1 rounded-md bg-primary-50 hover:bg-primary-100 transition-colors"
 									>
 										Edit
 									</a>
@@ -220,7 +220,7 @@
 						<!-- Annotation list -->
 						<div class="px-5 py-3 border-b border-gray-100">
 							<span
-								class="text-s font-semibold text-gray-500 uppercase tracking-wider"
+								class="text[13px] font-semibold text-gray-500 uppercase tracking-wider"
 							>
 								{data.annotations.length} Annotation{data
 									.annotations.length !== 1

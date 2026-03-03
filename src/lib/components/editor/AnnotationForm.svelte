@@ -77,13 +77,13 @@
 <div class="space-y-5">
 	<!-- Authors -->
 	<div>
-		<label class="block text-s font-medium text-gray-600 mb-1"
+		<label class="block text[13px] font-medium text-gray-600 mb-1"
 			>Authors</label
 		>
 		<div class="flex flex-wrap gap-1.5 mb-2">
 			{#each formData.authors as author, i}
 				<span
-					class="inline-flex items-center gap-1 px-2 py-0.5 text-s font-medium bg-primary-50 text-primary-700 rounded-md"
+					class="inline-flex items-center gap-1 px-2 py-0.5 text[13px] font-medium bg-primary-50 text-primary-700 rounded-md"
 				>
 					{author}
 					<button
@@ -119,7 +119,8 @@
 	<div>
 		<label
 			for="annotation-version"
-			class="block text-s font-medium text-gray-600 mb-1">Version</label
+			class="block text[13px] font-medium text-gray-600 mb-1"
+			>Version</label
 		>
 		<input
 			id="annotation-version"
@@ -133,7 +134,7 @@
 	<!-- Levels -->
 	<div>
 		<div class="flex items-center justify-between mb-2">
-			<span class="text-s font-medium text-gray-600">Levels</span>
+			<span class="text[13px] font-medium text-gray-600">Levels</span>
 			<div class="flex gap-2">
 				<button
 					class="text-[11px] font-medium text-primary-600 hover:text-primary-700 transition-colors"
@@ -155,7 +156,7 @@
 		<div class="flex flex-wrap gap-1 mb-3">
 			{#each formData.levels as level, i}
 				<button
-					class="text-s font-medium px-2.5 py-1.5 rounded-md transition-all border"
+					class="text[13px] font-medium px-2.5 py-1.5 rounded-md transition-all border"
 					class:bg-primary-600={i === activeLevelIndex}
 					class:text-white={i === activeLevelIndex}
 					class:border-primary-600={i === activeLevelIndex}
@@ -198,7 +199,7 @@
 		<div>
 			{#if onDelete}
 				<button
-					class="text-s font-medium text-red-500 hover:text-red-600 transition-colors"
+					class="text[13px] font-medium text-red-500 hover:text-red-600 transition-colors"
 					onclick={() => onDelete!(annotation.id)}
 				>
 					Delete annotation
@@ -207,7 +208,7 @@
 		</div>
 		<div class="flex items-center gap-3">
 			<button
-				class="text-s font-medium text-gray-500 hover:text-gray-700 transition-colors"
+				class="text[13px] font-medium text-gray-500 hover:text-gray-700 transition-colors"
 				onclick={onCancel}
 			>
 				Cancel

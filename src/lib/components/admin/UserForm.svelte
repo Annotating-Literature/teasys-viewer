@@ -9,7 +9,7 @@
 			<div class="flex-1">
 				<label
 					for="username"
-					class="block text-s font-medium text-gray-600 mb-1"
+					class="block text[13px] font-medium text-gray-600 mb-1"
 					>Username</label
 				>
 				<input
@@ -24,7 +24,7 @@
 			<div class="flex-1">
 				<label
 					for="password"
-					class="block text-s font-medium text-gray-600 mb-1"
+					class="block text[13px] font-medium text-gray-600 mb-1"
 					>Password</label
 				>
 				<input
@@ -39,7 +39,7 @@
 			<div class="w-32">
 				<label
 					for="role"
-					class="block text-s font-medium text-gray-600 mb-1"
+					class="block text[13px] font-medium text-gray-600 mb-1"
 					>Role</label
 				>
 				<select

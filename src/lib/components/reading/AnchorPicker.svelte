@@ -18,7 +18,7 @@
 	style:top={`${position.top}px`}
 	style:left={`${position.left}px`}
 >
-	<h4 class="text-s font-bold text-gray-500 uppercase px-2 pt-1 pb-2">
+	<h4 class="text[13px] font-bold text-gray-500 uppercase px-2 pt-1 pb-2">
 		Select Annotation
 	</h4>
 	<ul>

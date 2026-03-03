@@ -47,7 +47,9 @@
 						<div
 							class="w-7 h-7 rounded-full bg-primary-100 flex items-center justify-center"
 						>
-							<span class="text-s font-semibold text-primary-700">
+							<span
+								class="text[13px] font-semibold text-primary-700"
+							>
 								{user.username[0].toUpperCase()}
 							</span>
 						</div>

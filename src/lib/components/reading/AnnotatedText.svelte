@@ -102,9 +102,9 @@
 						<div class:mt-6={i > 0}>
 							{#each stanza as line}
 								{@const lineNum = line.globalIndex + 1}
-								<div class="flex">
+								<div class="flex items-baseline">
 									<div
-										class="w-10 text-right text-s text-gray-500 pr-4 shrink-0 pt-[0.35em] select-none font-sans tabular-nums leading-loose"
+										class="w-10 text-right text-[11px] text-gray-500 pr-4 shrink-0 select-none font-sans tabular-nums leading-loose"
 									>
 										{#if lineNum % 5 === 0 || lineNum === 1}
 											{lineNum}
@@ -144,9 +144,9 @@
 						</h2>
 					{/if}
 					{#each chapter.paragraphs as paragraph, pIdx}
-						<div class="flex mb-4">
+						<div class="flex items-baseline mb-4">
 							<div
-								class="w-10 text-right text-s text-gray-500 pr-4 shrink-0 pt-[0.35em] select-none font-sans tabular-nums"
+								class="w-10 text-right text-[11px] text-gray-500 pr-4 shrink-0 select-none font-sans tabular-nums"
 							>
 								{pIdx + 1}
 							</div>
@@ -202,9 +202,9 @@
 										[{block.text}]
 									</p>
 								{:else}
-									<div class="flex mb-1">
+									<div class="flex items-baseline mb-1">
 										<div
-											class="w-10 text-right text-s text-gray-500 pr-4 shrink-0 pt-[0.35em] select-none font-sans tabular-nums leading-loose"
+											class="w-10 text-right text-[11px] text-gray-500 pr-4 shrink-0 select-none font-sans tabular-nums leading-loose"
 										>
 											{#if (bIdx + 1) % 5 === 0 || bIdx === 0}
 												{bIdx + 1}

@@ -41,13 +41,13 @@
 </script>
 
 <div>
-	<h4 class="text-s font-medium text-gray-600 mb-2">Cross-references</h4>
+	<h4 class="text[13px] font-medium text-gray-600 mb-2">Cross-references</h4>
 
 	{#if crossRefs.length > 0}
 		<div class="flex flex-wrap gap-1.5 mb-3">
 			{#each crossRefs as ref}
 				<span
-					class="inline-flex items-center gap-1 text-s bg-primary-50 text-primary-700 px-2.5 py-1 rounded-md border border-primary-100"
+					class="inline-flex items-center gap-1 text[13px] bg-primary-50 text-primary-700 px-2.5 py-1 rounded-md border border-primary-100"
 				>
 					"{ref.annotationTitle}"
 					<button
@@ -99,7 +99,7 @@
 			<div
 				class="absolute z-20 w-full mt-1 bg-white border border-gray-200 rounded-lg shadow-lg p-3"
 			>
-				<p class="text-s text-gray-500 text-center">
+				<p class="text[13px] text-gray-500 text-center">
 					No matching annotations found
 				</p>
 			</div>

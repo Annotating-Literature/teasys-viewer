@@ -81,7 +81,7 @@
 		{#each groupedTexts as group}
 			<div class="mb-6">
 				<h2
-					class="text-s font-semibold text-gray-500 uppercase tracking-wider mb-2"
+					class="text[13px] font-semibold text-gray-500 uppercase tracking-wider mb-2"
 				>
 					{typeLabel[group.type]}
 				</h2>
@@ -108,7 +108,9 @@
 										>
 											{text.title}
 										</p>
-										<p class="text-s text-gray-500 mt-0.5">
+										<p
+											class="text[13px] text-gray-500 mt-0.5"
+										>
 											{text.author}{#if text.year}<span
 													class="text-gray-500 mx-1"
 													>·</span
@@ -118,14 +120,14 @@
 									<div class="flex items-center gap-3 ml-4">
 										<a
 											href={`/texts/${text.id}`}
-											class="text-s font-medium text-primary-600 hover:text-primary-700 px-2.5 py-1 rounded-md hover:bg-primary-50 transition-colors"
+											class="text[13px] font-medium text-primary-600 hover:text-primary-700 px-2.5 py-1 rounded-md hover:bg-primary-50 transition-colors"
 										>
 											View
 										</a>
 										<button
 											onclick={() =>
 												deleteText(text.id, text.title)}
-											class="text-s font-medium text-red-500 hover:text-red-600 px-2.5 py-1 rounded-md hover:bg-red-50 transition-colors"
+											class="text[13px] font-medium text-red-500 hover:text-red-600 px-2.5 py-1 rounded-md hover:bg-red-50 transition-colors"
 										>
 											Delete
 										</button>

@@ -79,7 +79,7 @@
 			</form>
 		</div>
 
-		<p class="mt-6 text-center text-s text-gray-500">
+		<p class="mt-6 text-center text[13px] text-gray-500">
 			<a
 				href="/"
 				class="inline-flex items-center gap-1 hover:text-primary-600 transition-colors"

@@ -51,7 +51,7 @@
 			<div>
 				<label
 					for="title"
-					class="block text-s font-medium text-gray-600 mb-1"
+					class="block text[13px] font-medium text-gray-600 mb-1"
 					>Title *</label
 				>
 				<input
@@ -66,7 +66,7 @@
 			<div>
 				<label
 					for="author"
-					class="block text-s font-medium text-gray-600 mb-1"
+					class="block text[13px] font-medium text-gray-600 mb-1"
 					>Author *</label
 				>
 				<input
@@ -81,7 +81,7 @@
 			<div>
 				<label
 					for="year"
-					class="block text-s font-medium text-gray-600 mb-1"
+					class="block text[13px] font-medium text-gray-600 mb-1"
 				>
 					Year <span class="text-gray-500">(optional)</span>
 				</label>
@@ -96,7 +96,7 @@
 			<div class="relative">
 				<label
 					for="category"
-					class="block text-s font-medium text-gray-600 mb-1"
+					class="block text[13px] font-medium text-gray-600 mb-1"
 					>Category *</label
 				>
 				<input
@@ -140,7 +140,7 @@
 		<div class="mb-4">
 			<label
 				for="type"
-				class="block text-s font-medium text-gray-600 mb-1"
+				class="block text[13px] font-medium text-gray-600 mb-1"
 				>Type *</label
 			>
 			<select
@@ -157,7 +157,7 @@
 		<div class="mb-4">
 			<label
 				for="textContent"
-				class="block text-s font-medium text-gray-600 mb-1"
+				class="block text[13px] font-medium text-gray-600 mb-1"
 				>Full Text *</label
 			>
 			<textarea

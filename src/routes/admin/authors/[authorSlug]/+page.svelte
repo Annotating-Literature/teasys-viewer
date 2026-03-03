@@ -34,7 +34,7 @@
         <div>
             <label
                 for="portrait"
-                class="block text-s font-medium text-gray-600 mb-2"
+                class="block text[13px] font-medium text-gray-600 mb-2"
             >
                 Portrait Image
             </label>
@@ -64,7 +64,7 @@
         <div>
             <label
                 for="bio"
-                class="block text-s font-medium text-gray-600 mb-2"
+                class="block text[13px] font-medium text-gray-600 mb-2"
             >
                 Biography <span class="text-gray-500">(Markdown)</span>
             </label>

@@ -10,7 +10,7 @@
 
 <div class="max-w-3xl mx-auto px-6 py-10">
     <div class="mb-8">
-        <nav class="text-sm text-gray-400 mb-4">
+        <nav class="text-sm text-gray-500 mb-4">
             <a href="/admin" class="hover:text-primary-600 transition-colors">
                 Admin
             </a>
@@ -54,7 +54,7 @@
                 accept="image/jpeg,image/png,image/webp"
                 class="text-sm text-gray-600 file:mr-3 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-medium file:bg-primary-50 file:text-primary-600 hover:file:bg-primary-100 file:transition-colors file:cursor-pointer"
             />
-            <p class="text-[10px] text-gray-400 mt-1">
+            <p class="text-[11px] text-gray-500 mt-1">
                 JPG, PNG, or WebP. Will be displayed as a small portrait on the
                 author page.
             </p>
@@ -66,12 +66,12 @@
                 for="bio"
                 class="block text-xs font-medium text-gray-600 mb-2"
             >
-                Biography <span class="text-gray-400">(Markdown)</span>
+                Biography <span class="text-gray-500">(Markdown)</span>
             </label>
             <textarea
                 id="bio"
                 name="bio"
-                class="w-full h-64 px-4 py-3 text-sm border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-400 resize-y font-mono"
+                class="w-full h-64 px-4 py-3 text-sm border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-500 resize-y font-mono"
                 placeholder="Write a short biography for this author..."
                 >{data.bio}</textarea
             >

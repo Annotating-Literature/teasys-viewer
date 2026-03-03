@@ -62,7 +62,7 @@
 		<div class="flex items-start gap-1">
 			<textarea
 				bind:this={inputEls[i]}
-				class="flex-1 px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-400 min-h-[80px] resize-y"
+				class="flex-1 px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-500 min-h-[80px] resize-y"
 				placeholder="e.g., Pound, Ezra. *A Retrospect.* **1918**."
 				value={work}
 				oninput={(e) =>
@@ -71,7 +71,7 @@
 			<div class="flex flex-col gap-1">
 				<button
 					type="button"
-					class="w-7 h-7 rounded-md text-gray-400 hover:text-gray-700 hover:bg-gray-100 transition-colors flex items-center justify-center text-sm font-sans font-bold"
+					class="w-7 h-7 rounded-md text-gray-500 hover:text-gray-700 hover:bg-gray-100 transition-colors flex items-center justify-center text-sm font-sans font-bold"
 					title="Bold (select text first)"
 					onclick={() => applyBold(i)}
 				>
@@ -79,7 +79,7 @@
 				</button>
 				<button
 					type="button"
-					class="w-7 h-7 rounded-md text-gray-400 hover:text-gray-700 hover:bg-gray-100 transition-colors flex items-center justify-center text-sm font-serif italic font-bold"
+					class="w-7 h-7 rounded-md text-gray-500 hover:text-gray-700 hover:bg-gray-100 transition-colors flex items-center justify-center text-sm font-serif italic font-bold"
 					title="Italic (select text first)"
 					onclick={() => applyItalic(i)}
 				>
@@ -87,7 +87,7 @@
 				</button>
 			</div>
 			<button
-				class="w-7 h-7 rounded-md text-gray-400 hover:text-red-500 hover:bg-red-50 transition-colors flex items-center justify-center"
+				class="w-7 h-7 rounded-md text-gray-500 hover:text-red-500 hover:bg-red-50 transition-colors flex items-center justify-center"
 				onclick={() => removeWork(i)}
 			>
 				&times;

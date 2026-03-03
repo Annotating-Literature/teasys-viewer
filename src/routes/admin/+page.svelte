@@ -4,6 +4,7 @@
 	import IconQuill from "$lib/components/icons/IconQuill.svelte";
 	import IconNotebook from "$lib/components/icons/IconNotebook.svelte";
 	import IconTheatreMasks from "$lib/components/icons/IconTheatreMasks.svelte";
+	import Breadcrumbs from "$lib/components/layout/Breadcrumbs.svelte";
 
 	let { data } = $props();
 
@@ -61,12 +62,9 @@
 
 <div class="max-w-5xl mx-auto px-6 py-10">
 	<div class="mb-8">
-		<a
-			href="/"
-			class="inline-flex items-center gap-1 text-sm text-gray-400 hover:text-primary-600 transition-colors mb-4"
-		>
-			← Library
-		</a>
+		<Breadcrumbs
+			crumbs={[{ label: "Library", href: "/" }, { label: "Admin" }]}
+		/>
 		<h1 class="text-3xl font-bold text-gray-900">Admin Dashboard</h1>
 	</div>
 
@@ -74,7 +72,7 @@
 	<div class="grid grid-cols-2 md:grid-cols-5 gap-3 mb-8">
 		<div class="bg-white rounded-xl border border-gray-100 shadow-sm p-4">
 			<p
-				class="flex items-center gap-1.5 text-[10px] font-semibold text-gray-400 uppercase tracking-wider mb-1"
+				class="flex items-center gap-1.5 text-[11px] font-semibold text-gray-500 uppercase tracking-wider mb-1"
 			>
 				<svg
 					class="w-3.5 h-3.5"
@@ -92,7 +90,7 @@
 		</div>
 		<div class="bg-white rounded-xl border border-gray-100 shadow-sm p-4">
 			<p
-				class="text-[10px] font-semibold text-gray-400 uppercase tracking-wider mb-1"
+				class="text-[11px] font-semibold text-gray-500 uppercase tracking-wider mb-1"
 			>
 				Annotations
 			</p>
@@ -103,7 +101,7 @@
 				class="bg-white rounded-xl border border-gray-100 shadow-sm p-4"
 			>
 				<p
-					class="flex items-center gap-1.5 text-[10px] font-semibold text-gray-400 uppercase tracking-wider mb-1"
+					class="flex items-center gap-1.5 text-[11px] font-semibold text-gray-500 uppercase tracking-wider mb-1"
 				>
 					{#if type === "poetry"}
 						<IconQuill class="w-3.5 h-3.5" />
@@ -120,6 +118,188 @@
 			</div>
 		{/each}
 	</div>
+
+	<!-- Detailed stats -->
+	{#if totalAnnotations > 0}
+		<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
+			<!-- Annotation depth -->
+			<div
+				class="bg-white rounded-xl border border-gray-100 shadow-sm p-5"
+			>
+				<h3
+					class="text-[11px] font-semibold text-gray-500 uppercase tracking-wider mb-3"
+				>
+					Annotation Depth
+				</h3>
+				<div class="space-y-2.5">
+					{#each [1, 2, 3] as level}
+						{@const count = data.stats.levelCounts[level] || 0}
+						{@const pct =
+							totalAnnotations > 0
+								? Math.round(
+										(count /
+											Math.max(
+												data.stats.levelCounts[1] +
+													data.stats.levelCounts[2] +
+													data.stats.levelCounts[3],
+												1,
+											)) *
+											100,
+									)
+								: 0}
+						<div>
+							<div
+								class="flex items-center justify-between text-xs mb-1"
+							>
+								<span class="text-gray-600">Level {level}</span>
+								<span class="text-gray-500">{count}</span>
+							</div>
+							<div
+								class="h-1.5 bg-gray-100 rounded-full overflow-hidden"
+							>
+								<div
+									class="h-full rounded-full transition-all duration-500"
+									class:bg-primary-300={level === 1}
+									class:bg-primary-500={level === 2}
+									class:bg-primary-700={level === 3}
+									style="width: {pct}%"
+								></div>
+							</div>
+						</div>
+					{/each}
+				</div>
+				<div
+					class="mt-4 pt-3 border-t border-gray-50 flex items-center justify-between text-xs text-gray-500"
+				>
+					<span>Avg per text</span>
+					<span class="font-semibold text-gray-700"
+						>{data.stats.avgAnnotations}</span
+					>
+				</div>
+			</div>
+
+			<!-- Category breakdown -->
+			<div
+				class="bg-white rounded-xl border border-gray-100 shadow-sm p-5"
+			>
+				<h3
+					class="text-[11px] font-semibold text-gray-500 uppercase tracking-wider mb-3"
+				>
+					Categories
+				</h3>
+				<div class="space-y-2">
+					{#each data.stats.categoryCounts as [cat, count]}
+						{@const total = data.stats.categoryCounts.reduce(
+							(s, [, c]) => s + c,
+							0,
+						)}
+						{@const pct = Math.round(
+							(count / Math.max(total, 1)) * 100,
+						)}
+						<div class="flex items-center gap-2.5">
+							<span
+								class="text-xs text-gray-600 w-28 truncate capitalize"
+								>{cat.replace(/-/g, " ")}</span
+							>
+							<div
+								class="flex-1 h-1.5 bg-gray-100 rounded-full overflow-hidden"
+							>
+								<div
+									class="h-full bg-primary-400 rounded-full"
+									style="width: {pct}%"
+								></div>
+							</div>
+							<span
+								class="text-[11px] text-gray-500 w-6 text-right"
+								>{count}</span
+							>
+						</div>
+					{/each}
+				</div>
+			</div>
+
+			<!-- Highlights -->
+			<div
+				class="bg-white rounded-xl border border-gray-100 shadow-sm p-5 space-y-4"
+			>
+				<h3
+					class="text-[11px] font-semibold text-gray-500 uppercase tracking-wider mb-1"
+				>
+					Highlights
+				</h3>
+
+				{#if data.stats.mostAnnotated}
+					<div>
+						<p
+							class="text-[11px] text-gray-500 uppercase tracking-wider"
+						>
+							Most Annotated
+						</p>
+						<a
+							href={`/texts/${data.stats.mostAnnotated.id}`}
+							class="text-sm font-medium text-gray-800 hover:text-primary-600 transition-colors line-clamp-1"
+						>
+							{data.stats.mostAnnotated.title}
+						</a>
+						<p class="text-[11px] text-gray-500">
+							{data.stats.mostAnnotated.count} annotations
+						</p>
+					</div>
+				{/if}
+
+				<div class="flex gap-4">
+					<div>
+						<p
+							class="text-[11px] text-gray-500 uppercase tracking-wider"
+						>
+							Contributors
+						</p>
+						<p class="text-lg font-bold text-gray-900">
+							{data.stats.contributors}
+						</p>
+					</div>
+					<div>
+						<p
+							class="text-[11px] text-gray-500 uppercase tracking-wider"
+						>
+							Cross-refs
+						</p>
+						<p class="text-lg font-bold text-gray-900">
+							{data.stats.totalCrossRefs}
+						</p>
+					</div>
+					<div>
+						<p
+							class="text-[11px] text-gray-500 uppercase tracking-wider"
+						>
+							Citations
+						</p>
+						<p class="text-lg font-bold text-gray-900">
+							{data.stats.totalWorksCited}
+						</p>
+					</div>
+				</div>
+
+				{#if data.stats.mostRecent}
+					<div class="pt-2 border-t border-gray-50">
+						<p
+							class="text-[11px] text-gray-500 uppercase tracking-wider"
+						>
+							Last Activity
+						</p>
+						<p class="text-xs text-gray-600 mt-0.5 line-clamp-1">
+							"{data.stats.mostRecent.anchorText}"
+						</p>
+						<p class="text-[11px] text-gray-500">
+							by {data.stats.mostRecent.authors.join(", ")} · {new Date(
+								data.stats.mostRecent.updatedAt,
+							).toLocaleDateString()}
+						</p>
+					</div>
+				{/if}
+			</div>
+		</div>
+	{/if}
 
 	<!-- Management links -->
 	<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
@@ -190,6 +370,23 @@
 			Add bios and portraits to author pages. Click an author to edit
 			their profile.
 		</p>
+
+		<!-- Create new author -->
+		<form method="POST" action="?/createAuthor" class="flex gap-2 mb-4">
+			<input
+				type="text"
+				name="name"
+				placeholder="New author name..."
+				class="flex-1 px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-500"
+			/>
+			<button
+				type="submit"
+				class="px-4 py-2 text-sm font-medium text-white bg-primary-600 hover:bg-primary-700 rounded-lg shadow-sm transition-colors"
+			>
+				Add Author
+			</button>
+		</form>
+
 		<div
 			class="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden"
 		>
@@ -207,11 +404,26 @@
 						>{author}</span
 					>
 					<span
-						class="text-[10px] font-medium text-gray-400 bg-gray-50 px-2 py-0.5 rounded-full"
+						class="text-[11px] font-medium text-gray-500 bg-gray-50 px-2 py-0.5 rounded-full"
 					>
 						{authorTexts.length} text{authorTexts.length !== 1
 							? "s"
 							: ""}
+					</span>
+				</a>
+			{/each}
+			{#each data.extraAuthors as extra, i}
+				<a
+					href={`/admin/authors/${extra.slug}`}
+					class="flex items-center justify-between p-3 border-t border-gray-50 hover:bg-gray-50/80 transition-colors"
+				>
+					<span class="text-sm font-medium text-gray-800"
+						>{extra.name}</span
+					>
+					<span
+						class="text-[11px] font-medium text-primary-500 bg-primary-50 px-2 py-0.5 rounded-full"
+					>
+						standalone
 					</span>
 				</a>
 			{/each}
@@ -234,7 +446,7 @@
 								{category}
 							</h3>
 							<span
-								class="text-[10px] font-medium text-gray-400 bg-gray-50 px-2 py-0.5 rounded-full"
+								class="text-[11px] font-medium text-gray-500 bg-gray-50 px-2 py-0.5 rounded-full"
 							>
 								{categoryTexts.length} text{categoryTexts.length !==
 								1
@@ -249,12 +461,12 @@
 									class="inline-flex items-center gap-1.5 px-2.5 py-1 text-xs bg-gray-50 hover:bg-primary-50 text-gray-700 hover:text-primary-700 rounded-md transition-colors"
 								>
 									<span
-										class="text-[10px] text-gray-400 font-medium"
+										class="text-[11px] text-gray-500 font-medium"
 										>{t.type}</span
 									>
 									<span class="font-medium">{t.title}</span>
 									{#if t.annotations.length > 0}
-										<span class="text-gray-400"
+										<span class="text-gray-500"
 											>· {t.annotations.length} ann.</span
 										>
 									{/if}
@@ -281,7 +493,7 @@
 								{author}
 							</h3>
 							<span
-								class="text-[10px] font-medium text-gray-400 bg-gray-50 px-2 py-0.5 rounded-full"
+								class="text-[11px] font-medium text-gray-500 bg-gray-50 px-2 py-0.5 rounded-full"
 							>
 								{authorTexts.length} text{authorTexts.length !==
 								1
@@ -296,12 +508,12 @@
 									class="inline-flex items-center gap-1.5 px-2.5 py-1 text-xs bg-gray-50 hover:bg-primary-50 text-gray-700 hover:text-primary-700 rounded-md transition-colors"
 								>
 									<span
-										class="text-[10px] text-gray-400 font-medium"
+										class="text-[11px] text-gray-500 font-medium"
 										>{t.type}</span
 									>
 									<span class="font-medium">{t.title}</span>
 									{#if t.annotations.length > 0}
-										<span class="text-gray-400"
+										<span class="text-gray-500"
 											>· {t.annotations.length} ann.</span
 										>
 									{/if}

@@ -60,7 +60,7 @@
 		data-end={segment.end}
 	>
 		{@html parsedSegmentText}<sup
-			class="font-bold text-gray-500 text-[10px] ml-0.5">{ids.length}</sup
+			class="font-bold text-gray-500 text-[11px] ml-0.5">{ids.length}</sup
 		>
 	</mark>
 {:else if ids.length === 1}

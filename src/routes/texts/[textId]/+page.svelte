@@ -3,6 +3,7 @@
 	import AnnotatedText from "$lib/components/reading/AnnotatedText.svelte";
 	import AnnotationEntry from "$lib/components/reading/AnnotationEntry.svelte";
 	import AnchorPicker from "$lib/components/reading/AnchorPicker.svelte";
+	import Breadcrumbs from "$lib/components/layout/Breadcrumbs.svelte";
 	import { slugify } from "$lib/utils/slug";
 
 	let { data } = $props();
@@ -76,21 +77,16 @@
 <div class="max-w-7xl mx-auto px-6 py-10">
 	<!-- Header -->
 	<div class="mb-8">
-		<a
-			href="/"
-			class="inline-flex items-center gap-1.5 text-sm text-gray-400 hover:text-primary-600 transition-colors mb-4"
-		>
-			<svg
-				class="w-3.5 h-3.5"
-				viewBox="0 0 14 14"
-				fill="none"
-				stroke="currentColor"
-				stroke-width="1.5"
-				stroke-linecap="round"
-				stroke-linejoin="round"><path d="M9 11L5 7l4-4" /></svg
-			>
-			Library
-		</a>
+		<Breadcrumbs
+			crumbs={[
+				{ label: "Library", href: "/" },
+				{
+					label: data.text.metadata.author,
+					href: `/authors/${slugify(data.text.metadata.author)}`,
+				},
+				{ label: data.text.metadata.title },
+			]}
+		/>
 		<div class="flex items-start justify-between">
 			<div>
 				<h1
@@ -104,8 +100,8 @@
 						class="hover:text-primary-600 transition-colors"
 						>{data.text.metadata.author}</a
 					>{#if data.text.metadata.year}<span
-							class="text-gray-300 mx-2">·</span
-						><span class="text-gray-400"
+							class="text-gray-500 mx-2">·</span
+						><span class="text-gray-500"
 							>{data.text.metadata.year}</span
 						>{/if}
 				</p>
@@ -160,7 +156,7 @@
 					<div
 						class="w-12 h-12 mx-auto mb-3 rounded-full bg-gray-100 flex items-center justify-center"
 					>
-						<span class="text-xl text-gray-400">—</span>
+						<span class="text-xl text-gray-500">—</span>
 					</div>
 					<h3 class="text-base font-semibold text-gray-900">
 						No annotations yet
@@ -204,7 +200,7 @@
 								{/if}
 								<button
 									onclick={closePanels}
-									class="w-6 h-6 rounded-md flex items-center justify-center text-gray-400 hover:text-gray-600 hover:bg-gray-100 transition-colors text-sm"
+									class="w-6 h-6 rounded-md flex items-center justify-center text-gray-500 hover:text-gray-600 hover:bg-gray-100 transition-colors text-sm"
 								>
 									&times;
 								</button>
@@ -244,7 +240,7 @@
 									>
 										“{ann.anchorText}”
 									</p>
-									<p class="text-[10px] text-gray-400 mt-0.5">
+									<p class="text-[11px] text-gray-500 mt-0.5">
 										{ann.authors.join(", ")} · {ann.levels
 											.length} level{ann.levels.length !==
 										1

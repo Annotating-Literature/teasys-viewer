@@ -60,7 +60,7 @@
 					name="title"
 					required
 					placeholder="e.g., The Red Wheelbarrow"
-					class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-400"
+					class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-500"
 				/>
 			</div>
 			<div>
@@ -75,7 +75,7 @@
 					name="author"
 					required
 					placeholder="e.g., William Carlos Williams"
-					class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-400"
+					class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-500"
 				/>
 			</div>
 			<div>
@@ -83,14 +83,14 @@
 					for="year"
 					class="block text-xs font-medium text-gray-600 mb-1"
 				>
-					Year <span class="text-gray-400">(optional)</span>
+					Year <span class="text-gray-500">(optional)</span>
 				</label>
 				<input
 					id="year"
 					type="number"
 					name="year"
 					placeholder="e.g., 1923"
-					class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-400"
+					class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-500"
 				/>
 			</div>
 			<div class="relative">
@@ -112,7 +112,7 @@
 							() => (showCategorySuggestions = false),
 							200,
 						)}
-					class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-400"
+					class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-500"
 				/>
 				{#if showCategorySuggestions && existingCategories.length > 0}
 					<div
@@ -166,7 +166,7 @@
 				required
 				rows="8"
 				placeholder="Paste the full text here..."
-				class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-400 font-mono"
+				class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-500 font-mono"
 			></textarea>
 		</div>
 		<button

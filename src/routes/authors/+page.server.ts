@@ -1,11 +1,11 @@
-import { listTexts, listAnnotations } from '$lib/server/content';
+import { listTexts, listAnnotations, listAuthorDirectories, getAuthorProfile } from '$lib/server/content';
 import { slugify } from '$lib/utils/slug';
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async () => {
     const texts = await listTexts();
 
-    // Group by author
+    // Group by author from texts
     const authorMap = new Map<string, { name: string; slug: string; textCount: number; annotationCount: number; types: Set<string> }>();
 
     for (const text of texts) {
@@ -26,7 +26,21 @@ export const load: PageServerLoad = async () => {
         entry.annotationCount += annotations.length;
     }
 
-    const authors = Array.from(authorMap.values())
+    // Merge standalone authors (from content/authors/ directories)
+    const standaloneAuthors = await listAuthorDirectories();
+    for (const sa of standaloneAuthors) {
+        if (!authorMap.has(sa.slug)) {
+            authorMap.set(sa.slug, {
+                name: sa.name,
+                slug: sa.slug,
+                textCount: 0,
+                annotationCount: 0,
+                types: new Set()
+            });
+        }
+    }
+
+    const authorList = Array.from(authorMap.values())
         .map((a) => ({
             name: a.name,
             slug: a.slug,
@@ -35,6 +49,14 @@ export const load: PageServerLoad = async () => {
             types: Array.from(a.types)
         }))
         .sort((a, b) => a.name.localeCompare(b.name));
+
+    // Attach portrait paths
+    const authors = await Promise.all(
+        authorList.map(async (a) => {
+            const profile = await getAuthorProfile(a.slug);
+            return { ...a, portraitPath: profile?.portraitPath ?? null };
+        })
+    );
 
     return { authors };
 };

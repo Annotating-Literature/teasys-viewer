@@ -55,16 +55,17 @@
 
 <div class="max-w-5xl mx-auto px-6 py-12 md:py-16">
 	<!-- Header -->
-	<div class="mb-14 md:mb-20">
+	<div class="mb-14 md:mb-20 relative">
+		<div
+			class="absolute -top-8 -left-12 w-48 h-48 bg-primary-100/30 rounded-full blur-3xl pointer-events-none"
+		></div>
 		<h1
-			class="relative inline-block text-4xl sm:text-5xl font-bold tracking-tight text-stone-900 font-serif leading-tight mb-2"
+			class="relative text-4xl sm:text-5xl font-bold tracking-tight text-stone-900 font-serif leading-tight mb-2"
 		>
 			Annotated Literature
-			<div
-				class="absolute -bottom-1 md:-bottom-2 left-0 right-0 h-[2px] bg-primary-200 -z-10 rounded-full"
-			></div>
 		</h1>
-		<p class="mt-6 text-lg text-gray-600 max-w-2xl leading-relaxed">
+		<div class="w-16 h-[2px] bg-primary-300 rounded-full mt-4 mb-6"></div>
+		<p class="text-lg text-gray-600 max-w-2xl leading-relaxed">
 			Explore literary texts with multi-level annotations — from language
 			and form to interpretation and context.
 		</p>
@@ -75,11 +76,18 @@
 		<div
 			class="text-center py-20 border-2 border-dashed border-gray-200 rounded-2xl bg-gray-50/50"
 		>
-			<div
-				class="w-16 h-16 mx-auto mb-4 rounded-full bg-white shadow-sm flex items-center justify-center border border-gray-100"
+			<svg
+				class="w-14 h-14 mx-auto mb-4 text-stone-400"
+				viewBox="0 0 48 48"
+				fill="none"
+				stroke="currentColor"
+				stroke-width="1.5"
+				stroke-linecap="round"
+				stroke-linejoin="round"
 			>
-				<span class="text-2xl text-gray-400">—</span>
-			</div>
+				<path d="M6 8h14c2 0 4 2 4 4v24c0-2-2-4-4-4H6V8z" />
+				<path d="M42 8H28c-2 0-4 2-4 4v24c0-2 2-4 4-4h14V8z" />
+			</svg>
 			<h3 class="text-lg font-semibold text-gray-900">No texts yet</h3>
 			{#if data.user?.role === "admin"}
 				<p class="mt-2 text-sm text-gray-500">
@@ -99,12 +107,12 @@
 					<div class="flex items-center gap-3 mb-8">
 						<div class="flex items-center gap-2">
 							{#if group.type === "poetry"}
-								<IconQuill class="w-5 h-5 text-gray-400" />
+								<IconQuill class="w-5 h-5 text-gray-500" />
 							{:else if group.type === "prose"}
-								<IconNotebook class="w-5 h-5 text-gray-400" />
+								<IconNotebook class="w-5 h-5 text-gray-500" />
 							{:else}
 								<IconTheatreMasks
-									class="w-5 h-5 text-gray-400"
+									class="w-5 h-5 text-gray-500"
 								/>
 							{/if}
 							<h2
@@ -137,7 +145,7 @@
 										<div
 											class="group block relative p-6 bg-[#faf9f6]/90 backdrop-blur-sm
 									       border border-stone-200/60 rounded-xl
-									       hover:bg-white hover:border-stone-300
+									       hover:bg-white hover:border-stone-400
 									       hover:shadow-[2px_2px_12px_-4px_rgba(0,0,0,0.05)]
 									       hover:-translate-y-0.5
 									       transition-all duration-300 ease-out overflow-hidden"
@@ -160,7 +168,7 @@
 													class="hover:text-primary-600 transition-colors"
 													>{text.author}</a
 												>{#if text.year}<span
-														class="text-gray-300 mx-1.5"
+														class="text-gray-500 mx-1.5"
 													>
 														·
 													</span>{text.year}{/if}

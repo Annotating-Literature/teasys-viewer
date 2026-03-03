@@ -34,7 +34,7 @@
 			for="body-editor"
 			class="block text-xs font-medium text-gray-600 mb-1"
 		>
-			Body <span class="text-gray-400">(Markdown)</span>
+			Body <span class="text-gray-500">(Markdown)</span>
 		</label>
 		<MarkdownEditor
 			id="body-editor"

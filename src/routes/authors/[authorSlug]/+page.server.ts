@@ -1,4 +1,4 @@
-import { listTexts, listAnnotations, getAuthorProfile } from '$lib/server/content';
+import { listTexts, listAnnotations, getAuthorProfile, listAuthorDirectories } from '$lib/server/content';
 import { slugify, findAuthorBySlug } from '$lib/utils/slug';
 import { error } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
@@ -6,7 +6,18 @@ import type { PageServerLoad } from './$types';
 export const load: PageServerLoad = async ({ params, parent }) => {
     const { user } = await parent();
     const allTexts = await listTexts();
-    const authorName = findAuthorBySlug(allTexts, params.authorSlug);
+
+    // Try to find author name from texts first
+    let authorName = findAuthorBySlug(allTexts, params.authorSlug);
+
+    // If not found in texts, check standalone author directories
+    if (!authorName) {
+        const standaloneAuthors = await listAuthorDirectories();
+        const standalone = standaloneAuthors.find(a => a.slug === params.authorSlug);
+        if (standalone) {
+            authorName = standalone.name;
+        }
+    }
 
     if (!authorName) {
         throw error(404, 'Author not found');

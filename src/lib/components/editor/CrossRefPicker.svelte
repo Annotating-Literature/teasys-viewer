@@ -65,7 +65,7 @@
 			type="text"
 			class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg
 			       focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500
-			       transition-all placeholder:text-gray-400"
+			       transition-all placeholder:text-gray-500"
 			placeholder="Search annotations to link..."
 			bind:value={searchQuery}
 			onfocus={() => (showDropdown = true)}
@@ -87,7 +87,7 @@
 						<span class="text-gray-800 truncate block"
 							>"{ann.anchorText}"</span
 						>
-						<span class="text-[10px] text-gray-400"
+						<span class="text-[11px] text-gray-500"
 							>{ann.authors.join(", ")}</span
 						>
 					</button>
@@ -99,7 +99,7 @@
 			<div
 				class="absolute z-20 w-full mt-1 bg-white border border-gray-200 rounded-lg shadow-lg p-3"
 			>
-				<p class="text-xs text-gray-400 text-center">
+				<p class="text-xs text-gray-500 text-center">
 					No matching annotations found
 				</p>
 			</div>

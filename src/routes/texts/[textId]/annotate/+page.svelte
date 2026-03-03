@@ -133,7 +133,7 @@
 					</h2>
 					<button
 						onclick={handleCancel}
-						class="text-xs text-gray-400 hover:text-gray-600 transition-colors"
+						class="text-xs text-gray-500 hover:text-gray-600 transition-colors"
 					>
 						Cancel
 					</button>
@@ -169,7 +169,7 @@
 			<!-- Annotation list -->
 			<div class="p-4 border-b border-gray-100">
 				<h2 class="font-semibold text-sm text-gray-900">Annotations</h2>
-				<p class="text-xs text-gray-400 mt-0.5">
+				<p class="text-xs text-gray-500 mt-0.5">
 					Select text in the reading area to annotate
 				</p>
 			</div>
@@ -179,10 +179,10 @@
 						<div
 							class="w-10 h-10 mx-auto mb-2 rounded-full bg-gray-100 flex items-center justify-center"
 						>
-							<span class="text-gray-400">—</span>
+							<span class="text-gray-500">—</span>
 						</div>
 						<p class="text-sm text-gray-500">No annotations yet</p>
-						<p class="text-xs text-gray-400 mt-1">
+						<p class="text-xs text-gray-500 mt-1">
 							Highlight text to create one
 						</p>
 					</div>
@@ -204,7 +204,7 @@
 							<p class="text-sm text-gray-800 line-clamp-1">
 								“{ann.anchorText}”
 							</p>
-							<p class="text-[10px] text-gray-400 mt-0.5">
+							<p class="text-[11px] text-gray-500 mt-0.5">
 								by {ann.authors.join(", ")}
 							</p>
 						</button>
@@ -220,9 +220,18 @@
 			<div class="mb-6">
 				<a
 					href={`/texts/${data.text.metadata.id}`}
-					class="text-sm text-gray-400 hover:text-primary-600 transition-colors"
+					class="inline-flex items-center gap-1.5 text-sm text-gray-500 hover:text-primary-600 transition-colors"
 				>
-					← Back to reading view
+					<svg
+						class="w-3.5 h-3.5"
+						viewBox="0 0 14 14"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="1.5"
+						stroke-linecap="round"
+						stroke-linejoin="round"><path d="M9 11L5 7l4-4" /></svg
+					>
+					Back to reading view
 				</a>
 				<h1 class="text-2xl font-bold text-gray-900 mt-2">
 					{data.text.metadata.title}

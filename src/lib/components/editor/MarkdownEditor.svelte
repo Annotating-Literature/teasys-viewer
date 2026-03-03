@@ -174,7 +174,7 @@
 			class="px-3 py-1.5 text-[11px] font-medium transition-colors rounded-tl-lg"
 			class:text-primary-600={!showPreview}
 			class:bg-white={!showPreview}
-			class:text-gray-400={showPreview}
+			class:text-gray-500={showPreview}
 			class:bg-gray-50={showPreview}
 			onclick={() => (showPreview = false)}
 		>
@@ -184,7 +184,7 @@
 			class="px-3 py-1.5 text-[11px] font-medium transition-colors"
 			class:text-primary-600={showPreview}
 			class:bg-white={showPreview}
-			class:text-gray-400={!showPreview}
+			class:text-gray-500={!showPreview}
 			class:bg-gray-50={!showPreview}
 			onclick={() => (showPreview = true)}
 		>
@@ -192,14 +192,14 @@
 		</button>
 		{#if availableAnnotations.length > 0 && !showPreview}
 			<span
-				class="ml-auto px-3 py-1.5 text-[10px] text-gray-300 flex items-center gap-2"
+				class="ml-auto px-3 py-1.5 text-[11px] text-gray-500 flex items-center gap-2"
 			>
 				<div
 					class="flex items-center gap-1 border-r border-gray-200 pr-2 mr-1"
 				>
 					<button
 						type="button"
-						class="w-6 h-6 rounded flex items-center justify-center text-gray-400 hover:text-gray-700 hover:bg-gray-100 font-sans font-bold text-xs"
+						class="w-6 h-6 rounded flex items-center justify-center text-gray-500 hover:text-gray-700 hover:bg-gray-100 font-sans font-bold text-xs"
 						title="Bold (select text first)"
 						onclick={() => applyMarkdownFormat("**", 2)}
 					>
@@ -207,7 +207,7 @@
 					</button>
 					<button
 						type="button"
-						class="w-6 h-6 rounded flex items-center justify-center text-gray-400 hover:text-gray-700 hover:bg-gray-100 font-serif italic font-bold text-xs"
+						class="w-6 h-6 rounded flex items-center justify-center text-gray-500 hover:text-gray-700 hover:bg-gray-100 font-serif italic font-bold text-xs"
 						title="Italic (select text first)"
 						onclick={() => applyMarkdownFormat("*", 1)}
 					>
@@ -233,7 +233,7 @@
 		<div class="relative">
 			<textarea
 				{id}
-				class="w-full h-32 p-3 text-sm focus:outline-none placeholder:text-gray-400 resize-y bg-transparent rounded-b-lg"
+				class="w-full h-32 p-3 text-sm focus:outline-none placeholder:text-gray-500 resize-y bg-transparent rounded-b-lg"
 				{placeholder}
 				bind:value
 				bind:this={textareaEl}
@@ -250,7 +250,7 @@
 						class="px-3 py-1.5 border-b border-gray-100 bg-gray-50 rounded-t-lg sticky top-0"
 					>
 						<span
-							class="text-[10px] font-semibold text-gray-500 uppercase tracking-wider"
+							class="text-[11px] font-semibold text-gray-500 uppercase tracking-wider"
 							>Insert cross-reference</span
 						>
 					</div>
@@ -268,7 +268,7 @@
 							<span class="text-gray-700 block truncate"
 								>"{ann.anchorText}"</span
 							>
-							<span class="text-[10px] text-gray-400"
+							<span class="text-[11px] text-gray-500"
 								>{ann.authors.join(", ")}</span
 							>
 						</button>

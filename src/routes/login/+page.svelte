@@ -11,9 +11,12 @@
 		<!-- Logo -->
 		<div class="text-center mb-8">
 			<div
-				class="w-12 h-12 mx-auto mb-4 rounded-xl bg-gradient-to-br from-primary-500 to-primary-700 flex items-center justify-center shadow-md"
+				class="w-12 h-12 mx-auto mb-4 rounded-xl bg-linear-to-br from-primary-500 to-primary-700 flex items-center justify-center shadow-md"
 			>
-				<span class="text-white font-bold text-xl">T</span>
+				<span
+					class="text-white font-serif text-xl font-bold"
+					style="margin-top: -2px;">Θ</span
+				>
 			</div>
 			<h1 class="text-2xl font-semibold text-gray-900">Welcome back</h1>
 			<p class="mt-1 text-sm text-gray-500">Sign in to annotate texts</p>
@@ -35,7 +38,7 @@
 						required
 						class="w-full px-3.5 py-2.5 text-sm border border-gray-200 rounded-lg
 						       focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500
-						       transition-all placeholder:text-gray-400"
+						       transition-all placeholder:text-gray-500"
 						placeholder="Enter username"
 					/>
 				</div>
@@ -52,7 +55,7 @@
 						required
 						class="w-full px-3.5 py-2.5 text-sm border border-gray-200 rounded-lg
 						       focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500
-						       transition-all placeholder:text-gray-400"
+						       transition-all placeholder:text-gray-500"
 						placeholder="Enter password"
 					/>
 				</div>
@@ -76,9 +79,19 @@
 			</form>
 		</div>
 
-		<p class="mt-6 text-center text-xs text-gray-400">
-			<a href="/" class="hover:text-primary-600 transition-colors"
-				>← Back to library</a
+		<p class="mt-6 text-center text-xs text-gray-500">
+			<a
+				href="/"
+				class="inline-flex items-center gap-1 hover:text-primary-600 transition-colors"
+				><svg
+					class="w-3 h-3"
+					viewBox="0 0 14 14"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="1.5"
+					stroke-linecap="round"
+					stroke-linejoin="round"><path d="M9 11L5 7l4-4" /></svg
+				> Back to library</a
 			>
 		</p>
 	</div>

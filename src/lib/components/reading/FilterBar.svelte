@@ -37,7 +37,7 @@
 <div class="mb-4 sticky top-18 z-10">
 	<div class="flex flex-wrap items-center gap-1.5 py-2">
 		<span
-			class="text-[11px] font-medium text-gray-400 uppercase tracking-wider mr-1"
+			class="text-[11px] font-medium text-gray-500 uppercase tracking-wider mr-1"
 			>Filter</span
 		>
 
@@ -58,7 +58,7 @@
 
 		<button
 			onclick={toggleAll}
-			class="text-[11px] font-medium text-gray-400 hover:text-gray-600 transition-colors ml-auto"
+			class="text-[11px] font-medium text-gray-500 hover:text-gray-600 transition-colors ml-auto"
 		>
 			{areAllCategoriesSet() ? "Clear" : "All"}
 		</button>

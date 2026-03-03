@@ -20,10 +20,10 @@
 					<span
 						class="text-lg font-semibold text-gray-900 group-hover:text-primary-600 transition-colors"
 					>
-						TEASys<span class="text-gray-400 font-normal"
+						TEASys<span class="text-gray-500 font-normal"
 							>Viewer</span
 						><span
-							class="inline-flex items-center ml-1.5 px-1.5 py-0.5 rounded text-[10px] font-medium text-gray-400 bg-gray-100 leading-none"
+							class="inline-flex items-center ml-1.5 px-1.5 py-0.5 rounded text-[11px] font-medium text-gray-500 bg-gray-100 leading-none"
 							>v3α</span
 						>
 					</span>
@@ -62,7 +62,7 @@
 						<form action="/logout" method="POST">
 							<button
 								type="submit"
-								class="text-sm font-medium text-gray-400 hover:text-red-500 transition-colors"
+								class="text-sm font-medium text-gray-500 hover:text-red-500 transition-colors"
 							>
 								Sign out
 							</button>

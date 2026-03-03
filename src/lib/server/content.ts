@@ -159,6 +159,36 @@ export async function saveAuthorProfile(slug: string, bio: string): Promise<void
   await fs.writeFile(path.join(authorDir, 'bio.md'), bio, 'utf-8');
 }
 
+export async function createAuthor(name: string): Promise<string> {
+  const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  const authorDir = path.join(AUTHORS_DIR, slug);
+  await fs.mkdir(authorDir, { recursive: true });
+  await fs.writeFile(path.join(authorDir, 'metadata.json'), JSON.stringify({ name }, null, 2), 'utf-8');
+  await fs.writeFile(path.join(authorDir, 'bio.md'), '', 'utf-8');
+  return slug;
+}
+
+export async function listAuthorDirectories(): Promise<{ slug: string; name: string }[]> {
+  try {
+    const entries = await fs.readdir(AUTHORS_DIR, { withFileTypes: true });
+    const dirs = entries.filter(e => e.isDirectory());
+    const authors: { slug: string; name: string }[] = [];
+    for (const dir of dirs) {
+      const metaPath = path.join(AUTHORS_DIR, dir.name, 'metadata.json');
+      try {
+        const raw = await fs.readFile(metaPath, 'utf-8');
+        const meta = JSON.parse(raw);
+        authors.push({ slug: dir.name, name: meta.name || dir.name });
+      } catch {
+        // No metadata.json, skip — this author is text-derived only
+      }
+    }
+    return authors;
+  } catch {
+    return [];
+  }
+}
+
 export async function saveAuthorPortrait(slug: string, data: Buffer, ext: string): Promise<void> {
   const authorDir = path.join(AUTHORS_DIR, slug);
   await fs.mkdir(authorDir, { recursive: true });

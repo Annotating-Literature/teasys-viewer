@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { PageData } from "./$types";
 	import UserForm from "$lib/components/admin/UserForm.svelte";
+	import Breadcrumbs from "$lib/components/layout/Breadcrumbs.svelte";
 	type User = { id: number; username: string; role: string };
 	let { data }: { data: { users: User[] } } = $props();
 </script>
@@ -11,12 +12,13 @@
 
 <div class="max-w-4xl mx-auto px-6 py-10">
 	<div class="mb-8">
-		<a
-			href="/admin"
-			class="inline-flex items-center gap-1 text-sm text-gray-400 hover:text-primary-600 transition-colors mb-4"
-		>
-			← Admin
-		</a>
+		<Breadcrumbs
+			crumbs={[
+				{ label: "Library", href: "/" },
+				{ label: "Admin", href: "/admin" },
+				{ label: "Users" },
+			]}
+		/>
 		<h1 class="text-2xl font-bold text-gray-900">Manage Users</h1>
 	</div>
 
@@ -46,7 +48,7 @@
 							<p class="font-semibold text-sm text-gray-900">
 								{user.username}
 							</p>
-							<p class="text-xs text-gray-400 capitalize">
+							<p class="text-xs text-gray-500 capitalize">
 								{user.role}
 							</p>
 						</div>

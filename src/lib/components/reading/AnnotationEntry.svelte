@@ -97,7 +97,7 @@
 		class="mb-4 bg-gray-50 rounded-lg p-3 border-l-[3px] border-primary-200"
 	>
 		<p
-			class="text-xs text-gray-400 font-medium mb-1 uppercase tracking-wider"
+			class="text-xs text-gray-500 font-medium mb-1 uppercase tracking-wider"
 		>
 			Passage
 		</p>
@@ -107,7 +107,7 @@
 	</div>
 
 	<!-- Author -->
-	<div class="mb-4 text-xs text-gray-400">
+	<div class="mb-4 text-xs text-gray-500">
 		<span
 			>by <strong class="text-gray-600 font-medium"
 				>{annotation.authors.join(", ")}</strong
@@ -120,7 +120,7 @@
 		<div class="mb-5 last:mb-0">
 			<div class="flex items-center gap-2 mb-2">
 				<span
-					class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-gray-100 text-[10px] font-bold text-gray-500"
+					class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-gray-100 text-[11px] font-bold text-gray-500"
 				>
 					{level.level}
 				</span>
@@ -137,14 +137,14 @@
 			{#if level.worksCited.length > 0}
 				<div class="mt-3 pt-3 border-t border-gray-100">
 					<h5
-						class="text-[10px] font-semibold text-gray-400 uppercase tracking-widest mb-1.5"
+						class="text-[11px] font-semibold text-gray-500 uppercase tracking-widest mb-1.5"
 					>
 						Works Cited
 					</h5>
 					<ul class="text-xs text-gray-500 space-y-1">
 						{#each level.worksCited as work}
 							<li
-								class="pl-3 relative before:content-[''] before:absolute before:left-0 before:top-1.5 before:w-1 before:h-1 before:rounded-full before:bg-gray-300"
+								class="pl-3 relative before:content-[''] before:absolute before:left-0 before:top-1.5 before:w-1 before:h-1 before:rounded-full before:bg-gray-500"
 							>
 								{@html renderWorkCited(work)}
 							</li>

@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { PageData } from "./$types";
 	import TextForm from "$lib/components/admin/TextForm.svelte";
+	import Breadcrumbs from "$lib/components/layout/Breadcrumbs.svelte";
 	let { data } = $props();
 
 	const typeOrder = ["poetry", "prose", "drama"] as const;
@@ -56,12 +57,13 @@
 
 <div class="max-w-4xl mx-auto px-6 py-10">
 	<div class="mb-8">
-		<a
-			href="/admin"
-			class="inline-flex items-center gap-1 text-sm text-gray-400 hover:text-primary-600 transition-colors mb-4"
-		>
-			← Admin
-		</a>
+		<Breadcrumbs
+			crumbs={[
+				{ label: "Library", href: "/" },
+				{ label: "Admin", href: "/admin" },
+				{ label: "Texts" },
+			]}
+		/>
 		<h1 class="text-2xl font-bold text-gray-900">Manage Texts</h1>
 	</div>
 
@@ -79,14 +81,14 @@
 		{#each groupedTexts as group}
 			<div class="mb-6">
 				<h2
-					class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2"
+					class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2"
 				>
 					{typeLabel[group.type]}
 				</h2>
 				{#each group.categories as cat}
 					<div class="mb-4 last:mb-0">
 						<p
-							class="text-[10px] font-medium text-gray-300 uppercase tracking-wider mb-1 pl-4"
+							class="text-[11px] font-medium text-gray-500 uppercase tracking-wider mb-1 pl-4"
 						>
 							{cat.name}
 						</p>
@@ -108,7 +110,7 @@
 										</p>
 										<p class="text-xs text-gray-500 mt-0.5">
 											{text.author}{#if text.year}<span
-													class="text-gray-300 mx-1"
+													class="text-gray-500 mx-1"
 													>·</span
 												>{text.year}{/if}
 										</p>

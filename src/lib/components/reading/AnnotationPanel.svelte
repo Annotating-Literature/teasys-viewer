@@ -50,7 +50,7 @@
 				{/if}
 				<button
 					onclick={onClose}
-					class="w-8 h-8 rounded-lg flex items-center justify-center text-gray-400
+					class="w-8 h-8 rounded-lg flex items-center justify-center text-gray-500
 					       hover:text-gray-600 hover:bg-gray-100 transition-colors"
 				>
 					&times;

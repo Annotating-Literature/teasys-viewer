@@ -97,7 +97,7 @@
 			<input
 				type="text"
 				list="author-suggestions"
-				class="flex-1 px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-400"
+				class="flex-1 px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-500"
 				placeholder="Add an author..."
 				bind:value={newAuthorInput}
 				onkeydown={(e) =>
@@ -162,7 +162,7 @@
 					class:bg-white={i !== activeLevelIndex}
 					class:text-gray-500={i !== activeLevelIndex}
 					class:border-gray-200={i !== activeLevelIndex}
-					class:hover:border-gray-300={i !== activeLevelIndex}
+					class:hover:border-gray-500={i !== activeLevelIndex}
 					onclick={() => (activeLevelIndex = i)}
 				>
 					L{level.level} · {CAT_SHORT[level.category] ??

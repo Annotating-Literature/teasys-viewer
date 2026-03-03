@@ -23,7 +23,7 @@
 
 <div class="max-w-5xl mx-auto px-6 py-12 md:py-16">
     <div class="mb-14 md:mb-20">
-        <nav class="text-sm text-stone-400 mb-4">
+        <nav class="text-sm text-stone-500 mb-4">
             <a href="/authors" class="hover:text-primary-600 transition-colors">
                 Authors
             </a>
@@ -96,7 +96,7 @@
                     href={`/texts/${text.id}`}
                     class="group block relative p-6 bg-[#faf9f6]/90 backdrop-blur-sm
 					       border border-stone-200/60 rounded-xl
-					       hover:bg-white hover:border-stone-300
+					       hover:bg-white hover:border-stone-400
 					       hover:shadow-[2px_2px_12px_-4px_rgba(0,0,0,0.05)]
 					       hover:-translate-y-0.5
 					       transition-all duration-300 ease-out overflow-hidden"
@@ -111,16 +111,16 @@
                             <span class="text-sm text-stone-500"
                                 >{text.year}</span
                             >
-                            <span class="text-stone-300">·</span>
+                            <span class="text-stone-400">·</span>
                         {/if}
                         <span
-                            class="text-[10px] uppercase tracking-wider font-medium text-stone-400 px-1.5 py-0.5 rounded bg-stone-100"
+                            class="text-[11px] uppercase tracking-wider font-medium text-stone-500 px-1.5 py-0.5 rounded bg-stone-100"
                         >
                             {typeLabel[text.type] ?? text.type}
                         </span>
                         {#if text.annotationCount > 0}
-                            <span class="text-stone-300">·</span>
-                            <span class="text-xs text-stone-400">
+                            <span class="text-stone-400">·</span>
+                            <span class="text-xs text-stone-500">
                                 {text.annotationCount}
                                 {text.annotationCount === 1
                                     ? "annotation"

@@ -31,6 +31,21 @@
 		const meta = CATEGORY_META[ann.levels[0].category];
 		return `background-color: ${meta.bg}; border-bottom: 2px solid ${meta.color}40;`;
 	});
+	// Parse basic inline markdown (*italics*, **bold**) safely
+	const renderInlineMarkdown = (text: string) => {
+		// Escape HTML first to prevent XSS if text contains user input HTML
+		const escaped = text
+			.replace(/&/g, "&amp;")
+			.replace(/</g, "&lt;")
+			.replace(/>/g, "&gt;")
+			.replace(/"/g, "&quot;")
+			.replace(/'/g, "&#039;");
+		return escaped
+			.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+			.replace(/\*(.*?)\*/g, "<em>$1</em>");
+	};
+
+	const parsedSegmentText = $derived(renderInlineMarkdown(segment.text));
 </script>
 
 {#if ids.length > 1}
@@ -44,8 +59,8 @@
 		data-start={segment.start}
 		data-end={segment.end}
 	>
-		{segment.text}<sup class="font-bold text-gray-500 text-[10px] ml-0.5"
-			>{ids.length}</sup
+		{@html parsedSegmentText}<sup
+			class="font-bold text-gray-500 text-[10px] ml-0.5">{ids.length}</sup
 		>
 	</mark>
 {:else if ids.length === 1}
@@ -59,9 +74,10 @@
 		data-start={segment.start}
 		data-end={segment.end}
 	>
-		{segment.text}
+		{@html parsedSegmentText}
 	</mark>
 {:else}
-	<span data-start={segment.start} data-end={segment.end}>{segment.text}</span
+	<span data-start={segment.start} data-end={segment.end}
+		>{@html parsedSegmentText}</span
 	>
 {/if}

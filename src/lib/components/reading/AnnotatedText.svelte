@@ -53,7 +53,17 @@
 				<div class="mb-10">
 					{#if poem.title !== "Untitled"}
 						<h2 class="text-2xl font-semibold text-gray-900 mb-6">
-							{poem.title}
+							{#if poem.titleStart !== undefined && poem.titleEnd !== undefined}
+								{#each getSegmentsForRange(poem.titleStart, poem.titleEnd) as segment}
+									<TextSegmentComponent
+										{segment}
+										{annotations}
+										{activeAnnotationId}
+									/>
+								{/each}
+							{:else}
+								{poem.title}
+							{/if}
 						</h2>
 					{/if}
 					{#each poem.stanzas as stanza, i}
@@ -88,7 +98,17 @@
 				<div class="mb-10">
 					{#if chapter.title !== "Untitled"}
 						<h2 class="text-2xl font-semibold text-gray-900 mb-6">
-							{chapter.title}
+							{#if chapter.titleStart !== undefined && chapter.titleEnd !== undefined}
+								{#each getSegmentsForRange(chapter.titleStart, chapter.titleEnd) as segment}
+									<TextSegmentComponent
+										{segment}
+										{annotations}
+										{activeAnnotationId}
+									/>
+								{/each}
+							{:else}
+								{chapter.title}
+							{/if}
 						</h2>
 					{/if}
 					{#each chapter.paragraphs as paragraph, pIdx}
@@ -115,12 +135,32 @@
 			{#each parsedText.acts as act}
 				<div class="mb-10">
 					<h2 class="text-2xl font-semibold text-gray-900 mb-6">
-						{act.title}
+						{#if act.titleStart !== undefined && act.titleEnd !== undefined}
+							{#each getSegmentsForRange(act.titleStart, act.titleEnd) as segment}
+								<TextSegmentComponent
+									{segment}
+									{annotations}
+									{activeAnnotationId}
+								/>
+							{/each}
+						{:else}
+							{act.title}
+						{/if}
 					</h2>
 					{#each act.scenes as scene}
 						<div class="mb-6">
 							<h3 class="text-xl font-medium text-gray-800 mb-4">
-								{scene.title}
+								{#if scene.titleStart !== undefined && scene.titleEnd !== undefined}
+									{#each getSegmentsForRange(scene.titleStart, scene.titleEnd) as segment}
+										<TextSegmentComponent
+											{segment}
+											{annotations}
+											{activeAnnotationId}
+										/>
+									{/each}
+								{:else}
+									{scene.title}
+								{/if}
 							</h3>
 							{#each scene.blocks as block, bIdx}
 								{#if block.type === "stage"}

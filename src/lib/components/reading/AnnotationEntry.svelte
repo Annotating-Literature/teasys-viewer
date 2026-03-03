@@ -60,16 +60,22 @@
 			quoteOpen = !quoteOpen;
 			return q;
 		});
-		// Markdown italics: *text* and _text_
-		result = result
-			.replace(/\*([^*]+)\*/g, "<em>$1</em>")
-			.replace(/_([^_]+)_/g, "<em>$1</em>");
-		return result;
+		// Auto-link plain URLs
+		result = result.replace(
+			/(https?:\/\/[^\s<]+)/g,
+			'<a href="$1" target="_blank" rel="noopener noreferrer" class="text-primary-600 hover:text-primary-700 hover:underline hover:underline-offset-2">$1</a>',
+		);
 
 		// Markdown bold: **text** and __text__
 		result = result
 			.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
 			.replace(/__([^_]+)__/g, "<strong>$1</strong>");
+
+		// Markdown italics: *text* and _text_ (run after bold to prevent overlap)
+		result = result
+			.replace(/\*([^*]+)\*/g, "<em>$1</em>")
+			.replace(/_([^_]+)_/g, "<em>$1</em>");
+
 		return result;
 	}
 

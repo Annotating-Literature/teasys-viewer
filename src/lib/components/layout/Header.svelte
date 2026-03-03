@@ -10,22 +10,32 @@
 			<div class="shrink-0 flex items-center gap-3">
 				<a href="/" class="flex items-center gap-2 group">
 					<div
-						class="w-8 h-8 rounded-lg bg-linear-to-br from-primary-500 to-primary-700 flex items-center justify-center shadow-sm"
+						class="w-8 h-8 rounded-lg bg-linear-to-br from-primary-500 to-primary-700 flex items-center justify-center shadow-sm text-white"
 					>
-						<span class="text-white font-bold text-sm">T</span>
+						<span
+							class="text-white font-serif text-xl font-bold"
+							style="margin-top: -2px;">Θ</span
+						>
 					</div>
 					<span
 						class="text-lg font-semibold text-gray-900 group-hover:text-primary-600 transition-colors"
 					>
 						TEASys<span class="text-gray-400 font-normal"
 							>Viewer</span
-						><span class="inline-flex items-center ml-1.5 px-1.5 py-0.5 rounded text-[10px] font-medium text-gray-400 bg-gray-100 leading-none"
+						><span
+							class="inline-flex items-center ml-1.5 px-1.5 py-0.5 rounded text-[10px] font-medium text-gray-400 bg-gray-100 leading-none"
 							>v3α</span
 						>
 					</span>
 				</a>
 			</div>
 			<div class="flex items-center gap-4">
+				<a
+					href="/authors"
+					class="text-sm font-medium text-gray-500 hover:text-primary-600 transition-colors"
+				>
+					Authors
+				</a>
 				{#if user}
 					<a
 						href="/admin"

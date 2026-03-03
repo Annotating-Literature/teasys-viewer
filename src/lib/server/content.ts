@@ -114,3 +114,77 @@ export async function saveTextContent(textId: string, text: string): Promise<voi
   const textPath = path.join(textDir, 'text.txt');
   await fs.writeFile(textPath, text, 'utf-8');
 }
+
+// --- Author Profiles ---
+
+const AUTHORS_DIR = path.resolve('content', 'authors');
+
+export interface AuthorProfile {
+  bio: string;
+  portraitPath: string | null;
+}
+
+export async function getAuthorProfile(slug: string): Promise<AuthorProfile | null> {
+  const authorDir = path.join(AUTHORS_DIR, slug);
+  try {
+    await fs.access(authorDir);
+  } catch {
+    return null;
+  }
+
+  let bio = '';
+  try {
+    bio = await fs.readFile(path.join(authorDir, 'bio.md'), 'utf-8');
+  } catch {
+    // No bio file
+  }
+
+  let portraitPath: string | null = null;
+  for (const ext of ['jpg', 'jpeg', 'png', 'webp']) {
+    try {
+      await fs.access(path.join(authorDir, `portrait.${ext}`));
+      portraitPath = `/api/authors/${slug}/portrait`;
+      break;
+    } catch {
+      // Try next extension
+    }
+  }
+
+  return { bio, portraitPath };
+}
+
+export async function saveAuthorProfile(slug: string, bio: string): Promise<void> {
+  const authorDir = path.join(AUTHORS_DIR, slug);
+  await fs.mkdir(authorDir, { recursive: true });
+  await fs.writeFile(path.join(authorDir, 'bio.md'), bio, 'utf-8');
+}
+
+export async function saveAuthorPortrait(slug: string, data: Buffer, ext: string): Promise<void> {
+  const authorDir = path.join(AUTHORS_DIR, slug);
+  await fs.mkdir(authorDir, { recursive: true });
+
+  // Remove any existing portrait files
+  for (const e of ['jpg', 'jpeg', 'png', 'webp']) {
+    try {
+      await fs.unlink(path.join(authorDir, `portrait.${e}`));
+    } catch {
+      // Doesn't exist
+    }
+  }
+
+  await fs.writeFile(path.join(authorDir, `portrait.${ext}`), data);
+}
+
+export async function getAuthorPortraitFile(slug: string): Promise<{ data: Buffer; ext: string } | null> {
+  const authorDir = path.join(AUTHORS_DIR, slug);
+  for (const ext of ['jpg', 'jpeg', 'png', 'webp']) {
+    const filePath = path.join(authorDir, `portrait.${ext}`);
+    try {
+      const data = await fs.readFile(filePath);
+      return { data, ext };
+    } catch {
+      // Try next
+    }
+  }
+  return null;
+}

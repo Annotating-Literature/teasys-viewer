@@ -3,6 +3,7 @@
 	import AnnotatedText from "$lib/components/reading/AnnotatedText.svelte";
 	import AnnotationEntry from "$lib/components/reading/AnnotationEntry.svelte";
 	import AnchorPicker from "$lib/components/reading/AnchorPicker.svelte";
+	import { slugify } from "$lib/utils/slug";
 
 	let { data } = $props();
 
@@ -98,8 +99,11 @@
 					{data.text.metadata.title}
 				</h1>
 				<p class="mt-2 text-lg text-gray-500">
-					{data.text.metadata
-						.author}{#if data.text.metadata.year}<span
+					<a
+						href={`/authors/${slugify(data.text.metadata.author)}`}
+						class="hover:text-primary-600 transition-colors"
+						>{data.text.metadata.author}</a
+					>{#if data.text.metadata.year}<span
 							class="text-gray-300 mx-2">·</span
 						><span class="text-gray-400"
 							>{data.text.metadata.year}</span

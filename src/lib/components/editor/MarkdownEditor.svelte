@@ -141,6 +141,31 @@
 		});
 		return applySmartQuotes(marked(resolved) as string);
 	}
+
+	function applyMarkdownFormat(formatText: string, cursorOffset: number) {
+		if (!textareaEl) return;
+		const s = textareaEl.selectionStart;
+		const e = textareaEl.selectionEnd;
+		const currentVal = value || "";
+
+		if (s === e) return; // Only process if text is selected
+
+		const before = currentVal.substring(0, s);
+		const selected = currentVal.substring(s, e);
+		const after = currentVal.substring(e);
+
+		value = before + formatText + selected + formatText + after;
+
+		requestAnimationFrame(() => {
+			if (textareaEl) {
+				textareaEl.focus();
+				textareaEl.setSelectionRange(
+					s + cursorOffset,
+					e + cursorOffset,
+				);
+			}
+		});
+	}
 </script>
 
 <div class="border border-gray-200 rounded-lg relative">
@@ -166,11 +191,35 @@
 			Preview
 		</button>
 		{#if availableAnnotations.length > 0 && !showPreview}
-			<span class="ml-auto px-3 py-1.5 text-[10px] text-gray-300">
-				Type <kbd
-					class="px-1 py-0.5 bg-gray-200 rounded text-[9px] font-mono"
-					>[[</kbd
-				> to cross-reference
+			<span
+				class="ml-auto px-3 py-1.5 text-[10px] text-gray-300 flex items-center gap-2"
+			>
+				<div
+					class="flex items-center gap-1 border-r border-gray-200 pr-2 mr-1"
+				>
+					<button
+						type="button"
+						class="w-6 h-6 rounded flex items-center justify-center text-gray-400 hover:text-gray-700 hover:bg-gray-100 font-sans font-bold text-xs"
+						title="Bold (select text first)"
+						onclick={() => applyMarkdownFormat("**", 2)}
+					>
+						B
+					</button>
+					<button
+						type="button"
+						class="w-6 h-6 rounded flex items-center justify-center text-gray-400 hover:text-gray-700 hover:bg-gray-100 font-serif italic font-bold text-xs"
+						title="Italic (select text first)"
+						onclick={() => applyMarkdownFormat("*", 1)}
+					>
+						I
+					</button>
+				</div>
+				<span>
+					Type <kbd
+						class="px-1 py-0.5 bg-gray-200 rounded text-[9px] font-mono"
+						>[[</kbd
+					> to cross-reference
+				</span>
 			</span>
 		{/if}
 	</div>

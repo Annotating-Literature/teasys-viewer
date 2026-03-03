@@ -150,35 +150,72 @@
 				Add and remove literary texts
 			</p>
 		</a>
-	{#if data.user?.role === "admin"}
-		<a
-			href="/admin/users"
-			class="group block p-5 bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md hover:border-primary-200 hover:-translate-y-0.5 transition-all duration-200"
-		>
-			<div
-				class="w-9 h-9 rounded-lg bg-primary-50 flex items-center justify-center mb-2 text-primary-500"
+		{#if data.user?.role === "admin"}
+			<a
+				href="/admin/users"
+				class="group block p-5 bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md hover:border-primary-200 hover:-translate-y-0.5 transition-all duration-200"
 			>
-				<svg
-					class="w-5 h-5"
-					viewBox="0 0 20 20"
-					fill="none"
-					stroke="currentColor"
-					stroke-width="1.5"
-					><circle cx="10" cy="7" r="3.5" /><path
-						d="M3.5 17c0-3.5 2.9-5.5 6.5-5.5s6.5 2 6.5 5.5"
-					/></svg
+				<div
+					class="w-9 h-9 rounded-lg bg-primary-50 flex items-center justify-center mb-2 text-primary-500"
 				>
-			</div>
-			<h2
-				class="text-base font-semibold text-gray-900 group-hover:text-primary-700 transition-colors"
-			>
-				Manage Users
-			</h2>
-			<p class="text-xs text-gray-500 mt-0.5">
-				Add and remove editor accounts
-			</p>
-		</a>
-	{/if}
+					<svg
+						class="w-5 h-5"
+						viewBox="0 0 20 20"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="1.5"
+						><circle cx="10" cy="7" r="3.5" /><path
+							d="M3.5 17c0-3.5 2.9-5.5 6.5-5.5s6.5 2 6.5 5.5"
+						/></svg
+					>
+				</div>
+				<h2
+					class="text-base font-semibold text-gray-900 group-hover:text-primary-700 transition-colors"
+				>
+					Manage Users
+				</h2>
+				<p class="text-xs text-gray-500 mt-0.5">
+					Add and remove editor accounts
+				</p>
+			</a>
+		{/if}
+	</div>
+
+	<!-- Author profiles management -->
+	<div class="mb-10">
+		<h2 class="text-sm font-semibold text-gray-900 mb-3">
+			Author Profiles
+		</h2>
+		<p class="text-xs text-gray-500 mb-4">
+			Add bios and portraits to author pages. Click an author to edit
+			their profile.
+		</p>
+		<div
+			class="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden"
+		>
+			{#each byAuthor as [author, authorTexts], i}
+				<a
+					href={`/admin/authors/${author
+						.toLowerCase()
+						.replace(/[^a-z0-9]+/g, "-")
+						.replace(/^-|-$/g, "")}`}
+					class="flex items-center justify-between p-3 {i > 0
+						? 'border-t border-gray-50'
+						: ''} hover:bg-gray-50/80 transition-colors"
+				>
+					<span class="text-sm font-medium text-gray-800"
+						>{author}</span
+					>
+					<span
+						class="text-[10px] font-medium text-gray-400 bg-gray-50 px-2 py-0.5 rounded-full"
+					>
+						{authorTexts.length} text{authorTexts.length !== 1
+							? "s"
+							: ""}
+					</span>
+				</a>
+			{/each}
+		</div>
 	</div>
 
 	<!-- By Category -->

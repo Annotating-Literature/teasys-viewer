@@ -92,11 +92,12 @@ export function parseText(rawText: string, type: 'poetry' | 'prose' | 'drama'): 
 				if (!currentChapter) {
 					currentChapter = { title: 'Untitled', paragraphs: [] };
 				}
+				const prefixLength = line.indexOf(trimmed);
 				currentChapter.paragraphs.push({
 					globalIndex: globalIndex++,
 					text: trimmed,
-					start: charOffset,
-					end: charOffset + trimmed.length
+					start: charOffset + prefixLength,
+					end: charOffset + prefixLength + trimmed.length
 				});
 			}
 			charOffset += lineLength;

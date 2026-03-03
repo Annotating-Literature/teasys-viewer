@@ -22,9 +22,6 @@
 					>
 						TEASys<span class="text-gray-500 font-normal"
 							>Viewer</span
-						><span
-							class="inline-flex items-center ml-1.5 px-1.5 py-0.5 rounded text-[11px] font-medium text-gray-500 bg-gray-100 leading-none"
-							>v3β</span
 						>
 					</span>
 				</a>

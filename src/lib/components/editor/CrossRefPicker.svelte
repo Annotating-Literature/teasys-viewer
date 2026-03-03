@@ -41,13 +41,13 @@
 </script>
 
 <div>
-	<h4 class="text-xs font-medium text-gray-600 mb-2">Cross-references</h4>
+	<h4 class="text-s font-medium text-gray-600 mb-2">Cross-references</h4>
 
 	{#if crossRefs.length > 0}
 		<div class="flex flex-wrap gap-1.5 mb-3">
 			{#each crossRefs as ref}
 				<span
-					class="inline-flex items-center gap-1 text-xs bg-primary-50 text-primary-700 px-2.5 py-1 rounded-md border border-primary-100"
+					class="inline-flex items-center gap-1 text-s bg-primary-50 text-primary-700 px-2.5 py-1 rounded-md border border-primary-100"
 				>
 					"{ref.annotationTitle}"
 					<button
@@ -63,7 +63,7 @@
 	<div class="relative">
 		<input
 			type="text"
-			class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg
+			class="w-full px-3 py-2 text-m border border-gray-200 rounded-lg
 			       focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500
 			       transition-all placeholder:text-gray-500"
 			placeholder="Search annotations to link..."
@@ -78,7 +78,7 @@
 			>
 				{#each filtered as ann}
 					<button
-						class="w-full text-left px-3 py-2 hover:bg-primary-50 transition-colors text-sm border-b border-gray-50 last:border-0"
+						class="w-full text-left px-3 py-2 hover:bg-primary-50 transition-colors text-m border-b border-gray-50 last:border-0"
 						onmousedown={(e) => {
 							e.preventDefault();
 							addRef(ann);
@@ -99,7 +99,7 @@
 			<div
 				class="absolute z-20 w-full mt-1 bg-white border border-gray-200 rounded-lg shadow-lg p-3"
 			>
-				<p class="text-xs text-gray-500 text-center">
+				<p class="text-s text-gray-500 text-center">
 					No matching annotations found
 				</p>
 			</div>

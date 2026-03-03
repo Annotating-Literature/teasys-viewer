@@ -23,7 +23,7 @@
 
 <div class="max-w-5xl mx-auto px-6 py-12 md:py-16">
     <div class="mb-14 md:mb-20">
-        <nav class="text-sm text-stone-500 mb-4">
+        <nav class="text-m text-stone-500 mb-4">
             <a href="/authors" class="hover:text-primary-600 transition-colors">
                 Authors
             </a>
@@ -52,7 +52,7 @@
                 {#if data.user}
                     <a
                         href={`/admin/authors/${data.slug}`}
-                        class="inline-flex items-center gap-1.5 mt-3 text-xs font-medium text-primary-600 hover:text-primary-700 transition-colors"
+                        class="inline-flex items-center gap-1.5 mt-3 text-s font-medium text-primary-600 hover:text-primary-700 transition-colors"
                     >
                         <svg
                             class="w-3 h-3"
@@ -108,7 +108,7 @@
                     </h4>
                     <div class="flex items-center gap-2 mt-2">
                         {#if text.year}
-                            <span class="text-sm text-stone-500"
+                            <span class="text-m text-stone-500"
                                 >{text.year}</span
                             >
                             <span class="text-stone-400">·</span>
@@ -120,7 +120,7 @@
                         </span>
                         {#if text.annotationCount > 0}
                             <span class="text-stone-400">·</span>
-                            <span class="text-xs text-stone-500">
+                            <span class="text-s text-stone-500">
                                 {text.annotationCount}
                                 {text.annotationCount === 1
                                     ? "annotation"

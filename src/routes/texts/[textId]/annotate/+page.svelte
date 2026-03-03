@@ -126,14 +126,14 @@
 			<!-- Annotation form -->
 			<div class="p-4 border-b border-gray-100 bg-gray-50">
 				<div class="flex items-center justify-between mb-2">
-					<h2 class="font-semibold text-sm text-gray-900">
+					<h2 class="font-semibold text-m text-gray-900">
 						{selectedAnnotation
 							? "Edit Annotation"
 							: "New Annotation"}
 					</h2>
 					<button
 						onclick={handleCancel}
-						class="text-xs text-gray-500 hover:text-gray-600 transition-colors"
+						class="text-s text-gray-500 hover:text-gray-600 transition-colors"
 					>
 						Cancel
 					</button>
@@ -141,8 +141,8 @@
 				<div
 					class="bg-primary-50 rounded-lg p-3 border-l-4 border-primary-300"
 				>
-					<p class="text-xs text-gray-500 mb-0.5">Annotating:</p>
-					<p class="text-sm text-gray-700">
+					<p class="text-s text-gray-500 mb-0.5">Annotating:</p>
+					<p class="text-m text-gray-700">
 						“{formAnnotation.anchorText}”
 					</p>
 				</div>
@@ -150,7 +150,7 @@
 			<div class="flex-1 overflow-y-auto p-4">
 				{#if error}
 					<div
-						class="mb-4 bg-red-50 text-red-600 text-sm rounded-lg px-3 py-2"
+						class="mb-4 bg-red-50 text-red-600 text-m rounded-lg px-3 py-2"
 					>
 						{error}
 					</div>
@@ -168,8 +168,8 @@
 		{:else}
 			<!-- Annotation list -->
 			<div class="p-4 border-b border-gray-100">
-				<h2 class="font-semibold text-sm text-gray-900">Annotations</h2>
-				<p class="text-xs text-gray-500 mt-0.5">
+				<h2 class="font-semibold text-m text-gray-900">Annotations</h2>
+				<p class="text-s text-gray-500 mt-0.5">
 					Select text in the reading area to annotate
 				</p>
 			</div>
@@ -181,8 +181,8 @@
 						>
 							<span class="text-gray-500">—</span>
 						</div>
-						<p class="text-sm text-gray-500">No annotations yet</p>
-						<p class="text-xs text-gray-500 mt-1">
+						<p class="text-m text-gray-500">No annotations yet</p>
+						<p class="text-s text-gray-500 mt-1">
 							Highlight text to create one
 						</p>
 					</div>
@@ -201,7 +201,7 @@
 								newAnnotationAnchor = null;
 							}}
 						>
-							<p class="text-sm text-gray-800 line-clamp-1">
+							<p class="text-m text-gray-800 line-clamp-1">
 								“{ann.anchorText}”
 							</p>
 							<p class="text-[11px] text-gray-500 mt-0.5">
@@ -220,7 +220,7 @@
 			<div class="mb-6">
 				<a
 					href={`/texts/${data.text.metadata.id}`}
-					class="inline-flex items-center gap-1.5 text-sm text-gray-500 hover:text-primary-600 transition-colors"
+					class="inline-flex items-center gap-1.5 text-m text-gray-500 hover:text-primary-600 transition-colors"
 				>
 					<svg
 						class="w-3.5 h-3.5"
@@ -236,7 +236,7 @@
 				<h1 class="text-2xl font-bold text-gray-900 mt-2">
 					{data.text.metadata.title}
 				</h1>
-				<p class="text-sm text-gray-500 mt-1">
+				<p class="text-m text-gray-500 mt-1">
 					{data.text.metadata.author}
 				</p>
 			</div>
@@ -245,6 +245,13 @@
 				class="bg-white rounded-xl border border-gray-100 shadow-sm p-8"
 			>
 				<TextSelector onSelect={handleTextSelect}>
+					<h2
+						class="text-2xl font-semibold text-gray-900 mb-6 font-serif"
+						data-start={-data.text.metadata.title.length}
+						data-end={0}
+					>
+						{data.text.metadata.title}
+					</h2>
 					<AnnotatedText
 						rawText={data.text.rawText}
 						parsedText={data.parsedText}

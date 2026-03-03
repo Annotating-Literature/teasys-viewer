@@ -77,13 +77,13 @@
 <div class="space-y-5">
 	<!-- Authors -->
 	<div>
-		<label class="block text-xs font-medium text-gray-600 mb-1"
+		<label class="block text-s font-medium text-gray-600 mb-1"
 			>Authors</label
 		>
 		<div class="flex flex-wrap gap-1.5 mb-2">
 			{#each formData.authors as author, i}
 				<span
-					class="inline-flex items-center gap-1 px-2 py-0.5 text-xs font-medium bg-primary-50 text-primary-700 rounded-md"
+					class="inline-flex items-center gap-1 px-2 py-0.5 text-s font-medium bg-primary-50 text-primary-700 rounded-md"
 				>
 					{author}
 					<button
@@ -97,7 +97,7 @@
 			<input
 				type="text"
 				list="author-suggestions"
-				class="flex-1 px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-500"
+				class="flex-1 px-3 py-2 text-m border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-500"
 				placeholder="Add an author..."
 				bind:value={newAuthorInput}
 				onkeydown={(e) =>
@@ -109,7 +109,7 @@
 				{/each}
 			</datalist>
 			<button
-				class="px-3 py-2 text-sm font-medium text-primary-600 bg-primary-50 hover:bg-primary-100 rounded-lg transition-colors"
+				class="px-3 py-2 text-m font-medium text-primary-600 bg-primary-50 hover:bg-primary-100 rounded-lg transition-colors"
 				onclick={addAuthor}>Add</button
 			>
 		</div>
@@ -119,13 +119,13 @@
 	<div>
 		<label
 			for="annotation-version"
-			class="block text-xs font-medium text-gray-600 mb-1">Version</label
+			class="block text-s font-medium text-gray-600 mb-1">Version</label
 		>
 		<input
 			id="annotation-version"
 			type="number"
 			min="1"
-			class="w-24 px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all"
+			class="w-24 px-3 py-2 text-m border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all"
 			bind:value={formData.version}
 		/>
 	</div>
@@ -133,7 +133,7 @@
 	<!-- Levels -->
 	<div>
 		<div class="flex items-center justify-between mb-2">
-			<span class="text-xs font-medium text-gray-600">Levels</span>
+			<span class="text-s font-medium text-gray-600">Levels</span>
 			<div class="flex gap-2">
 				<button
 					class="text-[11px] font-medium text-primary-600 hover:text-primary-700 transition-colors"
@@ -155,7 +155,7 @@
 		<div class="flex flex-wrap gap-1 mb-3">
 			{#each formData.levels as level, i}
 				<button
-					class="text-xs font-medium px-2.5 py-1.5 rounded-md transition-all border"
+					class="text-s font-medium px-2.5 py-1.5 rounded-md transition-all border"
 					class:bg-primary-600={i === activeLevelIndex}
 					class:text-white={i === activeLevelIndex}
 					class:border-primary-600={i === activeLevelIndex}
@@ -198,7 +198,7 @@
 		<div>
 			{#if onDelete}
 				<button
-					class="text-xs font-medium text-red-500 hover:text-red-600 transition-colors"
+					class="text-s font-medium text-red-500 hover:text-red-600 transition-colors"
 					onclick={() => onDelete!(annotation.id)}
 				>
 					Delete annotation
@@ -207,13 +207,13 @@
 		</div>
 		<div class="flex items-center gap-3">
 			<button
-				class="text-xs font-medium text-gray-500 hover:text-gray-700 transition-colors"
+				class="text-s font-medium text-gray-500 hover:text-gray-700 transition-colors"
 				onclick={onCancel}
 			>
 				Cancel
 			</button>
 			<button
-				class="px-4 py-2 text-sm font-medium text-white bg-primary-600 hover:bg-primary-700 rounded-lg shadow-sm transition-colors"
+				class="px-4 py-2 text-m font-medium text-white bg-primary-600 hover:bg-primary-700 rounded-lg shadow-sm transition-colors"
 				onclick={handleSave}
 			>
 				Save

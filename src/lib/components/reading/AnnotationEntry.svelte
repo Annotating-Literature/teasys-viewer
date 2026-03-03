@@ -97,17 +97,17 @@
 		class="mb-4 bg-gray-50 rounded-lg p-3 border-l-[3px] border-primary-200"
 	>
 		<p
-			class="text-xs text-gray-500 font-medium mb-1 uppercase tracking-wider"
+			class="text-s text-gray-500 font-medium mb-1 uppercase tracking-wider"
 		>
 			Passage
 		</p>
-		<p class="text-sm text-gray-700 leading-relaxed">
+		<p class="text-m text-gray-700 leading-relaxed">
 			“{annotation.anchorText}”
 		</p>
 	</div>
 
 	<!-- Author -->
-	<div class="mb-4 text-xs text-gray-500">
+	<div class="mb-4 text-s text-gray-500">
 		<span
 			>by <strong class="text-gray-600 font-medium"
 				>{annotation.authors.join(", ")}</strong
@@ -141,7 +141,7 @@
 					>
 						Works Cited
 					</h5>
-					<ul class="text-xs text-gray-500 space-y-1">
+					<ul class="text-s text-gray-500 space-y-1">
 						{#each level.worksCited as work}
 							<li
 								class="pl-3 relative before:content-[''] before:absolute before:left-0 before:top-1.5 before:w-1 before:h-1 before:rounded-full before:bg-gray-500"

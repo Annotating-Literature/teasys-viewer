@@ -199,7 +199,7 @@
 				>
 					<button
 						type="button"
-						class="w-6 h-6 rounded flex items-center justify-center text-gray-500 hover:text-gray-700 hover:bg-gray-100 font-sans font-bold text-xs"
+						class="w-6 h-6 rounded flex items-center justify-center text-gray-500 hover:text-gray-700 hover:bg-gray-100 font-sans font-bold text-s"
 						title="Bold (select text first)"
 						onclick={() => applyMarkdownFormat("**", 2)}
 					>
@@ -207,7 +207,7 @@
 					</button>
 					<button
 						type="button"
-						class="w-6 h-6 rounded flex items-center justify-center text-gray-500 hover:text-gray-700 hover:bg-gray-100 font-serif italic font-bold text-xs"
+						class="w-6 h-6 rounded flex items-center justify-center text-gray-500 hover:text-gray-700 hover:bg-gray-100 font-serif italic font-bold text-s"
 						title="Italic (select text first)"
 						onclick={() => applyMarkdownFormat("*", 1)}
 					>
@@ -225,7 +225,7 @@
 	</div>
 	{#if showPreview}
 		<div
-			class="prose prose-sm max-w-none p-3 min-h-[120px] text-sm bg-white rounded-b-lg"
+			class="prose prose-sm max-w-none p-3 min-h-[120px] text-m bg-white rounded-b-lg"
 		>
 			{@html renderPreview(value || "*No content yet*")}
 		</div>
@@ -233,7 +233,7 @@
 		<div class="relative">
 			<textarea
 				{id}
-				class="w-full h-32 p-3 text-sm focus:outline-none placeholder:text-gray-500 resize-y bg-transparent rounded-b-lg"
+				class="w-full h-32 p-3 text-m focus:outline-none placeholder:text-gray-500 resize-y bg-transparent rounded-b-lg"
 				{placeholder}
 				bind:value
 				bind:this={textareaEl}
@@ -256,7 +256,7 @@
 					</div>
 					{#each filteredAnnotations as ann, i}
 						<button
-							class="w-full text-left px-3 py-2 text-sm transition-colors border-b border-gray-50 last:border-0"
+							class="w-full text-left px-3 py-2 text-m transition-colors border-b border-gray-50 last:border-0"
 							class:bg-primary-50={i === pickerIndex}
 							class:hover:bg-gray-50={i !== pickerIndex}
 							onmousedown={(e) => {

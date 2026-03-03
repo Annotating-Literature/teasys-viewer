@@ -6,20 +6,39 @@
 		type TextSegment,
 	} from "$lib/utils/spanSplitter";
 	import TextSegmentComponent from "./TextSegment.svelte";
+	import { CATEGORY_META } from "$lib/constants";
 
 	let {
 		rawText,
 		parsedText,
 		annotations,
 		activeAnnotationId,
+		title = "",
 	}: {
 		rawText: string;
 		parsedText: ParsedText | null;
 		annotations: Annotation[];
 		activeAnnotationId: string | null;
+		title?: string;
 	} = $props();
 
 	const allSegments = $derived(splitIntoSegments(rawText, annotations));
+
+	// Annotations anchored to the title (negative offsets)
+	const titleAnnotations = $derived(
+		title ? annotations.filter((a) => a.anchorStart < 0) : [],
+	);
+
+	const titleStyle = $derived.by(() => {
+		if (titleAnnotations.length === 0) return "";
+		const active = titleAnnotations.find(
+			(a) => a.id === activeAnnotationId,
+		);
+		const ann = active || titleAnnotations[0];
+		const meta = CATEGORY_META[ann.levels[0]?.category];
+		if (!meta) return "";
+		return `background-color: ${meta.bg}; border-bottom: 2px solid ${meta.color}40;`;
+	});
 
 	function getSegmentsForRange(
 		lineStart: number,
@@ -48,6 +67,19 @@
 	</div>
 {:else}
 	<div class="text-lg leading-loose text-gray-800">
+		{#if title}
+			<h2
+				class="text-2xl font-semibold text-gray-900 mb-6 font-serif cursor-pointer rounded-sm px-1"
+				data-start={-title.length}
+				data-end={0}
+				data-segment-ids={JSON.stringify(
+					titleAnnotations.map((a) => a.id),
+				)}
+				style={titleStyle}
+			>
+				{title}
+			</h2>
+		{/if}
 		{#if parsedText.type === "poetry"}
 			{#each parsedText.poems as poem}
 				<div class="mb-10">
@@ -72,7 +104,7 @@
 								{@const lineNum = line.globalIndex + 1}
 								<div class="flex">
 									<div
-										class="w-10 text-right text-xs text-gray-500 pr-4 shrink-0 pt-[0.35em] select-none font-sans tabular-nums leading-loose"
+										class="w-10 text-right text-s text-gray-500 pr-4 shrink-0 pt-[0.35em] select-none font-sans tabular-nums leading-loose"
 									>
 										{#if lineNum % 5 === 0 || lineNum === 1}
 											{lineNum}
@@ -114,7 +146,7 @@
 					{#each chapter.paragraphs as paragraph, pIdx}
 						<div class="flex mb-4">
 							<div
-								class="w-10 text-right text-xs text-gray-500 pr-4 shrink-0 pt-[0.35em] select-none font-sans tabular-nums"
+								class="w-10 text-right text-s text-gray-500 pr-4 shrink-0 pt-[0.35em] select-none font-sans tabular-nums"
 							>
 								{pIdx + 1}
 							</div>
@@ -172,7 +204,7 @@
 								{:else}
 									<div class="flex mb-1">
 										<div
-											class="w-10 text-right text-xs text-gray-500 pr-4 shrink-0 pt-[0.35em] select-none font-sans tabular-nums leading-loose"
+											class="w-10 text-right text-s text-gray-500 pr-4 shrink-0 pt-[0.35em] select-none font-sans tabular-nums leading-loose"
 										>
 											{#if (bIdx + 1) % 5 === 0 || bIdx === 0}
 												{bIdx + 1}
@@ -180,7 +212,7 @@
 										</div>
 										<p>
 											<strong
-												class="font-bold text-gray-600 text-sm font-sans uppercase tracking-wide"
+												class="font-bold text-gray-600 text-m font-sans uppercase tracking-wide"
 												>{block.speaker}:</strong
 											>
 											<span class="ml-2">

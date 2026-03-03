@@ -24,7 +24,7 @@
 							>Viewer</span
 						><span
 							class="inline-flex items-center ml-1.5 px-1.5 py-0.5 rounded text-[11px] font-medium text-gray-500 bg-gray-100 leading-none"
-							>v3α</span
+							>v3β</span
 						>
 					</span>
 				</a>
@@ -32,14 +32,14 @@
 			<div class="flex items-center gap-4">
 				<a
 					href="/authors"
-					class="text-sm font-medium text-gray-500 hover:text-primary-600 transition-colors"
+					class="text-m font-medium text-gray-500 hover:text-primary-600 transition-colors"
 				>
 					Authors
 				</a>
 				{#if user}
 					<a
 						href="/admin"
-						class="text-sm font-medium text-gray-500 hover:text-primary-600 transition-colors"
+						class="text-m font-medium text-gray-500 hover:text-primary-600 transition-colors"
 					>
 						Admin
 					</a>
@@ -50,19 +50,17 @@
 						<div
 							class="w-7 h-7 rounded-full bg-primary-100 flex items-center justify-center"
 						>
-							<span
-								class="text-xs font-semibold text-primary-700"
-							>
+							<span class="text-s font-semibold text-primary-700">
 								{user.username[0].toUpperCase()}
 							</span>
 						</div>
-						<span class="text-sm text-gray-600">
+						<span class="text-m text-gray-600">
 							{user.username}
 						</span>
 						<form action="/logout" method="POST">
 							<button
 								type="submit"
-								class="text-sm font-medium text-gray-500 hover:text-red-500 transition-colors"
+								class="text-m font-medium text-gray-500 hover:text-red-500 transition-colors"
 							>
 								Sign out
 							</button>
@@ -71,7 +69,7 @@
 				{:else}
 					<a
 						href="/login"
-						class="text-sm font-medium text-primary-600 hover:text-primary-700 px-4 py-2 rounded-lg hover:bg-primary-50 transition-all"
+						class="text-m font-medium text-primary-600 hover:text-primary-700 px-4 py-2 rounded-lg hover:bg-primary-50 transition-all"
 					>
 						Sign in
 					</a>

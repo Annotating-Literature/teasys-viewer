@@ -19,7 +19,7 @@
 				>
 			</div>
 			<h1 class="text-2xl font-semibold text-gray-900">Welcome back</h1>
-			<p class="mt-1 text-sm text-gray-500">Sign in to annotate texts</p>
+			<p class="mt-1 text-m text-gray-500">Sign in to annotate texts</p>
 		</div>
 
 		<!-- Form card -->
@@ -28,7 +28,7 @@
 				<div>
 					<label
 						for="username"
-						class="block text-sm font-medium text-gray-700 mb-1.5"
+						class="block text-m font-medium text-gray-700 mb-1.5"
 						>Username</label
 					>
 					<input
@@ -36,7 +36,7 @@
 						name="username"
 						type="text"
 						required
-						class="w-full px-3.5 py-2.5 text-sm border border-gray-200 rounded-lg
+						class="w-full px-3.5 py-2.5 text-m border border-gray-200 rounded-lg
 						       focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500
 						       transition-all placeholder:text-gray-500"
 						placeholder="Enter username"
@@ -45,7 +45,7 @@
 				<div>
 					<label
 						for="password"
-						class="block text-sm font-medium text-gray-700 mb-1.5"
+						class="block text-m font-medium text-gray-700 mb-1.5"
 						>Password</label
 					>
 					<input
@@ -53,7 +53,7 @@
 						name="password"
 						type="password"
 						required
-						class="w-full px-3.5 py-2.5 text-sm border border-gray-200 rounded-lg
+						class="w-full px-3.5 py-2.5 text-m border border-gray-200 rounded-lg
 						       focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500
 						       transition-all placeholder:text-gray-500"
 						placeholder="Enter password"
@@ -62,7 +62,7 @@
 
 				{#if form?.error}
 					<div
-						class="bg-red-50 text-red-600 text-sm rounded-lg px-3 py-2 text-center"
+						class="bg-red-50 text-red-600 text-m rounded-lg px-3 py-2 text-center"
 					>
 						{form.error}
 					</div>
@@ -70,7 +70,7 @@
 
 				<button
 					type="submit"
-					class="w-full py-2.5 px-4 text-sm font-medium text-white bg-primary-600
+					class="w-full py-2.5 px-4 text-m font-medium text-white bg-primary-600
 					       hover:bg-primary-700 rounded-lg shadow-sm transition-colors
 					       focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:ring-offset-2"
 				>
@@ -79,7 +79,7 @@
 			</form>
 		</div>
 
-		<p class="mt-6 text-center text-xs text-gray-500">
+		<p class="mt-6 text-center text-s text-gray-500">
 			<a
 				href="/"
 				class="inline-flex items-center gap-1 hover:text-primary-600 transition-colors"

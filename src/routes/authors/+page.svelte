@@ -44,7 +44,7 @@
                 <path d="M6 42c0-9 8-14 18-14s18 5 18 14" />
             </svg>
             <h3 class="text-lg font-semibold text-gray-900">No authors yet</h3>
-            <p class="text-sm text-gray-500 mt-1">
+            <p class="text-m text-gray-500 mt-1">
                 Authors will appear here once texts are added.
             </p>
         </div>
@@ -83,7 +83,7 @@
                             >
                                 {author.name}
                             </h2>
-                            <p class="text-xs text-stone-500 mt-1">
+                            <p class="text-s text-stone-500 mt-1">
                                 {author.textCount}
                                 {author.textCount === 1 ? "text" : "texts"}<span
                                     class="text-stone-400 mx-1">·</span

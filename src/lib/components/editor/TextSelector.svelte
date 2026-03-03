@@ -165,7 +165,7 @@
 	{#if buttonPos}
 		<button
 			bind:this={buttonEl}
-			class="absolute bg-primary-600 text-white px-4 py-2 rounded-full shadow-lg text-sm font-medium
+			class="absolute bg-primary-600 text-white px-4 py-2 rounded-full shadow-lg text-m font-medium
 			       hover:bg-primary-700 transition-all hover:shadow-xl -translate-x-1/2 z-20"
 			style="top: {buttonPos.top}px; left: {buttonPos.left}px;"
 			onmousedown={(e) => e.preventDefault()}

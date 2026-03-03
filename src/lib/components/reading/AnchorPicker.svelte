@@ -18,7 +18,7 @@
 	style:top={`${position.top}px`}
 	style:left={`${position.left}px`}
 >
-	<h4 class="text-xs font-bold text-gray-500 uppercase px-2 pt-1 pb-2">
+	<h4 class="text-s font-bold text-gray-500 uppercase px-2 pt-1 pb-2">
 		Select Annotation
 	</h4>
 	<ul>
@@ -29,7 +29,7 @@
 					class="w-full text-left flex items-center space-x-2 px-2 py-1.5 rounded-md hover:bg-gray-100"
 				>
 					<CategoryBadge category={ann.levels[0].category} />
-					<span class="truncate text-sm text-gray-700"
+					<span class="truncate text-m text-gray-700"
 						>“{ann.anchorText}”</span
 					>
 				</button>

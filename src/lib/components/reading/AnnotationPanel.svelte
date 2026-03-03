@@ -42,7 +42,7 @@
 				{#if user}
 					<a
 						href={`/texts/${textId}/annotate?annotationId=${annotation.id}`}
-						class="text-xs font-medium text-primary-600 hover:text-primary-700 px-3 py-1.5 rounded-lg
+						class="text-s font-medium text-primary-600 hover:text-primary-700 px-3 py-1.5 rounded-lg
 						       bg-primary-50 hover:bg-primary-100 transition-colors"
 					>
 						Edit

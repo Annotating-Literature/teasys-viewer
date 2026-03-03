@@ -109,7 +109,7 @@
 			{#if data.user}
 				<a
 					href={`/texts/${data.text.metadata.id}/annotate`}
-					class="shrink-0 ml-4 inline-flex items-center gap-2 px-4 py-2 text-sm font-medium
+					class="shrink-0 ml-4 inline-flex items-center gap-2 px-4 py-2 text-m font-medium
 					       text-primary-600 bg-primary-50 hover:bg-primary-100 rounded-lg transition-colors"
 				>
 					<svg
@@ -145,6 +145,7 @@
 					rawText={data.text.rawText}
 					parsedText={data.parsedText}
 					annotations={data.annotations}
+					title={data.text.metadata.title}
 					{activeAnnotationId}
 				/>
 			</div>
@@ -162,7 +163,7 @@
 						No annotations yet
 					</h3>
 					{#if data.user}
-						<p class="mt-1 text-sm text-gray-500">
+						<p class="mt-1 text-m text-gray-500">
 							<a
 								href={`/texts/${data.text.metadata.id}/annotate`}
 								class="text-primary-600 hover:text-primary-700 font-medium"
@@ -186,21 +187,21 @@
 							class="sticky top-0 bg-white/90 backdrop-blur-sm border-b border-gray-100 px-5 py-3 flex items-center justify-between"
 						>
 							<span
-								class="text-xs font-semibold text-gray-500 uppercase tracking-wider"
+								class="text-s font-semibold text-gray-500 uppercase tracking-wider"
 								>Annotation</span
 							>
 							<div class="flex items-center gap-2">
 								{#if data.user}
 									<a
 										href={`/texts/${data.text.metadata.id}/annotate?annotationId=${activeAnnotation.id}`}
-										class="text-xs font-medium text-primary-600 hover:text-primary-700 px-2 py-1 rounded-md bg-primary-50 hover:bg-primary-100 transition-colors"
+										class="text-s font-medium text-primary-600 hover:text-primary-700 px-2 py-1 rounded-md bg-primary-50 hover:bg-primary-100 transition-colors"
 									>
 										Edit
 									</a>
 								{/if}
 								<button
 									onclick={closePanels}
-									class="w-6 h-6 rounded-md flex items-center justify-center text-gray-500 hover:text-gray-600 hover:bg-gray-100 transition-colors text-sm"
+									class="w-6 h-6 rounded-md flex items-center justify-center text-gray-500 hover:text-gray-600 hover:bg-gray-100 transition-colors text-m"
 								>
 									&times;
 								</button>
@@ -219,7 +220,7 @@
 						<!-- Annotation list -->
 						<div class="px-5 py-3 border-b border-gray-100">
 							<span
-								class="text-xs font-semibold text-gray-500 uppercase tracking-wider"
+								class="text-s font-semibold text-gray-500 uppercase tracking-wider"
 							>
 								{data.annotations.length} Annotation{data
 									.annotations.length !== 1
@@ -236,7 +237,7 @@
 									}}
 								>
 									<p
-										class="text-sm text-gray-800 line-clamp-1"
+										class="text-m text-gray-800 line-clamp-1"
 									>
 										“{ann.anchorText}”
 									</p>

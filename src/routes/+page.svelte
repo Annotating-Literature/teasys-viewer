@@ -90,7 +90,7 @@
 			</svg>
 			<h3 class="text-lg font-semibold text-gray-900">No texts yet</h3>
 			{#if data.user?.role === "admin"}
-				<p class="mt-2 text-sm text-gray-500">
+				<p class="mt-2 text-m text-gray-500">
 					<a
 						href="/admin/texts"
 						class="text-primary-600 hover:text-primary-700 font-medium"
@@ -130,7 +130,7 @@
 							<div>
 								<div class="flex items-center gap-4 mb-5 pl-1">
 									<h3
-										class="text-xs font-bold text-gray-500 uppercase tracking-[0.2em]"
+										class="text-s font-bold text-gray-500 uppercase tracking-[0.2em]"
 									>
 										{cat.name}
 									</h3>
@@ -161,7 +161,7 @@
 												</a>
 											</h4>
 											<p
-												class="text-sm text-stone-500 mt-2 relative z-10"
+												class="text-m text-stone-500 mt-2 relative z-10"
 											>
 												<a
 													href={`/authors/${slugify(text.author)}`}

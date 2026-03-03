@@ -19,7 +19,7 @@
 
 <select
 	{id}
-	class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all bg-white"
+	class="w-full px-3 py-2 text-m border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all bg-white"
 	value={selected}
 	onchange={(e) => onChange(e.currentTarget.value as Category)}
 >

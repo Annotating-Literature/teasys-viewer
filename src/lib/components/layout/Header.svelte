@@ -1,6 +1,7 @@
 <script lang="ts">
 	import ThemeToggle from "./ThemeToggle.svelte";
 	import { MAIN_NAV } from "$lib/config/navigation";
+	import { focusTrap } from "$lib/actions/focusTrap";
 	let { user, availableTypes = [] } = $props();
 
 	let activeDropdown = $state<string | null>(null);
@@ -73,7 +74,8 @@
 							<button
 								onclick={(e) => toggleDropdown(item.label, e)}
 								aria-expanded={activeDropdown === item.label}
-								class="text-[15px] font-serif font-medium text-gray-600 hover:text-gray-900 transition-colors py-2 flex items-center gap-1 dark:text-gray-300 dark:hover:text-primary-400"
+								aria-haspopup="true"
+								class="text-[15px] font-serif font-medium text-gray-600 hover:text-gray-900 transition-colors py-2 flex items-center gap-1"
 							>
 								{item.label}
 								<svg
@@ -94,12 +96,17 @@
 							</button>
 							{#if activeDropdown === item.label}
 								<div
-									class="absolute top-full left-0 mt-1 w-56 bg-surface-elevated rounded-xl shadow-xl ring-1 ring-black/5 dark:ring-white/10 transition-all duration-200 origin-top-left z-50 overflow-hidden"
+									class="absolute top-full left-0 mt-1 w-56 bg-surface-elevated rounded-xl shadow-lg shadow-black/10 ring-1 ring-black/10 dark:shadow-black/40 dark:ring-white/10 transition-all duration-200 z-50 overflow-hidden"
 								>
-									{#each item.children as child}
+									{#each item.children as child, ci}
+										{#if ci > 0 && item.children[ci - 1].href === "/" && child.href !== "/"}
+											<hr
+												class="border-gray-100 dark:border-white/10 mx-3"
+											/>
+										{/if}
 										<a
 											href={child.href}
-											class="block px-4 py-2.5 text-[14px] font-serif font-medium text-gray-600 dark:text-gray-300 hover:bg-primary-50 dark:hover:bg-primary-900/30 hover:text-gray-900 dark:hover:text-primary-300 transition-colors border-b border-gray-50 dark:border-white/5 last:border-0"
+											class="block px-4 py-2.5 text-[14px] font-serif font-medium text-gray-600 hover:bg-primary-50 dark:hover:bg-primary-900/30 hover:text-gray-900 transition-colors border-b border-gray-50 dark:border-white/5 last:border-0"
 											onclick={() =>
 												(activeDropdown = null)}
 											>{child.label}</a
@@ -111,7 +118,7 @@
 					{:else}
 						<a
 							href={item.href}
-							class="text-[15px] font-serif font-medium text-gray-600 hover:text-gray-900 transition-colors py-2 dark:text-gray-300 dark:hover:text-primary-400"
+							class="text-[15px] font-serif font-medium text-gray-600 hover:text-gray-900 transition-colors py-2"
 						>
 							{item.label}
 						</a>
@@ -126,7 +133,7 @@
 					{#if user}
 						<a
 							href="/admin"
-							class="text-sm font-medium text-gray-600 hover:text-primary-600 transition-colors dark:text-gray-400 dark:hover:text-primary-400"
+							class="text-sm font-medium text-gray-600 hover:text-primary-600 transition-colors"
 						>
 							Admin
 						</a>
@@ -158,7 +165,7 @@
 					{:else}
 						<a
 							href="/login"
-							class="text-sm font-medium text-primary-600 hover:text-primary-700 px-4 py-2 rounded-lg hover:bg-primary-50 transition-all"
+							class="text-sm font-medium text-primary-600 hover:text-primary-700 px-4 py-1.5 rounded-full border border-primary-200 dark:border-primary-800 hover:bg-primary-50 dark:hover:bg-primary-950 transition-all"
 						>
 							Sign in
 						</a>
@@ -166,7 +173,7 @@
 				</div>
 
 				<button
-					class="md:hidden p-2 text-gray-600 hover:text-gray-900 transition-colors dark:text-gray-300 dark:hover:text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500"
+					class="md:hidden p-2 text-gray-600 hover:text-gray-900 transition-colors rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500"
 					onclick={() => (isMobileMenuOpen = !isMobileMenuOpen)}
 					aria-expanded={isMobileMenuOpen}
 					aria-label="Toggle mobile menu"
@@ -200,6 +207,7 @@
 
 	{#if isMobileMenuOpen}
 		<div
+			use:focusTrap={isMobileMenuOpen}
 			class="md:hidden border-t border-gray-200 dark:border-gray-800 bg-surface-elevated"
 		>
 			<div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
@@ -207,7 +215,7 @@
 					{#if item.children}
 						<div class="px-3 py-2">
 							<div
-								class="text-[15px] font-serif font-bold text-gray-900 dark:text-gray-100 mb-2"
+								class="text-[15px] font-serif font-bold text-gray-900 mb-2"
 							>
 								{item.label}
 							</div>
@@ -217,7 +225,7 @@
 								{#each item.children as child}
 									<a
 										href={child.href}
-										class="block px-3 py-2 text-sm font-serif font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-800 rounded-md transition-colors"
+										class="block px-3 py-2 text-sm font-serif font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors"
 										onclick={() =>
 											(isMobileMenuOpen = false)}
 									>
@@ -229,7 +237,7 @@
 					{:else}
 						<a
 							href={item.href}
-							class="block px-3 py-2 text-[15px] font-serif font-bold text-gray-900 hover:text-primary-600 hover:bg-gray-50 dark:text-gray-100 dark:hover:text-primary-400 dark:hover:bg-gray-800 rounded-md transition-colors"
+							class="block px-3 py-2 text-[15px] font-serif font-bold text-gray-900 hover:text-primary-600 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors"
 							onclick={() => (isMobileMenuOpen = false)}
 						>
 							{item.label}
@@ -251,15 +259,13 @@
 									{user.username[0].toUpperCase()}
 								</span>
 							</div>
-							<div
-								class="text-sm font-medium text-gray-900 dark:text-gray-100"
-							>
+							<div class="text-sm font-medium text-gray-900">
 								{user.username}
 							</div>
 						</div>
 						<a
 							href="/admin"
-							class="block px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-800 rounded-md transition-colors"
+							class="block px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-md transition-colors"
 							onclick={() => (isMobileMenuOpen = false)}
 						>
 							Admin Dashboard

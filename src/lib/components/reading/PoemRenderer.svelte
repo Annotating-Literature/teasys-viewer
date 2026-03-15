@@ -42,7 +42,7 @@
                     {@const lineNum = line.globalIndex + 1}
                     <div class="flex items-baseline">
                         <div
-                            class="w-10 text-right text-[11px] text-gray-500 pr-4 shrink-0 select-none font-sans tabular-nums leading-loose"
+                            class="w-10 text-right text-[12px] text-gray-400 pr-4 shrink-0 select-none font-serif tabular-nums leading-loose"
                         >
                             {#if (!line.isDropLine && lineNum % 5 === 0) || (!line.isDropLine && lineNum === 1)}
                                 {lineNum}

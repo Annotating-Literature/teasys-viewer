@@ -1,4 +1,4 @@
-import { listTexts, listAnnotations } from '$lib/server/content';
+import { listTexts, getAnnotationCount } from '$lib/server/content';
 import type { PageServerLoad } from './$types';
 import type { TextMetadata } from '$lib/types/text';
 
@@ -10,8 +10,8 @@ export const load: PageServerLoad = async ({ parent }) => {
 	// Fetch annotation counts for each text
 	const textsWithCounts = await Promise.all(
 		texts.map(async (text) => {
-			const annotations = await listAnnotations(text.id);
-			return { ...text, annotationCount: annotations.length };
+			const annotationCount = await getAnnotationCount(text.id);
+			return { ...text, annotationCount };
 		})
 	);
 

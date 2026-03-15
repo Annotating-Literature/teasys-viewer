@@ -41,6 +41,10 @@ export const load: PageServerLoad = async ({ params, parent }) => {
         texts: textsWithCounts,
         bio: profile?.bio ?? '',
         portraitPath: profile?.portraitPath ?? null,
+        birthYear: profile?.birthYear ?? null,
+        deathYear: profile?.deathYear ?? null,
+        photoCredit: profile?.photoCredit ?? null,
+        photoCreditUrl: profile?.photoCreditUrl ?? null,
         user
     };
 };

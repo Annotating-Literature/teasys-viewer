@@ -11,19 +11,17 @@
 </svelte:head>
 
 <div class="max-w-5xl mx-auto px-6 py-12 md:py-16">
-    <div class="mb-14 md:mb-20">
+    <div class="mb-10">
         <Breadcrumbs
             crumbs={[{ label: "Library", href: "/" }, { label: "Authors" }]}
         />
         <h1
-            class="text-4xl sm:text-5xl font-bold tracking-tight text-gray-900 font-serif leading-tight mb-2"
+            class="text-4xl sm:text-5xl font-bold tracking-tight text-gray-900 font-serif leading-tight mt-4"
         >
             Authors
         </h1>
-        <div class="w-12 h-[2px] bg-primary-300 rounded-full mt-4 mb-6"></div>
-        <p class="text-lg text-gray-600 max-w-2xl leading-relaxed">
-            Browse the collection by author. Each page lists their annotated
-            texts in this archive.
+        <p class="text-lg text-gray-500 mt-3 max-w-2xl leading-relaxed">
+            Browse the collection by author.
         </p>
     </div>
 
@@ -49,64 +47,65 @@
             </p>
         </div>
     {:else}
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {#each data.authors as author}
                 <a
                     href={`/authors/${author.slug}`}
-                    class="group block relative p-5 bg-surface-card backdrop-blur-sm
-					       border border-gray-200/60 rounded-xl
-					       hover:bg-surface-elevated hover:border-gray-400
-					       hover:shadow-[2px_2px_12px_-4px_rgba(0,0,0,0.05)]
-					       hover:-translate-y-0.5
-					       transition-[transform,border-color,box-shadow,background-color] duration-300 ease-out"
+                    class="group flex items-center gap-4 p-4 bg-surface-card
+                           border border-gray-200/60 rounded-xl
+                           hover:bg-surface-elevated hover:border-gray-300
+                           hover:shadow-sm hover:-translate-y-0.5
+                           transition-all duration-200 ease-out"
                 >
-                    <div class="flex items-start gap-3.5">
-                        {#if author.portraitPath}
+                    <!-- Avatar / Portrait -->
+                    {#if author.portraitPath}
+                        <div
+                            class="w-14 h-14 rounded-xl overflow-hidden border border-stone-200/80 shrink-0"
+                        >
                             <img
                                 src={author.portraitPath}
                                 alt=""
-                                class="w-11 h-11 rounded-lg object-cover border border-stone-200/80 shrink-0"
+                                class="w-full h-full object-cover object-top"
                             />
-                        {:else}
-                            <div
-                                class="w-11 h-11 rounded-lg bg-stone-100 flex items-center justify-center shrink-0 border border-stone-200/50"
-                            >
-                                <span
-                                    class="text-base font-serif text-stone-500"
-                                    >{author.name[0]}</span
-                                >
-                            </div>
-                        {/if}
-                        <div class="min-w-0">
-                            <h2
-                                class="text-lg font-bold text-gray-800 group-hover:text-primary-700 transition-colors font-serif"
-                            >
-                                {author.name}
-                            </h2>
-                            <p
-                                class="text-[13px] text-gray-500 mt-1 uppercase tracking-wider font-medium"
-                            >
-                                {author.textCount}
-                                {author.textCount === 1 ? "text" : "texts"}<span
-                                    class="text-stone-400 mx-1">·</span
-                                >{author.annotationCount}
-                                {author.annotationCount === 1
-                                    ? "annotation"
-                                    : "annotations"}
-                            </p>
                         </div>
-                    </div>
-                    {#if author.types.length > 0}
-                        <div class="flex gap-1.5 mt-3 ml-14.5">
-                            {#each author.types as type}
-                                <span
-                                    class="text-[11px] uppercase tracking-wider font-medium text[13px]tone-500 px-1.5 py-0.5 rounded bg-stone-100"
-                                >
-                                    {type}
-                                </span>
-                            {/each}
+                    {:else}
+                        <div
+                            class="w-14 h-14 rounded-xl bg-stone-100 dark:bg-stone-800 flex items-center justify-center shrink-0 border border-stone-200/50 dark:border-stone-700"
+                        >
+                            <span class="text-xl font-serif text-stone-400"
+                                >{author.name[0]}</span
+                            >
                         </div>
                     {/if}
+
+                    <!-- Name + meta -->
+                    <div class="min-w-0">
+                        <h2
+                            class="text-base font-bold text-gray-800 group-hover:text-primary-700 transition-colors font-serif leading-snug"
+                        >
+                            {author.name}
+                        </h2>
+                        {#if author.birthYear || author.deathYear}
+                            <p
+                                class="text-[12px] text-gray-400 font-serif mt-0.5"
+                            >
+                                {author.birthYear ?? "?"}–{author.deathYear ??
+                                    ""}
+                            </p>
+                        {/if}
+                        <p
+                            class="text-[12px] text-gray-500 mt-1 uppercase tracking-wider font-medium"
+                        >
+                            {author.textCount}
+                            {author.textCount === 1 ? "text" : "texts"}
+                            {#each author.types as type}
+                                <span
+                                    class="ml-1.5 text-[10px] normal-case tracking-normal font-normal text-stone-400 dark:text-stone-500"
+                                    >· {type}</span
+                                >
+                            {/each}
+                        </p>
+                    </div>
                 </a>
             {/each}
         </div>

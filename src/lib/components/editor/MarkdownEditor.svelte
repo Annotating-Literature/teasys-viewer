@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { marked } from "marked";
+	import DOMPurify from "isomorphic-dompurify";
 	import type { Annotation } from "$lib/types/annotation";
 
 	type Props = {
@@ -139,7 +140,8 @@
 			}
 			return match;
 		});
-		return applySmartQuotes(marked(resolved) as string);
+		const html = applySmartQuotes(marked(resolved) as string);
+		return DOMPurify.sanitize(html, { ADD_ATTR: ["data-ann-id"] });
 	}
 
 	function applyMarkdownFormat(formatText: string, cursorOffset: number) {

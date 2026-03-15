@@ -59,7 +59,8 @@
 			}
 			return match;
 		});
-		return applySmartQuotes(marked(resolved) as string);
+		const html = applySmartQuotes(marked(resolved) as string);
+		return DOMPurify.sanitize(html, { ADD_ATTR: ["data-ann-id"] });
 	}
 
 	function renderWorkCited(work: string): string {

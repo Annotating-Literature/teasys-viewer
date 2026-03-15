@@ -49,8 +49,9 @@
 </script>
 
 {#if ids.length > 1}
-	<mark
-		class="cursor-pointer transition-all duration-200 rounded-sm px-1 py-0.5
+	<button
+		type="button"
+		class="cursor-pointer transition-all duration-200 rounded-sm px-1 py-0.5 inline text-left text-inherit font-inherit focus:outline-none focus:ring-2 focus:ring-primary-400 focus:ring-offset-1
 		       {isPartOfActiveAnnotation
 			? 'ring-2 ring-primary-300 brightness-95'
 			: 'hover:brightness-95'}"
@@ -62,10 +63,11 @@
 		{@html parsedSegmentText}<sup
 			class="font-bold text-gray-500 text-[11px] ml-0.5">{ids.length}</sup
 		>
-	</mark>
+	</button>
 {:else if ids.length === 1}
-	<mark
-		class="cursor-pointer transition-all duration-200 rounded-sm px-1 py-0.5 hover:brightness-95
+	<button
+		type="button"
+		class="cursor-pointer transition-all duration-200 rounded-sm px-1 py-0.5 inline text-left text-inherit font-inherit focus:outline-none focus:ring-2 focus:ring-primary-400 focus:ring-offset-1 hover:brightness-95
 		       {isPartOfActiveAnnotation
 			? 'ring-2 ring-primary-300 brightness-95'
 			: ''}"
@@ -75,7 +77,7 @@
 		data-end={segment.end}
 	>
 		{@html parsedSegmentText}
-	</mark>
+	</button>
 {:else}
 	<span data-start={segment.start} data-end={segment.end}
 		>{@html parsedSegmentText}</span

@@ -217,14 +217,11 @@
 		<div class="flex gap-6 items-start">
 			<!-- Left: Text -->
 			<div class="flex-1 min-w-0">
+				<!-- svelte-ignore a11y_click_events_have_key_events -->
+				<!-- svelte-ignore a11y_no_static_element_interactions -->
 				<div
 					class="bg-surface-card rounded-xl border border-gray-200/50 shadow-sm p-8 sm:p-10"
-					role="button"
-					tabindex="0"
 					onclick={handleSegmentClick}
-					onkeydown={(e) =>
-						(e.key === "Enter" || e.key === " ") &&
-						handleSegmentClick(e)}
 				>
 					<AnnotatedText
 						rawText={data.text.rawText}
@@ -350,7 +347,7 @@
 							<div class="divide-y divide-gray-50">
 								{#each sortedAnnotations as ann}
 									<button
-										class="w-full text-left px-5 py-3 hover:bg-gray-50/80 transition-colors"
+										class="w-full text-left px-5 py-3 hover:bg-gray-50/80 focus:outline-none focus:bg-primary-50 focus:ring-2 focus:ring-inset focus:ring-primary-400 transition-colors"
 										onclick={() => {
 											activeAnnotationId = ann.id;
 										}}

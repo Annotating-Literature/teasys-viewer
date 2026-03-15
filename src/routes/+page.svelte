@@ -22,7 +22,7 @@
 			categories: { name: string; texts: any[] }[];
 		}[] = [];
 		for (const type of typeOrder) {
-			const textsOfType = (data.groupedTexts[type] ?? []) as any[];
+			const textsOfType = data.groupedTexts[type] ?? [];
 			if (textsOfType.length === 0) continue;
 			// Group by category within type
 			const catMap: Record<string, any[]> = {};
@@ -62,7 +62,7 @@
 		>
 			Annotated Literature
 		</h1>
-		<div class="w-16 h-[2px] bg-primary-300 rounded-full mt-4 mb-6"></div>
+
 		<p class="text-lg text-gray-600 max-w-2xl leading-relaxed">
 			Explore literary texts with multi-level annotations — from language
 			and form to interpretation and context.

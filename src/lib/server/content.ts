@@ -1,10 +1,16 @@
 import fs from 'fs/promises';
 import path from 'path';
+import { generateTEI } from './teiGenerator';
 import { TextMetadataSchema, AnnotationSchema } from './validation';
 import type { TextMetadata } from '$lib/types/text';
 import type { Annotation } from '$lib/types/annotation';
 
-const CONTENT_DIR = path.resolve('content', 'texts');
+export const CONTENT_DIR = path.resolve('content', 'texts');
+export const AUTHORS_DIR = path.resolve('content', 'authors');
+
+export function isValidSlug(s: string) {
+  return /^[a-z0-9-]+$/.test(s);
+}
 
 export async function listTexts(): Promise<TextMetadata[]> {
   try {
@@ -31,6 +37,7 @@ export async function listTexts(): Promise<TextMetadata[]> {
 }
 
 export async function getText(textId: string): Promise<{ metadata: TextMetadata; rawText: string }> {
+  if (!isValidSlug(textId)) throw new Error('Invalid text ID');
   const textDir = path.join(CONTENT_DIR, textId);
 
   const metaPath = path.join(textDir, 'metadata.json');
@@ -44,7 +51,19 @@ export async function getText(textId: string): Promise<{ metadata: TextMetadata;
   return { metadata, rawText };
 }
 
+export async function getAnnotationCount(textId: string): Promise<number> {
+  if (!isValidSlug(textId)) throw new Error('Invalid text ID');
+  const annotationsDir = path.join(CONTENT_DIR, textId, 'annotations');
+  try {
+    const entries = await fs.readdir(annotationsDir);
+    return entries.filter((e) => e.endsWith('.json')).length;
+  } catch {
+    return 0;
+  }
+}
+
 export async function listAnnotations(textId: string): Promise<Annotation[]> {
+  if (!isValidSlug(textId)) throw new Error('Invalid text ID');
   const annotationsDir = path.join(CONTENT_DIR, textId, 'annotations');
 
   try {
@@ -74,14 +93,14 @@ export async function listAnnotations(textId: string): Promise<Annotation[]> {
 }
 
 export async function getAnnotation(textId: string, annotationId: string): Promise<Annotation> {
+  if (!isValidSlug(textId) || !isValidSlug(annotationId)) throw new Error('Invalid ID');
   const filePath = path.join(CONTENT_DIR, textId, 'annotations', `${annotationId}.json`);
   const raw = await fs.readFile(filePath, 'utf-8');
   return AnnotationSchema.parse(JSON.parse(raw));
 }
 
-import { generateTEI } from './teiGenerator';
-
 export async function saveAnnotation(textId: string, annotation: Annotation): Promise<void> {
+  if (!isValidSlug(textId) || !isValidSlug(annotation.id)) throw new Error('Invalid ID');
   const annotationsDir = path.join(CONTENT_DIR, textId, 'annotations');
   await fs.mkdir(annotationsDir, { recursive: true });
 
@@ -92,6 +111,7 @@ export async function saveAnnotation(textId: string, annotation: Annotation): Pr
 }
 
 export async function deleteAnnotation(textId: string, annotationId: string): Promise<void> {
+  if (!isValidSlug(textId) || !isValidSlug(annotationId)) throw new Error('Invalid ID');
   const filePath = path.join(CONTENT_DIR, textId, 'annotations', `${annotationId}.json`);
   await fs.unlink(filePath);
 
@@ -108,6 +128,7 @@ export async function saveTextMetadata(metadata: TextMetadata): Promise<void> {
 }
 
 export async function saveTextContent(textId: string, text: string): Promise<void> {
+  if (!isValidSlug(textId)) throw new Error('Invalid text ID');
   const textDir = path.join(CONTENT_DIR, textId);
   await fs.mkdir(textDir, { recursive: true });
 
@@ -117,14 +138,17 @@ export async function saveTextContent(textId: string, text: string): Promise<voi
 
 // --- Author Profiles ---
 
-const AUTHORS_DIR = path.resolve('content', 'authors');
-
 export interface AuthorProfile {
   bio: string;
   portraitPath: string | null;
+  birthYear: number | null;
+  deathYear: number | null;
+  photoCredit: string | null;
+  photoCreditUrl: string | null;
 }
 
 export async function getAuthorProfile(slug: string): Promise<AuthorProfile | null> {
+  if (!isValidSlug(slug)) throw new Error('Invalid author slug');
   const authorDir = path.join(AUTHORS_DIR, slug);
   try {
     await fs.access(authorDir);
@@ -150,10 +174,26 @@ export async function getAuthorProfile(slug: string): Promise<AuthorProfile | nu
     }
   }
 
-  return { bio, portraitPath };
+  let meta: Record<string, unknown> = {};
+  try {
+    const metaRaw = await fs.readFile(path.join(authorDir, 'metadata.json'), 'utf-8');
+    meta = JSON.parse(metaRaw);
+  } catch {
+    // No metadata file, ok
+  }
+
+  return {
+    bio,
+    portraitPath,
+    birthYear: typeof meta.birthYear === 'number' ? meta.birthYear : null,
+    deathYear: typeof meta.deathYear === 'number' ? meta.deathYear : null,
+    photoCredit: typeof meta.photoCredit === 'string' ? meta.photoCredit : null,
+    photoCreditUrl: typeof meta.photoCreditUrl === 'string' ? meta.photoCreditUrl : null,
+  };
 }
 
 export async function saveAuthorProfile(slug: string, bio: string): Promise<void> {
+  if (!isValidSlug(slug)) throw new Error('Invalid author slug');
   const authorDir = path.join(AUTHORS_DIR, slug);
   await fs.mkdir(authorDir, { recursive: true });
   await fs.writeFile(path.join(authorDir, 'bio.md'), bio, 'utf-8');

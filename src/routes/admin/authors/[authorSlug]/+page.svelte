@@ -60,6 +60,78 @@
             </p>
         </div>
 
+        <!-- Dates -->
+        <div class="grid grid-cols-2 gap-4">
+            <div>
+                <label
+                    for="birthYear"
+                    class="block text-[13px] font-medium text-gray-600 mb-2"
+                >
+                    Birth Year
+                </label>
+                <input
+                    type="number"
+                    id="birthYear"
+                    name="birthYear"
+                    value={data.birthYear ?? ""}
+                    placeholder="e.g. 1809"
+                    class="w-full px-4 py-2.5 text-sm border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-400"
+                />
+            </div>
+            <div>
+                <label
+                    for="deathYear"
+                    class="block text-[13px] font-medium text-gray-600 mb-2"
+                >
+                    Death Year
+                </label>
+                <input
+                    type="number"
+                    id="deathYear"
+                    name="deathYear"
+                    value={data.deathYear ?? ""}
+                    placeholder="e.g. 1849"
+                    class="w-full px-4 py-2.5 text-sm border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-400"
+                />
+            </div>
+        </div>
+
+        <!-- Photo Credit -->
+        <div class="grid grid-cols-2 gap-4">
+            <div>
+                <label
+                    for="photoCredit"
+                    class="block text-[13px] font-medium text-gray-600 mb-2"
+                >
+                    Photo Credit
+                </label>
+                <input
+                    type="text"
+                    id="photoCredit"
+                    name="photoCredit"
+                    value={data.photoCredit ?? ""}
+                    placeholder="e.g. Wikimedia Commons"
+                    class="w-full px-4 py-2.5 text-sm border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-400"
+                />
+            </div>
+            <div>
+                <label
+                    for="photoCreditUrl"
+                    class="block text-[13px] font-medium text-gray-600 mb-2"
+                >
+                    Photo Credit URL
+                </label>
+                <input
+                    type="url"
+                    id="photoCreditUrl"
+                    name="photoCreditUrl"
+                    value={data.photoCreditUrl ?? ""}
+                    placeholder="https://..."
+                    class="w-full px-4 py-2.5 text-sm border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-400"
+                />
+            </div>
+        </div>
+
         <!-- Bio -->
         <div>
             <label

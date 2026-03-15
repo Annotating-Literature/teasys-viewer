@@ -354,11 +354,46 @@
 				>
 					Manage Users
 				</h2>
-				<p class="text[13px] text-gray-500 mt-0.5">
+				<p class="text-[13px] text-gray-500 mt-0.5">
 					Add and remove editor accounts
 				</p>
 			</a>
 		{/if}
+
+		<a
+			href="/admin/pages"
+			class="group block p-5 bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md hover:border-primary-200 hover:-translate-y-0.5 transition-all duration-200"
+		>
+			<div
+				class="w-9 h-9 rounded-lg bg-primary-50 flex items-center justify-center mb-2 text-primary-500"
+			>
+				<svg
+					class="w-5 h-5"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+				>
+					<path
+						d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+					></path>
+					<polyline points="14 2 14 8 20 8"></polyline>
+					<line x1="16" y1="13" x2="8" y2="13"></line>
+					<line x1="16" y1="17" x2="8" y2="17"></line>
+					<polyline points="10 9 9 9 8 9"></polyline>
+				</svg>
+			</div>
+			<h2
+				class="text-base font-semibold text-gray-900 group-hover:text-primary-700 transition-colors"
+			>
+				Manage Pages
+			</h2>
+			<p class="text-[13px] text-gray-500 mt-0.5">
+				Edit standalone CMS pages
+			</p>
+		</a>
 	</div>
 
 	<!-- Author profiles management -->
@@ -368,22 +403,6 @@
 			Add bios and portraits to author pages. Click an author to edit
 			their profile.
 		</p>
-
-		<!-- Create new author -->
-		<form method="POST" action="?/createAuthor" class="flex gap-2 mb-4">
-			<input
-				type="text"
-				name="name"
-				placeholder="New author name..."
-				class="flex-1 px-3 py-2 text-m border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-500"
-			/>
-			<button
-				type="submit"
-				class="px-4 py-2 text-m font-medium text-white bg-primary-600 hover:bg-primary-700 rounded-lg shadow-sm transition-colors"
-			>
-				Add Author
-			</button>
-		</form>
 
 		<div
 			class="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden"

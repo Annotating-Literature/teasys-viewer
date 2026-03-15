@@ -74,8 +74,7 @@
                 >
             </p>
             <p class="text[13px]tone-600 leading-relaxed mt-3">
-                All articles are written by participants of the "Annotating
-                Literature" project (unless stated otherwise). Copyright holder
+                All articles are written by participants of the &ldquo;Annotating-Literature&rdquo; project (unless stated otherwise). Copyright holder
                 is the chair of Prof. Matthias Bauer at the Eberhard Karls
                 University Tuebingen which the project is a part of.
             </p>

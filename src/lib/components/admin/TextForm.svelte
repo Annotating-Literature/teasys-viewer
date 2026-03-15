@@ -1,8 +1,15 @@
 <script lang="ts">
-	let { existingCategories = [] }: { existingCategories?: string[] } =
-		$props();
+	let {
+		existingCategories = [],
+		collections = [],
+	}: {
+		existingCategories?: string[];
+		collections?: Array<{ id: string; title: string }>;
+	} = $props();
 	let showCategorySuggestions = $state(false);
 	let categoryValue = $state("");
+	let typeValue = $state("poetry");
+	let isSubText = $state(false);
 	let submitting = $state(false);
 	let error = $state<string | null>(null);
 
@@ -147,28 +154,85 @@
 				id="type"
 				name="type"
 				required
+				bind:value={typeValue}
 				class="w-full px-3 py-2 text-m border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all bg-white"
 			>
 				<option value="poetry">Poetry</option>
 				<option value="prose">Prose</option>
 				<option value="drama">Drama</option>
+				<option value="collection"
+					>Collection (Book, Anthology, 5-Act Play)</option
+				>
 			</select>
 		</div>
-		<div class="mb-4">
-			<label
-				for="textContent"
-				class="block text[13px] font-medium text-gray-600 mb-1"
-				>Full Text *</label
-			>
-			<textarea
-				id="textContent"
-				name="textContent"
-				required
-				rows="8"
-				placeholder="Paste the full text here..."
-				class="w-full px-3 py-2 text-m border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-500 font-mono"
-			></textarea>
-		</div>
+
+		{#if typeValue !== "collection" && collections.length > 0}
+			<div class="mb-4">
+				<label class="flex items-center gap-2 mb-2 cursor-pointer">
+					<input
+						type="checkbox"
+						bind:checked={isSubText}
+						class="text-primary-600 focus:ring-primary-500 rounded border-gray-300"
+					/>
+					<span class="text-[13px] font-medium text-gray-700"
+						>This text belongs to a larger Collection / Book</span
+					>
+				</label>
+				{#if isSubText}
+					<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
+						<div>
+							<label
+								for="parentId"
+								class="block text-[13px] font-medium text-gray-600 mb-1"
+								>Parent Collection</label
+							>
+							<select
+								id="parentId"
+								name="parentId"
+								required
+								class="w-full px-3 py-2 text-m border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all bg-white"
+							>
+								{#each collections as col}
+									<option value={col.id}>{col.title}</option>
+								{/each}
+							</select>
+						</div>
+						<div>
+							<label
+								for="order"
+								class="block text-[13px] font-medium text-gray-600 mb-1"
+								>Chapter / Act Number</label
+							>
+							<input
+								id="order"
+								type="number"
+								name="order"
+								placeholder="e.g., 1"
+								class="w-full px-3 py-2 text-m border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-500"
+							/>
+						</div>
+					</div>
+				{/if}
+			</div>
+		{/if}
+
+		{#if typeValue !== "collection"}
+			<div class="mb-4">
+				<label
+					for="textContent"
+					class="block text-[13px] font-medium text-gray-600 mb-1"
+					>Full Text *</label
+				>
+				<textarea
+					id="textContent"
+					name="textContent"
+					required
+					rows="8"
+					placeholder="Paste the full text here..."
+					class="w-full px-3 py-2 text-m border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-500 font-mono"
+				></textarea>
+			</div>
+		{/if}
 		<button
 			type="submit"
 			disabled={submitting}

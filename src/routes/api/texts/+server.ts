@@ -30,11 +30,16 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 	const author = data.get('author') as string;
 	const year = Number(data.get('year'));
 	const category = data.get('category') as string;
-	const type = data.get('type') as 'poetry' | 'prose' | 'drama';
-	const textContent = data.get('textContent') as string;
+	const type = data.get('type') as 'poetry' | 'prose' | 'drama' | 'collection';
+	const textContent = (data.get('textContent') as string) || '';
+	const parentId = data.get('parentId') as string | null;
+	const order = Number(data.get('order'));
 
-	if (!title || !author || !type || !textContent || !category) {
+	if (!title || !author || !type || !category) {
 		return json({ error: 'Missing required fields' }, { status: 400 });
+	}
+	if (type !== 'collection' && !textContent) {
+		return json({ error: 'Text content is required for this type' }, { status: 400 });
 	}
 
 	// Generate slug from title, ensure uniqueness
@@ -54,6 +59,8 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 		year: isNaN(year) ? undefined : year,
 		category,
 		type,
+		...(parentId ? { parentId } : {}),
+		...(order && !isNaN(order) ? { order } : {}),
 		createdAt: new Date().toISOString(),
 		updatedAt: new Date().toISOString()
 	};

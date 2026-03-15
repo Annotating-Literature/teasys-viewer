@@ -4,7 +4,9 @@ export interface TextMetadata {
   author: string;
   year?: number;
   category: string;
-  type: 'poetry' | 'prose' | 'drama';
+  type: 'poetry' | 'prose' | 'drama' | 'collection';
+  parentId?: string;
+  order?: number;
   createdAt: string;
   updatedAt: string;
 }
@@ -14,6 +16,8 @@ export interface PoetryLine {
   text: string;
   start: number;
   end: number;
+  indentCount?: number;
+  isDropLine?: boolean;
 }
 
 export interface Poem {

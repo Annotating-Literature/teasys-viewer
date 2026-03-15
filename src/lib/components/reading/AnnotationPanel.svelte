@@ -35,7 +35,7 @@
 		>
 			<div class="flex items-center gap-3">
 				<h2 class="text-lg font-semibold text-gray-900">
-					{annotation.title}
+					"{annotation.anchorText}"
 				</h2>
 			</div>
 			<div class="flex items-center gap-3">

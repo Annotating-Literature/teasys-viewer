@@ -16,7 +16,7 @@
             crumbs={[{ label: "Library", href: "/" }, { label: "Authors" }]}
         />
         <h1
-            class="text-4xl sm:text-5xl font-bold tracking-tight text[13px]tone-900 font-serif leading-tight"
+            class="text-4xl sm:text-5xl font-bold tracking-tight text-gray-900 font-serif leading-tight mb-2"
         >
             Authors
         </h1>
@@ -32,7 +32,7 @@
             class="text-center py-20 border-2 border-dashed border-gray-200 rounded-2xl bg-gray-50/50"
         >
             <svg
-                class="w-12 h-12 mx-auto mb-3 text[13px]tone-400"
+                class="w-12 h-12 mx-auto mb-3 text-stone-400"
                 viewBox="0 0 48 48"
                 fill="none"
                 stroke="currentColor"
@@ -53,12 +53,12 @@
             {#each data.authors as author}
                 <a
                     href={`/authors/${author.slug}`}
-                    class="group block relative p-5 bg-[#faf9f6]/90 backdrop-blur-sm
-					       border border-stone-200/60 rounded-xl
-					       hover:bg-white hover:border-stone-400
+                    class="group block relative p-5 bg-surface-card backdrop-blur-sm
+					       border border-gray-200/60 rounded-xl
+					       hover:bg-surface-elevated hover:border-gray-400
 					       hover:shadow-[2px_2px_12px_-4px_rgba(0,0,0,0.05)]
 					       hover:-translate-y-0.5
-					       transition-all duration-300 ease-out"
+					       transition-[transform,border-color,box-shadow,background-color] duration-300 ease-out"
                 >
                     <div class="flex items-start gap-3.5">
                         {#if author.portraitPath}
@@ -72,21 +72,23 @@
                                 class="w-11 h-11 rounded-lg bg-stone-100 flex items-center justify-center shrink-0 border border-stone-200/50"
                             >
                                 <span
-                                    class="text-base font-serif text[13px]tone-500"
+                                    class="text-base font-serif text-stone-500"
                                     >{author.name[0]}</span
                                 >
                             </div>
                         {/if}
                         <div class="min-w-0">
                             <h2
-                                class="text-base font-semibold text[13px]tone-800 group-hover:text-primary-700 transition-colors font-serif leading-snug"
+                                class="text-lg font-bold text-gray-800 group-hover:text-primary-700 transition-colors font-serif"
                             >
                                 {author.name}
                             </h2>
-                            <p class="text[13px] text[13px]tone-500 mt-1">
+                            <p
+                                class="text-[13px] text-gray-500 mt-1 uppercase tracking-wider font-medium"
+                            >
                                 {author.textCount}
                                 {author.textCount === 1 ? "text" : "texts"}<span
-                                    class="text[13px]tone-400 mx-1">·</span
+                                    class="text-stone-400 mx-1">·</span
                                 >{author.annotationCount}
                                 {author.annotationCount === 1
                                     ? "annotation"

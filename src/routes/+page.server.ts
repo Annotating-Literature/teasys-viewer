@@ -18,11 +18,12 @@ export const load: PageServerLoad = async ({ parent }) => {
 	const groupedTexts: { [key: string]: (TextMetadata & { annotationCount: number })[] } = {
 		poetry: [],
 		prose: [],
-		drama: []
+		drama: [],
+		collection: []
 	};
 
 	for (const text of textsWithCounts) {
-		if (groupedTexts[text.type]) {
+		if (groupedTexts[text.type] && !text.parentId) {
 			groupedTexts[text.type].push(text);
 		}
 	}

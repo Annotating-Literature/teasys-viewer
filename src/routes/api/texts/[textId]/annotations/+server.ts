@@ -1,6 +1,5 @@
 import { json } from '@sveltejs/kit';
 import { listAnnotations, saveAnnotation } from '$lib/server/content';
-import { v4 as uuidv4 } from 'uuid';
 import type { RequestHandler } from './$types';
 
 // GET /api/texts/[textId]/annotations
@@ -22,9 +21,34 @@ export const POST: RequestHandler = async ({ request, locals, params }) => {
 	const data = await request.json();
 
 	try {
+		let finalId = data.id;
+		if (!finalId) {
+			const baseSlug = (data.anchorText || 'annotation')
+				.toLowerCase()
+				.replace(/[^\w\s-]/g, '')
+				.replace(/[\s_]+/g, '-')
+				.replace(/-+/g, '-')
+				.replace(/^-|-$/g, '')
+				.slice(0, 50);
+
+			const existing = await listAnnotations(params.textId);
+			const existingIds = new Set(existing.map((a: any) => a.id));
+
+			let suffix = 1;
+			finalId = baseSlug;
+			while (existingIds.has(finalId)) {
+				suffix++;
+				finalId = `${baseSlug}-${suffix}`;
+			}
+		}
+
+		if (!finalId) {
+			return json({ error: 'Missing ID and anchor text' }, { status: 400 });
+		}
+
 		const newAnnotation = {
 			...data,
-			id: data.id || uuidv4(),
+			id: finalId,
 			authors: data.authors?.length ? data.authors : [locals.user.username],
 			version: data.version ?? 1,
 			createdAt: data.createdAt || new Date().toISOString(),

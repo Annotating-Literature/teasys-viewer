@@ -9,6 +9,11 @@ export const load: PageServerLoad = async ({ locals, params }) => {
 	}
 	try {
 		const text = await getText(params.textId);
+
+		if (text.metadata.type === 'collection') {
+			throw redirect(303, `/texts/${params.textId}`);
+		}
+
 		const annotations = await listAnnotations(params.textId);
 		const parsedText = parseText(text.rawText, text.metadata.type);
 

@@ -37,6 +37,12 @@
 		"zod": "^4.3.6"
 	},
 	"dependencies": {
-		"@fontsource/eb-garamond": "^5.2.7"
+		"@fontsource/eb-garamond": "^5.2.7",
+		"@fontsource/gentium-plus": "^5.2.7",
+		"@fontsource/goudy-bookletter-1911": "^5.2.8",
+		"@fontsource/sorts-mill-goudy": "^5.2.8",
+		"@types/dompurify": "^3.0.5",
+		"dompurify": "^3.3.1",
+		"isomorphic-dompurify": "^3.0.0"
 	}
 }

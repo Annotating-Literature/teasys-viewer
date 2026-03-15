@@ -1,7 +1,6 @@
-import { listTexts, listAnnotations, listAuthorDirectories, createAuthor } from '$lib/server/content';
+import { listTexts, listAnnotations, listAuthorDirectories } from '$lib/server/content';
 import { slugify } from '$lib/utils/slug';
-import { fail, redirect } from '@sveltejs/kit';
-import type { PageServerLoad, Actions } from './$types';
+import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async () => {
     const texts = await listTexts();
@@ -86,18 +85,4 @@ export const load: PageServerLoad = async () => {
     };
 
     return { textsWithAnnotations, extraAuthors, stats };
-};
-
-export const actions: Actions = {
-    createAuthor: async ({ request }) => {
-        const formData = await request.formData();
-        const name = (formData.get('name') as string)?.trim();
-
-        if (!name) {
-            return fail(400, { error: 'Author name is required.' });
-        }
-
-        const slug = await createAuthor(name);
-        throw redirect(303, `/admin/authors/${slug}`);
-    }
 };

@@ -29,7 +29,7 @@
 		const ann = annotations.find((a) => a.id === primaryId);
 		if (!ann) return "";
 		const meta = CATEGORY_META[ann.levels[0].category];
-		return `background-color: ${meta.bg}; border-bottom: 2px solid ${meta.color}40;`;
+		return `background-color: ${meta.color}25; border-bottom: 2px solid ${meta.color}60;`;
 	});
 	// Parse basic inline markdown (*italics*, **bold**) safely
 	const renderInlineMarkdown = (text: string) => {

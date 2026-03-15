@@ -74,6 +74,7 @@
 					data.texts.map((t: any) => t.category).filter(Boolean),
 				),
 			]}
+			collections={data.texts.filter((t: any) => t.type === "collection")}
 		/>
 	</div>
 

@@ -50,11 +50,25 @@ export function parseText(rawText: string, type: 'poetry' | 'prose' | 'drama'): 
 				if (!currentPoem) {
 					currentPoem = { title: 'Untitled', stanzas: [] };
 				}
+
+				// Calculate indentation (leading spaces) to detect drop lines
+				const indentMatch = line.match(/^(\s+)/);
+				const indentCount = indentMatch ? indentMatch[1].length : 0;
+
+				// A line is considered a "drop line" (continuation of the previous line)
+				// if it is indented. If it's a drop line, it shares the same line number.
+				const isDropLine = indentCount > 0 && currentStanza.length > 0;
+				if (!isDropLine) {
+					globalIndex++;
+				}
+
 				currentStanza.push({
-					globalIndex: globalIndex++,
-					text: line,
+					globalIndex: globalIndex - 1,
+					text: line, // Keep original line with spaces
 					start: charOffset,
-					end: charOffset + line.length
+					end: charOffset + line.length,
+					indentCount,
+					isDropLine
 				});
 			}
 			charOffset += lineLength;

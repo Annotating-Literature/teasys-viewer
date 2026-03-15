@@ -1,7 +1,6 @@
 <script lang="ts">
 	import type { PageData } from "./$types";
 	import type { Annotation } from "$lib/types/annotation";
-	import { v4 as uuidv4 } from "uuid";
 	import AnnotatedText from "$lib/components/reading/AnnotatedText.svelte";
 	import AnnotationForm from "$lib/components/editor/AnnotationForm.svelte";
 	import TextSelector from "$lib/components/editor/TextSelector.svelte";
@@ -49,7 +48,7 @@
 			const isNew = !annotation.id;
 			const toSave = {
 				...annotation,
-				id: isNew ? uuidv4() : annotation.id,
+				id: annotation.id || undefined,
 				version: isNew ? 1 : annotation.version,
 				updatedAt: new Date().toISOString(),
 			};

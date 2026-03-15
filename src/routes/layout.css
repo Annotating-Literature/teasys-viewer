@@ -1,13 +1,14 @@
 @import 'tailwindcss';
-@import '@fontsource/eb-garamond/400.css';
-@import '@fontsource/eb-garamond/400-italic.css';
-@import '@fontsource/eb-garamond/500.css';
-@import '@fontsource/eb-garamond/600.css';
-@import '@fontsource/eb-garamond/700.css';
+@import '@fontsource/gentium-plus/400.css';
+@import '@fontsource/gentium-plus/400-italic.css';
+@import '@fontsource/gentium-plus/700.css';
+@import '@fontsource/gentium-plus/700-italic.css';
 @plugin '@tailwindcss/typography';
+@variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --font-serif: "EB Garamond", Georgia, "Times New Roman", serif;
+  --font-serif: "Gentium Plus", Georgia, "Times New Roman", serif;
+  --font-body: "Gentium Plus", Georgia, "Times New Roman", serif;
   --font-sans: ui-sans-serif, system-ui, -apple-system, sans-serif;
 
   /* Rich deep violet palette */
@@ -30,16 +31,42 @@
 
   /* Text */
   --color-text-primary: #1a1a1a;
-  --color-text[13px]econdary: #4a4a4a;
+  --color-text-secondary: #4a4a4a;
   --color-text-muted: #8a8a8a;
 }
 
 @layer base {
   html {
-    font-family: var(--font-sans);
+    font-family: var(--font-body);
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  }
+
+  html.dark {
+    --color-gray-50: #030712;
+    --color-gray-100: #111827;
+    --color-gray-200: #1f2937;
+    --color-gray-300: #374151;
+    --color-gray-400: #4b5563;
+    --color-gray-500: #6b7280;
+    --color-gray-600: #9ca3af;
+    --color-gray-700: #d1d5db;
+    --color-gray-800: #e5e7eb;
+    --color-gray-900: #f3f4f6;
+    --color-gray-950: #f9fafb;
+
+    --color-white: #111827;
+    --color-black: #f9fafb;
+
+    --color-surface: #0a0a0a;
+    --color-surface-warm: #121212;
+    --color-surface-card: #141414;
+    --color-surface-elevated: #1f1f1f;
+
+    --color-text-primary: #ededed;
+    --color-text-secondary: #a3a3a3;
+    --color-text-muted: #737373;
   }
 
   body {
@@ -55,6 +82,10 @@
   ::selection {
     background-color: var(--color-primary-200);
     color: var(--color-primary-900);
+  }
+
+  mark {
+    color: var(--color-text-primary);
   }
 }
 

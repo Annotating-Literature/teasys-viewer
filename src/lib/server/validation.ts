@@ -6,7 +6,9 @@ export const TextMetadataSchema = z.object({
   author: z.string(),
   year: z.number().optional(),
   category: z.string(),
-  type: z.enum(['poetry', 'prose', 'drama']),
+  type: z.enum(['poetry', 'prose', 'drama', 'collection']),
+  parentId: z.string().optional(),
+  order: z.number().optional(),
   createdAt: z.string(),
   updatedAt: z.string(),
 });

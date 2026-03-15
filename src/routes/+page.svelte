@@ -7,11 +7,12 @@
 
 	let { data } = $props();
 
-	const typeOrder = ["poetry", "prose", "drama"] as const;
+	const typeOrder = ["poetry", "prose", "drama", "collection"] as const;
 	const typeLabel: Record<string, string> = {
 		poetry: "Poetry",
 		prose: "Prose",
 		drama: "Drama",
+		collection: "Collections & Extended Texts",
 	};
 
 	// Group texts: type → category → texts
@@ -56,11 +57,8 @@
 <div class="max-w-5xl mx-auto px-6 py-12 md:py-16">
 	<!-- Header -->
 	<div class="mb-14 md:mb-20 relative">
-		<div
-			class="absolute -top-8 -left-12 w-48 h-48 bg-primary-100/30 rounded-full blur-3xl pointer-events-none"
-		></div>
 		<h1
-			class="relative text-4xl sm:text-5xl font-bold tracking-tight text[13px]tone-900 font-serif leading-tight mb-2"
+			class="relative text-4xl sm:text-5xl font-bold tracking-tight text-gray-900 font-serif leading-tight mb-2"
 		>
 			Annotated Literature
 		</h1>
@@ -77,7 +75,7 @@
 			class="text-center py-20 border-2 border-dashed border-gray-200 rounded-2xl bg-gray-50/50"
 		>
 			<svg
-				class="w-14 h-14 mx-auto mb-4 text[13px]tone-400"
+				class="w-14 h-14 mx-auto mb-4 text-gray-400"
 				viewBox="0 0 48 48"
 				fill="none"
 				stroke="currentColor"
@@ -110,13 +108,15 @@
 								<IconQuill class="w-5 h-5 text-gray-500" />
 							{:else if group.type === "prose"}
 								<IconNotebook class="w-5 h-5 text-gray-500" />
-							{:else}
+							{:else if group.type === "drama"}
 								<IconTheatreMasks
 									class="w-5 h-5 text-gray-500"
 								/>
+							{:else}
+								<IconNotebook class="w-5 h-5 text-gray-500" />
 							{/if}
 							<h2
-								class="text-2xl font-serif text[13px]tone-800 tracking-wide"
+								class="text-2xl font-serif text-gray-800 tracking-wide"
 							>
 								{typeLabel[group.type]}
 							</h2>
@@ -130,7 +130,7 @@
 							<div>
 								<div class="flex items-center gap-4 mb-5 pl-1">
 									<h3
-										class="text[13px] font-bold text-gray-500 uppercase tracking-[0.2em]"
+										class="text-[11px] font-bold text-gray-500 uppercase tracking-[0.2em]"
 									>
 										{cat.name}
 									</h3>
@@ -143,15 +143,15 @@
 								>
 									{#each cat.texts as text}
 										<div
-											class="group block relative p-6 bg-[#faf9f6]/90 backdrop-blur-sm
-									       border border-stone-200/60 rounded-xl
-									       hover:bg-white hover:border-stone-400
+											class="group block relative p-6 bg-surface-card backdrop-blur-sm
+									       border border-gray-200/60 rounded-xl
+									       hover:bg-surface-elevated hover:border-gray-400
 									       hover:shadow-[2px_2px_12px_-4px_rgba(0,0,0,0.05)]
 									       hover:-translate-y-0.5
 									       transition-all duration-300 ease-out overflow-hidden"
 										>
 											<h4
-												class="text-base font-semibold text[13px]tone-800 group-hover:text-primary-700 transition-colors leading-snug font-serif"
+												class="text-base font-semibold text-gray-800 group-hover:text-primary-700 transition-colors leading-snug font-serif"
 											>
 												<a
 													href={`/texts/${text.id}`}
@@ -161,7 +161,7 @@
 												</a>
 											</h4>
 											<p
-												class="text-m text[13px]tone-500 mt-2 relative z-10"
+												class="text-m text-gray-500 mt-2 relative z-10"
 											>
 												<a
 													href={`/authors/${slugify(text.author)}`}

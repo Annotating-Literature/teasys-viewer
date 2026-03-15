@@ -7,7 +7,7 @@ import type { PageServerLoad } from './$types';
 export const load: PageServerLoad = async ({ params }) => {
     try {
         const page = await getPage(params.slug);
-        const htmlContent = marked.parse(page.content);
+        const htmlContent = await marked.parse(page.content);
 
         // If this page is one of the main categories, fetch the respective texts
         const categoryTypes = ['poetry', 'prose', 'drama'];

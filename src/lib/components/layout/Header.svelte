@@ -1,10 +1,30 @@
 <script lang="ts">
 	import ThemeToggle from "./ThemeToggle.svelte";
 	import { MAIN_NAV } from "$lib/config/navigation";
-	let { user } = $props();
+	let { user, availableTypes = [] } = $props();
 
 	let activeDropdown = $state<string | null>(null);
 	let isMobileMenuOpen = $state(false);
+
+	const filteredNav = $derived(
+		MAIN_NAV.map((item) => {
+			if (item.label === "The Texts" && item.children) {
+				return {
+					...item,
+					children: item.children.filter((child) => {
+						if (child.label === "Poetry")
+							return availableTypes.includes("poetry");
+						if (child.label === "Drama")
+							return availableTypes.includes("drama");
+						if (child.label === "Prose")
+							return availableTypes.includes("prose");
+						return true;
+					}),
+				};
+			}
+			return item;
+		}),
+	);
 
 	function toggleDropdown(label: string, e: MouseEvent) {
 		e.preventDefault();
@@ -47,7 +67,7 @@
 			</div>
 
 			<nav class="hidden md:flex items-center gap-6">
-				{#each MAIN_NAV as item}
+				{#each filteredNav as item}
 					{#if item.children}
 						<div class="relative nav-dropdown">
 							<button
@@ -183,7 +203,7 @@
 			class="md:hidden border-t border-gray-200 dark:border-gray-800 bg-surface-elevated"
 		>
 			<div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-				{#each MAIN_NAV as item}
+				{#each filteredNav as item}
 					{#if item.children}
 						<div class="px-3 py-2">
 							<div

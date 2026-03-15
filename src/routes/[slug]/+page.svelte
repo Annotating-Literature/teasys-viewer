@@ -18,25 +18,27 @@
         />
     </div>
 
-    <div
-        class="bg-surface-card rounded-xl border border-gray-200/50 shadow-sm p-8 sm:p-12 mb-12"
-    >
-        <article
-            class="prose prose-slate md:prose-lg max-w-none
-			prose-headings:font-serif prose-headings:font-bold prose-headings:text-gray-900 prose-headings:mb-6
-			prose-h1:text-4xl md:prose-h1:text-5xl prose-h1:mb-10
-			prose-h2:text-2xl md:prose-h2:text-3xl prose-h2:mt-12
-			prose-h3:text-xl md:prose-h3:text-2xl prose-h3:mt-8
-			prose-p:text-gray-900 prose-p:leading-relaxed prose-p:mb-6
-			prose-a:text-primary-600 prose-a:no-underline hover:prose-a:underline hover:prose-a:text-primary-700 transition-colors
-			prose-strong:font-semibold prose-strong:text-gray-900
-			prose-ul:list-disc prose-ol:list-decimal prose-li:text-gray-900 prose-li:my-2
-			prose-blockquote:border-l-4 prose-blockquote:border-primary-200 prose-blockquote:pl-6 prose-blockquote:italic prose-blockquote:text-gray-700
-			dark:prose-invert dark:prose-blockquote:border-primary-800"
+    {#if data.htmlContent && data.htmlContent.trim().length > 0}
+        <div
+            class="bg-surface-card rounded-xl border border-gray-200/50 shadow-sm p-8 sm:p-12 mb-12"
         >
-            {@html data.htmlContent}
-        </article>
-    </div>
+            <article
+                class="prose prose-slate md:prose-lg max-w-none
+                prose-headings:font-serif prose-headings:font-bold prose-headings:text-gray-900 prose-headings:mb-6
+                prose-h1:text-4xl md:prose-h1:text-5xl prose-h1:mb-10
+                prose-h2:text-2xl md:prose-h2:text-3xl prose-h2:mt-12
+                prose-h3:text-xl md:prose-h3:text-2xl prose-h3:mt-8
+                prose-p:text-gray-900 prose-p:leading-relaxed prose-p:mb-6
+                prose-a:text-primary-600 prose-a:no-underline hover:prose-a:underline hover:prose-a:text-primary-700 transition-colors
+                prose-strong:font-semibold prose-strong:text-gray-900
+                prose-ul:list-disc prose-ol:list-decimal prose-li:text-gray-900 prose-li:my-2
+                prose-blockquote:border-l-4 prose-blockquote:border-primary-200 prose-blockquote:pl-6 prose-blockquote:italic prose-blockquote:text-gray-700
+                dark:prose-invert dark:prose-blockquote:border-primary-800"
+            >
+                {@html data.htmlContent}
+            </article>
+        </div>
+    {/if}
 
     {#if data.categoryTexts && data.categoryTexts.length > 0}
         <div class="mt-16">

@@ -46,7 +46,7 @@ export async function getPage(slug: string): Promise<{ metadata: PageMetadata; c
     }
 }
 
-export async function savePage(slug: string, title: string, content: string): Promise<PageMetadata> {
+export async function savePage(slug: string, title: string, content: string, menu: boolean = true, parent: string = ""): Promise<PageMetadata> {
     const pageDir = path.join(PAGES_DIR, slug);
     await fs.mkdir(pageDir, { recursive: true });
 
@@ -60,12 +60,16 @@ export async function savePage(slug: string, title: string, content: string): Pr
         const metaRaw = await fs.readFile(metaPath, 'utf-8');
         metadata = JSON.parse(metaRaw);
         metadata.title = title;
+        metadata.menu = menu;
+        metadata.parent = parent || undefined;
         metadata.updatedAt = new Date().toISOString();
     } catch {
         // Create new
         metadata = {
             id: slug,
             title,
+            menu,
+            parent: parent || undefined,
             createdAt: new Date().toISOString(),
             updatedAt: new Date().toISOString()
         };

@@ -8,7 +8,17 @@ import type { PageServerLoad } from './$types';
 export const load: PageServerLoad = async ({ params }) => {
     try {
         const page = await getPage(params.slug);
-        const rawHtml = await marked.parse(page.content);
+        
+        const applySmartQuotes = (text: string) => {
+            return text
+                .replace(/(^|[-\u2014\s(\["])'/g, "$1\u2018")      // opening singles
+                .replace(/'/g, "\u2019")                          // closing singles & apostrophes
+                .replace(/(^|[-\u2014/\[(\u2018\s])"/g, "$1\u201c") // opening doubles
+                .replace(/"/g, "\u201d");                         // closing doubles
+        };
+
+        const processedContent = applySmartQuotes(page.content);
+        const rawHtml = await marked.parse(processedContent);
         const htmlContent = DOMPurify.sanitize(rawHtml);
 
         // If this page is one of the main categories, fetch the respective texts

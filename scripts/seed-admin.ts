@@ -1,4 +1,4 @@
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import Database from 'better-sqlite3';
 import path from 'path';
 
@@ -17,7 +17,7 @@ const password = passwordArg.split('=')[1];
 async function seed() {
   const dbPath = path.resolve('data', 'teasys.db');
   const db = new Database(dbPath);
-  
+
   db.exec(`
     CREATE TABLE IF NOT EXISTS users (
       id       INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -27,9 +27,9 @@ async function seed() {
       created_at TEXT NOT NULL DEFAULT (datetime('now'))
     );
   `);
-  
+
   const hash = await bcrypt.hash(password, 10);
-  
+
   try {
     const stmt = db.prepare('INSERT INTO users (username, password_hash, role) VALUES (?, ?, ?)');
     stmt.run(username, hash, 'admin');

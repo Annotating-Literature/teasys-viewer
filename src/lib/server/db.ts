@@ -1,5 +1,8 @@
-import Database from 'better-sqlite3';
+import { createRequire } from 'module';
 import path from 'path';
+
+const require = createRequire(import.meta.url);
+const Database = require('better-sqlite3') as typeof import('better-sqlite3').default;
 
 const dbPath = path.resolve('data', 'teasys.db');
 const db = new Database(dbPath);

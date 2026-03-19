@@ -4,11 +4,15 @@ import type { PageServerLoad, Actions } from './$types';
 import { hashPassword } from '$lib/server/auth';
 
 export const load: PageServerLoad = async ({ locals }) => {
-	if (locals.user?.role !== 'admin') {
+	if (!locals.user) {
 		throw redirect(303, '/');
 	}
-	const users = db.prepare('SELECT id, username, role FROM users').all();
-	return { users };
+	// Give admins all users, give editors only themselves
+	const users = locals.user.role === 'admin' 
+		? db.prepare('SELECT id, username, role FROM users').all()
+		: db.prepare('SELECT id, username, role FROM users WHERE id = ?').all(locals.user.id);
+		
+	return { users, currentUser: locals.user };
 };
 
 export const actions: Actions = {
@@ -41,6 +45,35 @@ export const actions: Actions = {
 		} catch (e) {
 			return fail(500, { message: 'Failed to delete user' });
 		}
+		return { success: true };
+	},
+	changePassword: async ({ request, locals }) => {
+		if (!locals.user) return fail(401, { message: 'Unauthorized' });
+
+		const data = await request.formData();
+		const id = data.get('id') as string;
+		const newPassword = data.get('new_password') as string;
+
+		if (!id || !newPassword) {
+			return fail(400, { message: 'Missing fields' });
+		}
+
+		// Authorization: Admins can change anyone's. Editors can only change their own.
+		if (locals.user.role !== 'admin' && locals.user.id.toString() !== id) {
+			return fail(403, { message: 'Forbidden: You can only change your own password' });
+		}
+
+		if (newPassword.length < 6) {
+			return fail(400, { message: 'Password must be at least 6 characters.' });
+		}
+
+		try {
+			const passwordHash = await hashPassword(newPassword);
+			db.prepare('UPDATE users SET password_hash = ? WHERE id = ?').run(passwordHash, id);
+		} catch (e) {
+			return fail(500, { message: 'Failed to change password' });
+		}
+		
 		return { success: true };
 	}
 };

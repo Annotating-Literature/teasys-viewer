@@ -2,6 +2,7 @@
 	import type { PageData } from "./$types";
 	import AnnotatedText from "$lib/components/reading/AnnotatedText.svelte";
 	import AnnotationEntry from "$lib/components/reading/AnnotationEntry.svelte";
+	import AnnotationPickerModal from "$lib/components/reading/AnnotationPickerModal.svelte";
 	import Breadcrumbs from "$lib/components/layout/Breadcrumbs.svelte";
 	import { slugify } from "$lib/utils/slug";
 	import { CATEGORY_META } from "$lib/constants";
@@ -10,6 +11,12 @@
 
 	let activeAnnotationId = $state<string | null>(null);
 	let selectedCategory = $state<string>("All");
+	let activeAnnotationLevelId = $state<number | null>(null); // For collapsing/expanding levels in the right pane
+
+	// Picker Modal State
+	let pickerAnnotations = $state<any[]>([]);
+	let pickerPosition = $state<{ x: number; y: number } | null>(null);
+	let pickerTitle = $state<string>("");
 
 	const activeAnnotation = $derived(
 		data.annotations.find((a) => a.id === activeAnnotationId) ?? null,
@@ -70,21 +77,37 @@
 		) as string[];
 		if (ids.length === 0) return;
 
-		if (ids.length === 1) {
-			activeAnnotationId = ids[0];
-		} else {
-			// Click-to-cycle UX for overlapping annotations
-			if (activeAnnotationId && ids.includes(activeAnnotationId)) {
-				const currentIndex = ids.indexOf(activeAnnotationId);
-				activeAnnotationId = ids[(currentIndex + 1) % ids.length];
-			} else {
-				activeAnnotationId = ids[0];
-			}
-		}
+		// Show picker modal
+		const rect = segmentNode.getBoundingClientRect();
+		
+		// Modal is 256px wide (w-64). Prevent flowing off screen.
+		const modalPxWidth = 256;
+		const maxLeft = window.innerWidth - modalPxWidth - 16;
+		const xPos = Math.min(rect.right + 12, maxLeft);
+
+		pickerPosition = {
+			x: xPos,
+			y: rect.top, // Align top with the segment, position to the right
+		};
+		pickerAnnotations = data.annotations.filter((a) => ids.includes(a.id));
+		pickerTitle = pickerAnnotations[0]?.anchorText || 'Annotation Picker';
+	}
+
+	function closePicker() {
+		pickerPosition = null;
+		pickerAnnotations = [];
+		pickerTitle = "";
+	}
+
+	function handlePickerSelect(id: string, levelNum: number) {
+		activeAnnotationId = id;
+		activeAnnotationLevelId = levelNum;
+		closePicker();
 	}
 
 	function closePanels() {
 		activeAnnotationId = null;
+		activeAnnotationLevelId = null;
 	}
 </script>
 
@@ -97,7 +120,17 @@
 	/>
 </svelte:head>
 
-<div class="max-w-7xl mx-auto px-6 py-10">
+<div class="max-w-7xl mx-auto px-6 py-10 relative">
+	{#if pickerPosition && pickerAnnotations.length > 0}
+		<AnnotationPickerModal
+			annotations={pickerAnnotations}
+			position={pickerPosition}
+			title={pickerTitle}
+			onSelect={handlePickerSelect}
+			onClose={closePicker}
+		/>
+	{/if}
+
 	<!-- Header -->
 	<div class="mb-8">
 		<Breadcrumbs
@@ -217,11 +250,10 @@
 		<div class="flex gap-6 items-start">
 			<!-- Left: Text -->
 			<div class="flex-1 min-w-0">
-				<!-- svelte-ignore a11y_click_events_have_key_events -->
-				<!-- svelte-ignore a11y_no_static_element_interactions -->
 				<div
 					class="bg-surface-card rounded-xl border border-gray-200/50 shadow-sm p-8 sm:p-10"
 					onclick={handleSegmentClick}
+					role="presentation"
 				>
 					<AnnotatedText
 						rawText={data.text.rawText}
@@ -309,8 +341,10 @@
 								<AnnotationEntry
 									annotation={activeAnnotation}
 									allAnnotations={data.annotations}
-									onCrossRefClick={(id) => {
+									expandedLevel={activeAnnotationLevelId}
+									onCrossRefClick={(id: string) => {
 										activeAnnotationId = id;
+										activeAnnotationLevelId = null;
 									}}
 								/>
 							</div>
@@ -350,6 +384,7 @@
 										class="w-full text-left px-5 py-3 hover:bg-gray-50/80 focus:outline-none focus:bg-primary-50 focus:ring-2 focus:ring-inset focus:ring-primary-400 transition-colors"
 										onclick={() => {
 											activeAnnotationId = ann.id;
+											activeAnnotationLevelId = null;
 										}}
 									>
 										<div

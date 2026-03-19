@@ -55,12 +55,11 @@ export function parseText(rawText: string, type: 'poetry' | 'prose' | 'drama'): 
 				const indentMatch = line.match(/^(\s+)/);
 				const indentCount = indentMatch ? indentMatch[1].length : 0;
 
-				// A line is considered a "drop line" (continuation of the previous line)
-				// if it is indented. If it's a drop line, it shares the same line number.
-				const isDropLine = indentCount > 0 && currentStanza.length > 0;
-				if (!isDropLine) {
-					globalIndex++;
-				}
+				// A line is considered a "drop line" only through manual metadata or extreme context.
+				// For now, treat all visual indentations as standard poetic lines to preserve correct numbering.
+				const isDropLine = false; 
+				
+				globalIndex++;
 
 				currentStanza.push({
 					globalIndex: globalIndex - 1,

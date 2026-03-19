@@ -4,6 +4,7 @@
 	import AnnotatedText from "$lib/components/reading/AnnotatedText.svelte";
 	import AnnotationForm from "$lib/components/editor/AnnotationForm.svelte";
 	import TextSelector from "$lib/components/editor/TextSelector.svelte";
+	import { CATEGORY_META } from "$lib/constants";
 
 	let { data } = $props();
 	let selectedAnnotation = $state<Annotation | null>(null);
@@ -101,6 +102,19 @@
 		newAnnotationAnchor = null;
 		error = null;
 	}
+
+	const titleAnnotations = $derived(
+		data.annotations.filter((a) => a.anchorStart < 0),
+	);
+
+	const titleStyle = $derived.by(() => {
+		if (titleAnnotations.length === 0) return "";
+		const active = titleAnnotations.find((a) => a.id === selectedAnnotation?.id);
+		const ann = active || titleAnnotations[0];
+		const meta = CATEGORY_META[ann.levels[0]?.category];
+		if (!meta) return "";
+		return `background-color: ${meta.color}25; border-bottom: 2px solid ${meta.color}60;`;
+	});
 
 	function handleTextSelect(sel: {
 		text: string;
@@ -245,9 +259,10 @@
 			>
 				<TextSelector onSelect={handleTextSelect}>
 					<h2
-						class="text-2xl font-semibold text-gray-900 mb-6 font-serif"
+						class="text-2xl font-semibold text-gray-900 mb-6 font-serif rounded-sm px-1"
 						data-start={-data.text.metadata.title.length}
 						data-end={0}
+						style={titleStyle}
 					>
 						{data.text.metadata.title}
 					</h2>

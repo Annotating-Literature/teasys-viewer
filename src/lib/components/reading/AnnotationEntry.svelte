@@ -7,12 +7,30 @@
 	let {
 		annotation,
 		allAnnotations = [],
+		expandedLevel = null,
 		onCrossRefClick,
 	}: {
 		annotation: Annotation;
 		allAnnotations?: Annotation[];
+		expandedLevel?: number | null;
 		onCrossRefClick?: (annotationId: string) => void;
 	} = $props();
+
+	// Set keeping track of horizontally expanded levels (e.g. Set(1, 2) means level 1 and 2 are open)
+	// Default to expandedLevel if provided, otherwise empty (all closed)
+	let expandedLevels = $state<Set<number>>(new Set());
+
+	// When expandedLevel prop changes, update the internal state
+	$effect(() => {
+		expandedLevels = new Set(expandedLevel ? [expandedLevel] : []);
+	});
+
+	function toggleLevel(levelNum: number) {
+		const next = new Set(expandedLevels);
+		if (next.has(levelNum)) next.delete(levelNum);
+		else next.add(levelNum);
+		expandedLevels = next;
+	}
 
 	// Find annotations that are strictly enclosed by this one
 	const enclosedAnnotations = $derived(
@@ -170,43 +188,60 @@
 	<!-- Levels -->
 	{#each annotation.levels as level, i (i)}
 		<div class="mb-5 last:mb-0">
-			<div class="flex items-center gap-2 mb-2">
+			<button
+				type="button"
+				class="w-full flex items-center gap-2 mb-2 cursor-pointer hover:bg-gray-50/50 p-1.5 -ml-1.5 rounded-lg transition-colors group focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-500"
+				onclick={() => toggleLevel(level.level)}
+				aria-expanded={expandedLevels.has(level.level)}
+				aria-controls={`level-content-${i}`}
+			>
 				<span
-					class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-gray-100 text-[11px] font-bold text-gray-500"
+					class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-gray-100 text-[11px] font-bold text-gray-500 group-hover:bg-gray-200 transition-colors"
 				>
 					{level.level}
 				</span>
 				<CategoryBadge category={level.category} />
-			</div>
-			<!-- svelte-ignore a11y_click_events_have_key_events -->
-			<!-- svelte-ignore a11y_no_static_element_interactions -->
-			<div
-				class="prose max-w-none text-[13px] text-gray-700 leading-relaxed prose-p:text-[13px] prose-p:text-gray-700 prose-strong:text-gray-800 prose-a:text-primary-600 prose-li:text-[13px]"
-				onclick={handleBodyClick}
-			>
-				{@html renderBody(level.body)}
-			</div>
-			{#if level.worksCited.length > 0}
-				<div class="mt-3 pt-3 border-t border-gray-100">
-					<h5
-						class="text-[11px] font-semibold text-gray-500 uppercase tracking-widest mb-1.5"
-					>
-						Works Cited
-					</h5>
-					<ul class="text-[13px] text-gray-500 space-y-1">
-						{#each level.worksCited as work}
-							<li
-								class="pl-3 relative before:content-[''] before:absolute before:left-0 before:top-1.5 before:w-1 before:h-1 before:rounded-full before:bg-gray-500"
-							>
-								{@html renderWorkCited(work)}
-							</li>
-						{/each}
-					</ul>
+				
+				<!-- Chevron icon -->
+				<span class="ml-auto text-gray-400 group-hover:text-gray-600 transition-transform duration-200 {expandedLevels.has(level.level) ? 'rotate-180' : ''}">
+					<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+						<path d="m6 9 6 6 6-6"/>
+					</svg>
+				</span>
+			</button>
+			
+			{#if expandedLevels.has(level.level)}
+				<div
+					id={`level-content-${i}`}
+					class="prose max-w-none text-[13px] text-gray-700 leading-relaxed prose-p:text-[13px] prose-p:text-gray-700 prose-strong:text-gray-800 prose-a:text-primary-600 prose-li:text-[13px] mt-3"
+					onclick={handleBodyClick}
+					role="presentation"
+				>
+					{@html renderBody(level.body)}
 				</div>
+				{#if level.worksCited && level.worksCited.length > 0}
+					<div class="mt-3 pt-3 border-t border-gray-100">
+						<h5
+							class="text-[11px] font-semibold text-gray-500 uppercase tracking-widest mb-1.5"
+						>
+							Works Cited
+						</h5>
+						<ul class="text-[13px] text-gray-500 space-y-1">
+							{#each level.worksCited as work}
+								<li
+									class="pl-3 relative before:content-[''] before:absolute before:left-0 before:top-1.5 before:w-1 before:h-1 before:rounded-full before:bg-gray-500"
+								>
+									{@html renderWorkCited(work)}
+								</li>
+							{/each}
+						</ul>
+					</div>
+				{/if}
 			{/if}
 		</div>
 		{#if i < annotation.levels.length - 1}
-			<hr class="border-gray-100 mb-5" />
+			<!-- A thicker, more visible separator between levels -->
+			<hr class="border-t-[1.5px] border-dashed border-gray-200 my-5 opacity-70" />
 		{/if}
 	{/each}
 </div>

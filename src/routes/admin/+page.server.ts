@@ -56,8 +56,12 @@ export const load: PageServerLoad = async () => {
         ? Math.round((allAnnotations.length / texts.length) * 10) / 10
         : 0;
 
-    // Cross-references count
-    const totalCrossRefs = allAnnotations.reduce((sum, ann) => sum + ann.crossRefs.length, 0);
+    // Cross-references count using regex on bodies
+    const totalCrossRefs = allAnnotations.reduce((sum, ann) => {
+        const fullBody = ann.levels.map((l) => l.body).join('\n');
+        const matches = fullBody.match(/\[\[([^\]]+)\]\]/g);
+        return sum + (matches ? matches.length : 0);
+    }, 0);
 
     // Works cited count
     const totalWorksCited = allAnnotations.reduce((sum, ann) =>

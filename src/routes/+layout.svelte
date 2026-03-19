@@ -6,6 +6,6 @@
 	let { data, children } = $props();
 </script>
 
-<PageShell user={data.user} availableTypes={data.availableTypes}>
+<PageShell user={data.user} availableTypes={data.availableTypes} pages={data.pages}>
 	{@render children()}
 </PageShell>

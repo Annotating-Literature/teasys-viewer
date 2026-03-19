@@ -23,13 +23,13 @@ export const POST: RequestHandler = async ({ request, locals, params }) => {
 	try {
 		let finalId = data.id;
 		if (!finalId) {
-			const baseSlug = (data.anchorText || 'annotation')
+			const baseSlug = ((data.anchorText || 'annotation')
 				.toLowerCase()
 				.replace(/[^\w\s-]/g, '')
 				.replace(/[\s_]+/g, '-')
 				.replace(/-+/g, '-')
 				.replace(/^-|-$/g, '')
-				.slice(0, 50);
+				.slice(0, 50)) || 'annotation';
 
 			const existing = await listAnnotations(params.textId);
 			const existingIds = new Set(existing.map((a: any) => a.id));

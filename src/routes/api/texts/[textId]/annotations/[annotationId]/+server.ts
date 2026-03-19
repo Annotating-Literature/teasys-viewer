@@ -23,12 +23,6 @@ export const PUT: RequestHandler = async ({ request, locals, params }) => {
 	try {
 		const existing = await getAnnotation(params.textId, params.annotationId);
 
-		// Check ownership: allow if user is an author or admin
-		const isOwner = existing.authors?.includes(locals.user.username);
-		if (!isOwner && locals.user.role !== 'admin') {
-			return json({ error: 'Forbidden' }, { status: 403 });
-		}
-
 		const updatedAnnotation = {
 			...existing,
 			...data,
@@ -54,13 +48,6 @@ export const DELETE: RequestHandler = async ({ locals, params }) => {
 	}
 
 	try {
-		const existing = await getAnnotation(params.textId, params.annotationId);
-
-		const isOwner = existing.authors?.includes(locals.user.username);
-		if (!isOwner && locals.user.role !== 'admin') {
-			return json({ error: 'Forbidden' }, { status: 403 });
-		}
-
 		await deleteAnnotation(params.textId, params.annotationId);
 		return new Response(null, { status: 204 });
 	} catch (error) {

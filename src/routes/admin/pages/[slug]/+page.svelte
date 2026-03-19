@@ -8,6 +8,9 @@
 
     let title = $state("");
     let content = $state("");
+    // Default menu to true for new pages, or fallback to true if undefined
+    let menu = $state(true); 
+    let parent = $state("");
     let saving = $state(false);
 
     let fileInput = $state<HTMLInputElement | null>(null);
@@ -17,6 +20,8 @@
     $effect(() => {
         title = data.page?.title || "";
         content = data.content || "";
+        menu = data.page?.menu ?? true;
+        parent = data.page?.parent || "";
     });
 
     const isNew = $derived($page.params.slug === "new");
@@ -121,6 +126,53 @@
                         Slug: <code>/{data.page?.id}</code>
                     {/if}
                 </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-4 bg-gray-50/50 rounded-lg border border-gray-100">
+                <div>
+                    <label class="flex items-center gap-3 cursor-pointer h-full pt-1">
+                        <div class="relative flex items-center">
+                            <input 
+                                type="checkbox" 
+                                name="menu" 
+                                id="menu"
+                                bind:checked={menu}
+                                class="sr-only peer"
+                            />
+                            <div class="w-10 h-5.5 bg-gray-200 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-primary-500/20 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4.5 after:w-4.5 after:transition-all dark:border-gray-600 peer-checked:bg-primary-600"></div>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="text-sm font-medium text-gray-700">Display in Navigation Menu</span>
+                            <span class="text-[12px] text-gray-500">If disabled, page is only accessible via direct link.</span>
+                        </div>
+                    </label>
+                </div>
+
+                <div>
+                    <label
+                        for="parent"
+                        class="block text-sm font-medium text-gray-700 mb-1"
+                    >
+                        Parent Page
+                    </label>
+                    <select
+                        id="parent"
+                        name="parent"
+                        bind:value={parent}
+                        disabled={!menu}
+                        class="w-full px-4 py-2 text-m border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all font-serif bg-white disabled:bg-gray-50 disabled:text-gray-400"
+                    >
+                        <option value="">None (Top Level)</option>
+                        {#if data.allPages}
+                            {#each data.allPages.filter(p => p.id !== data.page?.id) as p}
+                                <option value={p.id}>{p.title}</option>
+                            {/each}
+                        {/if}
+                    </select>
+                    <p class="mt-1.5 text-[12px] text-gray-500">
+                        Nest this page under another in the menu dropdown.
+                    </p>
+                </div>
             </div>
 
             <div>

@@ -1,6 +1,7 @@
 # TEASys Viewer — Complete Implementation Plan
 
 ## Stack
+
 - SvelteKit + adapter-node
 - TypeScript
 - Tailwind CSS
@@ -121,6 +122,7 @@ teasys-viewer/
 ## Data Models
 
 ### TextMetadata (metadata.json)
+
 ```typescript
 interface TextMetadata {
   id: string;
@@ -134,6 +136,7 @@ interface TextMetadata {
 ```
 
 ### Annotation ([annotationId].json)
+
 ```typescript
 type Category =
   | 'language' | 'form' | 'intratextuality' | 'intertextuality'
@@ -154,7 +157,7 @@ interface CrossRef {
 }
 
 interface Annotation {
-  id: string;            // UUID
+  id: string;            // slug based on annotated text
   title: string;         // short label, e.g. "chum"
   anchorText: string;    // exact quoted text from primary source
   anchorStart: number;   // char offset in text.txt
@@ -168,6 +171,7 @@ interface Annotation {
 ```
 
 ### Users (SQLite)
+
 ```sql
 CREATE TABLE users (
   id       INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -188,6 +192,7 @@ CREATE TABLE sessions (
 ### Text file format
 
 **Poetry (text.txt)**
+
 ```
 ## Trench Poets
 
@@ -199,9 +204,11 @@ and would not brush the flies away,
 
 Shall I compare thee to a summer's day?
 ```
+
 Parsed into: poem title → stanzas (blank-line separated) → lines (numbered globally)
 
 **Prose (text.txt)**
+
 ```
 ## Chapter 1
 
@@ -213,9 +220,11 @@ The second paragraph begins here.
 
 Another chapter opens.
 ```
+
 Parsed into: chapter → paragraphs
 
 **Drama (text.txt)**
+
 ```
 ## Act 1, Scene 1
 
@@ -227,6 +236,7 @@ To be or not to be, that is the question.
 OPHELIA:
 My lord—
 ```
+
 Parsed into: act/scene → blocks (stage direction or speech with speaker label)
 
 ---
@@ -236,6 +246,7 @@ Parsed into: act/scene → blocks (stage direction or speech with speaker label)
 **Goal**: Runnable skeleton, all deps installed, directory structure in place.
 
 Tasks:
+
 1. `npm create svelte@latest teasys-viewer` (TypeScript, no demo pages)
 2. Install all dependencies:
    - `@sveltejs/adapter-node`
@@ -261,6 +272,7 @@ Tasks:
 **Goal**: Login/logout working, session persisted in cookie, hooks protecting routes.
 
 Files to create:
+
 - `src/lib/server/db.ts` — open SQLite at `data/teasys.db`, run init SQL on first open
 - `src/lib/server/auth.ts`:
   - `hashPassword(plain)` → bcrypt
@@ -297,14 +309,18 @@ Files to create:
 **Goal**: All filesystem operations abstracted, text parsed into structured form, Zod validation enforced on read.
 
 ### `src/lib/server/validation.ts`
+
 Zod schemas for:
+
 - `TextMetadataSchema`
 - `AnnotationLevelSchema` (validates Interpretation cannot be level 1)
 - `AnnotationSchema`
 - `CrossRefSchema`
 
 ### `src/lib/server/content.ts`
+
 Functions:
+
 - `listTexts()` → reads all `content/texts/*/metadata.json`, returns `TextMetadata[]`
 - `getText(textId)` → returns `{ metadata, rawText }`
 - `listAnnotations(textId)` → reads all JSON in `content/texts/[textId]/annotations/`
@@ -317,6 +333,7 @@ Functions:
 All functions validate with Zod on read, throw typed errors on invalid data.
 
 ### `src/lib/server/textParser.ts`
+
 - `parseText(rawText, type)` → returns `ParsedText`
 - `ParsedText` is a union:
   - Poetry: `{ type: 'poetry', poems: Poem[] }` where `Poem = { title, stanzas: Line[][] }`
@@ -325,7 +342,9 @@ All functions validate with Zod on read, throw typed errors on invalid data.
 - Each line/paragraph/block has a `globalIndex` (sequential integer across whole text) used to anchor annotations and for line numbers in TEI.
 
 ### `src/lib/types/`
+
 Full TypeScript interfaces for all data models (as defined in Data Models section above). Also export `AppLocals`:
+
 ```typescript
 // in app.d.ts
 declare namespace App {
@@ -344,6 +363,7 @@ declare namespace App {
 **Goal**: Public reading view with annotated text, clickable spans, annotation panel.
 
 ### `src/lib/constants.ts`
+
 ```typescript
 export const CATEGORIES = ['language', 'form', 'intratextuality', 'intertextuality',
   'context', 'interpretation', 'textual-variants', 'questions'] as const;
@@ -364,7 +384,9 @@ export const LEVEL_1_ALLOWED_CATEGORIES = CATEGORIES.filter(c => c !== 'interpre
 ```
 
 ### `src/lib/utils/spanSplitter.ts`
+
 Algorithm:
+
 1. Collect all annotation `anchorStart` / `anchorEnd` as breakpoints (plus 0 and text.length)
 2. Sort breakpoints
 3. For each adjacent pair `[a, b]`, find all annotations where `start <= a && end >= b`
@@ -375,6 +397,7 @@ This correctly handles: containment, partial overlap, identical spans, adjacent 
 ### Components
 
 **`TextSegment.svelte`**
+
 - Props: `segment: TextSegment`, `annotations: Annotation[]`, `activeAnnotationId: string | null`
 - If `annotationIds.length === 0`: render plain text
 - If `annotationIds.length === 1`: render `<mark>` with category color from first level of L1 annotation
@@ -382,12 +405,14 @@ This correctly handles: containment, partial overlap, identical spans, adjacent 
 - `on:click` → dispatch event with `annotationIds` to parent
 
 **`AnchorPicker.svelte`**
+
 - Shown when click returns `annotationIds.length > 1`
 - Positioned near click point
 - Lists each annotation: `[CategoryBadge] "[anchorText]" — [annotation title]`
 - Click one → close picker, open AnnotationPanel for that ID
 
 **`AnnotationPanel.svelte`**
+
 - Slides in from right as a fixed sidebar (or bottom sheet on mobile)
 - Header: annotation title + anchor quoted text
 - Shows all levels in order (L1, L2, L3)
@@ -397,12 +422,14 @@ This correctly handles: containment, partial overlap, identical spans, adjacent 
 - If user is editor: shows "Edit" button linking to annotate view
 
 **`FilterBar.svelte`**
+
 - Toggle buttons for L1/L2/L3 (multi-select)
 - Toggle buttons for each of the 8 categories (multi-select)
 - "Show all" / "Clear" controls
 - Filtered state passed down to `AnnotatedText` which dims non-matching highlights
 
 **`AnnotatedText.svelte`**
+
 - Receives `parsedText`, `annotations`, `filters`
 - Calls `splitIntoSegments` with the raw text and annotation spans
 - For poetry: renders line numbers + `TextSegment` per line; line-level structure preserved
@@ -410,10 +437,12 @@ This correctly handles: containment, partial overlap, identical spans, adjacent 
 - For drama: renders speaker label / stage direction styling; span splitter per block
 
 **`src/routes/+page.svelte`** (library)
+
 - Grid of text cards: title, author, year, type badge, annotation count
 - Link to reading view
 
 **`src/routes/texts/[textId]/+page.svelte`**
+
 - Layout: narrow text column (max ~65ch) + collapsible right sidebar
 - Header: title, author, "Annotate" button (shown only to editors)
 - FilterBar at top of text column
@@ -431,6 +460,7 @@ This correctly handles: containment, partial overlap, identical spans, adjacent 
 ### Text Selection Mechanism (`TextSelector.svelte`)
 
 In annotate mode the text renders identically to the reading view, but:
+
 1. `mouseup` event listener on the text container
 2. `window.getSelection()` → extract selected text + compute char offsets relative to raw `text.txt` content (not DOM positions — needs a position mapping from segment layout)
 3. Selection highlights in a neutral "pending" color
@@ -442,6 +472,7 @@ In annotate mode the text renders identically to the reading view, but:
 ### `AnnotationForm.svelte`
 
 State:
+
 ```
 title: string
 anchorText: string (read-only, from selection)
@@ -453,6 +484,7 @@ crossRefs: CrossRef[]
 ```
 
 Layout:
+
 - **Top**: Quoted anchor text in a styled block (read-only confirmation of what is being annotated)
 - **Title field**: Short label for the annotation
 - **Level tabs**: "Level 1" (always), "Level 2" (add button), "Level 3" (add button, only if L2 exists)
@@ -468,18 +500,21 @@ Layout:
 - **Actions**: Save / Cancel / Delete (if editing existing)
 
 ### `MarkdownEditor.svelte`
+
 - Plain `<textarea>` for input, renders Markdown preview alongside or below
 - Supports Bold, Italic, Link, Lists, Blockquote via Markdown syntax
 - `bind:value` — gets/sets Markdown string
 - Shows placeholder: "Write your annotation here (Markdown supported)…"
 
 ### `WorksCitedEditor.svelte`
+
 - Array of plain text inputs
 - "Add source" button adds empty input
 - "×" button on each removes it
 - Pre-fills with OED citation format hint as placeholder
 
 ### Validation (client-side, before POST)
+
 - Title must not be empty
 - At least one level with a category and non-empty body
 - Interpretation cannot be on level 1 (enforced in CategorySelect — option is disabled)
@@ -487,6 +522,7 @@ Layout:
 - Works Cited: at least one entry per level (warn but don't block)
 
 ### `src/routes/texts/[textId]/annotate/+page.svelte`
+
 - Same layout as reading view but with `TextSelector` wrapper
 - Sidebar: list of all existing annotations (sortable by position / date)
   - Click existing annotation → load into `AnnotationForm` for editing
@@ -504,15 +540,18 @@ Layout:
 All routes in `src/routes/api/`:
 
 ### `texts/+server.ts`
+
 - `GET` → `listTexts()` — public
 - `POST` → create new text (auth required, admin only): validate body with Zod, call `saveTextMetadata` + `saveTextContent`
 
 ### `texts/[textId]/+server.ts`
+
 - `GET` → `getText(textId)` — public
 - `PUT` → update metadata (admin only)
 - `DELETE` → delete entire text + all annotations + TEI file (admin only)
 
 ### `texts/[textId]/annotations/+server.ts`
+
 - `GET` → `listAnnotations(textId)` — public
 - `POST` → create annotation (auth required):
   - Parse + validate body with `AnnotationSchema`
@@ -522,11 +561,13 @@ All routes in `src/routes/api/`:
   - Return saved annotation
 
 ### `texts/[textId]/annotations/[annotationId]/+server.ts`
+
 - `GET` → `getAnnotation` — public
 - `PUT` → update (auth required, must be original author OR admin)
 - `DELETE` → delete (auth required, must be original author OR admin) → regenerate TEI
 
 ### `texts/[textId]/export/+server.ts`
+
 - `GET` → read generated `[textId].tei.xml`, return with `Content-Type: application/xml` and `Content-Disposition: attachment`
 
 **Error format**: All errors return `{ error: string, details?: unknown }` with appropriate HTTP status.
@@ -540,6 +581,7 @@ All routes in `src/routes/api/`:
 ### Strategy: standOff with `<anchor>` milestones
 
 The primary text is stored and rendered from plain `text.txt`. For TEI, the generator:
+
 1. Reads `text.txt` and all annotation JSON files
 2. Collects all annotation span boundaries as character offsets
 3. Inserts `<anchor xml:id="s{annotationId}"/>` and `<anchor xml:id="e{annotationId}"/>` at those positions into the text
@@ -550,6 +592,7 @@ The primary text is stored and rendered from plain `text.txt`. For TEI, the gene
 ### TEI Structure
 
 **Poetry:**
+
 ```xml
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -596,6 +639,7 @@ The primary text is stored and rendered from plain `text.txt`. For TEI, the gene
 **Drama**: uses `<div type="act">` → `<div type="scene">` → `<sp>` (speech) and `<stage>` elements.
 
 ### `teiGenerator.ts`
+
 - `generateTEI(textId)` → async, reads files, builds XML string, writes file
 - Called by `saveAnnotation` and `deleteAnnotation` in `content.ts`
 - XML is built with string templating (no DOM) for speed and zero dependencies
@@ -611,28 +655,33 @@ The primary text is stored and rendered from plain `text.txt`. For TEI, the gene
 **Routes under `/admin/`** (all protected by layout `+layout.server.ts` checking `locals.user`):
 
 ### `/admin` — Dashboard
+
 - Count of texts, total annotations
 - List of recent activity (last 10 saved annotations across all texts)
 - Quick links to manage texts / users
 
 ### `/admin/texts`
+
 - Table of all texts: title, author, type, annotation count, created date
 - "New text" button → opens TextForm
 - "Edit metadata" per row
 - "Delete" per row (with confirmation prompt showing annotation count)
 
 **`TextForm.svelte`**:
+
 - Fields: title, author, year (optional), type (poetry/prose/drama)
 - Large textarea for text content (with format hint per type)
 - On submit: POST to `/api/texts`
 
 ### `/admin/users`
+
 - Table: username, role, created date, last session date
 - "New user" button → opens UserForm
 - "Change role" toggle per row (admin/editor)
 - "Delete user" per row
 
 **`UserForm.svelte`**:
+
 - Fields: username, password, role
 - Calls `/admin/users` form action (SvelteKit form action, not API route)
 
@@ -641,6 +690,7 @@ The primary text is stored and rendered from plain `text.txt`. For TEI, the gene
 ## Phase 9 — Polish
 
 **Typography & layout:**
+
 - `@tailwindcss/typography` for annotation body rendering (prose styles)
 - Serif font for primary text (e.g. `font-serif`, or load EB Garamond/Lora)
 - Sans-serif for UI chrome
@@ -649,21 +699,25 @@ The primary text is stored and rendered from plain `text.txt`. For TEI, the gene
 - Subtle off-white background (`#fafaf9`) for text area
 
 **Keyboard shortcuts:**
+
 - `Escape`: close AnnotationPanel or AnchorPicker
 - `Arrow keys` in AnchorPicker: navigate choices
 - `Enter` in AnchorPicker: select focused choice
 
 **Responsive:**
+
 - Mobile: annotation panel as bottom sheet (slide up)
 - Tablet: annotation panel as half-screen overlay
 - Desktop: annotation panel as fixed right sidebar
 
 **Loading/error states:**
+
 - Loading skeleton for text content
 - Toast notifications for save success/failure in editor
 - Inline form errors
 
 **Empty states:**
+
 - "No annotations yet" message in reading view with link to annotate (if editor)
 - "No texts yet" on library index with link to admin (if editor)
 
@@ -686,6 +740,7 @@ The primary text is stored and rendered from plain `text.txt`. For TEI, the gene
 ---
 
 ## Open Questions (resolved)
+
 - Overlap visual: Option B (single highlight + count badge) ✓
 - Click behavior: Option iii (anchor picker modal) ✓
 - Auth: Two-tier (Editor / Reader) ✓

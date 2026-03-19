@@ -1,14 +1,21 @@
 <script lang="ts">
 	import ThemeToggle from "./ThemeToggle.svelte";
-	import { MAIN_NAV } from "$lib/config/navigation";
+	import { MAIN_NAV, type NavItem } from "$lib/config/navigation";
 	import { focusTrap } from "$lib/actions/focusTrap";
-	let { user, availableTypes = [] } = $props();
+	import type { PageMetadata } from "$lib/types/page";
+
+	let { user, availableTypes = [], pages = [] } = $props<{
+		user?: any;
+		availableTypes?: string[];
+		pages?: PageMetadata[];
+	}>();
 
 	let activeDropdown = $state<string | null>(null);
 	let isMobileMenuOpen = $state(false);
 
-	const filteredNav = $derived(
-		MAIN_NAV.map((item) => {
+	const filteredNav = $derived.by(() => {
+		// 1. Process base static navigation (The Texts, Authors)
+		const baseNav = MAIN_NAV.map((item) => {
 			if (item.label === "The Texts" && item.children) {
 				return {
 					...item,
@@ -24,8 +31,45 @@
 				};
 			}
 			return item;
-		}),
-	);
+		});
+
+		// 2. Process dynamic CMS pages
+		const visiblePages = pages.filter((p: PageMetadata) => 
+			p.menu !== false && !['poetry', 'drama', 'prose'].includes(p.id)
+		);
+		const topLevelPages = visiblePages.filter((p: PageMetadata) => !p.parent);
+		const childPages = visiblePages.filter((p: PageMetadata) => !!p.parent);
+
+		// Group children by parent ID
+		const childrenByParent = new Map<string, { label: string; href: string }[]>();
+		for (const child of childPages) {
+			if (!child.parent) continue;
+			if (!childrenByParent.has(child.parent)) {
+				childrenByParent.set(child.parent, []);
+			}
+			childrenByParent.get(child.parent)!.push({
+				label: child.title,
+				href: `/${child.id}`
+			});
+		}
+
+		// Build dynamic NavItem array
+		const dynamicNav: NavItem[] = topLevelPages.map((page: PageMetadata) => {
+			const children = childrenByParent.get(page.id);
+			return {
+				label: page.title,
+				href: children && children.length > 0 ? undefined : `/${page.id}`,
+				children: children && children.length > 0 ? [
+					// Add the parent page itself as the first item in the dropdown
+					{ label: "Overview", href: `/${page.id}` },
+					...children
+				] : undefined
+			};
+		});
+
+		// 3. Combine base and dynamic navigation
+		return [...baseNav, ...dynamicNav];
+	});
 
 	function toggleDropdown(label: string, e: MouseEvent) {
 		e.preventDefault();

@@ -8,5 +8,8 @@ export default defineConfig({
         watch: {
             ignored: ['**/content/**']
         }
+    },
+    ssr: {
+        external: ['bcryptjs', 'better-sqlite3']
     }
 });

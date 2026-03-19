@@ -103,24 +103,24 @@
 				<div>
 					<!-- Type header -->
 					<div class="flex items-center gap-3 mb-8">
-						<div class="flex items-center gap-2">
+						<a href={`/${group.type}`} class="flex items-center gap-2 hover:text-primary-700 transition-colors group">
 							{#if group.type === "poetry"}
-								<IconQuill class="w-5 h-5 text-gray-500" />
+								<IconQuill class="w-5 h-5 text-gray-500 group-hover:text-primary-600 transition-colors" />
 							{:else if group.type === "prose"}
-								<IconNotebook class="w-5 h-5 text-gray-500" />
+								<IconNotebook class="w-5 h-5 text-gray-500 group-hover:text-primary-600 transition-colors" />
 							{:else if group.type === "drama"}
 								<IconTheatreMasks
-									class="w-5 h-5 text-gray-500"
+									class="w-5 h-5 text-gray-500 group-hover:text-primary-600 transition-colors"
 								/>
 							{:else}
-								<IconNotebook class="w-5 h-5 text-gray-500" />
+								<IconNotebook class="w-5 h-5 text-gray-500 group-hover:text-primary-600 transition-colors" />
 							{/if}
 							<h2
-								class="text-2xl font-serif text-gray-800 tracking-wide"
+								class="text-2xl font-serif text-gray-800 tracking-wide group-hover:text-primary-700 transition-colors"
 							>
 								{typeLabel[group.type]}
 							</h2>
-						</div>
+						</a>
 						<div class="flex-1 h-px bg-gray-200"></div>
 					</div>
 

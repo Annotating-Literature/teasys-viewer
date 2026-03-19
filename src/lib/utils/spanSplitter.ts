@@ -17,6 +17,8 @@ export function splitIntoSegments(
 
 	const breakpoints = new Set<number>([0, rawText.length]);
 	for (const ann of annotations) {
+		// Skip title annotations (negative offsets) — handled separately in AnnotatedText
+		if (ann.anchorStart < 0) continue;
 		breakpoints.add(ann.anchorStart);
 		breakpoints.add(ann.anchorEnd);
 	}

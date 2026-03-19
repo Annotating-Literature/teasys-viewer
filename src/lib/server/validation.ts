@@ -41,8 +41,8 @@ export const AnnotationSchema = z.object({
   id: z.string(),
   title: z.string().optional(),        // deprecated, kept for backward compat
   anchorText: z.string(),
-  anchorStart: z.number().min(0),
-  anchorEnd: z.number().min(0),
+  anchorStart: z.number(),
+  anchorEnd: z.number(),
   author: z.string().optional(),       // deprecated — migrated to `authors`
   authors: z.array(z.string()).optional().default([]),
   version: z.number().int().min(1).optional().default(1),

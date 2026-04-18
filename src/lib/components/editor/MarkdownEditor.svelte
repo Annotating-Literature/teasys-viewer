@@ -1,7 +1,13 @@
 <script lang="ts">
 	import { marked } from "marked";
+	import { browser } from "$app/environment";
 	import { applySmartQuotes } from "$lib/utils/html";
 	import type { Annotation } from "$lib/types/annotation";
+
+	let purify = $state<((html: string, opts?: object) => string) | null>(null);
+	if (browser) {
+		import("dompurify").then((m) => { purify = m.default.sanitize.bind(m.default); });
+	}
 
 	type Props = {
 		id: string;
@@ -119,7 +125,7 @@
 			return match;
 		});
 		const html = applySmartQuotes(marked(resolved) as string);
-		return html;
+		return purify ? purify(html, { ADD_ATTR: ["data-ann-id"] }) : html;
 	}
 
 	function applyMarkdownFormat(formatText: string, cursorOffset: number) {

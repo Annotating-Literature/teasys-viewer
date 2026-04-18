@@ -16,7 +16,7 @@ export const PUT: RequestHandler = async ({ request, params, locals, platform })
 		return json({ error: 'Unauthorized' }, { status: 401 });
 	}
 
-	const { metadata } = await request.json() as any;
+	const { metadata } = await request.json() as { metadata: Record<string, unknown> };
 	if (!metadata) {
 		return json({ error: 'Missing metadata' }, { status: 400 });
 	}

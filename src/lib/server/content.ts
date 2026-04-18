@@ -183,7 +183,7 @@ export interface AuthorProfile {
 
 export async function getAuthorProfile(db: D1Database, slug: string): Promise<AuthorProfile | null> {
 	if (!isValidSlug(slug)) throw new Error('Invalid author slug');
-	const row = await db.prepare('SELECT * FROM authors WHERE slug = ?').bind(slug).first<AuthorRow>();
+	const row = await db.prepare('SELECT bio_md, birth_year, death_year, photo_credit, photo_credit_url, portrait_key FROM authors WHERE slug = ?').bind(slug).first<AuthorRow>();
 	if (!row) return null;
 	return {
 		bio: row.bio_md,
@@ -237,14 +237,15 @@ export async function listAuthorDirectories(db: D1Database): Promise<{ slug: str
 export async function saveAuthorPortrait(bucket: R2Bucket, db: D1Database, slug: string, data: Buffer, ext: string): Promise<void> {
 	const key = `portraits/${slug}.${ext}`;
 
-	// Delete previous portrait in R2 if it had a different extension
 	const existing = await db.prepare('SELECT portrait_key FROM authors WHERE slug = ?')
 		.bind(slug).first<{ portrait_key: string | null }>();
-	if (existing?.portrait_key && existing.portrait_key !== key) {
-		await bucket.delete(existing.portrait_key);
-	}
+	const oldKey = existing?.portrait_key;
 
-	await bucket.put(key, data, { httpMetadata: { contentType: MIME[ext] ?? 'image/jpeg' } });
+	// Upload new portrait and delete old one (if different key) in parallel
+	await Promise.all([
+		bucket.put(key, data, { httpMetadata: { contentType: MIME[ext] ?? 'image/jpeg' } }),
+		oldKey && oldKey !== key ? bucket.delete(oldKey) : Promise.resolve(),
+	]);
 	await db.prepare('UPDATE authors SET portrait_key = ? WHERE slug = ?').bind(key, slug).run();
 }
 

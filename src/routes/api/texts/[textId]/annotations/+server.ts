@@ -17,7 +17,14 @@ export const POST: RequestHandler = async ({ request, locals, params, platform }
 		return json({ error: 'Unauthorized' }, { status: 401 });
 	}
 
-	const data = await request.json() as any;
+	const data = await request.json() as {
+		id?: string;
+		anchorText?: string;
+		authors?: string[];
+		version?: number;
+		createdAt?: string;
+		[key: string]: unknown;
+	};
 	const db = platform!.env.DB;
 	const context = platform!.context;
 

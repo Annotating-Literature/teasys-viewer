@@ -16,7 +16,7 @@ export const PUT: RequestHandler = async ({ request, locals, params, platform })
 		return json({ error: 'Unauthorized' }, { status: 401 });
 	}
 
-	const data = await request.json() as any;
+	const data = await request.json() as Record<string, unknown>;
 	const db = platform!.env.DB;
 	const context = platform!.context;
 

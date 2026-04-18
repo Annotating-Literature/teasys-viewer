@@ -2,7 +2,13 @@
 	import type { Annotation, AnnotationLevel } from "$lib/types/annotation";
 	import CategoryBadge from "./CategoryBadge.svelte";
 	import { marked } from "marked";
+	import { browser } from "$app/environment";
 	import { applySmartQuotes } from "$lib/utils/html";
+
+	let purify = $state<((html: string, opts?: object) => string) | null>(null);
+	if (browser) {
+		import("dompurify").then((m) => { purify = m.default.sanitize.bind(m.default); });
+	}
 
 	let {
 		annotation,
@@ -55,7 +61,7 @@
 			return match;
 		});
 		const html = applySmartQuotes(marked(resolved) as string);
-		return html;
+		return purify ? purify(html, { ADD_ATTR: ["data-ann-id"] }) : html;
 	}
 
 	function renderWorkCited(work: string): string {
@@ -85,7 +91,7 @@
 		// 6. Apply strictly safe smart quotes (skipping HTML tags)
 		html = applySmartQuotes(html);
 
-		return html;
+		return purify ? purify(html, { ADD_ATTR: ["target"] }) : html;
 	}
 
 	function handleBodyClick(e: MouseEvent) {

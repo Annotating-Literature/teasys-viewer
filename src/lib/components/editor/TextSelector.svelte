@@ -20,7 +20,6 @@
 	} | null>(null);
 	let containerEl = $state<HTMLDivElement>();
 	let buttonEl = $state<HTMLButtonElement>();
-	let ignoreNextMouseup = false;
 
 	function handleSelection(e: MouseEvent) {
 		// If the click was on the "Add Annotation" button, don't clear state

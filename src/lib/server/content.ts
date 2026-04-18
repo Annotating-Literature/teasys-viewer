@@ -73,6 +73,14 @@ export async function listTexts(db: D1Database): Promise<TextMetadata[]> {
 	return result.results.map(rowToMetadata);
 }
 
+export async function getChildTexts(db: D1Database, parentId: string): Promise<TextMetadata[]> {
+	if (!isValidSlug(parentId)) throw new Error('Invalid text ID');
+	const result = await db.prepare(
+		'SELECT id, title, author, year, category, type, parent_id, sort_order, created_at, updated_at FROM texts WHERE parent_id = ? ORDER BY sort_order'
+	).bind(parentId).all<TextRow>();
+	return result.results.map(rowToMetadata);
+}
+
 export async function getText(db: D1Database, textId: string): Promise<{ metadata: TextMetadata; rawText: string }> {
 	if (!isValidSlug(textId)) throw new Error('Invalid text ID');
 	const row = await db.prepare('SELECT * FROM texts WHERE id = ?').bind(textId).first<TextRow>();

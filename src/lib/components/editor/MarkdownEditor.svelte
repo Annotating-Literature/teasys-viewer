@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { marked } from "marked";
+	import { applySmartQuotes } from "$lib/utils/html";
 	import type { Annotation } from "$lib/types/annotation";
 
 	type Props = {
@@ -105,21 +106,6 @@
 				textareaEl.focus();
 			}
 		});
-	}
-
-	function applySmartQuotes(html: string): string {
-		let text = html.replace(/&quot;/g, '"').replace(/&#39;/g, "'");
-		const parts = text.split(/(<[^>]*>)/);
-		for (let i = 0; i < parts.length; i++) {
-			if (!parts[i].startsWith("<")) {
-				parts[i] = parts[i]
-					.replace(/(^|[-\u2014\s(\["])'/g, "$1\u2018")      // opening singles
-					.replace(/'/g, "\u2019")                          // closing singles & apostrophes
-					.replace(/(^|[-\u2014/\[(\u2018\s])"/g, "$1\u201c") // opening doubles
-					.replace(/"/g, "\u201d");                         // closing doubles
-			}
-		}
-		return parts.join("");
 	}
 
 	// Render preview with cross-ref links resolved

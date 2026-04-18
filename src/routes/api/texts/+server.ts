@@ -1,17 +1,8 @@
 import { json } from '@sveltejs/kit';
 import { listTexts, saveTextMetadata, saveTextContent } from '$lib/server/content';
+import { slugify, findUniqueSlug } from '$lib/utils/slug';
 import type { RequestHandler } from './$types';
 import type { TextMetadata } from '$lib/types/text';
-
-function slugify(text: string): string {
-	return text
-		.toLowerCase()
-		.replace(/[^\w\s-]/g, '')
-		.replace(/[\s_]+/g, '-')
-		.replace(/-+/g, '-')
-		.replace(/^-|-$/g, '')
-		.slice(0, 80);
-}
 
 export const GET: RequestHandler = async ({ platform }) => {
 	const texts = await listTexts(platform!.env.DB);
@@ -43,12 +34,7 @@ export const POST: RequestHandler = async ({ request, locals, platform }) => {
 	const db = platform!.env.DB;
 	const existingTexts = await listTexts(db);
 	const existingIds = new Set(existingTexts.map((t) => t.id));
-	let slug = slugify(title);
-	if (existingIds.has(slug)) {
-		let i = 2;
-		while (existingIds.has(`${slug}-${i}`)) i++;
-		slug = `${slug}-${i}`;
-	}
+	const slug = findUniqueSlug(slugify(title, 80), existingIds);
 
 	const newText: TextMetadata = {
 		id: slug,

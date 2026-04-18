@@ -1,5 +1,5 @@
 import { error } from '@sveltejs/kit';
-import { getText, listAnnotations, listTexts } from '$lib/server/content';
+import { getText, listAnnotations, getChildTexts } from '$lib/server/content';
 import { parseText } from '$lib/server/textParser';
 import type { PageServerLoad } from './$types';
 import type { TextMetadata, ParsedText } from '$lib/types/text';
@@ -16,10 +16,7 @@ export const load: PageServerLoad = async ({ params, parent, platform }) => {
 		let children: TextMetadata[] = [];
 
 		if (text.metadata.type === 'collection') {
-			const allTexts = await listTexts(db);
-			children = allTexts
-				.filter(t => t.parentId === text.metadata.id)
-				.sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
+			children = await getChildTexts(db, text.metadata.id);
 		} else {
 			annotations = await listAnnotations(db, params.textId);
 			parsedText = parseText(text.rawText, text.metadata.type);

@@ -36,10 +36,8 @@ export async function getPage(db: D1Database, slug: string): Promise<{ metadata:
 
 export async function savePage(db: D1Database, slug: string, title: string, content: string, menu: boolean = true, parent: string = ''): Promise<PageMetadata> {
 	const now = new Date().toISOString();
-	const existing = await db.prepare('SELECT created_at FROM pages WHERE id = ?').bind(slug).first<{ created_at: string }>();
-	const createdAt = existing?.created_at ?? now;
 
-	await db.prepare(`
+	const row = await db.prepare(`
 		INSERT INTO pages (id, title, content_md, menu, parent, created_at, updated_at)
 		VALUES (?, ?, ?, ?, ?, ?, ?)
 		ON CONFLICT(id) DO UPDATE SET
@@ -48,14 +46,15 @@ export async function savePage(db: D1Database, slug: string, title: string, cont
 			menu = excluded.menu,
 			parent = excluded.parent,
 			updated_at = excluded.updated_at
-	`).bind(slug, title, content, menu ? 1 : 0, parent || null, createdAt, now).run();
+		RETURNING created_at
+	`).bind(slug, title, content, menu ? 1 : 0, parent || null, now, now).first<{ created_at: string }>();
 
 	return {
 		id: slug,
 		title,
 		menu,
 		parent: parent || undefined,
-		createdAt,
+		createdAt: row!.created_at,
 		updatedAt: now,
 	};
 }

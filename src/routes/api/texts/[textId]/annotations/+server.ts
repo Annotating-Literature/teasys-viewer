@@ -1,5 +1,6 @@
 import { json } from '@sveltejs/kit';
 import { listAnnotations, saveAnnotation } from '$lib/server/content';
+import { slugify, findUniqueSlug } from '$lib/utils/slug';
 import type { RequestHandler } from './$types';
 
 export const GET: RequestHandler = async ({ params, platform }) => {
@@ -23,23 +24,9 @@ export const POST: RequestHandler = async ({ request, locals, params, platform }
 	try {
 		let finalId = data.id;
 		if (!finalId) {
-			const baseSlug = ((data.anchorText || 'annotation')
-				.toLowerCase()
-				.replace(/[^\w\s-]/g, '')
-				.replace(/[\s_]+/g, '-')
-				.replace(/-+/g, '-')
-				.replace(/^-|-$/g, '')
-				.slice(0, 50)) || 'annotation';
-
+			const baseSlug = slugify(data.anchorText || 'annotation', 50) || 'annotation';
 			const existing = await listAnnotations(db, params.textId);
-			const existingIds = new Set(existing.map((a) => a.id));
-
-			let suffix = 1;
-			finalId = baseSlug;
-			while (existingIds.has(finalId)) {
-				suffix++;
-				finalId = `${baseSlug}-${suffix}`;
-			}
+			finalId = findUniqueSlug(baseSlug, new Set(existing.map((a) => a.id)));
 		}
 
 		if (!finalId) {

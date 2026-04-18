@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { marked } from "marked";
-	import DOMPurify from "isomorphic-dompurify";
 	import type { Annotation } from "$lib/types/annotation";
 
 	type Props = {
@@ -109,25 +108,18 @@
 	}
 
 	function applySmartQuotes(html: string): string {
-		const unescaped = html.replace(/&quot;/g, '"');
-		let insideTag = false;
-		let open = true;
-		let result = "";
-		for (const ch of unescaped) {
-			if (ch === "<") {
-				insideTag = true;
-				result += ch;
-			} else if (ch === ">") {
-				insideTag = false;
-				result += ch;
-			} else if (ch === '"' && !insideTag) {
-				result += open ? "\u201c" : "\u201d";
-				open = !open;
-			} else {
-				result += ch;
+		let text = html.replace(/&quot;/g, '"').replace(/&#39;/g, "'");
+		const parts = text.split(/(<[^>]*>)/);
+		for (let i = 0; i < parts.length; i++) {
+			if (!parts[i].startsWith("<")) {
+				parts[i] = parts[i]
+					.replace(/(^|[-\u2014\s(\["])'/g, "$1\u2018")      // opening singles
+					.replace(/'/g, "\u2019")                          // closing singles & apostrophes
+					.replace(/(^|[-\u2014/\[(\u2018\s])"/g, "$1\u201c") // opening doubles
+					.replace(/"/g, "\u201d");                         // closing doubles
 			}
 		}
-		return result;
+		return parts.join("");
 	}
 
 	// Render preview with cross-ref links resolved
@@ -141,7 +133,7 @@
 			return match;
 		});
 		const html = applySmartQuotes(marked(resolved) as string);
-		return DOMPurify.sanitize(html, { ADD_ATTR: ["data-ann-id"] });
+		return html;
 	}
 
 	function applyMarkdownFormat(formatText: string, cursorOffset: number) {

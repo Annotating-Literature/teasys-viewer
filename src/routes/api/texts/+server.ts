@@ -13,14 +13,12 @@ function slugify(text: string): string {
 		.slice(0, 80);
 }
 
-// GET /api/texts
-export const GET: RequestHandler = async () => {
-	const texts = await listTexts();
+export const GET: RequestHandler = async ({ platform }) => {
+	const texts = await listTexts(platform!.env.DB);
 	return json(texts);
 };
 
-// POST /api/texts
-export const POST: RequestHandler = async ({ request, locals }) => {
+export const POST: RequestHandler = async ({ request, locals, platform }) => {
 	if (!locals.user || locals.user.role !== 'admin') {
 		return json({ error: 'Unauthorized' }, { status: 401 });
 	}
@@ -42,8 +40,8 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 		return json({ error: 'Text content is required for this type' }, { status: 400 });
 	}
 
-	// Generate slug from title, ensure uniqueness
-	const existingTexts = await listTexts();
+	const db = platform!.env.DB;
+	const existingTexts = await listTexts(db);
 	const existingIds = new Set(existingTexts.map((t) => t.id));
 	let slug = slugify(title);
 	if (existingIds.has(slug)) {
@@ -66,11 +64,11 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 	};
 
 	try {
-		await saveTextMetadata(newText);
-		await saveTextContent(newText.id, textContent);
+		await saveTextMetadata(db, newText);
+		await saveTextContent(db, newText.id, textContent);
 		return json(newText, { status: 201 });
-	} catch (error) {
-		console.error('Failed to create text:', error);
+	} catch (err) {
+		console.error('Failed to create text:', err);
 		return json({ error: 'Failed to create text' }, { status: 500 });
 	}
 };

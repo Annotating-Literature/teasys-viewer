@@ -1,55 +1,49 @@
 import { json } from '@sveltejs/kit';
 import { getText, saveTextMetadata } from '$lib/server/content';
-import fs from 'fs/promises';
-import path from 'path';
 import type { RequestHandler } from './$types';
 
-const CONTENT_DIR = path.resolve('content', 'texts');
-
-// GET /api/texts/[textId]
-export const GET: RequestHandler = async ({ params }) => {
+export const GET: RequestHandler = async ({ params, platform }) => {
 	try {
-		const data = await getText(params.textId);
+		const data = await getText(platform!.env.DB, params.textId);
 		return json(data);
-	} catch (error) {
+	} catch {
 		return json({ error: 'Text not found' }, { status: 404 });
 	}
 };
 
-// PUT /api/texts/[textId]
-export const PUT: RequestHandler = async ({ request, params, locals }) => {
+export const PUT: RequestHandler = async ({ request, params, locals, platform }) => {
 	if (!locals.user || locals.user.role !== 'admin') {
 		return json({ error: 'Unauthorized' }, { status: 401 });
 	}
 
-	const { metadata } = await request.json();
+	const { metadata } = await request.json() as any;
 	if (!metadata) {
 		return json({ error: 'Missing metadata' }, { status: 400 });
 	}
 
 	try {
-		const existing = await getText(params.textId);
+		const db = platform!.env.DB;
+		const existing = await getText(db, params.textId);
 		const updatedMetadata = { ...existing.metadata, ...metadata, id: params.textId, updatedAt: new Date().toISOString() };
-		await saveTextMetadata(updatedMetadata);
+		await saveTextMetadata(db, updatedMetadata);
 		return json(updatedMetadata);
-	} catch (error) {
-		console.error('Failed to update text:', error);
+	} catch (err) {
+		console.error('Failed to update text:', err);
 		return json({ error: 'Failed to update text' }, { status: 500 });
 	}
 };
 
-// DELETE /api/texts/[textId]
-export const DELETE: RequestHandler = async ({ params, locals }) => {
+export const DELETE: RequestHandler = async ({ params, locals, platform }) => {
 	if (!locals.user || locals.user.role !== 'admin') {
 		return json({ error: 'Unauthorized' }, { status: 401 });
 	}
 
 	try {
-		const textDir = path.join(CONTENT_DIR, params.textId);
-		await fs.rm(textDir, { recursive: true, force: true });
+		// Annotations cascade-delete via FK ON DELETE CASCADE
+		await platform!.env.DB.prepare('DELETE FROM texts WHERE id = ?').bind(params.textId).run();
 		return new Response(null, { status: 204 });
-	} catch (error) {
-		console.error('Failed to delete text:', error);
+	} catch (err) {
+		console.error('Failed to delete text:', err);
 		return json({ error: 'Failed to delete text' }, { status: 500 });
 	}
 };

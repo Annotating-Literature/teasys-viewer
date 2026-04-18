@@ -39,12 +39,15 @@
 		}
 
 		const range = sel.getRangeAt(0);
-		const text = range.toString().trim();
+		const rawSelected = range.toString();
+		const text = rawSelected.trim();
 		if (!text) {
 			buttonPos = null;
 			pendingSelection = null;
 			return;
 		}
+		const leadingWS = rawSelected.length - rawSelected.trimStart().length;
+		const trailingWS = rawSelected.length - rawSelected.trimEnd().length;
 
 		// Make sure the selection is within our container
 		if (
@@ -136,7 +139,7 @@
 		);
 
 		if (resolvedStart !== null && resolvedEnd !== null) {
-			pendingSelection = { text, start: resolvedStart, end: resolvedEnd };
+			pendingSelection = { text, start: resolvedStart + leadingWS, end: resolvedEnd - trailingWS };
 		} else {
 			pendingSelection = { text, start: 0, end: text.length };
 		}

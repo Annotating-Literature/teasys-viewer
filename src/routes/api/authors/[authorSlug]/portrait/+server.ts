@@ -9,8 +9,8 @@ const MIME: Record<string, string> = {
     webp: 'image/webp'
 };
 
-export const GET: RequestHandler = async ({ params }) => {
-    const result = await getAuthorPortraitFile(params.authorSlug);
+export const GET: RequestHandler = async ({ params, platform }) => {
+    const result = await getAuthorPortraitFile(platform!.env.BUCKET, platform!.env.DB, params.authorSlug);
     if (!result) {
         throw error(404, 'Portrait not found');
     }
@@ -18,7 +18,7 @@ export const GET: RequestHandler = async ({ params }) => {
     return new Response(new Uint8Array(result.data), {
         headers: {
             'Content-Type': MIME[result.ext] || 'application/octet-stream',
-            'Cache-Control': 'public, max-age=3600'
+            'Cache-Control': 'public, max-age=604800'
         }
     });
 };

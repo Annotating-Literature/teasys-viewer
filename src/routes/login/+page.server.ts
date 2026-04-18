@@ -9,7 +9,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 };
 
 export const actions: Actions = {
-	default: async ({ request, cookies }) => {
+	default: async ({ request, cookies, platform }) => {
 		const data = await request.formData();
 		const username = data.get('username');
 		const password = data.get('password');
@@ -18,7 +18,8 @@ export const actions: Actions = {
 			return fail(400, { error: 'Invalid username or password' });
 		}
 
-		const user = getUserByUsername(username);
+		const db = platform!.env.DB;
+		const user = await getUserByUsername(db, username);
 
 		if (!user) {
 			return fail(400, { error: 'Invalid username or password' });
@@ -30,13 +31,13 @@ export const actions: Actions = {
 			return fail(400, { error: 'Invalid username or password' });
 		}
 
-		const sessionId = createSession(user.id);
+		const sessionId = await createSession(db, user.id);
 		cookies.set('session_id', sessionId, {
 			path: '/',
 			httpOnly: true,
 			sameSite: 'lax',
-			maxAge: 60 * 60 * 24 * 30, // 30 days
-			secure: process.env.NODE_ENV === 'production'
+			maxAge: 60 * 60 * 24 * 30,
+			secure: true
 		});
 
 		throw redirect(302, '/');

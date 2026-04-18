@@ -3,14 +3,13 @@
 	import { enhance } from "$app/forms";
 	import UserForm from "$lib/components/admin/UserForm.svelte";
 	import Breadcrumbs from "$lib/components/layout/Breadcrumbs.svelte";
-	type User = { id: number; username: string; role: string };
-	let { data, form }: { data: { users: User[], currentUser: User }, form: ActionData } = $props();
+	let { data, form }: { data: PageData, form: { message?: string } | null } = $props();
 
 	let editingPasswordId = $state<number | null>(null);
 </script>
 
 <svelte:head>
-	<title>Manage Users — TEASys Viewer</title>
+	<title>{data.currentUser?.role === 'admin' ? 'Manage Users' : 'Manage Account'} — TEASys Viewer</title>
 </svelte:head>
 
 <div class="max-w-4xl mx-auto px-6 py-10">
@@ -19,10 +18,10 @@
 			crumbs={[
 				{ label: "Library", href: "/" },
 				{ label: "Admin", href: "/admin" },
-				{ label: "Users" },
+				{ label: data.currentUser?.role === 'admin' ? "Users" : "Account" },
 			]}
 		/>
-		<h1 class="text-2xl font-bold text-gray-900">Manage Users</h1>
+		<h1 class="text-2xl font-bold text-gray-900">{data.currentUser?.role === 'admin' ? 'Manage Users' : 'Manage Account'}</h1>
 	</div>
 
 	<div class="mb-8">
@@ -32,7 +31,7 @@
 			<div class="bg-gray-50/50 p-6 rounded-xl border border-gray-100 flex items-center justify-between">
 				<div>
 					<h3 class="font-semibold text-gray-900 mb-1">Editor Account</h3>
-					<p class="text-sm text-gray-500">You can manage your own password below. Contact an administrator to add or remove other accounts.</p>
+					<p class="text-sm text-gray-500">You can manage your own password below. Ask an administrator to add or remove new accounts.</p>
 				</div>
 			</div>
 		{/if}
@@ -67,7 +66,7 @@
 						</div>
 					</div>
 					<div class="flex items-center gap-2">
-						{#if data.currentUser?.role === 'admin' || data.currentUser?.id === user.id}
+						{#if data.currentUser?.role === 'admin' || (data.currentUser && data.currentUser.id === user.id)}
 							<button
 								type="button"
 								onclick={() => editingPasswordId = editingPasswordId === user.id ? null : user.id}

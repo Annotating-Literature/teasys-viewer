@@ -1,19 +1,23 @@
-import { listTexts, getAnnotationCount } from '$lib/server/content';
+import { listTexts } from '$lib/server/content';
 import type { PageServerLoad } from './$types';
 import type { TextMetadata } from '$lib/types/text';
 
-export const load: PageServerLoad = async ({ parent }) => {
+export const load: PageServerLoad = async ({ parent, platform }) => {
 	const { user } = await parent();
-	const texts = await listTexts();
+	const db = platform!.env.DB;
+	const texts = await listTexts(db);
 	texts.sort((a, b) => a.title.localeCompare(b.title));
 
-	// Fetch annotation counts for each text
-	const textsWithCounts = await Promise.all(
-		texts.map(async (text) => {
-			const annotationCount = await getAnnotationCount(text.id);
-			return { ...text, annotationCount };
-		})
-	);
+	// Single query for all annotation counts
+	const countRows = (await db.prepare(
+		'SELECT text_id, COUNT(*) as n FROM annotations GROUP BY text_id'
+	).all<{ text_id: string; n: number }>()).results;
+	const countMap = new Map(countRows.map(r => [r.text_id, r.n]));
+
+	const textsWithCounts = texts.map(text => ({
+		...text,
+		annotationCount: countMap.get(text.id) ?? 0
+	}));
 
 	const groupedTexts: { [key: string]: (TextMetadata & { annotationCount: number })[] } = {
 		poetry: [],

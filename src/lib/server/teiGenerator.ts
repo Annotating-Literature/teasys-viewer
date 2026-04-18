@@ -1,8 +1,4 @@
-import fs from 'fs/promises';
-import path from 'path';
 import { getText, listAnnotations } from './content';
-
-const XML_DIR = path.resolve('content', 'xml');
 
 function escapeXml(text: string): string {
 	return text
@@ -13,9 +9,9 @@ function escapeXml(text: string): string {
 		.replace(/'/g, '&apos;');
 }
 
-export async function generateTEI(textId: string): Promise<void> {
-	const { metadata, rawText } = await getText(textId);
-	const annotations = await listAnnotations(textId);
+export async function generateTEI(db: D1Database, textId: string): Promise<void> {
+	const { metadata, rawText } = await getText(db, textId);
+	const annotations = await listAnnotations(db, textId);
 
 	const insertions: { pos: number; tag: string }[] = [];
 	for (const ann of annotations) {
@@ -55,22 +51,20 @@ export async function generateTEI(textId: string): Promise<void> {
             <respStmt><resp>annotator</resp>${ann.authors.map((a) => `<name>${escapeXml(a)}</name>`).join('')}</respStmt>
             <date>${ann.createdAt.split('T')[0]}</date>
             ${ann.levels
-						.map(
-							(lvl) => `
+					.map(
+						(lvl) => `
               <div type="level" n="${lvl.level}">
                 <div type="category" ana="#${lvl.category}">
                   <p>${escapeXml(lvl.body)}</p>
                   ${lvl.worksCited.length > 0
-									? `<listBibl>${lvl.worksCited
-										.map((w) => `<bibl>${escapeXml(w)}</bibl>`)
-										.join('')}</listBibl>`
-									: ''
-								}
+						? `<listBibl>${lvl.worksCited.map((w) => `<bibl>${escapeXml(w)}</bibl>`).join('')}</listBibl>`
+						: ''
+					}
                 </div>
               </div>
             `
-						)
-						.join('')}
+					)
+					.join('')}
           </annotation>
         `
 			)
@@ -88,8 +82,5 @@ export async function generateTEI(textId: string): Promise<void> {
   ${standOff}
 </TEI>`;
 
-	// Write to content/xml/<textId>.tei.xml
-	await fs.mkdir(XML_DIR, { recursive: true });
-	const teiPath = path.join(XML_DIR, `${textId}.tei.xml`);
-	await fs.writeFile(teiPath, teiContent, 'utf-8');
+	await db.prepare('UPDATE texts SET tei_xml = ? WHERE id = ?').bind(teiContent, textId).run();
 }

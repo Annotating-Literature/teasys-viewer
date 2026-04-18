@@ -2,27 +2,26 @@ import { json } from '@sveltejs/kit';
 import { getAnnotation, saveAnnotation, deleteAnnotation } from '$lib/server/content';
 import type { RequestHandler } from './$types';
 
-// GET /api/texts/[textId]/annotations/[annotationId]
-export const GET: RequestHandler = async ({ params }) => {
+export const GET: RequestHandler = async ({ params, platform }) => {
 	try {
-		const annotation = await getAnnotation(params.textId, params.annotationId);
+		const annotation = await getAnnotation(platform!.env.DB, params.textId, params.annotationId);
 		return json(annotation);
-	} catch (error) {
+	} catch {
 		return json({ error: 'Annotation not found' }, { status: 404 });
 	}
 };
 
-// PUT /api/texts/[textId]/annotations/[annotationId]
-export const PUT: RequestHandler = async ({ request, locals, params }) => {
+export const PUT: RequestHandler = async ({ request, locals, params, platform }) => {
 	if (!locals.user) {
 		return json({ error: 'Unauthorized' }, { status: 401 });
 	}
 
-	const data = await request.json();
+	const data = await request.json() as any;
+	const db = platform!.env.DB;
+	const context = platform!.context;
 
 	try {
-		const existing = await getAnnotation(params.textId, params.annotationId);
-
+		const existing = await getAnnotation(db, params.textId, params.annotationId);
 		const updatedAnnotation = {
 			...existing,
 			...data,
@@ -30,28 +29,27 @@ export const PUT: RequestHandler = async ({ request, locals, params }) => {
 			updatedAt: new Date().toISOString()
 		};
 
-		await saveAnnotation(params.textId, updatedAnnotation);
+		await saveAnnotation(db, context, params.textId, updatedAnnotation);
 		return json(updatedAnnotation);
-	} catch (error: any) {
-		if (error.errors) {
-			return json({ error: 'Validation failed', details: error.errors }, { status: 400 });
+	} catch (err: any) {
+		if (err.errors) {
+			return json({ error: 'Validation failed', details: err.errors }, { status: 400 });
 		}
-		console.error('Failed to update annotation:', error);
+		console.error('Failed to update annotation:', err);
 		return json({ error: 'Failed to update annotation' }, { status: 500 });
 	}
 };
 
-// DELETE /api/texts/[textId]/annotations/[annotationId]
-export const DELETE: RequestHandler = async ({ locals, params }) => {
+export const DELETE: RequestHandler = async ({ locals, params, platform }) => {
 	if (!locals.user) {
 		return json({ error: 'Unauthorized' }, { status: 401 });
 	}
 
 	try {
-		await deleteAnnotation(params.textId, params.annotationId);
+		await deleteAnnotation(platform!.env.DB, platform!.context, params.textId, params.annotationId);
 		return new Response(null, { status: 204 });
-	} catch (error) {
-		console.error('Failed to delete annotation:', error);
+	} catch (err) {
+		console.error('Failed to delete annotation:', err);
 		return json({ error: 'Failed to delete annotation' }, { status: 500 });
 	}
 };

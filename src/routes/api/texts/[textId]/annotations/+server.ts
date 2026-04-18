@@ -2,23 +2,23 @@ import { json } from '@sveltejs/kit';
 import { listAnnotations, saveAnnotation } from '$lib/server/content';
 import type { RequestHandler } from './$types';
 
-// GET /api/texts/[textId]/annotations
-export const GET: RequestHandler = async ({ params }) => {
+export const GET: RequestHandler = async ({ params, platform }) => {
 	try {
-		const annotations = await listAnnotations(params.textId);
+		const annotations = await listAnnotations(platform!.env.DB, params.textId);
 		return json(annotations);
-	} catch (error) {
+	} catch {
 		return json({ error: 'Could not list annotations' }, { status: 500 });
 	}
 };
 
-// POST /api/texts/[textId]/annotations
-export const POST: RequestHandler = async ({ request, locals, params }) => {
+export const POST: RequestHandler = async ({ request, locals, params, platform }) => {
 	if (!locals.user) {
 		return json({ error: 'Unauthorized' }, { status: 401 });
 	}
 
-	const data = await request.json();
+	const data = await request.json() as any;
+	const db = platform!.env.DB;
+	const context = platform!.context;
 
 	try {
 		let finalId = data.id;
@@ -31,8 +31,8 @@ export const POST: RequestHandler = async ({ request, locals, params }) => {
 				.replace(/^-|-$/g, '')
 				.slice(0, 50)) || 'annotation';
 
-			const existing = await listAnnotations(params.textId);
-			const existingIds = new Set(existing.map((a: any) => a.id));
+			const existing = await listAnnotations(db, params.textId);
+			const existingIds = new Set(existing.map((a) => a.id));
 
 			let suffix = 1;
 			finalId = baseSlug;
@@ -55,13 +55,13 @@ export const POST: RequestHandler = async ({ request, locals, params }) => {
 			updatedAt: new Date().toISOString()
 		};
 
-		await saveAnnotation(params.textId, newAnnotation);
+		await saveAnnotation(db, context, params.textId, newAnnotation);
 		return json(newAnnotation, { status: 201 });
-	} catch (error: any) {
-		if (error.errors) {
-			return json({ error: 'Validation failed', details: error.errors }, { status: 400 });
+	} catch (err: any) {
+		if (err.errors) {
+			return json({ error: 'Validation failed', details: err.errors }, { status: 400 });
 		}
-		console.error('Failed to create annotation:', error);
+		console.error('Failed to create annotation:', err);
 		return json({ error: 'Failed to create annotation' }, { status: 500 });
 	}
 };

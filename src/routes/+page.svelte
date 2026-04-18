@@ -145,13 +145,13 @@
 										<div
 											class="group block relative p-6 bg-surface-card backdrop-blur-sm
 									       border border-gray-200/60 rounded-xl
-									       hover:bg-surface-elevated hover:border-gray-400
+									       hover:bg-surface-elevated hover:border-gray-400 dark:hover:border-gray-600
 									       hover:shadow-[2px_2px_12px_-4px_rgba(0,0,0,0.05)]
 									       hover:-translate-y-0.5
 									       transition-all duration-300 ease-out overflow-hidden"
 										>
 											<h4
-												class="text-base font-semibold text-gray-800 group-hover:text-primary-700 transition-colors leading-snug font-serif"
+												class="text-base font-semibold text-gray-800 group-hover:text-primary-700 dark:text-gray-100 dark:group-hover:text-primary-400 transition-colors leading-snug font-serif"
 											>
 												<a
 													href={`/texts/${text.id}`}
@@ -161,14 +161,14 @@
 												</a>
 											</h4>
 											<p
-												class="text-m text-gray-500 mt-2 relative z-10"
+												class="text-m text-gray-500 dark:text-gray-400 mt-2 relative z-10"
 											>
 												<a
 													href={`/authors/${slugify(text.author)}`}
-													class="hover:text-primary-600 transition-colors"
+													class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
 													>{text.author}</a
 												>{#if text.year}<span
-														class="text-gray-500 mx-1.5"
+														class="text-gray-500 dark:text-gray-500 mx-1.5"
 													>
 														·
 													</span>{text.year}{/if}

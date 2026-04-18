@@ -1,33 +1,46 @@
-import { listTexts, listAnnotations, listAuthorDirectories } from '$lib/server/content';
+import { listTexts, listAuthorDirectories } from '$lib/server/content';
 import { slugify } from '$lib/utils/slug';
 import type { PageServerLoad } from './$types';
 
-export const load: PageServerLoad = async () => {
-    const texts = await listTexts();
+export const load: PageServerLoad = async ({ platform }) => {
+    const db = platform!.env.DB;
+    const [texts, standaloneAuthors, allAnnotationRows] = await Promise.all([
+        listTexts(db),
+        listAuthorDirectories(db),
+        db.prepare('SELECT text_id, anchor_text, authors, levels, cross_refs, updated_at FROM annotations')
+            .all<{ text_id: string; anchor_text: string; authors: string; levels: string; cross_refs: string; updated_at: string }>(),
+    ]);
 
-    // Load annotations for each text
-    const textsWithAnnotations = await Promise.all(
-        texts.map(async (text) => {
-            const annotations = await listAnnotations(text.id);
-            return { ...text, annotations };
-        })
-    );
+    const allAnnotations = allAnnotationRows.results.map(r => ({
+        textId: r.text_id,
+        anchorText: r.anchor_text,
+        authors: JSON.parse(r.authors) as string[],
+        levels: JSON.parse(r.levels) as { level: number; category: string; body: string; worksCited: string[] }[],
+        crossRefs: JSON.parse(r.cross_refs) as unknown[],
+        updatedAt: r.updated_at,
+    }));
 
-    // Get standalone author directories (not derived from texts)
-    const standaloneAuthors = await listAuthorDirectories();
+    // Build textsWithAnnotations
+    const annotationsByText = new Map<string, typeof allAnnotations>();
+    for (const ann of allAnnotations) {
+        if (!annotationsByText.has(ann.textId)) annotationsByText.set(ann.textId, []);
+        annotationsByText.get(ann.textId)!.push(ann);
+    }
+
+    const textsWithAnnotations = texts.map(t => ({
+        ...t,
+        annotations: annotationsByText.get(t.id) ?? []
+    }));
+
     const textAuthorSlugs = new Set(texts.map(t => slugify(t.author)));
     const extraAuthors = standaloneAuthors.filter(a => !textAuthorSlugs.has(a.slug));
 
-    // Compute detailed stats
-    const allAnnotations = textsWithAnnotations.flatMap(t => t.annotations);
-
-    // Unique contributors (annotation authors)
+    // Stats
     const contributors = new Set<string>();
     for (const ann of allAnnotations) {
         for (const a of ann.authors) contributors.add(a);
     }
 
-    // Level distribution
     const levelCounts: Record<number, number> = { 1: 0, 2: 0, 3: 0 };
     const categoryCounts: Record<string, number> = {};
     for (const ann of allAnnotations) {
@@ -37,33 +50,26 @@ export const load: PageServerLoad = async () => {
         }
     }
 
-    // Most annotated text
     const mostAnnotated = textsWithAnnotations.length > 0
         ? textsWithAnnotations.reduce((best, t) =>
-            t.annotations.length > best.annotations.length ? t : best
-        )
+            t.annotations.length > best.annotations.length ? t : best)
         : null;
 
-    // Most recent annotation
     const mostRecent = allAnnotations.length > 0
         ? allAnnotations.reduce((latest, ann) =>
-            ann.updatedAt > latest.updatedAt ? ann : latest
-        )
+            ann.updatedAt > latest.updatedAt ? ann : latest)
         : null;
 
-    // Average annotations per text
     const avgAnnotations = texts.length > 0
         ? Math.round((allAnnotations.length / texts.length) * 10) / 10
         : 0;
 
-    // Cross-references count using regex on bodies
     const totalCrossRefs = allAnnotations.reduce((sum, ann) => {
         const fullBody = ann.levels.map((l) => l.body).join('\n');
         const matches = fullBody.match(/\[\[([^\]]+)\]\]/g);
         return sum + (matches ? matches.length : 0);
     }, 0);
 
-    // Works cited count
     const totalWorksCited = allAnnotations.reduce((sum, ann) =>
         sum + ann.levels.reduce((s, l) => s + l.worksCited.length, 0), 0);
 
@@ -71,8 +77,7 @@ export const load: PageServerLoad = async () => {
         contributors: contributors.size,
         contributorNames: Array.from(contributors).sort(),
         levelCounts,
-        categoryCounts: Object.entries(categoryCounts)
-            .sort((a, b) => b[1] - a[1]),
+        categoryCounts: Object.entries(categoryCounts).sort((a, b) => b[1] - a[1]),
         mostAnnotated: mostAnnotated ? {
             title: mostAnnotated.title,
             id: mostAnnotated.id,

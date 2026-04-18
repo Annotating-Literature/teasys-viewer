@@ -330,35 +330,33 @@
 				Add and remove literary texts
 			</p>
 		</a>
-		{#if data.user?.role === "admin"}
-			<a
-				href="/admin/users"
-				class="group block p-5 bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md hover:border-primary-200 hover:-translate-y-0.5 transition-all duration-200"
+		<a
+			href="/admin/users"
+			class="group block p-5 bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md hover:border-primary-200 hover:-translate-y-0.5 transition-all duration-200"
+		>
+			<div
+				class="w-9 h-9 rounded-lg bg-primary-50 flex items-center justify-center mb-2 text-primary-500"
 			>
-				<div
-					class="w-9 h-9 rounded-lg bg-primary-50 flex items-center justify-center mb-2 text-primary-500"
+				<svg
+					class="w-5 h-5"
+					viewBox="0 0 20 20"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="1.5"
+					><circle cx="10" cy="7" r="3.5" /><path
+						d="M3.5 17c0-3.5 2.9-5.5 6.5-5.5s6.5 2 6.5 5.5"
+					/></svg
 				>
-					<svg
-						class="w-5 h-5"
-						viewBox="0 0 20 20"
-						fill="none"
-						stroke="currentColor"
-						stroke-width="1.5"
-						><circle cx="10" cy="7" r="3.5" /><path
-							d="M3.5 17c0-3.5 2.9-5.5 6.5-5.5s6.5 2 6.5 5.5"
-						/></svg
-					>
-				</div>
-				<h2
-					class="text-base font-semibold text-gray-900 group-hover:text-primary-700 transition-colors"
-				>
-					Manage Users
-				</h2>
-				<p class="text-[13px] text-gray-500 mt-0.5">
-					Add and remove editor accounts
-				</p>
-			</a>
-		{/if}
+			</div>
+			<h2
+				class="text-base font-semibold text-gray-900 group-hover:text-primary-700 transition-colors"
+			>
+				{data.user?.role === "admin" ? "Manage Users" : "Manage Account"}
+			</h2>
+			<p class="text-[13px] text-gray-500 mt-0.5">
+				{data.user?.role === "admin" ? "Add and remove editor accounts" : "Change your password"}
+			</p>
+		</a>
 
 		<a
 			href="/admin/pages"

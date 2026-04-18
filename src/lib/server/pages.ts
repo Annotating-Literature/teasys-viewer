@@ -1,87 +1,65 @@
-import fs from 'fs/promises';
-import path from 'path';
 import type { PageMetadata } from '$lib/types/page';
 
-const PAGES_DIR = path.resolve('content', 'pages');
-
-export async function listPages(): Promise<PageMetadata[]> {
-    try {
-        await fs.access(PAGES_DIR);
-    } catch {
-        await fs.mkdir(PAGES_DIR, { recursive: true });
-    }
-
-    const entries = await fs.readdir(PAGES_DIR, { withFileTypes: true });
-    const dirs = entries.filter(e => e.isDirectory());
-
-    const pages: PageMetadata[] = [];
-    for (const dir of dirs) {
-        const metaPath = path.join(PAGES_DIR, dir.name, 'metadata.json');
-        try {
-            const raw = await fs.readFile(metaPath, 'utf-8');
-            const parsed = JSON.parse(raw);
-            pages.push(parsed);
-        } catch (err) {
-            console.warn(`Skipping invalid or missing metadata for page ${dir.name}:`, err);
-        }
-    }
-
-    return pages.sort((a, b) => a.title.localeCompare(b.title));
+interface PageRow {
+	id: string;
+	title: string;
+	content_md: string;
+	menu: number;
+	parent: string | null;
+	created_at: string;
+	updated_at: string;
 }
 
-export async function getPage(slug: string): Promise<{ metadata: PageMetadata; content: string }> {
-    try {
-        const pageDir = path.join(PAGES_DIR, slug);
-        const metaPath = path.join(pageDir, 'metadata.json');
-        const contentPath = path.join(pageDir, 'content.md');
-
-        const metaRaw = await fs.readFile(metaPath, 'utf-8');
-        const metadata = JSON.parse(metaRaw);
-
-        const content = await fs.readFile(contentPath, 'utf-8');
-
-        return { metadata, content };
-    } catch (err) {
-        throw new Error(`Page not found: ${slug}`);
-    }
+function rowToMetadata(row: PageRow): PageMetadata {
+	return {
+		id: row.id,
+		title: row.title,
+		menu: row.menu === 1,
+		parent: row.parent ?? undefined,
+		createdAt: row.created_at,
+		updatedAt: row.updated_at,
+	};
 }
 
-export async function savePage(slug: string, title: string, content: string, menu: boolean = true, parent: string = ""): Promise<PageMetadata> {
-    const pageDir = path.join(PAGES_DIR, slug);
-    await fs.mkdir(pageDir, { recursive: true });
-
-    const metaPath = path.join(pageDir, 'metadata.json');
-    const contentPath = path.join(pageDir, 'content.md');
-
-    let metadata: PageMetadata;
-
-    try {
-        // Update existing
-        const metaRaw = await fs.readFile(metaPath, 'utf-8');
-        metadata = JSON.parse(metaRaw);
-        metadata.title = title;
-        metadata.menu = menu;
-        metadata.parent = parent || undefined;
-        metadata.updatedAt = new Date().toISOString();
-    } catch {
-        // Create new
-        metadata = {
-            id: slug,
-            title,
-            menu,
-            parent: parent || undefined,
-            createdAt: new Date().toISOString(),
-            updatedAt: new Date().toISOString()
-        };
-    }
-
-    await fs.writeFile(metaPath, JSON.stringify(metadata, null, 2), 'utf-8');
-    await fs.writeFile(contentPath, content, 'utf-8');
-
-    return metadata;
+export async function listPages(db: D1Database): Promise<PageMetadata[]> {
+	const result = await db.prepare(
+		'SELECT id, title, menu, parent, created_at, updated_at FROM pages ORDER BY title'
+	).all<PageRow>();
+	return result.results.map(rowToMetadata);
 }
 
-export async function deletePage(slug: string): Promise<void> {
-    const pageDir = path.join(PAGES_DIR, slug);
-    await fs.rm(pageDir, { recursive: true, force: true });
+export async function getPage(db: D1Database, slug: string): Promise<{ metadata: PageMetadata; content: string }> {
+	const row = await db.prepare('SELECT * FROM pages WHERE id = ?').bind(slug).first<PageRow>();
+	if (!row) throw new Error(`Page not found: ${slug}`);
+	return { metadata: rowToMetadata(row), content: row.content_md };
+}
+
+export async function savePage(db: D1Database, slug: string, title: string, content: string, menu: boolean = true, parent: string = ''): Promise<PageMetadata> {
+	const now = new Date().toISOString();
+	const existing = await db.prepare('SELECT created_at FROM pages WHERE id = ?').bind(slug).first<{ created_at: string }>();
+	const createdAt = existing?.created_at ?? now;
+
+	await db.prepare(`
+		INSERT INTO pages (id, title, content_md, menu, parent, created_at, updated_at)
+		VALUES (?, ?, ?, ?, ?, ?, ?)
+		ON CONFLICT(id) DO UPDATE SET
+			title = excluded.title,
+			content_md = excluded.content_md,
+			menu = excluded.menu,
+			parent = excluded.parent,
+			updated_at = excluded.updated_at
+	`).bind(slug, title, content, menu ? 1 : 0, parent || null, createdAt, now).run();
+
+	return {
+		id: slug,
+		title,
+		menu,
+		parent: parent || undefined,
+		createdAt,
+		updatedAt: now,
+	};
+}
+
+export async function deletePage(db: D1Database, slug: string): Promise<void> {
+	await db.prepare('DELETE FROM pages WHERE id = ?').bind(slug).run();
 }

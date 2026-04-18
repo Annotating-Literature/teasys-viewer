@@ -3,20 +3,17 @@ import { slugify, findAuthorBySlug } from '$lib/utils/slug';
 import { error } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 
-export const load: PageServerLoad = async ({ params, parent }) => {
+export const load: PageServerLoad = async ({ params, parent, platform }) => {
     const { user } = await parent();
-    const allTexts = await listTexts();
+    const db = platform!.env.DB;
+    const allTexts = await listTexts(db);
 
-    // Try to find author name from texts first
     let authorName = findAuthorBySlug(allTexts, params.authorSlug);
 
-    // If not found in texts, check standalone author directories
     if (!authorName) {
-        const standaloneAuthors = await listAuthorDirectories();
+        const standaloneAuthors = await listAuthorDirectories(db);
         const standalone = standaloneAuthors.find(a => a.slug === params.authorSlug);
-        if (standalone) {
-            authorName = standalone.name;
-        }
+        if (standalone) authorName = standalone.name;
     }
 
     if (!authorName) {
@@ -28,12 +25,12 @@ export const load: PageServerLoad = async ({ params, parent }) => {
 
     const textsWithCounts = await Promise.all(
         authorTexts.map(async (text) => {
-            const annotations = await listAnnotations(text.id);
+            const annotations = await listAnnotations(db, text.id);
             return { ...text, annotationCount: annotations.length };
         })
     );
 
-    const profile = await getAuthorProfile(params.authorSlug);
+    const profile = await getAuthorProfile(db, params.authorSlug);
 
     return {
         author: authorName,

@@ -1,22 +1,22 @@
-import db from '$lib/server/db';
 import { fail, redirect } from '@sveltejs/kit';
 import type { PageServerLoad, Actions } from './$types';
 import { hashPassword } from '$lib/server/auth';
 
-export const load: PageServerLoad = async ({ locals }) => {
+export const load: PageServerLoad = async ({ locals, platform }) => {
 	if (!locals.user) {
 		throw redirect(303, '/');
 	}
-	// Give admins all users, give editors only themselves
-	const users = locals.user.role === 'admin' 
-		? db.prepare('SELECT id, username, role FROM users').all()
-		: db.prepare('SELECT id, username, role FROM users WHERE id = ?').all(locals.user.id);
-		
+
+	const db = platform!.env.DB;
+	const users = locals.user.role === 'admin'
+		? (await db.prepare('SELECT id, username, role FROM users').all<{ id: number; username: string; role: string }>()).results
+		: (await db.prepare('SELECT id, username, role FROM users WHERE id = ?').bind(locals.user.id).all<{ id: number; username: string; role: string }>()).results;
+
 	return { users, currentUser: locals.user };
 };
 
 export const actions: Actions = {
-	createUser: async ({ request, locals }) => {
+	createUser: async ({ request, locals, platform }) => {
 		if (locals.user?.role !== 'admin') return fail(403, { message: 'Forbidden' });
 
 		const data = await request.formData();
@@ -30,24 +30,29 @@ export const actions: Actions = {
 
 		const passwordHash = await hashPassword(password);
 		try {
-			db.prepare('INSERT INTO users (username, password_hash, role) VALUES (?, ?, ?)').run(username, passwordHash, role);
-		} catch (e) {
+			await platform!.env.DB.prepare('INSERT INTO users (username, password_hash, role) VALUES (?, ?, ?)')
+				.bind(username, passwordHash, role)
+				.run();
+		} catch {
 			return fail(500, { message: 'Failed to create user' });
 		}
 		return { success: true };
 	},
-	deleteUser: async ({ request, locals }) => {
+
+	deleteUser: async ({ request, locals, platform }) => {
 		if (locals.user?.role !== 'admin') return fail(403, { message: 'Forbidden' });
+
 		const data = await request.formData();
 		const id = data.get('id') as string;
 		try {
-			db.prepare('DELETE FROM users WHERE id = ?').run(id);
-		} catch (e) {
+			await platform!.env.DB.prepare('DELETE FROM users WHERE id = ?').bind(id).run();
+		} catch {
 			return fail(500, { message: 'Failed to delete user' });
 		}
 		return { success: true };
 	},
-	changePassword: async ({ request, locals }) => {
+
+	changePassword: async ({ request, locals, platform }) => {
 		if (!locals.user) return fail(401, { message: 'Unauthorized' });
 
 		const data = await request.formData();
@@ -58,7 +63,6 @@ export const actions: Actions = {
 			return fail(400, { message: 'Missing fields' });
 		}
 
-		// Authorization: Admins can change anyone's. Editors can only change their own.
 		if (locals.user.role !== 'admin' && locals.user.id.toString() !== id) {
 			return fail(403, { message: 'Forbidden: You can only change your own password' });
 		}
@@ -69,11 +73,13 @@ export const actions: Actions = {
 
 		try {
 			const passwordHash = await hashPassword(newPassword);
-			db.prepare('UPDATE users SET password_hash = ? WHERE id = ?').run(passwordHash, id);
-		} catch (e) {
+			await platform!.env.DB.prepare('UPDATE users SET password_hash = ? WHERE id = ?')
+				.bind(passwordHash, id)
+				.run();
+		} catch {
 			return fail(500, { message: 'Failed to change password' });
 		}
-		
+
 		return { success: true };
 	}
 };

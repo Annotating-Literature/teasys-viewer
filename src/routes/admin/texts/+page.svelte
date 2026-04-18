@@ -34,6 +34,45 @@
 		return result;
 	});
 
+	let editingId = $state<string | null>(null);
+	let editingCategory = $state<string>("");
+	let editSaving = $state(false);
+
+	const existingCategories = $derived(
+		[...new Set(data.texts.map((t: any) => t.category).filter(Boolean))] as string[]
+	);
+
+	function startEdit(text: any) {
+		editingId = text.id;
+		editingCategory = text.category || "";
+	}
+
+	function cancelEdit() {
+		editingId = null;
+		editingCategory = "";
+	}
+
+	async function saveCategory(textId: string, originalCategory: string) {
+		editSaving = true;
+		try {
+			const res = await fetch(`/api/texts/${textId}`, {
+				method: "PUT",
+				headers: { "Content-Type": "application/json" },
+				body: JSON.stringify({ metadata: { category: editingCategory } }),
+			});
+			if (res.ok) {
+				window.location.reload();
+			} else {
+				const body = await res.json().catch(() => ({}));
+				alert(body.error || "Failed to update genre");
+			}
+		} catch {
+			alert("Failed to update genre");
+		} finally {
+			editSaving = false;
+		}
+	}
+
 	async function deleteText(textId: string, title: string) {
 		if (!confirm(`Delete "${title}"? This cannot be undone.`)) return;
 		try {
@@ -119,19 +158,53 @@
 										</p>
 									</div>
 									<div class="flex items-center gap-3 ml-4">
-										<a
-											href={`/texts/${text.id}`}
-											class="text[13px] font-medium text-primary-600 hover:text-primary-700 px-2.5 py-1 rounded-md hover:bg-primary-50 transition-colors"
-										>
-											View
-										</a>
-										<button
-											onclick={() =>
-												deleteText(text.id, text.title)}
-											class="text[13px] font-medium text-red-500 hover:text-red-600 px-2.5 py-1 rounded-md hover:bg-red-50 transition-colors"
-										>
-											Delete
-										</button>
+										{#if editingId === text.id}
+											<input
+												type="text"
+												bind:value={editingCategory}
+												list="category-suggestions"
+												placeholder="e.g. Gothic"
+												class="px-2 py-1 text-m border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 w-40"
+											/>
+											<datalist id="category-suggestions">
+												{#each existingCategories as cat}
+													<option value={cat} />
+												{/each}
+											</datalist>
+											<button
+												onclick={() => saveCategory(text.id, text.category)}
+												disabled={editSaving || editingCategory === (text.category || "")}
+												class="text[13px] font-medium text-white bg-primary-600 hover:bg-primary-700 px-2.5 py-1 rounded-md transition-colors disabled:opacity-40"
+											>
+												Save
+											</button>
+											<button
+												onclick={cancelEdit}
+												class="text[13px] font-medium text-gray-500 hover:text-gray-700 px-2.5 py-1 rounded-md hover:bg-gray-100 transition-colors"
+											>
+												Cancel
+											</button>
+										{:else}
+											<a
+												href={`/texts/${text.id}`}
+												class="text[13px] font-medium text-primary-600 hover:text-primary-700 px-2.5 py-1 rounded-md hover:bg-primary-50 transition-colors"
+											>
+												View
+											</a>
+											<button
+												onclick={() => startEdit(text)}
+												class="text[13px] font-medium text-gray-500 hover:text-gray-700 px-2.5 py-1 rounded-md hover:bg-gray-100 transition-colors"
+											>
+												Edit genre
+											</button>
+											<button
+												onclick={() =>
+													deleteText(text.id, text.title)}
+												class="text[13px] font-medium text-red-500 hover:text-red-600 px-2.5 py-1 rounded-md hover:bg-red-50 transition-colors"
+											>
+												Delete
+											</button>
+										{/if}
 									</div>
 								</div>
 							{/each}

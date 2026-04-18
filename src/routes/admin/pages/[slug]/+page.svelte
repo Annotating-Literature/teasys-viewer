@@ -13,6 +13,8 @@
     let parent = $state("");
     let saving = $state(false);
 
+    let imageAlignment = $state("");
+
     let fileInput = $state<HTMLInputElement | null>(null);
     let isUploading = $state(false);
     let textareaRef = $state<HTMLTextAreaElement | null>(null);
@@ -43,7 +45,7 @@
             if (!res.ok) throw new Error("Upload failed");
             const result = await res.json();
 
-            insertAtCursor(`![${file.name.split(".")[0]}](${result.url})`);
+            insertAtCursor(`![${file.name.split(".")[0]}](${result.url}${imageAlignment})`);
         } catch (error) {
             console.error("Failed to upload image:", error);
             alert("Failed to upload image.");
@@ -182,6 +184,17 @@
                 >
                     Content
                     <div class="flex items-center gap-3">
+                        <select
+                            bind:value={imageAlignment}
+                            disabled={isUploading}
+                            class="text-[12px] font-medium border border-gray-200 rounded px-2 py-1 bg-white focus:outline-none focus:border-primary-500 disabled:opacity-50 disabled:bg-gray-50 text-gray-600"
+                        >
+                            <option value="">Default (Block)</option>
+                            <option value="#inline">Inline (Text Width)</option>
+                            <option value="#full-width">Full Width</option>
+                            <option value="#align-left">Float Left</option>
+                            <option value="#align-right">Float Right</option>
+                        </select>
                         <input
                             type="file"
                             accept="image/*"

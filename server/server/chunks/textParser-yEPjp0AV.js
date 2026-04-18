@@ -1,0 +1,167 @@
+function parseText(rawText, type) {
+  const lines = rawText.split(/\n/);
+  let globalIndex = 0;
+  let charOffset = 0;
+  if (type === "poetry") {
+    const poems = [];
+    let currentPoem = null;
+    let currentStanza = [];
+    for (const lineWithCR of lines) {
+      const hasCR = lineWithCR.endsWith("\r");
+      const line = hasCR ? lineWithCR.slice(0, -1) : lineWithCR;
+      const trimmed = line.trim();
+      const lineLength = lineWithCR.length + 1;
+      if (trimmed.startsWith("## ")) {
+        if (currentStanza.length > 0 && currentPoem) {
+          currentPoem.stanzas.push(currentStanza);
+          currentStanza = [];
+        }
+        if (currentPoem) {
+          poems.push(currentPoem);
+        }
+        const prefixLength = line.indexOf(trimmed.substring(3));
+        const titleStart = charOffset + prefixLength;
+        currentPoem = {
+          title: trimmed.substring(3).trim(),
+          titleStart,
+          titleEnd: titleStart + trimmed.substring(3).trim().length,
+          stanzas: []
+        };
+      } else if (trimmed === "") {
+        if (currentStanza.length > 0 && currentPoem) {
+          currentPoem.stanzas.push(currentStanza);
+          currentStanza = [];
+        }
+      } else {
+        if (!currentPoem) {
+          currentPoem = { title: "Untitled", stanzas: [] };
+        }
+        const indentMatch = line.match(/^(\s+)/);
+        const indentCount = indentMatch ? indentMatch[1].length : 0;
+        const isDropLine = false;
+        globalIndex++;
+        currentStanza.push({
+          globalIndex: globalIndex - 1,
+          text: line,
+          // Keep original line with spaces
+          start: charOffset,
+          end: charOffset + line.length,
+          indentCount,
+          isDropLine
+        });
+      }
+      charOffset += lineLength;
+    }
+    if (currentStanza.length > 0 && currentPoem) {
+      currentPoem.stanzas.push(currentStanza);
+    }
+    if (currentPoem) {
+      poems.push(currentPoem);
+    }
+    return { type: "poetry", poems };
+  } else if (type === "prose") {
+    const chapters = [];
+    let currentChapter = null;
+    for (const lineWithCR of lines) {
+      const hasCR = lineWithCR.endsWith("\r");
+      const line = hasCR ? lineWithCR.slice(0, -1) : lineWithCR;
+      const trimmed = line.trim();
+      const lineLength = lineWithCR.length + 1;
+      if (trimmed.startsWith("## ")) {
+        if (currentChapter) chapters.push(currentChapter);
+        const prefixLength = line.indexOf(trimmed.substring(3));
+        const titleStart = charOffset + prefixLength;
+        currentChapter = {
+          title: trimmed.substring(3).trim(),
+          titleStart,
+          titleEnd: titleStart + trimmed.substring(3).trim().length,
+          paragraphs: []
+        };
+      } else if (trimmed !== "") {
+        if (!currentChapter) {
+          currentChapter = { title: "Untitled", paragraphs: [] };
+        }
+        const prefixLength = line.indexOf(trimmed);
+        currentChapter.paragraphs.push({
+          globalIndex: globalIndex++,
+          text: trimmed,
+          start: charOffset + prefixLength,
+          end: charOffset + prefixLength + trimmed.length
+        });
+      }
+      charOffset += lineLength;
+    }
+    if (currentChapter) chapters.push(currentChapter);
+    return { type: "prose", chapters };
+  } else if (type === "drama") {
+    const acts = [];
+    let currentAct = null;
+    let currentScene = null;
+    for (const lineWithCR of lines) {
+      const hasCR = lineWithCR.endsWith("\r");
+      const line = hasCR ? lineWithCR.slice(0, -1) : lineWithCR;
+      const trimmed = line.trim();
+      const lineLength = lineWithCR.length + 1;
+      if (trimmed.startsWith("## Act")) {
+        if (currentScene && currentAct) currentAct.scenes.push(currentScene);
+        if (currentAct) acts.push(currentAct);
+        const prefixLength = line.indexOf(trimmed.substring(3));
+        const titleStart = charOffset + prefixLength;
+        currentAct = {
+          title: trimmed.substring(3).trim(),
+          titleStart,
+          titleEnd: titleStart + trimmed.substring(3).trim().length,
+          scenes: []
+        };
+        currentScene = null;
+      } else if (trimmed.startsWith("## Scene") || trimmed.startsWith("## ") && !trimmed.startsWith("## Act")) {
+        if (currentScene && currentAct) currentAct.scenes.push(currentScene);
+        if (!currentAct) currentAct = { title: "Untitled Act", scenes: [] };
+        const prefixLength = line.indexOf(trimmed.substring(3));
+        const titleStart = charOffset + prefixLength;
+        currentScene = {
+          title: trimmed.substring(3).trim(),
+          titleStart,
+          titleEnd: titleStart + trimmed.substring(3).trim().length,
+          blocks: []
+        };
+      } else if (trimmed !== "") {
+        if (!currentAct) currentAct = { title: "Untitled Act", scenes: [] };
+        if (!currentScene) currentScene = { title: "Untitled Scene", blocks: [] };
+        let blockType = "speech";
+        let speaker;
+        let text = trimmed;
+        let startOffset = charOffset;
+        if (trimmed.startsWith("[") && trimmed.endsWith("]")) {
+          blockType = "stage";
+        } else if (/^[A-Z\s]+:/.test(trimmed)) {
+          const colonIndex = trimmed.indexOf(":");
+          speaker = trimmed.substring(0, colonIndex).trim();
+          text = trimmed.substring(colonIndex + 1).trim();
+          const prefixLength = line.indexOf(text);
+          startOffset += prefixLength;
+        } else {
+          startOffset += line.length - line.trimStart().length;
+        }
+        if (text) {
+          currentScene.blocks.push({
+            globalIndex: globalIndex++,
+            type: blockType,
+            speaker,
+            text,
+            start: startOffset,
+            end: startOffset + text.length
+          });
+        }
+      }
+      charOffset += lineLength;
+    }
+    if (currentScene && currentAct) currentAct.scenes.push(currentScene);
+    if (currentAct) acts.push(currentAct);
+    return { type: "drama", acts };
+  }
+  throw new Error(`Unsupported text type: ${type}`);
+}
+
+export { parseText as p };
+//# sourceMappingURL=textParser-yEPjp0AV.js.map

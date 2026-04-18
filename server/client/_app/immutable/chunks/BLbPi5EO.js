@@ -1,0 +1,1 @@
+import{g as b,E as h,j as k,I as E,S as T}from"./Cy30Bi6B.js";function u(r,i){return r===i||r?.[T]===i}function d(r={},i,a,S){return b(()=>{var f,s;return h(()=>{f=s,s=S?.()||[],k(()=>{r!==a(...s)&&(i(r,...s),f&&u(a(...f),r)&&i(null,...f))})}),()=>{E(()=>{s&&u(a(...s),r)&&i(null,...s)})}}),r}export{d as b};

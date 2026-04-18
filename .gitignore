@@ -22,8 +22,8 @@ Thumbs.db
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
-# Database (created at runtime)
-*.db
+# Local dev databases (Wrangler D1 emulation + any local SQLite files)
+data/
 
 # Dev artifacts
 dev.log

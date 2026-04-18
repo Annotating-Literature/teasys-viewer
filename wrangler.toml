@@ -1,0 +1,13 @@
+name = "teasys-viewer"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".svelte-kit/cloudflare"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "teasys-db"
+database_id = "aaf2bcc0-5fdd-43bd-bd54-0988508b0584"
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "teasys-portraits"

@@ -9,8 +9,11 @@ const MIME: Record<string, string> = {
     webp: 'image/webp'
 };
 
-export const GET: RequestHandler = async ({ params, platform }) => {
-    const result = await getAuthorPortraitFile(platform!.env.BUCKET, platform!.env.DB, params.authorSlug);
+export const GET: RequestHandler = async ({ params, locals }) => {
+    if (!locals.bucket) {
+        throw error(503, 'Portrait storage not available');
+    }
+    const result = await getAuthorPortraitFile(locals.bucket, locals.db, params.authorSlug);
     if (!result) {
         throw error(404, 'Portrait not found');
     }

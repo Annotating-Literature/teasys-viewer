@@ -3,9 +3,9 @@ import { slugify, findAuthorBySlug } from '$lib/utils/slug';
 import { error } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 
-export const load: PageServerLoad = async ({ params, parent, platform }) => {
+export const load: PageServerLoad = async ({ params, parent, locals }) => {
     const { user } = await parent();
-    const db = platform!.env.DB;
+    const db = locals.db;
     const allTexts = await listTexts(db);
 
     let authorName = findAuthorBySlug(allTexts, params.authorSlug);

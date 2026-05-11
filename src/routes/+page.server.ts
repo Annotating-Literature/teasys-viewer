@@ -2,9 +2,9 @@ import { listTexts } from '$lib/server/content';
 import type { PageServerLoad } from './$types';
 import type { TextMetadata } from '$lib/types/text';
 
-export const load: PageServerLoad = async ({ parent, platform }) => {
+export const load: PageServerLoad = async ({ parent, locals }) => {
 	const { user } = await parent();
-	const db = platform!.env.DB;
+	const db = locals.db;
 	const texts = await listTexts(db);
 	texts.sort((a, b) => a.title.localeCompare(b.title));
 

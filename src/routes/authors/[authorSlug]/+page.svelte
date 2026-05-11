@@ -131,7 +131,7 @@
                            transition-all duration-200 ease-out overflow-hidden"
                 >
                     <h4
-                        class="text-base font-semibold text-gray-800 dark:text-gray-200 group-hover:text-primary-700 dark:group-hover:text-primary-400 transition-colors leading-snug font-serif"
+                        class="text-base font-semibold text-gray-800 group-hover:text-primary-700 dark:group-hover:text-primary-400 transition-colors leading-snug font-serif"
                     >
                         {text.title}
                     </h4>

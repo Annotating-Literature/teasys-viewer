@@ -77,7 +77,7 @@
                                 class="group block relative p-5 bg-surface-card backdrop-blur-sm border border-gray-200/60 rounded-xl hover:bg-surface-elevated hover:border-gray-400 hover:shadow-sm hover:-translate-y-0.5 transition-all duration-200 ease-out"
                             >
                                 <h4
-                                    class="text-base font-semibold text-gray-800 dark:text-gray-200 group-hover:text-primary-700 dark:group-hover:text-primary-400 transition-colors leading-snug font-serif"
+                                    class="text-base font-semibold text-gray-800 group-hover:text-primary-700 dark:group-hover:text-primary-400 transition-colors leading-snug font-serif"
                                 >
                                     <a
                                         href={`/texts/${text.id}`}

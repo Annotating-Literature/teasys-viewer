@@ -4,12 +4,12 @@ import { slugify, findUniqueSlug } from '$lib/utils/slug';
 import type { RequestHandler } from './$types';
 import type { TextMetadata } from '$lib/types/text';
 
-export const GET: RequestHandler = async ({ platform }) => {
-	const texts = await listTexts(platform!.env.DB);
+export const GET: RequestHandler = async ({ locals }) => {
+	const texts = await listTexts(locals.db);
 	return json(texts);
 };
 
-export const POST: RequestHandler = async ({ request, locals, platform }) => {
+export const POST: RequestHandler = async ({ request, locals }) => {
 	if (!locals.user || locals.user.role !== 'admin') {
 		return json({ error: 'Unauthorized' }, { status: 401 });
 	}
@@ -31,7 +31,7 @@ export const POST: RequestHandler = async ({ request, locals, platform }) => {
 		return json({ error: 'Text content is required for this type' }, { status: 400 });
 	}
 
-	const db = platform!.env.DB;
+	const db = locals.db;
 	const existingTexts = await listTexts(db);
 	const existingIds = new Set(existingTexts.map((t) => t.id));
 	const slug = findUniqueSlug(slugify(title, 80), existingIds);

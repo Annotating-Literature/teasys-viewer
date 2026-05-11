@@ -3,8 +3,8 @@ import type { PageServerLoad, Actions } from './$types';
 import { fail, redirect } from '@sveltejs/kit';
 import { slugify } from '$lib/utils/slug';
 
-export const load: PageServerLoad = async ({ params, platform }) => {
-    const db = platform!.env.DB;
+export const load: PageServerLoad = async ({ params, locals }) => {
+    const db = locals.db;
     const allPages = await listPages(db);
 
     if (params.slug === 'new') {
@@ -20,7 +20,7 @@ export const load: PageServerLoad = async ({ params, platform }) => {
 };
 
 export const actions: Actions = {
-    default: async ({ request, params, platform }) => {
+    default: async ({ request, params, locals }) => {
         const data = await request.formData();
         const title = data.get('title')?.toString();
         const content = data.get('content')?.toString() || '';
@@ -37,7 +37,7 @@ export const actions: Actions = {
         }
 
         try {
-            await savePage(platform!.env.DB, slug, title, content, menu, parent);
+            await savePage(locals.db, slug, title, content, menu, parent);
         } catch {
             return fail(500, { error: 'Failed to save page', title, content });
         }

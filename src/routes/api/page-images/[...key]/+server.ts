@@ -1,8 +1,11 @@
 import { error } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 
-export const GET: RequestHandler = async ({ params, platform }) => {
-    const obj = await platform!.env.BUCKET.get(params.key);
+export const GET: RequestHandler = async ({ params, locals }) => {
+    if (!locals.bucket) {
+        throw error(503, 'Image storage not available');
+    }
+    const obj = await locals.bucket.get(params.key);
     if (!obj) {
         throw error(404, 'Image not found');
     }

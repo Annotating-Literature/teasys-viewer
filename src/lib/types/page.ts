@@ -3,6 +3,7 @@ export interface PageMetadata {
     title: string;
     menu?: boolean;
     parent?: string;
+    sortOrder?: number;
     createdAt: string;
     updatedAt: string;
 }

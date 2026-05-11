@@ -4,8 +4,8 @@ import { error } from '@sveltejs/kit';
 import { marked } from 'marked';
 import type { PageServerLoad } from './$types';
 
-export const load: PageServerLoad = async ({ params, platform }) => {
-    const db = platform!.env.DB;
+export const load: PageServerLoad = async ({ params, locals }) => {
+    const db = locals.db;
     try {
         const page = await getPage(db, params.slug);
 

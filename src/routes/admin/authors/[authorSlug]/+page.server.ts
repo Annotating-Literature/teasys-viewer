@@ -3,8 +3,8 @@ import { findAuthorBySlug } from '$lib/utils/slug';
 import { error, fail, redirect } from '@sveltejs/kit';
 import type { PageServerLoad, Actions } from './$types';
 
-export const load: PageServerLoad = async ({ params, platform }) => {
-    const db = platform!.env.DB;
+export const load: PageServerLoad = async ({ params, locals }) => {
+    const db = locals.db;
     const allTexts = await listTexts(db);
     const authorName = findAuthorBySlug(allTexts, params.authorSlug);
 
@@ -27,8 +27,8 @@ export const load: PageServerLoad = async ({ params, platform }) => {
 };
 
 export const actions: Actions = {
-    default: async ({ request, params, platform }) => {
-        const db = platform!.env.DB;
+    default: async ({ request, params, locals }) => {
+        const db = locals.db;
         const formData = await request.formData();
         const bio = formData.get('bio') as string;
         const portrait = formData.get('portrait') as File | null;
@@ -53,8 +53,11 @@ export const actions: Actions = {
             if (!['jpg', 'jpeg', 'png', 'webp'].includes(ext)) {
                 return fail(400, { error: 'Invalid image format. Use JPG, PNG, or WebP.' });
             }
+            if (!locals.bucket) {
+                return fail(500, { error: 'Portrait storage is not configured.' });
+            }
             const data = await portrait.arrayBuffer();
-            await saveAuthorPortrait(platform!.env.BUCKET, db, params.authorSlug, data as unknown as Buffer, ext);
+            await saveAuthorPortrait(locals.bucket, db, params.authorSlug, data as unknown as Buffer, ext);
         }
 
         throw redirect(303, `/admin/authors/${params.authorSlug}`);

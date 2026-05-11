@@ -3,16 +3,16 @@ import { listAnnotations, saveAnnotation } from '$lib/server/content';
 import { slugify, findUniqueSlug } from '$lib/utils/slug';
 import type { RequestHandler } from './$types';
 
-export const GET: RequestHandler = async ({ params, platform }) => {
+export const GET: RequestHandler = async ({ params, locals }) => {
 	try {
-		const annotations = await listAnnotations(platform!.env.DB, params.textId);
+		const annotations = await listAnnotations(locals.db, params.textId);
 		return json(annotations);
 	} catch {
 		return json({ error: 'Could not list annotations' }, { status: 500 });
 	}
 };
 
-export const POST: RequestHandler = async ({ request, locals, params, platform }) => {
+export const POST: RequestHandler = async ({ request, locals, params }) => {
 	if (!locals.user) {
 		return json({ error: 'Unauthorized' }, { status: 401 });
 	}
@@ -25,8 +25,8 @@ export const POST: RequestHandler = async ({ request, locals, params, platform }
 		createdAt?: string;
 		[key: string]: unknown;
 	};
-	const db = platform!.env.DB;
-	const context = platform!.context;
+	const db = locals.db;
+	const context = locals.context;
 
 	try {
 		let finalId = data.id;

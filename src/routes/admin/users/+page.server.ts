@@ -2,12 +2,12 @@ import { fail, redirect } from '@sveltejs/kit';
 import type { PageServerLoad, Actions } from './$types';
 import { hashPassword } from '$lib/server/auth';
 
-export const load: PageServerLoad = async ({ locals, platform }) => {
+export const load: PageServerLoad = async ({ locals }) => {
 	if (!locals.user) {
 		throw redirect(303, '/');
 	}
 
-	const db = platform!.env.DB;
+	const db = locals.db;
 	const users = locals.user.role === 'admin'
 		? (await db.prepare('SELECT id, username, role FROM users').all<{ id: number; username: string; role: string }>()).results
 		: (await db.prepare('SELECT id, username, role FROM users WHERE id = ?').bind(locals.user.id).all<{ id: number; username: string; role: string }>()).results;
@@ -16,7 +16,7 @@ export const load: PageServerLoad = async ({ locals, platform }) => {
 };
 
 export const actions: Actions = {
-	createUser: async ({ request, locals, platform }) => {
+	createUser: async ({ request, locals }) => {
 		if (locals.user?.role !== 'admin') return fail(403, { message: 'Forbidden' });
 
 		const data = await request.formData();
@@ -30,7 +30,7 @@ export const actions: Actions = {
 
 		const passwordHash = await hashPassword(password);
 		try {
-			await platform!.env.DB.prepare('INSERT INTO users (username, password_hash, role) VALUES (?, ?, ?)')
+			await locals.db.prepare('INSERT INTO users (username, password_hash, role) VALUES (?, ?, ?)')
 				.bind(username, passwordHash, role)
 				.run();
 		} catch {
@@ -39,20 +39,20 @@ export const actions: Actions = {
 		return { success: true };
 	},
 
-	deleteUser: async ({ request, locals, platform }) => {
+	deleteUser: async ({ request, locals }) => {
 		if (locals.user?.role !== 'admin') return fail(403, { message: 'Forbidden' });
 
 		const data = await request.formData();
 		const id = data.get('id') as string;
 		try {
-			await platform!.env.DB.prepare('DELETE FROM users WHERE id = ?').bind(id).run();
+			await locals.db.prepare('DELETE FROM users WHERE id = ?').bind(id).run();
 		} catch {
 			return fail(500, { message: 'Failed to delete user' });
 		}
 		return { success: true };
 	},
 
-	changePassword: async ({ request, locals, platform }) => {
+	changePassword: async ({ request, locals }) => {
 		if (!locals.user) return fail(401, { message: 'Unauthorized' });
 
 		const data = await request.formData();
@@ -73,7 +73,7 @@ export const actions: Actions = {
 
 		try {
 			const passwordHash = await hashPassword(newPassword);
-			await platform!.env.DB.prepare('UPDATE users SET password_hash = ? WHERE id = ?')
+			await locals.db.prepare('UPDATE users SET password_hash = ? WHERE id = ?')
 				.bind(passwordHash, id)
 				.run();
 		} catch {

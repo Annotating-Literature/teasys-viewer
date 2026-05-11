@@ -6,6 +6,9 @@ declare global {
 		// interface Error {}
 		interface Locals {
 			user: { id: number; username: string; role: 'admin' | 'editor' } | null;
+			db: D1Database;
+			bucket: R2Bucket | null;
+			context: ExecutionContext | { waitUntil: (p: Promise<unknown>) => void };
 		}
 		// interface PageData {}
 		// interface PageState {}

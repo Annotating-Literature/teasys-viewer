@@ -5,10 +5,10 @@ import type { PageServerLoad } from './$types';
 import type { TextMetadata, ParsedText } from '$lib/types/text';
 import type { Annotation } from '$lib/types/annotation';
 
-export const load: PageServerLoad = async ({ params, parent, platform }) => {
+export const load: PageServerLoad = async ({ params, parent, locals }) => {
 	try {
 		const { user } = await parent();
-		const db = platform!.env.DB;
+		const db = locals.db;
 		const text = await getText(db, params.textId);
 
 		let parsedText: ParsedText | null = null;

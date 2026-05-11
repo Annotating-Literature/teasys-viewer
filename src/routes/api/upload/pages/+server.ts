@@ -1,9 +1,13 @@
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 
-export const POST: RequestHandler = async ({ request, locals, platform }) => {
+export const POST: RequestHandler = async ({ request, locals }) => {
     if (!locals.user) {
         return json({ error: 'Unauthorized' }, { status: 401 });
+    }
+
+    if (!locals.bucket) {
+        return json({ error: 'Image storage not configured' }, { status: 503 });
     }
 
     try {
@@ -22,7 +26,7 @@ export const POST: RequestHandler = async ({ request, locals, platform }) => {
         const safeName = file.name.replace(/[^a-zA-Z0-9.-]/g, '_');
         const key = `page-images/${timestamp}-${safeName}`;
 
-        await platform!.env.BUCKET.put(key, await file.arrayBuffer(), {
+        await locals.bucket.put(key, await file.arrayBuffer(), {
             httpMetadata: { contentType: file.type }
         });
 

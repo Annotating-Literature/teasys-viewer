@@ -111,7 +111,9 @@ export async function getAnnotation(db: D1Database, textId: string, annotationId
 	return rowToAnnotation(row);
 }
 
-export async function saveAnnotation(db: D1Database, context: ExecutionContext, textId: string, annotation: Annotation): Promise<void> {
+type AnyContext = ExecutionContext | { waitUntil: (p: Promise<unknown>) => void };
+
+export async function saveAnnotation(db: D1Database, context: AnyContext, textId: string, annotation: Annotation): Promise<void> {
 	if (!isValidSlug(textId) || !isValidSlug(annotation.id)) throw new Error('Invalid ID');
 
 	await db.prepare(`
@@ -137,7 +139,7 @@ export async function saveAnnotation(db: D1Database, context: ExecutionContext, 
 	context.waitUntil(generateTEI(db, textId));
 }
 
-export async function deleteAnnotation(db: D1Database, context: ExecutionContext, textId: string, annotationId: string): Promise<void> {
+export async function deleteAnnotation(db: D1Database, context: AnyContext, textId: string, annotationId: string): Promise<void> {
 	if (!isValidSlug(textId) || !isValidSlug(annotationId)) throw new Error('Invalid ID');
 	await db.prepare('DELETE FROM annotations WHERE id = ? AND text_id = ?')
 		.bind(annotationId, textId).run();

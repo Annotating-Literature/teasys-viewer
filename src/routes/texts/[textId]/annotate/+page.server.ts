@@ -3,12 +3,12 @@ import { getText, listAnnotations } from '$lib/server/content';
 import { parseText } from '$lib/server/textParser';
 import type { PageServerLoad } from './$types';
 
-export const load: PageServerLoad = async ({ locals, params, platform }) => {
+export const load: PageServerLoad = async ({ locals, params }) => {
 	if (!locals.user) {
 		throw redirect(302, '/login');
 	}
 	try {
-		const db = platform!.env.DB;
+		const db = locals.db;
 		const text = await getText(db, params.textId);
 
 		if (text.metadata.type === 'collection') {

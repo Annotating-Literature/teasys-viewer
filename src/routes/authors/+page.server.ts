@@ -2,8 +2,8 @@ import { listTexts, listAuthorDirectories } from '$lib/server/content';
 import { slugify } from '$lib/utils/slug';
 import type { PageServerLoad } from './$types';
 
-export const load: PageServerLoad = async ({ platform }) => {
-    const db = platform!.env.DB;
+export const load: PageServerLoad = async ({ locals }) => {
+    const db = locals.db;
     const [texts, standaloneAuthors, countRows, authorRows] = await Promise.all([
         listTexts(db),
         listAuthorDirectories(db),

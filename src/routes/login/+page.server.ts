@@ -9,7 +9,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 };
 
 export const actions: Actions = {
-	default: async ({ request, cookies, platform }) => {
+	default: async ({ request, cookies, locals }) => {
 		const data = await request.formData();
 		const username = data.get('username');
 		const password = data.get('password');
@@ -18,7 +18,7 @@ export const actions: Actions = {
 			return fail(400, { error: 'Invalid username or password' });
 		}
 
-		const db = platform!.env.DB;
+		const db = locals.db;
 		const user = await getUserByUsername(db, username);
 
 		if (!user) {

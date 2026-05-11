@@ -1,8 +1,8 @@
 import { error } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 
-export const GET: RequestHandler = async ({ params, platform }) => {
-	const row = await platform!.env.DB
+export const GET: RequestHandler = async ({ params, locals }) => {
+	const row = await locals.db
 		.prepare('SELECT tei_xml FROM texts WHERE id = ?')
 		.bind(params.textId)
 		.first<{ tei_xml: string | null }>();

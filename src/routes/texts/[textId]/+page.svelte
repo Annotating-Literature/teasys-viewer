@@ -6,6 +6,8 @@
 	import Breadcrumbs from "$lib/components/layout/Breadcrumbs.svelte";
 	import { slugify } from "$lib/utils/slug";
 	import { CATEGORY_META } from "$lib/constants";
+	import Seo from "$lib/components/Seo.svelte";
+	import { SITE } from "$lib/config/site";
 
 	let { data } = $props();
 
@@ -111,14 +113,22 @@
 	}
 </script>
 
-<svelte:head>
-	<title>{data.text.metadata.title} — TEASys Viewer</title>
-	<meta
-		name="description"
-		content="{data.text.metadata.title} by {data.text.metadata
-			.author} — annotated reading view"
-	/>
-</svelte:head>
+<Seo
+	title={data.text.metadata.title}
+	description="{data.text.metadata.title} by {data.text.metadata.author}{data.text.metadata.year ? ` (${data.text.metadata.year})` : ''} — annotated reading view"
+	canonical="/texts/{data.text.metadata.id}"
+	type="book"
+	jsonLd={{
+		'@context': 'https://schema.org',
+		'@type': 'Book',
+		name: data.text.metadata.title,
+		author: { '@type': 'Person', name: data.text.metadata.author },
+		...(data.text.metadata.year ? { datePublished: String(data.text.metadata.year) } : {}),
+		genre: data.text.metadata.type,
+		url: SITE.siteUrl ? `${SITE.siteUrl}/texts/${data.text.metadata.id}` : undefined,
+		isPartOf: SITE.siteUrl ? { '@type': 'WebSite', name: SITE.name, url: SITE.siteUrl } : undefined,
+	}}
+/>
 
 <div class="max-w-7xl mx-auto px-6 py-10 relative">
 	{#if pickerPosition && pickerAnnotations.length > 0}

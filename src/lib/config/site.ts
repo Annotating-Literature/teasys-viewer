@@ -1,5 +1,10 @@
 export const SITE = {
 	name: 'TEASys Viewer',
+	// Canonical base URL — no trailing slash. Required for sitemap and OG tags.
+	// Leave empty during development; set to your production domain before deploying.
+	siteUrl: '',
+	// Default meta description used on pages that don't supply their own.
+	description: 'A platform for collaborative multi-level annotation of literary texts.',
 	// Symbol shown in the header badge and footer when no logoImage is set.
 	logoMark: 'Θ',
 	// Optional image logo. Place the file in static/ and set the path here, e.g. '/logo.svg'.

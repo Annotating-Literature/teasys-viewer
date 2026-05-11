@@ -3,6 +3,7 @@
 	import type { Annotation } from "$lib/types/annotation";
 	import AnnotatedText from "$lib/components/reading/AnnotatedText.svelte";
 	import AnnotationForm from "$lib/components/editor/AnnotationForm.svelte";
+	import Seo from "$lib/components/Seo.svelte";
 	import TextSelector from "$lib/components/editor/TextSelector.svelte";
 	import { CATEGORY_META } from "$lib/constants";
 
@@ -126,9 +127,7 @@
 	}
 </script>
 
-<svelte:head>
-	<title>Annotate: {data.text.metadata.title} — TEASys Viewer</title>
-</svelte:head>
+<Seo title="Annotate: {data.text.metadata.title}" noindex={true} />
 
 <div class="flex" style="height: calc(100vh - 4rem);">
 	<!-- Left sidebar: annotation list + form -->

@@ -4,6 +4,8 @@
 	import IconNotebook from "$lib/components/icons/IconNotebook.svelte";
 	import IconTheatreMasks from "$lib/components/icons/IconTheatreMasks.svelte";
 	import { slugify } from "$lib/utils/slug";
+	import Seo from "$lib/components/Seo.svelte";
+	import { SITE } from "$lib/config/site";
 
 	let { data } = $props();
 
@@ -46,13 +48,17 @@
 	);
 </script>
 
-<svelte:head>
-	<title>TEASys Viewer — Annotated Literature</title>
-	<meta
-		name="description"
-		content="Explore and annotate literary texts collaboratively with TEASys Viewer."
-	/>
-</svelte:head>
+<Seo
+	description={SITE.description}
+	canonical="/"
+	jsonLd={{
+		'@context': 'https://schema.org',
+		'@type': 'WebSite',
+		name: SITE.name,
+		description: SITE.description,
+		url: SITE.siteUrl || undefined,
+	}}
+/>
 
 <div class="max-w-5xl mx-auto px-6 py-12 md:py-16">
 	<!-- Header -->

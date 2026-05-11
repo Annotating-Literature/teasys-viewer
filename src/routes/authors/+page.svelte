@@ -1,14 +1,12 @@
 <script lang="ts">
     import type { PageData } from "./$types";
     import Breadcrumbs from "$lib/components/layout/Breadcrumbs.svelte";
+    import Seo from "$lib/components/Seo.svelte";
 
     let { data } = $props();
 </script>
 
-<svelte:head>
-    <title>Authors — TEASys Viewer</title>
-    <meta name="description" content="Browse annotated literature by author." />
-</svelte:head>
+<Seo title="Authors" description="Browse annotated literature by author." canonical="/authors" />
 
 <div class="max-w-5xl mx-auto px-6 py-12 md:py-16">
     <div class="mb-10">

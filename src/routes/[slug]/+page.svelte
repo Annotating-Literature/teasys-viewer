@@ -2,6 +2,7 @@
     import type { PageData } from "./$types";
     import Breadcrumbs from "$lib/components/layout/Breadcrumbs.svelte";
     import { slugify } from "$lib/utils/slug";
+    import Seo from "$lib/components/Seo.svelte";
 
     let { data } = $props();
 
@@ -20,9 +21,7 @@
     });
 </script>
 
-<svelte:head>
-    <title>{data.page.title} — TEASys Viewer</title>
-</svelte:head>
+<Seo title={data.page.title} canonical="/{data.page.id}" />
 
 <div class="max-w-4xl mx-auto px-6 py-12 md:py-16">
     <!-- Breadcrumbs + page heading outside the card -->

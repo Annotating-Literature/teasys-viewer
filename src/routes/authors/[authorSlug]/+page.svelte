@@ -1,6 +1,8 @@
 <script lang="ts">
     import type { PageData } from "./$types";
     import { marked } from "marked";
+    import Seo from "$lib/components/Seo.svelte";
+    import { SITE } from "$lib/config/site";
 
     let { data } = $props();
 
@@ -13,13 +15,23 @@
     const renderedBio = $derived(data.bio ? (marked(data.bio) as string) : "");
 </script>
 
-<svelte:head>
-    <title>{data.author} — TEASys Viewer</title>
-    <meta
-        name="description"
-        content={`Annotated texts by ${data.author} in the TEASys Viewer.`}
-    />
-</svelte:head>
+<Seo
+    title={data.author}
+    description={data.bio
+        ? data.bio.replace(/[#*`\[\]]/g, '').slice(0, 160).trim()
+        : `Annotated texts by ${data.author}.`}
+    canonical="/authors/{data.slug}"
+    type="profile"
+    jsonLd={{
+        '@context': 'https://schema.org',
+        '@type': 'Person',
+        name: data.author,
+        ...(data.birthYear ? { birthDate: String(data.birthYear) } : {}),
+        ...(data.deathYear ? { deathDate: String(data.deathYear) } : {}),
+        ...(data.bio ? { description: data.bio.replace(/[#*`\[\]]/g, '').slice(0, 300).trim() } : {}),
+        url: SITE.siteUrl ? `${SITE.siteUrl}/authors/${data.slug}` : undefined,
+    }}
+/>
 
 <div class="max-w-5xl mx-auto px-6 py-12 md:py-16">
     <!-- Breadcrumb -->

@@ -1,10 +1,9 @@
 <script lang="ts">
+	import Seo from '$lib/components/Seo.svelte';
 	let { form } = $props();
 </script>
 
-<svelte:head>
-	<title>Sign in — TEASys Viewer</title>
-</svelte:head>
+<Seo title="Sign in" noindex={true} />
 
 <div class="min-h-[calc(100vh-4rem)] flex items-center justify-center px-4">
 	<div class="w-full max-w-sm">

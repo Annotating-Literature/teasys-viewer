@@ -3,8 +3,8 @@
 	import AnnotatedText from "$lib/components/reading/AnnotatedText.svelte";
 	import AnnotationEntry from "$lib/components/reading/AnnotationEntry.svelte";
 	import AnnotationPickerModal from "$lib/components/reading/AnnotationPickerModal.svelte";
-	import Breadcrumbs from "$lib/components/layout/Breadcrumbs.svelte";
-	import { slugify } from "$lib/utils/slug";
+	import TextHeader from "$lib/components/reading/TextHeader.svelte";
+	import CollectionToc from "$lib/components/reading/CollectionToc.svelte";
 	import { CATEGORY_META } from "$lib/constants";
 	import Seo from "$lib/components/Seo.svelte";
 	import { SITE } from "$lib/config/site";
@@ -141,121 +141,11 @@
 		/>
 	{/if}
 
-	<!-- Header -->
-	<div class="mb-8">
-		<Breadcrumbs
-			crumbs={[
-				{ label: "Library", href: "/" },
-				{
-					label: data.text.metadata.author,
-					href: `/authors/${slugify(data.text.metadata.author)}`,
-				},
-				{ label: data.text.metadata.title },
-			]}
-		/>
-		<div class="flex items-start justify-between">
-			<div>
-				<h1
-					class="text-3xl sm:text-4xl font-bold tracking-tight text-gray-900 leading-tight"
-				>
-					{data.text.metadata.title}
-				</h1>
-				<p class="mt-2 text-lg text-gray-500">
-					<a
-						href={`/authors/${slugify(data.text.metadata.author)}`}
-						class="hover:text-primary-600 transition-colors"
-						>{data.text.metadata.author}</a
-					>{#if data.text.metadata.year}<span
-							class="text-gray-500 mx-2">·</span
-						><span class="text-gray-500"
-							>{data.text.metadata.year}</span
-						>{/if}
-				</p>
-			</div>
-			{#if data.user}
-				<a
-					href={`/texts/${data.text.metadata.id}/annotate`}
-					class="shrink-0 ml-4 inline-flex items-center gap-2 px-4 py-2 text-m font-medium
-					       text-primary-600 bg-primary-50 hover:bg-primary-100 dark:bg-primary-900/40 dark:text-primary-300 dark:hover:bg-primary-800 rounded-lg transition-colors"
-				>
-					<svg
-						class="w-3.5 h-3.5"
-						viewBox="0 0 14 14"
-						fill="none"
-						stroke="currentColor"
-						stroke-width="1.5"
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						><path d="M10 2l2 2-7 7H3v-2l7-7z" /></svg
-					>
-					Annotate
-				</a>
-			{/if}
-		</div>
-	</div>
+	<TextHeader textMetadata={data.text.metadata} user={data.user} />
 
 	<!-- Two-column layout or Table of Contents -->
 	{#if data.text.metadata.type === "collection"}
-		<div class="max-w-2xl mt-12">
-			<h2
-				class="text-xl font-bold font-serif text-gray-900 mb-6 flex items-center gap-3"
-			>
-				Table of Contents
-				<div class="flex-1 h-px bg-gray-200"></div>
-			</h2>
-			{#if data.children.length === 0}
-				<div
-					class="text-center py-12 border-2 text-gray-400 border-dashed border-gray-200 rounded-xl bg-surface-card/50"
-				>
-					This collection is empty.
-				</div>
-			{:else}
-				<div class="space-y-4">
-					{#each data.children as child, i}
-						<a
-							href={`/texts/${child.id}`}
-							class="block bg-surface-card hover:bg-surface-elevated rounded-xl border border-gray-100 shadow-sm p-5 transition-colors group"
-						>
-							<div class="flex items-center gap-4">
-								<div
-									class="w-10 h-10 shrink-0 rounded-lg bg-gray-50 flex items-center justify-center font-serif text-gray-400 font-semibold border border-gray-100/50"
-								>
-									{child.order || i + 1}
-								</div>
-								<div class="flex-1">
-									<h3
-										class="text-lg font-bold text-gray-900 group-hover:text-primary-600 transition-colors"
-									>
-										{child.title}
-									</h3>
-									{#if child.author !== data.text.metadata.author}
-										<p class="text-sm text-gray-500 mt-1">
-											{child.author}
-										</p>
-									{/if}
-								</div>
-								<div
-									class="text-gray-300 group-hover:text-primary-500 transition-colors"
-								>
-									<svg
-										class="w-5 h-5"
-										fill="none"
-										stroke="currentColor"
-										viewBox="0 0 24 24"
-										><path
-											stroke-linecap="round"
-											stroke-linejoin="round"
-											stroke-width="2"
-											d="M9 5l7 7-7 7"
-										/></svg
-									>
-								</div>
-							</div>
-						</a>
-					{/each}
-				</div>
-			{/if}
-		</div>
+		<CollectionToc children={data.children} textMetadata={data.text.metadata} />
 	{:else}
 		<div class="flex gap-6 items-start">
 			<!-- Left: Text -->

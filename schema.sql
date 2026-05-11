@@ -67,6 +67,7 @@ CREATE TABLE IF NOT EXISTS pages (
   content_md TEXT    NOT NULL DEFAULT '',
   menu       INTEGER NOT NULL DEFAULT 1,
   parent     TEXT,
+  sort_order INTEGER,
   created_at TEXT    NOT NULL,
   updated_at TEXT    NOT NULL
 );

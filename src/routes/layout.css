@@ -1,11 +1,22 @@
 @import 'tailwindcss';
+
+/* ── Self-hosted fonts ────────────────────────────────────────────────────────
+   Loaded via @fontsource (bundled with the app, no external requests).
+   Comment these out when switching to source: 'google' in src/lib/config/fonts.ts.
+   Install a different @fontsource package to change the font:
+     npm install @fontsource/eb-garamond
+   then replace the imports below. */
 @import '@fontsource/gentium-plus/400.css';
 @import '@fontsource/gentium-plus/400-italic.css';
 @import '@fontsource/gentium-plus/700.css';
 @import '@fontsource/gentium-plus/700-italic.css';
+
 @plugin '@tailwindcss/typography';
 @variant dark (&:where(.dark, .dark *));
 
+/* ── Design tokens ────────────────────────────────────────────────────────────
+   Keep --font-serif / --font-body in sync with FONTS.serif.family in
+   src/lib/config/fonts.ts so Tailwind utilities (font-serif etc.) resolve. */
 @theme {
   --font-serif: "Gentium Plus", Georgia, "Times New Roman", serif;
   --font-body: "Gentium Plus", Georgia, "Times New Roman", serif;

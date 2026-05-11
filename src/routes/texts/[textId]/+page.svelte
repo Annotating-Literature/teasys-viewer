@@ -249,56 +249,58 @@
 	{:else}
 		<div class="flex gap-6 items-start">
 			<!-- Left: Text -->
-			<div class="flex-1 min-w-0">
-				<div
-					class="bg-surface-card rounded-xl border border-gray-200/50 shadow-sm p-8 sm:p-10"
-					onclick={handleSegmentClick}
-					role="presentation"
-				>
-					<AnnotatedText
-						rawText={data.text.rawText}
-						parsedText={data.parsedText}
-						annotations={data.annotations}
-						title={data.text.metadata.title}
-						{activeAnnotationId}
-					/>
-				</div>
-
-				{#if data.annotations.length === 0}
+			<div class="flex-1 min-w-0 flex justify-center">
+				<div class="w-full max-w-[800px]">
 					<div
-						class="text-center py-12 mt-6 border-2 border-dashed border-gray-200 rounded-xl bg-surface-card/50"
+						class="bg-surface-card rounded-xl border border-gray-200/50 shadow-sm p-8 sm:p-10 md:p-12 lg:p-14"
+						onclick={handleSegmentClick}
+						role="presentation"
 					>
-						<div
-							class="w-12 h-12 mx-auto mb-3 rounded-full bg-surface-elevated flex items-center justify-center border border-gray-200/60"
-						>
-							<svg
-								class="w-6 h-6 text-gray-400"
-								viewBox="0 0 24 24"
-								fill="none"
-								stroke="currentColor"
-								stroke-width="1.5"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-							>
-								<path
-									d="M4 19.5v-15A2.5 2.5 0 016.5 2H20v20H6.5a2.5 2.5 0 010-5H20"
-								/>
-							</svg>
-						</div>
-						<h3 class="text-base font-semibold text-gray-900">
-							No annotations yet
-						</h3>
-						{#if data.user}
-							<p class="mt-1 text-m text-gray-500">
-								<a
-									href={`/texts/${data.text.metadata.id}/annotate`}
-									class="text-primary-600 hover:text-primary-700 font-medium"
-									>Create one</a
-								> to get started.
-							</p>
-						{/if}
+						<AnnotatedText
+							rawText={data.text.rawText}
+							parsedText={data.parsedText}
+							annotations={data.annotations}
+							title={data.text.metadata.title}
+							{activeAnnotationId}
+						/>
 					</div>
-				{/if}
+
+					{#if data.annotations.length === 0}
+						<div
+							class="text-center py-12 mt-6 border-2 border-dashed border-gray-200 rounded-xl bg-surface-card/50"
+						>
+							<div
+								class="w-12 h-12 mx-auto mb-3 rounded-full bg-surface-elevated flex items-center justify-center border border-gray-200/60"
+							>
+								<svg
+									class="w-6 h-6 text-gray-400"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="1.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path
+										d="M4 19.5v-15A2.5 2.5 0 016.5 2H20v20H6.5a2.5 2.5 0 010-5H20"
+									/>
+								</svg>
+							</div>
+							<h3 class="text-base font-semibold text-gray-900">
+								No annotations yet
+							</h3>
+							{#if data.user}
+								<p class="mt-1 text-m text-gray-500">
+									<a
+										href={`/texts/${data.text.metadata.id}/annotate`}
+										class="text-primary-600 hover:text-primary-700 font-medium"
+										>Create one</a
+									> to get started.
+								</p>
+							{/if}
+						</div>
+					{/if}
+				</div>
 			</div>
 
 			<!-- Right: Annotation panel (sticky, scrollable) -->

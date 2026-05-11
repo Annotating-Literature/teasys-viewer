@@ -1,0 +1,37 @@
+{
+  "id": "curfew",
+  "anchorText": "curfew",
+  "anchorStart": 154,
+  "anchorEnd": 160,
+  "authors": [
+    "Sandra Wetzel"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Etymologically, \"curfew\" comes from \"Anglo-Norman coeverfu\", which developed into \"Old French cuevre-fu, quevre-feu, covre-feu\" and denominates the \"cover for a fire\" (\"curfew, *n.*\" Etymology).",
+      "worksCited": [
+        "\"curfew, n.\" OED Online. OUP, June 2019. Web. June 18, 2019."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "context",
+      "body": "It was a custom in medieval Europe to ring a bell at a certain hour in the evening, usually to signal the people to cover or extinguish their fires. This custom of ringing the bell was later used for municipal or communal restrictions, such as regulations of movement concerning the people living in a certain area for a certain amount of time, and it is nowadays still a tradition in many towns to ring the evening bell. However, it has lost its original purpose. symbolically (\"curfew, *n.*\" 1.a., b.). ",
+      "worksCited": [
+        "\"curfew, *n.*\" *OED Online*. Oxford UP, June 2019. Web. June 18, 2019."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The curfew might be interpreted not only as the end of work or the day but, considering the possible meanings of \"day\" on a metaphorical level also the end of one's life.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-03T13:28:17.533Z",
+  "updatedAt": "2026-03-03T13:29:23.410Z"
+}

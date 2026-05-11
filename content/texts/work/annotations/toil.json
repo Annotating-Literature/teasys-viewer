@@ -1,0 +1,23 @@
+{
+  "id": "toil",
+  "anchorText": "toil",
+  "anchorStart": 38,
+  "anchorEnd": 42,
+  "authors": [
+    "Sara Rogalski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The intransitive use of the verb \"toil\" means \"to struggle towards an aim or for a living; to engage intensively in hard or prolonged labour or exertion\" (\"toil, *v.*\" II.4.a.). ",
+      "worksCited": [
+        "\"toil, *v.*\" *OED Online*. Oxford UP, July 2019. Web. July 13, 2019. "
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-03T13:16:31.315Z",
+  "updatedAt": "2026-03-03T13:17:05.331Z"
+}

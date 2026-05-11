@@ -1,0 +1,29 @@
+{
+  "id": "decorum",
+  "anchorText": "decorum",
+  "anchorStart": 2669,
+  "anchorEnd": 2676,
+  "authors": [
+    "Ilea Rahn"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "“Decorum” is used to describe someone as decent, proper in behavior and in their character or rank proper to their circumstance (“Decorum, *n*.”, Sense 1.b.).",
+      "worksCited": [
+        "“Decorum, *n*.” *Oxford English Dictionary*, Oxford UP, December 2025, doi.org/10.1093/OED/9352978363. Accessed 18 Mar. 2026."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "form",
+      "body": "By stating that the raven wore a “grave and stern decorum of the countenance”, the raven is associated with a typically human expression. The phrase, thus, personifies the raven similar to [[mien]] in line 40.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T22:55:37.561Z",
+  "updatedAt": "2026-03-18T22:58:09.108Z"
+}

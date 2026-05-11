@@ -1,0 +1,24 @@
+{
+  "id": "claus-of-innsbruck",
+  "anchorText": "Claus of Innsbruck",
+  "anchorStart": 2487,
+  "anchorEnd": 2505,
+  "authors": [
+    "Minella Fernandes",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "Claus of Innsbruck is a fictional artist created by Browning. It is possible that his name is inspired by the marriage negotiations that Alfonso d’Este conducted with the Count of Tyrol (cf. Level 2 Context [[ferrara]]) through his chief emissary, Nikolaus Madruz of Innsbruck (Klaus or Claus being short for Nikolaus). The speaker of the poem, presumably the duke, is also negotiating his next marriage with the envoy of a Count. This aspect, like that of the name [[ferrara]], can be traced back to non-fictional occurrences in history.\nHowever, this could also be a coincidence (Friedland 682). ",
+      "worksCited": [
+        "Friedland, Louis S. “Ferrara and ‘My Last Duchess.’” *Studies in Philology*, vol. 33, no. 4, University of North Carolina Press, 1936, p. 682, *JSTOR*, www.jstor.org/stable/4172343. Accessed 11 Jun. 2022."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-20T00:48:45.014Z",
+  "updatedAt": "2026-03-20T00:50:24.781Z"
+}

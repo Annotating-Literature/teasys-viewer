@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Stars</title>
+          <author>Emily Brontë</author>
+        </titleStmt>
+        <publicationStmt><p>TEASys Viewer</p></publicationStmt>
+        <sourceDesc><p>Annotating Literature, Tübingen University</p></sourceDesc>
+      </fileDesc>
+    </teiHeader>
+  <text><body><div>Ah! why, because the dazzling sun
+Restored our Earth to joy,
+Have you departed, every one,
+And left a desert sky?
+ 
+<anchor xml:id="s-all-through-the-night"/>All through the night<anchor xml:id="e-all-through-the-night"/>, your glorious eyes
+Were gazing down in mine,
+And, with a full heart’s thankful sighs,
+I blessed that watch <anchor xml:id="s-divine"/>divine<anchor xml:id="e-divine"/>.
+ 
+<anchor xml:id="s-i-was-at-peace"/>I was at peace<anchor xml:id="e-i-was-at-peace"/>, and drank your beams
+As they were life to me;
+And revelled in my changeful <anchor xml:id="s-dreams"/>dreams<anchor xml:id="e-dreams"/>,
+Like petrel on the sea.
+ 
+<anchor xml:id="s-thought-followed-thought"/>Thought followed thought<anchor xml:id="e-thought-followed-thought"/>, star followed star
+Through boundless regions on;
+While one sweet <anchor xml:id="s-influence"/>influence<anchor xml:id="e-influence"/>, near and far,
+Thrilled through, and proved us one!
+ 
+Why did the morning dawn to break
+So great, so pure a spell;
+And <anchor xml:id="s-scorch"/>scorch<anchor xml:id="e-scorch"/> with fire the tranquil cheek,
+Where your cool radiance fell?
+ 
+<anchor xml:id="s-blood-red"/>Blood-red<anchor xml:id="e-blood-red"/>, <anchor xml:id="s-he"/>he<anchor xml:id="e-he"/> rose, and arrow-straight,
+His fierce beams struck my brow;
+The soul of nature sprang, elate,
+But mine sank sad and low.
+ 
+My lids closed down, yet through their veil
+I saw him, blazinig, still,
+And steep in gold the misty dale,
+And flash upon the hill.
+ 
+I turned me to the pillow, then,
+To call back night, and see
+Your words of <anchor xml:id="s-solemn"/>solemn<anchor xml:id="e-solemn"/> light, again,
+Throb with my heart, and me!
+ 
+It would not do —the pillow glowed,
+And glowed both roof and floor;
+And birds sang loudly in the wood,
+And fresh winds shook the door;
+ 
+The curtains waved, the wakened flies
+Were murmuring round my room,
+Imprisoned there, till I should rise,
+And give them leave to roam.
+ 
+O stars, and dreams, and gentle night;
+O night and stars, return!
+And hide me from the hostile light
+That does not warm, but burn;
+ 
+That <anchor xml:id="s-drains-the-blood"/>drains the blood<anchor xml:id="e-drains-the-blood"/> of suffering men;
+Drinks tears, instead of dew;
+Let me sleep through his blinding reign,
+And only wake with you!</div></body></text>
+  <standOff>
+      <listAnnotation>
+        
+          <annotation xml:id="ann-all-through-the-night" from="#s-all-through-the-night" to="#e-all-through-the-night">
+            <respStmt><resp>annotator</resp><name>Svenja Brank</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#form">
+                  <p>Line 5 is ambiguous as it is unclear to whom “your” refers to. It could either refer to the sky, the sky is personified in this reading and the stars are understood as the eyes *of* the sky. “[Y]our” could, however, also refer to a “divine” being (l. 8). The stars are then understood as eyes *in* the sky that gaze down into the speaker’s eyes. The metaphorical gazing down into one another’s eyes could further suggest a romantic attachment.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The intimate relationship the speaker shares with the stars during the night is emphasized by the connotations the metaphor evokes.
+One possible interpretation for this relationship could be the notion of two lovers looking deeply into each other’s eyes, while another interpretation arises in the third stanza of the poem when the relationship is revealed to be also of a maternal nature [hyperlink to “I was at peace and drank your beams as they were life to me”]. Moreover, the speaker could be imagining the stars to be the eyes of a divine god-like being. All of these interpretations can be regarded as aspects of the relationship the speaker shares with the stars, representing its loving as well as nurturing, and even divine nature.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-blood-red" from="#s-blood-red" to="#e-blood-red">
+            <respStmt><resp>annotator</resp><name>Maja Grubina</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#intratextuality">
+                  <p>The word “blood” reoccurs in the first line of the last stanza.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>According to the poem, the sun is “blood-red” because it feeds of the blood of human beings (cf. Level 1 Form [[that-drains-the-blood-of-suffering-men]]).</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-divine" from="#s-divine" to="#e-divine">
+            <respStmt><resp>annotator</resp><name>Svenja Brank</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The *Oxford English Dictionary* defines the divine as “[p]artaking of the nature of God; characteristic of or consonant to deity; godlike; heavenly, celestial” (“divine, adj. and n.1. 4. a.).</p>
+                  <listBibl><bibl>“divine, adj. and n.1.” *OED Online*. Oxford University Press, June 2021, www.oed.com/view/Entry/56127. Accessed 28 August 2021.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#intratextuality">
+                  <p>In the poem the heavenly watch of the stars is attributed with a divine nature. In the second stanza, the speaker ascribes divinity to the intimate relationship she shares with the stars. Their connection, previously described as nurturing (l. 9-10) and loving (l. 5-6), is extended to include another aspect: watching and caring.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#context">
+                  <p>In Emily Brontë’s poetry the divine is present as a form of mystic force, which, along with her novel *Wuthering Heights*, led critics to question her religious views. However, there is hardly any evidence that she lacked Christian faith (cf. Winnifrith and Chitham 32-33). Her philosophy proves similar to the principles of stoicism. Like the stoics, she believed “in a divine principle within human beings” and did not focus on the afterlife (Gezari 4). Her poetry portrays an “intense personal vision of the divine” as she viewed religion as a matter between herself and God (Alexander and Smith 426) and was generally private about her thoughts and beliefs (cf. Winnifrith and Chitham 33).</p>
+                  <listBibl><bibl>Alexander, Christina. Smith, Margaret. *The Oxford Companion to the Brontë’s*. Oxford University Press. 2018.</bibl><bibl>Gezari, Janet. *Last Things: Emily Brontë’s Poems*. Oxford University Press, 2010.</bibl><bibl>Winnifrith, Tom and Chitham, Edward. Charlotte and Emily Brontë - *Literary Lives*. Macmillan Press LTD. 1989.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#context">
+                  <p>Gezari points out that Emily Brontë, in her writing, sought a form of release from reality into a state where the imagination rules (cf. Gezari 3). From her childhood on, Emily Brontë was intrigued by her power to imagine and thus create worlds: she created the imaginative world of Gondal with her sister Anne, to which she kept going back to over the course of her life (cf. Alexander and Smith 216). Aspects of this world are also present within her poetry. In the poem, the practice of imagining different things is a vital theme. It also explores this practice of withdrawing into one’s dreams (l. 11) and, thus, avoiding the reality of the daytime.</p>
+                  <listBibl><bibl>Alexander, Christina. Smith, Margaret. *The Oxford Companion to the Brontë’s*. Oxford University Press. 2018.</bibl><bibl>Gezari, Janet. *Last Things: Emily Brontë’s Poems*. Oxford University Press, 2010.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>In the poem, the speaker describes the experience of the stars as a divine cosmic force that provides nourishment and inspiration, which could evoke the idea of the stars as a muse. 
+In turning away from the daylight, the speaker finds a form of escape into a dream-like state, in which the sobriety of the night sparks her imagination and allows the more profuse sensations of the daytime to recede in the background. Just as Emily Brontë’s retreat into her imagination and the world of Gondal can be viewed as an “intentional dreaming” (Gezari 7), the speaker retreats into her imagination, where she experiences inspiration and peace.</p>
+                  <listBibl><bibl>Gezari, Janet. *Last Things: Emily Brontë’s Poems*. Oxford University Press, 2010.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-drains-the-blood" from="#s-drains-the-blood" to="#e-drains-the-blood">
+            <respStmt><resp>annotator</resp><name>Svenja Brank</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#form">
+                  <p>The line carries an ambiguous meaning: draining blood can be understood as (1) a brutal act of murder or (2) a, now outdated, method to heal somebody.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#intratextuality">
+                  <p>The ambiguous nature of the sun in the poem is also addressed in the following line: “Drinks tears instead of dew” (l. 46).</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The ambiguity of the line is characteristic of Emily Brontë’s poetry, as confrontations between points of view or conflicting emotions are vital in her writing (cf. Alexander and Smith 389). “Stars” portrays an opposition between the calm and peaceful night and the hostile daylight. The ambiguity of ‘draining blood’ further strengthens the contrasts and oppositions in the poem, as it does not only ascribe a negative connotation to the daylight, draining the blood of men, but allows two possible readings to coexist. In this line, as well as the following line, it is unclear whether the sun is described as a destructive or healing force. She could be murderous, but maybe only to the speaker or her imagination, or she could have healing powers and bring relief to suffering men. In the same manner, drinking the tears of suffering men could refer to a metaphorical reveling in men’s suffering or could be understood as a drying of tears, which would link back to the sun’s healing powers.</p>
+                  <listBibl><bibl>Alexander, Christine and Smith, Margaret. *The Oxford Companion to the Brontë’s*. Oxford University Press, 2018.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-dreams" from="#s-dreams" to="#e-dreams">
+            <respStmt><resp>annotator</resp><name>Svenja Brank</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#intertextuality">
+                  <p>The notion of dreams appears in Emily Brontë’s novel *Wuthering Heights* as well: Catherine dreams of going to heaven, but discovers that, even there, she will only long for finding her way back to Wuthering Heights. She interprets her dream “as evidence that she would be miserable in heaven” and as “a warning not to marry Edgar Linton” (Gezari 32). In the novel, she tells Nelly: ”If I were in heaven, Nelly, I should be extremely miserable. (…) I dreamt once that I was there” (Brontë 57) and concludes this statement with the insight her dream offered her: “I’ve no more business to marry Edgar Linton than I have to be in heaven” (Brontë 57). While the novel takes a psychological, self-reflective approach to dreaming, the poem solely focusses on the state of dreaming itself.</p>
+                  <listBibl><bibl>Brontë, Emily. *Wuthering Heights*. Wordsworth Editions, 2000.</bibl><bibl>Gezari, Janet. *Last Things: Emily Brontë’s Poems*. Oxford University Press, 2010.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The way dreams are portrayed in *Wuthering Heights* takes an interest in the psychology of the person who dreamed, by exploring the content of the dreams and finding ways to interpret them. Brontë’s poem “Stars” takes a different approach to the dreams of the speaker: “*Stars* doesn’t offer the content of its speaker’s dream because the poet isn’t interested in the psychology of its speaker but in the impersonal psychological activity of dreaming” (Gezari 32). The poem only gives the reader information on what the state of dreaming feels like to the speaker, stating that she “reveled in her changeful dreams” (l. 11) (cf. [[petrel]]. To the speaker the state of dreaming feels peaceful and stimulating, as she feels connected to the stars and the night time in this state (l. 9-16). 
+
+The state of dreaming in the poem could also be linked to the notion that the stars and the speaker’s relationship resembles the relationship between a mother and her child (cf. [[i-was-at-peace-and-drank-your-beams-as-they-were-life-to-me]]). Gezari quotes psychoanalyst and writer Christopher Bollas, who believes being in the dream space can be reminiscent of being in a mother’s womb (30).</p>
+                  <listBibl><bibl>Gezari, Janet. *Last Things: Emily Brontë’s Poems*. Oxford University Press, 2010.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-he" from="#s-he" to="#e-he">
+            <respStmt><resp>annotator</resp><name>Maja Grubina</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#form">
+                  <p>The pronoun “he” refers to the sun.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#context">
+                  <p>In 19th century’s literature (as well as in literary texts more generally), the sun is perceived as male: “In Homer Helios the sun is invoked as a god who sees everything and hears everything […] for that reason he is the god of oaths” (Ferber 209). The moon, by contrast, is considered female: “In the classical tradition, then, the moon is invariably feminine, and since Homer and Hesiod it has been associated with Greek and then Roman goddesses” (Ferber 130). These connotations are also found in a poem published in the Philadelphia Album &amp; Ladies’ Literary Port Folio in 1831, “MARRIAGE of the Sun &amp; Moon”, which is about the Eclipse that took place in that time: “[…] since the heat of his passion pervaded the sky; / But the bride was renowned for – reflection” (14ff). Dickinson’s poem *The Sun’s Wooing* also conceives of the sun as male (“*supposed that he had come to dwell*”, l. 3).</p>
+                  <listBibl><bibl>Dickinson, Emily. “The Sun’s Wooing.” *The Poems of Emily Dickinson: Series Two*. Boston, 1896.
+etc.usf.edu/lit2go/115/the-poems-of-emily-dickinson-series-two/4427/nature-poem-5-the-suns-wooing/. Accessed 27 February 2023.</bibl><bibl>Ellenwood, H. S. “MARRIAGE of the Sun and Moon.”* Monthly Chronicle of Interesting &amp; Useful Knowledge*, December 1838, p. 36.
+web.s.ebscohost.com/ehost/archiveviewer/archive?vid=7&amp;sid=83d3c515-0985-4078-9287-0c1cee69331c%40redis&amp;bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d#kw=true&amp;acc=false&amp;lpId=divl028&amp;ppId=divp0048&amp;twPV=&amp;xOff=0&amp;yOff=0&amp;zm=fit&amp;fs=&amp;rot=0&amp;docMapOpen=true&amp;pageMapOpen=true&amp;AN=47021831&amp;db=h9j. Accessed 27 February 2023.</bibl><bibl>Ferber, Michael. *A Dictionary of Literary Symbols*. 2nd ed., Cambridge University Press. 2007.
+A Dictionary of Literary Symbols (ebscohost.com). Accessed 27 March 2023.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The speaker describes the night-time as feminine and nourishing (cf. Level 2 Interpretation [[thrilled through and proved us one]]). By contrast, “the speaker dreads the oppression of the day, whose masculine persona (cf. Level 3 Context[[dazzling sun]]) appears as a spectral enemy: him, blazing, still” (Brown, 189).</p>
+                  <listBibl><bibl>Brown, Lydia. “Absent Emily: Ecstasy, Transgression and Space in Three Emily Brontë Poems.” *Victorians: A Journal of Culture and Literature*, no. 134, Winter 2018, pp. 181-192.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-i-was-at-peace" from="#s-i-was-at-peace" to="#e-i-was-at-peace">
+            <respStmt><resp>annotator</resp><name>Svenja Brank</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-19</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#form">
+                  <p>These lines of the poem constitute a metaphor: the speaker drinks the beams of the stars and experiences them as nurturing, which evokes the image of a mother breastfeeding her child.
+Additionally, the syntax of the lines adds a level of ambiguity. The “as” can be read as (1) ’because’ or as (2) an ellipsis (as ‘if’). The first one reading creates a causal link between the two phrases and the second reading is a simile. </p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>These lines refer to the speaker’s state of mind during the night-time, who experiences a feeling of peacefulness and serenity. The idea that the stars give nourishment to the speaker attributes them with a certain femininity. Janet Gezari compares the intimate relationship the speaker shares with the stars to the relationship between a mother and a child, by pointing to this “sensory exchange that evokes nursing” (30). The metaphor thus further describes the relationship between the speaker and the stars.</p>
+                  <listBibl><bibl>Gezari, Janet. *Last Things: Emily Bronte’s Poems*. Oxford University Press, 2010.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#intratextuality">
+                  <p>This intimate and sensory relationship between the speaker and the stars also becomes visible in the second stanza of the poem.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-influence" from="#s-influence" to="#e-influence">
+            <respStmt><resp>annotator</resp><name>Svenja Brank</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-19</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The *Oxford English Dictionary* defines ‘influence’ in relation to astrology as: “[t]he supposed flowing or streaming from the stars of heavens of an ethereal fluid acting upon the character and destiny of men, and affecting sublunary things generally” (“influence, *n*.” 2.a.). As the poem revolves around the relationship the speaker shares with the stars (cf. [[all-through-the-night-your-glorious-eyes-were-gazing-down-in-mine]]), the astrological meaning of the word suggests that the “sweet influence” (l. 15) that “thrilled through”(l. 16) originates from the stars and affects the speaker of the poem.
+The *Oxford English Dictionary* also connects “influence” to a divine notion by portraying it as an infusion of a divine energy or power into an object or a person (“influence, *n*.” †3.).
+Influence, in the poem, might also be connected to the divine, as the speaker attributes the intimate relationship with the stars to the divine in the second stanza (cf. [[divine]]).</p>
+                  <listBibl><bibl>&quot;influence, *n*.&quot; *OED Online*, Oxford University Press, June 2021, www.oed.com/view/Entry/95519. Accessed 18 July 2021.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#context">
+                  <p>In the 19th century, the notion of influence carried a female connotation. Popular conduct books ascribed “to women great ‘influence’ - symbolic capital which assigned them responsibility for the moral condition of a society which denied them political and economic power” (Alexander and Smith 546). In the context of the poem, this female connotation of the stars provides a possible context to read the poem in.</p>
+                  <listBibl><bibl>Alexander, Christine and Smith, Margaret. *The Oxford Companion to the Brontë’s*. Oxford University Press. 2018.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>The notion of ‘influence’ in the poem describes a divine power, that effects a fusion between the speaker and the stars: “while one sweet influence, near and far, // Thrilled through, and proved us one” (l. 15-16). The notions of femininity associated with the word, at least for 19th century readers, further establishes the gendering of the stars as female and the sun as male in the poem. The feminine nature of the stars further emphasizes a maternal reading of the poem (cf. [[i-was-at-peace-and-drank-your-beams-as-they-were-life-to-me]]).</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-scorch" from="#s-scorch" to="#e-scorch">
+            <respStmt><resp>annotator</resp><name>Svenja Brank</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-19</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>In the *Oxford English Dictionary* the verb „scorch” is defined as heating up a surface until it remains dry or discoloured, as well as “to burn superficially” (“scorch”, *v*.1 1. a.). The verb “scorch” is also ascribed another, rather violent, meaning of slashing sth. with a knife (“scorch”, *v*.3).</p>
+                  <listBibl><bibl>&quot;scorch, *v*.1.&quot;*OED Online*, Oxford University Press, June 2021, www.oed.com/view/Entry/173020. Accessed 8 July 2021.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#intratextuality">
+                  <p>In “Stars” the sun scorches the “tranquil cheek” (l. 19). The sun’s rays are experienced as unpleasant and even hurtful by the speaker throughout the poem (cf. [[dazzling sun]]). This becomes further evident in the penultimate stanza: “And hide me from the hostile light, // That does not warm, but burn” (l. 43-44).</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The associations of violence evoked by the verb further emphasize the contrast between the calm, nurturing night-time and the threatening day-time. In the lines: “And scorch with fire, the tranquil cheek, // Where your cool radiance fell?” (l. 19-20) this contrast is established by opposing the hurtful fire of the sun with the cool radiance of the night. The tranquil cheek, which can either be read as the speaker’s cheek or as a metaphor for the face of the earth, is passive, while the scorching sun is active and violent.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-solemn" from="#s-solemn" to="#e-solemn">
+            <respStmt><resp>annotator</resp><name>Maja Grubina</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The term “solemn” is “[o]f days or seasons: Marked by the celebration of special observances or rites (esp. of a religious character); distinguished by, or set apart for, special ceremonies” (2.), in the sense of something recurring, like a ritual.</p>
+                  <listBibl><bibl>&quot;solemn, adj. (adv. and n.).&quot; *OED Online*, Oxford University Press, March 2023, www.oed.com/view/Entry/184147. Accessed 30 April 2023.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>By describing the lights of night as “solemn,” the poem bestows god-like and sacred qualities upon the night and sets it somewhat apart within the perpetual rhythm of day and night.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-thought-followed-thought" from="#s-thought-followed-thought" to="#e-thought-followed-thought">
+            <respStmt><resp>annotator</resp><name>Svenja Brank</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-19</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#form">
+                  <p>The line comprises a parallelism, meaning two clauses that correspond to each other in sense or construction (“parallelism, *n*.” 3.). In this line the parallelism establishes a direct comparison between the speaker’s thoughts and the stars. Like the stars, their thoughts appear one by one.</p>
+                  <listBibl><bibl>&quot;parallelism, *n*.&quot;*OED Online*, Oxford University Press, September 2021, www.oed.com/view/Entry/137469. Accessed 23 November 2021.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The line specifies the connection between the speaker’s thoughts and the stars, and thereby emphasizes the connection between them. During the night-time the speaker escapes into an imaginative space, where she feels at peace and able to dwell in her dreams and experience inspiration (cf. Level 2 Interpretation [[divine]]). The parallelism illustrates that the freedom the speaker feels in letting her thoughts expand and roam freely emerges simultaneously with the stars.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+      </listAnnotation>
+    </standOff>
+</TEI>

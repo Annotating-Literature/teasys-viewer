@@ -1,0 +1,31 @@
+{
+  "id": "breathers",
+  "anchorText": "breathers",
+  "anchorStart": 501,
+  "anchorEnd": 510,
+  "authors": [
+    "Heike Ortlieb"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"He who, or that which, breathes; one who lives, a living being, creature, animal.\" (*OED*, Def. 1.), which means that \"all the breathers\" is simply everyone and everything alive.\n\n\"Breathers of this world\" (12) are then all the people living at the time, all contemporaries.",
+      "worksCited": [
+        "\"breather, n.\" Def. 1. *OED Online*. OUP, Sept. 2016. Web. 08 Dec. 2016."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "In combination with eyes and tongues (also, line 14: mouths), breath supports the focus of the previous lines on the different parts of the face. As the face is what makes people distinct from others, it is usually the aspect which is most prominent in the memory of those remembering a deceased person. The final sestet thus supports the notion that the memory of distinct qualities of the person addressed will survive in the future by the poet's verse and its reception. The importance of poetry surviving in living and breathing people in contrast to the physical decay of the body is also prominent in the final lines, and as West puts it, \"‘Breathers' in [line] 12 leads into the climax of the last line\" (252), where there is no more consideration of death and decay as in the previous lines, but instead, it is where \"breath most breathes\" (l. 14), indicating that immortality through poetry (cf. Level 2 Interpretation [[your-name-from-hence-immortal-life-shall-have]]) can finally be achieved.",
+      "worksCited": [
+        "West, David. *Shakespeare's Sonnets*. London: Duckworth Overlook, 2007. "
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T15:56:28.686Z",
+  "updatedAt": "2026-03-18T15:58:20.439Z"
+}

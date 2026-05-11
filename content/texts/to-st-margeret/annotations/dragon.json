@@ -1,0 +1,32 @@
+{
+  "id": "dragon",
+  "anchorText": "dragon",
+  "anchorStart": 327,
+  "anchorEnd": 333,
+  "authors": [
+    "admin"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "The dragon is a common metaphor for the devil going back to Revelation 12:9: \"And the great dragon was cast out, that old serpent, called the Devil, and Satan, which deceiveth the whole world: he was cast out into the earth, and his angels were cast out with him.\" (KJV, see also St Michael). Through this biblical connection of the devil with a dragon, the latter became a common symbol of sin and paganism in the Middle Ages (Brewer 413). In religious contexts, the terms ‘dragon' and ‘serpent' are often used interchangeably (Brewer 413). ",
+      "worksCited": [
+        "*The Bible*. King James Bible. Online Study Bible. <http://www.thekingsbible.com>",
+        "\"Dragon\". *Dictionary of Phrase and Fable*. Cassell Publishers Ltd., 2005 pp. 413-414."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "intratextuality",
+      "body": "There are different versions of how St. Margaret the Virgin slayed the dragon. One version states that she signed a cross at the dragon, which caused the beast to vanish. Another version claims that Margaret was swallowed by the dragon and she was able to save herself by making the sign of the cross, upon which \"the dragon burst open and the virgin emerged unscathed\" (369). However, de Voragine comments on the latter version that it is to be considered \"apocryphal and not to be taken seriously\" (369).\n\nThe dragon also features in the legends of St. Michael and St. George.",
+      "worksCited": [
+        "de Voragine, Jacobus. *The Golden Legend: Readings on the Saints*. Princeton University Press, 2012."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T09:09:15.385Z",
+  "updatedAt": "2026-03-17T09:10:20.377Z"
+}

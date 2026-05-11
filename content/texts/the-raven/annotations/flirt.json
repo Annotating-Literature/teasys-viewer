@@ -1,0 +1,31 @@
+{
+  "id": "flirt",
+  "anchorText": "flirt",
+  "anchorStart": 2253,
+  "anchorEnd": 2258,
+  "authors": [
+    "Ilea Rahn"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "In this instance, “flirt” is used as a noun to indicate a quick sudden movement or motion (\"Flirt, *v*.\", Sense I.2.a.).",
+      "worksCited": [
+        "“Flirt, *v*.” *Oxford English Dictionary*, Oxford UP, March 2026, doi.org/10.1093/OED/4614862032. Accessed 18 Mar. 2026."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Considered as a pair, “flirt and flutter” emphasizes an accumulation of movement, as the speaker talks about hastily opening the shutter and the raven enters the room “with many a flirt and flutter”, highlighting a strong sense of hasty movement. \nSound influences the word (“flirt”) itself as “Open here I flung the shutter, when, with many a flirt and flutter” is an embedded rhyme within the verse. By connecting the two half-lines, the interaction between speaker and raven is stressed, with the former probably being in the way of the raven, so both potentially make a “flutter” movement.\nTherefore, the verse includes auditory perception on a textual level as well as on the part of meaning, since physical motion – here, “flirt and flutter” – is often accompanied by noise. The /t/ sounds as plosives staccato-like emphasizes the difficulties the raven has when entering the room, while the /f/ sound is reminiscent of a whistling sound of air. The words are being used onomatopoetically. The latter is further stressed by another meaning of “flirt” as “a gust of wind” (“Flirt, *n*.” Sense III.7.), which is perceived as a whistling sound with the /f/ sound being reminiscent of the whistling of wind and in this case the Raven entering the room.",
+      "worksCited": [
+        "“Flirt, *n*.” *Oxford English Dictionary*, Oxford UP, June 2024, doi.org/10.1093/OED/8401695128. Accessed 16 Nov. 2024."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T22:30:12.883Z",
+  "updatedAt": "2026-03-18T22:38:26.733Z"
+}

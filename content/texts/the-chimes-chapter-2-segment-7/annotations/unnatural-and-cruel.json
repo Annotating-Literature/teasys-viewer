@@ -1,0 +1,34 @@
+{
+  "id": "unnatural-and-cruel",
+  "anchorText": "‘Unnatural and cruel!’",
+  "anchorStart": 2933,
+  "anchorEnd": 2955,
+  "authors": [
+    "Abdulkadir Sen",
+    "Marina Kirillova"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "In Victorian England, during a time of major socio-economic events such as industrialisation and urbanisation, the nuclear family gained importance especially for the working classes. Lack of financial security and social welfare programs at the beginning of the nineteenth century forced individuals to live closely in order to survive. The family was seen as a protective harbour. Thus, it was also \"a commonplace idea in the nineteenth century that the traditional patriarchal family unit was the best defence against self-destruction\" (cf. Deacon 13). Women who as wives and mothers constituted an integral part of the nuclear family were especially thought to be \"immune against\" any form of self-destruction or suicide.",
+      "worksCited": [
+        "Deacon, Deborah. *Fallen Women:  The Popular Image of Female Suicide in Victorian England, c. 1837-1901*. 2015. The University of Victoria, Honours Thesis. https://www.uvic.ca/humanities/history/assets/docs/Honours%20Thesis%20-%20Deborah%20Deacon%202015%20.pdf.",
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, OUP, 2008, pp. 85-162."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Suicide was a *felo de se* in English law, a felony against the self. In Christianity it is a grave sin. Thus, suicide burials were at crossroads, and in effect these burials became signifiers condemning the act of suicide even posthumously (cf. Deacon 5). This explains Toby's highly emotional exclamation and repetition of the phrase \"unnatural and cruel,\" which is further supported with the exclamation marks at the end. Along with this comes his reaction in a nearly fretting way: The crime is \"revolting\" to him, causing nausea. He instantly has to think about doing the same to his own Meg and is unable to identify with the woman, he is \"appalled\".",
+      "worksCited": [
+        "Deacon, Deborah. *Fallen Women:  The Popular Image of Female Suicide in Victorian  England, c. 1837-1901*. 2015. The University of Victoria, Honours Thesis. https://www.uvic.ca/humanities/history/assets/docs/Honours%20Thesis%20-%20Deborah%20Deacon%202015%20.pdf.",
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, OUP, 2008, pp. 85-162."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-08T10:11:54.548Z",
+  "updatedAt": "2026-05-08T10:14:02.820Z"
+}

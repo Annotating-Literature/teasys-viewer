@@ -1,0 +1,62 @@
+{
+  "id": "widening-gyre",
+  "anchorText": "widening gyre",
+  "anchorStart": 27,
+  "anchorEnd": 40,
+  "authors": [
+    "Irina Savić",
+    "Ilea Rahn"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The noun “gyre” expresses “[a] turning round, revolution, whirl; a circular or spiral turn” (“Gyre, *n.*”)",
+      "worksCited": [
+        "“Gyre, *n.*” Oxford English Dictionary, Oxford UP, June 2025, doi.org/10.1093/OED/6232189409. Accessed 28 September 2025."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "textual-variants",
+      "body": "In the manuscripts, Yeats used the words “the wide gyre” [NLI 13,588 (14), 4r] (Yeats 155). This was later changed to the final version “the widening gyre”. The change from ‘wide’ to ‘widening’ indicates that the action is still in process and not yet finished. ",
+      "worksCited": [
+        "Yeats, W. B. *Michael Robartes and the Dancer: Manuscript Materials.* Edited by Thomas Francis Parkinson and Anne Brannen, Cornell University Press, 1994."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Yeats was concerned with the end of the Christian era after 2000 years of its existence. He explains this by using the gyre. The birth of the Christian era is the very centre of one gyre, and as time passes the gyre spins into wider circles (Yeats 15). The spinning of larger circles over time indicates the slow collapse of the Christian era, moving further and further away from the original teachings of its religion. The ending of the Christian era is catastrophic and the speaker uses images that allude to Christian view of the Apocalypse (“blood-dimmed tide” (l.5), “a shape with lion body and the head of a man” (l.14), “rough beast”(l.21)). In his work *A Vision*, Yeats describes the interaction of two gyres; as one moves towards its end, a second one is born and thus the cycle begins anew.",
+      "worksCited": [
+        "Yeats, W. B. *W. B. Yeats’s “A Vision”: Explications and Contexts*. Edited by Neil Mann et al., Liverpool University Press, 2012. JSTOR, www.jstor.org/stable/j.ctt1gn6dj6. Accessed 28 Sept. 2025."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "WWI saw the collapse of the world order. Most of the world fell into a violent conflict resulting in a death toll and brutality never seen before. The gyre shows this exact collapse of the world order as it unravels further away from the centre that has been keeping it together. Yeats, like many of his contemporaries, was disillusioned by the Great War, seeing the pointlessness in the war and the dying of the young soldiers (Saurav 191). The war and needless death are another sign of the loss of world order. ",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "intertextuality",
+      "body": "The hawk (see [[the-falcon-cannot-hear-the-falconer]]) and his flight through the gyre may reference the Geryon from Dante’s “Inferno”: “In Cary’s translation Geryon moves in wheeling gyres: Of ample circuit, easy thy descent… / As falcon that hath long been on the wind / But lure nor bird hath seen, while in despair / The falconer cries ‘Ah me! Thou stoop’st to earth’.” (Jeffares 241, 142). Henry Francis Cary is the translator Jeffares mentions and using his translation, the movement in both figures is one of the gyre.",
+      "worksCited": [
+        "Jeffares, A. N. “Michael Robartes and the Dancer, the Second Coming.” *Commentary on the Collected Poems of W. B. Yeats*, Macmillan, London, UK, 1968."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "The Geryon is a transitional creature that does not belong to one single circle of Hell, but rather exists between two. Its flight is a liminal moment. The flight of the hawk in the gyre can also be viewed as a similar kind of liminal moment – it is a transition between two circles and transition between two eras: the end of the Christian, the primary West and the birth and rise of the antithetical East (Nohrnberg 137).",
+      "worksCited": [
+        "Nohrnberg, James C. “The Descent of Geryon: The Moral System of Inferno XVI-XXXI.” *Dante Studies, with the Annual Report of the Dante Society*, no. 114, 1996, pp. 129–87. JSTOR, www.jstor.org/stable/40166599. Accessed 2 July 2025."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-03T14:57:46.796Z",
+  "updatedAt": "2026-04-15T15:25:13.907Z"
+}

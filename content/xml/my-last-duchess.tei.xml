@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>My Last Duchess</title>
+          <author>Robert Browning</author>
+        </titleStmt>
+        <publicationStmt><p>TEASys Viewer</p></publicationStmt>
+        <sourceDesc><p>Annotating Literature, Tübingen University</p></sourceDesc>
+      </fileDesc>
+    </teiHeader>
+  <text><body><div><anchor xml:id="s-ferrara"/>FERRARA<anchor xml:id="e-ferrara"/>
+
+That’s my last Duchess painted on the wall,
+Looking as if she were alive. I call
+That piece a wonder, now; Fra Pandolf’s hands
+Worked busily a day, and there she stands.
+Will’t please you sit and look at her? I said
+“Fra Pandolf” by design, for never read
+Strangers like you that pictured countenance,
+The depth and passion of its earnest glance,
+But to myself they turned <anchor xml:id="s-since-none-puts-by-the-curtain-i-have-drawn-for-yo"/>(since none puts by
+The curtain I have drawn for you, but I)<anchor xml:id="e-since-none-puts-by-the-curtain-i-have-drawn-for-yo"/>
+And seemed as they would ask me, if they <anchor xml:id="s-durst"/>durst<anchor xml:id="e-durst"/>,
+How such a glance came there; so, not the first
+Are you to turn and ask thus. Sir, ’twas not
+Her husband’s presence only, called that <anchor xml:id="s-spot"/>spot<anchor xml:id="e-spot"/>
+Of joy into the Duchess’ cheek; perhaps
+Fra Pandolf chanced to say, “Her mantle laps
+Over my lady’s wrist too much,” or “Paint
+Must never hope to reproduce the faint
+Half-flush that dies along her throat.” Such stuff
+Was courtesy, she thought, and cause enough
+For calling up that spot of joy. She had
+A heart—how shall I say?— too soon made glad,
+Too easily impressed; she liked whate’er
+She looked on, and her looks went everywhere.
+Sir, ’twas all one! My favour at her breast,
+The dropping of the daylight in the West,
+The bough of cherries some officious fool
+Broke in the orchard for her, the white mule
+She rode with round the terrace—all and each
+Would draw from her alike the approving speech,
+Or blush, at least. She thanked men—good! but thanked
+Somehow—I know not how—<anchor xml:id="s-as-if-she-ranked-my-gift-of-a-nine-hundred-years-o"/>as if she ranked
+My gift of a nine-hundred-years-old name
+With anybody’s gift<anchor xml:id="e-as-if-she-ranked-my-gift-of-a-nine-hundred-years-o"/>. Who’d stoop to blame
+This sort of trifling? Even had you skill
+In speech—which I have not—to make your will
+Quite clear to such an one, and say, “Just this
+Or that in you disgusts me; here you miss,
+Or there exceed the mark”—and if she let
+Herself be lessoned so, nor plainly set
+Her wits to yours, forsooth, and made excuse—
+E’en then would be some stooping; and I choose
+Never to stoop. Oh, sir, she smiled, no doubt,
+Whene’er I passed her; but who passed without
+Much the same smile? This grew; <anchor xml:id="s-i-gave-commands-then-all-smiles-stopped-together"/>I gave commands;
+Then all smiles stopped together.<anchor xml:id="e-i-gave-commands-then-all-smiles-stopped-together"/> There she stands
+As if alive. Will’t please you rise? We’ll meet
+The company below, then. I repeat,
+The Count your master’s known <anchor xml:id="s-munificence"/>munificence<anchor xml:id="e-munificence"/>
+Is ample warrant that no just pretense
+Of mine for dowry will be disallowed;
+Though his fair daughter’s self, as I avowed
+At starting, is my object. Nay, we’ll go
+Together down, sir. <anchor xml:id="s-notice-neptune-though-taming-a-sea-horse"/>Notice Neptune, though,
+Taming a sea-horse<anchor xml:id="e-notice-neptune-though-taming-a-sea-horse"/>, thought a rarity,
+Which <anchor xml:id="s-claus-of-innsbruck"/>Claus of Innsbruck<anchor xml:id="e-claus-of-innsbruck"/> cast in bronze for me!</div></body></text>
+  <standOff>
+      <listAnnotation>
+        
+          <annotation xml:id="ann-as-if-she-ranked-my-gift-of-a-nine-hundred-years-o" from="#s-as-if-she-ranked-my-gift-of-a-nine-hundred-years-o" to="#e-as-if-she-ranked-my-gift-of-a-nine-hundred-years-o">
+            <respStmt><resp>annotator</resp><name>Minella Fernandes</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-20</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#intratextuality">
+                  <p>The theme of jealousy runs constantly throughout the poem. Starting from lines 13-15, the duke’s tone becomes cynical when he claims that he was not the only one who brought joy to the duchess. Immediately afterwards, Fra Pandolf’s role as her painter is also put into question by the duke when the duke suspects him of flirtation (cf. Level 1 Context [[fra-pandolf]]). Lines 25-30 list the different events and actions along with the duke’s own favour, that made the duchess smile. These prompts clearly seemed frivolous and unworthy of gratitude to the duke, especially in comparison to his immaterial “gift of a nine-hundred-years-old name” (Browning, l. 33), and “they reveal his tone of barely-controlled anger” (Watson 72). The fact that the duchess set others’ behaviours on par with the duke’s was “intolerable” (Adler 222) to him, and he is found “consumed by envy of his own inferiors – even of his duchess’ mule” (Adler 222).</p>
+                  <listBibl><bibl>Adler, Joshua. “Structure and Meaning in Browning’s ‘My Last Duchess.’” *Victorian Poetry*, vol. 15, no. 3, 1977, pp. 219–27. *JSTOR*, www.jstor.org/stable/40002116. Accessed 5 Jul. 2022.</bibl><bibl>Browning, Robert. “My Last Duchess by Robert Browning.” *Poetry Foundation*, www.poetryfoundation.org/poems/43768/my-last-duchess. Accessed 10 Aug. 2022</bibl><bibl>Watson, J. R. “Robert Browning: ‘My Last Duchess.’” *Critical Survey*, vol. 6, no. 1/2, 1973, pp. 69–75. *JSTOR*, www.jstor.org/stable/41553914. Accessed 7 Jul. 2022.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#context">
+                  <p>If we assume that Browning’s duke is based on Alfonso II (cf. Level 1 Context [[ferrara]]), then we understand that he came from an extremely well-established family. Marriages among the wealthy were a serious affair, as they controlled the political and social status of both the families involved (Herlihy 7). Because the duke gifted the duchess his 900-year-old name through marriage, and thereby a rise in society with wealth and a higher social status, he expects her to value his prestigious name and appreciate his “inestimable gift” (Friedland 679) to her and her family much more than simple flatteries by acquaintances.</p>
+                  <listBibl><bibl>Friedland, Louis S. “Ferrara and ‘My Last Duchess.’” *Studies in Philology*, vol. 33, no. 4, University of North Carolina Press, 1936, pp. 656–84,* JSTOR*, www.jstor.org/stable/4172343. Accessed 11 Jul. 2022.</bibl><bibl>Herlihy, David. &quot;The Family in Renaissance Italy.&quot; T*he Forum Series, vol. Forum Press*, 1974, pp. 1-14, courses.washington.edu/hsteu401/Herlihy%20Family.PDF. Accessed 10 Aug. 2022.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The duke carries with him a nine-hundred-year-old legacy that he considers a gift which he expects to be valued above all else. In lines 43-44, the duchess’ smile is referred to more as an accusation, rather than something pleasant. The speaker suggests that her approval has lost its value because it is given ever so freely to anybody (l. 30). It is this indiscrimination that fuels the duke’s jealousy and finally pushes him over the edge, leading him to “give commands” [cf. Level 2 Interpretation [[i-gave-commands-then-all-smiles-stopped-together]]) for all smiles to stop. 
+Elizabeth Gemmette quotes Joseph Solimine who notes that, “when the Duke’s jealousy encompasses a mule, when he can allow himself to become unsettled over his wife&apos;s devotion to her pet, then it can be inferred that the Duke’s hold upon reality is tenuous indeed&quot; (Gemmette 42). After having gifted the duchess his name and all the luxuries that came with it, he then takes it all away again as a punishment by murdering her, thinking her too little grateful for his gift. His jealousy and self-importance, following this line of thought, goes beyond any rational reasoning, which eventually turns him into a cruel murderer.</p>
+                  <listBibl><bibl>Gemmette, Elizabeth V. “Browning&apos;s ‘My Last Duchess’: An Untenable Position.” *Studies in Browning and His Circle*, vol. 10, no. 1, 1982, pp. 40–45. *JSTOR*, www.jstor.org/stable/45285104. Accessed 11 Jul. 2022.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-claus-of-innsbruck" from="#s-claus-of-innsbruck" to="#e-claus-of-innsbruck">
+            <respStmt><resp>annotator</resp><name>Minella Fernandes</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-20</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#context">
+                  <p>Claus of Innsbruck is a fictional artist created by Browning. It is possible that his name is inspired by the marriage negotiations that Alfonso d’Este conducted with the Count of Tyrol (cf. Level 2 Context [[ferrara]]) through his chief emissary, Nikolaus Madruz of Innsbruck (Klaus or Claus being short for Nikolaus). The speaker of the poem, presumably the duke, is also negotiating his next marriage with the envoy of a Count. This aspect, like that of the name [[ferrara]], can be traced back to non-fictional occurrences in history.
+However, this could also be a coincidence (Friedland 682). </p>
+                  <listBibl><bibl>Friedland, Louis S. “Ferrara and ‘My Last Duchess.’” *Studies in Philology*, vol. 33, no. 4, University of North Carolina Press, 1936, p. 682, *JSTOR*, www.jstor.org/stable/4172343. Accessed 11 Jun. 2022.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-durst" from="#s-durst" to="#e-durst">
+            <respStmt><resp>annotator</resp><name>Minella Fernandes</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-20</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>“[D]urst” is the past tense form of the verb “to dare” (&quot;dare, *v*.1&quot; Inflections).</p>
+                  <listBibl><bibl>&quot;dare, *v*.1&quot; *OED Online*, Oxford University Press, December 2021, www.oed.com/view/Entry/47273. Accessed 9 February 2022.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#language">
+                  <p>The duke finds that the visitors always seem curious about the duchess’s looks but they would never risk to ask because they sense that they might publicly point to a hidden indecent story. The duke himself suggests that the visitors were intimidated by him, afraid that they would provoke him if they insinuated something improper about his duchess.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-ferrara" from="#s-ferrara" to="#e-ferrara">
+            <respStmt><resp>annotator</resp><name>Minella Fernandes</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-20</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#context">
+                  <p>According to Louis Friedland, the poem is loosely based on the life of Alfonso II d’Este, the last Duke of Ferrara from 1533 to 1598. He married Lucrezia di Cosimo Medici, daughter of the renowned and very well-established Medici family, her father being the Duke of Florence at the time. His marriage to Lucrezia was, as in the case of most aristocratic marriages, one of political alliance (Friedland 668-670). 
+Alternatively, John Rea argues that the duke is based on Vespasiano Gonzago, Duke of Sabbioneta, fifty miles from Ferrara. He was married to Diana, the daughter of Don Antonio di Cardona. Vespasiano was suspicious of Diana’s unusual liveliness, believing her to be unfaithful, and eventually ordered for her to be killed (Rea 120-121). Friedland counters this argument by saying that Browning specifically added the location ‘Ferrara’ to the poem, which is why, according to Friedland, it makes little sense to dismiss this indication, especially when Ferrara offers a perfect example for Browning’s duke (Friedland 659).</p>
+                  <listBibl><bibl>Friedland, Louis S. “Ferrara and ‘My Last Duchess.’” *Studies in Philology*, vol. 33, no. 4, University of North Carolina Press, 1936, pp. 656–84. *JSTOR*, www.jstor.org/stable/4172343. Accessed 10 Aug. 2022.</bibl><bibl>Rea, John D. “My Last Duchess.” *Studies in Philology*, vol. 29, no. 1, 1932, pp. 120–22. *JSTOR*, www.jstor.org/stable/4172159. Accessed 30 Jun. 2022.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#context">
+                  <p>We cannot say with certainty who the duke in the poem is based on since Browning never confirmed this. However, Friedland’s argument is the most plausible among academic discussions, and several scholars such as Barbara Baines, Mary K. Ruby and Marie Rose Napierkowsky agree with him that the duke is based on Alfonso II. 
+Alfonso was originally promised marriage to Maria, the elder sister of Lucrezia, which did not take place due to Maria’s death at the age of 17. 14-year-old Lucrezia, consequently, was declared his bride instead of her older sister. The duke was not very pleased upon seeing her for the first time and expressed no great interest in her. He left for France within three days of their wedding and did not reunite with his bride until almost two years later (Friedland 669-671). Lucrezia died in 1561, just three years after their marriage. Her early and sudden death led to the wide speculation that she was poisoned by her husband. According to Friedland, Count Litta, genealogist of Italian families, claims that it was “through motives of jealousy” that the duchess was poisoned (Friedland 672), similar to the duke’s motive in Browning’s poem. 
+Following her death, Alfonso went on to marry Lady Barbara, sister of Ferdinand II, Count of Tyrol. The negotiation of this marriage with the count’s chief emissary Nikolaus Madruz aligns with the marriage negotiation depicted in the poem. The only difference is the fact that the Count of Tyrol was actually the brother of Barbara, and not the father, as presented in the poem (Friedland 680-682).</p>
+                  <listBibl><bibl>Baines, Barbara J. “‘My Last Duchess’ and ‘the Duches of Malfi.’” *Studies in Browning and His Circle*, vol. 11, no. 2, Armstrong Browning Library, Baylor University, 1983, p. 23. *JSTOR*, www.jstor.org/stable/45285141. Accessed 30 Jun. 2022.</bibl><bibl>Friedland, Louis S. “Ferrara and ‘My Last Duchess.’” *Studies in Philology*, vol. 33, no. 4, University of North Carolina Press, 1936, pp. 656–84. *JSTOR*, www.jstor.org/stable/4172343. Accessed 30 Jun. 2022.</bibl><bibl>Ruby, Mary K., and Marie Rose Napierkowski. “My Last Duchess.” *Poetry for Students*, vol. 1, Gale Research, 1998, p. 169.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-i-gave-commands-then-all-smiles-stopped-together" from="#s-i-gave-commands-then-all-smiles-stopped-together" to="#e-i-gave-commands-then-all-smiles-stopped-together">
+            <respStmt><resp>annotator</resp><name>Minella Fernandes</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-20</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#intratextuality">
+                  <p>These lines, along with lines 9-10 (cf. Level 2 Interpretation [[curtain]]), highlight the duke’s constant urge to control his wife and her effect on others.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The “commands” could either signify that the duke ordered for the duchess’ execution, or he had her permanently sent away. Joshua Adler, as some other scholars, affirms that “one’s natural, immediate assumption on reading the poem is that the duchess was in fact put to death” (Adler 227). In an interview with Hiram Corson, Browning indeed admitted that he intended for the line to mean that the duchess was put to death, and after a pause he added, “[o]r he [the duke] might have had her shut up in a convent” (Corson 5). In either case, these lines prove that the duke was responsible for whatever happened to the duchess. 
+We can assume by the meaning of “all smiles stopped together” that the consequences were not pleasant. The word “all” here means that it was not the duchess alone who suffered the consequences. It’s possible that the duke, in his rage, got rid of all the people who fuelled his insecurities. The duke’s actions certainly also resulted in shock amidst the people who made the duchess smile, thereby serving as punishment and stopping their smiles as well. Hiding the duchess’s portrait behind the curtain and lifting it only at his will, finalises his control over her and her effect on others.
+Further, these lines highlight more than just the duke’s desire of control and authority. The blatant acceptance of his heinous crime in such a nonchalant manner strongly suggests a lack of remorse. The duke feels satisfied with the permanent control he now holds over his wife and her actions. The duke also uses this as a warning, just as he did with the example of [[fra-pandolf]] making it clear that he might do it again if his future wife displeases him.</p>
+                  <listBibl><bibl>Adler, Joshua. “Structure and Meaning in Browning’s ‘My Last Duchess.’” *Victorian Poetry*, vol. 15, no. 3, 1977, pp. 219–27. *JSTOR*, www.jstor.org/stable/40002116. Accessed 19 Jul. 2022.</bibl><bibl>Corson, Hiram. *An Introduction to the Study of Robert Browning’s Poetry*. Project Gutenberg, 1995, *EBSCOhost*, search.ebscohost.com/login.aspx?direct=true&amp;db=nlebk&amp;AN=1085671&amp;site=ehost-live. Accessed 19 Jul. 2022.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#intertextuality">
+                  <p>This is not the only piece of work where a duke’s thirst for power and control finally ends in a killing. Browning’s poem is often compared to John Webster’s play *The Duchess of Malfi*, where Ferdinand, the Duke of Calabria, gives similar commands, ordering the death of his sister, the Duchess of Malfi. Jealousy (of an incestuous nature, in this case) could be one of the reasons for his actions, along with the duchess’ transgression and non-conformity to societal norms. Barbara Baines believes that both the duchesses shared a common ordeal with the men in their lives, becoming victims of masculine authority and pride. She states that “When the respective dukes- husband and brothers- cannot sufficiently intimidate, dehumanize and control the duchesses, they resort to murder” (Baines 23), making it the ultimate act of tyrannical dominance.</p>
+                  <listBibl><bibl>Baines, Barbara J. “‘My Last Duchess’ and ‘The Duchess of Malfi.’” *Studies in Browning and His Circle*, vol. 11, no. 2, 1983, pp. 23–30. *JSTOR*, www.jstor.org/stable/45285141. Accessed 14 Jul. 2022.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-munificence" from="#s-munificence" to="#e-munificence">
+            <respStmt><resp>annotator</resp><name>Minella Fernandes</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-20</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>Munificence is “the quality of [having] great generosity or liberality in giving” (&quot;munificence, *n*.1&quot;).</p>
+                  <listBibl><bibl>&quot;munificence, *n*.1.&quot; *OED Online*, Oxford University Press, December 2021, www.oed.com/view/Entry/123803. Accessed 9 February 2022.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-notice-neptune-though-taming-a-sea-horse" from="#s-notice-neptune-though-taming-a-sea-horse" to="#e-notice-neptune-though-taming-a-sea-horse">
+            <respStmt><resp>annotator</resp><name>Minella Fernandes</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-20</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#context">
+                  <p>This sculpture of Neptune is possibly also fictional, like its sculptor. However, it is not an unusual reference since Neptune was often associated with power and seen in various works in control of sea-horses. 
+
+It is also important to take into account that the sea-horse being referred to is not the tiny creature we know today, but instead a hippocamp, a mythical creature belonging to the sea that is half horse and half fish (&quot;hippocamp, *n*.&quot;). They were often seen as vehicles of the sea gods. One of the best representations of this is the famous Trevi fountain in Rome.</p>
+                  <listBibl><bibl>Augst, Alexander. “Trevi Fountain, Rome, Italy”. *Wikipedia*, August 2004, en.wikipedia.org/wiki/Hippocampus_(mythology). Accessed 10 August 2022.</bibl><bibl>&quot;hippocamp, *n*.&quot; *OED Online*, Oxford University Press, June 2022, www.oed.com/view/Entry/87154. Accessed 29 June 2022.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>There are at least two possible readings of these lines, one being that the representation of Neptune taming the seahorse is a symbolic reference to the dynamic shared by the duke and his wife; his controlling nature towards her and his eventual subjugation of her life, by giving his final commands (cf. Level 2 Interpretation [[i-gave-commands-then-all-smiles-stopped-together]]) to put an end to all smiles (line 46). George Monteiro refers to it as a “personal allegory” (Monteiro 235-236) and points out the significance of the duke’s pleasure in seeing himself as Neptune and the fact that “he has chosen to view himself in a show of force” (Monteiro 236). The words “for me” convey that it was specifically commissioned by the duke as yet another piece of art, along with the painting, to emphasize his power and authority. 
+Alternatively, F. Kleinschmit von Lengefeld suggests that the purpose of these lines is nothing more than to depict the duke’s nonchalance (Kleinschmit von Lengefeld 15-16). Correspondingly, the line shows that he treats the duchess’s painting as just another piece of art in his gallery and not anything special.</p>
+                  <listBibl><bibl>Kleinschmit von Lengefeld, F. *Die Lyrik R. Brownings vor dem Jahre 1868*. Marburg, 1925. Accessed 29 Jun. 2022.</bibl><bibl>Monteiro, George. “Browning’s ‘My Last Duchess.’” *Victorian Poetry*, vol. 1, no. 3, 1963, pp. 234–37. *JSTOR*, www.jstor.org/stable/40001200. Accessed 29 Jun. 2022.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-since-none-puts-by-the-curtain-i-have-drawn-for-yo" from="#s-since-none-puts-by-the-curtain-i-have-drawn-for-yo" to="#e-since-none-puts-by-the-curtain-i-have-drawn-for-yo">
+            <respStmt><resp>annotator</resp><name>Minella Fernandes</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-20</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#intratextuality">
+                  <p>These lines are an example of the duke’s dominance and authority. They further highlight the duke’s control over the duchess’ life (cf. Level 2 Interpretation [[i-gave-commands-then-all-smiles-stopped-together]]) and the unequal power dynamic (cf. Level 2 Interpretation [[notice-neptune-though-taming-a-sea-horse]]) they shared.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>This represents the control the duke exerts over his wife, even after her possible death. The duke hides the painting of the duchess behind a curtain only he is allowed to draw, so that people can only look at her whenever he decides it to be proper. Watson claims that “the fact that no one else is allowed to draw the curtain is evidence of the imperious nature of the duke” (Watson 71).</p>
+                  <listBibl><bibl>Watson, J. R. “Robert Browning: ‘My Last Duchess.’” *Critical Survey*, vol. 6, no. 1/2, 1973, pp. 69–75. *JSTOR*, www.jstor.org/stable/41553914. Accessed 5 Jul. 2022.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-spot" from="#s-spot" to="#e-spot">
+            <respStmt><resp>annotator</resp><name>Minella Fernandes</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-20</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The word “spot” can either mean a stain, a blemish or a flaw, (“spot, *n*.1 and *adv*.” A.I.1.) referring to something physical, or metaphorically refer to a moral stain or flaw (“spot, *n*.1” A.I.2.a). Another, now obsolete, use of this word referred to a “stigma left by a specified sin or disgrace” (“spot, *n*.1” A.I.2.b).</p>
+                  <listBibl><bibl>&quot;spot, *n*.1 and *adv*.&quot; *OED Online*, Oxford University Press, March 2022, www.oed.com/view/Entry/187518. Accessed 18 April 2022.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The word ‘spot’ here firstly refers to the physical blush visible on the duchess’ cheek. Secondly, the duke uses the word to point out the figurative moral stain that comes along with it. By commenting on her physical appearance, he thus also makes a subtle reference to the duchess’ character by calling her morally flawed because she found happiness in others, too, not just her husband. It can, therefore, be read as a statement of jealousy.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+      </listAnnotation>
+    </standOff>
+</TEI>

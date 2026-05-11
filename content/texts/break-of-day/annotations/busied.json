@@ -1,0 +1,23 @@
+{
+  "id": "busied",
+  "anchorText": "busied",
+  "anchorStart": 632,
+  "anchorEnd": 638,
+  "authors": [
+    "Johannes K�stner"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "(adjective) busily occupied or engaged; actively employed.",
+      "worksCited": [
+        "\"busied, adj.\" *OED Online*. Oxford University Press, December 2018. Web. 21 February 2019."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T00:01:39.124Z",
+  "updatedAt": "2026-03-17T00:01:58.353Z"
+}

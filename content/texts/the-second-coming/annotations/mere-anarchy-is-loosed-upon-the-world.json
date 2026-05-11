@@ -1,0 +1,41 @@
+{
+  "id": "mere-anarchy-is-loosed-upon-the-world",
+  "anchorText": "Mere anarchy is loosed upon the world",
+  "anchorStart": 127,
+  "anchorEnd": 164,
+  "authors": [
+    "Irina Savić",
+    "Ilea Rahn"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "textual-variants",
+      "body": "In the early versions of Yeats’ manuscript, the line “mere anarchy is loosed upon the world” first started as “Yet when/ the mob fawns upon the murderer [?s]” (NL1 13,588 (14), lr) (Yeats 147). The dash “/” shows Yeats’ thought process while working through his manuscripts as he crosses out the word “while” and leaves in “when”. However, he ultimately also decides against using “when”. This was expanded upon and changed to: “scarcely is armed tyranny fallen when When-an the mob bred [?anarchy] take[?s] it place.” (NLI 13,588 (14), 2r) (Yeats 151). This verse underwent several changes until it took its final published shape.",
+      "worksCited": [
+        "Yeats, W. B. *Michael Robartes and the Dancer: Manuscript Materials*. Edited by Thomas Francis Parkinson and Anne Brannen, Cornell University Press, 1994."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "Yeats was deeply interested and appalled by the revolutions that took place in Europe – the revolutions in Germany, Russia and especially France deeply upset him (Deane 178). The murder of Marie Antoinette left the biggest impact on Yeats as he directly mentions it in his early manuscripts, in the version [NLI 13,588 (14), 2r]: “For this Marie Antoin ette has Most [?brutally] [?died], &-no Burke has spoken [?to the] has [?cried] With his voice” (Yeats 151).",
+      "worksCited": [
+        "Deane, Seamus. *Strange Country: Modernity and Nationhood in Irish Writing since 1790*. Oxford University Press, 2006, pp. 178-79.",
+        "Yeats, W. B. *Michael Robartes and the Dancer: Manuscript Materials*. Edited by Thomas Francis Parkinson and Anne Brannen, Cornell University Press, 1994."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "“The mob” was changed to “anarchy” in order to give the poem a broader symbolic and thematic reach. The mob is associated with a group, and the use of the determiner ‘the’ points to a specific one.  With the change from “mob” to “anarchy”, the thematic reach widens, since the concept of anarchy describes a state of disorder or absence of something, but is broad enough to not be restrictive (“Anarchy, *n.*”, Sense 2.). The adjective ‘mere’ expands the symbol, as it conveys absoluteness, and by omitting Marie Antoinette, the poem is not tied to only one historical reference, enabling the apocalyptic images in the poem.",
+      "worksCited": [
+        "“Anarchy, *n.*” *Oxford English Dictionary*, Oxford UP, June 2025, doi.org/10.1093/OED/2013728889. Accessed 25 Sept. 2025."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-03T15:24:21.587Z",
+  "updatedAt": "2026-04-15T15:25:05.418Z"
+}

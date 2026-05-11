@@ -1,0 +1,43 @@
+{
+  "id": "ordained",
+  "anchorText": "Ordained",
+  "anchorStart": 537,
+  "anchorEnd": 545,
+  "authors": [
+    "Verena West",
+    "Marina Kirillova"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"Ordained\" means that something has been decided in advance or has been commanded by God, the law or fate. The verb \"ordain\" is in the context of God, fate, etc. used in a transitive fashion to showcase religious predestination. (\"ordain, *v*.\" II.14.b.)",
+      "worksCited": [
+        "\"ordain, *v*.\" *Oxford English Dictionary*, Oxford University Press, September 2023, https://doi.org/10.1093/OED/9812174046. Accessed 18 November 2023."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "form",
+      "body": "The capitalization of the word is grammatically incorrect since \"ordain\" is a verb and does not fall into the category of words that can be capitalized regardless of their grammatical function, such as names and nationalities (\"A little help with capitals\"). The capitalization thus seems to imply an emphasis or deliberate intonation in the way Sir Joseph pronounces the word.",
+      "worksCited": [
+        "\"A Little Help with Capitals.\" *Capitals: Help with Capitals - Purdue OWL® - Purdue University*, Purdue University, owl.purdue.edu/owl/general_writing/mechanics/help_with_capitals.html. Accessed 18 November 2023."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Sir Joseph speaks of his role as the \"Poor Man's Friend and Father\" (Dickens 111) and his devotion to fulfill this role no matter what immoral or troubling behavior is displayed. He expresses this sentiment through the phrase \"[i]t is so Ordained\" (Dickens 111). The wording implies that the decision is not made by Sir Joseph himself but by a higher power - in this case God - since the verb \"ordain\" implies a religious context (\"ordain, *v*.\" II.14.b.), which is further underlined by Sir Joseph's addition of its naturalness: \"[i]t is in the nature of things'' (Dickens 112).\n\nThe participle of the verb \"ordain\" is capitalized against grammatical customs (\"Capitalization\"). Sir Joseph describes his role in life as commanded by God, and calls class differences and social injustice \"the design of your creation\" (Dickens 111) while talking to the underprivileged Toby. Toby´s exclamation of being \"[b]orn bad\" (110) foregrounds Sir Joseph claiming this social order of insubordination of the lower class, being divinely/ heavenly predisposed, never to be overcome, since he and the likes believe to know this order were created and upheld by God. Therefore, the use of \"Ordained\" could not only be applied to Sir Joseph's role as the \"Poor Man's Friend and Father\", but also to the predestination of the inequality among people.\n\nSir Joseph alludes to God and divine command several times, for example, when he describes Will Fern´s fate \"as if [it] were Ordained\" (113), or when telling Toby about the \"design of [his] creation\" (111). The capitalization of the verb could be associated with the capitalization of the word \"God\" (\"Capitalization\"). Therefore, it may emphasize Sir Joseph's point about the divine nature of the unequal class structure of society, and perhaps simultaneously satirize Sir Joseph´s self acclaimed superiority over working class people, in this case Toby and Will Fern (see also [[the-cord-of-existence]], Level 3 – Interpretation]).",
+      "worksCited": [
+        "\"Capitalization.\" *Asbury University*, Asbury University, www.asbury.edu/about/offices/strategic-communications/writing-style-guide/capitalization/. Accessed 18 November 2023.",
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhust, Oxford UP, 2008.",
+        "\"god, *n*. & *int*.\" *Oxford English Dictionary*, Oxford University Press, September 2023, https://doi.org/10.1093/OED/8419835712. Accessed 18 November 2023.",
+        "\"ordain, *v*.\" *Oxford English Dictionary*, Oxford University Press, September 2023, https://doi.org/10.1093/OED/3929105785. Accessed 18 November 2023."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-07T14:28:08.212Z",
+  "updatedAt": "2026-05-07T14:31:15.384Z"
+}

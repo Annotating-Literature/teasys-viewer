@@ -1,0 +1,34 @@
+{
+  "id": "rouse",
+  "anchorText": "rouse",
+  "anchorStart": 174,
+  "anchorEnd": 179,
+  "authors": [
+    "Franziska Höfer",
+    "Lena Moltenbrey",
+    "Nicole Poppe"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"To rouse\" has three possible meanings. When looking at the etymological background, the first one is \"to animate\": \"to bring to life, to refresh\" (OED \"animate, v.\"). The second meaning is to wake somebody up (\"rouse from sleep\" OED \"awake, v. Etymology 4\"). It also refers to \"a state of sexual arousal\" (OED \"arouse, v. 4\"), which links it to the topic of Donne's [[elegies]].",
+      "worksCited": [
+        "\"animate, v.\". *OED Online*. OUP, January 2015. Web. 3 January 2015. http://www.oed.com/view/Entry/7778?rskey=Iym9nA&result=2&isAdvanced=true#firstMatch",
+        "\"arouse, v.\". *OED Online*. OUP, January 2015. Web. 28. January 2015. http://www.oed.com/view/Entry/10938?rskey=5bVtsC&result=2&isAdvanced=false#eid",
+        "\"awake, v.\". *OED Online*. OUP, January 2015. Web. 3 January 2015. http://www.oed.com/view/Entry/13864?rskey=wl47d9&result=11&isAdvanced=true#eid31721030",
+        "\"rouse, v.\". *OED Online*. OUP, January 2015. Web. 3 January 2015. http://www.oed.com/view/Entry/168024?rskey=NVWuq5&result=6&isAdvanced=false#eid"
+      ]
+    },
+    {
+      "level": 2,
+      "category": "intratextuality",
+      "body": "When looking at the following lines of the poem, the speaker fails to animate his comrade as the [[chum]] \"was far gone, / for he lay gaping, mackerel-eyed\" (l. 8-9). By comparing the chum with a fish, another possible reading of \"to rouse\" is established, namely \"[t]o sprinkle (fish, esp. herring) with salt, as part of the curing process\" (OED \"rouse, v. 3\") in order to preserve it.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:55:06.195Z",
+  "updatedAt": "2026-03-16T23:56:45.548Z"
+}

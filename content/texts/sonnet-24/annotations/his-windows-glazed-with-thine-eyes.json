@@ -1,0 +1,47 @@
+{
+  "id": "his-windows-glazed-with-thine-eyes",
+  "anchorText": "his windows glazed with thine eyes",
+  "anchorStart": 325,
+  "anchorEnd": 359,
+  "authors": [
+    "Natalia Christoforou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The possessive pronoun \"his\" is most probably referring to \"my bosom's shop\" (l. 7). In early modern English this usage was still unmarked and ‘its' was often replaced by ‘his' (see Booth 259n10). Nevertheless, the choice of ‘his' over ‘its' might be a deliberate one as a way of pointing back to the metonymic use of an edifice for the speaker's body and intimating that the windows of the shop are actually a metaphor for ‘his' – the speaker's – eyes.\n\nThe adjective ‘glazed' is used both in the context of windows to mean furnishing with glass (\"glaze, *v*. 1\" *OED* 1), but also in the context of eyes when they are covered with a film (3a). It also bore the meaning ‘to stare' (\"glaze, *v*. 2\" *OED*) at the time, like in Julius Caesar: \"Against the Capitoll I met a Lyon, Who glaz'd vpon me, and went surly by\" (1.3.21 qtd. in *OED*). In the context of painting, ‘to glaze' referred to a specialised method of \"cover[ing] (a painted surface) with a thin coat of a different transparent colour, so as to modify the tone without mixing\" (\"glaze, *v*. 1\" *OED* 4).",
+      "worksCited": [
+        "Booth, Stephen (ed.). *Shakespeare's Sonnets*. Yale University Press, 1977.",
+        "\"glaze, v.1\". *OED Online*, Oxford University Press, December 2018, www.oed.com/view/Entry/78821. Accessed January 2019.",
+        "\"glaze, v.2\". *OED Online*, Oxford University Press, December 2018, www.oed.com/view/Entry/78822. Accessed January 2019."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "The eyes of a person were considered as the \"direct channel to [one's] heart\" (Ravassat par. 14) and were, therefore, often pictured as windows (cf. \"window, *n*.\" *OED* 5a). See, for example, this passage in Love's Labour's Lost: \"Beholde the window of my hart, mine eye\" (5.2.824 qtd. in *OED*). Based on this figurative usage, the famous sententia \"the eyes are the windows of the soul\" survives to our days.\n\nThe importance of the eyes for Renaissance lovers can be verified by the popular trope of ‘looking babies' in each other's eyes. The image was that of looking into each other's eyes and discerning therein the miniature reflection of oneself (\"baby, n.\" *OED* †4; cf. Duncan-Jones 158, Booth 172).",
+      "worksCited": [
+        "\"baby, n.\". *OED Online*, Oxford University Press, December 2018, www.oed.com/view/Entry/14250. Accessed January 2019.",
+        "Booth, Stephen (ed.). *Shakespeare's Sonnets*. Yale University Press, 1977.",
+        "Duncan-Jones, Katherine (ed.). *Shakespeare's Sonnets*. The Arden Shakespeare, Third Series (Rev. Ed.), Bloomsbury, 2010.",
+        "Ravassat, Mireille. \"The Language of Deceptive Transparency in Shakespeare's Sonnets\". *Les Cahiers de La Licorne - Shakespeare en devenir*, 7, 2013, no p. Université de Poitiers, http://shakespeare.edel.univ-poitiers.fr/index.php?id=695. Accessed March 2017. ",
+        "\"window, n.\". *OED Online*, Oxford University Press, December 2018, www.oed.com/view/Entry/229262. Accessed January 2019."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "This phrase follows the tendency to ambiguity already traced in the preceding lines. On the literal level (though the building and the shop are meant metaphorically), the ‘windows' are the transparent glass windows of a building, or specifically the display windows of a shop. However, in this extended metaphor, the windows are also the speaker's eyes through which the addressee can look straight into the speaker's \"bosom\" (l. 7) (=heart) and marvel at his picture. The implied reciprocity of the gaze between speaker and addressee alludes to the trope of ‘looking babies' into each other's eyes and possibly suggests the consummation of a higher spiritual union.\n\nThe phrase \"glazed with thine eyes\" (l. 8) evokes both the image of the speaker's eyes and of glass window panes reflecting back the eyes of the onlooking addressee. Stephen X. Mead goes even further in arguing that the technique of laying a coat of transparent colour on a piece of art in order to discreetly \"modify the tone\" (\"glaze, v1\" *OED* 4) is alluded to as well. The picture in the sonnet is filtered through the layers of the addressee's and then the speaker's glazed irises (242). This results to a slightly falsified or distorted image.\n\nFinally, against the background of linear perspective, the reference to ‘windows' is ‘glazed' over with another layer. It is reminiscent of Leon Battista Alberti's method description, in which he encourages the painter to regard his drawing surface as an \"open window\" (Gilman 18) to the world.",
+      "worksCited": [
+        "Gilman, Ernest B. *The Curious Perspective: Literary and Pictorial Wit in the Seventeenth Century*. Yale University Press, 1978.",
+        "\"glaze, v1.\". *OED Online*, Oxford University Press, December 2018, www.oed.com/view/Entry/78821. Accessed January 2019.",
+        "Mead, Stephen X. \"Shakespeare's Play with Perspective: Sonnet 24, Hamlet, Lear\". *Studies in Philology* 109.3, Spring 2012, pp. 225-257. *EBSCOhost*, doi: 10.1353/sip.2012.0021. Accessed March 2017."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T14:53:37.666Z",
+  "updatedAt": "2026-03-18T14:58:04.252Z"
+}

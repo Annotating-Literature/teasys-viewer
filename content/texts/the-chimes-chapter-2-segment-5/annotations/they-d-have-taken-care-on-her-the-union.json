@@ -1,0 +1,49 @@
+{
+  "id": "they-d-have-taken-care-on-her-the-union",
+  "anchorText": "They’d have taken care on her, the Union",
+  "anchorStart": 3353,
+  "anchorEnd": 3393,
+  "authors": [
+    "Svenja Brank",
+    "Diana Nowicki"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "A \"Union\" was \"a number of parishes consolidated under one Board of Guardians for the purpose of administering the Poor Law\" (\"union, n.2\" III.15.a). Unions were officially recognized in 1834 by the Poor Law Amendment Act (\"union, n.2\", III.15.a), which introduced new systems for the care of the poor, most prominently through the establishment of workhouses.",
+      "worksCited": [
+        "\"union, n.2.\" *OED Online*, Oxford University Press, September 2020, www.oed.com/view/Entry/214678. Accessed 8 December 2020."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "The Poor Law Amendment Act of 1834 was one of the most far-reaching pieces of legislation in nineteenth century Britain and established new systems for the relief and care of the poor (Bloy, \"Introduction\"). The main feature of this new Poor Law was the introduction of workhouses. Instead of being provided relief in their own homes, all people in need of seeking relief had to enter the workhouse now. Orphans and the children of the poor between the ages of five and fourteen were housed in separate Poor Law schools and \"could be hired or apprenticed by overseers\" (Neuman 613).\n\nThere was plenty of criticism against establishing workhouses as proposed by the Poor Law. Living conditions could be harsh, and there was especially a psychological factor to it, as \"inmates were depersonalised through being made to wear a uniform and through regimentation. There is no doubt that the stigma of the workhouse was deeply felt and even continued many years after the abolition of the system\" (Bloy, \"Implementation\"). The situation was so drastic that, reportedly, some people preferred to starve instead of entering the workhouse (Bloy, \"Implementation\"), a sentiment also shown by Betty Higden in Dickens' novel *Our Mutual Friend* (cf. Dickens).",
+      "worksCited": [
+        "Bloy, Marjie. \"The Implementation of the Poor Law.\" *Victorian Web*, 12 November 2002, http://www.victorianweb.org/history/poorlaw/implemen.html.",
+        "Bloy, Marjie. \"The Poor Law: Introduction.\" *Victorian Web*, 8 November 2002, http://www.victorianweb.org/history/poorlaw/plintro.html.",
+        "Dickens, Charles. *Our Mutual Friend*. Ed. Adrian Poole. Penguin Books, 1997.",
+        "Neuman, Mark. \"Poor Law.\" *Victorian Britain. An Encyclopedia*. Ed. Sally Mitchell. Garland Publ., 1988, pp. 612-614."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "form",
+      "body": "The phrase \"they'd have taken care of her\" seems to be used here rather ironically by the narrator. A contemporary reader familiar with the conditions in the workhouses, where Lilian would have been brought, would have known that a child was not been \"taken care of\" there.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Will Fern's statement shows that he has a difficult attitude towards the Union and its institutions. The orphaned and poor Lilian would have probably been taken into one of the workhouses by the Union, where she would have lived together with other young children. Similarly, Will Fern's father had been brought into one of the workhouses as well after he was too old and unable to provide for himself anymore (Dickens 118). However, Fern has decided to take Lilian in himself, instead of letting the Union \"take care\" of her, despite his own very limited means. It is not exactly clear why Fern has decided to do this. He seems concerned about the distance between him and his niece that could result from the decision to entrust her to the Union. That may have been his only reason, or he may be aware of the implications of bringing her to one of the workhouses and share the critical views about them. He may also remember what happened to his father who died soon after entering the workhouse (Dickens 118) and therefore mistrust the Union and the workhouses.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*. Ed. Robert Douglas-Fairhurst. Oxford University Press, 2008, pp. 85-162."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-07T18:44:58.604Z",
+  "updatedAt": "2026-05-07T18:47:31.147Z"
+}

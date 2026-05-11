@@ -1,0 +1,39 @@
+{
+  "id": "elegies",
+  "anchorText": "Elegies",
+  "anchorStart": 448,
+  "anchorEnd": 455,
+  "authors": [
+    "Britta Maria Kobus",
+    "Mergül Başaran",
+    "Katherina Sotiriou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The Elegies the speaker refers to were written by John [[donne]]. Donne's *Elegies* deal with multiple themes relating to human existence, life, death, love, sex, power-relations, the divine, and the mundane. Donne who is assumed to have written his Elegies between 1592 and 1597, is understood to be the first English \"love-elegist\" (*Variorum* xciv).",
+      "worksCited": [
+        "Donne, John. The Elegies. *The Variorum Edition of the Poetry of John Donne*. Ed. Gary A. Stringer. Vol. 2. Bloomington: Indiana UP, 2000."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "intratextuality",
+      "body": "An Elegy in Greek was a lament or a funeral poem, while the Romans used the term for their erotic love poems. In the 16th and 17th centuries the topoi for elegies contained funeral/commemorative poems, didactic verse and witty, erotic or paradoxical love poetry (*Variorum* xciii).",
+      "worksCited": [
+        "Donne, John. The Elegies. *The Variorum Edition of the Poetry of John Donne*. Ed. Gary A. Stringer. Vol. 2. Bloomington: Indiana UP, 2000."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "The lines convey irony, in the sense that the soldier reads the Elegies to his dead chum to rouse him; they also contain cynicism as he speaker perceives the chum's facial expression as \"grinning nastily\" in reaction to the poetry he listens to. Upon this the speaker concludes that \"the worms had got his brain at last\" (l.17).\n\nThe ambiguity of the word [[rouse]] can be linked to the sexually charged Elegy \"Upon his mistress going to bed\" and thus refer to a hoped for \"rousing\" of his \"chum\".",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:21:28.634Z",
+  "updatedAt": "2026-03-21T01:32:29.608Z"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "all-days-are-nights-to-see-till-i-see-thee",
+  "anchorText": "All days are nights to see till I see thee,",
+  "anchorStart": 558,
+  "anchorEnd": 601,
+  "authors": [
+    "Liubov Bolshakova"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "Day and night are used as metaphors for emotional states. The speaker juxtaposes contrasting images (\"days are nights\" (l. 13)), which is the case of an antithesis.\n\nAlso, in this line, one encounters a diacope, which is the repetition of a word with one or several words in between: \"[…] see till I see […]\". This creates an internal rhyme, which stands next to a second internal rhyme within the same line in \"see thee\".",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The speaker reckons that all days are like nights to him until he sees the addressee in person, not only his ‘shade'. The days are compared to nights probably to show that the days have become dark and dismal to the speaker's sight, because the addressee's image only lights up his life with his beauty (fair shade). Thus, \"[c]ompared with the empty real day, the real night of vivid dreams is desirable\" (Vendler 223).",
+      "worksCited": [
+        "Vendler, Helen. *The Art of Shakespeare's Sonnets*. The Belknap P, 1997. "
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T13:14:07.091Z",
+  "updatedAt": "2026-03-17T13:15:04.885Z"
+}

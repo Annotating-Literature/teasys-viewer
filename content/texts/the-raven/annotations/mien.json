@@ -1,0 +1,31 @@
+{
+  "id": "mien",
+  "anchorText": "mien",
+  "anchorStart": 2423,
+  "anchorEnd": 2427,
+  "authors": [
+    "Ilea Rahn"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "“Mien” can be understood as a facial expression or bearing of the face that exposes one’s mood or one’s true character (\"Mien, *n*. (1)\", Sense 1.).",
+      "worksCited": [
+        "“Mien, *n*. (1).” *Oxford English Dictionary*, Oxford UP, December 2025, doi.org/10.1093/OED/1019859598. 18 Mar. 2026."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "form",
+      "body": "The raven is portrayed as exhibiting a stance typically associated with humans, personifying the [[raven]]. This personification of the raven is further enhanced a few lines below when the raven is characterized as having a “stern [[decorum]]” (line 44). This is also in agreement with a more elaborate understanding of “mien” as the “personification of a quality” (\"Mien, *n*. (1)\" Sense 2.).",
+      "worksCited": [
+        "“Mien, *n*. (1).” *Oxford English Dictionary*, Oxford UP, December 2025, doi.org/10.1093/OED/1019859598. 18 Mar. 2026."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T22:43:10.567Z",
+  "updatedAt": "2026-03-18T22:47:41.259Z"
+}

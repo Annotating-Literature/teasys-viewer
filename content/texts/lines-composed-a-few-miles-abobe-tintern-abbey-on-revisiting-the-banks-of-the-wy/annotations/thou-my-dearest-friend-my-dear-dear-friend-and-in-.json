@@ -1,0 +1,36 @@
+{
+  "id": "thou-my-dearest-friend-my-dear-dear-friend-and-in-",
+  "anchorText": "thou my dearest Friend, My dear, dear Friend; and in thy voice I catch120 The language of my former heart, and read My former pleasures in the shooting lights",
+  "anchorStart": 5012,
+  "anchorEnd": 5170,
+  "authors": [
+    "Junwen Lu"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "This part can be related to John of Gaunt's speech in *Richard II*: \"This land [England] of such dear souls, this dear dear land – / Dear for her reputation through the world-\" (Shakespeare 2.1.40-68), a reading which may be based upon the repetitive \"dear\" (see Weinfield 269).\n\nA second possibility is that the passage refers to the Song of Songs, near to the end of which \"the younger, virginal sister\" is also abruptly mentioned. In the Song of Songs, this expression appears in the context of the female lover wishing that she were her beloved's sister, because a brother-sister relationship allows them to kiss in public without being looked down upon (Pearson 210).",
+      "worksCited": [
+        "Pearson, Sara L. \"Allusive Pursuits: The Song of Songs in Wordsworth's 'Tintern Abbey'.\" *Studies in Romanticism*, vol. 53, no. 2, 2014, pp. 195-216. Gale Literature Resource Center, link.gale.com/apps/doc/A386434143/LitRC?u=tuebi&sid=LitRC&xid=3a04d7fc. Accessed 7 Mar. 2021.",
+        "Shakespeare, William. *King Richard II*, edited by Charles R. Forker, The Arden Shakespeare, Bloomsbury, 2002.",
+        "Weinfield, Henry. \"‘These Beauteous Forms': ‘Tintern Abbey' and the Post-Enlightenment Religious Crisis.\" *Religion and the Arts*, vol. 6, no. 3, Jan. 2002, pp. 257-290."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The possible intertextual reference to John of Gaunt's speech indicates that the emphasis of \"Tintern Abbey\" has changed from nature, which is described in the first verse paragraph of the poem, to what is \"dear\" to the speaker. The reason why the landscape is important is not the place itself, but that it \"evokes feelings of love […] and reflections on our capacity to love\" (Weinfield 269-270).\n\nIn the Song of Songs, after a declaration about love, the character of a sexually immature sister is described who is far from ready for marriage. Similarly, in \"Tintern Abbey\", Wordsworth likens his sister to his younger self, who is close to the innocence of childhood and away from the sexual consciousness of adulthood; he thus also underlines her role as a \"dear sister\", a \"non-sexual role\" (Pearson 211), rather than that of a lover (Pearson 210-211). Thus, being her brother, as Pamela Woof explains in *Towards \"Tintern Abbey\"*, Wordsworth could share \"mind, heart and spirit\" but not \"body\" (49).\n\nIn addition, the speaker thinks that his sister \"sees what [his] younger [self] once saw, and feels what he felt\", and this is the validation of the younger speaker's perceptions (Smith 315).",
+      "worksCited": [
+        "Pearson, Sara L. \"Allusive Pursuits: The Song of Songs in Wordsworth's 'Tintern Abbey'.\" *Studies in Romanticism*, vol. 53, no. 2, 2014, pp. 195-216. Gale Literature Resource Center, link.gale.com/apps/doc/A386434143/LitRC?u=tuebi&sid=LitRC&xid=3a04d7fc. Accessed 7 Mar. 2021.",
+        "Smith, Lyle H. \"Reading ‘Something' in ‘Tintern Abbey'.\" *Christianity & Literature*, vol. 45, no. 3-4, June 1996, pp. 303–317.",
+        "Weinfield, Henry. \"‘These Beauteous Forms': ‘Tintern Abbey' and the Post-Enlightenment Religious Crisis.\" *Religion and the Arts*, vol. 6, no. 3, Jan. 2002, pp. 257-290.",
+        "Woof, Pamela. \"Towards 'Tintern Abbey': The Poem.\" *Towards Tintern Abbey: A Bicentenary Celebration of 'Lyrical Ballads'*, edited by Robert Woof and Stephen Hebron, The Wordsworth Trust,1998, pp. 43-60."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-27T14:18:34.462Z",
+  "updatedAt": "2026-03-27T14:21:57.520Z"
+}

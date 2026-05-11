@@ -1,0 +1,31 @@
+{
+  "id": "a-tyrants-love-transformed-to-hate",
+  "anchorText": "a tyrant’s love transformed to hate",
+  "anchorStart": 90,
+  "anchorEnd": 125,
+  "authors": [
+    "Franziska Fezer"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "The \"tyrant's love\" may refer to the Governor that is mentioned in the legend of St. Margaret the Virgin. He asked for her hand in marriage, expecting her to renounce Christianity. Upon her refusal to become his wife and give up her faith, he had her tortured and eventually executed. ",
+      "worksCited": [
+        "de Voragine, Jacobus. *The Golden Legend. Readings on the Saints*. Princeton University Press, 20129, pp. 368-370."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The tyrant might also be connected to the dragon mentioned in the poem as the ‘drake of hell' (l. 11) and therefore refer to the devil himself. In the legend of St. Margaret according to de Voragine, the dragon is presented to Margaret whilst in prison as the true enemy, and therefore exposing the devil, and not the Governor, as her actual opponent (de Voragine 369). The referential underspecification may, however, also refer to a link between governor and dragon, making them both symbols of the devil.",
+      "worksCited": [
+        "de Voragine, Jacobus. *The Golden Legend. Readings on the Saints*. Princeton University Press, 20129, pp. 368-370."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T08:54:50.960Z",
+  "updatedAt": "2026-03-17T08:55:45.161Z"
+}

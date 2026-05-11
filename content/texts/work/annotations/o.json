@@ -1,0 +1,27 @@
+{
+  "id": "o",
+  "anchorText": "o’",
+  "anchorStart": 106,
+  "anchorEnd": 108,
+  "authors": [
+    "Sandra Wetzel"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The \"o’\" in \"o’ the day\" is a contraction of the preposition \"of\". ",
+      "worksCited": []
+    },
+    {
+      "level": 1,
+      "category": "form",
+      "body": "The contraction serves to maintain the iambic rhythm.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-03T13:25:48.554Z",
+  "updatedAt": "2026-03-03T13:26:23.013Z"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "oer-read",
+  "anchorText": "o’er-read",
+  "anchorStart": 430,
+  "anchorEnd": 439,
+  "authors": [
+    "Heike Ortlieb"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "To read (over), in the sense of \"to read through again; to reread\" (Def. 2.)",
+      "worksCited": [
+        "\"over-read, v.\" Def.2. *OED Online*. OUP, Sept. 2016. Web. 08 Dec. 2016."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Given that \"over-read\" also implies a notion of repetition, the process of the verse being read frequently and by many people is stressed.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T16:40:05.126Z",
+  "updatedAt": "2026-03-18T16:40:45.136Z"
+}

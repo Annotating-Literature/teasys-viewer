@@ -1,0 +1,44 @@
+{
+  "id": "rang-an-old-year-out",
+  "anchorText": "Rang an Old Year Out",
+  "anchorStart": 46,
+  "anchorEnd": 66,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "The tradition of ringing out the old year and in a new year was established in the early seventeenth century and was followed all over England (cf. Walters 141; cf. \"The History of English Change Ringing\"; cf. Baker 100). The proceeding varied from church to church, though the most prevalent practice seems to have been the following: Before midnight, bells that were muffled by caps were rung. After midnight, these caps were removed and one could hear the open peal (cf. Wright 18-21).\n\nIt seems to have been a secular rather than a religious tradition (cf. Walters 141). The ringing of muffled bells was said to symbolise the death of the old year, while the open peal welcomed the new year (cf. Baker 100).\n\nThis is what a half-muffled bell looks like: http://www.whitacrebells.co.uk/uploads/1/0/1/4/10146774/328889.jpg?275        \n\nAnd this is what half-muffled bells sound like: http://www.youtube.com/watch?v=oCVqfKU1HdM\n\nThe echo you can hear in this video is the sound made by the half-muffled bells.",
+      "worksCited": [
+        "Baker, Margaret. *Folklore and Customs of Rural England*. London: David & Charles, 1974. Print.",
+        " \"The History of English Change Ringing.\" *wdcra*. Worcestershire & Districts Change Ringing Association, n.d. Web. 7 Mar. 2014.",
+        "Seale Bell Tower. \"Call changes on six bells - Half Muffled for Remembrance Sunday 2012.\" Online video clip. *Youtube*. Youtube, 13 Nov. 2012. Web. 4 Nov. 2014.",
+        "St Giles Nether Withacre Bellringers. \"Photograph of  a Half-Muffled Bell.\" Photograph. *withacrebells*. St Giles Nether Withacre Bellringers, n.d. Web. 7 Nov. 2014.",
+        "Walters, H.B. *Church Bells of England*. Oxford: OUP, 1912. Print.",
+        "Wright, A. R. *British Calendar Customs. England. Vol. II Fixed Festivals. January-May, inclusive*. Ed. T. E. Lones. London: Glaisher, 1938. Print."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The ringing of the bells in *The Chimes* is important for two reasons.\n\nFirstly, given that it symbolises death and renewal, one could draw a connection between Meg's (imagined) death and her ‘rebirth’ after Toby wakes from his dream or vision.\n\nBut more importantly, they represent how Toby's feelings towards the poor change. While he still thinks that poor people like him are useless for society and born bad, they sound fierce, impetuous, and haunting (cf. Dickens 144). When he is shown the future of his daughter, they are silent. After he has realised that poor people are not born bad, but that misery and despair drive them to commit crimes, the chimes sound like the \"old familiar Bells [...] so merrily\" (Dickens 157).",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*. Ed. Robert Douglas-Fairhurst. Oxford: OUP, 2008. 85-162. Print."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "context",
+      "body": "There is also a poem by Lord Alfred Tennyson about ringing the old year out, which was published six years later than Dickens's *The Chimes*, in 1850. In the poem, Tennyson refers to the symbolic power of the bells ringing at midnight: They represent not only the end of the year, but also the hope that the next year will bring a change for the better.\n\n**Ring Out, Wild Bells**\n\nRing out, wild bells, to the wild sky,\nThe flying cloud, the frosty light\nThe year is dying in the night;\nRing out, wild bells, and let him die.\n\nRing out the old, ring in the new,\nRing, happy bells, across the snow:\nThe year is going, let him go;\nRing out the false, ring in the true.\n\nRing out the grief that saps the mind,\nFor those that here we see no more,\nRing out the feud of rich and poor,\nRing in redress to all mankind.\n\nRing out a slowly dying cause,\nAnd ancient forms of party strife;\nRing in the nobler modes of life,\nWith sweeter manners, purer laws.\n\nRing out the want, the care, the sin,\nThe faithless coldness of the times;\nRing out, ring out thy mournful rhymes,\nBut ring the fuller minstrel in.\n\nRing out false pride in place and blood,\nThe civic slander and the spite;\nRing in the love of truth and right,\nRing in the common love of good.\n\nRing out old shapes of foul disease,\nRing out the narrowing lust of gold;\nRing out the thousand wars of old,\nRing in the thousand years of peace.\n\nRing in the valiant man and free,\nThe larger heart the kindlier hand;\nRing out the darkness of the land,\nRing in the Christ that is to be.",
+      "worksCited": [
+        "Tennyson, Alfred, Lord. \"Ring Out, Wild Bells.\" *In Memoriam*. Ed. William J. Rolfe. Boston and New York: Houghton Mifflin, 1895. 129-30. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-04T18:57:39.416Z",
+  "updatedAt": "2026-05-04T19:01:33.209Z"
+}

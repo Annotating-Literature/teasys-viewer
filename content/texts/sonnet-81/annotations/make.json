@@ -1,0 +1,30 @@
+{
+  "id": "make",
+  "anchorText": "make",
+  "anchorStart": 33,
+  "anchorEnd": 37,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"Make\" is here most likely used in the sense of \"[t]o compose, write as the author\" (Def. I.4a). One might, however, also read it in the sense of \"to constitute; to be made or converted into; to serve for\" (\"make, v.1.\" Def. I.22a).",
+      "worksCited": [
+        "\"make, v.1.\" Def. I.4a. *OED Online*. OUP, Sept. 2016. Web. 30 Nov. 2016.",
+        "\"make, v.1.\" Def. I.22a. *OED Online*. OUP, Sept. 2016. Web. 30 Nov. 2016."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "One might also combine these two possible meanings of \"make\": In this case, the speaker does not only create the epitaph (first meaning) but he also is the epitaph himself (second meaning) by serving as a living reminder of the youth (e.g. by writing and talking about him).",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T15:39:55.482Z",
+  "updatedAt": "2026-03-18T15:40:47.304Z"
+}

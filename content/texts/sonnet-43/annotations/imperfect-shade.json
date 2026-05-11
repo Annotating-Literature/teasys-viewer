@@ -1,0 +1,48 @@
+{
+  "id": "imperfect-shade",
+  "anchorText": "imperfect shade",
+  "anchorStart": 491,
+  "anchorEnd": 506,
+  "authors": [
+    "Liubov Bolshakova"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "intratextuality",
+      "body": "The word ‘shade' is repeated in the poem with the same root but with different flexions in ll. 5, 6, 8, which creates a polyptoton stretching across these four lines.",
+      "worksCited": []
+    },
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The adjective ‘imperfect' can be defined as \"wanting some quality or attribute necessary to […] ideal character\" or something \"defective and faulty\" (*OED* 2), especially opposed to the earlier ‘clear' and ‘clearer' (l. 7) visions of the addressee in the poem.\n\nThe word ‘shade' can have the same meaning as ‘shadow' in l. 5: \"an unreal appearance; a delusive semblance or image; a vain and unsubstantial object of pursuit\" (*OED* 6a), especially contrasted with substance, i.e. the actual object that casts the shadow. Moreover, with a possible play on ‘ghost' (cf. Level 2 Interpretation [[in-dead-night]]) one can argue that shade has the meaning of \"a spectre, [or] phantom\" (*OED* 6b).",
+      "worksCited": [
+        "\"imperfect, adj.\". *OED Online*. Oxford UP, Dec 2016.",
+        "\"shade, n.\". *OED Online*. Oxford UP, Dec 2016. "
+      ]
+    },
+    {
+      "level": 2,
+      "category": "intertextuality",
+      "body": "The poem is often interpreted in the context of a sequence with the failings of the friend, which occurs in Shakespeare's Sonnet 33. These two poems might refer to the same addressee.",
+      "worksCited": []
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "The paradoxical representation of a ‘fair', yet ‘imperfect', image of the addressee implies the suggestion of seeing in a dream in which one cannot always see things as detailed as when being awake. When saying \"imperfect shade\" the speaker means the dream image \"which is deficient, [and] less-than-whole because unreal\" (Paterson 130). While dreaming, one might perceive the images \"as only the shadow of the reality\" (Evans 144). Thus, it is an imperfect – in the sense of blurred or incomplete – representation of the addressee's image in the speaker's dream, and not a physical actuality (Hammond: \"because not substantial like the Boy's body\" (194n11); Vendler: \"its radical imperfection as a substitute for real presence is admitted\" (224)). The speaker's imagination is reproducing only a likeness of reality.\n\nConsidering a possible intertextual connection with Sonnet 33 (cf. Level 2 Intertextuality), another interpretation of the phrase can be suggested. \"[I]mperfect shade\" can here also refer to a recollection of the allusions to the young man's moral defects in 33.5 and, according to Duncan-Jones, can be interpreted as \"the image of you, beautiful despite your moral imperfection\" (196). This representation of \"imperfect shade\" seems to stand out from the previous interpretation, because it excludes the speaker's dreaming the image of the addressee.",
+      "worksCited": [
+        "Duncan-Jones, Katherine (ed.). *Shakespeare's Sonnets*. The Arden Shakespeare, Third Series (Rev. ed.), Bloomsbury, 2010. ",
+        "Evans, G. Blakemore (ed.). *The Sonnets*. The New Cambridge Shakespeare, Cambridge UP, 1996. ",
+        "Hammond, Paul (ed.). *Shakespeare's Sonnets*. Oxford UP, 2012.",
+        "Paterson, Don. *Reading Shakespeare's Sonnets: A New Commentary by Don Paterson*. Faber & Faber, 2010. ",
+        "Vendler, Helen. *The Art of Shakespeare's Sonnets*. The Belknap P, 1997. "
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T09:47:22.726Z",
+  "updatedAt": "2026-03-17T20:34:37.155Z"
+}

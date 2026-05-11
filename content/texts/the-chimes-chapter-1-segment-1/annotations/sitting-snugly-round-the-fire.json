@@ -1,0 +1,38 @@
+{
+  "id": "sitting-snugly-round-the-fire",
+  "anchorText": "sitting snugly round the fire!",
+  "anchorStart": 2324,
+  "anchorEnd": 2354,
+  "authors": [
+    "Svenja Brank",
+    "Diana Nowicki"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "In this sentence, the narrator's voice establishes the setting in which the reader can imagine both the narrator and the narratee to be situated throughout the entire span of the story. The narrator's comment further reinforces the idea that he is directly telling the story to a listener. This method of narration clearly introduces another, namely extradiegetic, narrative level, namely the level of the narrator, the narratee, and the intradiegetic characters, which is separate from the events of the story itself.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "In *The Pickwick Papers*, Dickens describes the characters gathered around the fireplace on Christmas Eve and listening to a Christmas ghost story:\n\n… they sat down by the huge fire of blazing logs to a substantial supper (…). \"This,\" said Mr. Pickwick, looking round him, \"this is, indeed, comfort.\" \"Our invariable custom,\" replied Mr. Wardle. \"Everybody sits down with us on Christmas Eve, as you see them now – servants and all; and here we wait, until the clock strikes twelve, to usher Christmas in, and beguile the time with forfeits and old stories.\" (Dickens 797-798)\n\nOne may imagine the situation described on the extradiegetic level of narration in *The Chimes* to be quite similar.\n\nThis scene also shows that the reading of Christmas stories is a popular theme in Dickens' narrative worlds, especially since he also published a number of Christmas stories himself.",
+      "worksCited": [
+        "Dickens, Charles. *The Pickwick Papers, or, The Posthumous Papers of the Pickwick Club*. Floating Press, 2009."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "By using the pronoun \"us\", the narrator includes the audience , both in the world of narration and on the external communicative level, in the story and shows how he imagines them reading or listening to the story. The picture that is evoked by the expression \"sitting snugly round the fire\" (Dickens 87) creates a stark contrast between the comfort and warmth surrounding the audience and the atmosphere in the church that is described in the (intradiegetic) passage. Trotty is waiting in a spot close to the church, which is \"a breezy, goose-skinned, blue-nosed, red-eyed, stony-toed, tooth-chattering place\" (Dickens 89). It might make the audience (and, by implication, readers on the external level of communication) conscious of their own comfortable position and therefore feel compassionate towards Trotty, who does not have the luxury of a warm fire.\n\nThe reader of *The Chimes* might be able to connect the image of \"sitting snugly round the fire\" (Dickens 87) to the scene of the characters gathering for a story in *The Pickwick Papers*. It might as well suggest a setting in which Dickens' Christmas stories are best read. The scene may also be intended to evoke a feeling of a shared tradition and thus solidarity between reader, narratee and narrator.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*. Ed. Robert Douglas-Fairhurst. Oxford University Press, 2008, pp. 85-162."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-04T19:10:21.350Z",
+  "updatedAt": "2026-05-04T19:12:57.406Z"
+}

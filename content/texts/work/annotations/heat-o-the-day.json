@@ -1,0 +1,23 @@
+{
+  "id": "heat-o-the-day",
+  "anchorText": "heat o’ the day",
+  "anchorStart": 101,
+  "anchorEnd": 116,
+  "authors": [
+    "Sandra Wetzel"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The phrase \"heat of the day\", which is connected to \"tending of the vines\" through an intertextual reference, also appears in Matthew 20:12: \"Saying, These last have wrought but one hour, and thou hast made them equal unto us, which have borne the burden and heat of the day.\" ",
+      "worksCited": [
+        "*King James Version*. Bible Gateway, https://www.biblegateway.com/passage/?search=Matthew+20%3A12&version=KJV. Accessed 19. Jul. 2019. "
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-03T13:27:46.196Z",
+  "updatedAt": "2026-03-03T13:28:04.118Z"
+}

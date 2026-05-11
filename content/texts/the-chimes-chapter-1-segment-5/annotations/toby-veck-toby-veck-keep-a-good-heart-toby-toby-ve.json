@@ -1,0 +1,56 @@
+{
+  "id": "toby-veck-toby-veck-keep-a-good-heart-toby-toby-ve",
+  "anchorText": "Toby Veck, Toby Veck, keep a good heart, Toby! Toby Veck, Toby Veck, keep a good heart, Toby!",
+  "anchorStart": 1288,
+  "anchorEnd": 1381,
+  "authors": [
+    "David Saia",
+    "Angelika Zirker"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "On the basis of Carper and Attridge's system of indicating beats and offbeats (B – beat, o – offbeat, -o= - double offbeat, with a slightly more pronounced emphasis on the second part), the stress in these phrases can be indicated as follows (cf. Bauer 114):\n\nToby Veck, Toby Veck, keep a good heart, Toby!\n  B o     B [o] B o    B [o]  B     -o=        B       B o\n\nAs regards the distribution of vowel sounds, we come to the following:\n\nToby Veck, Toby Veck, keep a good heart, Toby!\n[əʊ][ɪ] [e]    [əʊ][ɪ] [e]      [i:]   [ə] [ʊ]     [ɑ]    [əʊ][ɪ]",
+      "worksCited": [
+        "Bauer, Matthias. \"The Chimes and the Rhythm of Life.\" *Charles Dickens as an Agent of Change*. Ed. Joachim Frenk & Lena Steveker. New York: AMS Press, 2015. 111-27, 114.",
+        "Carper, Thomas; Derek Attridge. *Meter and Meaning: An Introduction to Rhythm in Poetry*. New York: Routledge, 2003."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "intratextuality",
+      "body": "The speech of the bells in *The Chimes* is a recurring motif that can be read as a *leitmotif* in the story. The bells call for Trotty and guide his way through the narrative. There is a total of seven speeches Trotty hears in their ringing.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "form",
+      "body": "As Matthias Bauer has noted, the \"sound of the bells is both rhythmically and melodiously translated into human speech\": \"the bell notes appear […] as vowel sounds in a change of [əʊ] and [e], as well as [i:] and [ɑ]; the voice of the bells is thus founded on an alternation of back and front vowels (back/front // back/front // front/back // front/back); we note that this is a monotonous alternation but that it is rhythmically enlivened by the inversion of the back/front sequence in ‘keep […] heart\"; if the offbeat vowels are included, we get an additional short [ɪ] and [ʊ] (another front/back pair) and perhaps a schwa in ‘a,' that is, a peal of between four and seven bells at all.",
+      "worksCited": [
+        "Bauer, Matthias. \"The Chimes and the Rhythm of Life.\" *Charles Dickens as an Agent of Change*. Ed. Joachim Frenk & Lena Steveker. New York: AMS Press, 2015. 111-27, 114."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "It can be noted that Dickens, \"although imitating the different bell note and their ups and downs, does not represent a systematic, full peal as in the art of change ringing (made popular in English literature by Dorothy Sayers's The Nine Tailors)\" (Bauer 114). Rather, he links Toby's ability to recognize \"verbal messages in the melody and rhythm of the bells\" to Toby's \"own existence\" (114): \"And this is not only because his usual place of abode is a niche of an ancient church but because his life is intricately connected with other rhythms, such as the rhythm of the weather. Toby's own rhythm fits in well here, for whenever he has a message to deliver, he moves in his own particular and peculiar trot, from which he derives his nickname\" (Bauer 114) This peculiar trot is one of \"a regular alternation of beat and offbeat with variation\" (116). For more information on this trot, see Level 3.",
+      "worksCited": [
+        "Bauer, Matthias. \"The Chimes and the Rhythm of Life.\" *Charles Dickens as an Agent of Change*. Ed. Joachim Frenk & Lena Steveker. New York: AMS Press, 2015. 111-27."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "Toby's peculiar trot is one of \"a regular alternation of beat and offbeat with variation\" (116). According to the *OED*, the \"combination of repetition and variation\" is the definition of the expression \"to ring the changes\" (OED, \"ring, v.1\" 17.; Bauer 116). Toby is thus intricately linked to the chimes not only on the level of physiology and psychology, allegory and the supernatural (cf. Bauer 113), but also on the level of sound. The rhythmical patterns and sound patterns are accordingly not merely iconic, but they are \"the meaning itself\" (Bauer 122): \"Dickens contrasts a world, a system, and a language ‘without a chance or change,' with a world marked by repetition and variation, that is, by rhythm or ‘change'\" (Bauer 116). For further instances of repetition and variation, see the annotations on [[he-saw-them-young-he-saw-them-old]] and [[he-sat-down-in-his-chair]].",
+      "worksCited": [
+        "Bauer, Matthias. \"The Chimes and the Rhythm of Life.\" *Charles Dickens as an Agent of Change*. Ed. Joachim Frenk & Lena Steveker. New York: AMS Press, 2015. 111-27.",
+        "\"ring, v.1.\" *OED Online*, Oxford University Press, June 2018, www.oed.com/view/Entry/166072. Accessed 9 July 2018."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-05T17:54:16.582Z",
+  "updatedAt": "2026-05-05T17:58:44.164Z"
+}

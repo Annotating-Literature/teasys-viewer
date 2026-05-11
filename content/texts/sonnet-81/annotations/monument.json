@@ -1,0 +1,30 @@
+{
+  "id": "monument",
+  "anchorText": "monument",
+  "anchorStart": 361,
+  "anchorEnd": 369,
+  "authors": [
+    "Kathrin Bauer"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"Monument\" has several meanings, many of which apply to the sonnet.\n\nThe noun monument derives from Latin moneo, which means \"warn; advise; presage\" (cf. *Pocket Latin Dictionary* \"moneo, v.\"). This implies a didactic function. It also means a statue […] erected to commemorate a famous or notable person or event\" (cf. \"monument, n.\" Def. 2), or simply a \"tomb\" (cf. \"monument, n.\" Def. 1). An alternative meaning is \"written document\" (cf. \"monument, n.\" Def 3.), in all cases \"its survival […] distinguishes a person […]\" (cf. \"monument, n.\" Def. 4).",
+      "worksCited": [
+        "\"moneo, v.\" *Pocket Oxford Latin Dictionary: Latin-English* (3 ed.). Online. OUP. June 2014. Web 7 Dec. 2016.",
+        "\"monument, n.\" *OED Online*. OUP. Sept. 2016. Web. 3. Dec. 2016."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The speaker presents the sonnet as a monument for the addressee. The use of the noun monument combines the above mentioned meanings. The \"gentle verse\" of the speaker functions as an everlasting memory of the addressee. The addressee is worthy of a monument, which emphasises the importance and high standing of the addressee but at the same time it is the sonnet which elevates the addressee.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T15:53:15.377Z",
+  "updatedAt": "2026-03-18T15:54:35.536Z"
+}

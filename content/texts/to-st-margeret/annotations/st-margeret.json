@@ -1,0 +1,32 @@
+{
+  "id": "st-margeret",
+  "anchorText": "St Margeret",
+  "anchorStart": -11,
+  "anchorEnd": 0,
+  "authors": [
+    "Franziska Fezer"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "\"St. Margaret\" may refer to various different saints. Based on the biography of Henry Constable and intertextual references, the most likely candidates are either St. Margaret the Virgin, also called Margaret of Antioch or Saint Marina the Great Martyr, or St. Margaret of Scotland.\n\n\n- **St. Margaret the Virgin (c. 289 - 304)** is famous for refusing to renounce Christianity and slaying a dragon in the process. She was beheaded at age 15 and is the patron saint of women in labour. Her Saint's Day is the 20th of June.\n\n\n- **St. Margaret of Scotland (c. 1045 - 1093)** was an English princess and Scottish queen. As the wife of Malcolm III, she adjusted the ways of the Scottish church to those of the Roman Catholic church under whose influence she had grown up. After losing her husband and her eldest son to the Battle of Alnwick, she died of grief. She was declared a saint in 1250. Her Saint's Day is the 16th of November.\n\n\nHowever, the context of the poem strongly suggests that the poem refers to St. Margaret the Virgin (despite the fact that Constable had strong Scottish connections and converted to [Catholicism](http://https//en.wikipedia.org/wiki/Henry_Constable)).",
+      "worksCited": [
+        "de Voragine, Jacobus. *The Golden Legend: Readings on the Saints*. Princeton University Press, 2019, pp. 368-370",
+        "Wikipedia Contributors. \"Saint Margaret of Scotland.\" *Wikipedia*, Wikimedia Foundation, 19 May 2019, en.wikipedia.org/wiki/Saint_Margaret_of_Scotland. Accessed 1 Aug. 2019."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "St. Margaret the Virgin is mentioned by Blessed Jacobus de Voragine in his hagiography, Golden Legend (*Legenda Aurea*). She was born in 289 in Antioch, Pisidia (today Turkey), to a Pagan priest father and was raised by a Christian nurse. Upon embracing Christianity and pledging her virginity to God, she was disowned by her father. Refusing to renounce her faith following a marriage proposal, she was tortured by her suitor. Thrown into prison, Margaret asked God to show her the demon she was fighting against. When it came to her in the shape of a dragon, she signed a cross at it, and it vanished. Upon her second refusal to renounce her faith, Margaret was tortured again, of which she emerged unharmed once more, which caused bystanders to convert. Afraid of more people following this example, the authorities sentenced Margaret to death.",
+      "worksCited": [
+        "de Voragine, Jacobus. *The Golden Legend: Readings on the Saints*. Princeton University Press, 2012."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T09:11:51.287Z",
+  "updatedAt": "2026-03-21T01:39:51.988Z"
+}

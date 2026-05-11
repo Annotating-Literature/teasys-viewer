@@ -1,0 +1,21 @@
+{
+  "id": "light",
+  "anchorText": "light",
+  "anchorStart": 110,
+  "anchorEnd": 115,
+  "authors": [
+    "Alina Teynil"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Personification of \"light\" which is a metaphor for \"day\". \"Light hath no tongue, but is [[all eye]]\" means that the day itself is unable to speak, but the light at daytime is able to make things visible, therefore light = day is able to spy but not to speak.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:58:16.923Z",
+  "updatedAt": "2026-03-16T23:58:51.607Z"
+}

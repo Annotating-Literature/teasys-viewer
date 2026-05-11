@@ -1,0 +1,24 @@
+{
+  "id": "luridly",
+  "anchorText": "luridly",
+  "anchorStart": 14,
+  "anchorEnd": 21,
+  "authors": [
+    "Isabel Maria Osuna Montilla",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Usually, “lurid” describes something “[p]ale and dismal in colour” (“lurid, *adj*.” 1.); here, it is used to describe the colour of the sky at sunset: “[s]hining with a red glow or glare amid darkness” (“lurid, *adj*.” 2.a.).",
+      "worksCited": [
+        "“lurid, *adj.*” 1. and 2.a. *OED Online*, Oxford University Press, December 2021, www.oed.com/view/Entry/111313. Accessed 17 February 2022."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-20T01:01:53.164Z",
+  "updatedAt": "2026-03-20T01:02:52.656Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "pure",
+  "anchorText": "pure",
+  "anchorStart": 295,
+  "anchorEnd": 299,
+  "authors": [
+    "Sandra Wetzel"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "In addition to the transparency of the crystal (cf. [[crystallines]]), \"pure\" also carries the sense of moral innocence (\"pure, *adj*. and *n*.\" III.4.a.).",
+      "worksCited": [
+        "\"pure, *adj*. and *n*.\" *OED Online*. Oxford UP, Sept 2007. Web. July 14, 2019."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-20T21:46:17.132Z",
+  "updatedAt": "2026-03-20T21:47:20.072Z"
+}

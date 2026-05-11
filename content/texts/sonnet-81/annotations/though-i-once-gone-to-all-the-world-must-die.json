@@ -1,0 +1,36 @@
+{
+  "id": "though-i-once-gone-to-all-the-world-must-die",
+  "anchorText": "Though I, once gone, to all the world must die",
+  "anchorStart": 219,
+  "anchorEnd": 265,
+  "authors": [
+    "Lisa Metz"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "All the world can be understood as all of humankind or even all living beings. (cf. *OED* „world n.\" III.13).\n\nThe verb go can have the meaning of \"[being] alive and active\" and evokes the image of \"walking upon the earth\", while the past tense of the phrase in this line states that the action is over, i.e. the speaker is dead. (*OED* „go v.\" 1c)",
+      "worksCited": [
+        "*OED *„go v.\" 1c",
+        "*OED* „world n.\" III.13"
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The speaker plays around the meanings of \"dying\". To him, ‘dying' seems to be a process with different levels. Once gone, once his body is no longer living he will still die to the world. The \"I\" now does not just refer to his body, but to his intellectual work and memories other people have of him. Thus he is undergoing a second death at which end there is truly nothing left of him.",
+      "worksCited": []
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "The line can also offer the following reading: \"the world is no longer relevant to me\", thus then describing the disentanglement of the speaker from the world.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T16:02:57.891Z",
+  "updatedAt": "2026-03-18T16:04:11.361Z"
+}

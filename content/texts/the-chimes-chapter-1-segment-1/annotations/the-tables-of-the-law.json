@@ -1,0 +1,31 @@
+{
+  "id": "the-tables-of-the-law",
+  "anchorText": "the Tables of the Law",
+  "anchorStart": 2215,
+  "anchorEnd": 2236,
+  "authors": [
+    "Svenja Brank"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The *Oxford English Dictionary* defines ‘table' in the context of Ancient history as \"[a]ny of the tablets on which certain specific collections of laws were inscribed; (hence) the laws themselves\" (\"table, *n*.\" 2.b.). In this passage, the \"tables of the law\" are associated with the ten commandments which were originally inscribed on two stone tablets (\"table, *n*.\" 2.b).",
+      "worksCited": [
+        "\"table, n.\" *OED Online*, Oxford University Press, June 2021, www.oed.com/view/Entry/196785. Accessed 27 August 2021."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The \"flawed and broken\" tables of the law represent the ten commandments and criticize society's Christian values as equally \"flawed and broken\". Specifically, \"Wrong and Murder done\" (Dickens 87) and the Worship of \"false Gods\" (Dickens 87) are named in the short narrative. Christian ideals therefore form a crucial part of *The Chimes'* moral contexts. Other aspects of Christian belief become obvious when Trotty tries to avoid being indebted to Mrs. Chickenstalker as much as in the depiction of suicide as a sin.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas - Fairhurst, Oxford UP, 2008."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-04T19:08:28.501Z",
+  "updatedAt": "2026-05-04T19:10:05.696Z"
+}

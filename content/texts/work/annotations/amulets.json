@@ -1,0 +1,29 @@
+{
+  "id": "amulets",
+  "anchorText": "amulets",
+  "anchorStart": 367,
+  "anchorEnd": 374,
+  "authors": [
+    "Sandra Wetzel"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Amulets are usually jewellery \"worn about the person as a charm or preventive against evil, mischief, disease, witchcraft, etc.\" (\"amulet, *n.*\" 1.). Here, the significance of \"amulets\" is the same, however, it is used in a metaphorical sense. ",
+      "worksCited": [
+        "\"amulet, *n.*\" *OED Online*. OUP, 1989. Web. July 14, 2019."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "intratextuality",
+      "body": "The amulets are made from human tears [hyperlink to \"tears\"] by God (\"He assigns / All thy tears over, like pure crystallines, / For younger fellow-workers of the soil / To wear for amulets.\" 6-9) and bear the characteristics of \"pure crystallines\" [hyperlink to \"crystallines\"] [hyperlink to \"pure\"].",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-03T13:42:58.780Z",
+  "updatedAt": "2026-03-03T13:43:47.539Z"
+}

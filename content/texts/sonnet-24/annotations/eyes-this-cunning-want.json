@@ -1,0 +1,30 @@
+{
+  "id": "eyes-this-cunning-want",
+  "anchorText": "eyes this cunning want",
+  "anchorStart": 558,
+  "anchorEnd": 580,
+  "authors": [
+    "Natalia Christoforou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "‘Cunning' in this line can mean \"knowledge\" (*OED* 1), \"wisdom\" (2), \"skill\" (3) or \"insight\" (Duncan-Jones 158n13).",
+      "worksCited": [
+        "\"cunning, n1.\". *OED Online*, Oxford University Press, December 2018, www.oed.com/view/Entry/45864. Accessed January 2019.",
+        "Duncan-Jones, Katherine (ed.). *Shakespeare's Sonnets*. The Arden Shakespeare, Third Series (Rev. Ed.), Bloomsbury, 2010."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "intratextuality",
+      "body": "Eyes in general, or the eyes of the speaker in particular, still need or lack a specific skill or knowledge that is decisive for perfecting their art.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T15:12:11.139Z",
+  "updatedAt": "2026-03-18T15:13:13.820Z"
+}

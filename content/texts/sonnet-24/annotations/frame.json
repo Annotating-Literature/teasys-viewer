@@ -1,0 +1,33 @@
+{
+  "id": "frame",
+  "anchorText": "frame",
+  "anchorStart": 107,
+  "anchorEnd": 112,
+  "authors": [
+    "Natalia Christoforou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "In the context of painting already established from line 1, a ‘frame' can refer to the two-dimensional surrounding border of a picture (*OED* 8, giving this line as an example). Katherine Duncan-Jones suggests that it could mean the \"supportive [wooden] structure\", or a sort of \"framework, such as an easel\" whereon the picture is worked upon and displayed (158n3). However, in association with the \"body\" mentioned in the same line, ‘frame' can also point to the physical \"skeletal construct\" of a human being (Booth 173n3; cf. *OED* 4). What is more, a ‘frame' in general conveys the idea of \"a structure composed of parts joined together\" (*OED* II) and, in the seventeenth century could specifically refer to a \"building\" (†3).",
+      "worksCited": [
+        "Booth, Stephen (ed.). *Shakespeare's Sonnets*. Yale University Press, 1977.",
+        "Duncan-Jones, Katherine (ed.). *Shakespeare's Sonnets*. The Arden Shakespeare, Third Series (Rev. Ed.), Bloomsbury, 2010.",
+        "\"frame, n.\". *OED Online*, Oxford University Press, December 2018, www.oed.com/view/Entry/74151. Accessed January 2019."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Shakespeare has opted for a terminology that ingeniously fits more than one frame of reference. The word ‘frame' can be equally comprised in the semantic fields of painting and of the body, and is ambiguous in a way that one meaning cannot eliminate the other. The speaker conceptualises his body as a perimetric border or a \"supportive structure\" (Duncan-Jones 158n3) for the picture that his eye has painted and, simultaneously, as a building or a house to be inhabited by (the likeness of) the addressee. The latter image evokes the motif of envisioning the inside of the body in architectural terms (See also sonnet 146 where the body is described as a \"fading mansion\" (l. 6)) and prepares the way for the speaker's \"bosom's shop\" (l. 7). When the body is a house, the shop mentioned later on is a room therein.",
+      "worksCited": [
+        "Duncan-Jones, Katherine (ed.). *Shakespeare's Sonnets*. The Arden Shakespeare, Third Series (Rev. Ed.), Bloomsbury, 2010."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T10:48:51.714Z",
+  "updatedAt": "2026-03-18T10:50:26.805Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "rehearse",
+  "anchorText": "rehearse",
+  "anchorStart": 477,
+  "anchorEnd": 485,
+  "authors": [
+    "Heike Ortlieb"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "cf. *OED* Def. I.1.a: \"To give an account or description of; to relate, report, narrate, tell; to describe at length\" and 1.4a: \"To recite (a poem, prayer, or other piece of writing), esp. before an audience; to read alound or declaim from memory.\"",
+      "worksCited": [
+        "\"rehearse, v.\" Def. I.1.a. *OED Online*. OUP, Sept. 2016. Web. 08 Dec. 2016."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "In addition to the act of reciting or describing something, the Definitions I.4.a and b include the notion of an audience being present. It thus transcends the solitary act of reading. This is supported by \"tongue\", which refers not only to the speech organ, but also to the idea of \"Spoken as distinct from written or other communication; by tongue, by word of mouth.\" (*OED* Def. 5.) The idea of someone's existence being passed on in written verse is expanded by actively performing in front of a certain number of people.\n\n\"[R]ehearse\" makes the process of passing on the memory more active, and it thus seems more alive. It is also a clear contrast to the realm of burial and death in lines 1-8. Moreover, it breaks the previously described motif of being ‘locked up' (like the body in the tomb or the memory in verse) by including this active aspect. An important addition to the reading of \"rehearse\" can be found in Bauer and Zirker: Arguing that the process of \"reading the epitaph leads to an actual \"in-hearsing\" of the addressee in the eyes of the reader\" (28), line 11 illustrates a change from \"in-hearsing\" to \"re-hearsing\" by means of a pun.",
+      "worksCited": [
+        "Bauer, Matthias, and Angelika Zirker, \"Sites of Death as Sites of Interaction in Donne and Shakespeare.\" *Shakespeare, Donne, and the Cultural Imaginary*. Ed. Judith H. Anderson and Jennifer Vaught. New York: Fordham University Press, 2013. 17-37."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T16:37:53.008Z",
+  "updatedAt": "2026-03-18T16:39:01.338Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "formal-review-or-great-field-day",
+  "anchorText": "formal review or great field-day",
+  "anchorStart": 286,
+  "anchorEnd": 318,
+  "authors": [
+    "Lauren Fröhlich"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The term \"review\" describes \"the action or an act of looking over or inspecting\" (\"review, *n*.\" I.). The addition of the adjective \"formal\" suggests the contextual meaning of \"review\" as \"a ceremonial display and formal inspection of troops or the fleet by a monarch, commander-in-chief, or high-ranking visitor\" (\"review, *n*.\" I.1.a.).\n\nThe term \"field day\" is ambiguous and can either be understood figuratively as describing \"a day noted for remarkable or exciting events\" (\"field day, *n*.\" 1.b.), or it can also evoke military associations when seen as referring to its original meaning of \"a day on which troops are assembled for a manoeuvring exercise\" (\"field day, *n*.\" 1.a.). Since \"formal review\" refers to a military inspection, this latter meaning of \"field-day\" with its military associations readily suggests itself.",
+      "worksCited": [
+        "\"field day, *n*.\" *OED Online*, Oxford University Press, June 2020, www.oed.com/view/Entry/69928. Accessed 13 July 2020.",
+        "\"review, *n*.\" *OED Online*, Oxford University Press, June 2020, www.oed.com/view/Entry/164850. Accessed 13 July 2020."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The narrator's statement that Toby does not \"[hold] any formal review or great field-day in his thoughts\" contains two terms which strongly suggest a military meaning. Through the negation of the sentence, the phrase suggests that Toby does not evaluate this connection as commanders would examine their troops. These terms' references to military practices are, accordingly, used as a metaphor to illustrate that Toby's connection to the bells is unplanned, unconscious, and not analysed by him. Following the characterisation by the narrator that Toby was not a casuist, this phrase emphasises once more that Toby's connection to the Bells developed unconsciously rather than being something he instigated deliberately.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-05T17:26:08.237Z",
+  "updatedAt": "2026-05-05T17:27:40.553Z"
+}

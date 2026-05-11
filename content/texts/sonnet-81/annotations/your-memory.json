@@ -1,0 +1,27 @@
+{
+  "id": "your-memory",
+  "anchorText": "your memory",
+  "anchorStart": 94,
+  "anchorEnd": 105,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"Your memory\" is ambiguous here. It can either mean\n**(1)** ‘people's remembrance of you'\nor \n**(2)** ‘your own memory of something/someone (i.e. of the speaker)'.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The two meanings of \"your memory\" correspond to the first lines of the poem:\n\n(1) If the speaker survives to make the addressee's epitaph (l. 1), \"your memory\" means ‘people's remembrance of you'.\n\n(2) If the addressee survives the speaker (l. 2), \"your memory\" means ‘your own memory of something/someone (i.e. of the speaker)'. In this case, the addressee's memory of the speaker will not end with the speaker's death, because the addressee still has the poems to remind him of their writer.\n\nOnly as late as line five it becomes clear that the first meaning is the most probable (\"your name\" will be remembered).",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T15:43:34.871Z",
+  "updatedAt": "2026-03-18T15:44:44.002Z"
+}

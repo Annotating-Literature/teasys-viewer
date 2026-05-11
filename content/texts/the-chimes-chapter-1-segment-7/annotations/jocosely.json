@@ -1,0 +1,33 @@
+{
+  "id": "jocosely",
+  "anchorText": "jocosely",
+  "anchorStart": 653,
+  "anchorEnd": 661,
+  "authors": [
+    "Verena West",
+    "Marina Kirillova"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Jocosely means \"playfully, in joke\" (\"jocosely, *adv*.\"), displaying a \"playful, sportive, waggish\" (\"jocose *adj*., 1\") demeanor.",
+      "worksCited": [
+        "\"jocose, *adj*.\". *Oxford English Dictionary*, Oxford University Press, July 2023, https://doi.org/10.1093/OED/1101681507. Accessed 29  January 2024.",
+        "\"jocosely, *adv*.\". *Oxford English Dictionary*, Oxford University Press, July 2023, https://doi.org/10.1093/OED/8588913260. Accessed 5 June 2024."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "\"Jocosely\" here refers to the way the Alderman talks to Trotty and the joking manner in which he involves the red-faced gentleman in the conversation.\n\nThe word choice, however, seems ironic since Alderman Cute is not pleasantly joking with Trotty. He is using Trotty as the butt of his joke and also actually takes physical action by removing the tripe from Trotty´s hands. The fact that he tells Trotty that he stole the tripe \"out of the mouths of widows and orphans\" (Dickens 101), but then eats the tripe himself shows a certain maliciousness in his actions and intentions. He might be speaking in a playful manner, here referred to as \"jocosely\", but his intention seems to make Trotty feel inferior and guilty about the food he has access to.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhust, Oxford UP, 2008."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-05T19:51:00.373Z",
+  "updatedAt": "2026-05-05T19:52:30.739Z"
+}

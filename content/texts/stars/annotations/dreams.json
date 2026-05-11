@@ -1,0 +1,33 @@
+{
+  "id": "dreams",
+  "anchorText": "dreams",
+  "anchorStart": 359,
+  "anchorEnd": 365,
+  "authors": [
+    "Svenja Brank",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "intertextuality",
+      "body": "The notion of dreams appears in Emily Brontë’s novel *Wuthering Heights* as well: Catherine dreams of going to heaven, but discovers that, even there, she will only long for finding her way back to Wuthering Heights. She interprets her dream “as evidence that she would be miserable in heaven” and as “a warning not to marry Edgar Linton” (Gezari 32). In the novel, she tells Nelly: ”If I were in heaven, Nelly, I should be extremely miserable. (…) I dreamt once that I was there” (Brontë 57) and concludes this statement with the insight her dream offered her: “I’ve no more business to marry Edgar Linton than I have to be in heaven” (Brontë 57). While the novel takes a psychological, self-reflective approach to dreaming, the poem solely focusses on the state of dreaming itself.",
+      "worksCited": [
+        "Brontë, Emily. *Wuthering Heights*. Wordsworth Editions, 2000.",
+        "Gezari, Janet. *Last Things: Emily Brontë’s Poems*. Oxford University Press, 2010."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The way dreams are portrayed in *Wuthering Heights* takes an interest in the psychology of the person who dreamed, by exploring the content of the dreams and finding ways to interpret them. Brontë’s poem “Stars” takes a different approach to the dreams of the speaker: “*Stars* doesn’t offer the content of its speaker’s dream because the poet isn’t interested in the psychology of its speaker but in the impersonal psychological activity of dreaming” (Gezari 32). The poem only gives the reader information on what the state of dreaming feels like to the speaker, stating that she “reveled in her changeful dreams” (l. 11) (cf. [[petrel]]. To the speaker the state of dreaming feels peaceful and stimulating, as she feels connected to the stars and the night time in this state (l. 9-16). \n\nThe state of dreaming in the poem could also be linked to the notion that the stars and the speaker’s relationship resembles the relationship between a mother and her child (cf. [[i-was-at-peace-and-drank-your-beams-as-they-were-life-to-me]]). Gezari quotes psychoanalyst and writer Christopher Bollas, who believes being in the dream space can be reminiscent of being in a mother’s womb (30).",
+      "worksCited": [
+        "Gezari, Janet. *Last Things: Emily Brontë’s Poems*. Oxford University Press, 2010."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T23:41:30.895Z",
+  "updatedAt": "2026-03-20T00:36:54.737Z"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "sift-grain-from-husk",
+  "anchorText": "sift grain from husk",
+  "anchorStart": 58,
+  "anchorEnd": 78,
+  "authors": [
+    "Lauren Fröhlich"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"Sifting grain from husk\" describes the separation of the grains of wheats from their \"dry outer integument\" (\"husk, *n*.1.\" 1.a.). The grains can then be processed to make flour while the husks are useless for the consumer.",
+      "worksCited": [
+        "\"husk, *n*.1.\" *OED Online*, Oxford University Press, June 2020, www.oed.com/view/Entry/89698. Accessed 13 July 2020."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "context",
+      "body": "Will Fern states that he \"could sift grain from husk here and there,\" which implies that he worked as a thresher before he came to London, but that this was not a safe employment. \"Here and there\" further implies that he had no fixed abode. In the nineteenth century, agricultural labourers often lived in dire conditions, see here. Before the invention of the threshing machine in 1786, agricultural labourers were employed to separate the husk from the grain by hand, using a flail (cf. Macdonald 63).\n\nhttps://upload.wikimedia.org/wikipedia/commons/8/82/Dreschflegel.jpg\n\nThis work was done during the winter months after the harvest had been brought in and therefore \"gave employment at times of the year when other work may not have been available\" (Collins 22), supporting many agricultural labourers, who \"constituted the relative majority of the labor force in most English counties\" (Carprettini and Voth 6) and preventing large-scale unemployment throughout the winter. The invention of the threshing machine was, according to some historians, one of the first steps towards the industrialisation of agriculture and forced many farm labourers into unemployment during the winter months, thereby fuelling social unrest and contributing to a greater social divide (cf. Collins 16). In the course of the nineteenth century, threshing machines were developed from being powered by men or horses to being powered by wind, water, and later steam. They became more and more popular with farmers and replaced labour by hand using a flail (cf. Collins *passim*). Thus, less and less men were needed while the farmers' profit increased (cf. Collins *passim*).",
+      "worksCited": [
+        "Caprettini, Bruno, and Hans-Joachim Voth. \"Rage Against the Machines: Labour-Saving Technology and Unrest in England, 1830-32.\" *Centre for Economic Policy Research*, 2017.",
+        "Collins, E. J. T. \"The Diffusion of the Threshing Machine in Britain, 1790-1880.\" *Tools & tillage*, 1972, pp. 16-33. https://digi.ub.uni-heidelberg.de/diglit/tools_tillage1972_1975/0026. Web. 10 Feb. 2020.",
+        "MacDonald, Stuart. \"The Progress of the Early Threshing Machine.\" *Agricultural History Review*, vol. 23, no. 1, May 1975, pp. 63–77.",
+        "Schweitzer. \"Dreschflegel.\" *Wikipedia*, Dreschflegel, 4 March 2005, https://upload.wikimedia.org/wikipedia/commons/8/82/Dreschflegel.jpg. Accessed 05 February 2020."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "After the invention of the threshing machine, the increase in the unemployment rate of farm workers during the winter months led to growing frustration among labourers and resulted in social unrest. The invention of the threshing machine and the consequential unemployment is said to have been one of the main causes of the Swing Riots which started in southern England in August 1830 (cf. Caprettini and Voth *passim*, esp. 3-13). Rioters showed their frustration with the technical development by destroying threshing machines. During the riots \"over 200 [threshing machines] were destroyed in central southern England alone\" (Collins 18). But while \"[m]achine-breaking in response to technological unemployment was a key part of the riots, […] it also spilled over into other forms of unrest, such as arson, blackmail, and attacks on Poor Law administrators\" (Carprettini and Voth 3). For more information on the Swing Riots, see here.",
+      "worksCited": [
+        "Caprettini, Bruno, and Hans-Joachim Voth. \"Rage Against the Machines: Labour-Saving Technology and Unrest in England, 1830-32.\" *Centre for Economic Policy Research*, 2017. ",
+        "Collins, E. J. T. \"The Diffusion of the Threshing Machine in Britain, 1790-1880.\" *Tools & tillage*, 1972, pp. 16-33. https://digi.ub.uni-heidelberg.de/diglit/tools_tillage1972_1975/0026. Web. 10 Feb. 2020."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "Since the invention and spread of the threshing machine and the Swing riots had only quite recently passed when *The Chimes* was written, one can imagine that this statement by the financially and socially struggling character of Will Fern is supposed to remind contemporary readers of these recent developments and how these led to farm labourers no longer having stable incomes or workplaces, but instead living and working \"here and there\". The statement highlights the injustice with which agricultural labourers were treated and the struggles they had to face due to the increasing mechanisation and industrialisation. The high unemployment rate caused by the implementation of the threshing machine is one example of the effects of mechanisation and industrialisation on the working-class. In *The Chimes*, we can find frequent criticism of the idea that people's worth is dependent on their income. Like Trotty, Will Fern too thinks that he is responsible for his own \"misfortun',\" while the reader, who knows the historical context, can see that he is not at fault for his unemployment.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-07T18:14:22.383Z",
+  "updatedAt": "2026-05-07T18:17:49.796Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "alderman",
+  "anchorText": "Alderman",
+  "anchorStart": 4445,
+  "anchorEnd": 4453,
+  "authors": [
+    "Svenja Brank",
+    "Isabella Krapf"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The term alderman describes \"a member of the legislature of a municipal council or corporation\" in England (\"alderman, *n*.\" 3.). Its origin is in Anglo-Saxon England, when the word \"ealdorman\" indicated a nobleman, sometimes of royal descent, who had the power to exercise authority over a group of people (cf.\"ealdorman, *n*.\" 1.).",
+      "worksCited": [
+        "\"alderman, *n*.\" *OED Online*, Oxford University Press, June 2021, www.oed.com/view/Entry/4760 . Accessed 5 August 2021.",
+        "\"ealdorman, *n*.\" *OED Online*, Oxford University Press, June 2021, www.oed.com/view/Entry/309050 . Accessed 5 August 2021."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The narrator's introduction of the Alderman is ironic because it highlights the Alderman's self-important disposition. On the one hand, the Alderman is introduced as a \"sly\" and \"knowing\" fellow, and on the other hand he is supposedly in the hearts of poor people even though he belittles them. What we find here is an ambiguity of perception: his self-perception is juxtaposed in an ironic fashion with the perception of the narrator.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, OUP, 2008, pp. 85-162."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-05T18:03:39.667Z",
+  "updatedAt": "2026-05-05T18:04:57.991Z"
+}

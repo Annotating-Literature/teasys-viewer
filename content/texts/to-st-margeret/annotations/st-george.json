@@ -1,0 +1,24 @@
+{
+  "id": "st-george",
+  "anchorText": "St George",
+  "anchorStart": 59,
+  "anchorEnd": 68,
+  "authors": [
+    "Amina Gall"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "Like the titular St Margaret and the archangel Michael, St George is considered a dragon slayer. According to the *Legenda Aurea*, he killed a dragon that was terrorising the city of Silena. As a condition for his help against the dragon, he told the people of Silena to believe in Christ and be baptised, which led to \"twenty thousand [being] baptized, not counting the women and children\" (204). The *Legenda Aurea* also chronicles his death as a martyr in Lydda during the reign of Diocletian and Maximilian (cf. Farmer 181).",
+      "worksCited": [
+        "de Voragine, Jacobus, et al. *The Golden Legend: Readings on the Saints*. Princeton University Press, 2012. ",
+        "Farmer, David. \"George\". *Oxford Dictionary of Saints*, 5th ed., Oxford University Press, 2011, pp. 181-182."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T08:37:14.041Z",
+  "updatedAt": "2026-03-17T08:38:24.293Z"
+}

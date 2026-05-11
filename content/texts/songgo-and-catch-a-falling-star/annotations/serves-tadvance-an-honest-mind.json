@@ -1,0 +1,19 @@
+{
+  "id": "serves-tadvance-an-honest-mind",
+  "anchorText": "Serves t’advance an honest mind.",
+  "anchorStart": 224,
+  "anchorEnd": 256,
+  "authors": [],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The phrase \"serves to advance an honest mind\" is ambiguous: A possible reading could be that the lyrical I is looking for something that gives honest people an advantage. A different reading suggests that the reader is asking about something that encourages people to be more honest.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:08:47.482Z",
+  "updatedAt": "2026-03-16T23:09:56.212Z"
+}

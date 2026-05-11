@@ -1,0 +1,27 @@
+{
+  "id": "till-age-snow-white-hairs-on-thee",
+  "anchorText": "Till age snow white hairs on thee",
+  "anchorStart": 358,
+  "anchorEnd": 391,
+  "authors": [],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"The objective case of the pronoun thou, representing the Old English accusative and dative.\"",
+      "worksCited": [
+        "Weiner, E. S. C., and J. A. Simpson. *The Oxford English Dictionary*. 2nd ed. Oxford: Clarendon, \t1989. Print."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "intratextuality",
+      "body": "Referring to the line above (Line 12) \"Ride ten thousand days and night\" is another statement to point out that it takes a lifetime to find someone who is \"true and fair\" - namely until one's hair is white like that of an old person.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:17:02.216Z",
+  "updatedAt": "2026-03-16T23:17:36.862Z"
+}

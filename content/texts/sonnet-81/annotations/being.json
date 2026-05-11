@@ -1,0 +1,35 @@
+{
+  "id": "being",
+  "anchorText": "being",
+  "anchorStart": 465,
+  "anchorEnd": 470,
+  "authors": [
+    "Heike Ortlieb"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The noun here means \"existence\" (Def. 2.) or \"life\" (Def. 2c.).",
+      "worksCited": [
+        "\"being, n.\" Def. 2. *OED Online*. OUP, Sept. 2016. Web. 08 Dec. 2016."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "In addition to the material, physical existence (cf. Def. 2a, 2c), \"being\" can also mean the \"existence viewed as a property possessed by anything; substance, constitution, nature\" (Def. 3a.). Thus, \"existence\" is not meant merely physical, but also has a more spiritual dimension.",
+      "worksCited": []
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "\"to be\" and \"being\": The play with different forms of \"to be\" emphasizes the aspect of ‘life': Instead of referring to death and burial as he did in the previous part of the sonnet, Shakespeare now creates a strong impression of someone ‘being' alive, focusing on living creatures. As \"being\" syntactically and logically ‘belongs' to his contemporary addressee, and \"to be\" refers to future generations, the idea of life being expanded over time and generations is evoked.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T16:39:09.939Z",
+  "updatedAt": "2026-03-18T16:40:00.461Z"
+}

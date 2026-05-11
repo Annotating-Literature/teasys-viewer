@@ -1,0 +1,47 @@
+{
+  "id": "blood-dimmed-tide",
+  "anchorText": "blood-dimmed tide",
+  "anchorStart": 171,
+  "anchorEnd": 188,
+  "authors": [
+    "Irina Savić",
+    "Ilea Rahn"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "In earlier manuscripts, “blood-dimmed tide” was “‘the blood stained flood”’ [NLI 13,588 (14), 4r] (Yeats 155). The tide that is loosened is made dim with blood.",
+      "worksCited": [
+        "Yeats, W. B. *Michael Robartes and the Dancer: Manuscript Materials*. Edited by Thomas Francis Parkinson and Anne Brannen, Cornell University Press, 1994."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The change from stained to dimmed points to a dark future of the world as the meaning of dimmed is “rendered dim” (“Dimmed, *Adj*.”).\n\n“Blood-dimmed tide” refers to the forces of death and destruction that are unleashed at the end of an era ( see [[the-second-coming]]). As the era is coming to an end the forces are growing stronger (Ellmann 258-59).\nThe noun “tide” evokes the feeling of overwhelming power, a natural force of destruction. This force is so strong that it will overwhelm the world, and the chaos and destruction that ensue cannot be stopped anymore.",
+      "worksCited": [
+        "“Dimmed, *Adj*.” *Oxford English Dictionary*, Oxford UP, June 2025, doi.org/10.1093/OED/2798170032. 26.09.2025.",
+        "Ellmann, Richard. *The Identity of Yeats by Richard Ellmann*. Farber and Farber, 1983."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "This phrase, in addition, refers to the contemporary world situation – more specifically WWI, the rising forces of fascism, and the Russian Revolution. The latter had a major impact on Yeats, particularly the brutal massacre of the Romanov family. In this context, the tide can also be read as representing the revolutionaries, the Bolsheviks (Ellmann 257-58).",
+      "worksCited": [
+        "Ellmann, Richard. *The Identity of Yeats by Richard Ellmann*. Faber and Faber, 1983."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "intertextuality",
+      "body": "Yeats uses a similar expression in his later poem “The Gyres”: “Irrational streams of blood are staining earth” (line 5), similarly indicating the chaos and destruction of the world.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-03T15:27:45.249Z",
+  "updatedAt": "2026-04-15T15:24:44.570Z"
+}

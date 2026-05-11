@@ -1,0 +1,36 @@
+{
+  "id": "i-was-at-peace",
+  "anchorText": "I was at peace",
+  "anchorStart": 266,
+  "anchorEnd": 280,
+  "authors": [
+    "Svenja Brank",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "These lines of the poem constitute a metaphor: the speaker drinks the beams of the stars and experiences them as nurturing, which evokes the image of a mother breastfeeding her child.\nAdditionally, the syntax of the lines adds a level of ambiguity. The “as” can be read as (1) ’because’ or as (2) an ellipsis (as ‘if’). The first one reading creates a causal link between the two phrases and the second reading is a simile. ",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "These lines refer to the speaker’s state of mind during the night-time, who experiences a feeling of peacefulness and serenity. The idea that the stars give nourishment to the speaker attributes them with a certain femininity. Janet Gezari compares the intimate relationship the speaker shares with the stars to the relationship between a mother and a child, by pointing to this “sensory exchange that evokes nursing” (30). The metaphor thus further describes the relationship between the speaker and the stars.",
+      "worksCited": [
+        "Gezari, Janet. *Last Things: Emily Bronte’s Poems*. Oxford University Press, 2010."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "intratextuality",
+      "body": "This intimate and sensory relationship between the speaker and the stars also becomes visible in the second stanza of the poem.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-19T10:06:32.696Z",
+  "updatedAt": "2026-03-20T00:37:04.307Z"
+}

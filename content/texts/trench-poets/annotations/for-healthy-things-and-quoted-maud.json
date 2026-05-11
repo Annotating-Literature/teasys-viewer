@@ -1,0 +1,48 @@
+{
+  "id": "for-healthy-things-and-quoted-maud",
+  "anchorText": "for healthy things and quoted Maud",
+  "anchorStart": 701,
+  "anchorEnd": 735,
+  "authors": [
+    "Mirjam Haas",
+    "Steffi Hörz",
+    "Miriam Lahrsow",
+    "Christina Tauber"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "Since madness is a prominent theme in Alfred Tennyson's [[maud]], \"healthy things\" (if read as mental health) and the reference to \"Maud\" become an oxymoron.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "intertextuality",
+      "body": "By mentioning the poem *Maud*, the speaker in \"Trench Poets,\" a soldier trying to cope with his comrade dying, establishes a connection to another soldier: the psychologically instable narrator of Maud who, at the end of the poem, joins the army to fight in the Crimean War.\n\nThe speaker of *Maud* esteems war higher than peace. In his view, people have made \"the blessings of Peace [. . .] a curse\" by fighting each other in secret (1.1.6). To him, open war seems more honest.\n\nWhen the speaker decides to go to war, he gives several reasons for his decision: He claims that he will fight against an \"iron tyranny\" (3.2), and he is convinced that the war is God's will (cf. 3.4; 3.5). Furthermore, Maud's propagandistic song made him feel ashamed of his not being a warrior (cf. 1.4.1). For him, the war also proves that his people \"are noble still\" (3.5).",
+      "worksCited": [
+        "Tennyson, Alfred. \"Maud: A Monodrama.\" *In Memoriam, Maud and Other Poems*. Ed. John D. Jump. London: Dent, 1974. 156-88. Print."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "intertextuality",
+      "body": "In Level 1, the theme of madness in both *Maud* and \"Trench Poets\" is mentioned. With regard to \"Trench Poets,\" one could argue that the speaker lost his mind in war, because he does not realise that he is talking to a dead man throughout the whole poem. The speaker of *Maud*, however, could be said to recover his sanity by going to war. For example, while the speaker of *Maud* scorns others at the beginning of the poem, he feels that he is \"one with [his] kind\" when he goes to war (3.5). Thus, the war for him means reconciliation with his fellow people, while for the speaker of \"Trench Poets\" it means losing his sanity.",
+      "worksCited": []
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "The speaker's assertion in quoting *Maud* for \"healthy things\" is most likely ironic. While the war proves to be a sort of remedy for the speaker in *Maud*, the [[chum]] (Rickword 1) in \"Trench Poets\" is not \"recovering\" with the war, but is actually dying in - and from - it. The sanity of the speaker of \"Trench Poets\" seems to be questionable, too. After all, he tries to \"rouse\" (6) his dead friend, not minding his being \"stiff and senseless as a post\" (10), and talks to him as if he were still alive (14). The term \"healthy\" is also ironic with respect to the high number of casualties in the First World War. In total, the Great War cost the lives of around 17 million soldiers as well as civilians. Of the 700,000 men fighting for Great Britain, 11.5 % died. A high number of those who survived were bodily or psychically maimed (cf. Winter 73).\n\nHowever, it is also possible that the line is not ironic: The speaker of \"Trench Poets\" could also try to console his comrade by quoting Maud: The narrator in Maud claims that God decides who dies in war, thus, the quotes could convince the speaker's comrade that his death was predestined by God and serves a higher purpose.",
+      "worksCited": [
+        "Rickword, Edgell. \"Trench Poets.\" *The New Oxford Book of War Poetry*. Ed. Jon Stallworthy. Oxford: OUP, 2014. 223. Print.",
+        "Tennyson, Alfred. \"Maud: A Monodrama.\" *In Memoriam, Maud and Other Poems*. Ed. John D. Jump. London: Dent, 1974. 156-88. Print.",
+        "Winter, J. M. *The Great War and the British People*. Basingstoke: Macmillan, 1987. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:28:48.998Z",
+  "updatedAt": "2026-03-18T19:35:31.590Z"
+}

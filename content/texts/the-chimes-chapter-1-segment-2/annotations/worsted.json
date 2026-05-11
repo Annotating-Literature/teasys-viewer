@@ -1,0 +1,24 @@
+{
+  "id": "worsted",
+  "anchorText": "worsted",
+  "anchorStart": 4466,
+  "anchorEnd": 4473,
+  "authors": [
+    "Sandra Wetzel",
+    "Mona El Menschawi"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The word *worsted* describes \"a fine, smooth fabric made from closely-twisted yarn spun of long-staple wool combined to lay the fibres parallel\" (\"mufflers\", *n*. 1. a).",
+      "worksCited": [
+        "\"Worsted, *n*. 1. a\", *OED Online*, Oxford University Press, October 2020. https://www.oed.com/view/Entry/230367?rskey=QGVv2K&result=2&isAdvanced=false#eid. Accessed 1 October 2020."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-04T19:53:21.171Z",
+  "updatedAt": "2026-05-04T19:58:07.364Z"
+}

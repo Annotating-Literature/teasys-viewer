@@ -1,0 +1,23 @@
+{
+  "id": "hence",
+  "anchorText": "hence",
+  "anchorStart": 518,
+  "anchorEnd": 523,
+  "authors": [
+    "Bela Metz"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"hence\": adv., archaic: from here; from this place.\n\nParaphrase: \"Must business thee from here remove\"",
+      "worksCited": [
+        "\"hence.\" *The Concise Oxford Dictionary, 18th Edition*. Ed. R.E. Allen. Oxford: Clarendon Press, 1990."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T08:19:04.540Z",
+  "updatedAt": "2026-03-17T08:19:30.668Z"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "a-perfectly-voracious-little-shop",
+  "anchorText": "a perfectly voracious little shop",
+  "anchorStart": 1861,
+  "anchorEnd": 1894,
+  "authors": [
+    "Miriam Herberger",
+    "Marina Kirillova"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "In its common usage the adjective voracious refers to animals \"eating with greediness\" or \"devouring food in large quantities\" (\"voracious, *adj*.\" 1.). These characteristics are partially transferred when voracious is used figuratively to describe persons as being \"excessively greedy or eager in some desire or pursuit\" (\"voracious, *adj*.\" 1.).",
+      "worksCited": [
+        "\"voracious, *adj*.\" *OED Online*, Oxford University Press, July 2023, https://doi.org/10.1093/OED/8198541295. Accessed 15 January 2024."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "form",
+      "body": "The phrase \"a little shop\" is foregrounded through anaphora and then characterized as being \"perfectly voracious\" in the second instance of that phrase (Dickens 144). This personification of the little shop as greedy and predatory is reinforced by the simile in the following clause \"a maw as accommodating and full as any shark's\" that further likens the shop to a feeding shark (see [[a-maw-as-accommodating-and-full-as-any-shark-s]], Level 1 – Context).",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, Oxford University Press, 2006."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The little shop itself is described as \"greedy\" and \"voracious,\" a characterization that is underscored by the simile \"with a maw as accommodating and full as any shark's\" (Dickens 144). Both the marine and the predatory motifs are continued in the following sentence when the little shop's stock is described as \"fish that came to the net of this greedy little shop, and all articles were in its net\" (Dickens 144). The repetitions of the phrase \"a little shop\" in close spatial proximity to the imagery of the net full of fish, and especially the shark and its metaphorical meaning of \"swindler\" or \"extortioner\" (\"shark\") conveys the idea of the shop as a commercial place intended only to make as much profit as possible (see [[a-maw-as-accommodating-and-full-as-any-shark-s]], Level 1 – Context]).",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, Oxford University Press, 2006.",
+        "\"shark.\" *Thesaurus of Traditional English Metaphors*. Edited by P. R. Wilkinson, 2nd ed., Routledge, 2002."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "The personification of the little shop as a place of insatiable commercialism can be transferred to the characterization of its new owner Mr. Tugby, who acquired this ownership by marrying the widowed Mrs. Chickenstalker. By transferring the qualities of the shop to its owner, a kind of metonymy between the two is created. Mr. Tugby's voraciousness is, thus, mirrored in the physical appearance of himself and the little shop. The little shop is described as being \"quite crammed and choked with the abundance of its stock\" (144). Similarly, Mr. Tugby is heavily overweight with a \"short thick throat and labouring chest\" (145), \"fat legs\" (146), and \"eyes […] sinking deeper and deeper into the yielding fat of the soft face\" (145).\n\nMr. Tugby's overindulgence in food and resulting appearance is in stark contrast to the privations of his customers, among them Meg. But as Toby's observations about Mr. Tugby's cold-hearted behavior – he turns Meg and her baby out on the streets in the middle of a cold night because she cannot pay her rent – shows that Mr. Tugby is only interested in making enough of a profit for himself and does not care for the misery and hardships of others. This characterization of Mr. Tugby as a greedy and self-serving capitalist is reinforced by the use of the simile \"with a maw as accommodating and full as any shark's\" that likens Mr. Tugby to a predatory beast of prey by describing his little shop as such a beast (see [[a-maw-as-accommodating-and-full-as-any-shark-s]], Level 2 – Interpretation]).",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, Oxford University Press, 2006."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-09T09:29:23.754Z",
+  "updatedAt": "2026-05-09T09:38:26.265Z"
+}

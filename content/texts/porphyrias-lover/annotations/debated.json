@@ -1,0 +1,41 @@
+{
+  "id": "debated",
+  "anchorText": "debated",
+  "anchorStart": 1423,
+  "anchorEnd": 1430,
+  "authors": [
+    "Hailin Wang",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The term “debate” is defined as “to discuss or consider (with oneself or in one’s own mind), deliberate upon” (“debate, *n*” 5). ",
+      "worksCited": [
+        "\"debate, *v*.1\" *OED Online*, Oxford University Press, March 2023, www.oed.com/view/Entry/47842. Accessed 4 April 2023."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "As its definition suggests, to “debate” is to deliberate on something. The word “debate” implies there are two or more possible perspectives that are to be explored and evaluated. The term, hence, sheds light on the psychological state of the speaker, that is, he is not frantic nor impulsive at the moment. The word indicates the analytical and calculating nature of the speaker’s action, and his overall rational and cold demeanour makes the crime he commits even more surprising. A possible motivation which can be observed in the first 5 lines that employ pathetic fallacy to mirror the mental state of the speaker (cf. Level 2 Interpretation [[the-sullen-wind-was-soon-awake]]), and when in line 15 the speaker refuses to answer Porphyria’s call. The standard reading of the speaker being an impulsive madman “who would kill out of a perverted love” is adapted to apply to a calculating murderer (Crowder 145). In the end, he awaits the divine judgement for his actions “And yet God has not said a word!”. This implies that the speaker considers himself as “above the law of man” (Crowder 146) because he takes God’s lack of intervention as an act of permission to kill Porphyria.",
+      "worksCited": [
+        "Browning, Robert. “Porphyria’s Lover.” *Poetry Foundation*, www.poetryfoundation.org/poems/46313/porphyrias-lover. Accessed 2 March 2021.",
+        "Crowder, Ashby Bland. “‘Porphyria’s Lover’: A Reason for Action.” *The South Central Bulletin*, vol. 37, no. 4, 1977, pp. 145–46. *JSTOR*, doi.org/10.2307/3186918. Accessed 4 Apr. 2023."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "Michael Mason traces the sources on which Robert Browning bases his poem (Mason 255), namely, an article in Blackwoods by John Wilson, “Extracts from Gosschen’s Diary” (1818) (cf. Level 1 Context [[porphyrias-lover]]), and Bryan Procter’s poem “Marcian Colonna” (1820). Upon close examination, “the uncontrolled passion and the lack of rationality” are not present in Browning’s “Porphyria’s Lover” (Crowder 146). Mason makes a pithy summation of the speaker’s personality: “the murderer is … an anti-lunatic, an illustration of how an act conventionally referable to insanity might be the act of a rational being” (257).  The implications of rationality made by the term “debate” stress this discrepancy between the speaker’s actions, outside of the typical behavioural pattern and his reasoning.",
+      "worksCited": [
+        "Mason, Michael. “Browning and the Dramatic Monologue.” *Robert Browning*. Ed. Isobel Armstrong. Ohio University Press, 1975, pp. 231-66."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-19T11:06:17.578Z",
+  "updatedAt": "2026-03-20T00:35:38.782Z"
+}

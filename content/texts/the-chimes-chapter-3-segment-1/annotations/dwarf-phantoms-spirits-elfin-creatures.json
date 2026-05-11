@@ -1,0 +1,53 @@
+{
+  "id": "dwarf-phantoms-spirits-elfin-creatures",
+  "anchorText": "dwarf phantoms, spirits, elfin creatures",
+  "anchorStart": 1252,
+  "anchorEnd": 1292,
+  "authors": [
+    "Svenja Brank",
+    "Diana Nowicki"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "This enumeration describes different kinds of supernatural creatures:\n\n**\"Dwarf\"** could be meant either as an adjective or a noun in this sentence. As an adjective it describes something \"of unusually small stature or size\" (\"dwarf, n. and adj.\" B.1.a), as a noun \"one of a supposed race of diminuitive beings, who figure in Teutonic and esp. Scandinavian mythology and folklore\" (\"dwarf, n. and adj.\" A.1.b).\n\nA **phantom** is \"a thing (usually with human form) that appears to the sight or other sense, but has no material substance\" (\"phantom, n. and adj.\" A.2.a).\n\nA **spirit** is \"an incorporeal, supernatural, rational being, of a type usually regarded as imperceptible to humans but capable of becoming visible at will, and frequently […] conceived as terrifying, troublesome, or hostile to mankind\" (\"spirit, n.\" II.10.a).\n\nThe adjective **\"elfin\"** means \"pertaining to elves; of elfish nature or origin\" (\"elfin, adj. and n.\" A.1). In Old English, *aelf* was used as a general term for a fairy (Simpson and Roud 109). It was later replaced by the term *fairy*, originating from the French, but in literature *elf* and *fairy* were still often used interchangeably (Simpson and Roud 109).",
+      "worksCited": [
+        "\"dwarf, n. and adj.\" *OED Online*, Oxford University Press, September 2020, www.oed.com/view/Entry/58751. Accessed 8 December 2020.",
+        "\"elfin, adj. and n.\" *OED Online*, Oxford University Press, September 2020, www.oed.com/view/Entry/60437. Accessed 8 December 2020.",
+        "\"phantom, n. and adj.\" *OED Online*, Oxford University Press, September 2020, www.oed.com/view/Entry/142204. Accessed 8 December 2020.",
+        "\"spirit, n.\" *OED Online*, Oxford University Press, September 2020, www.oed.com/view/Entry/186867. Accessed 8 December 2020.",
+        "Simpson, Jacqueline, and Stephen Roud. \"elves.\" *A Dictionary of English Folklore*. Oxford University Press, 2000, p. 109."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "Elves and fairies are ambiguous figures and can be regarded as both helpful and harmful: they were, among other things, known to give prosperity or skills to humans (Simpson and Roud 115) but also to cause illnesses or tangle humans' hair while they were sleeping (Simpson and Roud 109). Fairies are also imagined to have a variety of magical powers, shapes and other supernatural characteristics: they \"could be visible or invisible at will, and could change shape; some lived underground, others in woods, or in water; some flew\" (Simpson and Roud 115). According to folklore, some fairies live in larger social contexts and pursue activities such as dancing and feasting, others live solitary, sometimes attaching themselves to a certain location, such as a human household (Simpson and Roud 115).\n\nFor more information on spirit-like visitations in 19th century literature, see [[goblin]] (Level 2 Context).",
+      "worksCited": [
+        "Simpson, Jacqueline, and Stephen Roud. \"elves.\" *A Dictionary of English Folklore*. Oxford University Press, 2000, p. 109.",
+        "Simpson, Jacqueline, and Stephen Roud. \"fairies.\" *A Dictionary of English Folklore*. Oxford University Press, 2000, pp. 115-116."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "intratextuality",
+      "body": "The scene with its motion and chaos creates a visual contrast to the appearance of the goblins of the Bells that immediately follows: These, unlike the variety of creatures before, are \"motionless and shadowy\" (Dickens 127).",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*. Ed. Robert Douglas-Fairhurst. Oxford University Press, 2008, pp. 85-162."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "The main effect of naming this broad variety of beings is to produce an image of confusion. The text does not assign the creatures to one fixed category of nightly spirits; instead the description \"dwarf phantoms, spirits, elfin creatures\" (Dickens 125) remains vague and encompasses a variety and mix of creatures. This also goes with the following paragraphs, where the creatures are described to be of many different shapes and forms, and to pursue different activities such as singing and tearing their own hair. Thus, the creatures can do good as well as evil for humans, showing opposites in their behaviour.\n\nThere might be two possible reasons for depicting the variety of creatures in such a vague fashion: It could be that Trotty, witnessing these creatures around him, does simply not know better, as he is not familiar with the supernatural and thus cannot find the specific names to describe what he sees. On the other hand, these might be creatures that are unique to the setting of \"The Chimes,\" and they are not named further so as to not potentially bring them into connection with any other stories or beliefs about supernatural beings. Whether the creatures do exist in the fictional world of \"The Chimes\" or are merely products of Toby's mind remains unclear.\n\nAdditionally, through the use of the more archaic term \"elfin\" instead of \"fairy\" and the extensive description of the variety of creatures, Dickens creates a dream-like and whimsical atmosphere in this passage that marks a crossing from Trotty's actual world into an imagined world.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*. Ed. Robert Douglas-Fairhurst. Oxford University Press, 2008, pp. 85-162."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-08T15:10:59.229Z",
+  "updatedAt": "2026-05-08T15:16:50.829Z"
+}

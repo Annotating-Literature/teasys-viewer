@@ -1,0 +1,43 @@
+{
+  "id": "deedles-the-banker",
+  "anchorText": "Deedles, the banker",
+  "anchorStart": 906,
+  "anchorEnd": 925,
+  "authors": [
+    "Marina Kirillova",
+    "Abdulkadir Sen"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The name of the banker may derive from the word deedle, which in turn is a variant or alteration of the word devil (\"deedle, *n*.1\").",
+      "worksCited": [
+        "\"deedle, *n*.\" *OED Online*, Oxford University Press, September 2023, www.oed.com/dictionary/deedle_n?tab=etymology. Accessed 16 January 2024.",
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, OUP, 2008, pp. 85-162."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Beginning with the nineteenth century, which also saw the rise of capitalism and the monetization of global economy, bankers became the new \"aristocracy of the City\" (cf. Cassis 229). Not land or blood alone but also the accumulation of capital became a major class marker. In that way bankers became part of the larger bourgeoisie. Legal regulations on private property and inheritance ensured that this earned capital stayed within this certain class. Intermarriage between banker families and the old landed gentry also intensified this shift in class structure. The lower class was the working class who had to labour for long hours in order to make the factories of the bourgeoisie work. Thus, bankers, as representatives of this class were the thorns in the side (or devils as in this case) of the workig class and in that way naming the banker as \"Deedles\" cannot come as a coincidence. It is rather a critique by Dickens on the social stratification and inequality in Victorian society.",
+      "worksCited": [
+        "Cassis, Y. \"Bankers in English Society in the Late Nineteenth Century.\" *The Economic History Review*, vol. 38, no. 2, 1985, pp. 210–29. *JSTOR*, https://doi.org/10.2307/2597144.",
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, OUP, 2008, pp. 85-162."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "questions",
+      "body": "Dickens's novel *Little Dorrit*, published in the years 1855 to 1857, comes nearly 10 years after \"The Chimes\", published in 1844. In *Little Dorrit*, Dickens presents the character Merdle – a banker whose name not only echoes the earlier character's but also evokes similarly negative connotations. Merdle, a variant of the word *mardle*, is a borrowing of the French word *merdaille *which in turn originates from the word *merde*, meaning dung or excrement (\"mardle, *n*.\"). Considering the two consecutive negative connotations of banker names in Dickens's novels, this leaves the question of whether Merdle in *Little Dorrit* is based on the earlier Deedle.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, OUP, 2008, pp. 85-162.",
+        "\"Mardle, *n*.\" *OED Online*, Oxford University Press, July 2023, https://doi.org/10.1093/OED/8825954835. 22 February 2024."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-07T14:36:10.800Z",
+  "updatedAt": "2026-05-07T14:40:01.963Z"
+}

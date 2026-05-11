@@ -1,0 +1,33 @@
+{
+  "id": "true",
+  "anchorText": "true",
+  "anchorStart": 513,
+  "anchorEnd": 517,
+  "authors": [],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"Loyal or faithful\" *(OED)*.",
+      "worksCited": [
+        "Weiner, E. S. C., and J. A. Simpson. *The Oxford English Dictionary*. 2nd ed. Oxford: Clarendon, \t1989. Print."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "language",
+      "body": "True in the sense of \"not lying\".",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "The ambiguity between true in the sense of \"not lying\" vs true in the sense of \"loyal or faithful\" was a common field to be explored by early modern poetry (cf. Shakespeare's SON 138)",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:05:03.717Z",
+  "updatedAt": "2026-03-16T23:06:16.418Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "thought-followed-thought",
+  "anchorText": "Thought followed thought",
+  "anchorStart": 396,
+  "anchorEnd": 420,
+  "authors": [
+    "Svenja Brank",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "The line comprises a parallelism, meaning two clauses that correspond to each other in sense or construction (“parallelism, *n*.” 3.). In this line the parallelism establishes a direct comparison between the speaker’s thoughts and the stars. Like the stars, their thoughts appear one by one.",
+      "worksCited": [
+        "\"parallelism, *n*.\"*OED Online*, Oxford University Press, September 2021, www.oed.com/view/Entry/137469. Accessed 23 November 2021."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The line specifies the connection between the speaker’s thoughts and the stars, and thereby emphasizes the connection between them. During the night-time the speaker escapes into an imaginative space, where she feels at peace and able to dwell in her dreams and experience inspiration (cf. Level 2 Interpretation [[divine]]). The parallelism illustrates that the freedom the speaker feels in letting her thoughts expand and roam freely emerges simultaneously with the stars.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-19T10:43:54.649Z",
+  "updatedAt": "2026-03-20T00:37:22.861Z"
+}

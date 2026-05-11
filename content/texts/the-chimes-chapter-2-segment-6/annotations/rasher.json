@@ -1,0 +1,43 @@
+{
+  "id": "rasher",
+  "anchorText": "rasher",
+  "anchorStart": 3544,
+  "anchorEnd": 3550,
+  "authors": [
+    "Lauren Fröhlich"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "A \"rasher\" is a \"thin slice or strip of bacon, or (less commonly) of other meat, intended to be cooked by grilling, broiling, or frying\" (\"rasher, *n*.1.\" 1.a.). The word probably originated from the now obsolete verb \"rash\", which meant \"to cut, to slash\" (\"rash, *v*.3.\" 1.).",
+      "worksCited": [
+        "\"rash, *v*.3.\" *OED Online*, Oxford University Press, June 2020, www.oed.com/view/Entry/158318. Accessed 13 July 2020.",
+        "\"rasher, *n*.1.\" *OED Online*, Oxford University Press, June 2020, www.oed.com/view/Entry/158321. Accessed 13 July 2020."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Dickens used the word \"rasher\" quite frequently. It also appears in *The Seven Poor Travellers* (\"and sometimes one buys a rasher of bacon\" (*The Seven Poor Travellers* 7)), as well as in *Barnaby Rudge* (\"a few savoury trifles in the shape of great rashers of broiled ham\" (*Barnaby Rudge* 165)), in *David Copperfield* (\"I sat down to my brown loaf, my egg, and my rasher of bacon\" (*David Copperfield* 55)), and in *Bleak House* (\"the broiling of a rasher of bacon at the fire in the rusty grate\" (*Bleak House* 313)). That Toby and Meg can afford rashers might suggest that this was a food consumed mainly by the lower classes. However, this does not seem to be the case. Although working-class people could afford rashers, they were also consumed by other classes. This is suggested by the works of Dickens mentioned above, in which characters with different class backgrounds are shown to be eating rashers. The usage of the word in the different works also suggests that rashers were not eaten for specific meals but could be served at any time of the day.\n\nRashers of bacon were a type of meat also (although not solely) affordable for and consumed by the working classes in Dickens's time. This is suggested by the fact that *A Plain Cookery Book for the Working Classes* by Charles Elme Francatelli from 1852 contains a recipe for \"Fried Eggs and Bacon\" (cf. Francatelli 60). *The Book of Household Management* by Isabelle Beeton from 1861 also contains a recipe for \"Fried Rashers of Bacon and Poached Eggs\" (cf. Beeton paragraph 802).",
+      "worksCited": [
+        "Beeton, Isabelle Mary. *The Book of Household Management*. S.O. Beeton, London, 1861.",
+        "Dickens, Charles. *Barnaby Rudge. A Tale of the Riots of Eighty*. Oxford University Press, 1954.",
+        "Dickens, Charles. *Bleak House*. Hertfordshire: Wordsworth Classics, 1993. ",
+        "Dickens, Charles. *The Personal History of David Copperfield*. London: Bradbury & Evans, 1850. ",
+        "Dickens, Charles. *The Seven Poor Travellers, in Three Chapters*. The Floating Press, 2010.",
+        "Francatelli, Charles Elme. *A Plain Cookery Book for the Working Classes*. Routledge, Warne & Co, London, 1852."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "When Toby covertly sends Meg to buy rashers for Will Fern and Lilian and then pretends not to like bacon anyway and to be glad to have found someone who will eat it, he shows great kindness towards Will and Lilian and tries to prevent them from feeling guilty about the expenses they cause him. Although rashers were affordable, they were not solely working-class food. Toby's serving them to Will and Lilian and declining them himself is, thus, a very generous gesture. The rashers in this passage serve to highlight Toby's selfless and kind character and underline one of the book's main moral principles, i.e. that everyone can be good no matter their social or financial background.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-08T09:31:32.376Z",
+  "updatedAt": "2026-05-08T09:35:14.397Z"
+}

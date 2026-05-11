@@ -1,0 +1,31 @@
+{
+  "id": "heat",
+  "anchorText": "heat",
+  "anchorStart": 101,
+  "anchorEnd": 105,
+  "authors": [
+    "Sara Rogalski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Additionally to the most widespread definition of \"heat \" (\"heat, *n.*\" 1.a.)., the OED also suggests \"[t]he intense or violent stage of any action; greatest vehemence or intensity; height, stress (e.g. of conflict, debate, etc.)\" (\"heat, *n.*\" 12.a.).",
+      "worksCited": [
+        "\"heat, *n.*\" *OED Online*. Oxford UP, 1989. Web. June 18, 2019."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Heat can be seen as an additional burden when working manually outside in the fields or the vineyards and, thus, might be considered another reason for quitting work. This is also taken up in Matthew 20:12: \"Saying, These last have wrought but one hour, and thou hast made them equal unto us, which have borne the burden and heat of the day\" (*King James Version*). The parable, however, makes clear that heat or any other complication of work, such as duration, do not affect the wage because each worker is payed equally.",
+      "worksCited": [
+        "*King James Version*. Bible Gateway, https://www.biblegateway.com/passage/?search=Matthew+20%3A12&version=KJV. Accessed 19. Jul. 2019."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-03T13:26:24.890Z",
+  "updatedAt": "2026-03-15T18:25:12.414Z"
+}

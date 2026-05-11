@@ -1,0 +1,35 @@
+{
+  "id": "stalwart-oaken",
+  "anchorText": "stalwart oaken",
+  "anchorStart": 868,
+  "anchorEnd": 882,
+  "authors": [
+    "Verena West",
+    "Marina Kirillova"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "\"Stalwart\" and \"oaken\" both attribute characteristics of strength, thus creating a pleonasm to foreground the church building´s sturdiness. While \"stalwart\", when used to refer to a person, ascribes characteristics such as strong determination, resolution and strength (\"stalwart, *adj*. & *n*.\" 1. & 3a), \"oaken\" when used in a figurative way, describes something as \"consisting of or characterized by oak trees\" (\"oaken, *adj*.\" Sense 3.\"), further evoking connotations of strength. Oak trees were seen as particularly large and sturdy and were therefore commonly used for building structures (Ferber 142f).",
+      "worksCited": [
+        "Ferber, Michael. \"Oak\". *A Dictionary of Literary Symbols*. Cambridge University Press, 2017. pp.142-143. *EBSCOhost*, search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=120164&site=ehost-live. Accessed 26 November 2023.",
+        "\"oaken, *adj*.\". *Oxford English Dictionary*, Oxford UP, July 2023, https://doi.org/10.1093/OED/4388980106.",
+        "\"stalwart, *adj*. & *n*.\". *Oxford English Dictionary*, Oxford University Press, July 2023, https://doi.org/10.1093/OED/1228315891>. Accessed 26 November 2023."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The passage describes the interior of the church, particularly its scaffolding. The mentioned frames carry a connotation of strength based on their solid quality and role as a supportive structure. Described as \"stalwart\", their associated qualities of strength further reinforce the sturdy nature of the church building and, hence, the structure supporting the bells. This characterization is furthermore supported by \"oaken\", affirming the strength of the church building containing the Chimes. Oak trees were known \"[a]s the largest and strongest of common European trees\" (Ferber 142) and were a favored source of wood for the production of scaffolding (143). The double emphasis via the pleonasm \"stalwart oaken\" on the magnitude and sturdiness of the church building seems congruent with the importance of the Chimes and its spirits as the focal point of the story.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhust, Oxford UP, 2008.",
+        "Ferber, Michael. \"Oak\". *A Dictionary of Literary Symbols*. Cambridge University Press, 2017. pp.142-143. *EBSCOhost*, search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=120164&site=ehost-live. Accessed 26 November 2023."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-08T15:43:41.074Z",
+  "updatedAt": "2026-05-08T15:46:21.587Z"
+}

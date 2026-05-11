@@ -1,0 +1,26 @@
+{
+  "id": "purity",
+  "anchorText": "purity",
+  "anchorStart": 798,
+  "anchorEnd": 804,
+  "authors": [
+    "Mirjam Haas",
+    "Steffi Hörz",
+    "Miriam Lahrsow",
+    "Christina Tauber"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "In the *OED*, the word \"purity\" is defined as \"the state or quality of being morally or spiritually pure; sinlessness […] innocence; chastity\" (\"purity, n. 1.\").",
+      "worksCited": [
+        "\"purity, n. 1.\" *OED Online*. OUP, Dec. 2014. Web. 27 Jan. 2015."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:32:22.623Z",
+  "updatedAt": "2026-03-16T23:33:04.928Z"
+}

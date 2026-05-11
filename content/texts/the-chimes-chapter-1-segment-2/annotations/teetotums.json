@@ -1,0 +1,39 @@
+{
+  "id": "teetotums",
+  "anchorText": "teetotums",
+  "anchorStart": 2278,
+  "anchorEnd": 2287,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "A teetotum is a toy that is \"spun round by twisting the upper part between the thumb and finger\" (Cassell's Book 829).\n\n*Photograph of a teetotum (Victoria and Albert Museum):\nhttp://media.vam.ac.uk/media/thira/collection_images/2006AA/2006AA7099.jpg*",
+      "worksCited": [
+        "*Cassell's Book of Sports and Pastimes*. Rev. ed. London et al.: Cassell, 1904. Print.",
+        "Victoria and Albert Museum. \"Photograph of a Teetotum.\" Photograph. *vam*. Victoria and Albert Museum, n.d. Web. 7 Nov. 2014."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "By comparing the umbrellas to teetotums, Dickens might emphasise their fast and chaotic movement.",
+      "worksCited": []
+    },
+    {
+      "level": 3,
+      "category": "context",
+      "body": "Teetotums were already used by Greeks and Romans in ancient times (cf. \"teetotum\"). The toy can have four, six or eight sides. Originally, its four sides were marked with T, H, N and P, meaning \"Take all, Take half, Nothing and Put in again\" (*Cassell's Book* 829). Later, the sides were numbered. The teetotum is used in games as a substitute for a dice. There are no games made especially for teetotums, but they are often used for gambling. Sometimes, these games are played in order to gain nuts or similar items (cf. ibid.).",
+      "worksCited": [
+        "*Cassell's Book of Sports and Pastimes*. Rev. ed. London et al.: Cassell, 1904. Print.",
+        "\"teetotum.\" *Enyclopedia Britannica Online*, n.d. Web. 14 June 2013."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-04T19:46:07.135Z",
+  "updatedAt": "2026-05-04T19:48:07.652Z"
+}

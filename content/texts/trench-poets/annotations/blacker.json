@@ -1,0 +1,31 @@
+{
+  "id": "blacker",
+  "anchorText": "blacker",
+  "anchorStart": 43,
+  "anchorEnd": 50,
+  "authors": [
+    "Franziska Höfer",
+    "Lena Moltenbrey",
+    "Nicole Poppe"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "In the context of \"Trench Poets,\" the adjective \"blacker\" could refer to being \"[d]eeply stained with dirt; soiled, filthy, begrimed\" (OED \"black, adj., 5\"), or to \"an emotion, state of mind, etc.: full of gloom, melancholy, misery, or sadness; [being] very depressed\" (OED \"black, adj., 14. a.\").",
+      "worksCited": [
+        "\"black, adj. and n.\". *OED Online*. OUP, November 2014. Web. 21 November 2014."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "In the poem, the expression \"grow blacker\" is ambiguous. The [[chum,]] mentioned in the first line to which the adjective refers, is dead (this becomes clear at the end of the poem \"He stank so badly [...] then rats ate his thumbs\" l. 23-24), and his decomposing body is therefore turning black (see \"blanch\"). However, \"grew blacker\" can also be read as \"becoming sadder,\" for the chum might be \"full of gloom\" because of the situation in the trenches and his death. There also seems to be a connection to the subsequent verb [[blanch]].",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:19:23.986Z",
+  "updatedAt": "2026-03-18T19:47:13.845Z"
+}

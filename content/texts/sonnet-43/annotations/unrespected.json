@@ -1,0 +1,36 @@
+{
+  "id": "unrespected",
+  "anchorText": "unrespected",
+  "anchorStart": 80,
+  "anchorEnd": 91,
+  "authors": [
+    "Ayla Kahl"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The adjective ‘unrespected' describes something that is \"not held in respect or regard\" (*OED* 2). Other annotations of ‘unrespected' in previous editions paraphrase the term as \"unvalued\" (Duncan-Jones 196), \"ignored\" (Booth 203), or \"unnoticed\" (Hammond 194).",
+      "worksCited": [
+        "Booth, Stephen (ed.). *Shakespeare's Sonnets*. Yale UP, 1977. ",
+        "Duncan-Jones, Katherine (ed.). *Shakespeare's Sonnets*. The Arden Shakespeare, Third Series (Rev. ed.), Bloomsbury, 2010. ",
+        "Hammond, Paul (ed.). *Shakespeare's Sonnets: an Original-Spelling Text*. Oxford UP, 2012.",
+        "\"unrespected, adj.\". *OED Online*. Oxford UP, Dec 2016."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The speaker describes how he \"view[s] things unrespected\" (l. 2) all day. These things seem to be less important to the speaker than the sight of the addressee. The line can be interpreted in two different ways, depending on the paraphrase chosen. In the first interpretation, the reader is aware of his surroundings, in the second he is not.\n\nFirst, ‘unrespected' can be substituted with \"ignored\" (Booth 203), which would suggest that the speaker observes his surroundings, but deems the things to be unimportant and actively chooses to ignore them. Evans supports this reading, paraphrasing ‘unrespected' as \"not worthy of respect\" but also as \"unregarded, not carefully observed\" (144).\n\nSecond, ‘unrespected' could be substituted with \"unnoticed\" (Hammond 194). This reading would indicate that the speaker does not even observe or notice the things around him. ",
+      "worksCited": [
+        "Booth, Stephen (ed.). *Shakespeare's Sonnets*. Yale UP, 1977.",
+        "Evans, G. Blakemore (ed.). *The Sonnets*. The New Cambridge Shakespeare, Cambridge UP, 2006.",
+        "Hammond, Paul (ed.). *Shakespeare's Sonnets: an Original-Spelling Text*. Oxford UP, 2012."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T09:35:08.769Z",
+  "updatedAt": "2026-03-17T09:37:01.561Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "earth",
+  "anchorText": "earth",
+  "anchorStart": 272,
+  "anchorEnd": 277,
+  "authors": [
+    "Kathrin Bauer"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Earth is ambiguous here. On the one hand, it refers to the „the ground considered as a place for burying the dead\" (cf. \"earth, n.\" 4). On the other hand, it can describe all the inhabitants of the world (cf. *OED* \"earth, n.\" Def. 9b.).",
+      "worksCited": [
+        "\"earth, n.\" *OED Online*. OUP, Sept. 2016. Web. 3 Dec. 2016."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T15:44:47.468Z",
+  "updatedAt": "2026-03-18T15:45:22.762Z"
+}

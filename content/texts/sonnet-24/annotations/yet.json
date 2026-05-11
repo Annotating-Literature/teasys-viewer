@@ -1,0 +1,29 @@
+{
+  "id": "yet",
+  "anchorText": "Yet",
+  "anchorStart": 554,
+  "anchorEnd": 557,
+  "authors": [
+    "Natalia Christoforou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "‘Yet' marks the unexpected volta of the sonnet and introduces the equally unexpected change of tone of the closing couplet.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The poet has spent 12 lines in elaborating quite a complex visual conceit. The eye \"hath played the painter\" (l. 1) and has drawn a \"true image\" (l. 6) of the beloved to be stored safely in the \"bosom's shop\" (l. 7). The closing couplet introduced with \"[y]et\" turns the conceit upside down and invites the reader to re-read the poem and reconsider its meaning (cf. Fineman 137). The actor playing the painter has lured us with his dramatic speech enthusiastically exalting the art of painting, only to interrupt his reverie with a startling realisation in the final lines: ultimately, visual art will always be falling short from \"know[ing] […] the heart\" (l. 14). The abrupt change in tone distances the couplet from the rest of the sonnet and conveys to it a sense of urgency and immediacy.",
+      "worksCited": [
+        "Fineman, Joel. *Shakespeare's Perjured Eye: The Invention of Poetic Subjectivity in the Sonnets*. University of California Press, 1986."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T15:11:14.543Z",
+  "updatedAt": "2026-03-18T15:12:04.903Z"
+}

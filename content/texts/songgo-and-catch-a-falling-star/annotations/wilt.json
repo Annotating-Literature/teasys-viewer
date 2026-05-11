@@ -1,0 +1,21 @@
+{
+  "id": "wilt",
+  "anchorText": "wilt",
+  "anchorStart": 421,
+  "anchorEnd": 425,
+  "authors": [],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"Archaic second person singular of \"will\".\"",
+      "worksCited": [
+        "Weiner, E. S. C., and J. A. Simpson. *The Oxford English Dictionary*. 2nd ed. Oxford: Clarendon, \t1989. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:13:45.846Z",
+  "updatedAt": "2026-03-16T23:14:09.762Z"
+}

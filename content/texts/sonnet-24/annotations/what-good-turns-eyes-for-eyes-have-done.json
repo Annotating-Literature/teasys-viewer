@@ -1,0 +1,49 @@
+{
+  "id": "what-good-turns-eyes-for-eyes-have-done",
+  "anchorText": "what good turns eyes for eyes have done",
+  "anchorStart": 370,
+  "anchorEnd": 409,
+  "authors": [
+    "Natalia Christoforou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Katherine Duncan-Jones identifies ‘good turns' as a \"familiar phrase\" (158n9), yet fails to give a satisfying explanation. She assumes that it has probably something to do with \"fashioning images of the beloved\" (158n9) and gives as a comparison the first two lines of sonnet 47: \"Betwixt mine eye and heart a league is took,/ And each doth good turns now unto the other\" (ll. 1-2). The Oxford Advanced Learner's Dictionary quotes the saying \"one good turn deserves another\" and interprets it thus: \"you should help sb who has helped you\" (\"turn, n.\" idiom2 1665). Hence, ‘doing good turns' in this case would mean doing someone a favour or a service.",
+      "worksCited": [
+        "Duncan-Jones, Katherine (ed.). *Shakespeare's Sonnets*. The Arden Shakespeare, Third Series (Rev. Ed.), Bloomsbury, 2010.",
+        "\"turn, n.\". *Oxford Advanced Learner's Dictionary*, New 8th Edition, Oxford University Press, 2010."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "textual-variants",
+      "body": "In the 1609 *Quarto*, the phrase is obscurely spelled as \"eyes for eies\" (reprinted in Vendler 141). Although this may very well be a \"printing vagary\" (Mead 243), it may also be suggestive of a pun with ‘I'.",
+      "worksCited": [
+        "Mead, Stephen X. \"Shakespeare's Play with Perspective: Sonnet 24, Hamlet, Lear\". *Studies in Philology* 109.3, Spring 2012, pp. 225-257. *EBSCOhost*, doi: 10.1353/sip.2012.0021. Accessed March 2017.",
+        "Vendler, Helen. *The Art of Shakespeare's Sonnets*. Belknap, 1997."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "intertextuality",
+      "body": "The phrase \"eyes for eyes\" reminds of an earlier version (†\"eye for eye\") of the biblical proverb \"an eye for an eye (and a tooth for a tooth)\". It stands for \"the principle of retribution in which the penalty is equivalent to the original crime or injury\" (\"eye, n.\" *OED* P4a).",
+      "worksCited": [
+        "\"eye, n.\". *OED Online*, Oxford University Press, December 2018, www.oed.com/view/Entry/67296. Accessed January 2019."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "The eyes of the addressee and the eyes of the speaker have done each other a favour. The addressee can behold his portrait through the eyes of the speaker, while the speaker can look into the beloved's eyes and find there reflected his own bosom where the portrait lies. There is also a possibility that the line refers to the mechanics of vision and to the belief that the eye \"sends out its beams to capture and return an image\" (Mead 243). The biblical allusion bestows upon the passage a slightly ironical touch, as an eye for an eye would rather mean doing bad turns to someone. Finally, if the spelling deviation is deliberate, it would visually underline the homophony between ‘eye' and ‘I'. In addition, it would prove a brilliant example of iconicity, pointing back to the imperfect, slightly falsified reflection of the addressee's actual image.",
+      "worksCited": [
+        "Mead, Stephen X. \"Shakespeare's Play with Perspective: Sonnet 24, Hamlet, Lear\". *Studies in Philology* 109.3, Spring 2012, pp. 225-257. *EBSCOhost*, doi: 10.1353/sip.2012.0021. Accessed March 2017."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T15:01:49.898Z",
+  "updatedAt": "2026-03-18T15:04:45.453Z"
+}

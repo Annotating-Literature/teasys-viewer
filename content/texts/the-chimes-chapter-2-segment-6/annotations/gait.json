@@ -1,0 +1,24 @@
+{
+  "id": "gait",
+  "anchorText": "gait",
+  "anchorStart": 77,
+  "anchorEnd": 81,
+  "authors": [
+    "Sandra Wetzel",
+    "Mona El Menschawi"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The word *gait* means a \"manner of walking or stepping, bearing or carriage while moving, walk\" (\"gait\", *n*. 1. a).",
+      "worksCited": [
+        "\"Gait, *n*.1. a.\"* OED Online*, Oxford University Press, December 2019, https://www.oed.com/view/Entry/76104?rskey=sN6JkU&result=1&isAdvanced=false#eid. (Accessed 09 December 2019)."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-08T09:30:22.561Z",
+  "updatedAt": "2026-05-08T09:31:13.659Z"
+}

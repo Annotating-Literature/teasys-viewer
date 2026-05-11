@@ -1,0 +1,23 @@
+{
+  "id": "there-s-others",
+  "anchorText": "There’s others",
+  "anchorStart": 1951,
+  "anchorEnd": 1965,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "This lack of concord between verb and subject is a feature of the grammar used by uneducated or poor characters in Dickens (cf. Brook 242).",
+      "worksCited": [
+        "Brook, George L. *The Language of Dickens*. London: Deutsch, 1970."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-07T18:41:12.570Z",
+  "updatedAt": "2026-05-07T18:41:31.698Z"
+}

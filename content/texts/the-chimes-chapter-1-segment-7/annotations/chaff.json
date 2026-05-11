@@ -1,0 +1,32 @@
+{
+  "id": "chaff",
+  "anchorText": "chaff",
+  "anchorStart": 4308,
+  "anchorEnd": 4313,
+  "authors": [
+    "Svenja Brank",
+    "Isabella Krapf"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The verb \"chaff\" is colloquial and describes a form of banter that takes place in a light-hearted manner, but it is also understood as a calculated conversational move to \"try the good nature or temper of the person ‘chaffed'\" (cf. \"chaff, v. 2.\" a.).",
+      "worksCited": [
+        "\"chaff, v.2.\" *OED Online*, Oxford University Press, 1889, https://www.oed.com/view/Entry/30164#eid9756412, Accessed 21 June 2021."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The term \"chaff\" can be interpreted in two different ways: on the one hand, the Alderman assumes that Toby uses a certain vulgar sociolect typical of his class, and, on the other hand, he uses the ambiguity of the word to disguise whether he provokes a light-hearted banter, or whether he is trying Toby's temper (102). It is likely that Alderman Cute does both. He uses \"chaff\" to emphasize the class difference between him and Toby, and to explicitly distinguish Toby's language from his own (102). For example, the word appears in inverted commas to show that the Alderman does not use the word himself but ascribes it to Toby (102). Moreover, the Alderman makes it clear that he uses the word only to demonstrate his skills to deal with Toby's \"sort of people\", believing that \"there is not the least mystery or difficulty\" in that \"if you only understand ‘em, and can talk to ‘em in their own manner\" (102). He, therefore, employs the word in a patronizing way because of his implication that he knows everything about a class that he is not a part of, since he has tasted their food and knows their language (102). Thus, the scene shows that the Alderman uses Toby's language and degrades him under the disguise of light-heartedness.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, OUP, 2008, pp. 85-162."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-05T19:58:18.259Z",
+  "updatedAt": "2026-05-05T19:59:21.274Z"
+}

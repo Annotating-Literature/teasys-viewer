@@ -1,0 +1,23 @@
+{
+  "id": "anon",
+  "anchorText": "Anon",
+  "anchorStart": 1808,
+  "anchorEnd": 1812,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Anon is a temporal adverb and has several meanings. The most fitting meaning in this context is:\n\n\"Now at this time, in contrast to *at that time*, presently again; here again\" (\"anon, adv.\").",
+      "worksCited": [
+        "\"anon, adv.\" Def. 5. Def. 6a. *OED Online*. OUP, Dec. 2013. Web. 18 Dec. 2013."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-04T19:06:34.725Z",
+  "updatedAt": "2026-05-04T19:07:06.900Z"
+}

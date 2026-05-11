@@ -1,0 +1,34 @@
+{
+  "id": "still",
+  "anchorText": "still",
+  "anchorStart": 308,
+  "anchorEnd": 313,
+  "authors": [
+    "Natalia Christoforou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "It can either be understood as a temporal adverb to mean always (*OED* 3a), after all this time, now as before (4a), or as an adverb of manner to mean motionless (†1a). The latter option would entail a possible play with \"steeled\" (l. 1) both phonetically (still – to steel) and semantically (to engrave something in sturdy steel).",
+      "worksCited": [
+        "\"still, adj.\". *OED Online*, Oxford University Press, December 2018, www.oed.com/view/Entry/190289. Accessed January 2019."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Duncan-Jones, Booth and Evans, all interpret ‘still' in a temporal sense (158n7; 174n7; 138n7), highlighting thereby the speaker's persistence of memory and his sense of eternal spiritual connection with the addressee. Nevertheless, ‘still' in the sense of ‘motionless' would put an emphasis on the inertia of the addressee forever captured in the lifeless portrait. The image, though \"true\" (l. 6) in its proportions, it is \"also disembodied, abstracted from the life of its source. As the ideal form of that life, this is not active but \"pictured\": in \"hanging still\", it \"lies\" motionless and tells a lie\" (Ravassat par. 16). ",
+      "worksCited": [
+        "Booth, Stephen (ed.). *Shakespeare's Sonnets*. Yale University Press, 1977. ",
+        "Duncan-Jones, Katherine (ed.). *Shakespeare's Sonnets*. The Arden Shakespeare, Third Series (Rev. Ed.), Bloomsbury, 2010.",
+        "Evans, G. Blakemore (ed.).* The Sonnets*. The New Cambridge Shakespeare, Cambridge University Press, 2006.",
+        "Ravassat, Mireille. \"The Language of Deceptive Transparency in Shakespeare's Sonnets\". *Les Cahiers de La Licorne - Shakespeare en devenir*, 7, 2013, no p. Université de Poitiers, http://shakespeare.edel.univ-poitiers.fr/index.php?id=695. Accessed March 2017."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T14:51:56.044Z",
+  "updatedAt": "2026-03-18T14:53:27.737Z"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "a-maw-as-accommodating-and-full-as-any-shark-s",
+  "anchorText": "a maw as accommodating and full as any shark’s",
+  "anchorStart": 1901,
+  "anchorEnd": 1947,
+  "authors": [
+    "Miriam Herberger",
+    "Marina Kirillova"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "The *Oxford English Dictionary* defines \"shark\" as \"selachian fish of the sub-order Squali\" (\"shark, *n*.\" 1.). The *OED* entry also notes that the word \"shark\" is often used \"in popular language\" generally referring \"to the large voracious fishes of this suborder\" (\"shark, *n*.\" 1.). Thus, the common image of the shark as marine animal is already loaded with ideas of immense size and insatiable hunger and, therefore, danger. \n\nWhen used to describe a person, the word \"shark\" links the person not only to a large and strong animal, but also to a predatory one. The \"allusion to the predatory habits and voracity of the shark\" (\"shark, *n*.\" 2a), thereby, suggests an animalistic quality in the person referred to. While the voracity emphasizes the shark's nature as savage, and therefore, driven by animalistic desire, the hunting of and feeding on smaller marine animals associates the \"shark\" with a cold mercilessness that further emphasizes its inhumanity. Accordingly, in its figurative use the word \"shark\" denotes somebody \"who enriches himself or herself by taking advantage of the necessities of others\" such as \"a rapacious usurer\" or \"an extortionate landlord\" (\"shark, *n*.\" 2a). Similarly, the *Thesaurus of Traditional English Metaphors* lists \"shark\" as a metaphor for a person who is deemed a \"swindler\" or \"extortioner\" (\"shark\").",
+      "worksCited": [
+        "\"shark, *n*.\" *OED Online*, Oxford University Press, March 2024, \thttps://doi.org/10.1093/OED/7486283751. Accessed 4 May 2024.",
+        "\"shark.\" *Thesaurus of Traditional English Metaphors*. Edited by P. R. Wilkinson, 2nd ed., Routledge, 2002."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The simile \"a maw as accommodating and full as any shark's\" likens the little shop to a dangerous beast of prey (Dickens 144). Like a shark hunting and feeding on smaller fish, the little shop is used by its new owner, Mr. Tugby, to prey on his most vulnerable customers (see [[a-perfectly-voracious-little-shop]], Level 3 – Interpretation]). Toby notes how there are less \"accounts of credit customers\" since Mr. Tugby took over the shop of his wife and concludes \"that the porter was an advocate of ready money transactions, and on coming into the business had looked pretty sharp after the Chickenstalker defaulters\" (Dickens 145). In other words, Mr. Tugby denies his poorer customers, most likely those of the working classes, the possibility to buy food and other necessities of life on credit, i.e. if they do not have enough money in cash.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, Oxford University Press, 2006."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "language",
+      "body": "The simile that likens the little shop to a shark is used to personify and then characterize its owner Mr. Tugby as an extortioner and a swindler (see [[a-perfectly-voracious-little-shop]], Level 3 – Interpretation]). Thereby, the narrator alludes to the dangers and downsides of a purely capitalistic society where the imbalance of power is left unchecked, and the strong like Mr. Tugby (i.e. the upper and middle classes) prey on the weak like Meg (i.e. the working classes).",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, Oxford University Press, 2006.",
+        "\"shark.\" *Thesaurus of Traditional English Metaphors*. Edited by P. R. Wilkinson, 2nd ed., Routledge, 2002."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-09T09:34:06.812Z",
+  "updatedAt": "2026-05-09T09:37:45.358Z"
+}

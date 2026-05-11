@@ -1,0 +1,34 @@
+{
+  "id": "justice",
+  "anchorText": "Justice",
+  "anchorStart": 2319,
+  "anchorEnd": 2326,
+  "authors": [
+    "Sandra Wetzel",
+    "Julia Schatz"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "A \"Justice of the Peace\" was \"a magistrate who deal[t] with less serious crimes\" (\"Justice of the Peace.\" *Cambridge Online Dictionary*). Officeholders supervised towns or local districts, and being a justice did not require any legal qualifications (\"Justice of the Peace, n.\" *OED*). They were \"men elected out of the nobility, higher and lower […] the ideal justice of the peace ought to combine title, wealth, and legal training\" (Sipek 9).",
+      "worksCited": [
+        "\"Justice of the Peace, *n*.\" *OED Online*, Oxford University Press, June 2020, www.oed.com/view/Entry/356203. Accessed 23 June 2020.",
+        "\"Justice of the Peace.\" *Cambridge Online Dictionary*, Cambridge University Press, June 2020, https://dictionary.cambridge.org/de/worterbuch/englisch/justice-of-the-peace. Accessed 23 June 2020.",
+        "Sipek, George Stephen. \"The Elizabethan Justice of the Peace: An Image Inspected.\" *Loyola eCommons*, Loyola University Chicago, 1965, www.core.ac.uk/download/pdf/48602529.pdf. Accessed 23 June 2020."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The word \"Justice\" is used ambiguously in this passage. Whereas Alderman Cute superficially refers to his office as a Justice of the Peace (\"You know I'm a Justice, don't you\" 104), the narrator then uses Cute's position to characterize the way he constantly judges his surroundings, especially poor people: \"O dear, so active a Justice always!\" (104). Thus, the repetition of the word in different contexts reveals Cute's peculiar understanding of what being a Justice entails; it shows how he thinks that his position entitles him to lecture other people (e.g., \"It's my place to give advice, you know, because I'm a Justice\" 104).",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Books*. Edited by Robert Douglas-Fairhurst, Oxford University Press, 2008, pp. 85-162."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-06T20:58:36.606Z",
+  "updatedAt": "2026-05-06T21:00:20.036Z"
+}

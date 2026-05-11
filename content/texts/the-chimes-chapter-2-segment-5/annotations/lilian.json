@@ -1,0 +1,24 @@
+{
+  "id": "lilian",
+  "anchorText": "Lilian",
+  "anchorStart": 2978,
+  "anchorEnd": 2984,
+  "authors": [
+    "Sandra Wetzel",
+    "Julia Schatz"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The long version of \"Lilly\" (Dickens 118). First appearing in the sixteenth century, the name \"Lilian\" can be a derivative of \"Elizabeth\", which translates from the Hebrew \"Elisheva\" to \"my God is abundance\" (Hanks). The name underwent a change in connotation when \"Lily\" gained popularity at the beginning of the nineteenth century in England, then signifying the flower rather than the Christian name (Hanks). Thus, the name was already fashionable when Dickens wrote The Chimes in 1844; fittingly, \"Lilly\" is Lilian's nickname in the book (118, 132).",
+      "worksCited": [
+        "Hanks, Patrick, Flavia Hardcastle, and Flavia Hodges. \"Lilian.\" *A Dictionary of First Names*. Oxford University Press, 2006, www.oxfordreference.com/view/10.1093/acref/9780198610601.001.0001/acref-9780198610601-e-2025. Accessed 28 Aug. 2020."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-07T18:43:45.179Z",
+  "updatedAt": "2026-05-07T18:44:41.121Z"
+}

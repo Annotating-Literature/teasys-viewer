@@ -1,0 +1,23 @@
+{
+  "id": "belfry",
+  "anchorText": "belfry",
+  "anchorStart": 2756,
+  "anchorEnd": 2762,
+  "authors": [
+    "Svenja Brank"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The belfry is located in the steeple of a church. It is the floor or room of the tower that contains the church bells (cf. \"belfry, *n*.\" 4.b.). For more information on the steeple, see here.",
+      "worksCited": [
+        "\"belfry, *n*.\" *OED Online*, Oxford University Press, March 2021, www.oed.com/view/Entry/17358. Accessed 31 May 2021."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-04T19:22:04.412Z",
+  "updatedAt": "2026-05-04T19:22:32.727Z"
+}

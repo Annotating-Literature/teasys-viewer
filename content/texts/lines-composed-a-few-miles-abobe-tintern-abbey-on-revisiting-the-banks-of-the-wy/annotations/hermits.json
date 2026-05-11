@@ -1,0 +1,47 @@
+{
+  "id": "hermits",
+  "anchorText": "Hermit's",
+  "anchorStart": 914,
+  "anchorEnd": 922,
+  "authors": [
+    "Junwen Lu"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"Hermit\" refers to a person who lives a solitary life, with or without religious motives (\"hermit, n. 1\").",
+      "worksCited": [
+        "\"hermit, n.\" *OED Online*, Oxford University Press, November 2020, www.oed.com/view/Entry/86268. Accessed 10 November 2020."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "textual-variants",
+      "body": "In the third edition of *Lyrical Ballads* (1802), the word \"hermit\" is capitalized, but it is not in the first (1798) and second (1800) edition.",
+      "worksCited": [
+        "Wordsworth, William, and Samuel Taylor Coleridge. *Lyrical Ballads with A Few Other Poems*. J. & A. Arch, 1798.",
+        "Wordsworth, William, and Samuel Taylor Coleridge. *Lyrical Ballads with Other Poems*. 2nd ed., Biggs and Co. Bristol, 1800.",
+        "Wordsworth, William, and Samuel Taylor Coleridge. *Lyrical Ballads with Pastoral and Other Poems*. Biggs and Cottle, 1802."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The image of the hermit indicates a comparison between the speaker and the hermit. The speaker lives in human society, while the hermit does not fit into human society; nature provides some kind of escape from every-day life for the speaker, while for the hermit nature is every-day life. Accordingly, the natural scenery perceived by the speaker is combined with his personal experience and thoughts, while the hermit \"has actual nature at his disposal\" (Kelly).",
+      "worksCited": [
+        "Kelly, David. \"An overview of ‘Lines Composed a Few Miles above Tintern Abbey'.\" *Poetry for Students*, Gale. *Gale Literature Resource Center*, link.gale.com/apps/doc/H1420007980/LitRC?u=tuebi&sid=LitRC&xid=aa8b7196. "
+      ]
+    },
+    {
+      "level": 2,
+      "category": "questions",
+      "body": "Why is the word \"hermit\" capitalized in the third edition of *Lyrical Ballads* (1802), while it is not in the first (1798) and second (1800) edition? Does this change have a different effect?",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T18:03:30.566Z",
+  "updatedAt": "2026-03-16T18:05:51.524Z"
+}

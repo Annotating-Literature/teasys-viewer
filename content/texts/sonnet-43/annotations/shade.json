@@ -1,0 +1,31 @@
+{
+  "id": "shade",
+  "anchorText": "shade",
+  "anchorStart": 361,
+  "anchorEnd": 366,
+  "authors": [
+    "Heike Ortlieb"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "In this context, shade is what the *OED* describes as \"[a]n unsubstantial image of something real […]\" (Def. II.5.b). Here, the ‘shade' is the image of the beloved. However, the same *OED* definition also indicates that this image has the qualities of \"an unreal appearance; something that has only a fleeting existence, or that has become reduced almost to nothing\". ‘Shade[s]' and ‘shadow[s]' repeatedly occur in the poem and contribute to the permanent play on bright and dark elements (cf. l. 5 \"shadow shadows\", l. 8 \"shade shines\" and l. 11 \"fair imperfect shade\").",
+      "worksCited": [
+        "\"shade, n.\". *OED Online*. Oxford UP, March 2017."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Though unsubstantial and associated with darkness, it can be argued that a shade is not as dark as a shadow (ll. 5, 6). In this respect, there is a tendency towards brightness with the change from shadows (ll. 5, 6) to shades (ll. 8, 11) which then culminates in \"bright days\" (l. 14).\n\nVendler also points out that lines 1-10 \"all brighten as they end\" (224), followed by the \"only two lines in the body of the poem\" (224) in which this dynamic works the other way around. She attributes both \"desire and frustration\" (225) to the couplet, and argues that after this downward progression, the sonnet ends with \"the up-driven push of desire\" (225) in the couplet.",
+      "worksCited": [
+        "Vendler, Helen. *The Art of Shakespeare's Sonnets*. Belknap P, 1997."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T13:19:40.804Z",
+  "updatedAt": "2026-03-17T13:20:55.244Z"
+}

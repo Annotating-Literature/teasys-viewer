@@ -1,0 +1,31 @@
+{
+  "id": "yield",
+  "anchorText": "yield",
+  "anchorStart": 282,
+  "anchorEnd": 287,
+  "authors": [
+    "Kathrin Bauer"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "In this context \"yield\" means \"to reward, recompense, requite\" (cf. \"yield, v.\" 6).",
+      "worksCited": [
+        "\"yield, v.\" *OED Online*. OUP. Sept. 2016. Web. 3 Dec. 2016."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "language",
+      "body": "The verb to yield has often been used with dative of person (cf. \"yield, v.\" 6).\n\nIn line 7 the same construct is used. \"Me\" is the dative case of the personal pronoun, which suggests that this nowadays unfamiliar sounding construct, was rather common. This construct has been obsolete since the nineteenth century (cf. \"yield, v.\" 6).",
+      "worksCited": [
+        "\"yield, v.\" *OED Online*. OUP. Sept. 2016. Web. 3 Dec. 2016."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T15:46:11.205Z",
+  "updatedAt": "2026-03-18T15:46:58.473Z"
+}

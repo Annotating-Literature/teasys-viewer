@@ -1,0 +1,23 @@
+{
+  "id": "crystallines",
+  "anchorText": "crystallines",
+  "anchorStart": 300,
+  "anchorEnd": 312,
+  "authors": [
+    "admin"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The simile of the \"tears […], like pure crystallines\" (7) suggests that the characteristic of crystallines is applied to the watery tears and indicates their being \"clear or transparent\" (\"crystalline, *adj.* and *n.*\" A.2.a.) as opposed to the usually solid connotation of a crystal stone (\"crystalline, *adj.* and *n.*\"A.2.b.) which is later taken up again when tears are made into solid [[amulets]] by God.",
+      "worksCited": [
+        "\"crystalline, *adj.* and n.\" *OED Online.* OUP, June 2011. Web. July 14, 2019."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-03T13:44:01.717Z",
+  "updatedAt": "2026-03-03T13:45:17.661Z"
+}

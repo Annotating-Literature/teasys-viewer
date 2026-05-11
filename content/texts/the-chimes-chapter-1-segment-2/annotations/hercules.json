@@ -1,0 +1,48 @@
+{
+  "id": "hercules",
+  "anchorText": "Hercules",
+  "anchorStart": 3559,
+  "anchorEnd": 3567,
+  "authors": [
+    "Sandra Wetzel",
+    "Julia Schatz"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "In ancient Greek myth, Heracles (or Lat.: Hercules) is a demigod, the son of Zeus and Alcmene, a mortal princess (\"Heracles\" 201). Hercules is deemed one of \"the most famous of Greek heroes, noted for his strength, courage, endurance, good nature, and compassion\" (\"Heracles\" 201).",
+      "worksCited": [
+        "\"Heracles.\" *The Oxford Companion to Classical Literature*, edited by Neil Hammond and Howard Hayes Scullard, Oxford Clarendon Press, 1970, pp. 201-204."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "The strength of the mythical hero Heracles materializes in particular when he has to perform twelve labours as a punishment for his unfortunate past: Because Hera, the wife of his father Zeus, disapproves of the illegitimate child, she sends a madness upon Heracles that makes him kill his wife and children; to atone for this deed, he is sent into exile to serve the king Eurystheus for twelve years (\"Heracles\" 202). Eurystheus then makes him solve the abovementioned twelve impossible tasks, each of which is a mythological story of its own.",
+      "worksCited": [
+        "\"Heracles.\" *The Oxford Companion to Classical Literature*, edited by Neil Hammond and Howard Hayes Scullard, Oxford Clarendon Press, 1970, pp. 201-204."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "form",
+      "body": "The first part of the phrase (\"a weak, small, spare old man, he was a very Hercules\" 90) constitutes a paradox: the reference to Hercules evokes notions of strength and endurance, which are the direct opposite of Toby's fragility. More on the implications of this paradox can be found here.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Books*, edited by Robert Douglas-Fairhurst, Oxford University Press, 2008, pp. 85-162."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "The paradox (see here) that is established by the contrast \"a weak, small, old man, he was a very Hercules\" (Dickens 90) closes with the information that Toby is not physically like Hercules, but \"in his good intentions\" (Dickens 90). This emphasizes that, at heart, Toby is just as valiant, determined and hard-working as the Greek demigod, focusing on his inner strength and compassion rather than physical features. Therefore, the Heracles metaphor serves two purposes: first, the paradox it creates through its opposition of physical and mental strength reminds readers not to judge a person merely by external impression, and second, it characterizes the seemingly weak Toby as heroically strong, not in terms of physical strength, but at heart.\n\nBecause the phrase occurs only three pages into the novel, this description essentially contributes to Toby's character exposition. It instates him as a selfless, hard-working man, who, as becomes more and more obvious as the narrative progresses, does not let unfavourable circumstances stand in the way of being compassionate with those around him; i.e., the phrase foreshadows the love he is later shown to have for his daughter (cf. Dickens 93), and the selfless help he offers Will Fern and Lilian (cf. Dickens 116-17).",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Books*, edited by Robert Douglas-Fairhurst, Oxford University Press, 2008, pp. 85-162."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-04T19:48:23.987Z",
+  "updatedAt": "2026-05-04T19:50:15.048Z"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "five-years-have-past-five-summers-with-the-length-",
+  "anchorText": "Five years have past; five summers, with the length Of five long winters! And again I hear These waters, rolling from their mountain-springs With a soft inland murmur.",
+  "anchorStart": 0,
+  "anchorEnd": 170,
+  "authors": [
+    "Junwen Lu"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "These four lines contain enjambments, which means \"the continuation of a syntactic unit from one line to the next without a major juncture or pause\" (Brogan et al. 435-436).\n\nEnjambments are one of the main elements of conversation poems.",
+      "worksCited": [
+        "Brogan, T. V. F., et al. \"Enjambment.\" *The Princeton Encyclopedia of Poetry and Poetics*, edited by Roland Greene, Stephen Cushman, et al., Princeton University Press, 2012, pp. 435-436."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Here, enjambments may be used to highlight the excitement and pleasure of the speaker at seeing the natural scenery again, which cannot be expressed within one line. The content of the next line reinforces the feelings indicated in the previous one: \"with the length / Of five long winters!\" The word \"long\" shows that the speaker thinks five years quite a long time, and thus enhances his excitement at being here again after all this time. The gap in the middle of the sentence caused by the link break may also hint at the gap between the first time the speaker saw the scenery and the present time. \"These waters, rolling from their mountain-springs / With a sweet inland murmur\": the enjambment in these two lines also emphasizes the speaker's pleasure at hearing the waters, which does not stop at the end of the first line but becomes more vivid in the next one, just like the waters roll from their spring, the words roll from line to line (the enjambment accordingly contributes to iconicity, the correspondence of form and content). Moreover, although the speaker's excitement and pleasure are already very clear in the previous lines: the use of \"sweet inland murmur\" is unexpected, and the continuation of the description here not only makes the scene more specific but potentially also contributes to the reader's immersion into the scene.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T16:48:51.065Z",
+  "updatedAt": "2026-03-16T17:53:30.157Z"
+}

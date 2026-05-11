@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Work</title>
+          <author>Elizabeth Barrett Browning</author>
+        </titleStmt>
+        <publicationStmt><p>TEASys Viewer</p></publicationStmt>
+        <sourceDesc><p>Annotating Literature, Tübingen University</p></sourceDesc>
+      </fileDesc>
+    </teiHeader>
+  <text><body><div>WHAT are we set on earth for? Say, to <anchor xml:id="s-bc425274-4372-47ce-8985-aad196fcc655"/>toil<anchor xml:id="e-bc425274-4372-47ce-8985-aad196fcc655"/>;
+<anchor xml:id="s-92dd231e-83b2-48d2-b8eb-3a6174846f54"/>Nor<anchor xml:id="e-92dd231e-83b2-48d2-b8eb-3a6174846f54"/> seek to leave thy <anchor xml:id="s-1ce18353-09d0-496f-8011-f4a14cef26ce"/>tending of the vines<anchor xml:id="e-1ce18353-09d0-496f-8011-f4a14cef26ce"/>
+For all the <anchor xml:id="s-5118c085-846c-473f-a9a1-45af4a17c0e0"/><anchor xml:id="s-734dd46f-607b-43dd-beb9-0ae903438694"/>heat<anchor xml:id="e-5118c085-846c-473f-a9a1-45af4a17c0e0"/> <anchor xml:id="s-6855c3ee-341e-4d8c-8bad-cfb018f870e6"/>o’<anchor xml:id="e-6855c3ee-341e-4d8c-8bad-cfb018f870e6"/> the <anchor xml:id="s-f4025b14-53b6-4203-8612-fff4a0557153"/>day<anchor xml:id="e-734dd46f-607b-43dd-beb9-0ae903438694"/><anchor xml:id="e-f4025b14-53b6-4203-8612-fff4a0557153"/>, till it declines,
+And <anchor xml:id="s-2e5abd8d-03b9-4aff-bd1f-3c9a73ed56c3"/>Death&apos;s mild <anchor xml:id="s-a0be0067-82e9-49fc-86d1-c204ea8a6b4b"/>curfew<anchor xml:id="e-2e5abd8d-03b9-4aff-bd1f-3c9a73ed56c3"/><anchor xml:id="e-a0be0067-82e9-49fc-86d1-c204ea8a6b4b"/> shall from <anchor xml:id="s-c6e3a36a-130d-47e7-a586-bd1b4c0e296c"/>work<anchor xml:id="e-c6e3a36a-130d-47e7-a586-bd1b4c0e296c"/> <anchor xml:id="s-d1d3cb56-2c56-4194-9c26-e09e8e5633f7"/>assoil<anchor xml:id="e-d1d3cb56-2c56-4194-9c26-e09e8e5633f7"/>.
+God did anoint thee with His odorous oil
+To wrestle, not to reign; and He assigns
+All thy tears over, like pure <anchor xml:id="s-8f21da74-0c46-481c-8598-271fb9a864bb"/>crystallines<anchor xml:id="e-8f21da74-0c46-481c-8598-271fb9a864bb"/>,
+For younger fellow-workers of the soil
+To wear for <anchor xml:id="s-b90310d1-10fd-44b4-a742-e4d2345c6d8f"/>amulets<anchor xml:id="e-b90310d1-10fd-44b4-a742-e4d2345c6d8f"/>. So others shall
+Take patience, labour, to their heart and hand,
+From thy hand and thy heart and thy brave cheer;
+And God&apos;s grace fructify through thee to all.
+The least flower with a brimming cup may stand
+And share its dewdrop with another near.
+</div></body></text>
+  <standOff>
+      <listAnnotation>
+        
+          <annotation xml:id="ann-1ce18353-09d0-496f-8011-f4a14cef26ce" from="#s-1ce18353-09d0-496f-8011-f4a14cef26ce" to="#e-1ce18353-09d0-496f-8011-f4a14cef26ce">
+            <respStmt><resp>annotator</resp><name>Sara Rogalski</name></respStmt>
+            <date>2026-03-03</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#context">
+                  <p>In her annotation to this line, Donaldson refers to the parable of the workers in the vineyard in [Matthew 20:1-16](https://www.kingjamesbibleonline.org/1611_Matthew-Chapter-20/). The parable, in which all workers receive the same payment at the end of the day, even though some of them worked longer than others, argues that &quot;rewards […] are not earned, nor are they proportionate to human effort&quot; (France 748). </p>
+                  <listBibl><bibl>Donaldson, Sandra, general editor. *The Works of Elizabeth Barrett Browning*. Vol. 1, Pickering &amp; Chatto, 2010. </bibl><bibl>France, R.T. *The Gospel of Matthew*. William. B. Eerdmans Publishing, 2007. </bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#intratextuality">
+                  <p>The reference to [Matthew 20:1-16](https://www.kingjamesbibleonline.org/1611_Matthew-Chapter-20/), in which the labourers have to bear &quot;the heat of the day&quot; (12), allows for the intratextual reference to &quot;the heat o’ the day&quot; in line 3 of the poem. </p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#context">
+                  <p>Keener points out that &quot;vineyards were common and hence provided a natural setting for parables without a consistent meaning&quot; (481), which challenges Donaldson&apos;s unequivocal reference to [Matthew 20:1-16](https://www.kingjamesbibleonline.org/1611_Matthew-Chapter-20/) alone. According to the &quot;Bible Concordance&quot; of [*The Kings Bible*](http://www.thekingsbible.com/Concordance ), there are more than a hundred biblical references to vines and vineyards. Therefore, references which give different meanings to the line in the poem must also be considered. In [John 15:1-8](https://www.kingjamesbibleonline.org/John-Chapter-15/), for example, Jesus is the &quot;true vine&quot; (1) and his people are branches who must &quot;abide in [him]&quot; (4). Jesus states that nobody can bring &quot;forth much fruit&quot; if they do not &quot;remain, stay&quot; (&quot;abide, *v.*&quot; II.) in him. </p>
+                  <listBibl><bibl>&quot;abide, *v.*&quot; *OED Online.* Oxford UP, July 2019. Web. July 13, 2019.</bibl><bibl>Keener, Craig S. *A Commentary on the Gospel of Matthew*. William. B. Eerdmans Publishing, 1999. </bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#context">
+                  <p>Donaldson introduces the poem by opposing it with John Milton&apos;s sonnet [&quot;On His Blindness&quot;](https://www.bartleby.com/101/318.html ), arguing that &quot;Work&quot; is a &quot;rejoinder to &apos;they also serve who only stand and wait&apos;&quot; (Milton quoted in Donaldson XX), the last line in Milton&apos;s sonnet. Moreover, she claims that Elizabeth Barrett Browning&apos;s sonnet &quot;echoes the many passages and contexts in which Carlyle […] urged the sacredness of work&quot; (for an interpretation see here). </p>
+                  <listBibl><bibl>Donaldson, Sandra, general editor. *The Works of Elizabeth Barrett Browning*. Vol. 1, Pickering &amp; Chatto, 2010. </bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>Since Elizabeth Barrett Browning supposedly rejects Milton&apos;s view on work [hyperlink to this annotation&apos;s context level 3], one can assume that the &quot;tending of the vines&quot; does not explicitly refer to Jesus&apos; instruction to remain in him, but rather to [Matthew 15:1-16](https://www.kingjamesbibleonline.org/1611_Matthew-Chapter-20/), in which &quot;rewards […] are not earned, nor are the proportionate to human effort&quot; (France 748), yet work is necessary in order to &quot;[receive] […] a penny&quot; (Mt 15:10). Hence, if the reference is Matthew 15:1-16, the &quot;tending of the vines&quot; stands for the continual work which is necessary for reward, albeit not determining it. </p>
+                  <listBibl><bibl>France, R.T. *The Gospel of Matthew*. William. B. Eerdmans Publishing, 2007. </bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-2e5abd8d-03b9-4aff-bd1f-3c9a73ed56c3" from="#s-2e5abd8d-03b9-4aff-bd1f-3c9a73ed56c3" to="#e-2e5abd8d-03b9-4aff-bd1f-3c9a73ed56c3">
+            <respStmt><resp>annotator</resp><name>Sandra Wetzel</name></respStmt>
+            <date>2026-03-03</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#form">
+                  <p>Here, &quot;Death&quot; can be read as a personification being capable of imposing a curfew.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>&quot;Death&apos;s mild curfew&quot; can be read as personified Death discharging the mortal being from work (cf. &quot;assoil&quot;) by terminating the hours assigned to work (cf. [[a0be0067-82e9-49fc-86d1-c204ea8a6b4b]]). The further analysis of [[a0be0067-82e9-49fc-86d1-c204ea8a6b4b]], however, also suggests the reading of the end of life itself. Death ends the mortals&apos; life by ringing the curfew bell which is the only cause for quitting to work in life. This might be another answer to the question in line 1 (&quot;What are we set on earth for?&quot;): The main purpose in life seems to be to work and one should not rest from work until death discharges from work and, thereby, ends one&apos;s life (cf.[[1ce18353-09d0-496f-8011-f4a14cef26ce]]).</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-5118c085-846c-473f-a9a1-45af4a17c0e0" from="#s-5118c085-846c-473f-a9a1-45af4a17c0e0" to="#e-5118c085-846c-473f-a9a1-45af4a17c0e0">
+            <respStmt><resp>annotator</resp><name>Sara Rogalski</name></respStmt>
+            <date>2026-03-03</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>Additionally to the most widespread definition of &quot;heat &quot; (&quot;heat, *n.*&quot; 1.a.)., the OED also suggests &quot;[t]he intense or violent stage of any action; greatest vehemence or intensity; height, stress (e.g. of conflict, debate, etc.)&quot; (&quot;heat, *n.*&quot; 12.a.).</p>
+                  <listBibl><bibl>&quot;heat, *n.*&quot; *OED Online*. Oxford UP, 1989. Web. June 18, 2019.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>Heat can be seen as an additional burden when working manually outside in the fields or the vineyards and, thus, might be considered another reason for quitting work. This is also taken up in Matthew 20:12: &quot;Saying, These last have wrought but one hour, and thou hast made them equal unto us, which have borne the burden and heat of the day&quot; (*King James Version*). The parable, however, makes clear that heat or any other complication of work, such as duration, do not affect the wage because each worker is payed equally.</p>
+                  <listBibl><bibl>*King James Version*. Bible Gateway, https://www.biblegateway.com/passage/?search=Matthew+20%3A12&amp;version=KJV. Accessed 19. Jul. 2019.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-6855c3ee-341e-4d8c-8bad-cfb018f870e6" from="#s-6855c3ee-341e-4d8c-8bad-cfb018f870e6" to="#e-6855c3ee-341e-4d8c-8bad-cfb018f870e6">
+            <respStmt><resp>annotator</resp><name>Sandra Wetzel</name></respStmt>
+            <date>2026-03-03</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The &quot;o’&quot; in &quot;o’ the day&quot; is a contraction of the preposition &quot;of&quot;. </p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#form">
+                  <p>The contraction serves to maintain the iambic rhythm.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-734dd46f-607b-43dd-beb9-0ae903438694" from="#s-734dd46f-607b-43dd-beb9-0ae903438694" to="#e-734dd46f-607b-43dd-beb9-0ae903438694">
+            <respStmt><resp>annotator</resp><name>Sandra Wetzel</name></respStmt>
+            <date>2026-03-03</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The phrase &quot;heat of the day&quot;, which is connected to &quot;tending of the vines&quot; through an intertextual reference, also appears in Matthew 20:12: &quot;Saying, These last have wrought but one hour, and thou hast made them equal unto us, which have borne the burden and heat of the day.&quot; </p>
+                  <listBibl><bibl>*King James Version*. Bible Gateway, https://www.biblegateway.com/passage/?search=Matthew+20%3A12&amp;version=KJV. Accessed 19. Jul. 2019. </bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-8f21da74-0c46-481c-8598-271fb9a864bb" from="#s-8f21da74-0c46-481c-8598-271fb9a864bb" to="#e-8f21da74-0c46-481c-8598-271fb9a864bb">
+            <respStmt><resp>annotator</resp><name>admin</name></respStmt>
+            <date>2026-03-03</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The simile of the &quot;tears […], like pure crystallines&quot; (7) suggests that the characteristic of crystallines is applied to the watery tears and indicates their being &quot;clear or transparent&quot; (&quot;crystalline, *adj.* and *n.*&quot; A.2.a.) as opposed to the usually solid connotation of a crystal stone (&quot;crystalline, *adj.* and *n.*&quot;A.2.b.) which is later taken up again when tears are made into solid [[b90310d1-10fd-44b4-a742-e4d2345c6d8f]] by God.</p>
+                  <listBibl><bibl>&quot;crystalline, *adj.* and n.&quot; *OED Online.* OUP, June 2011. Web. July 14, 2019.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-92dd231e-83b2-48d2-b8eb-3a6174846f54" from="#s-92dd231e-83b2-48d2-b8eb-3a6174846f54" to="#e-92dd231e-83b2-48d2-b8eb-3a6174846f54">
+            <respStmt><resp>annotator</resp><name>Sara Rogalski</name></respStmt>
+            <date>2026-03-03</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The usage of &quot;nor&quot; after &quot;an affirmative clause, or in continuing narration&quot; is &quot;chiefly poetic&quot; and does not negate the previous clause (&quot;nor, *conj. 1* (and *adv.*)&quot; II.5.a), i.e. the answer to the question in the first line (&quot;WHAT are we set on earth for?&quot;) would be that one should toil and not stop the tending of the vines. </p>
+                  <listBibl><bibl>&quot;nor, *conj.1* (and *adv.*).&quot; *OED Online.* Oxford UP, July 2019. Web. July 13, 2019. </bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#language">
+                  <p>Since &quot;nor&quot; is primarily &quot;used before the second or further of two or more alternatives, normally to negate each other&quot;, one has to consider this meaning as well (&quot;nor, conj. 1 (and adv.)&quot; I.). The OED gives examples in which this is the case although there is no &quot;immediately preceding (negative) correlative (such as neither)&quot; (&quot;nor, conj. 1 (and adv.) I.2). Even if no other negative is expressed, as in Byron&apos;s Bride Abydos, &quot;A heart his words nor deeds can daunt&quot; (366), &quot;nor&quot; still negatives both alternatives (&quot;nor, conj. 1 (and adv.) I.2.b). This would suggest that neither &quot;toil[ing]&quot; (1) nor the &quot;seek[ing] to leave [the] tending of the vines&quot; (2) are mankind&apos;s purpose in life. However, the fact that &quot;to toil&quot; (1) is followed by a semicolon, which indicates a clear separation between the first and the second line, as well as the overall context of the poem render this reading unlikely (see here). </p>
+                  <listBibl><bibl>&quot;nor, *conj.1* (and *adv.*).&quot; *OED Online.* Oxford UP, July 2019. Web. July 13, 2019. </bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-a0be0067-82e9-49fc-86d1-c204ea8a6b4b" from="#s-a0be0067-82e9-49fc-86d1-c204ea8a6b4b" to="#e-a0be0067-82e9-49fc-86d1-c204ea8a6b4b">
+            <respStmt><resp>annotator</resp><name>Sandra Wetzel</name></respStmt>
+            <date>2026-03-03</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>Etymologically, &quot;curfew&quot; comes from &quot;Anglo-Norman coeverfu&quot;, which developed into &quot;Old French cuevre-fu, quevre-feu, covre-feu&quot; and denominates the &quot;cover for a fire&quot; (&quot;curfew, *n.*&quot; Etymology).</p>
+                  <listBibl><bibl>&quot;curfew, n.&quot; OED Online. OUP, June 2019. Web. June 18, 2019.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#context">
+                  <p>It was a custom in medieval Europe to ring a bell at a certain hour in the evening, usually to signal the people to cover or extinguish their fires. This custom of ringing the bell was later used for municipal or communal restrictions, such as regulations of movement concerning the people living in a certain area for a certain amount of time, and it is nowadays still a tradition in many towns to ring the evening bell. However, it has lost its original purpose. symbolically (&quot;curfew, *n.*&quot; 1.a., b.). </p>
+                  <listBibl><bibl>&quot;curfew, *n.*&quot; *OED Online*. Oxford UP, June 2019. Web. June 18, 2019.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The curfew might be interpreted not only as the end of work or the day but, considering the possible meanings of &quot;day&quot; on a metaphorical level also the end of one&apos;s life.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-b90310d1-10fd-44b4-a742-e4d2345c6d8f" from="#s-b90310d1-10fd-44b4-a742-e4d2345c6d8f" to="#e-b90310d1-10fd-44b4-a742-e4d2345c6d8f">
+            <respStmt><resp>annotator</resp><name>Sandra Wetzel</name></respStmt>
+            <date>2026-03-03</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>Amulets are usually jewellery &quot;worn about the person as a charm or preventive against evil, mischief, disease, witchcraft, etc.&quot; (&quot;amulet, *n.*&quot; 1.). Here, the significance of &quot;amulets&quot; is the same, however, it is used in a metaphorical sense. </p>
+                  <listBibl><bibl>&quot;amulet, *n.*&quot; *OED Online*. OUP, 1989. Web. July 14, 2019.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#intratextuality">
+                  <p>The amulets are made from human tears [hyperlink to &quot;tears&quot;] by God (&quot;He assigns / All thy tears over, like pure crystallines, / For younger fellow-workers of the soil / To wear for amulets.&quot; 6-9) and bear the characteristics of &quot;pure crystallines&quot; [hyperlink to &quot;crystallines&quot;] [hyperlink to &quot;pure&quot;].</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-bc425274-4372-47ce-8985-aad196fcc655" from="#s-bc425274-4372-47ce-8985-aad196fcc655" to="#e-bc425274-4372-47ce-8985-aad196fcc655">
+            <respStmt><resp>annotator</resp><name>Sara Rogalski</name></respStmt>
+            <date>2026-03-03</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The intransitive use of the verb &quot;toil&quot; means &quot;to struggle towards an aim or for a living; to engage intensively in hard or prolonged labour or exertion&quot; (&quot;toil, *v.*&quot; II.4.a.). </p>
+                  <listBibl><bibl>&quot;toil, *v.*&quot; *OED Online*. Oxford UP, July 2019. Web. July 13, 2019. </bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-c6e3a36a-130d-47e7-a586-bd1b4c0e296c" from="#s-c6e3a36a-130d-47e7-a586-bd1b4c0e296c" to="#e-c6e3a36a-130d-47e7-a586-bd1b4c0e296c">
+            <respStmt><resp>annotator</resp><name>Sandra Wetzel</name></respStmt>
+            <date>2026-03-03</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>&quot;Work&quot; may have several meanings in this context. For one, that of &quot;regular occupation or employment&quot; but also of &quot;physical or mental effort […] undertaken in order to achieve a result, esp. as a means of making one&apos;s living or earning money&quot; (*OED* &quot;work, *n.*&quot; I.4.a.).
+
+The &quot;tears&quot; (7) evoke another meaning of &quot;work&quot;, namely that within the field of &quot;suffering, pain; distress, affliction&quot;, which is obsolete nowadays but still used in the 19th century (*OED* &quot;work, *n.*&quot; III. 24).
+
+There is also the theological connotation of &quot;work&quot;, which is a &quot;good or moral act or deed considered in relation to justification before God&quot; (*OED* &quot;work, *n.*&quot; I.1.c).</p>
+                  <listBibl><bibl>&quot;work, *n.*&quot; *OED Online*. Oxford UP, Sept 2014. Web. June 18, 2019.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#language">
+                  <p>The *OED* links its theological entry for &quot;work&quot; (&quot;work, *n.*&quot; I.1.c) to that of &quot;good work&quot; which is defined as follows: &quot;A morally commendable or virtuous act; an act of kindness, good will, or charity; esp. (in religious and theological contexts) an act of piety, regarded as carried out in obedience to the commandments, or as the product of faith or grace&quot; (&quot;good work, *n.*&quot;).
+</p>
+                  <listBibl><bibl>&quot;work, *n.*&quot; *OED Online*. Oxford UP, Sept 2014. Web. June 18, 2019.</bibl><bibl>&quot;good work, *n.*&quot; *OED Online*. Oxford UP, Sept 2014. Web. June 18, 2019.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#intratextuality">
+                  <p>&quot;Work&quot; in general is exemplified in this poem with the work in the vineyard (cf. [[1ce18353-09d0-496f-8011-f4a14cef26ce]]). </p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The fact that human work is &quot;[f]requently contrasted with faith or grace&quot; (&quot;work, n.&quot; I.1.c) also applies in this case as work is assigned to humankind, which is awarded by God&apos;s grace protecting those &quot;fellow-workers of the soil&quot; (8) from evil who were inspired by other workers to work equally (&quot;So others shall / Take patience, labour, to their heart and hand, / from thy hand and thy heart and thy brave cheer&quot; (9-11).
+
+The speaker&apos;s initial question seeks to find the purpose of life, and the poem suggests many connections to the semantic field of work: &quot;to toil&quot; (1), &quot;work&quot; (title, 4), &quot;to wrestle&quot; (6), &quot;fellow-workers of the soil&quot; (8), and &quot;labour&quot; (10). Especially given that &quot;Work&quot; is the title of the poem, it might contain t the answer to the question in the first line (&quot;WHAT are we set on earth for?&quot;). The principal characteristic of the addressed collective &quot;we&quot; (1) is identified as being &quot;workers of the soil&quot; (8), which can be deduced from the contrast to the &quot;fellow-workers of the soil&quot; (8). Hence, work may be presented as the purpose in life in order to live a good, i.e. Christian life. Considering the different connotations of work taken from the *OED*, this work might consist of literally having a job in service of others which would then take up the notion of solidarity mentioned in the last lines of the poem: &quot;The least flower with a brimming cup may stand, / And share its dewdrop with another near.&quot; (13-14). The same objective can be seen in the theological definition of the &quot;good work&quot; that encompasses all kinds of moral actions and good deeds one can do. The third possibility concerns the struggle in life and the reward for persevering, regardless of the various impediments in life. This struggle is exemplified by the &quot;heat&quot; that makes working in the vineyard harder to bear (cf. [[5118c085-846c-473f-a9a1-45af4a17c0e0]]). The parable of the vineyard in Matthew 21:12 adds equal reward for everyone who is willing to work and warns against jealousy or comparing to others. This notion of being rewarded by God for the hard work done and not giving in to obstacles in life, therefore, may be interpreted as motivation and encouragement for optimism as well as solidarity in life, and, accordingly refer to the poem as a whole.</p>
+                  <listBibl><bibl>&quot;work, *n.*&quot; *OED Online*. Oxford UP, Sept 2014. Web. June 18, 2019.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-d1d3cb56-2c56-4194-9c26-e09e8e5633f7" from="#s-d1d3cb56-2c56-4194-9c26-e09e8e5633f7" to="#e-d1d3cb56-2c56-4194-9c26-e09e8e5633f7">
+            <respStmt><resp>annotator</resp><name>Sandra Wetzel</name></respStmt>
+            <date>2026-03-03</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The archaic verb to &quot;assoil&quot; somebody from or of something means to &quot;release, deliver, set free; to discharge (&quot;assoil, *v.*&quot; 5.). </p>
+                  <listBibl><bibl>&quot;assoil, *v.*&quot; *OED Online*. OUP, June 2019. Web. June 18, 2019.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The inversion in this line could be paraphrased as &quot;And Death&apos;s wild curfew shall assoil (you) from work&quot;.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>For an interpretation in connection to &quot;Death&apos;s wild curfew&quot; see here.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-f4025b14-53b6-4203-8612-fff4a0557153" from="#s-f4025b14-53b6-4203-8612-fff4a0557153" to="#e-f4025b14-53b6-4203-8612-fff4a0557153">
+            <respStmt><resp>annotator</resp><name>Sandra Wetzel</name></respStmt>
+            <date>2026-03-03</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>Apart from the &quot;active part of the day&quot; (&quot;day, *n.*&quot; 5.), the &quot;day&quot; might also indicate the period of the day &quot;allotted by law or convention to a specific activity, esp. work or learning&quot; (&quot;day, *n.*&quot; 6.).</p>
+                  <listBibl><bibl>&quot;day, *n.*&quot; *OED Online*, June 2019. Web. June 19, 2019.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#intratextuality">
+                  <p>The day with its temporal delimitation is intratextually connected to the &quot;curfew&quot;, since they both determine a certain time span. The parallel, metaphoric meaning of the two concepts of &quot;day&quot; and &quot;curfew&quot; is, in turn, that of a certain point in life and the immanence of death that marks the end of life.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>In the context of this poem, &quot;day&quot; may be interpreted in several ways. On the one hand, the day can be understood as the active time spent working in the fields or in the vineyard (&quot;day, *n.*&quot; 5.) and could be connected to the hour &quot;allotted by law or convention&quot; (&quot;day, *n.*&quot; 6.) which is, in this case, the curfew delimiting the work hours. On the other hand, &quot;day&quot; can be a metaphor for &quot;life&quot; that ends with the sunset at night. </p>
+                  <listBibl><bibl>&quot;day, *n.*&quot; *OED Online*, June 2019. Web. June 19, 2019.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+      </listAnnotation>
+    </standOff>
+</TEI>

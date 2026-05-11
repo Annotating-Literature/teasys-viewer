@@ -1,0 +1,35 @@
+{
+  "id": "assoil",
+  "anchorText": "assoil",
+  "anchorStart": 177,
+  "anchorEnd": 183,
+  "authors": [
+    "Sandra Wetzel"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The archaic verb to \"assoil\" somebody from or of something means to \"release, deliver, set free; to discharge (\"assoil, *v.*\" 5.). ",
+      "worksCited": [
+        "\"assoil, *v.*\" *OED Online*. OUP, June 2019. Web. June 18, 2019."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The inversion in this line could be paraphrased as \"And Death's wild curfew shall assoil (you) from work\".",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "For an interpretation in connection to \"Death's wild curfew\" see here.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-03T13:32:10.333Z",
+  "updatedAt": "2026-03-03T13:35:47.568Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "as-old-as-methuselah",
+  "anchorText": "as old as Methuselah",
+  "anchorStart": 1052,
+  "anchorEnd": 1072,
+  "authors": [
+    "Svenja Brank",
+    "Isabella Krapf"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The term \"as old as Methusela\" describes a person who is \"extremely aged or ancient\" (\"Methuselah, *n*.\" 1.a.). It can also represent a person bearing resemblance to \"Methuselah by virtue of longevity\" (cf. \"Methuselah, *n*.\" 1.b.)",
+      "worksCited": [
+        "\"Methusela, *n*.\", *OED Online*, Oxford University Press, December 2001, https://www.oed.com/view/Entry/117590?redirectedFrom=methuselah#eid, Accessed 21 June 2021."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": " \"Methuselah\" appears in the *Great Bible* and *Bishops Bible*, as well as in the *King James Bible* (cf. \"Methuselah, *n*.\"). It is, however, commonly written as *Methusael* in most English Bibles. \"Methuselah\" is the name of the grandfather of Noah in the Old Testament, who is said to have lived for 969 years. (cf. \"Methuselah, *n*.\").",
+      "worksCited": [
+        "\"Methusela, *n*.\", *OED Online*, Oxford University Press, December 2001, https://www.oed.com/view/Entry/117590?redirectedFrom=methuselah#eid, Accessed 18 June 2021."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Mr. Filer uses the simile \"as old as Methuselah\" to emphasize his dissatisfaction with the poor who he perceives as living off his labour owing to their inability to contribute anything to society (103). His use of the expression further highlights his tendency to exaggerate and to base his argument on indefinite amounts of numbers. Mr. Filer thus repeatedly presents himself as a diligent and hard-working member of society that \"heap[s] up facts on figures, facts on figures, facts on figures, mountains high and dry\" (103), only to reveal, ironically and on the external level of communication, his feckless and misanthropic endeavors to oppress the poor.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, OUP, 2008, pp. 85-162."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-06T20:56:03.544Z",
+  "updatedAt": "2026-05-06T20:58:22.479Z"
+}

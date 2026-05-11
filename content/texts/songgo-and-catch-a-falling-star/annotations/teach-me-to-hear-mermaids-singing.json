@@ -1,0 +1,29 @@
+{
+  "id": "teach-me-to-hear-mermaids-singing",
+  "anchorText": "Teach me to hear mermaids singing",
+  "anchorStart": 130,
+  "anchorEnd": 163,
+  "authors": [],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "An imaginary species of beings, more or less human in character, supposed to inhabit the sea, and to have the head and trunk of a woman, the lower limbs being replaced by the tail of a fish or cetacean. ",
+      "worksCited": [
+        "Weiner, E. S. C., and J. A. Simpson. *The Oxford English Dictionary*. 2nd ed. Oxford: Clarendon, \t1989. Print."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "\"mermaids\" could refer to the sirens of classical mythology, which seduced men with their singing and killed them subsequently. Thus teaching someone to hear the mermaids' singing without being killed serves as an impossible task (Ray 305).",
+      "worksCited": [
+        "Ray, Robert H. *A John Donne Companion*. London: Routledge, 2016. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:10:21.384Z",
+  "updatedAt": "2026-03-16T23:11:08.423Z"
+}

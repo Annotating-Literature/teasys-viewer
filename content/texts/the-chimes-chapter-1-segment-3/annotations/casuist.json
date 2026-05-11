@@ -1,0 +1,27 @@
+{
+  "id": "casuist",
+  "anchorText": "casuist",
+  "anchorStart": 15,
+  "anchorEnd": 22,
+  "authors": [],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "intratextuality",
+      "body": "A casuist is a \"theologian (or other person) who studies and resolves cases of conscience or doubtful questions regarding duty and conduct\" (\"casuist, n.\"). In the present sentence, however, the word is used figuratively (see Level 2).",
+      "worksCited": [
+        "\"casuist, n.\" *OED Online*, OUP. Dec. 2013. Web. 18 Dec. 2013."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "In this passage, the word is used in order to emphasise that Toby does not contemplate why he likes the bells but that he instinctively feels close to them.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-05T17:24:02.091Z",
+  "updatedAt": "2026-05-05T17:24:44.932Z"
+}

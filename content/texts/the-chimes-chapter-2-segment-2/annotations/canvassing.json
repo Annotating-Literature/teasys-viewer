@@ -1,0 +1,31 @@
+{
+  "id": "canvassing",
+  "anchorText": "canvassing",
+  "anchorStart": 2004,
+  "anchorEnd": 2014,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "In this context \"canvassing\" means to \"solicit votes or support previously to an election\" (\"canvass | canvas, v.\" Def. 6). Here, it refers to poor people trying to make subscribers of voting charities cast their vote for them.",
+      "worksCited": [
+        "\"canvass | canvas, v.\" Def. 6. *OED Online*. OUP, June 2016. Web. 23 June 2016."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Dickens indirectly characterises Sir Joseph as being ignorant of the poor people's needs by making him praise canvassing for \"reduc[ing]\" them to a \"wholesome state of mind\" (Dickens 110). Sir Joseph does not seem to notice the stark contrast between \"reduce\" and \"wholesome\" and he apparently believes that having to beg others to vote for oneself in order to receive aid is \"wholesome\". As he does so often in *The Chimes*, Sir Joseph shows himself to be the exact opposite of the \"Poor Man's Friend\" he claims to be (Dickens 111).",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*. Ed. Robert Douglas-Fairhurst. Oxford: OUP, 2008. 85-162. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-06T21:43:35.105Z",
+  "updatedAt": "2026-05-06T21:44:20.858Z"
+}

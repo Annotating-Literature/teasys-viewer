@@ -1,0 +1,23 @@
+{
+  "id": "gambolled",
+  "anchorText": "gambolled",
+  "anchorStart": 4066,
+  "anchorEnd": 4075,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"To gambol\" means to \"run and jump about playfully; to play, dance, or move about in a lively, happy way\" (\"gambol, v. 2. 1.\").",
+      "worksCited": [
+        "\"gambol, v.\" *OED Online*. OUP, Dec. 2014. Web. 23 Jan. 2015."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-08T15:18:10.025Z",
+  "updatedAt": "2026-05-08T15:18:36.162Z"
+}

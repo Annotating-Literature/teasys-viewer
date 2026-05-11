@@ -1,0 +1,49 @@
+{
+  "id": "to-the-clear-day-with-thy-much-clearer-light",
+  "anchorText": "To the clear day with thy much clearer light,",
+  "anchorStart": 288,
+  "anchorEnd": 333,
+  "authors": [
+    "Natalia Christoforou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "The repetition of the adjective ‘clear' in its comparative form ‘clearer' in this line is again an example of a polyptoton, as the repeated word varies in terms of inflection (\"Polyptoton\" 1086).",
+      "worksCited": [
+        "\"Polyptoton\". *The Princeton Encyclopedia of Poetry and Poetics*. Ed. Roland Greene et al., Fourth Edition, Princeton UP, 2012, pp. 1086-1087. "
+      ]
+    },
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The expression \"clear day\" (l. 7) is an archaic idiom meaning a \"fully light, bright\" day as \"opposed to **dusk** or** twilight**\" (*OED* 2a).",
+      "worksCited": [
+        " \"clear, adj., adv., and n.\". *OED Online*. Oxford UP, June 2017."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "In combination with ‘light', the adjective ‘clear' underlines \"the vividness or intensity\" of the light's brightness (*OED* 1a). When opposed to a blurry, \"imperfect\" (l. 10) shadow (ll. 5, 6, 10), the \"much clearer light\" (l. 7) could also mean more \"sharp\", distinctly delineated (*OED* 6), or even \"more perfect, more complete\" (Booth 204n7; cf. *OED* 17). In the context of this sonnet, the second instance of ‘clear' could additionally stand for \"cheerful\" (*OED* 2d) – which would link back to \"form *happy* show\" (l. 6); \"beautiful\" (*OED* 4c) – which would link back to one plausible interpretation of \"make bright\" (l. 5) (cf. Level 1 Language [[then-thou-whose-shadow-shadows-doth-make-bright]]); and \"innocent\" (*OED* 15a) – which could maybe allude to a moral dimension otherwise not openly addressed. ",
+      "worksCited": [
+        "Booth, Stephen (ed.). *Shakespeare's Sonnets*. Yale UP, 1977.",
+        "\"clear, adj., adv., and n.\". *OED Online*. Oxford UP, June 2017."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "The unequivocal brightness of \"the clear day\" and the \"much clearer light\" (l. 7) of the addressee in this line are set in sharp contrast to the ambiguous interplay of darkness and light in the preceding lines of the sonnet. It is clearly no longer night and we are no longer in the realm of dreams. This means that the \"clear day\" (l. 7) refers to reality and the \"much clearer light\" (l. 7) refers to the real addressee.\n\nThe structure of this clause is ambiguous as far as the comparative is concerned. On the one hand, the use of the same adjective (clear-clearer) seems to underline the relationship between the light of the day and the metaphorical light of the beloved and to encourage a comparison between the two (see, for example, this line from Sidney's Arcadia: \"Thy [i.e. Phoebus's = the sun's] beames I like, but her cleare rayes I love\" (qtd. in Evans 144n7)). On the other hand, a more likely comparison would be between the dream image and its pendant in real life.\n\nThe addressee's \"shadow\" (l. 5) in the speaker's dreams has the ability to illuminate the darkness (cf. Level 1 Language [[then-thou-whose-shadow-shadows-doth-make-bright]]). In reality, then, the addressee's light must be much brighter and much sharper, or metaphorically, much more cheerful, beautiful or innocent than the dream image. A ‘clearer light,' in the sense of \"more perfect, more complete\" (Booth 204n7), could refer to the Platonic form in the sense of an ideal archetype (cf. Level 3 Interpretation [[thy-shadows-form]]).",
+      "worksCited": [
+        "Booth, Stephen (ed.). *Shakespeare's Sonnets*. Yale UP, 1977",
+        "Evans, G. Blakemore (ed.). *The Sonnets*. The New Cambridge Shakespeare, Cambridge UP, 2006."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T20:36:35.074Z",
+  "updatedAt": "2026-03-17T20:43:18.921Z"
+}

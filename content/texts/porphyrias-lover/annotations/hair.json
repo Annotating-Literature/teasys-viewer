@@ -1,0 +1,41 @@
+{
+  "id": "hair",
+  "anchorText": "hair",
+  "anchorStart": 726,
+  "anchorEnd": 730,
+  "authors": [
+    "Hailin Wang",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "Hair has a rich history of symbolizing concepts such as “life, youth, strength, and fertility” (Ferber 500), and a woman’s hair is often ascribed in literature with features like golden colour and abundancy, whereby it may represent beauty, wealth, and sexuality (Ferber 503). The Victorian writers during Browning’s time were particularly obsessed with women’s, especially golden, hair (Gitter 936).",
+      "worksCited": [
+        "Ferber, Michael. *A Dictionary of Literary Symbols*. Cambridge University Press, 2007.",
+        "Gitter, Elisabeth G. “The Power of Women’s Hair in the Victorian Imagination.” *PMLA*, vol. 99, no. 5, 1984, pp. 936–54. *JSTOR*, doi.org/10.2307/462145. Accessed 14 Jul. 2022."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "form",
+      "body": "The word “hair” appears five times in the poem (see lines 13, 18, 20, 38, 46).",
+      "worksCited": []
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "The first 31 lines deliver an erotic description of Porphyria’s bodily attributes. Especially the frequent occurrences of the word “hair” increase the eroticism in the poem. \n\nHair as a symbol has always had a characterizing function in literature, as Ferber suggests in his *Dictionary of Literary Symbols*. Gitter explains that, if the woman was virtuous (for example, a chaste wife, nurse, mother or victimized princess), then her golden hair might be a nest, warm, or the outward sign of her innocence; nevertheless, if the woman was treacherous and dangerous, then her golden hair could be a weapon, trap or a symbolic fusion of the sexual lust and the lust for power that she embodied (941). \n\nPorphyria’s hair in the poem is described as “yellow” and “smooth”. This description suggests her youthfulness, vitality and femininity. Porphyria makes a hair tent, under which lies the speaker’s head (cf. lines 17-20), indicating the speaker sees her hair as a sanctuary, which ultimately points to Porphyria’s gentle and innocent disposition. Porphyria’s innocence is also evident in line 43, and the speaker wishes to savor alone Porphyria’s pureness and innocence, and preserve them in this state forever (cf. Level 2 Interpretation [[holds-a-bee]]). Ironically, and contrary to the traditional symbolic meaning of hair, Porphyria’s hair is used as a weapon against herself.",
+      "worksCited": [
+        "Browning, Robert. “Porphyria’s Lover.” *Poetry Foundation*, www.poetryfoundation.org/poems/46313/porphyrias-lover.",
+        "Ferber, Michael. *A Dictionary of Literary Symbols*. Cambridge University Press, 2007.",
+        "Gitter, Elisabeth G. “The Power of Women’s Hair in the Victorian Imagination.” *PMLA*, vol. 99, no. 5, 1984, pp. 936–54. *JSTOR*, doi.org/10.2307/462145. Accessed 14 Jul. 2022."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-19T11:01:06.165Z",
+  "updatedAt": "2026-03-20T00:35:47.701Z"
+}

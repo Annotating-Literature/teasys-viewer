@@ -1,0 +1,28 @@
+{
+  "id": "darkness",
+  "anchorText": "darkness",
+  "anchorStart": 180,
+  "anchorEnd": 188,
+  "authors": [
+    "Alina Teynil",
+    "Bela Metz"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"darkness\" is introduced in opposition to light and day.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The sun and its light is the antagonist in this poem. The \"[[break of day]]\" marks the rising of the sun, and hence the light is breaking up the lovers' intimacy as the man has to leave his woman behind to pursue his business. However, while it is true that in the first stanza of the poem the sunlight threatens to split up the lovers whom its counterpart \"darkness\" had brought together, it changes into being personified by \"having no tongue\" and being \"[[all eye]]\" in the second stanza.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:58:57.733Z",
+  "updatedAt": "2026-03-16T23:59:52.342Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "strutt-s-costumes",
+  "anchorText": "Strutt’s Costumes",
+  "anchorStart": 1562,
+  "anchorEnd": 1579,
+  "authors": [
+    "Svenja Brank",
+    "Diana Nowicki"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "\"Strutt's Costumes\" refers to the book *A Complete View of the Dress and Habits of the People of England* by the antiquarian Joseph Strutt (1749–1802) (\"Joseph Strutt\"), originally published in two volumes from 1796 to 1799. A new edition was released in 1842, two years prior to *The Chimes*, showing that the book was still popular at the time. In his work, Strutt describes the different kinds of clothing and their development throughout the periods of English history up to the close of the seventeenth century. The text is accompanied by a number of engravings (see Strutt).",
+      "worksCited": [
+        "\"Joseph Strutt (engraver and antiquary)\". *Wikipedia*, Wikimedia Foundation. 04 June 2020, https://en.wikipedia.org/wiki/Joseph_Strutt_(engraver_and_antiquary). Last Accessed 01.02.2022.",
+        "Strutt, Joseph. *A Complete View of the Dress and Habits of the People of England, from the Establishment of the Saxons in Britain to the Present Time.* with notes by J. R. Planché, New and Improved Edition, vol. 2, Henry G. Bohn, 1842."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "There are multiple ways to interpret this reference. For one, it could demonstrate that the gentleman does not actually have knowledge of the work he refers to, as there is no specific mention of a porter in it (see Level 3). Considering the original publication date of *Strutt's Costumes*, it could also insinuate that the gentleman's ideas, just like his sources, are outdated, thus the reference is used to ridicule him and his nostalgia on the external level of communication.",
+      "worksCited": []
+    },
+    {
+      "level": 3,
+      "category": "questions",
+      "body": "It is unclear whether this is supposed to refer to any particular passage in Strutt's work, as there is no explicit mention of porters in the text nor the accompanying engravings.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-05T19:52:40.250Z",
+  "updatedAt": "2026-05-05T19:55:23.114Z"
+}

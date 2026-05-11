@@ -1,0 +1,32 @@
+{
+  "id": "mine-eyes-have-drawn-thy-shape",
+  "anchorText": "Mine eyes have drawn thy shape",
+  "anchorStart": 412,
+  "anchorEnd": 442,
+  "authors": [
+    "Natalia Christoforou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The meaning of ‘to draw' in this context is most obviously \"[t]o represent (an object) by a drawing or picture; to delineate, depict\" (*OED* 60b). On closer consideration, it could also entail the notions of extraction (32) or attraction (25 and 26b). ",
+      "worksCited": [
+        "\"draw, v.\". *OED Online*, Oxford University Press, December 2018, www.oed.com/view/Entry/57534. Accessed January 2019."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The phrase \"[m]ine eyes have drawn thy shape\" repeats the image of the eye as a painter (l. 1) carefully delineating the outline of its perceived subject. ‘Shape' refers to the represented likeness of the addressee, the \"picture, [the] image\" (*OED* 1d, giving this line as an example) and puts an emphasis on the outer surface rather than the essence. Moreover, it might be noteworthy that the verb ‘to draw' could carry a certain ambiguity in Shakespeare's time – an ambiguity that is probably hard to detect by a modern reader. According to medieval and early modern theories of vision, the eye was thought to \"[send] out [its] visual rays upon the object and [carry] the image back, physically, to [the] body. Hence, \"to draw\" [would mean] both \"to sketch\" and \"to bring to oneself\"\" (Mead 240). The speaker's eyes manually paint a picture of \"thy shape\" (l. 10), but also, in the process of seeing, they extract and attract the image in the form of a ‘species'.",
+      "worksCited": [
+        "Mead, Stephen X. \"Shakespeare's Play with Perspective: Sonnet 24, Hamlet, Lear\". *Studies in Philology* 109.3, Spring 2012, pp. 225-257. *EBSCOhost*, doi: 10.1353/sip.2012.0021. Accessed March 2017.",
+        "\"shape, n.\". *OED Online*, Oxford University Press, December 2018, www.oed.com/view/Entry/177498. Accessed January 2019."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T15:04:50.170Z",
+  "updatedAt": "2026-03-18T15:06:15.714Z"
+}

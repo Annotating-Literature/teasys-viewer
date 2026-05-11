@@ -1,0 +1,28 @@
+{
+  "id": "blood-red",
+  "anchorText": "Blood-red",
+  "anchorStart": 696,
+  "anchorEnd": 705,
+  "authors": [
+    "Maja Grubina",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "intratextuality",
+      "body": "The word “blood” reoccurs in the first line of the last stanza.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "According to the poem, the sun is “blood-red” because it feeds of the blood of human beings (cf. Level 1 Form [[that-drains-the-blood-of-suffering-men]]).",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T23:33:55.190Z",
+  "updatedAt": "2026-03-20T00:36:43.590Z"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "like-fighting-cocks",
+  "anchorText": "Like Fighting Cocks!",
+  "anchorStart": 4735,
+  "anchorEnd": 4755,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"To live like fighting cocks\" means \"to have a profusion of the best food, to be supplied with the best\", because fighting cocks were highly fed to increase their strength and endurance (\"cock, n.1\"; \"to live like fighting cocks.\"). By this statement, Mr. Tugby accuses Meg and Richard of living beyond their means and taking advantage of him and his wife.",
+      "worksCited": [
+        "\"cock, n.1\" Def. 2c. *OED Online*. OUP, Sep. 2013. Web. 14 Nov. 2013.",
+        "\"to live like fighting cocks.\" *Brewer's Dictionary of Phrase and Fable*. Ed. Ivor H. Evans. 2nd. rev. edition. London: Cassell, 1981. Print."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "intratextuality",
+      "body": "Given the miserable conditions Meg and Richard have to live in and the fact that Meg works night and day in order to support her family, Mr Tugby's statement is clearly not true. Rather, it is Mr. Tugby who is living like a fighting cock: At the beginning of the fourth quarter, he is depicted as a fat man, who eats muffins, crumpets, and [[sally-lunns]] for dinner (cf. Dickens 146).",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*. Ed. Robert Douglas-Fairhurst. Oxford: OUP, 2008. 85-162. Print."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "Meg and Richard clearly do not live like fighting cocks. Dickens here uses irony in order to expose Mr. Tugby's cold-heartedness and hypocrisy.",
+      "worksCited": []
+    },
+    {
+      "level": 3,
+      "category": "context",
+      "body": "Although the idiomatic expression \"to live like fighting cocks\" is used in order to describe a worriless and luxurious life, real fighting cocks did not have such a life. Their fights were bloody and sometimes ended with the death of one of the cocks (cf. Egan 149; 153). In the 1835 *Cruelty to Animals Act*, cock-fights were banned in order to stop this mistreatment (\"Cruelty to Animals Act, 1835.\"). However, cock-fighting still remained popular in Dickens's time and was held quite openly (cf. \"cock-fighting\"). Thus, readers knew how fighting cocks were treated and might have made a connection between the cocks' life and Meg and Richard's daily struggle to survive: They *do* live like fighting cocks, but in the literal rather than the idiomatic sense.",
+      "worksCited": [
+        "\"cock-fighting.\" Simpson, Jacqueline and Steve Roud. *A Dictionary of English Folklore*. Oxford: OUP, 2000. Print.",
+        " \"Cruelty to Animals Act, 1835.\" *animalrightshistory. Animal Rights History*, n.d. Web. 15 May 2014.",
+        "Egan, Pierce. *Book of Sports and Mirror of Life*. London:  W. Tegg, 1832. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-09T11:22:25.643Z",
+  "updatedAt": "2026-05-09T11:25:03.179Z"
+}

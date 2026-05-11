@@ -1,0 +1,35 @@
+{
+  "id": "get-with-child-a-mandrake-root",
+  "anchorText": "Get with child a mandrake root",
+  "anchorStart": 30,
+  "anchorEnd": 60,
+  "authors": [],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "A mandrake is a plant with a short stem, a forked root and whitish flowers.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "\"The mandrake is poisonous, having emetic and narcotic properties, and was formerly used medicinally.\n\nThe forked root is thought to resemble the human form, and was fabled to utter a deadly shriek when plucked up from the ground. The notion indicated in the narrative of Genesis xxx, that the fruit when eaten by women promotes conception, is said still to survive in Palestine.\"",
+      "worksCited": [
+        "Weiner, E. S. C., and J. A. Simpson. *The Oxford English Dictionary*. 2nd ed. Oxford: Clarendon, \t1989. Print."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "The mandrake's forked root, roughly resembling the human body, was valued in antiquity as an aphrodisiac and an enhancer of female fertility. But impregnating a mandrake root would be an impossibility (Mueller 494).",
+      "worksCited": [
+        "Janel M. Mueller. *John Donne: 21st-century Oxford Authors*. Oxford: Oxford UP, 2015. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:01:44.598Z",
+  "updatedAt": "2026-03-16T23:03:19.138Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "amazon",
+  "anchorText": "Amazon",
+  "anchorStart": 5,
+  "anchorEnd": 11,
+  "authors": [
+    "Franziska Fezer"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "In Greek mythology, the amazons were a class of female warriors living either in Scythia or Africa, fighting with bow and arrow. These communities consisted of women only who had their right breasts burnt off in order to make it easier to draw the bow; the word ‘amazon' accordingly derives from the Greek *a*- (not) and *mastos* (breast). The term is also used to describe women with traits traditionally ascribed to men, such as physical strength and a talent for warfare. ",
+      "worksCited": [
+        "\"Amazon.\" *Brewer's Dictionary of Phrase & Fable*, edited by John Ayto, Cassell Publishers Ltd., 2005, p. 37."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T08:55:54.090Z",
+  "updatedAt": "2026-03-17T08:56:46.599Z"
+}

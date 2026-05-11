@@ -1,0 +1,51 @@
+{
+  "id": "there-are-not-i-say-many-people-who-would-care-to-",
+  "anchorText": "there are not, I say, many people who would care to sleep in a church. I don’t mean at sermon-time in warm weather (when the thing has actually been done, once or twice), but in the night, and alone.",
+  "anchorStart": 509,
+  "anchorEnd": 708,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "Sleeping during a sermon was considered very disrespectful. An American newspaper article of 1845 calls sleeping during church-service \"disgraceful\" and an \"insult to that Master whom they [the sleepers] profess to serve and honor\" (\"Sleeping in Church\").\n\nNeither Opie & Tatem, nor Simpson & Roud record a superstition that is connected with sleeping in churches at night. In *The Chimes*, the night-wind is given as the reason why no one would like to spend a night in a church. Other reasons could be the church's proximity to the graveyard and its gloomy atmosphere at night.",
+      "worksCited": [
+        "Opie, Iona, and Moira Tatem. *A Dictionary of Superstitions*. Oxford: OUP, 1989. Print.",
+        "Simpson, Jacqueline, and Steve Roud. *A Dictionary of English Folklore*. Oxford: OUP, 2000. Print.",
+        "\"Sleeping in Church.\" *Whitehall Chronicle*. 15 Aug. 1845: n.pag. Web. 11 Nov. 2015."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "intratextuality",
+      "body": "The narrator of *The Chimes* explains that the night-wind is the reason why people do not want to sleep in a church at night. One the one hand, the wind poses a very worldly problem: In a \"gusty winter's night\", the church would be freezing cold, as the wind constantly \"seek[s] out crevices by which to enter\" (Dickens 87). On the other hand, it creates a very gloomy and \"dismal\" atmosphere. The wind is personified and presented as \"ghostly\" rather than a natural phenomenon: It wanders round the church moaning and howling, and \"creeps along the walls, seeming to read, in whispers, the Inscriptions sacred to the Dead\" (87). Thus, people are deterred by both the sinister atmosphere and the cold.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*. Ed. Robert Douglas-Fairhurst. Oxford: OUP, 2008. 85-162. Print."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "In addition to the reason given in *The Chimes*, Dickens's novel *The Mystery of Edwin Drood* offers two further explanations for people's reluctance to spend a night in a church:\n\nThe cause of this [fear of churches at night] is not to be found in any local superstition that attaches to the Precincts […] but it is to be sought in the innate shrinking of dust with the breath of life in it from dust out of which the breath of life has passed. (Dickens, *Mystery* 105)\n\nOld churches are usually built near a graveyard, so people would have to spend their night in proximity to the dead. Furthermore, the novel argues that people are afraid of encountering ghosts in such a place: They reflect that\n\n[i]f the dead do, under any circumstances, become visible to the living, these are such likely surroundings for the purpose that I, the living, will get out of them as soon as I can. (Dickens, *Mystery* 105)\n\nIn \"City of London Churches\", Dickens again associates churches with the dead. The congregation inhales the \"decay of dead citizens in the vaults below\" and it \"cough[s] and sneeze[s] dead citizens, all through the service\" (Dickens, \"City\" 191-92).\n\nThe examples from Dickens's texts show that even though there was no specific superstition concerning spending a night in a church, most people would have been repelled by the gloomy atmosphere and the thought that they would have to stay near the dead or even undead.",
+      "worksCited": [
+        "Dickens, Charles. \"City of London Churches.\" *Selected Short Fiction*. Ed. Deborah A. Thomas. London et al.: Penguin, 1985. 188-97. Print.",
+        "Dickens, Charles. *The Mystery of Edwin Drood*. Ed. Margaret Cardwell. Oxford: Clarendon, 1972. Print."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "It is likely that the narrator's suggestion that some people sleep during church-service is only a humorous remark. However, it might also hint at two more serious issues: The comment could either be connected to people being indifferent towards religion in general, or to poor church-goers feeling left out because the sermon does not address their interests and needs.\n\nThe first case occurs in Dickens's \"Sunday Under Three Heads\", in which a church-service primarily aimed at the upper class is described: The \"fashionable members of the congregation\" do not listen to the preacher but \"inspect each other through their glasses\" and at the end of the sermon \"those who have been asleep wake up, and those who have kept awake, smile and seem greatly relieved\" (Dickens 8). Here, attending church is not a sign of religiousness but a social obligation; it is one's presence that counts, not one's behavior or faithfulness.\n\nAt the other end of the social strata, many poor people objected to certain characteristics of Victorian church service. Their problems were discussed in a 1867 conference concerning \"Working Men and Religious Institutions\" to which churchmen, dissenters, and workers contributed (cf. Helmstadter & Phillips 225). Many poor people did not feel welcome at churches (cf. 229; 233). The preachers were usually college-educated, hence workers felt that they could not talk to them \"in a familiar manner on common topics\", which placed a barrier between the preacher and part of his congregation (229). Furthermore, people from the lower classes perceived men of religion to be hypocrites who did not \"carry their teaching into practice\" (230). It is possible that not understanding the sermon or thinking it hypocritical induced some people to sleep during it.\n\nThe passage in *The Chimes* does not make explicit which class of people might sleep during a sermon. Thus, it is impossible to decide whether it could allude to people's indifference towards religion or to poor people feeling left out during church-service. As stated in the beginning, it is also possible to read the passage only as a humorous remark and not as alluding to Victorian religious problems.",
+      "worksCited": [
+        "Dickens, Charles. \"Sunday Under Three Heads.\" *Sunday Under Three Heads and Other Sketches*. London: Routledge, 1884. 6-19. Print.",
+        "Helmstadter, Richard J., and Paul T. Phillips (eds.). \"Working Men and Religious Institutions. Report of the Speeches at the Conference, at the London Coffee House, Ludgate Hill, Monday, January 21, 1867 (1867). Selections.\" *Religion in Victorian Society. A Sourcebook of Documents*. Lanham, MD: UP of America, 1986. 225-38. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-04T19:02:08.756Z",
+  "updatedAt": "2026-05-04T19:06:11.072Z"
+}

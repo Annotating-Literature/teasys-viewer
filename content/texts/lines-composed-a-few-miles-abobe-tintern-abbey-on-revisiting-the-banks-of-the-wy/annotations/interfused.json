@@ -1,0 +1,24 @@
+{
+  "id": "interfused",
+  "anchorText": "interfused",
+  "anchorStart": 4170,
+  "anchorEnd": 4180,
+  "authors": [
+    "admin",
+    "Junwen Lu"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Interfuse means \"to pour in\", to infuse one thing into another (\"interfuse, v. 2\").",
+      "worksCited": [
+        "\"interfuse, v.\" *OED Online*, Oxford University Press, November 2020, www.oed.com/view/Entry/97796. Accessed 10 November 2020."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T17:56:22.286Z",
+  "updatedAt": "2026-03-16T17:56:56.924Z"
+}

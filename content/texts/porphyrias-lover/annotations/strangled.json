@@ -1,0 +1,41 @@
+{
+  "id": "strangled",
+  "anchorText": "strangled",
+  "anchorStart": 1649,
+  "anchorEnd": 1658,
+  "authors": [
+    "Hailin Wang",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The verb “strangle” is defined in the *Oxford English Dictionary* as “to kill by external compression of the throat, esp. by means of a rope or the like passed round the neck.” (“strangle, *v*.” 1.a.); however, the word “strangle” also entails the meaning of merely “constrict[ting] painfully (the neck or throat)” (“strangle, *v*.” 1.c).",
+      "worksCited": [
+        "\"strangle, *v*.\" *OED Online*, Oxford University Press, June 2022, www.oed.com/view/Entry/191253. Accessed 11 June 2022."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "form",
+      "body": "The two senses of “strangle” indicate that the word is an example of polysemy. Polysemy refers to a linguistic phenomenon where a single word has multiple meanings that are related to each other (Vincente and Falkum): lexical ambiguity is embedded in the word (Winter-Froemel 60). The first sense refers literally and specifically to the act of depriving someone of their life by compressing their throat, whereas the second sense merely denotes the idea of “constricting” without any consequences or goals intended.",
+      "worksCited": [
+        "Vicente, Agustín and Ingrid L. Falkum. \"Polysemy.\" *Oxford Research Encyclopedia of Linguistics*. 27. Oxford University Press, 2017. oxfordre.com/linguistics/view/10.1093/acrefore/9780199384655.001.0001/acrefore-9780199384655-e-325 Accessed 3rd of April 2023.",
+        "Winter-Froemel, Esme. “Introducing Pragmatic Ambiguity: On the Diversity and Ambivalence of Ambiguity in Discourse.” *Ambivalenz in Sprache, Literature und Kunst. Ambivalence in Language, Literature and Art*. Eds. Matthias Bauer, Frauke Berndt and Sebastian Meixner, Würzburg: Königshausen & Neumann, 2019, pp 65-83."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "questions",
+      "body": "The two senses of the word “strangle” point to the fact that it is debatable whether Porphyria died from strangulation in the literal sense of the word, or merely deprived of oxygen as suggested by the second sense. This uncertainty leads to a possible questioning of the events of the poem: Can people strangle someone to death with human hair? Can people’s eyes remain “blue without a stain” (line 45) when he or she is dead?",
+      "worksCited": [
+        "Browning, Robert. “Porphyria’s Lover.” *Poetry Foundation*, www.poetryfoundation.org/poems/46313/porphyrias-lover. Accessed 2 March 2021."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-19T12:36:34.483Z",
+  "updatedAt": "2026-03-20T00:36:06.144Z"
+}

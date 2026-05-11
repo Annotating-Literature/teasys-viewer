@@ -1,0 +1,38 @@
+{
+  "id": "thy-beautys-form",
+  "anchorText": "Thy beauty's form",
+  "anchorStart": 51,
+  "anchorEnd": 68,
+  "authors": [
+    "Natalia Christoforou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "‘Form' may concretely refer to the visible shape of the addressee's beauty, that is to the \"body considered in respect to its outward […] appearance\" (*OED* 3), or simply to the \"image, representation, or likeness\" (*OED* 2) of that beauty. In scholastic philosophy and especially in Aristotle and Plato, a form is the \"essential determinant principle of a thing\" *(OED* 4a).",
+      "worksCited": [
+        "\"form, n.\". *OED Online*, Oxford University Press, December 2018, www.oed.com/view/Entry/73421. Accessed January 2017."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "Plato's theory of Forms \"postulates the existence of a level of reality or \"world\" inhabited by the ideal or archetypal forms of all things and concepts\" (Bruce np). According to Plato, abstract concepts such as virtue or beauty – just like material objects such as a table or a bed – have an ideal form. What we perceive in the real world is a mere shadow of this ideal, and what we represent in art (whether this be painting or poetry) is but a shadow of a shadow (Bruce np). It is only through \"true knowledge\" achieved by philosophical contemplation that one can \"[perceive] the forms directly, with his mind's eye\" (Bruce np).\n\nIn the early modern period, the Platonic school of thought was enjoying a tremendous revival (Neoplatonism). The ancient texts and ideas were rediscovered and re-interpreted, translated and diffused all over Europe. Marsilio Ficino, for example, advocated that philosophy was not the only way for the soul towards the world of Platonic ideals. Instead, he encouraged the aspirants to \"[contemplate] a figure of earthly beauty, often another person of rare beauty, and [let] those thoughts uplift him to the Platonic Ideal Form of Beauty\" (Jones 10).",
+      "worksCited": [
+        "Bruce, Ian. \"Plato's Theory of Forms\". *ccs.neu.edu*, Northeastern University: College of Computer and Information Science, 1998, course.ccs.neu.edu/com3118/Plato.html. Accessed March 2017.",
+        "Jones, Thomas O. *The Influence of Marsilio Ficino (1433-1494) on Elizabethan Literature: Christopher Marlowe and William Shakespeare*. Vol. 1, Edwin Mellen Press, 2013. *EBSCOhost*, www.redi-bw.de/db/ebsco.php/search.ebscohost.com/login.aspx%3fdirect%3dtrue%26db%3dnlebk%26AN%3d637840%26site%3dehost-live. Accessed February 2017."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "\"Thy beauty's form\" refers either to the addressee's corporeal manifestation of beauty or to the incorporeal likeness of that beauty that the eye has \"steeled\" (l. 1) on the speaker's heart. In Neoplatonic terms, the Form of Beauty would denote an ideal manifestation of this quality. Plato, however, would not have approved of the medium, as in his theory a pictorial reproduction, being thrice removed from the archetypal form, will always be condemned to fail in capturing the essence.\n\nStill, the extended conceit developed in this sonnet raises the question of whether \"[m]ine eye\" (l. 1) refers to the speaker's actual seeing eye or the so-called mind's eye. In the dramatic performance of the painter drawing a picture of the addressee, the eye is certainly the seeing medium that provides the artist with the beloved's image. Yet at the same time, this is all taking place in the speaker's mind and the picture is just a metaphorical depiction of a precious mental imprint. The painting could be thus interpreted simultaneously as the thrice-removed representation of an archetype and as the immaterial ideal that could elevate the speaker to the sphere of forms.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T10:40:34.150Z",
+  "updatedAt": "2026-03-18T10:42:27.227Z"
+}

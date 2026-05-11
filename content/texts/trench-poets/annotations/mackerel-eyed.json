@@ -1,0 +1,37 @@
+{
+  "id": "mackerel-eyed",
+  "anchorText": "mackerel-eyed",
+  "anchorStart": 306,
+  "anchorEnd": 319,
+  "authors": [],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Mackerel is a common food fish found in temperate and tropical seas all around the world. It is known to spoil \"more readily than others\" after death (see Croker 104). The eyes of a mackerel usually are clear, but become \"gray and sunken\" (Croker 104) after death.",
+      "worksCited": [
+        "Croker, Richard Symond. *The California Mackerel Fishery*. Sacramento: California State Printing Office, 1933."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "The mackerel is a forage fish (cf. \"Forage Fish\"). These smaller fish types are food for their larger predators. This imagery can be linked to [[chum]].",
+      "worksCited": [
+        "\"Forage Fish.\" *Alaska Science Center*. USGS. 6 Dec. 2016. Web. 12 Oct. 2017. https://alaska.usgs.gov/science/biology/seabirds_foragefish/foragefish/index.php"
+      ]
+    },
+    {
+      "level": 2,
+      "category": "intratextuality",
+      "body": "Since the second half of the 19th century mackerel were caught by \"chumming\": \"[The fishermen] also began ‘chumming' – casting scoopfuls of ground bait into the waters around the vessel – as a means of keeping mackerel at the surface and biting hooks.\" Hence, the term \"makerel\" might also be implicitly connected to [[chum]].",
+      "worksCited": [
+        "Goode G.B. and Collins, J. W. \"The mackerel fishery\", *Fisheries and Fishery Industry of the United States. Section V, vol. I: History and Methods of the Fisheries*. Ed. G. B. Goode. Washington: Government Printing Office, 1887. 278."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:40:22.095Z",
+  "updatedAt": "2026-03-18T19:38:20.711Z"
+}

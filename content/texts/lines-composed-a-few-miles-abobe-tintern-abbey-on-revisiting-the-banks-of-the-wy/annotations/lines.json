@@ -1,0 +1,45 @@
+{
+  "id": "lines",
+  "anchorText": "Lines",
+  "anchorStart": -111,
+  "anchorEnd": -106,
+  "authors": [
+    "Junwen Lu",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "The poem contains elements of different genres, such as ode, lyrical ballad, conversation poem, and landscape poem.\n\nThe poem is written in blank verse, i.e., in an iambic pentameter without any fixed rhyme scheme (cf. Friedberg 145-48).",
+      "worksCited": [
+        "Friedberg, Nila. “Blank Verse.” *The Princeton Encyclopedia of Poetry and Poetics*, edited by Roland Greene, Stephen Cushman, et al., Princeton University Press, 2012, pp. 145-148."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "form",
+      "body": "The poem has generic similarities to the traditional ode form. This assumption is partly confirmed by Wordsworth’s note in *Lyrical Ballads*: \n\nI have not ventured to call this Poem an Ode; but it was written with a hope that in the transitions, and the impassioned music of the versification would be found the principal requisites of that species of composition. (Wordsworth 267) \n\nThe “transitions” here may refer to the traditional structure of an ode, which consists of a strophe, an antistrophe and an epode. It then also refers to the “transitions of one verse paragraph to another” (Hartman 27). Another possibility is that it may refer to the transition of the traditional ode to a kind of poetry which derives from the ode but is combined with Wordsworth’s innovativeness; “Tintern Abbey” would be an example of this (Kneale 220).\n\nThe ode is “the most formal, ceremonious, and complexly organized form of lyric poetry, usually of considerable length” (Fogle and Fry 971). The eighteenth-century English ode originated from the ancient ode of Pindar, the characteristics of which are its use of imagery, varying but emotionally related subjects, “complex metrical organization” as well as its “emotional, exalted, intense” and “vertiginously changeable tone” (Fogle and Fry 971-72). The subject of each verse paragraph of Wordsworth’s poem has a different topical emphasis, but they are all associated with the love of nature. This fits with the feature of “varying but emotionally related subjects” of the traditional ode, but the tone of the poem is not as “exalted” and “intense” as that of a Pindaric ode. Here, especially in the fourth and fifth stanza, the tone is more tranquil and meditative. Moreover, a traditional ode is about the praise or commemoration of a person, thing, place, etc. (Fogle and Fry 971), but, in general, the theme of this poem is not merely praise for nature; it contains the idea of the connection between nature and life experience as well. Overall, compared with the traditional ode, the subjects of the poem have similar features, but the tone of it has its own characteristics, and the theme is rather complex.",
+      "worksCited": [
+        "Fogle, Stephen F., and Paul H. Fry. “Ode.” *The Princeton Encyclopedia of Poetry and Poetics*, edited by Roland Greene, Stephen Cushman, et al., Princeton University Press, 2012, pp. 971-973.",
+        "Hartman, Geoffrey H. *Wordsworth's Poetry*, 1787-1814. Yale University Press, 1964.",
+        "Kneale, J. Douglas. “Wordsworth, Milton, and a Question of Genre.” *Modern Philology*, vol. 109, no. 2, Nov. 2011, pp. 197-220.",
+        "Wordsworth, William, and Samuel Taylor Coleridge. *Lyrical Ballads with Other Poems*. 2nd ed., Biggs and Co. Bristol, 1800."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "form",
+      "body": "With the tone, which is not as exalted and intense as that of the traditional ode, the poem may also be classified as a conversation poem, which is “a type of informal, colloquial poem whose tone is meant to echo relaxed conversation” (Richardson and Bohn 304). Further, the “intimate tone” and the “relaxed, frequently enjambed blank verse” (Richardson and Bohn 304) found in the poem are also the main elements of conversation poems. Besides, this poem is mentioned as one of the examples of conversation poem in *The Princeton Encyclopedia of Poetry and Poetics*. \n\n “Tintern Abbey” also contains elements of a landscape poem, which describes “nature and art, the actual world, and the world as it is seen in spatial extension and in imagination” (Costello 782). The poem fits this classification as it describes the landscape around the river Wye in detail and praises the beauty of nature in general.\n\nThe poem may also be described as a lyrical ballad, since it was first published in 1798 in *Lyrical Ballads*. Ballads are narrative poems that “present a series of actions involving protagonists” and “typically […] focus on a single episode” (Dugaw 114). This poem displays the speaker’s experience of a tour along the banks of the river Wye, but it is not as narrative as a typical ballad, because it is more about the speaker’s thoughts and feelings than his actions. What is more, ballads are usually written in quatrains, with an abac rhyme scheme, but this poem doesn’t have a fixed rhyme scheme.",
+      "worksCited": [
+        "Costello, Bonnie. “Landscape Poem.” *The Princeton Encyclopedia of Poetry and Poetics*, edited by Roland Greene, Stephen Cushman, et al., Princeton University Press, 2012, pp. 782-783.",
+        "Dugaw, Dianne. “Ballad.”* The Princeton Encyclopedia of Poetry and Poetics*, edited by Roland Greene, Stephen Cushman, et al., Princeton University Press, 2012, pp. 114-118.",
+        "Richardson, Alan, and Willard Bohn. “Conversation Poem.” *The Princeton Encyclopedia of Poetry and Poetics*, edited by Roland Greene, Stephen Cushman, et al., Princeton University Press, 2012, pp. 304-305."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-20T09:36:05.716Z",
+  "updatedAt": "2026-03-20T09:43:22.479Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "durst",
+  "anchorText": "durst",
+  "anchorStart": 496,
+  "anchorEnd": 501,
+  "authors": [
+    "Minella Fernandes",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "“[D]urst” is the past tense form of the verb “to dare” (\"dare, *v*.1\" Inflections).",
+      "worksCited": [
+        "\"dare, *v*.1\" *OED Online*, Oxford University Press, December 2021, www.oed.com/view/Entry/47273. Accessed 9 February 2022."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "language",
+      "body": "The duke finds that the visitors always seem curious about the duchess’s looks but they would never risk to ask because they sense that they might publicly point to a hidden indecent story. The duke himself suggests that the visitors were intimidated by him, afraid that they would provoke him if they insinuated something improper about his duchess.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-20T00:31:56.564Z",
+  "updatedAt": "2026-03-20T00:32:59.718Z"
+}

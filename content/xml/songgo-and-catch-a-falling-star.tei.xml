@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Song–Go and Catch a Falling Star</title>
+          <author>John Donne</author>
+        </titleStmt>
+        <publicationStmt><p>TEASys Viewer</p></publicationStmt>
+        <sourceDesc><p>Annotating Literature, Tübingen University</p></sourceDesc>
+      </fileDesc>
+    </teiHeader>
+  <text><body><div>Go and catch a falling star;
+<anchor xml:id="s-get-with-child-a-mandrake-root"/>Get with child a mandrake root<anchor xml:id="e-get-with-child-a-mandrake-root"/>;
+Tell me where all past years are,
+<anchor xml:id="s-or-who-cleft-the-devils-foot"/>Or who cleft the Devil’s foot<anchor xml:id="e-or-who-cleft-the-devils-foot"/>;
+<anchor xml:id="s-teach-me-to-hear-mermaids-singing"/>Teach me to hear mermaids singing<anchor xml:id="e-teach-me-to-hear-mermaids-singing"/>,
+<anchor xml:id="s-or-to-keep-off-envys-stinging"/>Or to keep off envy’s stinging<anchor xml:id="e-or-to-keep-off-envys-stinging"/>;
+  And find
+  <anchor xml:id="s-what-wind"/>What wind<anchor xml:id="e-what-wind"/>
+<anchor xml:id="s-serves-tadvance-an-honest-mind"/>Serves t’advance an honest mind.<anchor xml:id="e-serves-tadvance-an-honest-mind"/>
+<anchor xml:id="s-if-thou-beest-born-to-strange-sights-things-invisi"/>If thou beest born to strange sights,
+Things invisible to see,<anchor xml:id="e-if-thou-beest-born-to-strange-sights-things-invisi"/>
+Ride ten thousand days and nights
+<anchor xml:id="s-till-age-snow-white-hairs-on-thee"/>Till age snow white hairs on thee<anchor xml:id="e-till-age-snow-white-hairs-on-thee"/>:
+<anchor xml:id="s-thou"/>Thou<anchor xml:id="e-thou"/>, when thou <anchor xml:id="s-returnst"/>return’st<anchor xml:id="e-returnst"/>, <anchor xml:id="s-wilt"/>wilt<anchor xml:id="e-wilt"/> tell me
+All strange wonders that befell thee,
+  And swear,
+ ‘Nowhere
+Lives a woman <anchor xml:id="s-true"/>true<anchor xml:id="e-true"/> and <anchor xml:id="s-fair"/>fair<anchor xml:id="e-fair"/>.’
+If thou <anchor xml:id="s-findst"/>find’st<anchor xml:id="e-findst"/> one, let me know:
+Such a <anchor xml:id="s-pilgrimage"/>pilgrimage<anchor xml:id="e-pilgrimage"/> were sweet;
+Yet do not: I would not go,
+Though at next door we might meet:
+Though she were true when you met her,
+And last till you write your letter,
+Yet she
+Will be
+False, ere I come, to two or three.
+</div></body></text>
+  <standOff>
+      <listAnnotation>
+        
+          <annotation xml:id="ann-fair" from="#s-fair" to="#e-fair">
+            <respStmt><resp>annotator</resp></respStmt>
+            <date>2026-03-16</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>&quot;Beautiful to the eye; of pleasing form or appearance; good-looking.&quot;</p>
+                  <listBibl><bibl>Weiner, E. S. C., and J. A. Simpson. *The Oxford English Dictionary*. 2nd ed. Oxford: Clarendon, 	1989. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-findst" from="#s-findst" to="#e-findst">
+            <respStmt><resp>annotator</resp></respStmt>
+            <date>2026-03-16</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>Second person singular of the verb &apos;find&apos; in the present tense.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-get-with-child-a-mandrake-root" from="#s-get-with-child-a-mandrake-root" to="#e-get-with-child-a-mandrake-root">
+            <respStmt><resp>annotator</resp></respStmt>
+            <date>2026-03-16</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>A mandrake is a plant with a short stem, a forked root and whitish flowers.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#context">
+                  <p>&quot;The mandrake is poisonous, having emetic and narcotic properties, and was formerly used medicinally.
+
+The forked root is thought to resemble the human form, and was fabled to utter a deadly shriek when plucked up from the ground. The notion indicated in the narrative of Genesis xxx, that the fruit when eaten by women promotes conception, is said still to survive in Palestine.&quot;</p>
+                  <listBibl><bibl>Weiner, E. S. C., and J. A. Simpson. *The Oxford English Dictionary*. 2nd ed. Oxford: Clarendon, 	1989. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>The mandrake&apos;s forked root, roughly resembling the human body, was valued in antiquity as an aphrodisiac and an enhancer of female fertility. But impregnating a mandrake root would be an impossibility (Mueller 494).</p>
+                  <listBibl><bibl>Janel M. Mueller. *John Donne: 21st-century Oxford Authors*. Oxford: Oxford UP, 2015. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-if-thou-beest-born-to-strange-sights-things-invisi" from="#s-if-thou-beest-born-to-strange-sights-things-invisi" to="#e-if-thou-beest-born-to-strange-sights-things-invisi">
+            <respStmt><resp>annotator</resp></respStmt>
+            <date>2026-03-16</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#textual-variants">
+                  <p>In a different version of the poem the line says &quot;go see&quot; instead of &quot;to see&quot;. In that case the second line would no longer be a specification of the „strange sights&quot; mentioned in the line above but an appeal to the addressee to go and look for invisible things (Redpath 119).</p>
+                  <listBibl><bibl>Donne, John. *The Songs and Sonets of John Donne*. Ed. Theodore Redpath. London: Methuen, 1987. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#textual-variants">
+                  <p>In the version with &quot;go see&quot; instead of &quot;to see&quot;,the theme of giving the addressee tasks impossible to fulfill is continued in the second stanza.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>These two lines can be read in two different ways. They could either refer to the feeling of being &quot;carried away by an urge to see strange sights&quot; (Ray 119) or the ability to perceive things that are strange (Ray 305). However, that Interpretation may change, considering the textual variants at hand.</p>
+                  <listBibl><bibl>Ray, Robert H. *A John Donne Companion*. London: Routledge, 2016. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-or-to-keep-off-envys-stinging" from="#s-or-to-keep-off-envys-stinging" to="#e-or-to-keep-off-envys-stinging">
+            <respStmt><resp>annotator</resp></respStmt>
+            <date>2026-03-16</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>&quot;stinging&quot; (OED): The action of wounding with a sting; an instance of this.</p>
+                  <listBibl><bibl>Weiner, E. S. C., and J. A. Simpson. *The Oxford English Dictionary*. 2nd ed. Oxford: Clarendon, 	1989. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>This sentence can be interpreted as a personification: to keep off envy&apos;s stinging means to stop the feeling of desiring a quality, possession, or other desirable thing belonging to someone else.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>This line is ambiguous. By connecting this phrase to the semantic field of impossibility it can be read as a criticism on the more general human nature not being able to be content with what they already have and always desiring more. Due to this fact, this sentence presents another impossible task. By connecting this sentence with the underlying semantic field of love between a man and a woman, this line can have a different and more paradoxical reading: Since there is no women that is true and fair (see annotation true and fair) then there is no need to feel envious of women about their alleged &quot;truth and fairness&quot;, too. </p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-or-who-cleft-the-devils-foot" from="#s-or-who-cleft-the-devils-foot" to="#e-or-who-cleft-the-devils-foot">
+            <respStmt><resp>annotator</resp></respStmt>
+            <date>2026-03-16</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>&quot;intr. To divide, split, cleave.&quot;</p>
+                  <listBibl><bibl>Weiner, E. S. C., and J. A. Simpson. *The Oxford English Dictionary*. 2nd ed. Oxford: Clarendon, 	1989. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#context">
+                  <p>Often the devil incarnate was depicted as a being with a cloven hoof. 
+
+The question, &quot;Who cleft the devil’s foot?&quot; is quite difficult to answer. It is linked to the underlying semantic field of impossibility and biblical reference.</p>
+                  <listBibl><bibl>https://www.twenty20.com/photos/32835825-962e-4097-9c6e-b7740fba7ea4)</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-pilgrimage" from="#s-pilgrimage" to="#e-pilgrimage">
+            <respStmt><resp>annotator</resp></respStmt>
+            <date>2026-03-16</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>&quot;A journey (usually of a long distance) to a sacred place undertaken as an act of religious devotion&quot; (Brewer&apos;s Dictionary 550). It can also refer to the place to which a pilgrimage is made.</p>
+                  <listBibl><bibl>Brewer, Ebenezer Cobham, and John Ayto. &quot;Pilgrimage.&quot; *Brewer&apos;s Dictionary of Phrase &amp; Fable*. New York: Collins, 2005. p. 550. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The speaker compares the finding of a woman &quot;true and fair&quot; to the religious concept of pilgrimage, thereby presenting that said woman as something divine and almost otherworldly. Donne&apos;s love poetry, in general, is permeated by religious concepts and language and &quot;either representing religious myths or mythologizing the real&quot; (Cruickshank 49). Though the conjunction of sexuality and religion might seem contradictory at first, for Donne, those were not mutually exclusive. Thus,the love for a woman or a wife led to love for God (Bennet 141). By remarking that &quot;such a pilgrimage were sweet&quot;, the speaker admits that he would actually like to go through the lengths of such a pilgrimage (i.e. ride then thousand days and nights) in order to find a woman that is &quot;true and fair&quot; and, by extension, hasn&apos;t lost all hopes when it comes to genuine love. This short remark seemingly breaks, even if only for a short amount of time, with the bitter and cynical tone of the poem and reveals the conflicting emotions of the speaker.</p>
+                  <listBibl><bibl>Bennet, Joan. &quot;The Love Poetry of John Donne.&quot; *Songs and Sonets*. Ed. Julian Lovelock. By John Donne. London: MacMillan, 1973. pp. 134-56. Print.</bibl><bibl>Cruickshank, Frances. *Verse and Poetics in George Herbert and John Donne*. Farnham: Ashgate, 2010.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#context">
+                  <p>During Donne&apos;s lifetime, a shift of values occurred by which sexuality was now sanctified by marriage. Before that, sexuality in and outside of marriage was considered sinful by doctrines of church and contemporary morality (cf. Bennet 139). Judging by the recurring themes of love and lust in Donne&apos;s works, sex outside of marriage was unproblematic as long as a &quot;union of soul and body&quot; would be achieved (ibid. 145).</p>
+                  <listBibl><bibl>Bennet, Joan. &quot;The Love Poetry of John Donne.&quot; *Songs and Sonets*. Ed. Julian Lovelock. By John Donne. London: MacMillan, 1973. pp. 134-56. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-returnst" from="#s-returnst" to="#e-returnst">
+            <respStmt><resp>annotator</resp></respStmt>
+            <date>2026-03-16</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>Second person singular of the verb &quot;return&quot; in the present tense.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-serves-tadvance-an-honest-mind" from="#s-serves-tadvance-an-honest-mind" to="#e-serves-tadvance-an-honest-mind">
+            <respStmt><resp>annotator</resp></respStmt>
+            <date>2026-03-16</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The phrase &quot;serves to advance an honest mind&quot; is ambiguous: A possible reading could be that the lyrical I is looking for something that gives honest people an advantage. A different reading suggests that the reader is asking about something that encourages people to be more honest.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-teach-me-to-hear-mermaids-singing" from="#s-teach-me-to-hear-mermaids-singing" to="#e-teach-me-to-hear-mermaids-singing">
+            <respStmt><resp>annotator</resp></respStmt>
+            <date>2026-03-16</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>An imaginary species of beings, more or less human in character, supposed to inhabit the sea, and to have the head and trunk of a woman, the lower limbs being replaced by the tail of a fish or cetacean. </p>
+                  <listBibl><bibl>Weiner, E. S. C., and J. A. Simpson. *The Oxford English Dictionary*. 2nd ed. Oxford: Clarendon, 	1989. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>&quot;mermaids&quot; could refer to the sirens of classical mythology, which seduced men with their singing and killed them subsequently. Thus teaching someone to hear the mermaids&apos; singing without being killed serves as an impossible task (Ray 305).</p>
+                  <listBibl><bibl>Ray, Robert H. *A John Donne Companion*. London: Routledge, 2016. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-thou" from="#s-thou" to="#e-thou">
+            <respStmt><resp>annotator</resp></respStmt>
+            <date>2026-03-16</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>&quot;The subjective case of the second person singular pronoun.&quot;</p>
+                  <listBibl><bibl>Weiner, E. S. C., and J. A. Simpson. *The Oxford English Dictionary*. 2nd ed. Oxford: Clarendon, 	1989. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-till-age-snow-white-hairs-on-thee" from="#s-till-age-snow-white-hairs-on-thee" to="#e-till-age-snow-white-hairs-on-thee">
+            <respStmt><resp>annotator</resp></respStmt>
+            <date>2026-03-16</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>&quot;The objective case of the pronoun thou, representing the Old English accusative and dative.&quot;</p>
+                  <listBibl><bibl>Weiner, E. S. C., and J. A. Simpson. *The Oxford English Dictionary*. 2nd ed. Oxford: Clarendon, 	1989. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#intratextuality">
+                  <p>Referring to the line above (Line 12) &quot;Ride ten thousand days and night&quot; is another statement to point out that it takes a lifetime to find someone who is &quot;true and fair&quot; - namely until one&apos;s hair is white like that of an old person.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-true" from="#s-true" to="#e-true">
+            <respStmt><resp>annotator</resp></respStmt>
+            <date>2026-03-16</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>&quot;Loyal or faithful&quot; *(OED)*.</p>
+                  <listBibl><bibl>Weiner, E. S. C., and J. A. Simpson. *The Oxford English Dictionary*. 2nd ed. Oxford: Clarendon, 	1989. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#language">
+                  <p>True in the sense of &quot;not lying&quot;.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#context">
+                  <p>The ambiguity between true in the sense of &quot;not lying&quot; vs true in the sense of &quot;loyal or faithful&quot; was a common field to be explored by early modern poetry (cf. Shakespeare&apos;s SON 138)</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-what-wind" from="#s-what-wind" to="#e-what-wind">
+            <respStmt><resp>annotator</resp></respStmt>
+            <date>2026-03-16</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The OED defines &quot;wind&quot; in two different ways:
+
+1. used to express various kinds of rapid or forcible motion;
+
+2. to go on one&apos;s way, take oneself; to proceed, go.
+
+A further definition:
+
+&quot;The noun is ambiguous between two homonyms: &apos;air in motion&apos; and &apos;curved or twisted form&apos;&quot; (Mueller 494).</p>
+                  <listBibl><bibl>Janel M. Mueller. *John Donne: 21st-century Oxford Authors*. Oxford: Oxford UP, 2015. Print.</bibl><bibl>Weiner, E. S. C., and J. A. Simpson. *The Oxford English Dictionary*. 2nd ed. Oxford: Clarendon, 	1989. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>Since the noun is ambiguous on the basis of several homonyms ( e.g. &quot;air in motion&quot; , &quot;curved or twisted form&quot;, &quot;to go on one&apos;s way, take oneself; to proceed, go&quot;), there are several possible ways of interpreting it. We decided to annotate the noun based on the meaning &quot;air in motion&quot;. However, it could also be referred to as &quot;curved or twisted form&quot;, since this meaning would rather fit into the rhyme scheme (due to its pronunciation), which would establish a contrastive connection with the following line (&quot;honest mind&quot; as something straightforward). The &quot;curved or twisted form&quot; fits to the a reading that suggests the underlying semantic fields throughout the poem consisting of negativity in combination with femininity.
+
+Since wind can be a metaphor from sailing, e.g. favourable wind (the wind which is leading the ship in the right direction), the meaning &apos;air in motion&apos; seems to be the most relatable (Craik 235).</p>
+                  <listBibl><bibl>Donne, John. *Selected Poetry and Prose*. Ed. T. W. Craik and R. J. Craik. London: Methuen, 1986. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>In the context of the poem (especially in the first stanza), the lyrical I is reflecting on several impossible tasks. One of them is to &quot;find what wind serves to advance an honest mind&quot;. Therefore, the context of the poem justifies the interpretation of &quot;wind&quot; as &quot;favourable wind&quot; which leads to the fulfilment of the task.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-wilt" from="#s-wilt" to="#e-wilt">
+            <respStmt><resp>annotator</resp></respStmt>
+            <date>2026-03-16</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>&quot;Archaic second person singular of &quot;will&quot;.&quot;</p>
+                  <listBibl><bibl>Weiner, E. S. C., and J. A. Simpson. *The Oxford English Dictionary*. 2nd ed. Oxford: Clarendon, 	1989. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+      </listAnnotation>
+    </standOff>
+</TEI>

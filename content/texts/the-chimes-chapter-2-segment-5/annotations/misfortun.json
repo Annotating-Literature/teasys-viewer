@@ -1,0 +1,42 @@
+{
+  "id": "misfortun",
+  "anchorText": "misfortun’",
+  "anchorStart": 166,
+  "anchorEnd": 176,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The words *(mis)fortune, creature*, and *nature*, which Fern uses in these passages, are of French origin, which means that they were originally pronounced with a [t] (cf. Gerson 253). Later, the plosive [t] in these words became the affricate [tʃ] in standard English but remained [t] in the dialects (cf. Wright §285). Thus, the standard pronunciation would be /ˈkriːtʃə/, while Dickens's spelling suggests the pronunciation /ˈkriːtə/ (cf. Gerson 251). Dickens often uses this pronunciation for uneducated characters.",
+      "worksCited": [
+        "Gerson, Stanley. *Sound and Symbol in the Dialogue of the Works of Charles Dickens*. Stockolm et al. : Almqvist & Wiksell, 1967. Print.",
+        "Wright, Joseph. *English Dialect Grammar*. Oxford et al.: Henry Frowde, 1905. Print."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "The development from [t] to [tʃ] in words derived from French dates back to the early eighteenth century and might have begun as a \"stage affectation\" (Gerson 255). Webster suggests that the pronunciation with [tʃ] was introduced by the actor David Garrick (1717-1779) and that people then started to imitate the pronunciation of the famous actor (cf. 148; cf. 30). It is also argued that the pronunciation with [tʃ] was later used by \"refined\" speakers (cf. Gerson 253).\n\nDespite the alleged use by \"refined\" speakers, this pronunciation drew criticism. In the 1780s, it is called an \"anomaly of our language\" (Nares 131) and a \"modern corruption in the English language\" (Webster 146). Nares also states that in some plays and novels the \"proper\" pronunciation with [t] is even ridiculed as \"low-lived\" (130), an observation that is shared by Webster (cf. Webster 158). It is possible that Dickens, writing eighty years later, still uses the pronunciation with [t] instead of [tʃ] in order to indicate that a speaker is \"low-lived\".",
+      "worksCited": [
+        "Gerson, Stanley. *Sound and Symbol in the Dialogue of the Works of Charles Dickens*. Stockolm et al. : Almqvist & Wiksell, 1967. Print.",
+        "Nares, Robert. *Elements of Orthoepy*. London: Payne and Son, 1784. Print.",
+        "Webster, Noah. *Dissertations on the English Language*. Boston: Isaiah Thomas, 1789. Print."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "context",
+      "body": "While it is likely that in *The Chimes* the pronunciation with [t] indicates that Will Fern is not educated, this pronunciation is used to create a humorous effect in other works by Dickens. Among the other characters created by Dickens who often use this pronunciation are the Cockney Sam Weller who works as a valet (*The Posthumous Papers of the Pickwick Club*), Mrs. Gamp, an alcoholic midwife (*Martin Chuzzlewit*), and Captain Cuttle (*Dombey and Son*). Furthermore, this pronunciation is sometimes used by the Americans in *Martin Chuzzlewit* (cf. Gerson 252f.).",
+      "worksCited": [
+        "Gerson, Stanley. *Sound and Symbol in the Dialogue of the Works of Charles Dickens*. Stockolm et al. : Almqvist & Wiksell, 1967. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-07T18:18:20.900Z",
+  "updatedAt": "2026-05-07T18:21:00.517Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "fortun",
+  "anchorText": "fortun’",
+  "anchorStart": 4225,
+  "anchorEnd": 4232,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "For information about Will Fern's pronunciation see the annotation about [[misfortun]].",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-07T18:49:59.349Z",
+  "updatedAt": "2026-05-07T18:50:09.783Z"
+}

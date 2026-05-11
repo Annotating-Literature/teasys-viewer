@@ -1,0 +1,38 @@
+{
+  "id": "influence",
+  "anchorText": "influence",
+  "anchorStart": 489,
+  "anchorEnd": 498,
+  "authors": [
+    "Svenja Brank",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The *Oxford English Dictionary* defines ‘influence’ in relation to astrology as: “[t]he supposed flowing or streaming from the stars of heavens of an ethereal fluid acting upon the character and destiny of men, and affecting sublunary things generally” (“influence, *n*.” 2.a.). As the poem revolves around the relationship the speaker shares with the stars (cf. [[all-through-the-night-your-glorious-eyes-were-gazing-down-in-mine]]), the astrological meaning of the word suggests that the “sweet influence” (l. 15) that “thrilled through”(l. 16) originates from the stars and affects the speaker of the poem.\nThe *Oxford English Dictionary* also connects “influence” to a divine notion by portraying it as an infusion of a divine energy or power into an object or a person (“influence, *n*.” †3.).\nInfluence, in the poem, might also be connected to the divine, as the speaker attributes the intimate relationship with the stars to the divine in the second stanza (cf. [[divine]]).",
+      "worksCited": [
+        "\"influence, *n*.\" *OED Online*, Oxford University Press, June 2021, www.oed.com/view/Entry/95519. Accessed 18 July 2021."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "In the 19th century, the notion of influence carried a female connotation. Popular conduct books ascribed “to women great ‘influence’ - symbolic capital which assigned them responsibility for the moral condition of a society which denied them political and economic power” (Alexander and Smith 546). In the context of the poem, this female connotation of the stars provides a possible context to read the poem in.",
+      "worksCited": [
+        "Alexander, Christine and Smith, Margaret. *The Oxford Companion to the Brontë’s*. Oxford University Press. 2018."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "The notion of ‘influence’ in the poem describes a divine power, that effects a fusion between the speaker and the stars: “while one sweet influence, near and far, // Thrilled through, and proved us one” (l. 15-16). The notions of femininity associated with the word, at least for 19th century readers, further establishes the gendering of the stars as female and the sun as male in the poem. The feminine nature of the stars further emphasizes a maternal reading of the poem (cf. [[i-was-at-peace-and-drank-your-beams-as-they-were-life-to-me]]).",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-19T10:07:56.339Z",
+  "updatedAt": "2026-03-20T00:37:09.511Z"
+}

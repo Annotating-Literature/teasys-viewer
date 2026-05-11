@@ -1,0 +1,38 @@
+{
+  "id": "or",
+  "anchorText": "Or",
+  "anchorStart": 0,
+  "anchorEnd": 2,
+  "authors": [],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "In this context, \"or...or\" means \"whether…or\" (cf. \"or, conj.1.\" Def. 3b).\n\n The meaning \"whether…or\" for \"or…or\" has been obsolete since the eighteenth century but was not unusual in Shakespeare's time (cf. \"or, conj.1.\" Def. 3b). For an explanation why the meaning \"whether… or\" is more likely in this context than \"either… or\" see Level 2.",
+      "worksCited": [
+        "\"or, conj.1.\" Def. 3b. *OED Online*. OUP, Sept. 2016. Web. 26 Nov. 2016."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "form",
+      "body": "The \"Or\" makes the beginning of sonnet 81 seem very sudden and one could describe it as an 'in medias res' (\"into the middle of things\") start (cf. Hardison and Hornsby 707). This is a recurring feature of Shakespeare's sonnets and creates the impression that \"the reader is being taken immediately into the ongoing thought process of the poetic voice\" (Edmondson and Wells 58). In the case of sonnet 81, one might also be induced to believe that one is overhearing a conversation rather than a thought, which could be connected to the overall impression of sonnet 81 as spoken rather than written/read silently.",
+      "worksCited": [
+        "Edmondson, Paul, and Stanley Wells. *Shakespeare's Sonnets*.  Oxford: OUP, 2004. Print.",
+        "Hardison, O.B., and Roger A. Hornsby. \"in medias res.\" *The Princeton Encyclopedia of Poetry and Poetics*. Ed. Roland Greene et al. 4th ed. Princeton, NJ: Princeton UP, 2012. 707-708. Print."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The first two lines of sonnet 81 can be paraphrased as ‘it does not matter whether I live longer than you or you live longer than me'.\n\nThe meaning \"either…or\" for \"or…or\", which is common today, was also used in Shakespeare's time, for example in his *Comedy of Errors* 1.1.136 (cf. \"or, conj.1.\" Def. 3a). However, this reading is unlikely in the context of sonnet 81. It would mean that the speaker is stating the obvious, namely that either he will die before the addressee or the addressee before him. Thus, the meaning ‘no matter who of us dies first, your memory will survive' (\"whether…or\") is much more probable than ‘either I die first or you, but your memory will survive' (\"either…or\").",
+      "worksCited": [
+        "\"or, conj.1.\" Def. 3a. *OED Online*. OUP, Sept. 2016. Web. 26 Nov. 2016."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T15:13:50.484Z",
+  "updatedAt": "2026-03-18T15:15:49.919Z"
+}

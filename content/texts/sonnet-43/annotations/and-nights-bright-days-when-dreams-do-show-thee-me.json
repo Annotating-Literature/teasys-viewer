@@ -1,0 +1,49 @@
+{
+  "id": "and-nights-bright-days-when-dreams-do-show-thee-me",
+  "anchorText": "And nights bright days when dreams do show thee me.",
+  "anchorStart": 603,
+  "anchorEnd": 654,
+  "authors": [
+    "Liubov Bolshakova"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The phrase ‘bright day' refers to daytime, esp. \"in terms of its clarity, purity, brightness, etc.; a light like that of day\" (*OED* 21).",
+      "worksCited": [
+        "\"day, n.\". *OED Online*. Oxford UP, March 2017."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "form",
+      "body": "The main dispute in this line is caused by the word order of \"do show thee me\". The sense here should be \"show thee to me\" but the rhythm (a stress on *me*) and the idiom ordinarily dictate \"show me to thee\" (Booth 205). Duncan-Jones also suggests that the possible need for a rhyme prompted this syntactical ambiguity (\"show me to you\" and \"show you to me\"), which has \"the odd effect of leaving the final stress on *me* rather than *thee*\" (Duncan-Jones 196).",
+      "worksCited": [
+        "Booth, Stephen (ed.). *Shakespeare's Sonnets*. Yale UP, 1977. ",
+        "Duncan-Jones, Katherine (ed.). *Shakespeare's Sonnets*. The Arden Shakespeare, Third Series (Rev. ed.), Bloomsbury, 2010."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The line juxtaposes the nights and bright days to emphasize that the speaker sees the addressee when dreaming (in night) as clear as in daytime (bright days). By using metaphorical images, the speaker conveys his happiness (cf. Level 1 Form [[all-days-are-nights-to-see-till-i-see-thee]]) to see the addressee's image; his days are like nights because he is sad because he does not see the addressee. The dream acts as a medium to evoke the addressee's image, thus, the phrase can be interpreted as \"I am dependent on dreams to show you to me\" (Vendler 224).",
+      "worksCited": [
+        "Vendler, Helen. *The Art of Shakespeare's Sonnets*. The Belknap P, 1997. "
+      ]
+    },
+    {
+      "level": 3,
+      "category": "intratextuality",
+      "body": "The whole poem is considered to be a work of \"elaborate wordplay\" (Vendler 39): brightness and darkness (l. 4), shadow and form (ll. 5, 6), day and night (ll. 7, 10, 11, 13, 14). They are emphasised by using words of the same roots, repeating similar words in different meanings and playing with the oxymorons. This play with contrasting images and concepts underpins the general impression of paradox between dreams and reality. Booth suggests that \"the recurring themes of this sonnet – things that are the opposite of what they would normally be expected to be, and the distinction between images or shadows of objects and the objects themselves – are played out stylistically in an intense display of antithesis and a range of rhetorical devices of repetition that make the language of the poem suggest mirror images\" (203).",
+      "worksCited": [
+        "Booth, Stephen (ed.). *Shakespeare's Sonnets*. Yale UP, 1977.",
+        "Vendler, Helen. *The Art of Shakespeare's Sonnets*. The Belknap P, 1997."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T13:15:44.843Z",
+  "updatedAt": "2026-03-17T20:36:19.627Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ceremony",
+  "anchorText": "ceremony",
+  "anchorStart": 223,
+  "anchorEnd": 231,
+  "authors": [
+    "Irina Savić",
+    "Ilea Rahn"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "A ceremony is a multitude or a set of actions according to customs, traditions or official rules. It usually involves specific cultural, social or religious behaviours or rituals (“Ceremony, *n.*”, Sense 3).",
+      "worksCited": [
+        "“Ceremony, *n.*” Oxford English Dictionary, Oxford UP, June 2025, doi.org/10.1093/OED/1180259794. Accessed 5 Oct. 2025."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-03T15:21:24.861Z",
+  "updatedAt": "2026-04-15T15:24:55.774Z"
+}

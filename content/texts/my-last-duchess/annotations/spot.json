@@ -1,0 +1,30 @@
+{
+  "id": "spot",
+  "anchorText": "spot",
+  "anchorStart": 640,
+  "anchorEnd": 644,
+  "authors": [
+    "Minella Fernandes",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The word “spot” can either mean a stain, a blemish or a flaw, (“spot, *n*.1 and *adv*.” A.I.1.) referring to something physical, or metaphorically refer to a moral stain or flaw (“spot, *n*.1” A.I.2.a). Another, now obsolete, use of this word referred to a “stigma left by a specified sin or disgrace” (“spot, *n*.1” A.I.2.b).",
+      "worksCited": [
+        "\"spot, *n*.1 and *adv*.\" *OED Online*, Oxford University Press, March 2022, www.oed.com/view/Entry/187518. Accessed 18 April 2022."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The word ‘spot’ here firstly refers to the physical blush visible on the duchess’ cheek. Secondly, the duke uses the word to point out the figurative moral stain that comes along with it. By commenting on her physical appearance, he thus also makes a subtle reference to the duchess’ character by calling her morally flawed because she found happiness in others, too, not just her husband. It can, therefore, be read as a statement of jealousy.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-20T00:33:57.042Z",
+  "updatedAt": "2026-03-20T00:34:58.945Z"
+}

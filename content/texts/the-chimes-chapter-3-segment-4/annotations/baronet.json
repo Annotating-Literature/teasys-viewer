@@ -1,0 +1,32 @@
+{
+  "id": "baronet",
+  "anchorText": "Baronet",
+  "anchorStart": 1797,
+  "anchorEnd": 1804,
+  "authors": [
+    "Svenja Brank",
+    "Diana Nowicki"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The order of the baronet is the order that ranks below a baron but over the orders of knighthood (\"baronet, n.\" 2) and thus the highest rank that is not nobility.",
+      "worksCited": [
+        "\"baronet, n.\" *OED Online*, Oxford University Press, September 2020, www.oed.com/view/Entry/15666. Accessed 9 November 2020."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "Baronets were members of the gentry (Pool 265), and \"landowners in the country\" (Pool 313). This explains why Joseph Bowley's guests are also referred to as \"his tenants\" (Dickens 133). Baronets were among the upper ranks in the gentry (Pool 313), and it was a title of the \"very upper middle class\" (Pool 37). Accordingly, baronets do not sit in the House of Lords, but they might sit in the House of Commons (Pool 38), as Sir Joseph Bowley does. The title of baronet is hereditary (Pool 265), and therefore Joseph Bowley's son, \"the heir of Bowley, aged twelve\" (Dickens 133), will inherit the title and become a baronet as well.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*. Ed. Robert Douglas-Fairhurst. Oxford University Press, 2008, pp. 85-162."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-09T09:07:10.647Z",
+  "updatedAt": "2026-05-09T09:08:05.139Z"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "in-table-of-my-heart",
+  "anchorText": "in table of my heart",
+  "anchorStart": 69,
+  "anchorEnd": 89,
+  "authors": [
+    "admin"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "With this specific line as an example, ‘table' is defined in the *OED* as a \"board or other flat surface on which a picture is painted\" (3) or indeed as \"the picture itself\" (3). A table may also be a \"writing tablet\" (2b).",
+      "worksCited": [
+        "\"table, n.\". *OED Online*, Oxford University Press, December 2018, www.oed.com/view/Entry/196785. Accessed January 2019."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "intertextuality",
+      "body": "In *All's Well That Ends Well*, Shakespeare makes use of a similar phrasing within the context of love, painting and imagination. In act 1 scene 1, Helena laments the absence of her beloved Bertram and evokes the image of drawing his features \"in [her] heart's table\":\n\n\"'Twas pretty, though a plague,\nTo see him every hour; to sit and draw\nHis archèd brows, his hawking eye, his curls,\nIn our heart's table; heart too capable\nOf every line and trick of his sweet favour:\nBut now he's gone, and my idolatrous fancy\nMust sanctify his reliques\" (ll. 80-86). ",
+      "worksCited": [
+        "Shakespeare, William. *All's Well That Ends Well*. Ed. Russell Fraser, The New Cambridge Shakespeare, Cambridge University Press, 2003. "
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "The phrase \"in table of my heart\" alludes to an established metaphor to be found in numerous biblical as well as secular sources. In the second epistle to the Corinthians, Paul the Apostle writes: \"Forasmuch as ye are manifestly declared to be the epistle of Christ ministered by us, written not with ink, but with the Spirit of the living God; not in tables of stone, but in fleshly tables of the heart\" (2 Cor. 3:3 *Holy Bible* 184; cf. *OED* table, n. 2c). In the Proverbs, 3:3 reads: \"Let not mercy and truth forsake thee: bind them about thy neck; write them upon the table of thine heart\" (*Holy Bible* 591).\n\nYet the image in Shakespeare need not be of biblical origin. Already in antiquity, memory was envisioned as a \"writing surface\" or a \"wax tablet ready to receive impressions\" (Watson 345). Thus, to inscribe something on the table of one's memory (cf. *Hamlet* 1.5.98-99: \"from the table of my memory/ I'll wipe away all trivial fond records\") was no new conception and survives until today. Furthermore, the ‘heart' was through the ages not only considered a \"metonym for romantic devotion\" (Roychouhdry 112) but was also often used as an equivalent to ‘memory' (see, for example, the phrase ‘to learn something by heart'). The Latin verb for ‘recollect, remember' is indeed ‘recordari', which, according to Varro, is etymologically composed from \"*revocare* \"to call back\" and cor \"heart\"\" (Carruthers 59). Finally, taking into consideration the last line of this sonnet, the ‘heart' may also stand for \"a person's inmost being\", one's \"soul\" (*OED* 6a) and distilled essence.\n\nOther authors also made use of this trope. See, for example, Samuel Daniel's sonnet 13 in *Delia* \"I figurde on the table of mine hart,/ The fairest forme, that all the world admires\" (ll. 6-7 qtd. in Evans 137n2), or Pierre de Ronsard's sonnet vi from his \"Sonnets et Madrigals pour Astrée\" (published in the collection *Les amours*): \"Il ne fallait, Maîtresse, autres tablettes/ Pour vous graver, que celles de mon cœur\" (ll. 1-2) (\"There is no need, my mistress, for other tables / To engrave you on, other than those my heart\", my translation) (cf. Rollins 70n2). ",
+      "worksCited": [
+        "Carruthers, Mary. *The Book of Memory: A Study of Memory in Medieval Culture*. Cambridge Studies in Medieval Literature, Second Edition, Cambridge University Press, 2008.",
+        "Evans, G. Blakemore (ed.). *The Sonnets*. The New Cambridge Shakespeare, Cambridge University Press, 2006.",
+        "\"heart, n.\". *OED Online*, Oxford University Press, December 2019, www.oed.com/view/Entry/85068. Accessed January 2020",
+        "*The Holy Bible Containing the Old and New Testaments: Translated out of the Original Tongues and with the Former Translations Diligently Compared and Revised*. King James Version (1611), American Bible Society, 1816.",
+        "Rollins, Hyder Edward. *A New Variorum Edition of Shakespeare: The Sonnets*. Vol. 24, Part 1, J. P. Lippincott Company, 1944. Google Books. Accessed March 2017.",
+        "Ronsard, Pierre de. \" Sonnets et Madrigals pour Astrée: Sonnet iv \". *Les Amours*, Ed. Françoise Joukovsky, Gallimard, 1964, p. 267.",
+        "Roychoudhry, Suparna. \"Anatomies of Imagination in Shakespeare's Sonnets\". *Studies in English Literature, 1500-1900*, 54.1, Winter 2014, pp. 105-124. *Project Muse*, doi: 10.1353/sel.2014.0005 Titel anhand dieser DOI in Citavi-Projekt übernehmen. Accessed March 2017.",
+        "Shakespeare, William. *Hamlet, Prince of Denmark*. Ed. Philip Edwards, The New Cambridge Shakespeare, Cambridge University Press, 2003.",
+        "\"table, n.\". *OED Online*, Oxford University Press, December 2018, www.oed.com/view/Entry/196785. Accessed January 2019.",
+        "Watson, Amanda. \"\"Full character'd\": Competing Forms of Memory in Shakespeare's Sonnets\". *A Companion to Shakespeare's Sonnets*, Ed. Michael Schoenfeldt, Blackwell Companions to Literature and Culture, Blackwell Publishing, 2007, pp. 343-360."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "In the context of painting, the ‘table' would most obviously refer to the wooden panel on which the picture is painted or to the actual tableau. Yet, the image of the writing tablet should not utterly be dismissed considering that \"steeled\" (l. 1) could possibly mean ‘to engrave with a (writing) stylus' (cf. Ingram and Redpath 61-62n1). The phrase is a common one in Shakespeare's time and can be associated with the permanency of memory and the intimacy of the heart.",
+      "worksCited": [
+        "Ingram, W. G. and Theodore Redpath (eds.). *Shakespeare's Sonnets*. University of London Press, 1967."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T10:42:34.566Z",
+  "updatedAt": "2026-03-18T10:48:17.812Z"
+}

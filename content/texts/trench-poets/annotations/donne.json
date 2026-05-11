@@ -1,0 +1,31 @@
+{
+  "id": "donne",
+  "anchorText": "Donne",
+  "anchorStart": 204,
+  "anchorEnd": 209,
+  "authors": [
+    "Carina Sacun"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "John Donne (1572 - 1631), was an English [[metaphysical]] poet and Dean of St. Paul's. He is best known for his love and erotic verses, religious poems and sermons. His major works include *Songs and Sonnets* and the *Divine Poems*.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "Metaphysical Poetry is characterised by the use of inventive syntax, paradoxical images, and comparing ideas that seem unconnected to express philosophical and spiritual subjects. It combines imagery from art, philosophy, and religion using an extended metaphor known as a conceit.\n\nThe term \"metaphysics\" was used first by Dryden to criticizes Donne for being driven by thought and not sensuality when writing love poetry: \"He affects the metaphysics, not only in his satires, but in his amorous verses, where nature only should reign; and perplexes the minds of the fair sex with nice speculations of philosophy, when he should engage their hearts, and entertain them with softnesses of love\" (Dryden). However, Samuel Johnson, an eighteenth-century English essayist, poet, and philosopher was the first to coin this term in relation to a literary genre: Metaphysical Poetry. It describes a loose group of poets including George Herbert, Richard Crashaw, Andrew Marvell, Henry Vaughan, and of course John Donne.",
+      "worksCited": [
+        "Clements, A.L. (ed.) *John Donne's Poetry*. New York and London: W. W. Norton & Company, 1966. Print.",
+        "Dryden, John. \"Essay on Satire: Adressed to the Right Honourable Charles, Earl of Dorset and Middlesex, Lord Chamberlain of his Majesty's Household, Knight of the most noble order of the garter\". *The Works of John Dryden, Now First Collected in 18 Volumes*. Vol. 13. London: Miller, 1808. http://www.gutenberg.org/files/47383/47383-h/47383-h.htm",
+        "Nutt, Joe. *John Donne: The Poems*. London: Macmillan Press Ltd, 1999. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:53:19.100Z",
+  "updatedAt": "2026-03-16T23:54:56.091Z"
+}

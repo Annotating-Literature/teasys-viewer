@@ -1,0 +1,44 @@
+{
+  "id": "get-with-child-a-mandrake-root",
+  "anchorText": "Get with child a mandrake-root",
+  "anchorStart": 218,
+  "anchorEnd": 248,
+  "authors": [
+    "Tobias Janiak",
+    "Michelle Nowers",
+    "Hannah Paxian"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "intertextuality",
+      "body": "The poem's speaker is quoting the second line of John [[donne]]'s \"Song: Go and catch a falling star.\" (Donne 73, l. 2).\n\nFor the full text see: http://www.luminarium.org/sevenlit/donne/song.php",
+      "worksCited": [
+        "Donne, John. \"Song.\" *John Donne's Poetry*. Ed. Donald R. Dickson. New York: Norton, 2007. 73-74. \tPrint."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "intertextuality",
+      "body": "The line is part of the first stanza of [[donne]]'s poem in which the speaker is charging the addressee with impossible tasks, such as to \"catch a falling star\" (Donne 73, l. 1). \"Get with child a mandrake-root\" (73, l. 2) is to be read as: Make the mandrake root pregnant (cf. Allen 397, Redpath 119). The speaker stresses that, even if the addressee was able to fulfil these tasks, he could not convince him that a \"true and fair\" (Donne 74, l. 18) woman exists.",
+      "worksCited": [
+        "Allen, D. C. \"Donne on the Mandrake.\" *Modern Language Notes* 74.5 (1959): 393-97. Print.",
+        "Donne, John. \"Song.\" *John Donne's Poetry*. Ed. Donald R. Dickson. New York: Norton, 2007. 73-74. \tPrint.",
+        "Robbins, Robin, ed. *The Poems of John Donne. Epigrams, Verse Letters to Friends, Love-lyrics, Love-elegies, Satire*. Harlow: Pearson/Longman, 2008. Print.",
+        "Redpath, Theodore, ed. *The Songs and Sonnets of John Donne*. 2nd ed. London: Methuen, 1983. Print."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "A possible interpretation would be to connect the impossibility of begetting a child on a seemingly human root to the futility of the speaker's attempt to [[rouse]] (Rickword 6) his dead friend by reciting poetry to him.",
+      "worksCited": [
+        "Rickword, Edgell. \"Trench Poets.\" *The New Oxford Book of War Poetry*. Ed. Jon Stallworthy. Oxford: Oxford UP, 2014. 223. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:50:27.593Z",
+  "updatedAt": "2026-03-21T01:30:43.505Z"
+}

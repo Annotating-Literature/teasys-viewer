@@ -1,0 +1,21 @@
+{
+  "id": "tongues-to-be",
+  "anchorText": "tongues to be",
+  "anchorStart": 446,
+  "anchorEnd": 459,
+  "authors": [
+    "admin"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "(Tongues of) people who are not yet born; people in the future.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T16:40:49.640Z",
+  "updatedAt": "2026-03-18T16:41:08.216Z"
+}

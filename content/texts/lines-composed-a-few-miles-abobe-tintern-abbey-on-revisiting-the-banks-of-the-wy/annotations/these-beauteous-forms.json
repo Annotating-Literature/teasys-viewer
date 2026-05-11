@@ -1,0 +1,31 @@
+{
+  "id": "these-beauteous-forms",
+  "anchorText": "These beauteous forms",
+  "anchorStart": 994,
+  "anchorEnd": 1015,
+  "authors": [
+    "admin",
+    "Sandra Wetzel",
+    "Pavlina Papadopoulou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "Edmund Burke, who had published a treatise on aesthetics in 1757, has written on the idea of the aesthetic concept of the Beautiful: \"Beauty is, for the greater part, some quality in bodies acting mechanically upon the human mind by the intervention of the senses.\" (Burke, Part III, xii).",
+      "worksCited": [
+        "Burke, Edmund. *A Philosophical Enquiry into the Origin of Our Ideas of the Sublime and Beautiful*, (1757), Cambridge University Press, 2014."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Throughout the poem, from its to title to its very last lines – \"[a]nd this green pastoral landscape, were to me/ More dear, both for themselves and for thy sake!\" (v.162) –, nature is being revered. Its beauty is exciting pleasure on a physical and intellectual level, and this very beauty of nature should inspire love, even affection, in the observer and reader.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T18:02:22.318Z",
+  "updatedAt": "2026-03-16T18:03:24.140Z"
+}

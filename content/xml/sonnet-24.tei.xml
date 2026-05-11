@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Sonnet 24</title>
+          <author>William Shakespeare</author>
+        </titleStmt>
+        <publicationStmt><p>TEASys Viewer</p></publicationStmt>
+        <sourceDesc><p>Annotating Literature, Tübingen University</p></sourceDesc>
+      </fileDesc>
+    </teiHeader>
+  <text><body><div><anchor xml:id="s-mine-eye-hath-played-the-painter"/>Mine eye hath played the painter<anchor xml:id="e-mine-eye-hath-played-the-painter"/> and hath steeled
+Thy beauty&apos;s form in table of my heart;
+My body is the frame wherein &apos;tis held ,
+And perspective it is best painter&apos;s art;
+For through the painter must you see his skill,
+To find where your true image pictured lies,
+Which in my bosom&apos;s shop is hanging still,
+That has his windows glazed with thine eyes:
+Now see what good turns eyes for eyes have done:
+Mine eyes have drawn thy shape, and thine for me
+Are windows to my breast, wherethrough the sun
+Delights to peep, to gaze therein on thee;
+Yet eyes this cunning want to grace their art:
+They draw but what they see, know not the heart.</div></body></text>
+  <standOff>
+      <listAnnotation>
+        
+          <annotation xml:id="ann-mine-eye-hath-played-the-painter" from="#s-mine-eye-hath-played-the-painter" to="#e-mine-eye-hath-played-the-painter">
+            <respStmt><resp>annotator</resp><name>Natalia Christoforou</name></respStmt>
+            <date>2026-03-15</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>&apos;To play&apos; here means to pretend to be, &quot;to act the part of [and] perform the duties or characteristic actions of&quot; a certain person (*OED 28a*), in this case of a painter.</p>
+                  <listBibl><bibl>&quot;play, *v.*&quot;. *OED Online*, Oxford University Press, December 2018, www.oed.com/view/Entry/145475. Accessed January 2019.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#form">
+                  <p>The sonnet begins with a personification of the speaker&apos;s eye, which is presented as being capable of taking on the role or task of a painter. &quot;Mine eye&quot; (l. 1) may stand synecdochically for both eyes and it was often used by Shakespeare in the singular (cf. sonnet 46 ll. 1, 3, 4; sonnet 47 ll. 1, 3, 5, 7, 14; sonnet 113 l. 1; sonnet 114 ll. 3, 11, 14).</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#context">
+                  <p>In having his eye(s) undertake the role of a painter, the speaker of the sonnet evokes the pictorial nature of cognition. In the Renaissance, theories of cognition were still largely founded on Aristotelian ideas, according to which the object of perception sent off a likeness of itself – a so-called ‘species&apos; – that impressed itself on the beholder&apos;s eye (Clark 15). This impression – represented in unequivocally pictorial terms such as a ‘mental picture&apos;, a ‘phantasm&apos; or a &quot;sort of *eikōn*&quot; (Carruthers 18-19) – was thought to make its way through the outer sense of vision to the inner senses, namely the common sense, imagination and memory (Rossky 50-51). &quot;In *De Memoria*, when exploring the difference between a mental impression and the ‘objective thing&apos; from which it derived, Aristotle compare[s] it to a ‘picture painted on a panel[…]&apos;&quot; (qtd. in Clark 15).</p>
+                  <listBibl><bibl>Carruthers, Mary. *The Book of Memory: A Study of Memory in Medieval Culture*. Cambridge Studies in Medieval Literature, Second Edition, Cambridge University Press, 2008. </bibl><bibl>Clark, Stuart. *Vanities of the Eye: Vision in Early Modern European Culture*. Oxford University Press, 2007.</bibl><bibl>Rossky, William. &quot;Imagination in the English Renaissance: Psychology and Poetic&quot;. *Studies in the Renaissance, Vol. 5*, The University of Chicago Press on behalf of the Renaissance Society of America, 1950, pp. 49-73. *The University of Chicago Press Journals*,  doi: 10.2307/2856974. Accessed January 2017.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>The speaker adopts the metaphor of painting in order to explain the workings of vision, imagination and memory. The process of falling in love with the image of the addressee and of beholding the memory of &quot;[t]hy beauty&apos;s form&quot; (l. 2) is described as a highly &quot;aesthetic, or rather an artistic process&quot; (Bondroit 51). The visual representation of the addressee secured in the recesses of the speaker&apos;s mind is depicted as an accurate portrait of the former hanging in the latter&apos;s &quot;bosom&apos;s shop&quot; (l. 7).
+
+The verb ‘to play&apos; introduces a new dimension to the sonnet as it invites the reader to consider &quot;the poem through the lens of drama&quot; (Mead 237). Although not much attention has been paid to this aspect, it is arguably no coincidence when evoked by one of the greatest playwrights of all times. The purportedly deliberate use of this verb seems to imply that though the ‘I&apos; of the speaker is that of a poet, his ‘eye&apos; attempts to play the part of a painter.
+
+Following sonnet 23 where the speaker likens himself to &quot;an unperfect actor on the stage&quot; (l. 1), sonnet 24 opens again with an actor that attempts to explore in a dramatic fashion the relationship between painting and poetry (Mead 237). The poem&apos;s first line seems to evoke the famous apophthegm ‘ut pictura poesis&apos; attributed to Horace (although a similar formulation is traced back to Simonides of Ceos), which has, over the centuries, inflamed numerous debates over which craft should be considered as superior. Even though the speaker of sonnet 24 seems at first to extol the art of painting, in the last couplet he suddenly breaks character and comes to the conclusion that even the most faithful drawing can never capture a person&apos;s essence of being. </p>
+                  <listBibl><bibl>Bondroit, Benoît. &quot;The Anatomy of Sight: Poetic Eyedentity in Shakespeare&apos;s *Sonnets* to the Fair Youth&quot;. *Actes des congrès de la Société française Shakespeare*, Ressources et prix du mémoire, 2012. http://journals.openedition.org/shakespeare/1989. Accessed December 2016. </bibl><bibl>Mead, Stephen X. &quot;Shakespeare&apos;s Play with Perspective: Sonnet 24, Hamlet, Lear&quot;. *Studies in Philology 109.3*, Spring 2012, pp. 225-257. *EBSCOhost*, doi: 10.1353/sip.2012.0021. Accessed March 2017. </bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+      </listAnnotation>
+    </standOff>
+</TEI>

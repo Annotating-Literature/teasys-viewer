@@ -1,0 +1,46 @@
+{
+  "id": "work",
+  "anchorText": "work",
+  "anchorStart": 172,
+  "anchorEnd": 176,
+  "authors": [
+    "Sandra Wetzel"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"Work\" may have several meanings in this context. For one, that of \"regular occupation or employment\" but also of \"physical or mental effort […] undertaken in order to achieve a result, esp. as a means of making one's living or earning money\" (*OED* \"work, *n.*\" I.4.a.).\n\nThe \"tears\" (7) evoke another meaning of \"work\", namely that within the field of \"suffering, pain; distress, affliction\", which is obsolete nowadays but still used in the 19th century (*OED* \"work, *n.*\" III. 24).\n\nThere is also the theological connotation of \"work\", which is a \"good or moral act or deed considered in relation to justification before God\" (*OED* \"work, *n.*\" I.1.c).",
+      "worksCited": [
+        "\"work, *n.*\" *OED Online*. Oxford UP, Sept 2014. Web. June 18, 2019."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "language",
+      "body": "The *OED* links its theological entry for \"work\" (\"work, *n.*\" I.1.c) to that of \"good work\" which is defined as follows: \"A morally commendable or virtuous act; an act of kindness, good will, or charity; esp. (in religious and theological contexts) an act of piety, regarded as carried out in obedience to the commandments, or as the product of faith or grace\" (\"good work, *n.*\").\n",
+      "worksCited": [
+        "\"work, *n.*\" *OED Online*. Oxford UP, Sept 2014. Web. June 18, 2019.",
+        "\"good work, *n.*\" *OED Online*. Oxford UP, Sept 2014. Web. June 18, 2019."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "intratextuality",
+      "body": "\"Work\" in general is exemplified in this poem with the work in the vineyard (cf. [[tending-of-the-vines]]). ",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The fact that human work is \"[f]requently contrasted with faith or grace\" (\"work, n.\" I.1.c) also applies in this case as work is assigned to humankind, which is awarded by God's grace protecting those \"fellow-workers of the soil\" (8) from evil who were inspired by other workers to work equally (\"So others shall / Take patience, labour, to their heart and hand, / from thy hand and thy heart and thy brave cheer\" (9-11).\n\nThe speaker's initial question seeks to find the purpose of life, and the poem suggests many connections to the semantic field of work: \"to toil\" (1), \"work\" (title, 4), \"to wrestle\" (6), \"fellow-workers of the soil\" (8), and \"labour\" (10). Especially given that \"Work\" is the title of the poem, it might contain t the answer to the question in the first line (\"WHAT are we set on earth for?\"). The principal characteristic of the addressed collective \"we\" (1) is identified as being \"workers of the soil\" (8), which can be deduced from the contrast to the \"fellow-workers of the soil\" (8). Hence, work may be presented as the purpose in life in order to live a good, i.e. Christian life. Considering the different connotations of work taken from the *OED*, this work might consist of literally having a job in service of others which would then take up the notion of solidarity mentioned in the last lines of the poem: \"The least flower with a brimming cup may stand, / And share its dewdrop with another near.\" (13-14). The same objective can be seen in the theological definition of the \"good work\" that encompasses all kinds of moral actions and good deeds one can do. The third possibility concerns the struggle in life and the reward for persevering, regardless of the various impediments in life. This struggle is exemplified by the \"heat\" that makes working in the vineyard harder to bear (cf. [[heat]]). The parable of the vineyard in Matthew 21:12 adds equal reward for everyone who is willing to work and warns against jealousy or comparing to others. This notion of being rewarded by God for the hard work done and not giving in to obstacles in life, therefore, may be interpreted as motivation and encouragement for optimism as well as solidarity in life, and, accordingly refer to the poem as a whole.",
+      "worksCited": [
+        "\"work, *n.*\" *OED Online*. Oxford UP, Sept 2014. Web. June 18, 2019."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-03T13:38:24.528Z",
+  "updatedAt": "2026-03-03T13:42:54.583Z"
+}

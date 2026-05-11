@@ -1,0 +1,52 @@
+{
+  "id": "and-darkly-bright-are-bright-in-dark-directed",
+  "anchorText": "And, darkly bright, are bright in dark directed",
+  "anchorStart": 142,
+  "anchorEnd": 189,
+  "authors": [
+    "admin"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "Booth (203) provides a detailed list of figures to be found in this sonnet, with line 4 containing most of them. These include an \"antithesis: […] *bright, dark* (4)\" and a \"diacope (repetition of a word with one or a few words in between); *bright, are bright* (4)\". Furthermore, he lists an \"antimetabole (inversion of the order of repeated words): *darkly bright, are bright in dark* (4)\", as well as a polyptoton consisting of the variants \"darkly\" and \"dark\". *The Princeton Encyclopedia of Poetry and Poetics* describes the polyptoton as a \"word in many cases\" (1086), which means that it \"repeat[s] a word or words by varying their word class\" (1086).",
+      "worksCited": [
+        "Booth, Stephen (ed.). *Shakespeare's Sonnets*. Yale UP, 1977.",
+        "\"Polyptoton\". *The Princeton Encyclopedia of Poetry and Poetics*. Ed. Roland Greene et al., Fourth Edition, Princeton UP, 2012, pp. 1086-1087."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "**Theories of vision and the role of the eyes**\n\nBooth explains that \"in the Renaissance eyes were generally thought of as giving off light\" (203). Duncan-Jones' annotation on this line mentions the notion that light moves in both ways, as \"[e]yes were thought of as emitting light, as well as receiving it\" (196). Hammond gives slightly more details on this by pointing out that \"Renaissance theories of vision held either that the eyes send out rays which connect with the object seen, or that the object sends out rays which connect with the eyes\" (194). All three remarks are hints that theories of vision are vital for a better understanding of the intentionally puzzling line.\n\nIn *Vanities of the Eye* (2007), Stuart Clark provides a detailed discussion of the historical development of theories about vision and the eyes and points out that there were controversial discussions during Shakespeare's time around this topic. In chapter 1, going back to Greek antiquity, Clark names Aristotle and Plato as two of the main sources for the ancient hierarchy of the senses, which gave the eyes a special preference over the other sense organs (9). This ocularcentrism included an extramission theory of vision, which means that the process of seeing things was imagined as the result of the \"projective power of the soul to […] produce objects of vision\" (17). According to this Greek idea, \"perceptions were ‘encoded' as *phantasmata*, ‘representations'\" (11), which \"could [then] be ‘seen' by the ‘eye' of the mind and resulted in a \"mental picture\" (11).\n\nCenturies later, a shift from extra- to intromission theories became dominant: \"[I]ntromission itself [was] largely preferred in optical theory after the thirteenth century\" (20). Clark describes intromission as being based on \"the projective power of objects to emit their own likenesses and then have them propagated through a medium and replicated in the faculties of sense\" (17). A crucial element of this approach was the \"doctrine of *species*\" (15), which \"radiated out from […] objects into […] the aire, transmitting images […] to the eye\" (15). In this theoretical framework, the eyes are not active emitters of light or projections. Instead, \"objects act on passive recipients, leaving impressions in their senses and intellects which translate into conceptual images\" (15, emphasis in original), and the eyes are \"reduced to […] a passive receiver\" (20).\n\nAccording to Clark's accounts, the sixteenth and seventeenth century, then, made the most decisive shift towards a dominance of intromission theories. Yet, simultaneously, \"new importance and attention [were] given to the human imagination\" (39). The previously common idea of the eyes being merely recipients of images projected by objects was increasingly challenged, and scholars and writers discussed the issue of \"the extent to which sight is a constructed medium and the eye not the innocent, objective reporter of the world but its creator and interpreter\" (39). In this tension between objective and subjective influences in the process of perception, imagination \"became the single mediator between the corporeal soul and the corporeal human body\" (43), acknowledging both the real world that could be seen and the influence of the human mind on these perceptions. As Clark puts it, \"[imagination] was, indeed, the ‘eye' of the mind, in the sense that, in an ocularcentric psychology, the rational powers were deemed to ‘see' the external world only via its agency\" (46).\n\nThis acknowledgement of the subjective element in the perception of things in the world also gave rise to doubts about the reliability of visual impressions, and \"serious anxieties about [the imagination's] capacity to mislead and deceive\" (45f.). Chapter 2 of *Vanities of the Eye* discusses how theories of vision were also crucial for contemporary studies of mental illnesses such as delusions, or the condition of melancholy (cf. Level 3 Question).",
+      "worksCited": [
+        "Booth, Stephen (ed.). *Shakespeare's Sonnets*. Yale UP, 1977.",
+        "Clark, Stuart. *Vanities of the Eye: Vision in Early Modern European Culture*. Oxford UP, 2007.",
+        "Duncan-Jones, Katherine (ed.). *Shakespeare's Sonnets*. The Arden Shakespeare, Third Series (Rev. ed.), Bloomsbury, 2010.",
+        "Hammond, Paul (ed.). *Shakespeare's Sonnets: an Original-Spelling Text*. Oxford UP, 2012."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "Given the importance of ocularcentrism in its historical context, the elements of visual perception in the poem are not merely ornamental or signs of rhetorical playfulness. On the contrary, they are strong indicators for the speaker's psychological and emotional state.\n\nThe antimetabole \"And darkly bright, are bright in dark directed\" (l. 4) is only one of several instances in this poem in which the boundaries of light and dark (or of day and night) are blurred: it is no longer possible to make a clear distinction between what is bright, dimmed or dark. However, this does not create a gloomy or threatening atmosphere. Innes argues that Sonnet 43 \"tries to make the conflation of night and day into something positive\" (165): The speaker is not a victim of darkness, but actively provokes it and shapes his own perception in order to be able to see the image he desires. While doing so, he states a clear preference of mental images over those which he sees in the real world during the day. Hunter goes even further in attributing positivity to this line by pointing out that it is \"not merely a piece of wordplay but also a triumphant dance of words expressing a lover's delight\" (158).",
+      "worksCited": [
+        "Hunter, G.K. \"The Dramatic Technique in Shakespeare's Sonnets\". *Essays in Criticism*, vol. 3, no. 2, 1953, pp. 152-164. Oxford Academic Journals, doi: 10.1093/eic/III.2.152. ",
+        "Innes, Paul. *Shakespeare and the English Renaissance Sonnet*. Macmillan, 1997."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "questions",
+      "body": "The speaker needs to exclude all other visual impressions so that he can see the mental image of the addressee. However, the brightness of this image does not expel the darkness. Instead, both dark and bright elements remain in the sonnet. Bearing in mind the contemporary ideas about the importance of eyesight and visual perception on the mental condition, the speaker's eyes \"in dark directed\" (l. 4) can be seen as a reference to melancholy sufferers whose eyes were believed to look into blackness (cf. Level 2 Context; Clark 59). According to Clark, there was an awareness of the impact of the mind on the process of creating images (cf. 60). Whereas the brightly-shining images of the beloved are a proof of this positive influence and the happiness they bring, at the same time, the dark elements can illustrate the speaker's woe, pensiveness or scepticism. Does Sonnet 43 then portray both the joy of the imagination and the suffering caused by the knowledge that this image is not real (cf. Level 2 Interpretation [[bright-in-dark-directed]])? The eyes are directed in darkness, and although this is associated with a \"happy show\" (l. 6), some doubts remain as to whether it is to be interpreted as exclusively positive, given that there could still be a subtext of melancholy underlying this praise of bright imagery.",
+      "worksCited": [
+        "Clark, Stuart. *Vanities of the Eye: Vision in Early Modern European Culture*. Oxford UP, 2007."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T13:29:02.068Z",
+  "updatedAt": "2026-03-17T20:18:15.887Z"
+}

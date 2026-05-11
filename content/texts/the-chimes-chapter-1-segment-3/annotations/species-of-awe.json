@@ -1,0 +1,52 @@
+{
+  "id": "species-of-awe",
+  "anchorText": "species of awe",
+  "anchorStart": 1180,
+  "anchorEnd": 1194,
+  "authors": [
+    "Miriam Herberger",
+    "Marina Kirillova"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "In its original meaning, \"awe\" is defined as \"a feeling of fear or dread, mixed with profound reference, typically as inspired by God or the divine\" (\"awe, *n*.\" 1.b.). In the course of the late eighteenth century and early nineteenth century, and especially through the reflection on the sublime by the Romantic movement, the meaning of \"awe\" was broadened in the sense that it was no longer felt only towards Gods or the divine. Instead, it may also be \"inspired by a person of great authority\" and \"the power or beauty of the natural world\" (\"awe, *n*.\" 1.b.).\n\nThe combination of \"a species of\" and \"awe\" is marked in that it is a specification that, however, does not really clarify the exact meaning of the term in context.",
+      "worksCited": [
+        "\"awe, *n*.\" *OED Online*, Oxford University Press, March 2023, www.oed.com/view/Entry/13911.\tAccessed 3 June 2023.",
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, Oxford University Press, 2006."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "context",
+      "body": "In the description of the bell tower and the bells that fill Trotty \"with a species of awe\" (Dickens 91), Dickens uses elements of the Gothic novel. The Gothic novel was a popular genre well into the early nineteenth century, and it was generally characterized by its ample usage of medieval settings and \"sensational and supernatural occurrences\" (Abrams and Harpham 152), such as ghosts and visions, to both excite and frighten its readers. Later nineteenth-century novels, like Charles Dickens's *Bleak House* and *Great Expectations*, still used Gothic \"elements of the macabre and terrifying\" (Abrams and Harpham 153).",
+      "worksCited": [
+        "Abrams, M.H., and Geoffrey Galt Harpham. *A Glossary of Literary Terms*. 11th ed., Cengage, 2015.",
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books,* edited by Robert Douglas-Fairhurst, Oxford University Press, 2006."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "language",
+      "body": "This passage describes how Toby experiences \"a species of awe\" when he passes the old church and hears the \"deep strong melody\" of the bells (Dickens 91). The term \"awe\" combines in itself both negative and positive connotations as it is defined as \"a feeling of fear or dread\" that is \"mixed with profound reverence\" (\"awe, *n*.\" 1.b.). Toby's ambivalence towards the Chimes is intensified by prefixing \"awe\" with \"a species of\" (Dickens 91), thereby creating a further underspecification of Toby's feelings.",
+      "worksCited": [
+        "\"awe, *n*.\" *OED Online*, Oxford University Press, March 2023, www.oed.com/view/Entry/13911.\tAccessed 3 June 2023.",
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, Oxford University Press, 2006."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "The uncertainty of Toby's feelings about the Chimes which results from the phrase \"species of awe\" is further developed by the narrator's description of the old church that is reminiscent of the atmosphere of a Gothic novel. Not only does the old church sport such typical features of Gothic architecture as \"dark arched windows\" in its bell tower (Dickens 91), but also an air of uncanny mystery. The wind that howls through the old church \"moans and cries\" and \"has an awful voice\" and \"ghostly sound too\" (Dickens 87). Moreover, the narrator calls the church's bell tower a \"wild and dreary place\" that is \"far above the light and murmur of the town and far below the flying clouds that shadow it\" (Dickens 88).\n\nBeing distanced both from the town below and the sky above, the bell tower is turned into an intangible, almost otherworldly, in-between space. It seems to belong neither fully to the realm of the natural (i.e. earth), nor the supernatural (i.e. heaven). The eeriness in the description of the bell tower is repeated in the portrayal of the bells themselves as \"mysterious, often heard and never seen; so high up, so far off, so full of such a deep strong melody\" (Dickens 91). That the bells appear to be far removed from the earthly every-day life of Toby but are still able to affect him by filling him with uncertain and peculiar feelings of awe; as such, they help to create the uncanny atmosphere of *The Chimes* as a ghost story and foreshadow the supernatural influences of the bells on Toby later on in the story.",
+      "worksCited": [
+        "\"awe, *n*.\" *OED Online*, Oxford University Press, March 2023, www.oed.com/view/Entry/13911.\tAccessed 3 June 2023.",
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, Oxford University Press, 2006."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-05T17:27:46.708Z",
+  "updatedAt": "2026-05-05T17:32:14.910Z"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "ceremony-of-innocence",
+  "anchorText": "ceremony of innocence",
+  "anchorStart": 223,
+  "anchorEnd": 244,
+  "authors": [
+    "Irina Savić",
+    "Ilea Rahn"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "textual-variants",
+      "body": "In his early draft of the poem, Yeats referred to Queen Marie Antoinette as “‘ceremonious innocence”’ (Yeats xxiii) after gaining inspiration from Burke and his work *Reflections on the French Revolution*.",
+      "worksCited": [
+        "Yeats, W. B. *Michael Robartes and the Dancer: Manuscript Materials.* Edited by Thomas Parkinson and Anne Brannen, Cornell University Press, 1994."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "context",
+      "body": "Yeats was deeply moved by the revolutions in the world; the French Revolution being one of them. He was troubled by its brutality and the murder of the royal family. Her death represents the end of societal and ethical values (Vannini 330). Later on, he made this reference less clear in order to widen the symbolic meaning (see [[mere-anarchy-is-loosed-upon-the-world]]).",
+      "worksCited": [
+        "Vannini, Simona. “Echoes of the Ancestors: Literary Reverberations in Yeats’s ‘The Second Coming.’” *The Canadian Journal of Irish Studies*, vol. 25, no. 1/2, 1999, pp. 323–36. JSTOR, doi.org/10.2307/25515278. Accessed 21 Sept. 2025."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "intertextuality",
+      "body": "The idea of ceremonious innocence is similarly picked up in Yeats’ poem “A prayer for my Daughter” in stanza 10, lines 77–78 “How but in custom and in ceremony Are innocence and beauty born?“ (Stallworthy 25; Yeats 193).",
+      "worksCited": [
+        "Stallworthy, Jon. *Between the Lines: Yeats’s Poetry in the Making*. Clarendon Press, 1971.",
+        "Yeats, W. B. *Michael Robartes and the Dancer: Manuscript Materials*. Edited by Thomas Parkinson and Anne Brannen, Cornell University Press, 1994. "
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The ceremony of innocence carries the meaning of a shared social or moral order of purity and peace. In the context of Christianity, it may represent baptism as a ceremony that maintains order and innocence, as both represent a moral order that maintains peace and purity. Because the ceremony of innocence is drowned, it means that this order has collapsed. This is further stressed when connected to the lines “The best lack all conviction, white the worst / Are full of passionate intensity” (7–8). Those that fight for peace and order of purity are passive, which lets the destructive forces actively destroy the moral order of the society.",
+      "worksCited": []
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "A female figure reigns over “the ceremony of innocence”, though is not explicitly shown in the poem, only referenced (Deane 179). Yeats views the word in opposites, so if the Second Coming is the male figure that is coming to power, there is a female power that is losing its power.\n\nThe ceremony being drowned reflects Yeats’ idea of one rising power and another declining. The Second Coming is about the rise of the male power while the female power ruling over the innocence is declining as it is drowned (Deane 179). The word “drowned” stresses the male power to being more powerful than the female and overpowering her, and is thus equivalent to violence, barbarism and destruction, while the female power represents the social and moral order of the world. In his work *A Vision*, Yeats talks about the male and female-gendered gyres that interact with each other, one being born while the other is dying (Mann 138).",
+      "worksCited": [
+        "Deane, Seamus. “Boredom and apocalypse a national paradigm.” *Strange Country*, 25 Feb. 1999, pp. 145–197",
+        "Mann, Neil, et al. *W.B. Yeats’s A Vision: Explications and Contexts*. Clemson University Digital Press, 2012."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-03T15:21:58.465Z",
+  "updatedAt": "2026-04-15T15:24:50.500Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "epitaph",
+  "anchorText": "epitaph",
+  "anchorStart": 22,
+  "anchorEnd": 29,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "An epitaph is an inscription upon a tombstone or \"a brief composition characterizing a deceased person, and expressed as if intended to be inscribed on his tombstone\" (\"epitaph, n.\" Def. 1a).",
+      "worksCited": [
+        "\"epitaph, n.\" Def. 1a. *OED Online*. OUP, Sept. 2016. Web. 26 Nov. 2016."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "It does not become clear whether \"epitaph\" here refers to an actual inscription upon a tombstone or a piece of writing whose content resembles such an inscription. It is possible that the verses in Shakespeare's sonnet sequence themselves will serve as the addressee's epitaphs in case the speaker dies before him (cf. Dawson Ellison 141). For example, in line nine, the speaker asserts that his \"gentle verse\" shall be the addressee's \"monument\". The term \"monument\" suggests an epigraph in stone, even though the sonnets were, of course, written with a \"pen\" and printed (13). Thus, Shakespeare might have brought together the two meanings of \"epitaph\" in this sonnet.\n\nIf we see the whole sonnet sequence as the addressee's epitaph, it is a rather unusual one, as epitaphs usually praise the deceased, whereas many sonnets criticize the young man, e.g. 33-36, 40-41, 94-95. For more information on Shakespeare and epitaphs see Kerrigan.\n\nJonathan Burrow argues that \"Shakespeare's Sonnets are his greatest attempt to create a native rhyming version of the classical epitaph, and to grasp those great Horatian and Ovidian themes of the relationship between poetry, civilization, and permanence\" (Burrow 113). (For more information on Shakespeare's use of Horace and Ovid see the Level 3 Context note for l. 5.)",
+      "worksCited": [
+        "Burrow, Colin. \"Classical Influences.\" *The Oxford Handbook of Shakespeare's Poetry*. Ed. Jonathan F.S. Post. Oxford: OUP, 2013. 97–115. Print.",
+        "Dawson Ellison, Sarah. *Until the Resurrection: Poetic Fame and the Future of the Body in English Renaissance Lyric, 1590-1641*. Dissertation. 2014. Web. 6. Dec. 2016. https://curate.nd.edu/downloads/x633dz03k1c",
+        "Kerrigan, John. \"Shakespeare, Elegy, and Epitaph. 1557-1640.\" *The Oxford Handbook of Shakespeare's Poetry*. Ed. Jonathan F.S. Post. Oxford: OUP, 2013. 225–44. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T15:15:56.356Z",
+  "updatedAt": "2026-03-18T15:18:21.141Z"
+}

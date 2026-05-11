@@ -1,0 +1,39 @@
+{
+  "id": "hewn-timber",
+  "anchorText": "hewn timber",
+  "anchorStart": 995,
+  "anchorEnd": 1006,
+  "authors": [
+    "Verena West",
+    "Marina Kirillova"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "The simultaneous use of \"forest\" and \"hewn timber\" is an oxymoron; A forest is an ecological system of naturally grown wood, while \"hewn timber\" is the man-made result of the destruction of said forest.",
+      "worksCited": []
+    },
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"Hewn\" is the adjective attributing qualities to the timber. To hew is \"to cut with swinging strokes of a sharp instrument\", \"to chop\" and \"hack\" (\"hew, *v*.\" II.2.). In extended use, hewing can also mean shaping the material through \"cutting blows of axe, hammer and chisel\" to also \"trim\" and reduce in size\". (\"hew, *v*.\" II.3.\"). Timber was essential to church-building. ",
+      "worksCited": [
+        "\"hew, *v*.\" *Oxford English Dictionary*, Oxford University Press, September 2023, https://doi.org/10.1093/OED/6375487021.  Accessed 18 December 2023."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The oxymoron and the use of \"forest\" as a metaphor to describe the church structure emphasize the contrast between the inanimate church building and the spirits it contains. The wording highlights the conscious nature of the church as a building and the lively spirits of the Chimes within. The wood being described as \"hewn\", meaning artificially shaped and therefore not alive anymore, is similar to the way the forest is associated with life but actually consists of dead logs in this case. While the church as a building is not alive, the word choice of forest reminds the reader that the church is more than a dead building containing a bell and rather the vessel containing the chimes and its animated spirits.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhust, Oxford UP, 2008.",
+        "\"hew, *v*.\" *Oxford English Dictionary*, Oxford University Press, September 2023, https://doi.org/10.1093/OED/6375487021.  Accessed 18 December 2023."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-08T15:46:33.783Z",
+  "updatedAt": "2026-05-08T15:48:07.273Z"
+}

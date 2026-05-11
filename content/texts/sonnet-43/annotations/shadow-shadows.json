@@ -1,0 +1,31 @@
+{
+  "id": "shadow-shadows",
+  "anchorText": "shadow shadows",
+  "anchorStart": 208,
+  "anchorEnd": 223,
+  "authors": [
+    "Natalia Christoforou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "The emphatic repetition \"shadow shadows\" in this line is an example of both a polyptoton and an antanaclasis. A polyptoton (Gr. for \"word in many cases\") is a form-related figure of repetition where the repeated word varies in terms of word class or inflection (\"Polyptoton\" 1086). Antanaclasis (Gr. for ‘reflection') is a semantic-related figure of repetition where the repeated word \"shift[s] in meaning\" (\"Polyptoton\" 1086).",
+      "worksCited": [
+        "\"Polyptoton\". *The Princeton Encyclopedia of Poetry and Poetics*. Ed. Roland Greene et al., Fourth Edition, Princeton UP, 2012, pp. 1086-1087. "
+      ]
+    },
+    {
+      "level": 2,
+      "category": "form",
+      "body": "The two rhetorical figures, polyptoton and antanaclasis, overlap in this line. The repetition \"shadow shadows\" (l. 5) is a polyptoton in that the two, otherwise identical, nouns differ in grammatical number. However, on the level of their semantic meaning, the antanaclasis becomes relevant. Although ‘shadow' and ‘shadows' share much in their connotations, they actually refer to two different things: the shadow of the addressee as opposed to the shadows (or darkness) that the addressee makes bright. Polyptoton and antanaclasis are closely related figures and, whenever a word is repeated in a different form and with a different meaning, they are often used interchangeably (\"Polyptoton\" 1086).\n\nAccording to *The Princeton Encyclopedia of Poetry and Poetics*, Shakespeare was quite fond of such playful devices, as they \"[increased] patterning without wearying the ear\", and lines 4-7 of Sonnet 43 are cited as an illustrative example of his deliberate and diligent use thereof (\"Polyptoton\" 1086).",
+      "worksCited": [
+        "\"Polyptoton\". *The Princeton Encyclopedia of Poetry and Poetics*. Ed. Roland Greene et al., Fourth Edition, Princeton UP, 2012, pp. 1086-1087."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T20:52:12.266Z",
+  "updatedAt": "2026-03-17T20:53:20.750Z"
+}

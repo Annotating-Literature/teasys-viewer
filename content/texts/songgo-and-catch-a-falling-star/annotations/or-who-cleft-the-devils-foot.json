@@ -1,0 +1,29 @@
+{
+  "id": "or-who-cleft-the-devils-foot",
+  "anchorText": "Or who cleft the Devil’s foot",
+  "anchorStart": 98,
+  "anchorEnd": 127,
+  "authors": [],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"intr. To divide, split, cleave.\"",
+      "worksCited": [
+        "Weiner, E. S. C., and J. A. Simpson. *The Oxford English Dictionary*. 2nd ed. Oxford: Clarendon, \t1989. Print."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "Often the devil incarnate was depicted as a being with a cloven hoof. \n\nThe question, \"Who cleft the devil’s foot?\" is quite difficult to answer. It is linked to the underlying semantic field of impossibility and biblical reference.",
+      "worksCited": [
+        "https://www.twenty20.com/photos/32835825-962e-4097-9c6e-b7740fba7ea4)"
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:03:37.427Z",
+  "updatedAt": "2026-03-16T23:06:10.097Z"
+}

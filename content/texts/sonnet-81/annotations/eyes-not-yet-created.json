@@ -1,0 +1,21 @@
+{
+  "id": "eyes-not-yet-created",
+  "anchorText": "eyes not yet created",
+  "anchorStart": 403,
+  "anchorEnd": 423,
+  "authors": [
+    "admin"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "This expression refers to (eyes of) people who are not yet born; people in the future.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T16:41:13.683Z",
+  "updatedAt": "2026-03-18T16:41:29.115Z"
+}

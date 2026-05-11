@@ -1,0 +1,38 @@
+{
+  "id": "they-draw-but-what-they-see-know-not-the-heart",
+  "anchorText": "They draw but what they see, know not the heart",
+  "anchorStart": 602,
+  "anchorEnd": 649,
+  "authors": [
+    "Natalia Christoforou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "intertextuality",
+      "body": "The quarrel between eye and heart in sonnet 46 ends with the appointed jury deciding that \"mine eyes' due is thy outward part,/ And my heart's right, thy inward love of heart\" (ll. 13-14). While the eye can only perceive the addressee's outer appearance, the speaker's heart can actually capture the addressee's essence.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "Art is an artificial rendering of reality. Similar to Plato, Socrates argues that \"[t]he artist's representation is […] a long way removed from truth, and he [=the artist] is able to reproduce everything because he never penetrates beneath the superficial appearance of anything\" (qtd. in Gilman 32).",
+      "worksCited": [
+        "Gilman, Ernest B. *The Curious Perspective: Literary and Pictorial Wit in the Seventeenth Century*. Yale University Press, 1978."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "One optimistic interpretation of this final couplet could be the speaker realising that ‘true' art should combine the faculty of the eyes and the knowledge of the heart. However, the abrupt change of tone towards the very end of the sonnet seems to convey a slightly ironic touch to the vigorous panegyric of the art of painting preceding the closing lines. The syntax of this final line clearly places emphasis on the ‘not' and suggests that failing to depict a person's ‘heart' –one's innermost being – is essentially the visual art's ultimate shortcoming.\n\nLike in sonnet 46, one could identify at this point a clash between the \"aesthetic and the affective\" (Vendler 234). The aesthetic concerns just the outer appearance – what the eye sees – and does not involve emotions of the heart. The last line epigrammatically expresses the sobering realisation that even the most faithful representation of the addressee will always fail to convey the speaker's feelings because, like a perspective painting, it can only create the illusion of liveliness and \"inner depth\" (Mead 227). What remains unanswered throughout is whether the art of poetry can make up for this shortcoming and whether a \"talking picture\" (Mead 232) can actually capture the essence of a person's being.",
+      "worksCited": [
+        "Mead, Stephen X. \"Shakespeare's Play with Perspective: Sonnet 24, Hamlet, Lear\". *Studies in Philology* 109.3, Spring 2012, pp. 225-257. *EBSCOhost*, doi: 10.1353/sip.2012.0021. Accessed March 2017.",
+        "Vendler, Helen. *The Art of Shakespeare's Sonnets*. Belknap, 1997."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T15:09:33.558Z",
+  "updatedAt": "2026-03-18T15:11:11.284Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "disease-of-love",
+  "anchorText": "disease of love",
+  "anchorStart": 554,
+  "anchorEnd": 569,
+  "authors": [
+    "Johannes K�stner"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The phrase is potentially ambiguous: \"disease of love\" may either refer to venereal diseases (\"morbus veneris\" was an early name for what later became known as syphilis; the Latin expression appeared first in 1527)  or the topos of love as a sickness (going back to ancient philosophy, for example in Lucretius' *De Rerum Natura* and Cicero's *Tusculan Disputations*; it was well-established as a literary topos by the time of Donne).",
+      "worksCited": [
+        "Frith, John. \"Syphilis – Its early history and Treatment until Penicillin and the Debate on its Origins.\" *Journal of Military and Veterans' Health* 20.4 (2012): n.p.",
+        "Rothaus Caston, Ruth. \"Love as Illness: Poets and Philosophers on Romantic Love.\" *The Classical Journal* 101.3 (2006): 271-98."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "In the case of this poem, the allusion to (actual) diseases of love (as in venereal diseases) is used for a comparison: what the female speaker goes through is worse than that. The forcefully parted lovers and the pains of the disease of love is analogous to, for example, Shakespeare's *Romeo and Juliet*. The lovers are torn apart by *vis major* (a larger power) that neither can do anything about, and what remains is the disease of a broken heart.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T08:17:33.141Z",
+  "updatedAt": "2026-03-17T08:18:55.203Z"
+}

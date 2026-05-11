@@ -1,0 +1,62 @@
+{
+  "id": "steeled",
+  "anchorText": "steeled",
+  "anchorStart": 42,
+  "anchorEnd": 49,
+  "authors": [
+    "Natalia Christoforou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Katherine Duncan-Jones, though not supported by the *OED*, explains the verb ‘to steel' as \"form[ing] a permanent image as if fashioned with or [engraved] in steel\" (158n1). Ingram and Redpath make the legitimate suggestion that ‘to steel' could be one of Shakespeare's many neologisms to mean ‘to style' in the sense of inscribing with a stylus (61-62n1). This argument could be supported, on the one hand, by the flexible spelling of the noun ‘style' as it \"could, in the sixteenth and seventeenth centuries, be spelt ‘steele'\" (Ingram and Redpath 61n1) (see *OED* example from J. Higgins translating the entry ‘Graphium' in Junius' *Nomenclator* 7/2 (1585) with \"a writing wyer, or a steele wherewith to write or note\" (\"style, n.\" *OED* 1a)). On the other hand, Ingram and Redpath remark that although the verb in this possible meaning would be a new coinage by Shakespeare, a comparable image is to be found in *Titus Andronicus* (IV.i.103-104): \"I will go get a leaf of brass/ And with a gad of steel will write\" (qtd. in 61n1). Furthermore, in this wide-ranging context of \"reflection and vision\" (Booth 173n1) in the sonnet, the verb ‘to steel' could also imply a link to mirrors (cf. *OED* 1b: \"To back (a mirror) with steel\"). ",
+      "worksCited": [
+        "Booth, Stephen (ed.). *Shakespeare's Sonnets*. Yale University Press, 1977.",
+        "Duncan-Jones, Katherine (ed.). *Shakespeare's Sonnets*. The Arden Shakespeare, Third Series (Rev. Ed.), Bloomsbury, 2010.",
+        "Ingram, W. G. and Theodore Redpath (eds.). *Shakespeare's Sonnets*. University of London Press, 1967.",
+        "\"steel, v.\". *OED Online*, Oxford University Press, December 2018, www.oed.com/view/Entry/189542. Accessed January 2019.",
+        "\"style, n.\". *OED Online*, Oxford University Press, December 2018, www.oed.com/view/Entry/192315. Accessed January 2019."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "textual-variants",
+      "body": "Capell's emendation from \"steeld\" to \"stell'd\" (1609 *Quarto* version reprinted in Vendler 141) is largely accepted amongst editors, although both variants have been extensively defended (see primarily the extensive discussion in Ingram and Redpath 60-62n1, but also Booth 172-173n1, Evans 137n1 and Duncan-Jones 158n1). According to the *OED*, ‘to stell' used to mean \"to portray [or] delineate\" (3), giving this very sonnet as an example.",
+      "worksCited": [
+        "Booth, Stephen (ed.). *Shakespeare's Sonnets*. Yale University Press, 1977.",
+        "Duncan-Jones, Katherine (ed.). *Shakespeare's Sonnets*. The Arden Shakespeare, Third Series (Rev. Ed.), Bloomsbury, 2010.",
+        "Evans, G. Blakemore (ed.). *The Sonnets*. The New Cambridge Shakespeare, Cambridge University Press, 2006.",
+        "Ingram, W. G. and Theodore Redpath (eds.). *Shakespeare's Sonnets*. University of London Press, 1967.",
+        "\"stell, v.\". *OED Online*, Oxford University Press, December 2018, www.oed.com/view/Entry/189689. Accessed January 2019.",
+        "Vendler, Helen. *The Art of Shakespeare's Sonnets*. Belknap, 1997. "
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "In the evoked context of painting, Capell's amendment (1609 *Quarto* version reprinted in Vendler 141) seems justified and is supported by Shakespeare's use of the term in a similar frame of reference:\n\n\"To this well-painted piece is LUCRECE come,\n\nTo find a face where all distress is stelled\" [spelt \"steld\" in the 1594 *Quarto*]\n\n(*The Rape of Lucrece* ll. 1443-1444).\n\nApart from that, the rhyming scheme of the sonnet (\"stell'd\" (l. 1) – \"held\" (l. 3)) seems to rather confirm Capell's choice.\n\nHowever, there is indeed evidence that \"held\" in early modern English could have been pronounced in a way that it would rhyme with \"steeled\" (l. 1). Take, for example, sonnet 2 where it is paired with \"field\" (l. 2) and in \"The Rape of Lucrece\" where it is even spelled as \"hild\" in the 1594 *Quarto* (l. 1257) in order to rhyme with \"kild\" (l. 1255) and \"fulfild\" (l. 1258) (Ingram and Redpath 60n1). To follow Capell's suggestion would consequently obliterate the connotations of permanency connected to steel and supported by a possible play with **\"still\" in l. 7** (Duncan-Jones 158n1). Additionally, both the association with mirrors (Duncan-Jones 158n1) and with writing (Ingram and Redpath 61-62n1) would thereby be lost. At the end of their long discussion weighing equally plausible arguments for both ‘steel' and ‘stell', Ingram and Redpath arrive to the logical conclusion that since both readings make sense, it would be \"correct policy to preserve the original reading\" (62n1). ",
+      "worksCited": [
+        "Duncan-Jones, Katherine (ed.). *Shakespeare's Sonnets*. The Arden Shakespeare, Third Series (Rev. Ed.), Bloomsbury, 2010.",
+        "Ingram, W. G. and Theodore Redpath (eds.). *Shakespeare's Sonnets*. University of London Press, 1967.",
+        "Shakespeare, William. \"The Rape of Lucrece\". S*hakespeare's Poems: Venus and Adonis, The Rape of Lucrece and the Shorter Poems*, Ed. Katherine Duncan-Jones and H. R. Woudhuysen, The Arden Shakespeare, Thomson Learning, 2007, pp. 231-383.",
+        "Vendler, Helen. *The Art of Shakespeare's Sonnets*. Belknap, 1997."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "It would indeed make sense that the eye of the speaker, being a painter, simply delineates or portrays the image of the addressee (**cf. \"Mine eyes have drawn thy shape\" (l. 10)**). Yet to unquestioningly accept Capell's emendation from \"steeld\" to \"stell'd\" (1609 *Quarto* version reprinted in Vendler 141), automatically eliminates a variety of underlying connotations that enrich the imagery of the sonnet.\n\nWhen something is ‘engraved' in steel or with a steel object (such as a writing stylus), it is plastically imprinted on the working surface. Ingram and Redpath argue that the link to painting still persists insomuch as, since Chaucer, ‘to engrave' and ‘to paint' were used \"to some degree interchangeably\" (60n1). Besides, to engrave or carve something on one's mind (Crane qtd. in Watson 353) or in one's heart was a common metaphor for memory and affection. Storing the image of a loved person was imagined as a process physically affecting the ‘room' of memory, as the ‘phantasma' was plastically imprinted on its inner surface. \"If the zones of memory are like a mass of wax on which a seal leaves its imprint, lovesickness transforms them into a hard block in which the *phantasma* of the object is fixed\" (Lina Bolzoni qtd. in Watson 346).\n\nAlthough the link to mirrors is never outspokenly addressed, it still shines through at times in the sonnet. \"If the poet's eyes have \"steeled\" the beloved's form, it means that he has created a mirror wherein the beloved may look upon himself\" (Mead 238). The picture thus, like a mirror, reflects the beloved's **\"true image\" (l. 6)**. The eyes of the addressee, in turn, function as a mirror for the speaker, reflecting the latter's bosom and the picture displayed therein.\n\nFinally, Stephen X. Mead suggests a play with ‘steal' (239) which, though weak at this point in the sonnet, may already subtly point to the potential ambiguity of **\"lies\" in line 6**.",
+      "worksCited": [
+        "Ingram, W. G. and Theodore Redpath (eds.). *Shakespeare's Sonnets*. University of London Press, 1967.",
+        "Mead, Stephen X. \"Shakespeare's Play with Perspective: Sonnet 24, Hamlet, Lear\". *Studies in Philology* 109.3, Spring 2012, pp. 225-257. *EBSCOhost*, doi: 10.1353/sip.2012.0021 Titel anhand dieser DOI in Citavi-Projekt übernehmen. Accessed March 2017.",
+        "Vendler, Helen. *The Art of Shakespeare's Sonnets*. Belknap, 1997.",
+        "Watson, Amanda. \"\"Full character'd\": Competing Forms of Memory in Shakespeare's Sonnets\". *A Companion to Shakespeare's Sonnets*, Ed. Michael Schoenfeldt, Blackwell Companions to Literature and Culture, Blackwell Publishing, 2007, pp. 343-360."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T21:01:27.335Z",
+  "updatedAt": "2026-03-17T21:09:45.352Z"
+}

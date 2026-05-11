@@ -1,0 +1,48 @@
+{
+  "id": "it-s-true-enough-in-the-main",
+  "anchorText": "‘It’s true enough in the main",
+  "anchorStart": 0,
+  "anchorEnd": 29,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "In the following paragraph, Will Fern uses non-standard grammar and pronunciation. On the basis of his language we can discern two things:\n\nFirstly, it is implied that he is uneducated (see, for example, [[misfortun]], [[somewheres]] or [[their lives is]]).\n\nSecondly, he is from Dorset (see [[afore]], [[afeared]]), even though the words he uses were also prevalent in Yorkshire dialect. For an explanation why Fern is not from Yorkshire but from Dorset, see Level 3 Intratext.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "language",
+      "body": "Dickens's spelling of the words \"afore\", \"nowt\" and \"afeared\", which are supposed to be Dorset dialect words, is misleading. \"Afore\", and \"afeard\" were prevalently used in Yorkshire and Lincolnshire in the nineteenth century (cf. \"afore, adv., prep., and conj.\"; \"afeared, adj.\"). Furthermore, there is no evidence that \"nowt\" was used for \"nothing\" in Dorset dialect. However, it was used with this meaning in Yorkshire dialect (cf. Gerson 104).\n\nThus, readers are not able to infer Will Fern's origin from his dialect alone. Other passages in the story, however, makes clear that he is from Dorset (see Level 3 - Intratext)",
+      "worksCited": [
+        "\"afeared, adj.\" *OED Online*. OUP, Sep.  2014. Web. 16 Oct. 2014.",
+        "\"afore, adv., prep., and conj.\" *OED Online*. OUP, Dec. 2015. Web. 9 Dec. 2015.",
+        "Gerson, Stanley. *Sound and Symbol in the Dialogue of the Works of Charles Dickens*. Stockolm et al. : Almqvist & Wiksell, 1967. Print."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "intratextuality",
+      "body": "Even though the dialect words used by Will Fern are found in Yorkshire and Lincolnshire dialect as well, the context makes clear that he is from Dorset: The most obvious hint is the fact that Lilian's mother died in Dorsetshire (cf. Dickens 153). Furthermore, Sir Joseph mentions that Fern \"came up to London\", which implies that he moved north (from Dorset to London) instead of south (from Yorkshire to London (cf. Dickens 104).",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*. Ed. Robert Douglas-Fairhurst. Oxford: OUP, 2008. 85-162. Print."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "context",
+      "body": "One of Dickens's closest friends, the actor William Macready lived in Sherborne House, Dorset, from 1851 to 1860 (cf. Barker n.pag.). Dickens and his family often paid visits to him (cf. Schlicke 367). However, as The Chimes was already written in 1844, it is unlikely that Dickens had much first-hand knowledge of Dorset dialect at this time.",
+      "worksCited": [
+        "Barker, Katherine. \"About Macready and Dickens.\" *University of Kent*. University of Kent, 30 Oct. 2014. Web. 22 Apr. 2016.",
+        "Schlicke, Paul. \"Macready, William Charles.\" *The Oxford Companion to Charles Dickens*. Ed. Paul Schlicke. Foreword by Simon Callow. Oxford: OUP, 2011. 367-69. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-07T18:08:45.159Z",
+  "updatedAt": "2026-05-07T18:14:07.642Z"
+}

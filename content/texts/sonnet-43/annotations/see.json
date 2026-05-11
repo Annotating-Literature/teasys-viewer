@@ -1,0 +1,37 @@
+{
+  "id": "see",
+  "anchorText": "see",
+  "anchorStart": 41,
+  "anchorEnd": 44,
+  "authors": [
+    "Ayla Kahl"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The verb ‘to see' does not only mean that one is perceiving their surroundings through their eyes. According to the *OED*, it can also mean \"to behold (visual objects) in imagination, or in a dream or vision\" (1e). Therefore, the semantic meaning of ‘to see' goes beyond the eyes' mere physical abilities.",
+      "worksCited": [
+        "\"see, v.\". *OED Online*. Oxford UP, Dec 2016."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "In the early modern period, people had a different notion of vision and the act of seeing than we have today. It was believed that one could not only physically see while being awake and conscious, but also while being asleep. Seeing a person in one's sleep was not seen as a dream, a creation of the subconscious mind, but as a real depiction of the other person.\n\nCampbell argues that seeing in these sleeping visions was \"considered far deeper and ‘truer'\" (34). This phenomenon goes back to the idea of an inner eye (cf. [[and-darkly-bright-are-bright-in-dark-directed]]). This idea is based on the understanding that what was once perceived by the physical eye would be memorised, and could be revisited via the inner eye.",
+      "worksCited": [
+        "Campbell, Mary Baine. \"The Inner Eye: Early Modern Dreaming and Disembodied Sight.\" *Dreams, Dreamers, and Visions*, edited by Ann Marie Plane and Leslie Tuttle, U of Pennsylvania P, 2013, pp. 34-48."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The speaker claims to be able to see best in his dreams. This is due to the belief in an inner eye that enables to see objects even with one's eyes closed. The object that the speaker sees is the addressee of the poem. This is revealed in line 3: \"in dreams they [the eyes] look on thee\". The image of the addressee is therefore projected before the speaker's inner eye. This experience is not a physical, but a psychological one. ",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T09:24:20.866Z",
+  "updatedAt": "2026-03-17T20:11:41.780Z"
+}

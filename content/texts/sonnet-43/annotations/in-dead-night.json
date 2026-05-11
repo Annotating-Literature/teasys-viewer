@@ -1,0 +1,34 @@
+{
+  "id": "in-dead-night",
+  "anchorText": "in dead night",
+  "anchorStart": 468,
+  "anchorEnd": 481,
+  "authors": [
+    "Liubov Bolshakova"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "According to the *OED*, ‘dead' describes night as a period of day \"without animation, vigour or activity; quiet, dull; lifeless\" (16a). Therefore, the expression \"dead night\" can refer to a part of the night of the most intense quietness, darkness, etc. *The Farlex Dictionary of Idioms* suggests that the phrase \"in/at the dead of night\" means \"in or during the middle of the night\". ",
+      "worksCited": [
+        "\"dead, adj.\" *OED Online*. Oxford UP, Dec 2016. ",
+        "\"In the dead of night\". *Farlex Dictionary of Idioms*. 2015. Farlex, Inc.  "
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The actions that take place in the \"dead of night\" happen during the quietest and darkest period of a day. Moreover, \"dead night\" can elicit nocturnal visions and ghostly images within the semantic field of the recurring ‘shadows' (ll. 5, 6, 11). The editors Evans (144) and Booth (205) agree that the meaning of shade as a ‘ghost' may well impinge on a reader's understanding triggered by nocturnal images. Thus, we can agree with Duncan-Jones' interpretation of \"dead night\" as a \"night-time, which is associated with death and lifeless phantoms\" (196).",
+      "worksCited": [
+        "Booth, Stephen (ed.). *Shakespeare's Sonnets*. Yale UP, 1977. ",
+        "Duncan-Jones, Katherine (ed.). *Shakespeare's Sonnets*. The Arden Shakespeare, Third Series (Rev. ed.), Bloomsbury, 2010.  ",
+        "Evans, G. Blakemore (ed.). *The Sonnets*. The New Cambridge Shakespeare. Cambridge UP, 1996."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T09:38:09.081Z",
+  "updatedAt": "2026-03-17T09:39:49.773Z"
+}

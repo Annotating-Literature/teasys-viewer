@@ -1,0 +1,40 @@
+{
+  "id": "the-sullen-wind-was-soon-awake",
+  "anchorText": "The sullen wind was soon awake",
+  "anchorStart": 40,
+  "anchorEnd": 70,
+  "authors": [
+    "Ruvindra Sathsarani",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "The adjectives “sullen” and “awake” personify the wind.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The personification of the wind functions to mimic the speaker’s state of mind which is unsettled. The adjective “sullen” provides the idea that the wind is in a resentful mood whereas the adjective “awake” suggests rising action, thus paralleling the speaker’s disposition. The activity of the storm creates a threatening setting which foreshadows the cruel twist the poem is going to take.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "form",
+      "body": "The repetition of the sibilant sounds /s/ imitates the noise of actual wind. The velar plosive /k/ in the word “awake” disrupts the hissing sound of the sibilance of /s/.",
+      "worksCited": []
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "The noise of wind created by the sibilant sounds stops abruptly with the aspirated velar plosive /k/ which heightens the destructive atmosphere and the impression of the finality of the poem’s plot.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-19T12:41:21.347Z",
+  "updatedAt": "2026-03-20T00:36:09.895Z"
+}

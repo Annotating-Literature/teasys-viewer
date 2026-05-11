@@ -1,0 +1,28 @@
+{
+  "id": "blushed-bright",
+  "anchorText": "Blushed bright",
+  "anchorStart": 1921,
+  "anchorEnd": 1935,
+  "authors": [
+    "Ruvindra Sathsarani",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "The poet uses an alliteration of /b/.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The alliteration of the letter /b/ due to its phonetic characteristics as a labial plosive imitates soft kissing sounds. \nThe line is euphemistic as the speaker tells his readers that the blush on Porphyria’s face is caused by his passionate kiss whereas, in reality, it is the strangulation that causes the blush. By calling this physical reaction a “blush”, the speaker communicates Porphyria’s and his innocence and their mutual sexual attraction, rather than focusing on the actual reason for the blood rush.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-19T12:43:14.204Z",
+  "updatedAt": "2026-03-20T00:35:34.731Z"
+}

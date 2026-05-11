@@ -1,0 +1,37 @@
+{
+  "id": "pilfered-booties",
+  "anchorText": "pilfered booties",
+  "anchorStart": 7253,
+  "anchorEnd": 7269,
+  "authors": [
+    "Isabel Maria Osuna Montilla",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The adjective “pilfered” is a derivative from the verb to “pilfer” which means to steal (cf. “pilfer, *v*.” 1.a.). In the poem, the stolen “booties” describe any “[p]lunder, gain, or profit acquired in common and destined to be divided among the winners.” (“booty, *n*.1” 1.). The phrase is tautological.",
+      "worksCited": [
+        "“booty, *n*.1.” *OED Online*, Oxford University Press, December 2021, www.oed.com/view/Entry/21557. Accessed 24 February 2021.",
+        "“pilfer, *v*.” *OED Online*, Oxford University Press, December 2021, www.oed.com/view/Entry/143856. Accessed 17 December 2021."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "intratextuality",
+      "body": "This tautological statement of one of the men stealing is followed by the description of yet another man “snatch[ing…] gems” (Webster 164). The concept of theft is thereby repeated three times in one line.",
+      "worksCited": []
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "The repetition of the concept of being stolen renders the action as an even worse crime, and, therefore, it highlights Circe’s interest in claiming that, when the men are transformed into pigs, she is just revealing their true nature: “[t]hen the next day the beast in them will wake” (160); “Change? There was no change; / only disguise gone from them unawares” (189-190). Circe, thus, puts the men themselves at fault for their transformation and avoids blaming herself.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-20T09:22:34.278Z",
+  "updatedAt": "2026-03-20T09:23:57.650Z"
+}

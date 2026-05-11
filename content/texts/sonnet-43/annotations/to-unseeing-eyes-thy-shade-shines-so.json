@@ -1,0 +1,29 @@
+{
+  "id": "to-unseeing-eyes-thy-shade-shines-so",
+  "anchorText": "to unseeing eyes thy shade shines so",
+  "anchorStart": 340,
+  "anchorEnd": 376,
+  "authors": [
+    "Heike Ortlieb"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "This phrase contains several indicators of contradiction. First of all, the capacity of the eyes to see is negated by the adjective \"unseeing\", and yet the iambic pentameter in this line stresses -*see*- in \"unseeing\", and \"eyes\". Furthermore, the \"shade\" that \"shines\" is an oxymoron, as shade normally implies the absence of light and therefore cannot shine.\n\nAnother element to be noted is the emphasis on \"shade shines\" by the alliteration repeating the initial /ʃ/ sound. Although it is not stressed in the iambic pentameter pattern, this sound repetition draws the readers' attention to \"shines\".",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "\"Unseeing eyes\" (l. 8) which perceive someone's shade are contradictory upon first sight. However, as paradoxical as this expression might seem, it makes sense in the logic of the sonnet and especially in connection to line 1: the \"unseeing eyes\" are the ones that \"wink\" (l. 1) ([[most-i-wink]]). The prerequisite for perceiving the ‘shade' of the beloved is this shift from seeing normally to blindness: by closing them, the speaker's eyes become ‘unseeing', and only then can the image of the beloved ‘shine' in his imagination – this is how he \"best see[s[]\" (l. 1).\n\nAlthough the phrase includes this paradox of seeing and not seeing as well as an emphasis on seeing and shining, it also indicates that the image seen by the poet is not perfect. The connotation of a ‘shade' in this sense is that it is an image of something in the world, but an unreal and fleeting one (cf. Level 1 Language [[shade]]). Although it ‘shines', the ‘shade' of the beloved is not the same as the real person and can therefore not be an ideal substitute for the absence of the latter (cf. Level 3 Interpretation [[imperfect-shade]]). On the other hand, there is brightness assigned to this image (\"shines\" (l. 8)) and the syntactic unit of lines 6-8 suggests that looking at it would make the poet \"happy\" (l. 6).\n\nConsidering these aspects, this phrase in the middle part of the sonnet seems to oscillate between positive and negative, with sight and brightness on one, and blindness and darker qualities on the other end. As some elements become brighter whereas other become darker, it could be argued that this part of the poem indicates the alternation of the speaker's feelings: they sometimes have a tendency towards sadness, sometimes towards happiness. This in-between stage is also pointed out by Vendler in her illustration of how the sonnet \"gets darker\" (223): the unseeing eyes are a first indicator of a deteriorating eyesight, as the eyes change from being ‘see'ing (l. 1) to ‘unseeing' (l. 8) and, finally, to ‘sightless' (l. 12).\n\nHowever, the lines themselves tend to get brighter towards their end, which again results in a blurring of darkness and light which makes it hard for readers to decide which one of them is the predominant one. This can be seen as a continuation of l. 4, which has already raised the question of which one of the two emotions appears more strongly (cf. Level 3 Question [[and-darkly-bright-are-bright-in-dark-directed]]).",
+      "worksCited": [
+        "Vendler, Helen. *The Art of Shakespeare's Sonnets*. Belknap P, 1997."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T13:21:11.225Z",
+  "updatedAt": "2026-03-17T20:32:36.411Z"
+}

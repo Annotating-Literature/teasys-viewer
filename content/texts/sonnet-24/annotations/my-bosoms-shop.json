@@ -1,0 +1,46 @@
+{
+  "id": "my-bosoms-shop",
+  "anchorText": "my bosom's shop",
+  "anchorStart": 281,
+  "anchorEnd": 296,
+  "authors": [
+    "Natalia Christoforou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Although ‘shop' is primarily a building where goods are displayed for sale (*OED *2), the emphasis here lies not on the commercial aspect (Evans137fn7; Duncan-Jones 158n7). What is meant is most probably \"[a] building or room equipped and used for a particular craft or manufacturing trade; a workshop\" (*OED* 4a). One must nevertheless not forget that the term could also be used figuratively to mean \"[a] place where something is produced or elaborated, or where a particular operation is performed; *spec*. the heart, liver, or other internal bodily organs\" (*OED* 4b, Duncan-Jones 158n7). ",
+      "worksCited": [
+        "Duncan-Jones, Katherine (ed.). *Shakespeare's Sonnets*. The Arden Shakespeare, Third Series (Rev. Ed.), Bloomsbury, 2010.",
+        "Evans, G. Blakemore (ed.). *The Sonnets*. The New Cambridge Shakespeare, Cambridge University Press, 2006. ",
+        "\"shop, n.\". *OED Online*, Oxford University Press, December 2018, www.oed.com/view/Entry/178518. Accessed January 2019."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "intertextuality",
+      "body": "During the verbal combat between eye and heart in sonnet 46, the speaker's \"heart doth plead that thou in him dost lie,/ A closet never pierced with crystal eyes\" (ll. 13-14). The heart is represented in spatial terms as a ‘closet' where the addressee (not its picture) lies. However, the closet in 46 is probably windowless and more private having being \"never pierced with crystal eyes\" (l. 14), whereas in 24, the picture in the translucent \"bosom's shop\" (l. 7) is meant to be seen.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "Since the Middle Ages, the mental images stored in memory were believed to physically \"occupy space\" in the brain (Carruthers 31). On that account, apart from being symbolised as a writing surface, memory was also visualised in architectural terms as a \"storage-room\" (Carruthers 37) or a shop for precious things to be \"stored and displayed\" (Duncan-Jones 158n7). ",
+      "worksCited": [
+        "Carruthers, Mary. *The Book of Memory: A Study of Memory in Medieval Culture*. Cambridge Studies in Medieval Literature, Second Edition, Cambridge University Press, 2008.",
+        "Duncan-Jones, Katherine (ed.). *Shakespeare's Sonnets*. The Arden Shakespeare, Third Series (Rev. Ed.), Bloomsbury, 2010."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "The shop Shakespeare is having in mind is most probably a workshop or an artist's studio where the picture of the addressee is put on display. Yet this literal meaning is deliberately superimposed by a metaphorical one, supported by the preceding ‘qualifier': \"my *bosom's* shop\" (l. 7, my emphasis). Foreshadowed by the idea of the body as an edifice, the reference implies a sense of inner spatiality. It is within the speaker's breast that this room is located, reminding us of the private \"closet\" (l. 14) in sonnet 46. Yet, contrary to a secluded ‘closet', a ‘shop' suggests a space of a more public character; the image is not to be stored away in a dark vault, but it is meant to be openly displayed.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T14:48:31.513Z",
+  "updatedAt": "2026-03-18T14:51:14.492Z"
+}

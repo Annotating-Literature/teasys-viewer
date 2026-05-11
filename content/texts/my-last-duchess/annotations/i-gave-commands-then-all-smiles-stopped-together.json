@@ -1,0 +1,39 @@
+{
+  "id": "i-gave-commands-then-all-smiles-stopped-together",
+  "anchorText": "I gave commands; Then all smiles stopped together.",
+  "anchorStart": 2032,
+  "anchorEnd": 2083,
+  "authors": [
+    "Minella Fernandes",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "intratextuality",
+      "body": "These lines, along with lines 9-10 (cf. Level 2 Interpretation [[curtain]]), highlight the duke’s constant urge to control his wife and her effect on others.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The “commands” could either signify that the duke ordered for the duchess’ execution, or he had her permanently sent away. Joshua Adler, as some other scholars, affirms that “one’s natural, immediate assumption on reading the poem is that the duchess was in fact put to death” (Adler 227). In an interview with Hiram Corson, Browning indeed admitted that he intended for the line to mean that the duchess was put to death, and after a pause he added, “[o]r he [the duke] might have had her shut up in a convent” (Corson 5). In either case, these lines prove that the duke was responsible for whatever happened to the duchess. \nWe can assume by the meaning of “all smiles stopped together” that the consequences were not pleasant. The word “all” here means that it was not the duchess alone who suffered the consequences. It’s possible that the duke, in his rage, got rid of all the people who fuelled his insecurities. The duke’s actions certainly also resulted in shock amidst the people who made the duchess smile, thereby serving as punishment and stopping their smiles as well. Hiding the duchess’s portrait behind the curtain and lifting it only at his will, finalises his control over her and her effect on others.\nFurther, these lines highlight more than just the duke’s desire of control and authority. The blatant acceptance of his heinous crime in such a nonchalant manner strongly suggests a lack of remorse. The duke feels satisfied with the permanent control he now holds over his wife and her actions. The duke also uses this as a warning, just as he did with the example of [[fra-pandolf]] making it clear that he might do it again if his future wife displeases him.",
+      "worksCited": [
+        "Adler, Joshua. “Structure and Meaning in Browning’s ‘My Last Duchess.’” *Victorian Poetry*, vol. 15, no. 3, 1977, pp. 219–27. *JSTOR*, www.jstor.org/stable/40002116. Accessed 19 Jul. 2022.",
+        "Corson, Hiram. *An Introduction to the Study of Robert Browning’s Poetry*. Project Gutenberg, 1995, *EBSCOhost*, search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=1085671&site=ehost-live. Accessed 19 Jul. 2022."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "intertextuality",
+      "body": "This is not the only piece of work where a duke’s thirst for power and control finally ends in a killing. Browning’s poem is often compared to John Webster’s play *The Duchess of Malfi*, where Ferdinand, the Duke of Calabria, gives similar commands, ordering the death of his sister, the Duchess of Malfi. Jealousy (of an incestuous nature, in this case) could be one of the reasons for his actions, along with the duchess’ transgression and non-conformity to societal norms. Barbara Baines believes that both the duchesses shared a common ordeal with the men in their lives, becoming victims of masculine authority and pride. She states that “When the respective dukes- husband and brothers- cannot sufficiently intimidate, dehumanize and control the duchesses, they resort to murder” (Baines 23), making it the ultimate act of tyrannical dominance.",
+      "worksCited": [
+        "Baines, Barbara J. “‘My Last Duchess’ and ‘The Duchess of Malfi.’” *Studies in Browning and His Circle*, vol. 11, no. 2, 1983, pp. 23–30. *JSTOR*, www.jstor.org/stable/45285141. Accessed 14 Jul. 2022."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-20T00:51:27.661Z",
+  "updatedAt": "2026-03-20T00:54:35.994Z"
+}

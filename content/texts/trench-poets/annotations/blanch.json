@@ -1,0 +1,33 @@
+{
+  "id": "blanch",
+  "anchorText": "blanch",
+  "anchorStart": 104,
+  "anchorEnd": 110,
+  "authors": [
+    "Franziska Höfer",
+    "Lena Moltenbrey",
+    "Nicole Poppe"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The (transitive) verb \"blanch\" mainly has two meanings relevant for the poem:\n\n1. \"To make white, whiten . . . by depriving of colour; to bleach. Also in a figurative sense\" (OED \"blanch, v., 1\")\n\n2. \"To make pale with fear, cold, hunger, etc.\" (OED \"blanch, v., 4\")\n\n\"Blanch\" refers to the [[chum]] mentioned in the first line of them poem and is ambiguous.",
+      "worksCited": [
+        "\"blanch, v.\". *OED Online*. OUP, November 2014. Web. 21 November 2014."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "In the context of the poem, \"blanch\" is ambiguous. The most immediate implication in the context of lines 1-5 is that it refers to the soldier who is growing pale with fear by \"the hum / of passing shells\" (l. 4-5). Nevertheless, when the poem is read to completion and it becomes clear that the solider is dead with \"rats [eating] his thumbs\" (l. 24), the context of death changes the word's implication. If the solider is dead, his whiteness may be explained by his being deprived of colour. This is due to a stage of death called livor mortis or lividity, which is \"the discoloration of the body after death due to the gravitational settling of blood which is no longer being pumped through the body by the heart\" (Dix and Graham 4).\n\nThe negation of \"would not\" in line three points at the fact that this chum cannot grow paler, which is logical in the context of livor mortis: since there is no more blood current, there is no possibility of colour change. The soldier cannot grow whiter, but the accumulated and dried blood shows as black (cf. 5), reconnecting to the chum who grew [[blacker]] in line 2.",
+      "worksCited": [
+        "Dix, Jay, and Michael Graham.* Time of Death, Decomposition and Identification: An Atlas*. Boca Raton, FL: CRC P, 2000. "
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:43:12.401Z",
+  "updatedAt": "2026-03-18T19:48:35.486Z"
+}

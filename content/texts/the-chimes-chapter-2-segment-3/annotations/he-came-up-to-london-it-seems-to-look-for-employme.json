@@ -1,0 +1,40 @@
+{
+  "id": "he-came-up-to-london-it-seems-to-look-for-employme",
+  "anchorText": "He came up to London, it seems, to look for employment",
+  "anchorStart": 1235,
+  "anchorEnd": 1289,
+  "authors": [
+    "Svenja Brank",
+    "Isabella Krapf"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "Sir Joseph's comments on Will's story such as \"it seems\", and \"that's his story\" foreground that Sir Joseph questions Will's agenda of moving to London because he was found in a shed, instead of working (Dickens 112).",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, OUP, 2008, p. 112."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "During the Victorian Era, industrialization caused the relocation of labour from the countryside to urban areas, resulting in the economic growth of Great Britain (cf. Long 2). The main reason for rural-urban migration in nineteenth century Great Britain was the \"uneven spread of industrialization\", low migration costs, as well as a demand for factory workers (Long 2). Even though most workers benefited from migration to the city, not every migrant was able to compensate for the \"high living costs\" and \"psychic costs of moving\" (cf. Long 30).",
+      "worksCited": [
+        "Long, Jason. \"Rural-Urban Migration and Socioeconomic Mobility in Victorian Britain.\" *The Journal of Economic History*, vol. 65, no. 1, 2005, pp. 1–35. *JSTOR*, www.jstor.org/stable/3875041. Accessed 9 Nov. 2020."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The context proves that it is likely Will is telling the truth and he came to London to look for work. Therefore, Sir Joseph's comments display the opinion of wealthy characters in the story, who are prejudiced against the poor and assume Will is behaving illegally (\"they become impatient and discontented, and are guilty of insubordinate conduct and black-hearted ingratitude\" p. 112), even though he merely needed a place to sleep after having travelled to London.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, OUP, 2008, p. 112."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-07T15:04:49.360Z",
+  "updatedAt": "2026-05-07T15:06:31.115Z"
+}

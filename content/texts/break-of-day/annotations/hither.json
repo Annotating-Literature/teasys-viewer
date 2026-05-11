@@ -1,0 +1,23 @@
+{
+  "id": "hither",
+  "anchorText": "hither",
+  "anchorStart": 200,
+  "anchorEnd": 206,
+  "authors": [
+    "Bela Metz"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"hither\": adv. & adj., formal;\n\nadv.:to or towards this place",
+      "worksCited": [
+        "\"hither.\" *The Concise Oxford Dictionary, 18th Edition*. Ed. R. E. Allen. Oxford: Clarendon Press, 1990."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:59:57.901Z",
+  "updatedAt": "2026-03-17T00:00:19.239Z"
+}

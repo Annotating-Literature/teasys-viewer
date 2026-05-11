@@ -1,0 +1,58 @@
+{
+  "id": "the-falcon-cannot-hear-the-falconer",
+  "anchorText": "The falcon cannot hear the falconer",
+  "anchorStart": 45,
+  "anchorEnd": 80,
+  "authors": [
+    "Irina Savić",
+    "Ilea Rahn"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "In his early manuscripts, Yeats uses the word “‘hawk”’ in “The hawk can no more hear the falconer” [NLI 13,588 (14), 2r]. This is changed early in the manuscripts to add more assonance to the poem (Vannini 326).",
+      "worksCited": [
+        "Vannini, Simona. “Echoes of the Ancestors: Literary Reverberations in Yeats’s ‘The Second Coming.’” *The Canadian Journal of Irish Studies*, vol. 25, no. 1/2, 1999, pp. 323–36. JSTOR, doi.org/10.2307/25515278. Accessed 26 Sept. 2025."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "context",
+      "body": "In falconry, the falconer communicates with the falcon through a shared set of communicative practices (Schroer 41). The communication is built and learned through intense training of the falconer and falcon by establishing a strong bond where both the falcon and falconer become attuned to the other. In order for the communication to work, the falcon must be able to see the falconer. In that context, it is preferable to have the falcon stay in close proximity to the falconer in order to see the signals clearly.",
+      "worksCited": [
+        "Schroer, S. A. *On the Wing: Exploring Human-Bird Relationships in Falconry Practice*. 2015. University of Aberdeen. PhD dissertation. "
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "While hawks and falcons are both birds of prey, their symbolism is slightly different. The hawk usually symbolizes logic, awareness and intellect (Stallworthy 18–21). In politics, however, the hawk stands for someone who advocates for warlike policies, involving the military and aggression, which can be related to the contemporary world of the First World War. The falcon, by contrast, stands for nobility, noble power and victory marked by its speed and ambition (Kleiter and Wolf 186). In agreement with the hawk’s military connotations, however, the falcon as a hunting bird is also related to warrior-like practices.",
+      "worksCited": [
+        "Kleiter, Christine and Gerhard Wolf. \"The Falcon, the Eagle and the Owl: Raptors’ and Falconers’ Gaze between Practice, Theory and Art(s)\". *Visual Engagements: Image Practices and Falconry*, edited by Yannis Hadjinicolaou, *De Gruyter*, 2020, pp. 164-195. doi.org/10.1515/9783110618587-010. Accessed 5 Oct. 2025.",
+        "Stallworthy, Jon. *Between the Lines: Yeat’s Poetry in the Making*. Claredon Press, 1965."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The relationship between the falcon and falconer is marked by authority and partnership. Based on trust and mutual understanding, the falcon listens to the commands of the falconer. As the falcon cannot hear the falconer anymore, the relationship is broken; an ill-omen of the coming anarchy (Ferber 96). Their cooperation is doomed, as the falcon flies further away. This can also be related to line 4 “mere anarchy is loosed upon the world” to show the chaos and destruction that is unleashed as the order of control breaks down. \n\nFurthermore, here the falcon’s connotation of military power can be put in relation to the symbol of control, seen in the control being lost with the falcon flying further away, as warlike behaviour is more favoured. This is related to the context of the First World War, as it was widely regarded as a war without logic, resulting in countless deaths for no reason as it got out of control (Mueller 8, 18). \n",
+      "worksCited": [
+        "Ferber, Michael. *A Dictionary of Literary Symbols*. 2nd Ed., Cambridge UP, 2007.    ",
+        "Mueller, John. “Changing Attitudes towards War: The Impact of the First World War.” *British Journal of Political Science*, vol. 21, no. 1, 1991, pp. 1–28. JSTOR, www.jstor.org/stable/193753. Accessed 8 Oct. 2025."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "In addition to its literal meaning, the line also has an allegorical dimension to it. In the context of Christianity, the falcon refers to the Christian era coming to an end. The falcon represents the people, in relation to the falconer, who represents Christ and Christianity. Jesus Christ is traditionally represented as a leader in Christianity, always guiding the people. In falconry the falconer represents authority or a guiding presence, which in the context of Christianity mirrors Jesus Christ. The people have gone astray so far from Christ that they can no longer hear him and his teachings: “The falcon represents man, present civilisation, becoming out of touch with Christ, whose birth was the revelation which marked the beginning of the two thousand years of Christianity” (Jeffares 242).",
+      "worksCited": [
+        "Jeffares, A. N. “Michael Robartes and the Dancer, the Second Coming.” *Commentary on the Collected Poems of W. B. Yeats*, Macmillan, London, UK, 1968."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-03T15:05:59.771Z",
+  "updatedAt": "2026-04-15T15:25:00.012Z"
+}

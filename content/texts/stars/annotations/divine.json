@@ -1,0 +1,57 @@
+{
+  "id": "divine",
+  "anchorText": "divine",
+  "anchorStart": 254,
+  "anchorEnd": 260,
+  "authors": [
+    "Svenja Brank",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The *Oxford English Dictionary* defines the divine as “[p]artaking of the nature of God; characteristic of or consonant to deity; godlike; heavenly, celestial” (“divine, adj. and n.1. 4. a.).",
+      "worksCited": [
+        "“divine, adj. and n.1.” *OED Online*. Oxford University Press, June 2021, www.oed.com/view/Entry/56127. Accessed 28 August 2021."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "intratextuality",
+      "body": "In the poem the heavenly watch of the stars is attributed with a divine nature. In the second stanza, the speaker ascribes divinity to the intimate relationship she shares with the stars. Their connection, previously described as nurturing (l. 9-10) and loving (l. 5-6), is extended to include another aspect: watching and caring.",
+      "worksCited": []
+    },
+    {
+      "level": 1,
+      "category": "context",
+      "body": "In Emily Brontë’s poetry the divine is present as a form of mystic force, which, along with her novel *Wuthering Heights*, led critics to question her religious views. However, there is hardly any evidence that she lacked Christian faith (cf. Winnifrith and Chitham 32-33). Her philosophy proves similar to the principles of stoicism. Like the stoics, she believed “in a divine principle within human beings” and did not focus on the afterlife (Gezari 4). Her poetry portrays an “intense personal vision of the divine” as she viewed religion as a matter between herself and God (Alexander and Smith 426) and was generally private about her thoughts and beliefs (cf. Winnifrith and Chitham 33).",
+      "worksCited": [
+        "Alexander, Christina. Smith, Margaret. *The Oxford Companion to the Brontë’s*. Oxford University Press. 2018.",
+        "Gezari, Janet. *Last Things: Emily Brontë’s Poems*. Oxford University Press, 2010.",
+        "Winnifrith, Tom and Chitham, Edward. Charlotte and Emily Brontë - *Literary Lives*. Macmillan Press LTD. 1989."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "Gezari points out that Emily Brontë, in her writing, sought a form of release from reality into a state where the imagination rules (cf. Gezari 3). From her childhood on, Emily Brontë was intrigued by her power to imagine and thus create worlds: she created the imaginative world of Gondal with her sister Anne, to which she kept going back to over the course of her life (cf. Alexander and Smith 216). Aspects of this world are also present within her poetry. In the poem, the practice of imagining different things is a vital theme. It also explores this practice of withdrawing into one’s dreams (l. 11) and, thus, avoiding the reality of the daytime.",
+      "worksCited": [
+        "Alexander, Christina. Smith, Margaret. *The Oxford Companion to the Brontë’s*. Oxford University Press. 2018.",
+        "Gezari, Janet. *Last Things: Emily Brontë’s Poems*. Oxford University Press, 2010."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "In the poem, the speaker describes the experience of the stars as a divine cosmic force that provides nourishment and inspiration, which could evoke the idea of the stars as a muse. \nIn turning away from the daylight, the speaker finds a form of escape into a dream-like state, in which the sobriety of the night sparks her imagination and allows the more profuse sensations of the daytime to recede in the background. Just as Emily Brontë’s retreat into her imagination and the world of Gondal can be viewed as an “intentional dreaming” (Gezari 7), the speaker retreats into her imagination, where she experiences inspiration and peace.",
+      "worksCited": [
+        "Gezari, Janet. *Last Things: Emily Brontë’s Poems*. Oxford University Press, 2010."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T23:36:53.407Z",
+  "updatedAt": "2026-03-20T00:36:47.203Z"
+}

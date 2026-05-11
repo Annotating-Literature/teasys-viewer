@@ -1,0 +1,42 @@
+{
+  "id": "polonies",
+  "anchorText": "Polonies",
+  "anchorStart": 2661,
+  "anchorEnd": 2669,
+  "authors": [
+    "Abdulkadir Sen",
+    "Marina Kirillova"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Polony is a large dried sausage made originally of a mixture of pork and other meats, partly-cooked. It probably is a variant or alteration of another lexical item: Bologna sausage (\"Polony, *n*.1\").",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, OUP, 2008, pp. 85-162.",
+        "\"Polony, *n*.1\" *Oxford English Dictionary*, Oxford UP, https://doi.org/10.1093/OED/6923895554. Accessed 6 January 2024."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "context",
+      "body": "Polonies, as opposed to trotters, pettitoes and tripe, which are later mentioned by Toby, are based on meat instead of offal.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, OUP, 2008, pp. 85-162."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Toby's succession of guesses starting from a meat-based food, polonies, and then proceeding with offal-based foods, mirrors the typical food of the Victorian poor (cf. Mejer 174).",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, OUP, 2008, pp. 85-162.",
+        "Mejer, Anna. The Uses of Food in Charles Dickens' *Novels as a Commentary on Victorian Society and Manners*. 2018. University of Warsaw, PhD dissertation. University of Warsaw Repository, https://depotuw.ceon.pl/handle/item/4228."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-05T17:46:15.697Z",
+  "updatedAt": "2026-05-05T17:48:32.682Z"
+}

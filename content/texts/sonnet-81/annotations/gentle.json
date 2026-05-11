@@ -1,0 +1,38 @@
+{
+  "id": "gentle",
+  "anchorText": "gentle",
+  "anchorStart": 382,
+  "anchorEnd": 388,
+  "authors": [
+    "Kathrin Bauer"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Gentle means \"honourable, distinguished by descent or position\" (cf. \"gentle, adj.\" Def. 2).\n\nUntil the 18th century it was used synonymously with noble (cf. \"gentle, adj.\" Def. 1).\n\nIt can also mean „mild in disposition or behaviour; kind, tender\" (cf. \"gentle, adj.\" Def. A8).\n\nGentle can also be a transferred epithet, i.e. not the verse is gentle but its subject, i.e. the addressee.",
+      "worksCited": [
+        "\"gentle, adj.\" *OED Online*. OUP. Sept 2016. Web. 6. Dec. 2016."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Here again the theme of the poet distinguished and elevated by his work is recurring. Gentle, in the sense of noble, is set in contrast with \"common\" (l. 7) and verse with \"grave\" (l.7). Gentle understood as the description of kind behaviour can also function as a transferred epithet. It is not only the verse that is gentle but also its subject, i.e. the addressee.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "The adjective gentle was also attributed to Shakespeare by his contemporaries. In the preface to the First Folio Ben Jonson ascribes the adjective gentle to Shakespeare calling him \"Gentle Shakespeare\" in his poem for the engraving and \"my gentle Shakespeare\" in his eulogy to Shakespeare. He also describes Shakespeare as \"indeed, honest and of an open and free nature, with an excellent phantasy, brave notions and gentle expressions.\" (Jonson)\n\nIn their address to the readers John Heminges and Henry Condell, the editors of the First Folio, call Shakespeare \"a happy imitator of Nature, was a most gentle expresser of it\".",
+      "worksCited": [
+        "Jonson, Ben. *On Shakespeare. in: English Essays: Sidney to Macaulay. Vol. XXVII. The Harvard Classics*. New York: P.F. Collier & Son, 1909–14; Bartleby.com, 2001. Accessed 01.02.2017.",
+        "Shakespeare, William. *Mr. William Shakespeares Comedies, Histories, & Tragedies*, bl.uk/collection-items/shakespeares-first-folio. Accessed 02.02.2017."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T15:54:37.393Z",
+  "updatedAt": "2026-03-18T15:56:24.630Z"
+}

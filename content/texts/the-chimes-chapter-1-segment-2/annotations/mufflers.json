@@ -1,0 +1,24 @@
+{
+  "id": "mufflers",
+  "anchorText": "mufflers",
+  "anchorStart": 4449,
+  "anchorEnd": 4457,
+  "authors": [
+    "Sandra Wetzel",
+    "Mona El Menschawi"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The word mufflers is not in use anymore, according to the *OED*. Today, the term \"a glove, [or] a mitten\" is more common (\"mufflers\", *n*. 3. b).",
+      "worksCited": [
+        "\"Mufflers, *n*. 3. b\", *OED Online*, Oxford University Press, October 2020, https://www.oed.com/view/Entry/123314?redirectedFrom=mufflers#eid. Accessed 1 October 2020."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-04T19:52:27.964Z",
+  "updatedAt": "2026-05-04T19:53:10.685Z"
+}

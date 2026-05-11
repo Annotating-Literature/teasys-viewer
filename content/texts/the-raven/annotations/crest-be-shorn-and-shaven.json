@@ -1,0 +1,40 @@
+{
+  "id": "crest-be-shorn-and-shaven",
+  "anchorText": "crest be shorn and shaven",
+  "anchorStart": 2722,
+  "anchorEnd": 2747,
+  "authors": [
+    "Ilea Rahn"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "A crest is commonly also called a ‘comb’ which is “a tuft of feathers, or similar excrescence, upon an animal's head” (“Crest, *n*. (1)” Sense 1.a.). Shorn and shaven refers to the missing tuft of feathers upon an animal’s head.",
+      "worksCited": [
+        "“Crest, *n.* (1).” *Oxford English Dictionary*, Oxford UP, September 2025, doi.org/10.1093/OED/1393622169. 18 Mar. 2026."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Crests usually possess a display purpose, the stronger the movement, the stronger the emotions causing the movement (Mukhtar and Khan 425-26). As ravens do not possess a decorative crest, the display purpose is less prominent, which means less movement, less emotions and less appearance as a threat. Despite the lack of a majestic and threatening crest, the [[raven]] in this poem is seen as headstrong and assertive as it is said that the raven “art sure no [[craven]]”.",
+      "worksCited": [
+        "Mukhtar, N., and S. H. Khan. “Comb: An Important Reliable Visual Ornamental Trait for Selection in Chickens.” *World's Poultry Science Journal*, vol. 68, no. 3, 2012, pp. 425–434., doi:10.1017/S0043933912000542. Accessed 10 June 2023."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "A shorn and shaven crest is reminiscent of and may be associated with a tonsure which is a religious practice whereby the head or part of the head is shaven (“Tonsure, *n*.”, Sense 2.a.). Tonsures were usually worn by medieval Catholic monks and functioned as a symbol of Christianity while also being associated with pacifists, as “[p]acifism was the dominant stance for Christians from the time of Jesus until the late fourth and early fifth centuries” (Fahey 8). It is further stated that Christian pacifism was still obligatory for monks even when Christians were permissioned to participate in war. By linking the shaven crest to a tonsure and therefore, connecting the raven to monks or pacifists, the first impression of the raven after entering the speaker’s chambers is one of coming in peace, juxtaposing its ominous presence (cf. [[raven]]) and the previous foreshadowing of an ill-omen (cf. [[token]]).",
+      "worksCited": [
+        "Fahey, Joseph J. “An Overview of Four Traditions on War and Peace in Christian History.” *The Journal of Social Encounters*, vol. 2, no. 1, 2018, pp. 7-21, digitalcommons.csbsju.edu/social_encounters/vol2/iss1/2/. Accessed 18 July 2023.",
+        "“Tonsure, N.” *Oxford English Dictionary*, Oxford UP, December 2025, doi.org/10.1093/OED/1083542412. 18 Mar. 2026."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T22:47:53.018Z",
+  "updatedAt": "2026-03-18T22:59:03.958Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "workhouse",
+  "anchorText": "workhouse",
+  "anchorStart": 2804,
+  "anchorEnd": 2813,
+  "authors": [
+    "Svenja Brank",
+    "Isabella Krapf"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "A workhouse was a place that offered \"paid work for the unemployed poor of a parish\" and, in 1834, it became a \"public institution\" that provided food and a place to sleep in exchange for work for the poor (\"workhouse, *n*.\" 2.b.).",
+      "worksCited": [
+        "\"workhouse, *n*.\" *OED Online*, Oxford University Press, June 2021, www.oed.com/view/Entry/230234. Accessed 9 August 2021."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "Throughout the nineteenth century, there was an increase of public institutions, such as the workhouse, based on the 1834 Poor Law Amendment Act, also referred to as the NPL (Newman 123). The NPL introduced a new institutional board which had the power over the financial aid of the poor. It was originally passed owing to society's belief that \"idleness [is] the root cause of poverty\" (Newman 123). Harsh living conditions had to be endured to receive poor relief, because the NPL's main objective was to reduce costs (Newman 123). Thus, the workhouse had a bad reputation, and it was usually perceived as a \"shameful and harrowing prospect\" by Victorian society (Newman 123).",
+      "worksCited": [
+        "Newman, Charlotte. \"To Punish or Protect: The New Poor Law and the English Workhouse.\" *International Journal of Historical Archaeology*, vol. 18, no. 1, 2014, pp. 122–145. *JSTOR*, www.jstor.org/stable/24572708. Accessed 6 Aug. 2021."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "questions",
+      "body": "What is Charles Dickens's attitude to workhouses in his other novels?",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-09T09:49:44.486Z",
+  "updatedAt": "2026-05-09T09:52:01.252Z"
+}

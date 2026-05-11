@@ -1,0 +1,31 @@
+{
+  "id": "nor",
+  "anchorText": "Nor",
+  "anchorStart": 45,
+  "anchorEnd": 48,
+  "authors": [
+    "Sara Rogalski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The usage of \"nor\" after \"an affirmative clause, or in continuing narration\" is \"chiefly poetic\" and does not negate the previous clause (\"nor, *conj. 1* (and *adv.*)\" II.5.a), i.e. the answer to the question in the first line (\"WHAT are we set on earth for?\") would be that one should toil and not stop the tending of the vines. ",
+      "worksCited": [
+        "\"nor, *conj.1* (and *adv.*).\" *OED Online.* Oxford UP, July 2019. Web. July 13, 2019. "
+      ]
+    },
+    {
+      "level": 2,
+      "category": "language",
+      "body": "Since \"nor\" is primarily \"used before the second or further of two or more alternatives, normally to negate each other\", one has to consider this meaning as well (\"nor, conj. 1 (and adv.)\" I.). The OED gives examples in which this is the case although there is no \"immediately preceding (negative) correlative (such as neither)\" (\"nor, conj. 1 (and adv.) I.2). Even if no other negative is expressed, as in Byron's Bride Abydos, \"A heart his words nor deeds can daunt\" (366), \"nor\" still negatives both alternatives (\"nor, conj. 1 (and adv.) I.2.b). This would suggest that neither \"toil[ing]\" (1) nor the \"seek[ing] to leave [the] tending of the vines\" (2) are mankind's purpose in life. However, the fact that \"to toil\" (1) is followed by a semicolon, which indicates a clear separation between the first and the second line, as well as the overall context of the poem render this reading unlikely (see here). ",
+      "worksCited": [
+        "\"nor, *conj.1* (and *adv.*).\" *OED Online.* Oxford UP, July 2019. Web. July 13, 2019. "
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-03T13:17:15.968Z",
+  "updatedAt": "2026-03-03T13:18:11.103Z"
+}

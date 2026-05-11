@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Sonnet 81</title>
+          <author>William Shakespeare</author>
+        </titleStmt>
+        <publicationStmt><p>TEASys Viewer</p></publicationStmt>
+        <sourceDesc><p>Annotating Literature, Tübingen University</p></sourceDesc>
+      </fileDesc>
+    </teiHeader>
+  <text><body><div><anchor xml:id="s-sonnet-81"/><anchor xml:id="s-or"/><anchor xml:id="e-sonnet-81"/>Or<anchor xml:id="e-or"/> I shall live, your <anchor xml:id="s-epitaph"/>epitaph<anchor xml:id="e-epitaph"/> to <anchor xml:id="s-make"/>make<anchor xml:id="e-make"/>;
+Or you survive when I in earth am rotten;
+<anchor xml:id="s-from-hence"/>From hence<anchor xml:id="e-from-hence"/> <anchor xml:id="s-your-memory"/>your memory<anchor xml:id="e-your-memory"/> death cannot take,
+Although in me each part will be forgotten.
+<anchor xml:id="s-your-name-from-hence-immortal-life-shall-have"/>Your name from hence immortal life shall have<anchor xml:id="e-your-name-from-hence-immortal-life-shall-have"/>,
+<anchor xml:id="s-though-i-once-gone-to-all-the-world-must-die"/>Though I, once gone, to all the world must die<anchor xml:id="e-though-i-once-gone-to-all-the-world-must-die"/>;
+The <anchor xml:id="s-earth"/>earth<anchor xml:id="e-earth"/> can <anchor xml:id="s-yield"/>yield<anchor xml:id="e-yield"/> me but a common <anchor xml:id="s-grave"/>grave<anchor xml:id="e-grave"/>,
+When you entombed in men&apos;s eyes shall lie.
+Your <anchor xml:id="s-monument"/>monument<anchor xml:id="e-monument"/> shall be my <anchor xml:id="s-gentle"/>gentle<anchor xml:id="e-gentle"/> verse,
+<anchor xml:id="s-which-eyes-not-yet-created-shall-oer-read-and-tong"/>Which <anchor xml:id="s-eyes-not-yet-created"/>eyes not yet created<anchor xml:id="e-eyes-not-yet-created"/> shall <anchor xml:id="s-oer-read"/>o’er-read<anchor xml:id="e-oer-read"/>,
+And <anchor xml:id="s-tongues-to-be"/>tongues to be<anchor xml:id="e-tongues-to-be"/> your <anchor xml:id="s-being"/>being<anchor xml:id="e-being"/> shall <anchor xml:id="s-rehearse"/>rehearse<anchor xml:id="e-rehearse"/>,<anchor xml:id="e-which-eyes-not-yet-created-shall-oer-read-and-tong"/>
+When all the <anchor xml:id="s-breathers"/>breathers<anchor xml:id="e-breathers"/> of <anchor xml:id="s-this-world"/>this world<anchor xml:id="e-this-world"/> are dead<anchor xml:id="s-annotation"/>.<anchor xml:id="e-annotation"/>
+You still shall live, such virtue hath my pen,
+Where breath most breathes, even in the mouths of men.</div></body></text>
+  <standOff>
+      <listAnnotation>
+        
+          <annotation xml:id="ann-annotation" from="#s-annotation" to="#e-annotation">
+            <respStmt><resp>annotator</resp><name>Heike Ortlieb</name></respStmt>
+            <date>2026-03-20</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#textual-variants">
+                  <p>Although the 1609 Quarto suggests printing a comma, the Arden edition has a full stop at the end of line 12. A comparison of several editions of Shakespeare&apos;s sonnets shows that some of them do feature different punctuations. Booth explains this by the need to make a decision for modern editions and thus discusses other punctuation variants (cf. 279).</p>
+                  <listBibl><bibl>Booth, Stephen. *Shakespeare&apos;s Sonnets*. New Haven: Yale UP, 1977. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The options in question are, on the one hand, the one found in the Arden edition:
+
+Your monument shall be my gentle verse, 9
+Which eyes not yet created shall o&apos;er-read, 10
+Ant tongues to be your being shall rehearse, 11
+**When all the breathers of this world are dead. 12**
+You still shall live, such virtue hath my pen, 13
+Where breath most breathes, even in the mouths of men. 14
+
+The full stop in the Arden edition establishes the syntactic entity of lines 9-12, implying that people in the future will still speak about the addressee even when the people of &quot;this world&quot;, the poet&apos;s and the addressee&apos;s contemporaries, are dead. The emphasis on survival in line 13, then, is a new syntactic unit and thus has its own coherence of meaning. The New Cambridge edition loosens this separation of syntactic units by using a semicolon after line 12:
+
+[…] **When all the breathers of this world are dead;** 12
+You still shall live, such virtue hath my pen, […] 13
+
+As Booth argues that this decision for a full stop after line 12 &quot;would diminish the poem&quot; (279), his edition features a comma between lines 12 and 13. Although it is true that there is a slight shift in meaning when the punctuation is altered, the scope of its effect can be discussed. The idea that the memory of a person is passed on and survives by virtue of the poet&apos;s verse, even after this person&apos;s physical death, remains.</p>
+                  <listBibl><bibl>Booth, Stephen. *Shakespeare&apos;s Sonnets*. New Haven: Yale UP, 1977. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-being" from="#s-being" to="#e-being">
+            <respStmt><resp>annotator</resp><name>Heike Ortlieb</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The noun here means &quot;existence&quot; (Def. 2.) or &quot;life&quot; (Def. 2c.).</p>
+                  <listBibl><bibl>&quot;being, n.&quot; Def. 2. *OED Online*. OUP, Sept. 2016. Web. 08 Dec. 2016.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>In addition to the material, physical existence (cf. Def. 2a, 2c), &quot;being&quot; can also mean the &quot;existence viewed as a property possessed by anything; substance, constitution, nature&quot; (Def. 3a.). Thus, &quot;existence&quot; is not meant merely physical, but also has a more spiritual dimension.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>&quot;to be&quot; and &quot;being&quot;: The play with different forms of &quot;to be&quot; emphasizes the aspect of ‘life&apos;: Instead of referring to death and burial as he did in the previous part of the sonnet, Shakespeare now creates a strong impression of someone ‘being&apos; alive, focusing on living creatures. As &quot;being&quot; syntactically and logically ‘belongs&apos; to his contemporary addressee, and &quot;to be&quot; refers to future generations, the idea of life being expanded over time and generations is evoked.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-breathers" from="#s-breathers" to="#e-breathers">
+            <respStmt><resp>annotator</resp><name>Heike Ortlieb</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>&quot;He who, or that which, breathes; one who lives, a living being, creature, animal.&quot; (*OED*, Def. 1.), which means that &quot;all the breathers&quot; is simply everyone and everything alive.
+
+&quot;Breathers of this world&quot; (12) are then all the people living at the time, all contemporaries.</p>
+                  <listBibl><bibl>&quot;breather, n.&quot; Def. 1. *OED Online*. OUP, Sept. 2016. Web. 08 Dec. 2016.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>In combination with eyes and tongues (also, line 14: mouths), breath supports the focus of the previous lines on the different parts of the face. As the face is what makes people distinct from others, it is usually the aspect which is most prominent in the memory of those remembering a deceased person. The final sestet thus supports the notion that the memory of distinct qualities of the person addressed will survive in the future by the poet&apos;s verse and its reception. The importance of poetry surviving in living and breathing people in contrast to the physical decay of the body is also prominent in the final lines, and as West puts it, &quot;‘Breathers&apos; in [line] 12 leads into the climax of the last line&quot; (252), where there is no more consideration of death and decay as in the previous lines, but instead, it is where &quot;breath most breathes&quot; (l. 14), indicating that immortality through poetry (cf. Level 2 Interpretation [[your-name-from-hence-immortal-life-shall-have]]) can finally be achieved.</p>
+                  <listBibl><bibl>West, David. *Shakespeare&apos;s Sonnets*. London: Duckworth Overlook, 2007. </bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-earth" from="#s-earth" to="#e-earth">
+            <respStmt><resp>annotator</resp><name>Kathrin Bauer</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>Earth is ambiguous here. On the one hand, it refers to the „the ground considered as a place for burying the dead&quot; (cf. &quot;earth, n.&quot; 4). On the other hand, it can describe all the inhabitants of the world (cf. *OED* &quot;earth, n.&quot; Def. 9b.).</p>
+                  <listBibl><bibl>&quot;earth, n.&quot; *OED Online*. OUP, Sept. 2016. Web. 3 Dec. 2016.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-epitaph" from="#s-epitaph" to="#e-epitaph">
+            <respStmt><resp>annotator</resp><name>Miriam Lahrsow</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>An epitaph is an inscription upon a tombstone or &quot;a brief composition characterizing a deceased person, and expressed as if intended to be inscribed on his tombstone&quot; (&quot;epitaph, n.&quot; Def. 1a).</p>
+                  <listBibl><bibl>&quot;epitaph, n.&quot; Def. 1a. *OED Online*. OUP, Sept. 2016. Web. 26 Nov. 2016.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>It does not become clear whether &quot;epitaph&quot; here refers to an actual inscription upon a tombstone or a piece of writing whose content resembles such an inscription. It is possible that the verses in Shakespeare&apos;s sonnet sequence themselves will serve as the addressee&apos;s epitaphs in case the speaker dies before him (cf. Dawson Ellison 141). For example, in line nine, the speaker asserts that his &quot;gentle verse&quot; shall be the addressee&apos;s &quot;monument&quot;. The term &quot;monument&quot; suggests an epigraph in stone, even though the sonnets were, of course, written with a &quot;pen&quot; and printed (13). Thus, Shakespeare might have brought together the two meanings of &quot;epitaph&quot; in this sonnet.
+
+If we see the whole sonnet sequence as the addressee&apos;s epitaph, it is a rather unusual one, as epitaphs usually praise the deceased, whereas many sonnets criticize the young man, e.g. 33-36, 40-41, 94-95. For more information on Shakespeare and epitaphs see Kerrigan.
+
+Jonathan Burrow argues that &quot;Shakespeare&apos;s Sonnets are his greatest attempt to create a native rhyming version of the classical epitaph, and to grasp those great Horatian and Ovidian themes of the relationship between poetry, civilization, and permanence&quot; (Burrow 113). (For more information on Shakespeare&apos;s use of Horace and Ovid see the Level 3 Context note for l. 5.)</p>
+                  <listBibl><bibl>Burrow, Colin. &quot;Classical Influences.&quot; *The Oxford Handbook of Shakespeare&apos;s Poetry*. Ed. Jonathan F.S. Post. Oxford: OUP, 2013. 97–115. Print.</bibl><bibl>Dawson Ellison, Sarah. *Until the Resurrection: Poetic Fame and the Future of the Body in English Renaissance Lyric, 1590-1641*. Dissertation. 2014. Web. 6. Dec. 2016. https://curate.nd.edu/downloads/x633dz03k1c</bibl><bibl>Kerrigan, John. &quot;Shakespeare, Elegy, and Epitaph. 1557-1640.&quot; *The Oxford Handbook of Shakespeare&apos;s Poetry*. Ed. Jonathan F.S. Post. Oxford: OUP, 2013. 225–44. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-eyes-not-yet-created" from="#s-eyes-not-yet-created" to="#e-eyes-not-yet-created">
+            <respStmt><resp>annotator</resp><name>admin</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>This expression refers to (eyes of) people who are not yet born; people in the future.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-from-hence" from="#s-from-hence" to="#e-from-hence">
+            <respStmt><resp>annotator</resp><name>Miriam Lahrsow</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>In this line, &quot;hence&quot; most likely means &quot;from this place&quot; (&quot;hence, adv.&quot; Def. I.1a). However, it could also be used in a temporal rather than a spatial sense and mean &quot;[f]rom this time onward&quot; (&quot;hence, adv.&quot; Def. II.4a).</p>
+                  <listBibl><bibl>&quot;hence, adv.&quot; Def. II.4a. *OED Online*. OUP, Sept. 2016. Web. 2 Dec. 2016.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>If we read &quot;hence&quot; as &quot;from this place&quot;, it does not become clear what ‘this place&apos; refers to. There are three possibilities:
+
+**(1)** The place could be the sonnet/ sonnet sequence. In this case, a paraphrase could be: ‘Your memory will from now on forever be connected with this sonnet/sonnet sequence; death cannot separate your name from it&apos;.
+
+**(2)** The place could also be the world/ society/ humanity (cf. &quot;hence, adv.&quot; Def. I.3a): In this case, a paraphrase could be: ‘Because my verses have made your memory immortal, your death will not make the world forget you&apos;.
+
+**(3)** The two readings can also be connected: ‘Your memory will forever be connected with this sonnet / sonnet sequence, and as long as the world reads it, your name will not be forgotten by society&apos;. This interpretation is closely related to the ending couplet of sonnet 18: &quot;So long as men can breathe or eyes can see, / So long lives this, and this gives life to thee.&quot; For more connections between the sonnets 18 and 81 see the note on the poem&apos;s title (cf. Level 2 Interpretation [[sonnet-81]]).
+
+One might also detect the implication that ‘From hence your memory death cannot take, but something else can (e.g. the world&apos;s refusal to read the sonnets)&apos;. This emphasises that the immortality of the addressee depends on future readers (cf. Level 1 Language [[eyes-not-yet-created]]) and cannot be seen as ensured.</p>
+                  <listBibl><bibl>&quot;hence, adv.&quot; *OED Online*. OUP, Sept. 2016. Web. 2 Dec. 2016.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-gentle" from="#s-gentle" to="#e-gentle">
+            <respStmt><resp>annotator</resp><name>Kathrin Bauer</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>Gentle means &quot;honourable, distinguished by descent or position&quot; (cf. &quot;gentle, adj.&quot; Def. 2).
+
+Until the 18th century it was used synonymously with noble (cf. &quot;gentle, adj.&quot; Def. 1).
+
+It can also mean „mild in disposition or behaviour; kind, tender&quot; (cf. &quot;gentle, adj.&quot; Def. A8).
+
+Gentle can also be a transferred epithet, i.e. not the verse is gentle but its subject, i.e. the addressee.</p>
+                  <listBibl><bibl>&quot;gentle, adj.&quot; *OED Online*. OUP. Sept 2016. Web. 6. Dec. 2016.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>Here again the theme of the poet distinguished and elevated by his work is recurring. Gentle, in the sense of noble, is set in contrast with &quot;common&quot; (l. 7) and verse with &quot;grave&quot; (l.7). Gentle understood as the description of kind behaviour can also function as a transferred epithet. It is not only the verse that is gentle but also its subject, i.e. the addressee.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#context">
+                  <p>The adjective gentle was also attributed to Shakespeare by his contemporaries. In the preface to the First Folio Ben Jonson ascribes the adjective gentle to Shakespeare calling him &quot;Gentle Shakespeare&quot; in his poem for the engraving and &quot;my gentle Shakespeare&quot; in his eulogy to Shakespeare. He also describes Shakespeare as &quot;indeed, honest and of an open and free nature, with an excellent phantasy, brave notions and gentle expressions.&quot; (Jonson)
+
+In their address to the readers John Heminges and Henry Condell, the editors of the First Folio, call Shakespeare &quot;a happy imitator of Nature, was a most gentle expresser of it&quot;.</p>
+                  <listBibl><bibl>Jonson, Ben. *On Shakespeare. in: English Essays: Sidney to Macaulay. Vol. XXVII. The Harvard Classics*. New York: P.F. Collier &amp; Son, 1909–14; Bartleby.com, 2001. Accessed 01.02.2017.</bibl><bibl>Shakespeare, William. *Mr. William Shakespeares Comedies, Histories, &amp; Tragedies*, bl.uk/collection-items/shakespeares-first-folio. Accessed 02.02.2017.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-grave" from="#s-grave" to="#e-grave">
+            <respStmt><resp>annotator</resp><name>Miriam Lahrsow</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#intratextuality">
+                  <p>In this sonnet, one can find many terms related to the semantic field of burial. In line one, the &quot;[[epitaph]]&quot; is mentioned, which can be an inscription upon a tombstone. The speaker also asserts that he will rot in the earth (cf. 2) and that he will only get a &quot;[[common-grave]]&quot; (7). The addressee, however, will be &quot;entombed in men&apos;s eyes&quot; (8) and the speaker&apos;s writings will be his [[monument]] (9).</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>Throughout the sonnet, the speaker contrasts his own final resting place with that of the addressee: He will rot in a &quot;common grave&quot; (7), implying that nothing will remain of him and that he will be utterly forgotten (as [[common-graves]] were often unmarked. In contrast, the addressee will have a grave of honour in the speaker&apos;s verses: They will be his monument (for the different meanings of &quot;monument&quot; in Shakespeare&apos;s time see the note on &quot;[[monument]]&quot;, l. 9), suggesting that they display his name or even his effigy. Thus, the memory of the addressee will be preserved.
+
+The speaker seems to neglect the fact that those who read the &quot;monument&quot; will not only remember the person it commemorates (the addressee) but also its creator (the speaker). It is ironic that the &quot;monument&quot;, i.e. the sonnet sequence, has only Shakespeare&apos;s name on its title page while the young man&apos;s name cannot be ascertained (cf. Rippl 429n36). (For an overview over different theories regarding the identity of the mysterious Mr. W.H. to whom the sequence is dedicated see Duncan-Jones 51-69). Hence, in reality it is the speaker&apos;s name (if we choose to identify the speaker as Shakespeare) that has &quot;immortal life&quot; (5) rather than the addressee&apos;s.</p>
+                  <listBibl><bibl>Duncan-Jones, Katherine, ed. *Shakespeare&apos;s Sonnets*. Rev. ed. London et al.: Bloomsbury Arden Shakespeare, 2015. Print.</bibl><bibl>Rippl, Gabriele. &quot;&apos;That in black ink my love may still shine bright&apos;. Shakespeare&apos;s Sonnets and the Question of Media in Early Modern England.&quot; *Scripta volant, verba manent: Schriftkulturen in Europa zwischen 1500 und 1900 = Les cultures de l&apos;ecrit en Europe entre 1500 et 1900*. Ed. Alfred Messerli and Roger Chartier. Basel: Schwabe, 2007. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-make" from="#s-make" to="#e-make">
+            <respStmt><resp>annotator</resp><name>Miriam Lahrsow</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>&quot;Make&quot; is here most likely used in the sense of &quot;[t]o compose, write as the author&quot; (Def. I.4a). One might, however, also read it in the sense of &quot;to constitute; to be made or converted into; to serve for&quot; (&quot;make, v.1.&quot; Def. I.22a).</p>
+                  <listBibl><bibl>&quot;make, v.1.&quot; Def. I.4a. *OED Online*. OUP, Sept. 2016. Web. 30 Nov. 2016.</bibl><bibl>&quot;make, v.1.&quot; Def. I.22a. *OED Online*. OUP, Sept. 2016. Web. 30 Nov. 2016.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>One might also combine these two possible meanings of &quot;make&quot;: In this case, the speaker does not only create the epitaph (first meaning) but he also is the epitaph himself (second meaning) by serving as a living reminder of the youth (e.g. by writing and talking about him).</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-monument" from="#s-monument" to="#e-monument">
+            <respStmt><resp>annotator</resp><name>Kathrin Bauer</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>&quot;Monument&quot; has several meanings, many of which apply to the sonnet.
+
+The noun monument derives from Latin moneo, which means &quot;warn; advise; presage&quot; (cf. *Pocket Latin Dictionary* &quot;moneo, v.&quot;). This implies a didactic function. It also means a statue […] erected to commemorate a famous or notable person or event&quot; (cf. &quot;monument, n.&quot; Def. 2), or simply a &quot;tomb&quot; (cf. &quot;monument, n.&quot; Def. 1). An alternative meaning is &quot;written document&quot; (cf. &quot;monument, n.&quot; Def 3.), in all cases &quot;its survival […] distinguishes a person […]&quot; (cf. &quot;monument, n.&quot; Def. 4).</p>
+                  <listBibl><bibl>&quot;moneo, v.&quot; *Pocket Oxford Latin Dictionary: Latin-English* (3 ed.). Online. OUP. June 2014. Web 7 Dec. 2016.</bibl><bibl>&quot;monument, n.&quot; *OED Online*. OUP. Sept. 2016. Web. 3. Dec. 2016.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The speaker presents the sonnet as a monument for the addressee. The use of the noun monument combines the above mentioned meanings. The &quot;gentle verse&quot; of the speaker functions as an everlasting memory of the addressee. The addressee is worthy of a monument, which emphasises the importance and high standing of the addressee but at the same time it is the sonnet which elevates the addressee.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-oer-read" from="#s-oer-read" to="#e-oer-read">
+            <respStmt><resp>annotator</resp><name>Heike Ortlieb</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>To read (over), in the sense of &quot;to read through again; to reread&quot; (Def. 2.)</p>
+                  <listBibl><bibl>&quot;over-read, v.&quot; Def.2. *OED Online*. OUP, Sept. 2016. Web. 08 Dec. 2016.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>Given that &quot;over-read&quot; also implies a notion of repetition, the process of the verse being read frequently and by many people is stressed.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-or" from="#s-or" to="#e-or">
+            <respStmt><resp>annotator</resp></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>In this context, &quot;or...or&quot; means &quot;whether…or&quot; (cf. &quot;or, conj.1.&quot; Def. 3b).
+
+ The meaning &quot;whether…or&quot; for &quot;or…or&quot; has been obsolete since the eighteenth century but was not unusual in Shakespeare&apos;s time (cf. &quot;or, conj.1.&quot; Def. 3b). For an explanation why the meaning &quot;whether… or&quot; is more likely in this context than &quot;either… or&quot; see Level 2.</p>
+                  <listBibl><bibl>&quot;or, conj.1.&quot; Def. 3b. *OED Online*. OUP, Sept. 2016. Web. 26 Nov. 2016.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#form">
+                  <p>The &quot;Or&quot; makes the beginning of sonnet 81 seem very sudden and one could describe it as an &apos;in medias res&apos; (&quot;into the middle of things&quot;) start (cf. Hardison and Hornsby 707). This is a recurring feature of Shakespeare&apos;s sonnets and creates the impression that &quot;the reader is being taken immediately into the ongoing thought process of the poetic voice&quot; (Edmondson and Wells 58). In the case of sonnet 81, one might also be induced to believe that one is overhearing a conversation rather than a thought, which could be connected to the overall impression of sonnet 81 as spoken rather than written/read silently.</p>
+                  <listBibl><bibl>Edmondson, Paul, and Stanley Wells. *Shakespeare&apos;s Sonnets*.  Oxford: OUP, 2004. Print.</bibl><bibl>Hardison, O.B., and Roger A. Hornsby. &quot;in medias res.&quot; *The Princeton Encyclopedia of Poetry and Poetics*. Ed. Roland Greene et al. 4th ed. Princeton, NJ: Princeton UP, 2012. 707-708. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The first two lines of sonnet 81 can be paraphrased as ‘it does not matter whether I live longer than you or you live longer than me&apos;.
+
+The meaning &quot;either…or&quot; for &quot;or…or&quot;, which is common today, was also used in Shakespeare&apos;s time, for example in his *Comedy of Errors* 1.1.136 (cf. &quot;or, conj.1.&quot; Def. 3a). However, this reading is unlikely in the context of sonnet 81. It would mean that the speaker is stating the obvious, namely that either he will die before the addressee or the addressee before him. Thus, the meaning ‘no matter who of us dies first, your memory will survive&apos; (&quot;whether…or&quot;) is much more probable than ‘either I die first or you, but your memory will survive&apos; (&quot;either…or&quot;).</p>
+                  <listBibl><bibl>&quot;or, conj.1.&quot; Def. 3a. *OED Online*. OUP, Sept. 2016. Web. 26 Nov. 2016.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-rehearse" from="#s-rehearse" to="#e-rehearse">
+            <respStmt><resp>annotator</resp><name>Heike Ortlieb</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>cf. *OED* Def. I.1.a: &quot;To give an account or description of; to relate, report, narrate, tell; to describe at length&quot; and 1.4a: &quot;To recite (a poem, prayer, or other piece of writing), esp. before an audience; to read alound or declaim from memory.&quot;</p>
+                  <listBibl><bibl>&quot;rehearse, v.&quot; Def. I.1.a. *OED Online*. OUP, Sept. 2016. Web. 08 Dec. 2016.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>In addition to the act of reciting or describing something, the Definitions I.4.a and b include the notion of an audience being present. It thus transcends the solitary act of reading. This is supported by &quot;tongue&quot;, which refers not only to the speech organ, but also to the idea of &quot;Spoken as distinct from written or other communication; by tongue, by word of mouth.&quot; (*OED* Def. 5.) The idea of someone&apos;s existence being passed on in written verse is expanded by actively performing in front of a certain number of people.
+
+&quot;[R]ehearse&quot; makes the process of passing on the memory more active, and it thus seems more alive. It is also a clear contrast to the realm of burial and death in lines 1-8. Moreover, it breaks the previously described motif of being ‘locked up&apos; (like the body in the tomb or the memory in verse) by including this active aspect. An important addition to the reading of &quot;rehearse&quot; can be found in Bauer and Zirker: Arguing that the process of &quot;reading the epitaph leads to an actual &quot;in-hearsing&quot; of the addressee in the eyes of the reader&quot; (28), line 11 illustrates a change from &quot;in-hearsing&quot; to &quot;re-hearsing&quot; by means of a pun.</p>
+                  <listBibl><bibl>Bauer, Matthias, and Angelika Zirker, &quot;Sites of Death as Sites of Interaction in Donne and Shakespeare.&quot; *Shakespeare, Donne, and the Cultural Imaginary*. Ed. Judith H. Anderson and Jennifer Vaught. New York: Fordham University Press, 2013. 17-37.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-sonnet-81" from="#s-sonnet-81" to="#e-sonnet-81">
+            <respStmt><resp>annotator</resp><name>Leonie Kirchhoff</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#intertextuality">
+                  <p>Lines 13-14 of this sonnet bear a strong resemblance to the last lines of Sonnet 18: &quot;So long as men can breathe or eyes can see, / So long lives this, and this gives life to thee&quot;.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#textual-variants">
+                  <p>The numbering of the sonnets contributes to the close relation between the two sonnets. In Thorpe&apos;s 1609 Quarto, which supposedly reflects Shakespeare&apos;s own numbering of the sonnets, both are numbered 18 and 81 (cf. Graziani). Many of the more recent editions of Shakespeare&apos;s Sonnets (cf. New Cambridge, Arden Shakespeare and editions by Hammond, Vendler, West, Booth) also maintain the numbering of the sonnets.</p>
+                  <listBibl><bibl>Graziani, René. &quot;The Numbering of Shakespeare&apos;s Sonnets: 12, 60, and 126.&quot; *Shakespeare Quarterly*, 1984, 35.1, pp. 79-82.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The link between &quot;Sonnet 81&quot; and &quot;Sonnet 18&quot; is established particularly on the level of content. &quot;Sonnet 81&quot; as well as &quot;Sonnet 18&quot; deal with death, transience, and the speaker&apos;s ability to grant &quot;immortal life&quot; (&quot;Sonnet 81&quot;, l. 5) by making the addressee the subject-matter of his poetry and thus, the lover&apos;s literary immortality. Both sonnets imply that the speaker&apos;s &quot;eternal lines&quot; (&quot;Sonnet 18&quot;, l. 12) create a [[monument]] (&quot;Sonnet 81&quot;, l. 9) that will preserve the lover&apos;s memory &quot;so long as men can breathe or eyes can see&quot; (&quot;Sonnet 18&quot;, l. 13).
+
+&quot;Sonnet 18&quot;, however, suggests a more jocular approach to the rather sombre subject of man&apos;s immortality. The speaker compares the addressee&apos;s beauty to the equally fleeting charms of a &quot;summer&apos;s day&quot; (&quot;Sonnet 18&quot;, l. 1), but later discards this comparison as inadequate. The image of the beloved&apos;s fading beauty is opposed by the speaker&apos;s optimistic promise of an &quot;eternal summer&quot; due to the preservation of the addresse&apos;s loveliness in the speaker&apos;s immortal poetry (&quot;Sonnet 18&quot;, l. 9).
+
+&quot;Sonnet 81&quot; is more urgent in its claim: the focus shifts towards the inevitability of the speaker&apos;s as well as the lover&apos;s death. Paradoxically, the sonnet suggests that it is the lover who will be remembered rather than the author of the sonnet (cf. Arden Shakespeare) (see also [[common-grave]], l. 7 ).</p>
+                  <listBibl><bibl>Duncan-Jones, Katherine. *Shakespeare&apos;s Sonnets*. London: Methuen Drama, 2010.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#context">
+                  <p>The numbering of the sonnets makes the link between the two sonnets even stronger: 18 and 81 are considered climacteric numbers as 81 is the square of 9 and 18 the double of nine (cf. Paterson 231). 7 and 9 were considered mystic numbers and great importance has been &quot;attributed to those years marked by their special multiples&quot; (Cummin 70). The origin of this belief is found in Greek philosophers such as Hippocrates (cf. Bennett), but were also advocated by Plato and Cicero. The *OED Online* lists the earliest mention of the climacteric years in Hammond&apos;s translation of *The History of the World, commonly called the Naturall Historie of C. Plinius* published in 1601:
+
+&quot;That the fewer sort of men live any long time; for that the greatest number by farre, have their nativitie incident and liable to the dangerous houres and times either of the moones occurrence (as in her Quadrature, Opposinition, and Sextile aspect) or of daies according to the number of seven or nine (which are daily and nightly marked and observed:) wherupon ensueth the rule of the dangerous graduall years, called Climactericke.&quot; (Plinius VII.xliv)
+
+In Elizabethan England the climacteric numbers 9 and 7 were therefore &quot;considered unlucky numbers, unusually dangerous to human life&quot; (Fort 19).</p>
+                  <listBibl><bibl>Bennett, Josephine W. &quot;Jaques&apos; Seven Years.&quot; *The Shakespeare Association Bulletin*, 1943,18.4, pp. 168-174.</bibl><bibl>&quot;climacteric, *adj*. I&quot; Def. 2. *OED Online*. OUP, Sept. 2016. Web. 10 December 2016.</bibl><bibl>Cummin, William. &quot;Lectures on Forensic Medicine.&quot; *London Medical Gazette*. Vol. 19. London: London Longman, Brown, Owen and Longmans, 1837. 65–73. Print. Weekly Journal of Medicine and the Collateral Sciences 19.</bibl><bibl>Fort, J. A. „The Order and Chronology of Shakespeare&apos;s Sonnets.&quot; *The Review of English Studies*, 1933, 9.33, pp. 19-23.</bibl><bibl>Plinius, C. *The History of the World, commonly called the Naturall Historie of C. Plinius*.Trans. Hammond. 1601.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#intertextuality">
+                  <p>Shakespeare&apos;s knowledge of the climacteric numbers gets obvious in the beginning monologue of Act II of *As You Like It* (II.VII), which resembles Hippocrates’ division of man’s life into seven ages: infancy, boyhood, puberty, youth, manhood, senescence, and decrepitude (cf. Cummin 70). In As You Like It Jacques similarly delineates the seven stages of a man&apos;s life, reflecting that “man in his time plays many parts, / His acts being seven ages”: “infant … schoolboy … lover … soldier … justice … pantaloon” and lastly, old age, which he describes as a “second childishness” (II.VII.140-68). The oppressing theme of a perpetual ageing process that is only interrupted by death is enforced by the numbering of the two sonnets.</p>
+                  <listBibl><bibl>“climacteric, *adj*. I” Def. 2. *OED Online*. OUP, Sept. 2016. Web. 10 December 2016.</bibl><bibl>Cummin, William. “Lectures on Forensic Medicine.” *London Medical Gazette*. Vol. 19.London: London Longman, Brown, Owen and Longmans, 1837. 65–73. Print. Weekly Journal of Medicine and the Collateral Sciences 19.</bibl><bibl>Shakespeare, William. *As You Like It*. Ed. Juliet Dusinberre. London: Thomson Learning, 2006.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-this-world" from="#s-this-world" to="#e-this-world">
+            <respStmt><resp>annotator</resp><name>admin</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#intratextuality">
+                  <p>In contrast to &quot;all the world&quot;, referred to in line 6 of the sonnet, which includes every living being in general, &quot;this world&quot; in line 12 is now restricted in its meaning to the people living at present, that is, to the poet&apos;s contemporaries.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-though-i-once-gone-to-all-the-world-must-die" from="#s-though-i-once-gone-to-all-the-world-must-die" to="#e-though-i-once-gone-to-all-the-world-must-die">
+            <respStmt><resp>annotator</resp><name>Lisa Metz</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>All the world can be understood as all of humankind or even all living beings. (cf. *OED* „world n.&quot; III.13).
+
+The verb go can have the meaning of &quot;[being] alive and active&quot; and evokes the image of &quot;walking upon the earth&quot;, while the past tense of the phrase in this line states that the action is over, i.e. the speaker is dead. (*OED* „go v.&quot; 1c)</p>
+                  <listBibl><bibl>*OED *„go v.&quot; 1c</bibl><bibl>*OED* „world n.&quot; III.13</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The speaker plays around the meanings of &quot;dying&quot;. To him, ‘dying&apos; seems to be a process with different levels. Once gone, once his body is no longer living he will still die to the world. The &quot;I&quot; now does not just refer to his body, but to his intellectual work and memories other people have of him. Thus he is undergoing a second death at which end there is truly nothing left of him.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>The line can also offer the following reading: &quot;the world is no longer relevant to me&quot;, thus then describing the disentanglement of the speaker from the world.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-tongues-to-be" from="#s-tongues-to-be" to="#e-tongues-to-be">
+            <respStmt><resp>annotator</resp><name>admin</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>(Tongues of) people who are not yet born; people in the future.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-which-eyes-not-yet-created-shall-oer-read-and-tong" from="#s-which-eyes-not-yet-created-shall-oer-read-and-tong" to="#e-which-eyes-not-yet-created-shall-oer-read-and-tong">
+            <respStmt><resp>annotator</resp><name>Heike Ortlieb</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#form">
+                  <p>The parallel structure of the two lines is striking, as both feature organs of future people (*eyes* and *tongues*, both used as synecdoches for complete persons), an object connected to the addressee (Which, referring to *your monument*, l. 9; and *your being*), and a verb implying its reception (*o&apos;er-read* and *rehearse*, thus alluding to two different ‘styles&apos; of reception: reading in private and for oneself or rehearsing it and thus reading it out loud). Booth also prompted to &quot;[n]ote the partial but urgent parallelism between lines 10 and 11&quot; (279) and illustrates the &quot;twin&quot; (279) relation between the respective elements within the lines.</p>
+                  <listBibl><bibl>Booth, Stephen. *Shakespeare&apos;s Sonnets*. New Haven: Yale UP, 1977. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>This noticeable formal connection also creates a strong link in the meaning of the lines. For one, the poet&apos;s verse and thus the addressee&apos;s existence is passed on in written text and orally, passively and actively, to many people. Lines 10 and 11 thus emphasize that the memory and survival are based on more than ‘just&apos; the solitary act of reading. Another effect of this parallelism is pointed out by Booth who argues that the twin structure evokes the idea of its elements being interchangeable. To him, this syntactic property has a direct influence on the meaning of the lines, allowing for an equation of *my gentle verse* with *your being* because they have become, according to him, &quot;interchangeable entities so much alike that having one is just as good as having the other&quot; (279).</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-yield" from="#s-yield" to="#e-yield">
+            <respStmt><resp>annotator</resp><name>Kathrin Bauer</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>In this context &quot;yield&quot; means &quot;to reward, recompense, requite&quot; (cf. &quot;yield, v.&quot; 6).</p>
+                  <listBibl><bibl>&quot;yield, v.&quot; *OED Online*. OUP. Sept. 2016. Web. 3 Dec. 2016.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#language">
+                  <p>The verb to yield has often been used with dative of person (cf. &quot;yield, v.&quot; 6).
+
+In line 7 the same construct is used. &quot;Me&quot; is the dative case of the personal pronoun, which suggests that this nowadays unfamiliar sounding construct, was rather common. This construct has been obsolete since the nineteenth century (cf. &quot;yield, v.&quot; 6).</p>
+                  <listBibl><bibl>&quot;yield, v.&quot; *OED Online*. OUP. Sept. 2016. Web. 3 Dec. 2016.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-your-memory" from="#s-your-memory" to="#e-your-memory">
+            <respStmt><resp>annotator</resp><name>Miriam Lahrsow</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>&quot;Your memory&quot; is ambiguous here. It can either mean
+**(1)** ‘people&apos;s remembrance of you&apos;
+or 
+**(2)** ‘your own memory of something/someone (i.e. of the speaker)&apos;.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The two meanings of &quot;your memory&quot; correspond to the first lines of the poem:
+
+(1) If the speaker survives to make the addressee&apos;s epitaph (l. 1), &quot;your memory&quot; means ‘people&apos;s remembrance of you&apos;.
+
+(2) If the addressee survives the speaker (l. 2), &quot;your memory&quot; means ‘your own memory of something/someone (i.e. of the speaker)&apos;. In this case, the addressee&apos;s memory of the speaker will not end with the speaker&apos;s death, because the addressee still has the poems to remind him of their writer.
+
+Only as late as line five it becomes clear that the first meaning is the most probable (&quot;your name&quot; will be remembered).</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-your-name-from-hence-immortal-life-shall-have" from="#s-your-name-from-hence-immortal-life-shall-have" to="#e-your-name-from-hence-immortal-life-shall-have">
+            <respStmt><resp>annotator</resp><name>Miriam Lahrsow</name></respStmt>
+            <date>2026-03-18</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#context">
+                  <p>The assertion that literature will bestow immortal life on the writer or on someone who is mentioned in the literary work &quot;is a striking constant in European literature. It is one of the most popular of topoi&quot; (Murphy 14-15). It was especially prevalent during Greek and Roman antiquity, as well as during the Renaissance and the Early Modern period (cf. Dawson Ellison 5-6; 12). In Petrarca&apos;s famous sonnet sequence, however, there are only very few passages in which he claims immortality for either himself or Laura (cf. Leishman 44; 52).
+
+In Shakespeare&apos;s time, authors that were preoccupied with this topos included the poets of the French Pléiade (e.g. Pierre de Ronsard), as well as the English poets Edmund Spenser, Samuel Daniel, and Michael Drayton (cf. Leishman 38; Duncan-Jones 33).</p>
+                  <listBibl><bibl>Dawson Ellison, Sarah. *Until the Resurrection: Poetic Fame and the Future of the Body in English Renaissance Lyric, 1590-1641*. Dissertation. 2014. Web. 5. Dec. 2016. https://curate.nd.edu/downloads/x633dz03k1c</bibl><bibl>Duncan-Jones, Katherine, ed. *Shakespeare&apos;s Sonnets*. Rev. ed. London et al.: Bloomsbury Arden Shakespeare, 2015. </bibl><bibl>Leishman, J.B. *Themes and Variations in Shakespeare&apos;s Sonnets*. 2nd ed. London: Hutchinson, 1967. Print. 	</bibl><bibl>Murphy, Stephen. *The Gift of Immortality. Myths of Power and Humanist Poetics*. Madison and Teaneck, NJ: Fairleigh Dickinson UP, 1997. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#intertextuality">
+                  <p>Bestowing immortality through art is a prominent topic in Shakespeare&apos;s sonnets. It also appears in 18, 19, 38, 55, 60, 63, 65, 74, 100, 101, and 107.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#intertextuality">
+                  <p>Here are the relevant passages from other sonnets by Shakespeare in which the notion of immortality through literature appears:
+
+**Sonnet 18:** „Nor shall Death brag thou wander&apos;st in his shade, / When in eternal lines to time thou grow&apos;st; / So long as men can breathe or eyes can see, / So long lives this, and this gives life to thee&quot; (l. 10-14).
+
+**Sonnet 19:** „Yet, do thy worst, old Time: despite thy wrong, / My love shall in my verse ever live young&quot; (l. 13-14).
+
+**Sonnet 38:** „Be thou the tenth Muse, ten times more in worth / Than those old nine which rhymers invocate; / And he that calls on thee, let him bring forth / Eternal numbers to outlive long date&quot; (l. 9-12).
+
+**Sonnet 55:** The whole sonnet is concerned with this topos. In this poem, the Horatian &quot;exegi monumentum&quot; [see Level 3 Context] is most directly addressed.
+
+**Sonnet 60:** &quot;And yet to times in hope my verse shall stand, / Praising thy worth, despite his cruel hand&quot; (l. 13-14).
+
+**Sonnet 63:** „His beauty shall in these black lines be seen, / And they shall live, and he in them still green&quot; (l. 13-14)
+
+**Sonnet 65:** The whole sonnet, but esp.: „That in black ink my love may still shine bright&quot; (l. 14)
+
+**Sonnet 74:** The whole sonnet is concerned with this topos.
+
+**Sonnet 100:** When addressing the Muse: „Give my love fame faster than Time wastes life; / So thou prevent&apos;st his scythe and crooked knife&quot; (l. 13-14).
+
+**Sonnet 101:** „Excuse not silence so, for&apos;t lies in thee / To make him much outlive a gilded tomb / And to be praised of ages yet to be. / Then do thy office, Muse; I teach thee how / To make him seem, long hence, as he shows now.&quot; (l. 10-14).
+
+**Sonnet 107:** „My love looks fresh, and Death to me subscribes, / Since, spite of him, I&apos;ll live in this poor rhyme, / While he insults o&apos;er dull and speechless tribes:/ And thou in this shalt find thy monument, / When tyrants&apos; crests and tombs of brass are spent&quot; (l. 10-14).</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>What is remarkable about sonnet 81 is that it lays great stress on the oral and performative aspects of the addressee&apos;s immortalisation through literature (cf. Watson 352). The speaker promises that the addressee &quot;shall live [...] / [...] in the mouths of men&quot; (13-14), which means that his name has to be uttered rather than read silently. &quot;Rehearse&quot; also indicates that there is an audience present. For a more thorough analysis of the term &quot;rehearse&quot; see [[rehearse]], l. 11. This oral aspect is combined with the more conventional notion of perpetual fame ensured by print writings or carvings in stone (i.e. the &quot;epitaph&quot; and &quot;monument&quot; perused by &quot;eyes&quot;).
+
+The performative dimension emphasises how much the addressee&apos;s immortality depends on the future readers who have to &quot;rehearse&quot; him. Immortality is (paradoxically) presented as something temporal, because it is only ensured as long as someone actively revives the addressee by reading the sonnets (preferably aloud and to an audience). Hence, the sonnets have to be read again and again ([[oer-read]]), l. 10), and are not inherently able to bestow immortality. This condition is also stressed in the final couplet of sonnet 18: Only &quot;[s]o long as men can breathe or eyes can see, / So long lives this, and this gives life to thee&quot;. For more connections between the sonnets 81 and 18, see the note on the title (cf. [[sonnet-81]]).
+
+When reading Shakespeare&apos;s sonnets about immortality through literature, it is us who temporarily ensure the addressee&apos;s immortality: We &quot;read about ourselves, the ‘posterity&apos; whose reading eyes, breath, and tongues the poems foresee. Thus the experience of reading Shakespeare&apos;s Sonnets is one of finding a prophecy being fulfilled&quot; (Dawson Ellison 106).</p>
+                  <listBibl><bibl>Dawson Ellison, Sarah. *Until the Resurrection: Poetic Fame and the Future of the Body in English Renaissance Lyric, 1590-1641*. Dissertation. 2014. Web. 5. Dec. 2016. https://curate.nd.edu/downloads/x633dz03k1c</bibl><bibl>Watson, Amanda. &quot;&apos;Full character&apos;d&apos;: Competing Forms of Memory in Shakespeare&apos;s Sonnets&quot;. *A Companion to Shakespeare&apos;s Sonnets*. Ed. Michael Carl Schoenfeldt. Malden, MA: Blackwell, 2007. 343–360. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#context">
+                  <p>**The ‘Immortality Through Literature&apos; Topos in Shakespeare&apos;s Time**
+
+The hope to gain immortality in literature is not prominent in Wyatt, Surrey, Gascoigne or Sidney (cf. Elton 42). The notion only gains importance in Spenser&apos;s writings, e.g. in sonnet 27, sonnet 75, sonnet 82, and in „The Ruins of Time&quot; (esp. 253ff.) (cf. Elton 43-45). Shakespeare&apos;s contemporaries Michael Drayton and Samuel Daniel were also very occupied with this topic (see Drayton&apos;s sonnet 6, sonnet 44, sonnet 47, and Daniel‘s sonnet 37, sonnet 38, sonnet 39, sonnet 50, sonnet 53). Furthermore, the topos was also often used in Renaissance emblem literature (cf. Clements).
+
+These examples show that the ‘immortality through literature&apos; topos was &quot;a central ingredient and commonplace of Renaissance poetry&quot; (Rippl 420n8). There are several reasons for the immense popularity of the topos during this time. Firstly, Renaissance culture saw itself as &quot;the rebirth of a former culture […], memory and cultural memory are therefore at its very centre of interest&quot; (Rippl 419). This rebirth entailed the renewed interest in Roman literature and Early Modern authors referred to Horace more often than to any other poet when writing about the immortalising power of art (cf. Dawson Ellison 7; see e.g. Shakespeare&apos;s Sonnet 55).
+
+Secondly, Rippl argues that during this period &quot;faith and religion no longer provide[d] adequate answers to man&apos;s confrontation with contingency&quot;, so art was seen as the only means of &quot;ensur[ing] transcendence and duration&quot; (Rippl 419).
+
+Thirdly, Sarah Dawson Ellison asserts that during the late sixteenth and early seventeenth century, the certainty that one&apos;s memory (either in literary works or other monuments) would survive was threatened:
+
+[W]ith the highly visible destruction of books, monuments, and cultural systems of memory in England&apos;s long Reformation, the questions of lasting fame and memory of the dead became pressing unsolved problems. (Dawson Ellison 20; for more information see 40-50)
+
+As a consequence, this time was a &quot;period of anxiety about permanence and memory&quot; and many English poets were concerned with &quot;how, if at all, a poem might carry memory or even participate in immortality&quot; (Dawson Ellison 27).
+
+For more information on this topos in Shakespeare&apos;s age see the context note on level 3.</p>
+                  <listBibl><bibl>Clements, R.J. &quot;The Cult of the Poet in Renaissance Emblem Literature.&quot; *PMLA* 59.3 (1944): 672-685. Print.</bibl><bibl>Dawson Ellison, Sarah. *Until the Resurrection: Poetic Fame and the Future of the Body in English Renaissance Lyric, 1590-1641*. Dissertation. 2014. Web. 5. Dec. 2016. https://curate.nd.edu/downloads/x633dz03k1c</bibl><bibl>Elton, Oliver. &quot;Literary Fame: A Renaissance Study.&quot; *Otia Merseiana*. Vol. 4. Liverpool: Williams and Norgate, 1904. 24-52. </bibl><bibl>Rippl, Gabriele. &quot;&apos;That in black ink my love may still shine bright&apos;. Shakespeare&apos;s Sonnets and the Question of Media in Early Modern England.&quot; *Scripta volant, verba manent: Schriftkulturen in Europa zwischen 1500 und 1900 = Les cultures de l&apos;ecrit en Europe entre 1500 et 1900*. Ed. Alfred Messerli and Roger Chartier. Basel: Schwabe, 2007. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#context">
+                  <p>**A History of the &apos;Immortality Through Literature&apos; Topos Until Shakespeare&apos;s Time
+Antiquity**
+
+In Antiquity, it was often argued that even heroic martial deeds (e.g. those of Achilles and Hector) would be utterly forgotten without poetry about them (cf. Dawson Ellison 8-10). In ancient Greek poetry, the ‘immortality through literature&apos; topos was used, for example by Sappho, Theognis of Megara, Pindar and Theocritus (cf. Dawson Ellison 5-6: cf. Leishman 27-28; cf. Murphy 15).
+
+In Roman literature, the theme appears most prominently in the 30th poem of Horace&apos;s third book of Odes, which contains the famous line &quot;Exegi monumentum aere perennius&quot; (‘I have created a monument more lasting than bronze&apos;). Something similar is asserted at the end of Ovid&apos;s *Metamorphoses* (cf. Dawson Ellison 11; see the last paragraph on this page).
+
+Philip Martin contrasts Shakespeare&apos;s treatment of the ‘immortality through literature&apos; topos with that of the Romans. According to him, they say: &quot;Because of my poem I will never die. Shakespeare says: Because of my poem you will never die&quot; (Martin 158). This is, however, too much of a simplification. The same goes for Leishman&apos;s assertion that in Antiquity the topos was mostly restricted to the commemoration of public figures and their achievements (cf. Leishman 29). For example, in Ovid&apos;s poetry speaker and lover are often immortalised together (see e.g. *Tristia*, in which the author immortalises his wife, and the end of the third elegy in book one of the *Amores*) (cf. Bate 95; 95n18).
+
+Colin Burrow argues that due to Shakespeare&apos;s concerns about immortality in them, the sonnets constitute his &quot;deepest meditations on the classical tradition&quot; (Burrow 113). This statement is insofar remarkable as Shakespeare wrote many texts that are much more directly connected to Antiquity, e.g. *The Rape of Lucrece, Venus and Adonis*, or *Julius Caesar*.
+
+**Middle Ages**
+
+In the Middle Ages, gaining eternal life in heaven (through God) was much more relevant than gaining immortality in literature (through humanity, which might one day cease to exist) (cf. Elton 27; 30). One should not strive for fame but for a virtuous life (cf. Elton 31-32). Hence, the topos of immortality through literature was not as prevalent in medieval writing as in the literature of other periods. However, Ernst Curtius quotes several medieval texts in which the topos is used nevertheless, most of them from around 1100 (cf. Curtius 476-77).
+
+**Renaissance/ Early Modern Age:**
+
+During Renaissance the belief that &quot;the great poet achieves renown and immortality through his works&quot; and that &quot;the Muse saves poets from ignominy and death&quot; was widespread (Clements 672). It was during this era that the works of ancient Greece and Rome were re-popularised and,
+
+[a]s far as Renaissance readers were concerned, the claims of immortal fame made by classical writers were like fulfilled prophecies: the ancient poets had not only said that their poems would outlast stony monuments, but the poems had observably done so; as one read […] them, one became oneself the promised reader-in-posterity, participating, as it were, in the passing of living fame per ora, through the mouths of posterity. (Dawson Ellison 14)
+
+Even though immortality through literature is not a prominent topic in Petrarca&apos;s sonnets, it is very prevalent in his other writings (cf. Elton 33-34). Elton even argues that &quot;Petrach, then, more than any other writer, stands at the modern source of these characteristic conceptions of fame, which persist, in one form or another, constantly streaking literature perhaps for three centuries&quot; (37).
+
+Elton also compares the use of the topos by Drayton, Daniel, Spenser, Shakespeare with that of du Bellay and Petrarca. He concludes that the former group thinks &quot;only of themselves and the person they love&quot;, while the latter two are much more concerned with the ancient tradition they inherited; they are &quot;full of poetical reading and overpowered by the thought of Rome&quot; (Elton 45). Hence, &quot;the spirit of the humanist is now [i.e. by Shakespeare et al.] superseded by that of the lover or friend&quot; (Elton 45).
+
+For a collection of literary quotes from various periods that make use of the ‚immortality through literature‘ topos see Part II of William Gerber&apos;s Love, Poetry, and Immortality.</p>
+                  <listBibl><bibl>Bate, Jonathan. *Shakespeare and Ovid*. Repr. Oxford: Clarendon Press, 2001. Print.</bibl><bibl>Burrow, Colin. &quot;Classical Influences.&quot; *The Oxford Handbook of Shakespeare&apos;s Poetry*. Ed. Jonathan F.S. Post. Oxford: OUP, 2013. 97–115. Print.</bibl><bibl>Clements, R.J. &quot;The Cult of the Poet in Renaissance Emblem Literature.&quot; *PMLA* 59.3 (1944): 672-685. Print.</bibl><bibl>Curtius, Ernst Robert. *European Literature and the Latin Middle Ages*. Trans. Willard R. Trask. New intro. Colin Burrow. 1953. Princeton and Oxford: Princeton UP, 2013. Print.</bibl><bibl>Dawson Ellison, Sarah. *Until the Resurrection: Poetic Fame and the Future of the Body in English Renaissance Lyric, 1590-1641*. Dissertation. 2014. Web. 5. Dec. 2016. https://curate.nd.edu/downloads/x633dz03k1c</bibl><bibl>Elton, Oliver. &quot;Literary Fame: A Renaissance Study.&quot; *Otia Merseiana*. Vol. 4. Liverpool: Williams and Norgate, 1904. 24-52. </bibl><bibl>Gerber, William. *Love, Poetry, and Immortality. Luminous Insights of the World&apos;s Great Thinkers*. Amsterdam: Rodopi, 1998. Print.</bibl><bibl>Leishman, J.B. *Themes and Variations in Shakespeare&apos;s Sonnets*. 2nd ed. London: Hutchinson, 1967. Print. </bibl><bibl>Martin, Philip. *Shakespeare&apos;s Sonnets. Self, Love and Art*. Cambridge: CUP, 1972. Print.</bibl><bibl>Murphy, Stephen.* The Gift of Immortality. Myths of Power and Humanist Poetics*. Madison and Teaneck, NJ: Fairleigh Dickinson UP, 1997. Print.</bibl><bibl>Rippl, Gabriele. &quot;&apos;That in black ink my love may still shine bright&apos;. Shakespeare&apos;s Sonnets and the Question of Media in Early Modern England.&quot; *Scripta volant, verba manent: Schriftkulturen in Europa zwischen 1500 und 1900 = Les cultures de l&apos;ecrit en Europe entre 1500 et 1900*. Ed. Alfred Messerli and Roger Chartier. Basel: Schwabe, 2007. Print.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+      </listAnnotation>
+    </standOff>
+</TEI>

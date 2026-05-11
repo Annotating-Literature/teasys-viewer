@@ -1,0 +1,23 @@
+{
+  "id": "admit",
+  "anchorText": "Admit,",
+  "anchorStart": 613,
+  "anchorEnd": 619,
+  "authors": [
+    "Johannes K�stner"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "(verb) to receive or accept (a person or thing)",
+      "worksCited": [
+        "\"admit, v., I.1.b.\" *OED Online*. Oxford University Press, December 2018. Web. 21 February 2019."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T08:16:54.878Z",
+  "updatedAt": "2026-03-17T08:17:24.063Z"
+}

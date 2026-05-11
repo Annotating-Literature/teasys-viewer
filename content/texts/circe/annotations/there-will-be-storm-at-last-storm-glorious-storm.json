@@ -1,0 +1,55 @@
+{
+  "id": "there-will-be-storm-at-last-storm-glorious-storm",
+  "anchorText": "there will be storm at last, storm, glorious storm.",
+  "anchorStart": 394,
+  "anchorEnd": 445,
+  "authors": [
+    "Isabel Maria Osuna Montilla",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "By avoiding the use of an article, Circe does not predict one storm in particular but rather the generic category of “storm”. One effect of this is the loss of a temporal limit. “[A] storm” would have an ending, “storm” in general does not have a defined end but may, at least in theory, go on endlessly.",
+      "worksCited": []
+    },
+    {
+      "level": 1,
+      "category": "intratextuality",
+      "body": "The word “storm” is repeated several times in the course of the poem (see lines 52-57; 60-64; and 132-137). Circe’s emphatic repetition of “storm” in this line suggests her excitement and celebration of the upcoming storm, which, she hopes, will break the “sickly sweet monotony” (32) (cf. [[monotony]]).",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "Stories of storms received great interest in Greek literature. In ancient Greece, a whole rhetoric of storms was introduced by Homer (see Fantham and Wertheimer). The function of the sea-storm’s rhetoric was two-fold: firstly, to position the author’s work within the epic tradition – every poet was trying to out-do the storm written by the other poet. Secondly, to show the hierarchical structure of the characters within the poem – gods like Poseidon usually send storms to make the heroes’ mortality more apparent (Biggs and Blum 162).\n\nHomer’s *Odyssey* is considered the archetype of sea-storm stories. It narrates the return of the Greeks from Troy: during their journey, Odysseus and his men are threatened by a great storm sent by Zeus (Finley). \n\nStorms are also used in Greek myths to bring heroes to certain places. When the speaker of “Circe” says “coming–yes, coming with the rising wind” (133), she anticipates the arrival of several men, which is another reference to the *Odyssey*.",
+      "worksCited": [
+        "Biggs, Thomas, and Jessica Blum. “Sea-storms in Ancient Epic.” *Structures of Epic Poetry*, edited by Christiane Reitz and Simone Finkmann, De Gruyter, 2019, pp. 125-168. doi.org/10.1515/9783110492590-043.",
+        "Fantham, Elaine, and Linda Wertheimer. “Storms and Floods in the Ancient World.” *NPR*, 1 October 2005, www.npr.org/templates/story/story.php?storyId=4932120. Accessed 21 December 2021.",
+        "Finley, Jr. John H. “5. Odysseus’ Tale.” *Homer's Odyssey*, Harvard University Press, 2013, pp. 93-138. doi.org/10.4159/harvard.9780674333864.c5."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "form",
+      "body": "The storm could also stand for “a metaphor for passionate or tumultuous emotion” (Ferber 236). In this case, the gathering storm that is described points to Circe’s increasing desire for an emotional change: “long for a tempest on me and grow sick / of resting” (63-64).",
+      "worksCited": [
+        "Ferber, Michael. *A Dictionary of Literary Symbols*. Cambridge University Press, 1999. *EBSCOhost*, search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=120164&site=ehost-live. Accessed 27 January 2022."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "The storm in the poem will bring not only a change in the weather, turning the sky dark and raising strong winds, but will also bring a change to Circe’s isolation: see lines 229-231. \n\nThe (potentially) unlimited duration of the storm (cf. Level 1 Language) points to a sense of long-lasting effects for Circe. That is to say, Circe’s upcoming change is understood to stay and accompany her, marking a new period in her life. \n\nThe storm can be understood as a way of indicating Circe’s increasing sexual desire (see Circe’s erotic self-mirroring encounter: lines 115-126). Sutphin argues that Circe uses the gathering storm as a form of describing her sexual desire: it “allows her a rare consciousness and acceptance of her own sexuality” (374). Similarly, Fiske states that Circe’s longing for the violence of a storm is due to the recognition of her passionate nature (487): “[a]nd, if my heart must always be adrowse / in a hush of stagnant sunshine, give me then / something outside me stirring” (lines 50-52). The storm can therefore also be interpreted as a physical representation of Circe’s inner emotional turmoil.",
+      "worksCited": [
+        "Fiske, Shanyn. “Augusta Webster and the Social History of Myth.” *Women’s Studies*, vol. 40, no. 4, Routledge, 2011, pp. 469-490. doi.org/10.1080/00497878.2011.561745.",
+        "Sutphin, Christine. “The Representation of Women’s Heterosexual Desire in Augusta Webster’s ‘Circe’ and ‘Medea in Athens.’” *Women’s Writing*, vol. 5, no. 3, Routledge, 1998, pp. 373-92."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-20T01:04:30.875Z",
+  "updatedAt": "2026-03-20T01:08:53.069Z"
+}

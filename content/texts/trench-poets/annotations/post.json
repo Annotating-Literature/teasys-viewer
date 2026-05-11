@@ -1,0 +1,33 @@
+{
+  "id": "post",
+  "anchorText": "post",
+  "anchorStart": 352,
+  "anchorEnd": 356,
+  "authors": [
+    "Franziska Höfer",
+    "Lena Moltenbrey",
+    "Nicole Poppe"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The noun \"post\" can either refer to \"[a] support or column of timber or (later) some other strong material\" (*OED* \"post, n. 1\"), \"[t]he place where a soldier, guard, etc., is stationed when on duty\" (*OED* \"post, n. 5\"), or to \"[a]n autopsy, a post-mortem\" (*OED* \"post, n. 12\").",
+      "worksCited": [
+        "\"post, n.\". *OED Online*. OUP, January 2015. Web. 3 January 2015. http://www.oed.com/view/Entry/148394?rskey=mdlbz0&result=12#eid"
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Given the possible readings of \"a post\" (l. 10) (link to layer 1) the speaker might either try to emphasise that his chum is not able to stand anymore and, therefore, \"lay[s] […] stiff and senseless as a post\" (l. 9-10) or that the decomposing body of his chum, who \"lay[s] gaping, mackerel-eyed\" (l. 9), reminds him of a corpse after an autopsy.",
+      "worksCited": [
+        "\"post, n.\". *OED Online*. OUP, January 2015. Web. 3 January 2015. http://www.oed.com/view/Entry/148394?rskey=mdlbz0&result=12#eid"
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:39:07.138Z",
+  "updatedAt": "2026-03-16T23:40:12.872Z"
+}

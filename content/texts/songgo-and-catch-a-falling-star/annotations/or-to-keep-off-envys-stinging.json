@@ -1,0 +1,33 @@
+{
+  "id": "or-to-keep-off-envys-stinging",
+  "anchorText": "Or to keep off envy’s stinging",
+  "anchorStart": 166,
+  "anchorEnd": 196,
+  "authors": [],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"stinging\" (OED): The action of wounding with a sting; an instance of this.",
+      "worksCited": [
+        "Weiner, E. S. C., and J. A. Simpson. *The Oxford English Dictionary*. 2nd ed. Oxford: Clarendon, \t1989. Print."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "This sentence can be interpreted as a personification: to keep off envy's stinging means to stop the feeling of desiring a quality, possession, or other desirable thing belonging to someone else.",
+      "worksCited": []
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "This line is ambiguous. By connecting this phrase to the semantic field of impossibility it can be read as a criticism on the more general human nature not being able to be content with what they already have and always desiring more. Due to this fact, this sentence presents another impossible task. By connecting this sentence with the underlying semantic field of love between a man and a woman, this line can have a different and more paradoxical reading: Since there is no women that is true and fair (see annotation true and fair) then there is no need to feel envious of women about their alleged \"truth and fairness\", too. ",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:17:43.553Z",
+  "updatedAt": "2026-03-16T23:18:29.529Z"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "the-snuffles",
+  "anchorText": "The Snuffles",
+  "anchorStart": 3716,
+  "anchorEnd": 3728,
+  "authors": [
+    "Svenja Brank",
+    "Isabella Krapf"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The term describes a \"snuffling sound in the act of respiration\" which is caused by a running nose (cf. \"snuffle, *n*.\" 3.).",
+      "worksCited": [
+        "\"snuffle, *n*.\" *OED Online*, Oxford University Press, June 2021, www.oed.com/view/Entry/183582 . Accessed 21 June 2021."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "form",
+      "body": "\"The Snuffles\" is an onomatopoetic metonymy for a cold, and it is a euphemism that plays down Toby's seemingly endless cold.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, OUP, 2008, pp. 85-162."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "The use of the euphemism \"The Snuffles\" supports the notion that, as nothing can be done anyway, this neglectable, yet, \"disordered action of [Toby's bodily] functions\" is accepted as a minor incommodity of every-day life. Moreover, throughout the story, Toby's character repeatedly serves as a representative of the lower classes; here, his perpetual cold can be said to generally reflect the condition of the working classes that constantly suffer from sickness and disease owing to their bad working conditions and lack of access to proper healthcare services.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, OUP, 2008, pp. 85-162."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-09T09:38:55.150Z",
+  "updatedAt": "2026-05-09T09:40:11.003Z"
+}

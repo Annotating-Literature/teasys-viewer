@@ -1,0 +1,36 @@
+{
+  "id": "what-wind",
+  "anchorText": "What wind",
+  "anchorStart": 213,
+  "anchorEnd": 222,
+  "authors": [],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The OED defines \"wind\" in two different ways:\n\n1. used to express various kinds of rapid or forcible motion;\n\n2. to go on one's way, take oneself; to proceed, go.\n\nA further definition:\n\n\"The noun is ambiguous between two homonyms: 'air in motion' and 'curved or twisted form'\" (Mueller 494).",
+      "worksCited": [
+        "Janel M. Mueller. *John Donne: 21st-century Oxford Authors*. Oxford: Oxford UP, 2015. Print.",
+        "Weiner, E. S. C., and J. A. Simpson. *The Oxford English Dictionary*. 2nd ed. Oxford: Clarendon, \t1989. Print."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Since the noun is ambiguous on the basis of several homonyms ( e.g. \"air in motion\" , \"curved or twisted form\", \"to go on one's way, take oneself; to proceed, go\"), there are several possible ways of interpreting it. We decided to annotate the noun based on the meaning \"air in motion\". However, it could also be referred to as \"curved or twisted form\", since this meaning would rather fit into the rhyme scheme (due to its pronunciation), which would establish a contrastive connection with the following line (\"honest mind\" as something straightforward). The \"curved or twisted form\" fits to the a reading that suggests the underlying semantic fields throughout the poem consisting of negativity in combination with femininity.\n\nSince wind can be a metaphor from sailing, e.g. favourable wind (the wind which is leading the ship in the right direction), the meaning 'air in motion' seems to be the most relatable (Craik 235).",
+      "worksCited": [
+        "Donne, John. *Selected Poetry and Prose*. Ed. T. W. Craik and R. J. Craik. London: Methuen, 1986. Print."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "In the context of the poem (especially in the first stanza), the lyrical I is reflecting on several impossible tasks. One of them is to \"find what wind serves to advance an honest mind\". Therefore, the context of the poem justifies the interpretation of \"wind\" as \"favourable wind\" which leads to the fulfilment of the task.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:06:27.090Z",
+  "updatedAt": "2026-03-16T23:07:50.254Z"
+}

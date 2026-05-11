@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Porphyria&apos;s Lover</title>
+          <author>Robert Browning</author>
+        </titleStmt>
+        <publicationStmt><p>TEASys Viewer</p></publicationStmt>
+        <sourceDesc><p>Annotating Literature, Tübingen University</p></sourceDesc>
+      </fileDesc>
+    </teiHeader>
+  <text><body><div><anchor xml:id="s-porphyrias"/><anchor xml:id="e-porphyrias"/><anchor xml:id="s-lover"/><anchor xml:id="e-lover"/>The rain set early in to-night,
+       <anchor xml:id="s-the-sullen-wind-was-soon-awake"/>The sullen wind was soon awake<anchor xml:id="e-the-sullen-wind-was-soon-awake"/>,
+It tore the elm-tops down for spite,
+       And did its worst to vex the lake:
+       I listened with heart fit to break.
+When glided in Porphyria; straight
+       She shut the cold out and the storm,
+And kneeled and made the cheerless <anchor xml:id="s-grate"/>grate<anchor xml:id="e-grate"/>
+       Blaze up, and all the cottage warm;
+       Which done, she rose, and from her form
+Withdrew the dripping cloak and shawl,
+       And laid her soiled gloves by, untied
+Her hat and let the damp hair fall,
+       And, last, she sat down by my side
+       And called me. When no voice replied,
+She put my arm about her waist,
+       And made her smooth white shoulder bare,
+And all her yellow <anchor xml:id="s-hair"/>hair<anchor xml:id="e-hair"/> displaced,
+       And, stooping, made my cheek lie there,
+       And spread, o&apos;er all, her yellow hair,
+Murmuring how she loved me — she
+       Too weak, for all her heart&apos;s endeavour,
+To set its struggling passion free
+       From pride, and vainer ties dissever,
+       And give herself to me for ever.
+But passion sometimes would prevail,
+       Nor could to-night&apos;s gay feast restrain
+A sudden thought of one so pale
+       For love of her, and all in vain:
+       So, she was come through wind and rain.
+Be sure I looked up at her eyes
+       Happy and proud; at last I knew
+Porphyria worshipped me; surprise
+       Made my heart swell, and still it grew
+       While I <anchor xml:id="s-debated"/>debated<anchor xml:id="e-debated"/> what to do.
+That moment she was mine, mine, fair,
+       Perfectly pure and good: I found
+A thing to do, and all her hair
+       In one long yellow string I wound
+       Three times her little throat around,
+And <anchor xml:id="s-strangled"/>strangled<anchor xml:id="e-strangled"/> her. <anchor xml:id="s-no-pain-felt-she-i-am-quite-sure-she-felt-no-pain"/>No pain felt she;
+       I am quite sure she felt no pain<anchor xml:id="e-no-pain-felt-she-i-am-quite-sure-she-felt-no-pain"/>.
+As a shut bud that holds a bee,
+       I warily oped her lids: again
+       Laughed the blue eyes without a stain.
+And I untightened next the tress
+       About her neck; her cheek once more
+<anchor xml:id="s-blushed-bright"/>Blushed bright<anchor xml:id="e-blushed-bright"/> beneath my burning kiss:
+       I propped her head up as before,
+       Only, this time my shoulder bore
+Her head, which droops upon it still:
+       The smiling rosy little head,
+So glad it has its utmost will,
+       That all it scorned at once is fled,
+       And I, its love, am gained instead!
+Porphyria&apos;s love: she guessed not how
+       Her darling one wish would be heard.
+And thus we sit together now,
+       And all night long we have not stirred,
+       And yet God has not said a word!</div></body></text>
+  <standOff>
+      <listAnnotation>
+        
+          <annotation xml:id="ann-blushed-bright" from="#s-blushed-bright" to="#e-blushed-bright">
+            <respStmt><resp>annotator</resp><name>Ruvindra Sathsarani</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-19</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#form">
+                  <p>The poet uses an alliteration of /b/.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The alliteration of the letter /b/ due to its phonetic characteristics as a labial plosive imitates soft kissing sounds. 
+The line is euphemistic as the speaker tells his readers that the blush on Porphyria’s face is caused by his passionate kiss whereas, in reality, it is the strangulation that causes the blush. By calling this physical reaction a “blush”, the speaker communicates Porphyria’s and his innocence and their mutual sexual attraction, rather than focusing on the actual reason for the blood rush.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-debated" from="#s-debated" to="#e-debated">
+            <respStmt><resp>annotator</resp><name>Hailin Wang</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-19</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The term “debate” is defined as “to discuss or consider (with oneself or in one’s own mind), deliberate upon” (“debate, *n*” 5). </p>
+                  <listBibl><bibl>&quot;debate, *v*.1&quot; *OED Online*, Oxford University Press, March 2023, www.oed.com/view/Entry/47842. Accessed 4 April 2023.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>As its definition suggests, to “debate” is to deliberate on something. The word “debate” implies there are two or more possible perspectives that are to be explored and evaluated. The term, hence, sheds light on the psychological state of the speaker, that is, he is not frantic nor impulsive at the moment. The word indicates the analytical and calculating nature of the speaker’s action, and his overall rational and cold demeanour makes the crime he commits even more surprising. A possible motivation which can be observed in the first 5 lines that employ pathetic fallacy to mirror the mental state of the speaker (cf. Level 2 Interpretation [[the-sullen-wind-was-soon-awake]]), and when in line 15 the speaker refuses to answer Porphyria’s call. The standard reading of the speaker being an impulsive madman “who would kill out of a perverted love” is adapted to apply to a calculating murderer (Crowder 145). In the end, he awaits the divine judgement for his actions “And yet God has not said a word!”. This implies that the speaker considers himself as “above the law of man” (Crowder 146) because he takes God’s lack of intervention as an act of permission to kill Porphyria.</p>
+                  <listBibl><bibl>Browning, Robert. “Porphyria’s Lover.” *Poetry Foundation*, www.poetryfoundation.org/poems/46313/porphyrias-lover. Accessed 2 March 2021.</bibl><bibl>Crowder, Ashby Bland. “‘Porphyria’s Lover’: A Reason for Action.” *The South Central Bulletin*, vol. 37, no. 4, 1977, pp. 145–46. *JSTOR*, doi.org/10.2307/3186918. Accessed 4 Apr. 2023.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>Michael Mason traces the sources on which Robert Browning bases his poem (Mason 255), namely, an article in Blackwoods by John Wilson, “Extracts from Gosschen’s Diary” (1818) (cf. Level 1 Context [[porphyrias-lover]]), and Bryan Procter’s poem “Marcian Colonna” (1820). Upon close examination, “the uncontrolled passion and the lack of rationality” are not present in Browning’s “Porphyria’s Lover” (Crowder 146). Mason makes a pithy summation of the speaker’s personality: “the murderer is … an anti-lunatic, an illustration of how an act conventionally referable to insanity might be the act of a rational being” (257).  The implications of rationality made by the term “debate” stress this discrepancy between the speaker’s actions, outside of the typical behavioural pattern and his reasoning.</p>
+                  <listBibl><bibl>Mason, Michael. “Browning and the Dramatic Monologue.” *Robert Browning*. Ed. Isobel Armstrong. Ohio University Press, 1975, pp. 231-66.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-grate" from="#s-grate" to="#e-grate">
+            <respStmt><resp>annotator</resp><name>Hailin Wang</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-19</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The word “grate” in the poem refers to “a frame of metal bars for holding the fuel in a fireplace or furnace. Hence, the fireplace itself” (“grate, *n*” 4).</p>
+                  <listBibl><bibl>&quot;grate, *n*.1&quot; *OED Online*, Oxford University Press, March 2023, www.oed.com/view/Entry/80918. Accessed 4 April 2023</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-hair" from="#s-hair" to="#e-hair">
+            <respStmt><resp>annotator</resp><name>Hailin Wang</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-19</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#context">
+                  <p>Hair has a rich history of symbolizing concepts such as “life, youth, strength, and fertility” (Ferber 500), and a woman’s hair is often ascribed in literature with features like golden colour and abundancy, whereby it may represent beauty, wealth, and sexuality (Ferber 503). The Victorian writers during Browning’s time were particularly obsessed with women’s, especially golden, hair (Gitter 936).</p>
+                  <listBibl><bibl>Ferber, Michael. *A Dictionary of Literary Symbols*. Cambridge University Press, 2007.</bibl><bibl>Gitter, Elisabeth G. “The Power of Women’s Hair in the Victorian Imagination.” *PMLA*, vol. 99, no. 5, 1984, pp. 936–54. *JSTOR*, doi.org/10.2307/462145. Accessed 14 Jul. 2022.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#form">
+                  <p>The word “hair” appears five times in the poem (see lines 13, 18, 20, 38, 46).</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>The first 31 lines deliver an erotic description of Porphyria’s bodily attributes. Especially the frequent occurrences of the word “hair” increase the eroticism in the poem. 
+
+Hair as a symbol has always had a characterizing function in literature, as Ferber suggests in his *Dictionary of Literary Symbols*. Gitter explains that, if the woman was virtuous (for example, a chaste wife, nurse, mother or victimized princess), then her golden hair might be a nest, warm, or the outward sign of her innocence; nevertheless, if the woman was treacherous and dangerous, then her golden hair could be a weapon, trap or a symbolic fusion of the sexual lust and the lust for power that she embodied (941). 
+
+Porphyria’s hair in the poem is described as “yellow” and “smooth”. This description suggests her youthfulness, vitality and femininity. Porphyria makes a hair tent, under which lies the speaker’s head (cf. lines 17-20), indicating the speaker sees her hair as a sanctuary, which ultimately points to Porphyria’s gentle and innocent disposition. Porphyria’s innocence is also evident in line 43, and the speaker wishes to savor alone Porphyria’s pureness and innocence, and preserve them in this state forever (cf. Level 2 Interpretation [[holds-a-bee]]). Ironically, and contrary to the traditional symbolic meaning of hair, Porphyria’s hair is used as a weapon against herself.</p>
+                  <listBibl><bibl>Browning, Robert. “Porphyria’s Lover.” *Poetry Foundation*, www.poetryfoundation.org/poems/46313/porphyrias-lover.</bibl><bibl>Ferber, Michael. *A Dictionary of Literary Symbols*. Cambridge University Press, 2007.</bibl><bibl>Gitter, Elisabeth G. “The Power of Women’s Hair in the Victorian Imagination.” *PMLA*, vol. 99, no. 5, 1984, pp. 936–54. *JSTOR*, doi.org/10.2307/462145. Accessed 14 Jul. 2022.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-lover" from="#s-lover" to="#e-lover">
+            <respStmt><resp>annotator</resp><name>Hailin Wang</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-20</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The meaning of the word “Lover” can be divided into two denotations. The first is a benign one: “A person who is in love with, or who is enamoured of, another person” (“Lover, *n*.” 2.3.a). The second one alludes to an adulterous kind of relationship, which is negatively connotated: “A person who engages in a romantic or sexual relationship outside marriage, esp. one which is clandestine or illicit” (“Lover, *n*” 2.3.b).</p>
+                  <listBibl><bibl>&quot;lover, *n*. 2&quot; *OED Online*, Oxford University Press, June 2022, www.oed.com/view/Entry/110603. Accessed 14 July 2022.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>It is likely that the poem’s title refers to the second denotation of an illicit affair. One hint for this reading is the indication that the speaker cannot spend much time with Porphyria, see lines 21-30. Porphyria chooses a secret rendezvous with the speaker over a feast which she is expected to attend (cf. lines 26-30). This proves her love for him, according to the speaker. In fact, the speaker’s conclusion that Porphyria loves him because of her skipping the feast emphasizes the illegitimate nature of their relationship. Porphyria’s visit would have no particular significance in a legitimate romantic relationship.</p>
+                  <listBibl><bibl>Browning, Robert. “Porphyria’s Lover.” *Poetry Foundation*, www.poetryfoundation.org/poems/46313/porphyrias-lover.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-no-pain-felt-she-i-am-quite-sure-she-felt-no-pain" from="#s-no-pain-felt-she-i-am-quite-sure-she-felt-no-pain" to="#e-no-pain-felt-she-i-am-quite-sure-she-felt-no-pain">
+            <respStmt><resp>annotator</resp><name>Ruvindra Sathsarani</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-19</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#form">
+                  <p>These lines feature repetition and a chiasmus, and the speaker shifts from Porphyria’s (alleged) sensations to the first person singular and his own perspective to transmit his own beliefs about her.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The first line “No pain felt she” can be read as an objective statement. However, by repeating the statement along with the words “I am quite sure” the speaker exposes the fact that the statement is subjective; he moreover he also shifts the focus from her (“felt she”) to “no pain”. This second line depicts the speaker’s take-over of power over Porphyria. He not only ends her life, he also determines how she feels in an attempt to also reassure himself of her sensation. He speaks on behalf of Porphyria while she has no space to voice her opinion or even to protest against his actions. 
+The repetition also emphasizes that the speaker is personally convinced, or rather trying to convince himself, that Porphyria felt no pain and, therefore, supports the euphemistic depiction of Porphyria&apos;s death where the speaker avoids the gruesome details of the murder in an evasive manner.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-porphyrias" from="#s-porphyrias" to="#e-porphyrias">
+            <respStmt><resp>annotator</resp><name>Hailin Wang</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-20</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The name for the female protagonist of the poem derives from Greek *porphyros*, meaning *purple*.</p>
+                  <listBibl><bibl>&quot;purple, *adj*. and *n*.&quot; *OED Online*, Oxford University Press, June 2022, www.oed.com/view/Entry/154956. Accessed 14 July 2022.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#context">
+                  <p>The word “porphyria” is understood either as the royal color in Roman times or a symbol of the deepest lust (Gage 25). According to Oxford English Dictionary, when used in poetic works the word “purple” is associated with bloodiness and bloodstain (“purple,* adj.*” 1.I.2.). </p>
+                  <listBibl><bibl>Gage, John. *Color and Culture: Practice and Meaning from Antiquity to Abstraction*. University of California Press, 1999. *Google Books*. books.google.pl/books?id=oq_GtjmoTNgC&amp;printsec=copyright&amp;hl=pl#v=one page&amp;q&amp;f=false  Accessed 6 April 2023.</bibl><bibl>&quot;purple, *adj*. and *n*.&quot; *OED Online*, Oxford University Press, June 2022, www.oed.com/view/Entry/154956. Accessed 14 July 2022.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>The name “Porphyria,” on the one hand, is a means of characterization of the woman and of her relationship to the speaker. The royal or imperial connotation of the word suggests porphyria’s nobility, and the connotation of “deepest lust” can be found in the erotic description of her in line 17. On the other hand, the name foreshadows the association of the “bloodiness” that is implicitly linked to the crime that will later be carried out by the speaker against Porphyria.</p>
+                  <listBibl><bibl>Browning, Robert. “Porphyria’s Lover.” *Poetry Foundation*, www.poetryfoundation.org/poems/46313/porphyrias-lover.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-strangled" from="#s-strangled" to="#e-strangled">
+            <respStmt><resp>annotator</resp><name>Hailin Wang</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-19</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The verb “strangle” is defined in the *Oxford English Dictionary* as “to kill by external compression of the throat, esp. by means of a rope or the like passed round the neck.” (“strangle, *v*.” 1.a.); however, the word “strangle” also entails the meaning of merely “constrict[ting] painfully (the neck or throat)” (“strangle, *v*.” 1.c).</p>
+                  <listBibl><bibl>&quot;strangle, *v*.&quot; *OED Online*, Oxford University Press, June 2022, www.oed.com/view/Entry/191253. Accessed 11 June 2022.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#form">
+                  <p>The two senses of “strangle” indicate that the word is an example of polysemy. Polysemy refers to a linguistic phenomenon where a single word has multiple meanings that are related to each other (Vincente and Falkum): lexical ambiguity is embedded in the word (Winter-Froemel 60). The first sense refers literally and specifically to the act of depriving someone of their life by compressing their throat, whereas the second sense merely denotes the idea of “constricting” without any consequences or goals intended.</p>
+                  <listBibl><bibl>Vicente, Agustín and Ingrid L. Falkum. &quot;Polysemy.&quot; *Oxford Research Encyclopedia of Linguistics*. 27. Oxford University Press, 2017. oxfordre.com/linguistics/view/10.1093/acrefore/9780199384655.001.0001/acrefore-9780199384655-e-325 Accessed 3rd of April 2023.</bibl><bibl>Winter-Froemel, Esme. “Introducing Pragmatic Ambiguity: On the Diversity and Ambivalence of Ambiguity in Discourse.” *Ambivalenz in Sprache, Literature und Kunst. Ambivalence in Language, Literature and Art*. Eds. Matthias Bauer, Frauke Berndt and Sebastian Meixner, Würzburg: Königshausen &amp; Neumann, 2019, pp 65-83.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#questions">
+                  <p>The two senses of the word “strangle” point to the fact that it is debatable whether Porphyria died from strangulation in the literal sense of the word, or merely deprived of oxygen as suggested by the second sense. This uncertainty leads to a possible questioning of the events of the poem: Can people strangle someone to death with human hair? Can people’s eyes remain “blue without a stain” (line 45) when he or she is dead?</p>
+                  <listBibl><bibl>Browning, Robert. “Porphyria’s Lover.” *Poetry Foundation*, www.poetryfoundation.org/poems/46313/porphyrias-lover. Accessed 2 March 2021.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-the-sullen-wind-was-soon-awake" from="#s-the-sullen-wind-was-soon-awake" to="#e-the-sullen-wind-was-soon-awake">
+            <respStmt><resp>annotator</resp><name>Ruvindra Sathsarani</name><name>Sophia Smolinski</name></respStmt>
+            <date>2026-03-19</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#form">
+                  <p>The adjectives “sullen” and “awake” personify the wind.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The personification of the wind functions to mimic the speaker’s state of mind which is unsettled. The adjective “sullen” provides the idea that the wind is in a resentful mood whereas the adjective “awake” suggests rising action, thus paralleling the speaker’s disposition. The activity of the storm creates a threatening setting which foreshadows the cruel twist the poem is going to take.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#form">
+                  <p>The repetition of the sibilant sounds /s/ imitates the noise of actual wind. The velar plosive /k/ in the word “awake” disrupts the hissing sound of the sibilance of /s/.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>The noise of wind created by the sibilant sounds stops abruptly with the aspirated velar plosive /k/ which heightens the destructive atmosphere and the impression of the finality of the poem’s plot.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+      </listAnnotation>
+    </standOff>
+</TEI>

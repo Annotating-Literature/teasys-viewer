@@ -1,0 +1,24 @@
+{
+  "id": "grate",
+  "anchorText": "grate",
+  "anchorStart": 314,
+  "anchorEnd": 319,
+  "authors": [
+    "Hailin Wang",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The word “grate” in the poem refers to “a frame of metal bars for holding the fuel in a fireplace or furnace. Hence, the fireplace itself” (“grate, *n*” 4).",
+      "worksCited": [
+        "\"grate, *n*.1\" *OED Online*, Oxford University Press, March 2023, www.oed.com/view/Entry/80918. Accessed 4 April 2023"
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-19T10:59:48.967Z",
+  "updatedAt": "2026-03-20T00:35:43.756Z"
+}

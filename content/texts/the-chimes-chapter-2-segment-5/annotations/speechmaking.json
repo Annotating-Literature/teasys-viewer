@@ -1,0 +1,37 @@
+{
+  "id": "speechmaking",
+  "anchorText": "Speechmaking",
+  "anchorStart": 1172,
+  "anchorEnd": 1184,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"Speechmaking\" (usually spelled \"speech-making\") means the action of delivering speeches or an occasion on which speeches are delivered (cf. speech-making, n.\"). The word is rare and it was mostly used in the nineteenth century.",
+      "worksCited": [
+        "\"speech-making, n.\" *OED Online*. OUP, Dec. 2014. Web. 19 Feb. 2015."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Will Fern criticises Alderman Cute and others for using poor people like him in order to demonstrate their charity in public, e.g. by inviting them to attend a \"fine Speechmaking\".",
+      "worksCited": []
+    },
+    {
+      "level": 3,
+      "category": "intratextuality",
+      "body": "In *The Chimes*, there are two instances in which charity events are depicted as being more about improving the benefactors' public image than about helping the poor: Sir Joseph Bowley tells Toby that a poor man may once in his life \"receive – in public, in the presence of the gentry – a Trifle from a Friend\" (Dickens 111). In his vision, Toby also witnesses a banquet at which the poor first have to eat in a different hall than their benefactors and, at a given signal, have to enter and \"flock[ing] in among their Friends and Fathers\" (133). Also see the annotation about voting charities.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*. Ed. Robert Douglas-Fairhurst. Oxford: OUP, 2008. 85-162. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-07T18:36:46.498Z",
+  "updatedAt": "2026-05-07T18:37:51.012Z"
+}

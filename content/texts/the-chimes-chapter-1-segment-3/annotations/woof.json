@@ -1,0 +1,31 @@
+{
+  "id": "woof",
+  "anchorText": "woof",
+  "anchorStart": 217,
+  "anchorEnd": 221,
+  "authors": [
+    "Lauren Fröhlich"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The word \"woof\" is a term used in the context of weaving and describes \"the threads that cross from side to side of a web\" (\"woof, *n*.1.\" 1.a.). In this context, \"woof\" can also simply refer to \"a woven fabric\" (\"woof, *n*.1\" 3.).",
+      "worksCited": [
+        "\"woof, *n*.1\" *OED Online*, Oxford University Press, Feb 2020, www.oed.com/view/Entry/230105. Accessed 04 February 2020. "
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Toby's relationship to the Bells is described as having developed into a rather intimate, complex, and strong connection, as he \"knit[s] up his first rough acquaintance with them into something of a closer and more delicate woof\" (Dickens 91). His life is highly influenced by the Bells as \"they were very often in his ears, and very often in his thoughts, but always in his good opinion\" (Dickens 92).",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst. Oxford University Press, 2008, pp. 85-162."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-05T17:24:52.539Z",
+  "updatedAt": "2026-05-05T17:26:00.971Z"
+}

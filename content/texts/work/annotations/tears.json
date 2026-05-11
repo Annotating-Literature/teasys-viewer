@@ -1,0 +1,37 @@
+{
+  "id": "tears",
+  "anchorText": "tears",
+  "anchorStart": 278,
+  "anchorEnd": 283,
+  "authors": [
+    "Sandra Wetzel"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "*Tears* are \"the visible feature of weeping\" and, hence, the symbol of \"grief or sorrow\" (\"tear, *n*.1\" 1.b.).",
+      "worksCited": [
+        "\"tear, *n*.\" *OED Online*. Oxford UP, Sept 2014. Web. September 7, 2019."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The tears that are as pure, transparent, and innocent as the [[pure]] [[crystallines]] are the symbol of honest \"toil[ing]\" (1) and suffering during the mortal life [hyperlink to \"tears\" language 1]. See here for the different interpretations of [[work]].",
+      "worksCited": []
+    },
+    {
+      "level": 3,
+      "category": "context",
+      "body": "For further information on the tear in literature you may consult chapter III.2. \"Das Motiv des lebendigen Wassers in der Bibel und religiösen Texten\", especially „Exkurs: Wasser- und Tränenpoesie in weltlicher Dichtung\" as well as „Interpretation: The Weeper\" (chapter III.4) in H*eilig öffentlich Geheimnis* by Inge Leimberg (1996).",
+      "worksCited": [
+        "Leimberg, Inge. *Heilig öffentlich Geheimnis: Die geistliche Lyrik der englischen Frühaufklärung*, Waxmann, 1996. Anglistische Studien 11."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-20T21:48:54.150Z",
+  "updatedAt": "2026-03-20T21:51:40.317Z"
+}

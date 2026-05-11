@@ -1,0 +1,70 @@
+{
+  "id": "break-of-day",
+  "anchorText": "Break of Day",
+  "anchorStart": -12,
+  "anchorEnd": 0,
+  "authors": [
+    "Julia Tagowzew",
+    "Bela Metz"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The time of day when sunlight first begins to appear.",
+      "worksCited": [
+        "\"break of day.\" *Merriam-Webster.com*. Merriam-Webster, 2011. 21 February 2019."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "form",
+      "body": "This poem consisting of three stanzas with six lines each is written entirely in rhyming couplets. The first two couplets of each sestet are in iambic tetrameter, while the last couplet of each sestet follows an iambic pentameter. As a result the addition of syllables to the last two lines of each stanza slows them down and gives them more weight.",
+      "worksCited": []
+    },
+    {
+      "level": 1,
+      "category": "context",
+      "body": "It is unknown when the poem was written but presumably during the early 1590s. (Robbins 141)",
+      "worksCited": [
+        "Robbins, Robin. *The complete poems of John Donne : epigrams, verse letters to friends, love-lyrics, love-elegies, satire, religion poems, wedding celebrations, verse epistles to patronesses, commemorations and anniversaries*. Harlow; Munich: Longman Pearson, 2010. p. 141."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "form",
+      "body": "\"Break of Day\" is an *aubade*. It is a love poem or a song which welcomes the arrival of the dawn or complains about it. Often they are adulterous or illicit lovers, who don't want to separate but don't want to get caught either.",
+      "worksCited": [
+        "\"aubade.\" *Glossary of Poetic Terms*. Poetry Foundation, 2019. 21 February 2019."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "\"Break\" is an ambiguous term in the context of this poem. While the break of dawn is the start into a new day, it also brings with it the breaking apart of the couple sheltered by darkness during the night.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "textual-variants",
+      "body": "Break of Daye.\nperhaps by John Dowland\n\nStay, O sweet, and do not rise,\nThe light that shines comes from thine eyes;\nThe day breaks not, it is my heart,\nBecause that you and I must part.\nStay, or else my joys will die,\nAnd perish in their infancie.\n\nIn the 1669 edition and some MSS., the stanza attributed to Dowland (in a different meter and spoken by a man, and probably not written by Donne) precedes the three stanzas of this poem (Donne/Clements 11).",
+      "worksCited": [
+        "Donne, John. *The Poems of John Donne*. ed. Herbert Grierson. Oxford: OUP, 1964. p. 391",
+        "Donne, John. *John Donne's Poetry - Authoritative Texts & Criticism*. Ed. Arthur L. Clements. New York: Norton, 1966. "
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "First printed with music in W. Corkine's \"Second Book of Airs\" (1612). (J*ohn Donne The Complete English Poems*; ed. Albert J. Smith. London, Lane, 1974)\n\n\"Break of Day\" was set by William Corkine and appears in his Second Book of Ayres, 1612. It is set for voice and viol. (John Donne: *The Elegies and The Songs and Sonnets*, Appendix B. Ed. Helen Gardner. Oxford: Clarendon Press, 1965.)",
+      "worksCited": [
+        "Donne, John. *The Complete English Poems*; ed. Albert J. Smith. London, Lane, 1974.",
+        "Donne, John. \"Appendix B.\" *The Elegies and The Songs and Sonnets*. Ed. Helen Gardner. Oxford: Clarendon Press, 1965."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T08:20:12.346Z",
+  "updatedAt": "2026-03-20T21:36:12.858Z"
+}

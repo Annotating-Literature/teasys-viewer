@@ -1,0 +1,23 @@
+{
+  "id": "wilt",
+  "anchorText": "wilt",
+  "anchorStart": 43,
+  "anchorEnd": 47,
+  "authors": [
+    "Bela Metz"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "archaic, 2nd person sing. of \"will\".",
+      "worksCited": [
+        "\"wilt.\" *The Concise Oxford Dictionary, 18th Edition*. Ed. R.E. Allen. Oxford: Clarendon Press, 1990"
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:57:08.131Z",
+  "updatedAt": "2026-03-16T23:57:37.489Z"
+}

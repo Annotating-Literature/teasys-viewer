@@ -1,0 +1,32 @@
+{
+  "id": "thine-for-me-are-windows-to-my-breast",
+  "anchorText": "thine for me Are windows to my breast",
+  "anchorStart": 448,
+  "anchorEnd": 486,
+  "authors": [
+    "Natalia Christoforou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "intratextuality",
+      "body": "Line 11 echoes the \"windows\" from l. 8, even though the referents are essentially different.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "In line 8, they are the windows of the \"bosom's shop\" (l. 7) and stand metaphorically for the speaker's eyes, whereas in l. 11, they explicitly pertain to the eyes of the addressee (\"thine [eyes] […] [a]re windows\" (ll. 10-11)). Though the windows are different, the \"breast\" in l. 11 is identical to the speaker's \"bosom\" in l. 7.\n\nThe image of ‘looking babies' into each other's eyes suggests a structure of \"complementary reciprocity\" (Vendler 142). Not only can the addressee look upon his painting through the speaker's eyes but also, one could argue, the speaker can recognise himself through the eyes of the addressee (\"and thine [eyes] for me/ Are windows to my breast\" (ll. 10-11) – ‘breast' being sometimes used as a metonym for heart (*OED* 5a)). However, an \"asymmetrical\" (142) structure, as Helen Vendler infers, seems much more likely in this case. The speaker and the addressee do gaze at each other; yet, the former's eyes are transparent whereas the latter's are opaque (cf. Fineman 10f). The addressee can look through the windows and into the speaker's heart, whereas the speaker can only look at the windows that reflect his own breast and the picture of the beloved. \"The lover looks at the beloved, but the beloved, as he looks through the poet, only looks at himself. […] [S]o depicted, [it is] a one-way relationship; it has two subjects but only one object\" (Bondroit 53).",
+      "worksCited": [
+        "Bondroit, Benoît. \"The Anatomy of Sight: Poetic Eyedentity in Shakespeare's Sonnets to the Fair Youth\". *Actes des congrès de la Société française Shakespeare*, Ressources et prix du mémoire, 2012.",
+        "\"breast, n.\". *OED Online*, Oxford University Press, December 2019, www.oed.com/view/Entry/22952. Accessed 28 January 2020.",
+        "Fineman, Joel. *Shakespeare's Perjured Eye: The Invention of Poetic Subjectivity in the Sonnets*. University of California Press, 1986. ",
+        "Vendler, Helen. *The Art of Shakespeare's Sonnets*. Belknap, 1997."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T15:06:23.979Z",
+  "updatedAt": "2026-03-18T15:08:07.528Z"
+}

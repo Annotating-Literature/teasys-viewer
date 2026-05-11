@@ -1,0 +1,28 @@
+{
+  "id": "breezy-goose-skinned-blue-nosed-red-eyed-stony-toe",
+  "anchorText": "breezy, goose-skinned, blue-nosed, red-eyed, stony-toed, tooth-chattering",
+  "anchorStart": 6,
+  "anchorEnd": 79,
+  "authors": [
+    "Svenja Brank",
+    "Esther Duarte Marti"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "The phrase lists sensory adjectives that describe Toby's usual spot and workplace next to the church.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The narrator emphasizes just how cold Toby's spot is in the winter by hinting at symptoms of a cold. The list emphasizes the inhumane working conditions Toby endures to make a living and the bad consequences for his health these conditions may result in.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-04T19:39:30.385Z",
+  "updatedAt": "2026-05-04T19:40:16.568Z"
+}

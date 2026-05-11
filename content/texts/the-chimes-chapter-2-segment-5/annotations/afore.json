@@ -1,0 +1,24 @@
+{
+  "id": "afore",
+  "anchorText": "afore",
+  "anchorStart": 348,
+  "anchorEnd": 353,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"Afore\" is a regional variation of \"before\" (cf. Gerson 300-01). Here, it suggests that Fern is speaking Dorset dialect, but other dialects also used this form in the nineteenth century. The word also appears in *Poems of Rural Life, in the Dorset Dialect* (1844) – one of the most prominent examples of Dorset dialect in nineteenth-century literature. In this collection, William Barnes spells the word \"avore\" (cf. Barnes 285).",
+      "worksCited": [
+        "Barnes, William. *Poems of Rural Life, in the Dorset Dialect, With a Dissertation and Glossary*. London: John Russell Smith, 1844. Print.",
+        "Gerson, Stanley. *Sound and Symbol in the Dialogue of the Works of Charles Dickens*. Stockolm et al. : Almqvist & Wiksell, 1967. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-07T18:21:22.841Z",
+  "updatedAt": "2026-05-07T18:22:12.171Z"
+}

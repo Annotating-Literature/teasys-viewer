@@ -1,0 +1,38 @@
+{
+  "id": "worth-his-salt",
+  "anchorText": "worth his salt",
+  "anchorStart": 3740,
+  "anchorEnd": 3754,
+  "authors": [
+    "Svenja Brank",
+    "Esther Duarte Marti"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The proverb ‘to be worth one's salt' is defined as someone being \"efficient or capable\" (\"salt, *n*.1.\" 2.g.).",
+      "worksCited": [
+        "\"salt, *n*.1.\" *OED Online*, Oxford University Press, December 2021, www.oed.com/view/Entry/170146. Accessed 6 January 2022."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "context",
+      "body": "The proverb \"to be worth one's salt\" has its origins in the Roman conquest of Britain. Roman soldiers are believed to have been partly paid in salt, which was a valuable and expensive commodity (cf. \"Roman Times\").",
+      "worksCited": [
+        "\"Roman Times.\" *Salt Association UK*. saltassociation.co.uk/education/salt-history/roman-times/. Last Accessed 06.01.2022."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Toby is proudly convinced to do a good a job and that he is worth the money, he is being paid. ",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-04T19:50:42.983Z",
+  "updatedAt": "2026-05-04T19:52:13.100Z"
+}

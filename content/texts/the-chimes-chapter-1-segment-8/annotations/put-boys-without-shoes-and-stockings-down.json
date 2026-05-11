@@ -1,0 +1,53 @@
+{
+  "id": "put-boys-without-shoes-and-stockings-down",
+  "anchorText": "Put boys without shoes and stockings, Down",
+  "anchorStart": 3124,
+  "anchorEnd": 3166,
+  "authors": [
+    "Abdulkadir Sen",
+    "Marina Kirillova"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"Put […] Down\" means to put an end to (an activity, practice, ideal, institution, etc.) by force or authority; to suppress, crush, quell; to abolish (\"put, *v*.\" 2.b.). Moreover, in some contexts it can also allude to an even harsher action: To kill, put to death. It is used as a euphemism to killing (an old, sick, or injured animal) in a humane manner. (\"put, *v*.\" 4.).",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, OUP, 2008, pp. 85-162.",
+        "\"'put, *v*.\" *Oxford English Dictionary*, Oxford UP, December 2023, https://doi.org/10.1093/OED/7410982123. Accessed 26 January 2024.",
+        "\"put, *v*.\" *Oxford English Dictionary*, Oxford UP, December 2023, https://doi.org/10.1093/OED/7410982123. Accessed 26 January 2024."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "intratextuality",
+      "body": "The phrase \"Put […] Down\" is used multiple times in this passage as well as regularly throughout the story. The constant repetition of this phrase in relation to different disadvantaged groups – such as children and women of the lower classes –creates a certain ominous atmosphere due to the lack of sympathy and compassion for these people.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, OUP, 2008, pp. 85-162."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "In this part of a larger passage Alderman Cute is condescendingly talking about certain groups within society, in particular poor people. When Cute claims that \"boys will grow up bad, of course\" (104) he puts forward the deterministic idea that disadvantaged groups in society will stay as such and hence should be segregated and removed. He will \"convict ‘em summarily, every one\"; Cute is \"determined to Put boys without shoes and stockings, Down\" (104). We may see early forms of what will be later called social Darwinism, which comprises the approach that societies, classes, and race are subject to and product of Darwinian laws of natural selection. This theory has often been used to justify political conservatism, imperialism as well as racism. It was coined by Joseph Fisher in his 1877 article on \"The History of Landholding in Ireland\" (\"social Darwinism, *n*.\") and the idea of the \"survival of the fittest\" was first used by Herbert Spencer in 1864, in his Principles of Biology (\"fit, *adj*.\" 1.b).",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, OUP, 2008, pp. 85-162.",
+        "\"fit, *adj*.\" *Oxford English Dictionary*, Oxford UP, https://doi.org/10.1093/OED/7962393429. Accessed 7 January 2024.",
+        "\"social Darwinism, *n*.\" *Oxford English Dictionary*, Oxford UP, https://doi.org/10.1093/OED/9969103154. Accessed 7 January 2024."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "Concepts of social Darwinism and the survival of the fittest were coined and further analysed decades later than *The Chimes*. However, this passage constitutes a perfect example of the view that social concepts did not arise solely from biological findings, but that they resulted from several shifts within the thought and social organization after the Industrial Revolution (cf. Claeys 225). Which is to argue that, the discernment and conceptualization of social Darwinism has its roots not only in the study of evolution and non-human animals but more so in the observation and analysis of social phenomena like poverty. The reason that poverty became more visible in comparison with pre-industrial times is due to the rise of the population and the concentration of this population in the cities. This observation becomes evident in the sentences following this passage, when Alderman Cute implicates that the \"brood\" of poor people will stay as poor as they are to begin with and \"run wild in the streets\" (104). He accordingly hints at the view that they will cause social disruption in the growing slums. Throughout the patronizing passage, Cute, as someone who distances himself from these groups, claims that he has the right and authority to \"protect\" and \"cure\" society from these disadvantaged groups. He does not view them with pity but rather contempt. His only solution to these problems is to \"Put boys without shoes and stockings, Down\" (104). Hence, decades before the coinage of social Darwinism, the idea that poor people should be exterminated for the \"good of society\" is put forward as an emerging idea in Dickens's works – and has something that he condemns.",
+      "worksCited": [
+        "Claeys, Gregory. \"The ‘Survival of the Fittest' and the Origins of Social Darwinism.\" *Journal of the History of Ideas*, vol. 61, no. 2, 2000, pp. 223–40. *JSTOR*, https://doi.org/10.2307/3654026.",
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, OUP, 2008, pp. 85-162."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-06T21:01:42.323Z",
+  "updatedAt": "2026-05-06T21:10:07.125Z"
+}

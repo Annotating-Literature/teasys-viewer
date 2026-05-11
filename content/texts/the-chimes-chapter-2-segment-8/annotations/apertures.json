@@ -1,0 +1,35 @@
+{
+  "id": "apertures",
+  "anchorText": "apertures",
+  "anchorStart": 2269,
+  "anchorEnd": 2278,
+  "authors": [
+    "Verena West",
+    "Marina Kirillova"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Aperture refers to \"a gap, cleft, chasm, or hole\" or more generally \"an opening\" (\"aperture, *n*.\" 3.). In this scene, it helps to describe the holes which Toby is seeing in the church roof, through which the \"frayed ropes\" hang (Dickens 124). The word is \"a borrowing from Latin\" (aperture, *n., Etymology*).",
+      "worksCited": [
+        "\"aperture, *n., Etymology*.\" *Oxford English Dictionary*, Oxford UP, July 2023, https://doi.org/10.1093/OED/8007651957. Accessed 26 August 2024.",
+        "\"aperture, *n*.\" *Oxford English Dictionary*, Oxford University Press, September 2023, https://doi.org/10.1093/OED/5880814170. Accessed 18 December 2023.",
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhust, Oxford UP, 2008."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The use of \"apertures\" is an example of the different registers applied to distinguish the narrator's description of the church from Toby´s semi-hallucinating perception of it. The fact that \"aperture\" is borrowed from Latin (aperture, *n., Etymology*), makes it a marker of an educated register which fits the narrator´s style. Toby, by contrast, has a less sophisticated register due to his social standing and education level. He instinctively assumes the \"frayed ropes\" are \"hair\" and is deeply fascinated by the interior of the church (Dickens 124). Once the focalization changes back to the narrator's description, words such as \"toilsomely\" once again foreground the contrast in register.\n\nToby describes the church and bell as a living being, talking about its \"hair\" and the trepidation of \"waking the deep Bell\" (Dickens 124). This is congruent with the \"spell upon him\" (124), which shapes his perception of the bell as a living being and gives the reader a glimpse into Toby´s inner workings and state of mind when ascending the church steps (Dickens 124). The Goblin sight is part of this spell and why he perceives the Chimes as alive due to the animated spirits surrounding it.\n\nHe will physically never be able to reach certain parts of the building and can only admire from afar, such as the apertures at the very top. The choice of the Latin borrowing \"apertures\" fits the openings in the roof well by emphasizing how unattainable they are for Toby, not only in register but also physical reach (aperture, *n., Etymology*).",
+      "worksCited": [
+        "\"aperture, *n., Etymology*.\" *Oxford English Dictionary*, Oxford UP, July 2023, https://doi.org/10.1093/OED/8007651957. Accessed 26 August 2024.",
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhust, Oxford UP, 2008."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-08T10:19:38.656Z",
+  "updatedAt": "2026-05-08T10:21:18.918Z"
+}

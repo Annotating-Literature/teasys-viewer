@@ -1,0 +1,35 @@
+{
+  "id": "if-thou-beest-born-to-strange-sights-things-invisi",
+  "anchorText": "If thou beest born to strange sights, Things invisible to see,",
+  "anchorStart": 258,
+  "anchorEnd": 321,
+  "authors": [],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "textual-variants",
+      "body": "In a different version of the poem the line says \"go see\" instead of \"to see\". In that case the second line would no longer be a specification of the „strange sights\" mentioned in the line above but an appeal to the addressee to go and look for invisible things (Redpath 119).",
+      "worksCited": [
+        "Donne, John. *The Songs and Sonets of John Donne*. Ed. Theodore Redpath. London: Methuen, 1987. Print."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "textual-variants",
+      "body": "In the version with \"go see\" instead of \"to see\",the theme of giving the addressee tasks impossible to fulfill is continued in the second stanza.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "These two lines can be read in two different ways. They could either refer to the feeling of being \"carried away by an urge to see strange sights\" (Ray 119) or the ability to perceive things that are strange (Ray 305). However, that Interpretation may change, considering the textual variants at hand.",
+      "worksCited": [
+        "Ray, Robert H. *A John Donne Companion*. London: Routledge, 2016. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:11:28.738Z",
+  "updatedAt": "2026-03-16T23:12:26.748Z"
+}

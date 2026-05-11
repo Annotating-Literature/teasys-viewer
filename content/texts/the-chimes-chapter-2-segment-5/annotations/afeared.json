@@ -1,0 +1,31 @@
+{
+  "id": "afeared",
+  "anchorText": "afeared",
+  "anchorStart": 2203,
+  "anchorEnd": 2210,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"Afeard\" is a regional variation of \"afraid\". Here, it is used by a speaker from Dorset. In one of the most prominent examples of nineteenth-century Dorset dialect in literature, this word is spelled \"afeärd\" (cf. Barnes 209).",
+      "worksCited": [
+        "Barnes, William. *Poems of Rural Life, in the Dorset Dialect, With a Dissertation and Glossary*. London: John Russell Smith, 1844. Print."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "language",
+      "body": "\"Afeard\" was common in Old and Middle English, but was later replaced by \"afraid\" (cf. \"afeared, adj.\").",
+      "worksCited": [
+        "\"afeared, adj.\" *OED Online*. OUP, Sep.  2014. Web. 16 Oct. 2014."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-07T18:42:57.121Z",
+  "updatedAt": "2026-05-07T18:43:32.410Z"
+}

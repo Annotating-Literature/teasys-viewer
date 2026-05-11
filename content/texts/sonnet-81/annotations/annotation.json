@@ -1,0 +1,31 @@
+{
+  "id": "annotation",
+  "anchorText": ".",
+  "anchorStart": 533,
+  "anchorEnd": 534,
+  "authors": [
+    "Heike Ortlieb"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "textual-variants",
+      "body": "Although the 1609 Quarto suggests printing a comma, the Arden edition has a full stop at the end of line 12. A comparison of several editions of Shakespeare's sonnets shows that some of them do feature different punctuations. Booth explains this by the need to make a decision for modern editions and thus discusses other punctuation variants (cf. 279).",
+      "worksCited": [
+        "Booth, Stephen. *Shakespeare's Sonnets*. New Haven: Yale UP, 1977. Print."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The options in question are, on the one hand, the one found in the Arden edition:\n\nYour monument shall be my gentle verse, 9\nWhich eyes not yet created shall o'er-read, 10\nAnt tongues to be your being shall rehearse, 11\n**When all the breathers of this world are dead. 12**\nYou still shall live, such virtue hath my pen, 13\nWhere breath most breathes, even in the mouths of men. 14\n\nThe full stop in the Arden edition establishes the syntactic entity of lines 9-12, implying that people in the future will still speak about the addressee even when the people of \"this world\", the poet's and the addressee's contemporaries, are dead. The emphasis on survival in line 13, then, is a new syntactic unit and thus has its own coherence of meaning. The New Cambridge edition loosens this separation of syntactic units by using a semicolon after line 12:\n\n[…] **When all the breathers of this world are dead;** 12\nYou still shall live, such virtue hath my pen, […] 13\n\nAs Booth argues that this decision for a full stop after line 12 \"would diminish the poem\" (279), his edition features a comma between lines 12 and 13. Although it is true that there is a slight shift in meaning when the punctuation is altered, the scope of its effect can be discussed. The idea that the memory of a person is passed on and survives by virtue of the poet's verse, even after this person's physical death, remains.",
+      "worksCited": [
+        "Booth, Stephen. *Shakespeare's Sonnets*. New Haven: Yale UP, 1977. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-20T22:01:40.977Z",
+  "updatedAt": "2026-03-20T22:03:21.582Z"
+}

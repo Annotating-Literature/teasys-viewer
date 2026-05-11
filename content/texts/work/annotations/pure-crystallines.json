@@ -1,0 +1,21 @@
+{
+  "id": "pure-crystallines",
+  "anchorText": "pure crystallines",
+  "anchorStart": 295,
+  "anchorEnd": 312,
+  "authors": [
+    "Sandra Wetzel"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "The combination of [[pure]] and [[crystallines]] is a pleonasm which means the repetition of a certain meaning like, in this case, transparency and purity.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-20T21:47:25.985Z",
+  "updatedAt": "2026-03-20T21:48:44.222Z"
+}

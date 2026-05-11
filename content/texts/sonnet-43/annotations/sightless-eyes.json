@@ -1,0 +1,37 @@
+{
+  "id": "sightless-eyes",
+  "anchorText": "sightless eyes",
+  "anchorStart": 531,
+  "anchorEnd": 545,
+  "authors": [
+    "Liubov Bolshakova"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The word ‘sightless' means \"unable to see; destitute of the power of sight\" or can refer to blindness (*OED* 1a).",
+      "worksCited": [
+        "\"sightless, adj.\". *OED Online*. Oxford UP, Dec 2016. "
+      ]
+    },
+    {
+      "level": 2,
+      "category": "intertextuality",
+      "body": "A similar image occurs in Sonnet 27 \"Presents thy shadow to my *sightless* view\" (l. 10). The sonnets both revolve around the haunting ‘shadow' during the night-time, which evokes rueful feelings in the addressee's absence. In Sonnet 43, the eyes are ‘sightless' because the speaker is sleeping, whereas in Sonnet 27 the eyes seem to be blind due to the surrounding darkness.",
+      "worksCited": []
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "The speaker is able to see the addressee (at least his \"imperfect shade\"(l. 11)), despite being in a deep sleep (cf. Level 2 Interpretation [[most-i-wink]]) and, thus, being physically ‘sightless'. Vendler argues that \"the poem […] gets darker as the seeing eyes become unseeing and then sightless, and as the shade darkens from shin[ing] brightness to imperfect[ion]\" (223). Indeed, throughout the poem the speaker slowly falls asleep (‘wink'), and gradually, he starts dreaming of the addressee (cf. Level 2 Interpretation [[shade]]).",
+      "worksCited": [
+        "Vendler, Helen. *The Art of Shakespeare's Sonnets*. The Belknap P, 1997. "
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T09:52:05.254Z",
+  "updatedAt": "2026-03-17T20:35:33.694Z"
+}

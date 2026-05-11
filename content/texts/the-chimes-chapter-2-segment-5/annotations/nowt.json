@@ -1,0 +1,25 @@
+{
+  "id": "nowt",
+  "anchorText": "nowt",
+  "anchorStart": 1282,
+  "anchorEnd": 1286,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Even though the context makes clear that Fern is from Dorset, there is no evidence that \"nowt\" was used for \"nothing\" in Dorset dialect. In his *Poems of Rural Life, in the Dorset Dialect*, William Barnes uses neither \"nowt\" nor \"nawt\". Bertil Widén only records / nɔ́þən / as \"nothing\" in Dorset dialect (cf. 71). Dickens here mistakenly uses a Yorkshire dialect word (cf. Gerson 104) for a speaker from Dorset.",
+      "worksCited": [
+        "Barnes, William. *Poems of Rural Life, in the Dorset Dialect, With a Dissertation and Glossary*. London: John Russell Smith, 1844. Print.",
+        "Gerson, Stanley. *Sound and Symbol in the Dialogue of the Works of Charles Dickens*. Stockolm et al.: Almqvist & Wiksell, 1967. Print.",
+        "Widén, Bertil. *Studies on the Dorset Dialect*. Nendeln: Kraus, 1968. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-07T18:38:02.836Z",
+  "updatedAt": "2026-05-07T18:38:55.579Z"
+}

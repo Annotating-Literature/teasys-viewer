@@ -1,0 +1,55 @@
+{
+  "id": "maud",
+  "anchorText": "Maud",
+  "anchorStart": 731,
+  "anchorEnd": 735,
+  "authors": [
+    "Mirjam Haas",
+    "Steffi Hörz",
+    "Miriam Lahrsow",
+    "Christina Tauber"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "intertextuality",
+      "body": "Maud: A Monodrama (1855) is a poem by Alfred Tennyson (1809-1892). It was originally subtitled ‘The Madness' (Sanders 434).\n\nLink to the full text of Maud: http://ota.ahds.ac.uk/desc/3030",
+      "worksCited": [
+        "Sanders, Andrew. *The Short Oxford History of English History*. 3rd ed. Oxford: OUP, 2004. Print."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "intertextuality",
+      "body": "In the poem the mentally unstable, unnamed speaker falls in love with a woman called Maud. The speaker and Maud are meeting in secret when Maud's brother appears. He insults the speaker and is probably killed by him in a duel. Maud dies and the speaker loses his mind completely, but when he joins the army he \"recovers his sanity\" (\"Maud\").",
+      "worksCited": [
+        "\"Maud.\" *Encyclopaedia Britannica Online*. Encyclopaedia Britannica. 2013. Web. 24 Nov 2014."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "**The Theme of Death in Maud and in \"Trench Poets\"**\n\nDeath is a major theme in Maud, though it is not its natural, but rather its unnatural, violent form that keeps recurring throughout the poem. The suicide of the narrator's father, the (probable) murder of Maud's brother, and Maud's own premature death blend with visions of death that hold an escapist quality, connecting it strongly to the emotions of the speaker and thus to life itself. Early on in the poem Maud's beauty is described as \"dead perfection\" (Tennyson 1.2.7), herself being \"ghostlike, deathlike, half the night long / Growing and fading and growing\" (1.3.8-9). She seems to be in a state between death and life – ever \"[g]rowing and fading.\" This obsession with death becomes even more evident in the second part of the poem where the speaker imagines himself to be in \"a shallow grave\" (2.5.6) and is thus actively blurring the line between life and death. Death, at least metaphorically, becomes another state of being, of self, and thus ceases to be a fundamental change to non-existence. Dorothy Mermin connects this rather distorted view of death to an inability of coping with loss and mourning. She describes the narrator's attitude as \"an attempt to recapture the irrecoverable past, a refusal to accept the fact of loss,\" and draws the conclusion that \"such an attempt cannot […] succeed, it leads to isolation, madness and further loss\" (Mermin 267).\n\nIn Trench Poets we can find an echo of this \"refusal to accept the fact of loss.\" The lyrical persona attempts to \"rouse\" (Rickword 6) his fellow soldier, not accepting his having passed away. He holds on to his \"chum\" (1) even though he is \"far gone\" (8) and \"stiff and senseless as a post\" (10) until he cannot, physically, bear his decaying presence any longer (23-24). Note also that he always talks of \"him\" and \"he,\" never addressing the corpse as an impersonal \"it.\" The denial of the actuality of death leads to this bizarre situation in which death loses its finality as long as the speaker refuses to accept the loss.",
+      "worksCited": [
+        "Mermin, Dorothy M. \"Tennyson's Maud: A Thematic Analysis.\" *Texas Studies in Literature and Language: A Journal of the Humanities* 15:2 (1973): 267-78. Web.",
+        "Rickword, Edgell. \"Trench Poets.\" *The New Oxford Book of War Poetry*. Ed. Jon Stallworthy. Oxford: OUP, 2014. 223. Print.",
+        "Tennyson, Alfred. \"Maud: A Monodrama.\" *In Memoriam, Maud and Other Poems*. Ed. John D. Jump. London: Dent, 1974. 156-88. Print."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "context",
+      "body": "**Tennyson and the Crimean War**\n\nTennyson was appointed Poet Laureate in 1850 and held the position until his death in 1892 (Shatto 1). During his tenure he wrote two poems that dealt with the Crimean War: The narrative poem \"The Charge of the Light Brigade\" in 1854 and Maud in 1855. While \"The Charge of the Light Brigade\" can definitely be said to be the public and official work of a Laureate, *Maud* has been read as a far more private poem (cf. Markovits 488). As Markovits has shown, \"Tennyson's monodrama revisits crucial periods of the poet's own life, including intimate aspects of his early love affairs and the family history of mental instability that contributed to his father's death\" (488).\n\nThe Crimean War of 1854-1856 was only the first in a series of European wars and power-struggles which were to dominate the second half of the nineteenth century (see Royle ix). Nevertheless, there are important historical and political links to the First World War. For instance, a lot of the technology that is often connected to WWI today was actually first used in the Crimean War (see Edgerton 1-2; Royle ix). Additionally, similar to people's opinion during World War I, the attitude towards the Crimean War turned from romanticized notions about \"Death or glory\" (Edgerton 3) to the realization of the gruesome realities of trench warfare (see Edgerton 3).",
+      "worksCited": [
+        "Edgerton, Robert B. *Death or Glory: The Legacy of the Crimean War*. Boulder: Westview, 1999. Print.",
+        "Markovits, Stefanie. \"Giving Voice to the Crimean War: Tennyson's ‘Charge' and Maud's Battle-song.\" *Victorian Poetry* 47.3 (2009): 481-503. Web. 19 Nov 2014. http://muse.jhu.edu/journals/victorian_poetry/v047/47.3.markovits.pdf",
+        "Royle, Trevor. *Crimea. The Great Crimean War 1854-1856*. London: Little, Brown, 1999. Print.",
+        "Shatto, Susan. *Tennyson's Maud: A Definitive Edition*. London: Athlone, 1986. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:24:05.888Z",
+  "updatedAt": "2026-03-21T01:36:56.648Z"
+}

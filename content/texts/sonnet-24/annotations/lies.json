@@ -1,0 +1,31 @@
+{
+  "id": "lies",
+  "anchorText": "lies",
+  "anchorStart": 265,
+  "anchorEnd": 269,
+  "authors": [
+    "Natalia Christoforou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "Behind the obvious meaning of ‘lies' in the sense of ‘being situated somewhere' lurks a possible pun with ‘lies' in the sense of deception, particularly as it is ironically preceded by the \"true image\" (l. 6, my emphasis).",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The picture representing the so-called \"true image\" (l. 6) of the addressee is to be spatially located within the speaker's body, that is, in the later specified \"bosom's shop\" (l. 7) of his. When annotating a related phrase from sonnet 46 (\"thou in him dost lie\" (l. 5)), Stephen Booth remarks that the image might have its source in the \"traditional expression of affection: to lodge someone in one's heart\" (209n5).\n\nNonetheless, a possible pun with ‘lying' cannot be excluded. Painting, in general, is always an artificial rendering of reality, \"an imitation at three removes\" (Gilman 31) as Plato would dismissingly say. Furthermore, the concept of ‘perspective' introduced in l. 4 already presupposes an underlying \"trompe l'œil\" principle (Ravassat par. 16) to be traced both in perspectival and anamorphic representations.\n\nLinear perspective is effectively a technique in which the artist attempts to manipulate a viewer's perception and create the illusion of three-dimensional reality (Ravassat par. 17). No matter how faithful the representation, there is always an element of deception involved. In fact, \"[t]he more perfect the representation of reality achieved in a perspective picture, the more perfect is the deception practiced on the viewer\" (Gilman 31).\n\nAnamorphic perspective, in turn, was specifically conceived to draw attention to the illusory nature of the medium. It was indeed \"carefully constructed to deceive, to conceal the optical truth and produce an experience of doubt and readjustment before it reveals itself\" (Gilman 38).\n\nAt a first reading, \"lies\" poses innocently as a mere topographical marker in the sonnet and cunningly conceals its duplicitous nature from the unsuspecting reader probably up until the abrupt change in tone of the closing couplet.",
+      "worksCited": [
+        "Booth, Stephen (ed.). *Shakespeare's Sonnets*. Yale University Press, 1977.",
+        "Gilman, Ernest B. *The Curious Perspective: Literary and Pictorial Wit in the Seventeenth Century*. Yale University Press, 1978.",
+        "Ravassat, Mireille. \"The Language of Deceptive Transparency in Shakespeare's Sonnets\". *Les Cahiers de La Licorne - Shakespeare en devenir*, 7, 2013, no p. Université de Poitiers, http://shakespeare.edel.univ-poitiers.fr/index.php?id=695. Accessed March 2017."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T14:46:34.343Z",
+  "updatedAt": "2026-03-18T14:48:28.542Z"
+}

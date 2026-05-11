@@ -1,0 +1,30 @@
+{
+  "id": "solemn",
+  "anchorText": "solemn",
+  "anchorStart": 1052,
+  "anchorEnd": 1058,
+  "authors": [
+    "Maja Grubina",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The term “solemn” is “[o]f days or seasons: Marked by the celebration of special observances or rites (esp. of a religious character); distinguished by, or set apart for, special ceremonies” (2.), in the sense of something recurring, like a ritual.",
+      "worksCited": [
+        "\"solemn, adj. (adv. and n.).\" *OED Online*, Oxford University Press, March 2023, www.oed.com/view/Entry/184147. Accessed 30 April 2023."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "By describing the lights of night as “solemn,” the poem bestows god-like and sacred qualities upon the night and sets it somewhat apart within the perpetual rhythm of day and night.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T23:31:44.651Z",
+  "updatedAt": "2026-03-20T00:37:18.280Z"
+}

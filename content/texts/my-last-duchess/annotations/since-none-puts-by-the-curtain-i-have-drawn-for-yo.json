@@ -1,0 +1,30 @@
+{
+  "id": "since-none-puts-by-the-curtain-i-have-drawn-for-yo",
+  "anchorText": "(since none puts by The curtain I have drawn for you, but I)",
+  "anchorStart": 392,
+  "anchorEnd": 453,
+  "authors": [
+    "Minella Fernandes",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "intratextuality",
+      "body": "These lines are an example of the duke’s dominance and authority. They further highlight the duke’s control over the duchess’ life (cf. Level 2 Interpretation [[i-gave-commands-then-all-smiles-stopped-together]]) and the unequal power dynamic (cf. Level 2 Interpretation [[notice-neptune-though-taming-a-sea-horse]]) they shared.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "This represents the control the duke exerts over his wife, even after her possible death. The duke hides the painting of the duchess behind a curtain only he is allowed to draw, so that people can only look at her whenever he decides it to be proper. Watson claims that “the fact that no one else is allowed to draw the curtain is evidence of the imperious nature of the duke” (Watson 71).",
+      "worksCited": [
+        "Watson, J. R. “Robert Browning: ‘My Last Duchess.’” *Critical Survey*, vol. 6, no. 1/2, 1973, pp. 69–75. *JSTOR*, www.jstor.org/stable/41553914. Accessed 5 Jul. 2022."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-20T00:28:27.004Z",
+  "updatedAt": "2026-03-20T00:56:01.448Z"
+}

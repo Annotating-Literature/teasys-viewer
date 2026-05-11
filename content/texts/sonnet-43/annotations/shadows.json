@@ -1,0 +1,23 @@
+{
+  "id": "shadows",
+  "anchorText": "shadows",
+  "anchorStart": 216,
+  "anchorEnd": 223,
+  "authors": [
+    "Natalia Christoforou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Apart from the other meanings and connotations attached to '[[shadow]]', the word 'shadows', when in plural, also explicitly refers to \"the darkness of night\" (*OED* 2a).",
+      "worksCited": [
+        "\"shadow, n.\". *OED Online*. Oxford UP, June 2017."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T20:51:12.009Z",
+  "updatedAt": "2026-03-17T20:52:10.907Z"
+}

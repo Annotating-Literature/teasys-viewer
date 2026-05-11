@@ -1,0 +1,29 @@
+{
+  "id": "look-on",
+  "anchorText": "look on",
+  "anchorStart": 127,
+  "anchorEnd": 134,
+  "authors": [
+    "Ayla Kahl"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "‘To look on’ means that one directs her/his sight \"in observation or contemplation; esp. to watch without participating, to be a spectator or observer\" (*OED* 1a). ",
+      "worksCited": [
+        "\"look, v.\". *OED Online*. Oxford UP, Dec 2016."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The speaker is able to see the addressee in his dream (\"they look on thee\", line 3), i.e. to see a projected image of the addressee before his inner eye. This interpretation would also tie in with the definition provided on L1, according to which the speaker would be the observer. Furthermore, the idea of observation is taken up again later in the poem (cf. [[form-happy-show]]).",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T09:37:10.521Z",
+  "updatedAt": "2026-03-17T20:13:00.384Z"
+}

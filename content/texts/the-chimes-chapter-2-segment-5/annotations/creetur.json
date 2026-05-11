@@ -1,0 +1,21 @@
+{
+  "id": "creetur",
+  "anchorText": "creetur",
+  "anchorStart": 764,
+  "anchorEnd": 771,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "For information about Will Fern's pronunciation see the annotation about [[misfortun]].",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-07T18:22:57.332Z",
+  "updatedAt": "2026-05-07T18:23:20.157Z"
+}

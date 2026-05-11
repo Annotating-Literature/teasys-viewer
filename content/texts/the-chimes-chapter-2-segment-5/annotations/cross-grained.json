@@ -1,0 +1,33 @@
+{
+  "id": "cross-grained",
+  "anchorText": "cross-grained",
+  "anchorStart": 1702,
+  "anchorEnd": 1715,
+  "authors": [
+    "Svenja Brank",
+    "Isabella Krapf",
+    "Theresa Anger"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "A \"cross-grained\" person can be described as someone who is \"difficult to deal with\" because they are \"intractable\" and \"of opposed nature and temper\", and therefore \"across the grain\" (\"cross-grained, *adj*.\" 2.). The term is generally used to describe wood that has its \"grain or fibre arranged in crossing directions, or irregularly, instead of running straight longitudinally,\" making it difficult to chop (\"cross-grained, *adj*.\" 1.).",
+      "worksCited": [
+        "\"cross-grained, *adj*.\" *OED Online*, Oxford University Press, June 2021, www.oed.com/view/Entry/44877. Accessed 9 August 2021."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Will Fern emphasizes that, unlike cross-grained wood, he is not naturally a \"contrarious\" person, but that in a society in which his desire to \"live like one of the Almighty's creeturs\" is categorically denied, he may appear as though he was (\"cross-grained, *adj*.\" 2.). Will thus points out that it is impossible for the poor to simply want to live without automatically incurring the anger of the exclusionary societal system, and that, therefore, there is a gap between rich and poor that increases the unequal circumstances (Dickens 117). The passage serves to show that Will Fern's character is not innately bad, but that he merely wishes for equality.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, OUP, 2008, pp. 85-162."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-07T18:39:08.082Z",
+  "updatedAt": "2026-05-07T18:40:25.797Z"
+}

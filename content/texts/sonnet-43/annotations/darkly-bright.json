@@ -1,0 +1,39 @@
+{
+  "id": "darkly-bright",
+  "anchorText": "darkly bright",
+  "anchorStart": 147,
+  "anchorEnd": 160,
+  "authors": [
+    "Heike Ortlieb"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "For ‘darkly', the *OED* suggests the meaning of \"in the dark; in secrecy, secretly\" (*OED* 1), with line 4 of this sonnet being offered as the first example of this usage.",
+      "worksCited": [
+        "\"darkly, adv.\" *OED Online*. Oxford UP, March 2017. "
+      ]
+    },
+    {
+      "level": 1,
+      "category": "form",
+      "body": "The phrase \"darkly bright\" is an oxymoron as it \"yokes together two seemingly contradictory elements\" – darkness and brightness (cf. [[bright in dark directed]])– in order to form a \"condensed paradox\" (Princeton 988).",
+      "worksCited": [
+        "\"Oxymoron\". *The Princeton Encyclopedia of Poetry and Poetics*. Ed. Roland Greene et al., Fourth Edition, Princeton UP, 2012, pp. 988-999."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "\"[D]arkly bright\" in line 4 of the poem refers to the color or degree of brightness of the speaker's eyes. The oxymoron makes it impossible to determine whether the eyes are dark yet sparkling, or bright yet darkened or blurred. Bearing in mind the suggested meaning of ‘darkly', the phrase can also be read in the sense that the eyes can see (brightly) in the dark. This description bestows an enigmatic quality to the speaker's eyes. For more context on theories of vision, cf. \"[[and-darkly-bright-are-bright-in-dark-directed]]\" (l.4).",
+      "worksCited": [
+        "Clark, Stuart. *Vanities of the Eye: Vision in Early Modern European Culture*. Oxford UP, 2007."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T13:24:26.500Z",
+  "updatedAt": "2026-03-17T20:15:10.511Z"
+}

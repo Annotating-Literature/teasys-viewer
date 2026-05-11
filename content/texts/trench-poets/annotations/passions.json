@@ -1,0 +1,26 @@
+{
+  "id": "passions",
+  "anchorText": "passion’s",
+  "anchorStart": 788,
+  "anchorEnd": 797,
+  "authors": [
+    "Mirjam Haas",
+    "Steffi Hörz",
+    "Miriam Lahrsow",
+    "Christina Tauber"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The term \"passion,\" however, can take several meanings:\n\n(1) The sufferings of Jesus Christ or of martyrs in general (cf. \"passion, n. I. 1. c.\" and cf. \"passion, n. I. 2. a.\").\n\n(2) Any strong emotion (cf. \"passion, n. II. 6. a.\").\n\n(3) A \"fit, outburst, or state marked by . . . strong excitement, agitation, or other intense emotion. In early use also: a fit of madness or mental derangement\" (\"passion, n. II. 6. c.\"). (also see [[\"healthy things\"]])\n\n(4) Strong affection or love (cf. \"passion, n. II. 8. a.\").\n\n(5) Sexual desire (cf. \"passion, n. II. 8. b.\").\n\n(6) An \"intense desire or enthusiasm for […] something; the zealous pursuit of an aim\" (\"passion, n. II. 9. a.\").",
+      "worksCited": [
+        "\"passion, n.\" *OED Online*. OUP, Dec. 2014. Web. 27 Jan. 2015."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:33:16.213Z",
+  "updatedAt": "2026-03-16T23:33:59.151Z"
+}

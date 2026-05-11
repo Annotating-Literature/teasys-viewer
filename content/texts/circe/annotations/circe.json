@@ -1,0 +1,46 @@
+{
+  "id": "circe",
+  "anchorText": "Circe",
+  "anchorStart": -5,
+  "anchorEnd": 0,
+  "authors": [
+    "Isabel Maria Osuna Montilla",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "The poem “Circe” is included in Portraits (1870), together with other poems, such as “Medea in Athens”, that are also written in the form of a dramatic monologue by a female speaker (cf. Level 1 Form).\nThe title of the poem refers to Greek mythology: Circe is the daughter of Helios (the Titan sun god) and Perse (one of the Oceanids), and she is considered a powerful enchantress.",
+      "worksCited": []
+    },
+    {
+      "level": 1,
+      "category": "form",
+      "body": "“Circe” is written in the form of a dramatic monologue, which means that Circe herself is the speaker of the poem.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "form",
+      "body": "The [dramatic monologue](https://en.wikipedia.org/wiki/Dramatic_monologue) finds its roots in the Romantic period and reached a peak in popularity during the Victorian era; it was made particularly popular by [Robert Browning](https://en.wikipedia.org/wiki/Robert_Browning) (“dramatic monologue”). \nCirce as the speaker of the dramatic monologue allows for an unusually frank presentation of female desire, especially given the rather strict norms of behaviour in the Victorian era. When referring to the Medea and Circe poems, Christine Sutphin points out that “[t]heir apparent cultural and mythical distance gives them the power to critique heterosexual politics and to express their own desires in ways impossible for Victorian personae” (17). The three poems in Webster’s collection that are titled with names (“Medea in Athens”, “Circe” and “The Manuscript of Saint Alexius”) are the only ones that refer to a distant past. \nWith the name “Circe”, Webster is also able to create a reference to other nineteenth-century poems, such as Matthew Arnold’s “The Strayed Reveller” or Tennyson’s “Ulysses”, that also re-examine this specific classical myth (Houston 9), albeit from a different (as in male) perspective.",
+      "worksCited": [
+        "“dramatic monologue.” *A Dictionary of Literary Terms and Literary Theory*, edited by John A. Cuddon, 5th ed., Wiley-Blackwell, 2013.",
+        "Houston, Natalie M. “Order and Interpretation in Augusta Webster’s Portraits.” *Romanticism and Victorianism on the Net*, no. 47, August 2007, pars. 1-25, doi.org/10.7202/016701ar.",
+        "Sutphin, Christine. “Introduction.” *Augusta Webster: Portraits and Other Poems*, by Sutphin, Broadview Press Ltd., 2000, pp. 9-37."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "Circe appears in book ten of Homer’s *The Odyssey*. After landing on Circe’s Island (Aeaea), Odysseus tells his men to explore it. They discover Circe’s house where they drink from a magic cup that she offers them. The potion from the cup transforms them into pigs. When Odysseus reaches the house, he is already protected by a spell thanks to an herb given to him by the god Hermes. He confronts Circe and convinces her to restore his men to their human forms. Odysseus and Circe become lovers, and she then helps him find his way back home.\n\nCirce also appears in book four of Apollonius’ *Argonautica*, where she assists Jason and her niece Medea by acquitting them from the murder they have committed. Another mention of Circe is in the myth of the mortal king Picus whom, out of spite, she transforms into a woodpecker. In the story of the sea-god Glaucus and the nymph Scylla, Circe turns Scylla into a monster by poisoning the water Scylla usually takes her bath in. To read more about these two myths, see Ovid’s *Metamorphoses* Book XIV, edited by K. Sara Myers, Cambridge UP, 2009.",
+      "worksCited": [
+        "Ovid. *Metamorphoses Book XIV*. Edited by K. Sara Myers, Cambridge UP, 2009."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-20T09:24:06.914Z",
+  "updatedAt": "2026-03-20T09:30:26.800Z"
+}

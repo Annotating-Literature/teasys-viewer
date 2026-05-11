@@ -1,0 +1,21 @@
+{
+  "id": "this-world",
+  "anchorText": "this world",
+  "anchorStart": 514,
+  "anchorEnd": 524,
+  "authors": [
+    "admin"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "intratextuality",
+      "body": "In contrast to \"all the world\", referred to in line 6 of the sonnet, which includes every living being in general, \"this world\" in line 12 is now restricted in its meaning to the people living at present, that is, to the poet's contemporaries.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T15:58:23.827Z",
+  "updatedAt": "2026-03-18T15:58:46.173Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "somewheres",
+  "anchorText": "somewheres",
+  "anchorStart": 4249,
+  "anchorEnd": 4259,
+  "authors": [
+    "admin"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Saying \"somewheres\" instead of \"somewhere\" is either a sign of dialect or of vulgar speech (cf. \"somewhere, adv. and n. derivatives.\").",
+      "worksCited": [
+        "\"somewhere, adv. and n.\" *OED Online*. OUP, Dec. 2014. Web. 8 Feb. 2015."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-07T18:50:21.543Z",
+  "updatedAt": "2026-05-07T18:50:38.626Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "dirge",
+  "anchorText": "Dirge",
+  "anchorStart": 382,
+  "anchorEnd": 387,
+  "authors": [
+    "Miriam Herberger",
+    "Marina Kirillova"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "A dirge is a type of song that developed as part of the Latin rite of the Office of the Dead, which sometimes included the Evensong or the Mass (\"dirge, *n*.\" 1.). Because of its origins, a dirge commonly refers to \"a song of mourning or lament\" (\"dirge, *n*.\" 2.). It is sung during burials, funerals, or memorial rites to commemorate the dead, and frequently exhibits characteristics of a funeral march (\"dirge\").",
+      "worksCited": [
+        "\"dirge, *n*.\" *OED Online*, Oxford University Press, September 2023, \thttps://doi.org/10.1093/OED/2928870850. Accessed 27 November 2023.",
+        "\"dirge.\" *The Concise Oxford Dictionary of Music*. Edited by Michael Kennedy, and Joyce Bourne Kennedy, 5th ed., Oxford University Press, 2007."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-08T15:54:07.171Z",
+  "updatedAt": "2026-05-08T15:55:10.829Z"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "deaths-mild-curfew",
+  "anchorText": "Death's mild curfew",
+  "anchorStart": 141,
+  "anchorEnd": 160,
+  "authors": [
+    "Sandra Wetzel"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "Here, \"Death\" can be read as a personification being capable of imposing a curfew.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "\"Death's mild curfew\" can be read as personified Death discharging the mortal being from work (cf. \"assoil\") by terminating the hours assigned to work (cf. [[curfew]]). The further analysis of [[curfew]], however, also suggests the reading of the end of life itself. Death ends the mortals' life by ringing the curfew bell which is the only cause for quitting to work in life. This might be another answer to the question in line 1 (\"What are we set on earth for?\"): The main purpose in life seems to be to work and one should not rest from work until death discharges from work and, thereby, ends one's life (cf.[[tending-of-the-vines]]).",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-03T13:29:34.423Z",
+  "updatedAt": "2026-03-03T19:27:39.723Z"
+}

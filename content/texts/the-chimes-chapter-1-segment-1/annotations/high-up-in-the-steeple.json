@@ -1,0 +1,31 @@
+{
+  "id": "high-up-in-the-steeple",
+  "anchorText": "high up in the steeple",
+  "anchorStart": 2430,
+  "anchorEnd": 2452,
+  "authors": [
+    "Svenja Brank"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "In this passage of *The Chimes* the phrase \"high up in the steeple\" is repeated four times. Using repetitions as a literary device \"can generate greater focus on a particular subject and intensify its meaning\" (Repetition). For more information on the meaning of \"steeple\" see here.",
+      "worksCited": [
+        "\"Repetition.\" *Literary Devices*. literarydevices.net/repetition/. Last accessed 14.06.2021."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The notion of Trotty climbing up the stairs of the steeple and ascending in height is emphasized by the repetitions of the phrase \"high up in the steeple\". These repetitions separate the location of the steeple from the other locations of the narrative, thereby stressing the upward movement and disconnecting the reality of Trotty's everyday life from the experiences he lives through under the influence of the goblins in the steeple. This detachment between Trotty and his ordinary world allows him to critically evaluate his life. Repetitions of the same phrase also create the impression of an enchantment or a magical spell that has to be repeated, which plays into the supernatural elements of the story that take place in the steeple.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, Oxford UP, 2008."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-04T19:20:42.516Z",
+  "updatedAt": "2026-05-04T19:21:44.301Z"
+}

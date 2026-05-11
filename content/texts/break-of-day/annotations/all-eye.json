@@ -1,0 +1,44 @@
+{
+  "id": "all-eye",
+  "anchorText": "all eye",
+  "anchorStart": 284,
+  "anchorEnd": 291,
+  "authors": [
+    "Bela Metz",
+    "Julia Tagowzew"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"All eye\" is a metaphor for the sun. This singular eye donning the sky is watching and, through its gaze, symbolized by the light, disturbing the lovers.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "intratextuality",
+      "body": "\"‘All eye' is energised here as a threatening ‘spy'.\" (Robbins 142)",
+      "worksCited": [
+        "Donne, John. *The Complete Poems of John Donne : epigrams, verse letters to friends, love-lyrics, love-elegies, satire, religion poems, wedding celebrations, verse epistles to patronesses, commemorations and anniversaries*. Ed. Robin Robbins. Harlow; Munich: Longman Pearson, 2010. p. 142."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "intertextuality",
+      "body": "\"All eye\" was also an emblem of the deity, e.g. on the title-page of Ralegh's 1614 *History of the World*. (Robbins 142)\n\n*Walter Raleigh - History of the World (1614) - title page*\nThe \"all eye\" is at the top at the page.\nhttps://archive.org/details/historyofworld00rale",
+      "worksCited": [
+        "Donne, John. *The Complete Poems of John Donne : epigrams, verse letters to friends, love-lyrics, love-elegies, satire, religion poems, wedding celebrations, verse epistles to patronesses, commemorations and anniversaries*. Ed. Robin Robbins. Harlow; Munich: Longman Pearson, 2010. p. 142."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "In this context \"all eye\" could have a religious meaning since the expression was also used as a synonym of \"god\". It is not only the sun and the light that spies for the lovers but also god who may look down upon them. This may result in an interpretation of the lovers as knowing that their affair is not appropriate, and therefore they feel observed/spied upon.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T08:14:37.942Z",
+  "updatedAt": "2026-03-17T08:16:38.368Z"
+}

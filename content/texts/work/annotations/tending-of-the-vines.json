@@ -1,0 +1,55 @@
+{
+  "id": "tending-of-the-vines",
+  "anchorText": "tending of the vines",
+  "anchorStart": 67,
+  "anchorEnd": 87,
+  "authors": [
+    "Sara Rogalski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "In her annotation to this line, Donaldson refers to the parable of the workers in the vineyard in [Matthew 20:1-16](https://www.kingjamesbibleonline.org/1611_Matthew-Chapter-20/). The parable, in which all workers receive the same payment at the end of the day, even though some of them worked longer than others, argues that \"rewards […] are not earned, nor are they proportionate to human effort\" (France 748). ",
+      "worksCited": [
+        "Donaldson, Sandra, general editor. *The Works of Elizabeth Barrett Browning*. Vol. 1, Pickering & Chatto, 2010. ",
+        "France, R.T. *The Gospel of Matthew*. William. B. Eerdmans Publishing, 2007. "
+      ]
+    },
+    {
+      "level": 2,
+      "category": "intratextuality",
+      "body": "The reference to [Matthew 20:1-16](https://www.kingjamesbibleonline.org/1611_Matthew-Chapter-20/), in which the labourers have to bear \"the heat of the day\" (12), allows for the intratextual reference to \"the heat o’ the day\" in line 3 of the poem. ",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "Keener points out that \"vineyards were common and hence provided a natural setting for parables without a consistent meaning\" (481), which challenges Donaldson's unequivocal reference to [Matthew 20:1-16](https://www.kingjamesbibleonline.org/1611_Matthew-Chapter-20/) alone. According to the \"Bible Concordance\" of [*The Kings Bible*](http://www.thekingsbible.com/Concordance ), there are more than a hundred biblical references to vines and vineyards. Therefore, references which give different meanings to the line in the poem must also be considered. In [John 15:1-8](https://www.kingjamesbibleonline.org/John-Chapter-15/), for example, Jesus is the \"true vine\" (1) and his people are branches who must \"abide in [him]\" (4). Jesus states that nobody can bring \"forth much fruit\" if they do not \"remain, stay\" (\"abide, *v.*\" II.) in him. ",
+      "worksCited": [
+        "\"abide, *v.*\" *OED Online.* Oxford UP, July 2019. Web. July 13, 2019.",
+        "Keener, Craig S. *A Commentary on the Gospel of Matthew*. William. B. Eerdmans Publishing, 1999. "
+      ]
+    },
+    {
+      "level": 3,
+      "category": "context",
+      "body": "Donaldson introduces the poem by opposing it with John Milton's sonnet [\"On His Blindness\"](https://www.bartleby.com/101/318.html ), arguing that \"Work\" is a \"rejoinder to 'they also serve who only stand and wait'\" (Milton quoted in Donaldson XX), the last line in Milton's sonnet. Moreover, she claims that Elizabeth Barrett Browning's sonnet \"echoes the many passages and contexts in which Carlyle […] urged the sacredness of work\" (for an interpretation see here). ",
+      "worksCited": [
+        "Donaldson, Sandra, general editor. *The Works of Elizabeth Barrett Browning*. Vol. 1, Pickering & Chatto, 2010. "
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "Since Elizabeth Barrett Browning supposedly rejects Milton's view on work [hyperlink to this annotation's context level 3], one can assume that the \"tending of the vines\" does not explicitly refer to Jesus' instruction to remain in him, but rather to [Matthew 15:1-16](https://www.kingjamesbibleonline.org/1611_Matthew-Chapter-20/), in which \"rewards […] are not earned, nor are the proportionate to human effort\" (France 748), yet work is necessary in order to \"[receive] […] a penny\" (Mt 15:10). Hence, if the reference is Matthew 15:1-16, the \"tending of the vines\" stands for the continual work which is necessary for reward, albeit not determining it. ",
+      "worksCited": [
+        "France, R.T. *The Gospel of Matthew*. William. B. Eerdmans Publishing, 2007. "
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-03T13:18:28.641Z",
+  "updatedAt": "2026-03-03T13:24:00.101Z"
+}

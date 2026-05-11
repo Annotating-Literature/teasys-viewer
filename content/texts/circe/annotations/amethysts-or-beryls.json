@@ -1,0 +1,37 @@
+{
+  "id": "amethysts-or-beryls",
+  "anchorText": "amethysts or beryls",
+  "anchorStart": 662,
+  "anchorEnd": 681,
+  "authors": [
+    "Isabel Maria Osuna Montilla",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "These are two kinds of precious stones. Whereas “amethyst” is a “[q]uartz of a violet or purple variety” (“amethyst, *n*. and *adj*.” A.1.a.), “beryl” is described as having “a pale-green colour passing into light-blue, yellow, and white; distinguished only by colour from the more precious emerald” (“beryl, *n*. and *adj*.” A.I.1.a.).",
+      "worksCited": [
+        "“amethyst, *n*. and *adj*.” *OED Online*, Oxford University Press, December 2021, www.oed.com/view/Entry/6366. Accessed 2 December 2021.",
+        "“beryl, *n*. and *adj*.” *OED Online*, Oxford University Press, December 2021, www.oed.com/view/Entry/18007. Accessed 2 December 2021."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "form",
+      "body": "The stones are part of a simile. They are compared to the grapes of the previous line whose destruction the speaker would accept as a consequence of change (cf. [[storm]]).",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The simile highlights the colour and, potentially, ripeness, of the grapes, creating a mental image of shiny purple and green grapes mixed together. The comparison intimates the island’s lushness and fertility.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-20T09:03:16.369Z",
+  "updatedAt": "2026-03-20T09:05:21.016Z"
+}

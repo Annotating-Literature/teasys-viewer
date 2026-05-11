@@ -1,0 +1,40 @@
+{
+  "id": "he",
+  "anchorText": "he",
+  "anchorStart": 707,
+  "anchorEnd": 709,
+  "authors": [
+    "Maja Grubina",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "The pronoun “he” refers to the sun.",
+      "worksCited": []
+    },
+    {
+      "level": 1,
+      "category": "context",
+      "body": "In 19th century’s literature (as well as in literary texts more generally), the sun is perceived as male: “In Homer Helios the sun is invoked as a god who sees everything and hears everything […] for that reason he is the god of oaths” (Ferber 209). The moon, by contrast, is considered female: “In the classical tradition, then, the moon is invariably feminine, and since Homer and Hesiod it has been associated with Greek and then Roman goddesses” (Ferber 130). These connotations are also found in a poem published in the Philadelphia Album & Ladies’ Literary Port Folio in 1831, “MARRIAGE of the Sun & Moon”, which is about the Eclipse that took place in that time: “[…] since the heat of his passion pervaded the sky; / But the bride was renowned for – reflection” (14ff). Dickinson’s poem *The Sun’s Wooing* also conceives of the sun as male (“*supposed that he had come to dwell*”, l. 3).",
+      "worksCited": [
+        "Dickinson, Emily. “The Sun’s Wooing.” *The Poems of Emily Dickinson: Series Two*. Boston, 1896.\netc.usf.edu/lit2go/115/the-poems-of-emily-dickinson-series-two/4427/nature-poem-5-the-suns-wooing/. Accessed 27 February 2023.",
+        "Ellenwood, H. S. “MARRIAGE of the Sun and Moon.”* Monthly Chronicle of Interesting & Useful Knowledge*, December 1838, p. 36.\nweb.s.ebscohost.com/ehost/archiveviewer/archive?vid=7&sid=83d3c515-0985-4078-9287-0c1cee69331c%40redis&bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d#kw=true&acc=false&lpId=divl028&ppId=divp0048&twPV=&xOff=0&yOff=0&zm=fit&fs=&rot=0&docMapOpen=true&pageMapOpen=true&AN=47021831&db=h9j. Accessed 27 February 2023.",
+        "Ferber, Michael. *A Dictionary of Literary Symbols*. 2nd ed., Cambridge University Press. 2007.\nA Dictionary of Literary Symbols (ebscohost.com). Accessed 27 March 2023."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The speaker describes the night-time as feminine and nourishing (cf. Level 2 Interpretation [[thrilled through and proved us one]]). By contrast, “the speaker dreads the oppression of the day, whose masculine persona (cf. Level 3 Context[[dazzling sun]]) appears as a spectral enemy: him, blazing, still” (Brown, 189).",
+      "worksCited": [
+        "Brown, Lydia. “Absent Emily: Ecstasy, Transgression and Space in Three Emily Brontë Poems.” *Victorians: A Journal of Culture and Literature*, no. 134, Winter 2018, pp. 181-192."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T23:27:43.810Z",
+  "updatedAt": "2026-03-20T00:36:59.578Z"
+}

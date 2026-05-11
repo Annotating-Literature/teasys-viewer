@@ -1,0 +1,33 @@
+{
+  "id": "buoyant",
+  "anchorText": "buoyant",
+  "anchorStart": 417,
+  "anchorEnd": 424,
+  "authors": [
+    "Julia Schatz",
+    "Sandra Wetzel"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"[B]uoyant\" is an adjective that literally means \"to have the power of floating, tending to float\" (\"buoyant, *adj*.\" 1.a.). The denotation of floating is also reflected in the figurative meaning of the English word: it describes both \"spirits: Easily recovering from depression, elastic, light\" and \"persons: Light-hearted, cheerful, hopeful\" (\"buoyant, *adj*.\" 3.).",
+      "worksCited": [
+        "\"buoyant, *adj*.\" *OED Online*, Oxford University Press, December 2020, www.oed.com/view/Entry/24857. Accessed 28 May 2021."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "In *The Chimes*, the adjective \"buoyant\" is used in its figurative meaning to characterize the extraordinary nature of Meg's hope that is expressed through her eyes. Despite the hardships she has suffered, her \"spirits\" (cf. \"buoyant, *adj*.\" 3.), i.e., her outlook on life, still remain \"buoyant, vigorous, and bright\" (Dickens 94).",
+      "worksCited": [
+        "\"buoyant, *adj*.\" *OED Online*, Oxford University Press, December 2020, www.oed.com/view/Entry/24857. Accessed 28 May 2021.",
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Books*. Edited by Robert Douglas-Fairhurst, Oxford University Press, 2008, pp. 85-162."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-05T17:44:14.561Z",
+  "updatedAt": "2026-05-05T17:46:03.081Z"
+}

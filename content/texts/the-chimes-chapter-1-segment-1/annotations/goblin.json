@@ -1,0 +1,47 @@
+{
+  "id": "goblin",
+  "anchorText": "Goblin",
+  "anchorStart": 14,
+  "anchorEnd": 20,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "Goblins are generally thought to be \"mischievous and ugly demon[s]\" that have a \"small and grotesque\" appearance (\"goblin, n. 1\"; Briggs 194). The name is derived from the medieval French word *gobelin* (cf. Simpson 146; cf. \"goblin, n.1\"). Dickens's description of the goblins in *The Chimes* might be influenced by the illustration (Fig. 1) by George Cruikshank for an 1823 translation of the brothers Grimm's story *Rumpelstilskin* (cf. Parker 142).",
+      "worksCited": [
+        "Briggs, Katharine. *An Encyclopedia of Fairies – Hobgoblins, Brownies, Bogies and Other Supernatural Creatures*. New York: Pantheon, 1976. Print.",
+        "Hunt, Peter, ed. *Children's Literature. An Illustrated History*. Oxford and New York: OUP, 1995. Print.",
+        "\"goblin, n.1\". *OED Online*. March 2013. OUP. 26 May 2013.",
+        "Parker, David. *Christmas and Charles Dickens*. AMS Studies in the Nineteenth Century. No. 34. New York: AMS Press, 2005. Print.",
+        "Simpson, Jacqueline and Steve Roud. *A Dictionary of English Folklore*. Oxford et al.: Oxford UP, 2000. Print."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "The mention of the goblin in the subtitle marks *The Chimes* as a ghost story. Around 1800, it became customary to tell ghost stories on Christmas (cf. Parker 104). Apart from *The Chimes*, Dickens also published other ghost stories for this time of the year: The most famous of them is *A Christmas Carol* (1843), but he also wrote *The Haunted Man and the Ghost's Bargain, A Fancy for Christmas-Time* (1848) and others. For a collection of Dickens's ghost stories see the Wordsworth Classics edition titled *Complete Ghost Stories*.\n\nEven though the telling of ghost stories at Christmas became increasingly popular only after 1800, the connection of goblins and winter is already mentioned in texts from the seventeenth and eighteenth century. In Shakespeare's *The Winter's Tale*, one can read: \"A sad tale's best for winter, I have one / Of sprites and goblins\" (2.1.33-34.). Another example is James Thomson's poem *The Seasons*. In the Winter-Part it is written: \"Heard solemn, goes the Goblin-Story round\" (619). In the introduction to the sixth canto of *Marmion*, Sir Walter Scott forms a connection between goblins and winter, as well: \"On Christmas eve a Christmas tale . . . To jostle conjurer and ghost/ Goblin and witch!\" (134-141). Thus, The Chimes stands in the long tradition of texts that form a connection between goblins and winter.\n\nIn *The Posthumous Papers of the Pickwick Club* (1836), Dickens makes use of this tradition, as well. In the 29th chapter of *The Pickwick Papers*, a Christmas story is told in which a goblin appears. He is described as a \"strange and unearthly figure\" with \"long fantastic legs\", sinewy arms and a \"short round body\" (Dickens 398). The main character of this story is Gabriel Grub, a misanthropist who hates Christmas. Just like Toby Veck in *The Chimes*, he is called by mysterious voices. Another parallel to The Chimes is the following description of the apparition of the goblins:\n\nAs the goblin laughed, the sexton [Gabriel Grub] observed […] a brilliant illumination within the windows of the church, as if the whole building were lighted up; it disappeared, the organ pealed forth with a lively air, and whole troops of goblins […] poured into the churchyard. (400)\n\nIn the course of the story, the goblin king kidnaps Gabriel Grub and takes him into the earth, where he shows to him \"misery and gloom, a few of the pictures from our own great storehouse\" (401). Grub is shown several incidents in the life of a poor family and – just like Toby Veck – has visions of the miserable future of his own family. Like the goblin in *The Chimes*, the goblin in *The Posthumus Papers of the Pickwick Club* wants to teach an embittered man a lesson.",
+      "worksCited": [
+        "Dickens, Charles. *The Posthumous Papers of the Pickwick Club*. London et al.: OUP, 1956. Print.",
+        "Parker, David. *Christmas and Charles Dickens*. AMS Studies in the Nineteenth Century. No. 34. New York: AMS Press, 2005. Print.",
+        "Scott, Walter. *Marmion*. Ed. William J. Rolfe. Boston and New York: Houghton, Mifflin and Company. 1893. Print.",
+        "Shakespeare, William. *The Winter's Tale*. Jonathan Bate and Eric Rasmussen eds. Basingstoke: Macmillan 2009. Print.",
+        "Thomson, James. *The Seasons*. London: A. Hamilton, 1793. Print."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "context",
+      "body": "Ghost stories were not only popular on Christmas, but throughout the whole year. Some argue that this can be attributed to the \"rise of positivistic science and decline of religion\" (Puntner & Byron 27). Ghost stories are seen as counteracting this development by questioning science and reason (cf. 27). Secondly, the popularity of ghost stories might be linked to the emergence of new periodicals and literary magazines, which would feature these stories (cf. 27). Dickens, for example, published ghost stories in *Household Words and All the Year Round* (cf. 27). In Victorian Gothic fiction supernatural elements tend to be a part of the world of the contemporary reader, as opposed to earlier Gothic fiction, in which the supernatural only occurs in \"exotic or historical settings\" (26).",
+      "worksCited": [
+        "Puntner, David and Glennis Byron. *The Gothic*. Hoboken et al.: Blackwell, 2004. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-03T19:50:47.440Z",
+  "updatedAt": "2026-05-04T18:57:30.552Z"
+}

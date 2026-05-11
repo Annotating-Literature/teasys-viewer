@@ -1,0 +1,37 @@
+{
+  "id": "day",
+  "anchorText": "day",
+  "anchorStart": 113,
+  "anchorEnd": 116,
+  "authors": [
+    "Sandra Wetzel"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Apart from the \"active part of the day\" (\"day, *n.*\" 5.), the \"day\" might also indicate the period of the day \"allotted by law or convention to a specific activity, esp. work or learning\" (\"day, *n.*\" 6.).",
+      "worksCited": [
+        "\"day, *n.*\" *OED Online*, June 2019. Web. June 19, 2019."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "intratextuality",
+      "body": "The day with its temporal delimitation is intratextually connected to the \"curfew\", since they both determine a certain time span. The parallel, metaphoric meaning of the two concepts of \"day\" and \"curfew\" is, in turn, that of a certain point in life and the immanence of death that marks the end of life.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "In the context of this poem, \"day\" may be interpreted in several ways. On the one hand, the day can be understood as the active time spent working in the fields or in the vineyard (\"day, *n.*\" 5.) and could be connected to the hour \"allotted by law or convention\" (\"day, *n.*\" 6.) which is, in this case, the curfew delimiting the work hours. On the other hand, \"day\" can be a metaphor for \"life\" that ends with the sunset at night. ",
+      "worksCited": [
+        "\"day, *n.*\" *OED Online*, June 2019. Web. June 19, 2019."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-03T13:24:02.980Z",
+  "updatedAt": "2026-03-03T13:25:32.658Z"
+}

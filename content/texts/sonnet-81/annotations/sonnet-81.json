@@ -1,0 +1,59 @@
+{
+  "id": "sonnet-81",
+  "anchorText": "Sonnet 81",
+  "anchorStart": -9,
+  "anchorEnd": 0,
+  "authors": [
+    "Leonie Kirchhoff"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "intertextuality",
+      "body": "Lines 13-14 of this sonnet bear a strong resemblance to the last lines of Sonnet 18: \"So long as men can breathe or eyes can see, / So long lives this, and this gives life to thee\".",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "textual-variants",
+      "body": "The numbering of the sonnets contributes to the close relation between the two sonnets. In Thorpe's 1609 Quarto, which supposedly reflects Shakespeare's own numbering of the sonnets, both are numbered 18 and 81 (cf. Graziani). Many of the more recent editions of Shakespeare's Sonnets (cf. New Cambridge, Arden Shakespeare and editions by Hammond, Vendler, West, Booth) also maintain the numbering of the sonnets.",
+      "worksCited": [
+        "Graziani, René. \"The Numbering of Shakespeare's Sonnets: 12, 60, and 126.\" *Shakespeare Quarterly*, 1984, 35.1, pp. 79-82."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The link between \"Sonnet 81\" and \"Sonnet 18\" is established particularly on the level of content. \"Sonnet 81\" as well as \"Sonnet 18\" deal with death, transience, and the speaker's ability to grant \"immortal life\" (\"Sonnet 81\", l. 5) by making the addressee the subject-matter of his poetry and thus, the lover's literary immortality. Both sonnets imply that the speaker's \"eternal lines\" (\"Sonnet 18\", l. 12) create a [[monument]] (\"Sonnet 81\", l. 9) that will preserve the lover's memory \"so long as men can breathe or eyes can see\" (\"Sonnet 18\", l. 13).\n\n\"Sonnet 18\", however, suggests a more jocular approach to the rather sombre subject of man's immortality. The speaker compares the addressee's beauty to the equally fleeting charms of a \"summer's day\" (\"Sonnet 18\", l. 1), but later discards this comparison as inadequate. The image of the beloved's fading beauty is opposed by the speaker's optimistic promise of an \"eternal summer\" due to the preservation of the addresse's loveliness in the speaker's immortal poetry (\"Sonnet 18\", l. 9).\n\n\"Sonnet 81\" is more urgent in its claim: the focus shifts towards the inevitability of the speaker's as well as the lover's death. Paradoxically, the sonnet suggests that it is the lover who will be remembered rather than the author of the sonnet (cf. Arden Shakespeare) (see also [[common-grave]], l. 7 ).",
+      "worksCited": [
+        "Duncan-Jones, Katherine. *Shakespeare's Sonnets*. London: Methuen Drama, 2010."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "context",
+      "body": "The numbering of the sonnets makes the link between the two sonnets even stronger: 18 and 81 are considered climacteric numbers as 81 is the square of 9 and 18 the double of nine (cf. Paterson 231). 7 and 9 were considered mystic numbers and great importance has been \"attributed to those years marked by their special multiples\" (Cummin 70). The origin of this belief is found in Greek philosophers such as Hippocrates (cf. Bennett), but were also advocated by Plato and Cicero. The *OED Online* lists the earliest mention of the climacteric years in Hammond's translation of *The History of the World, commonly called the Naturall Historie of C. Plinius* published in 1601:\n\n\"That the fewer sort of men live any long time; for that the greatest number by farre, have their nativitie incident and liable to the dangerous houres and times either of the moones occurrence (as in her Quadrature, Opposinition, and Sextile aspect) or of daies according to the number of seven or nine (which are daily and nightly marked and observed:) wherupon ensueth the rule of the dangerous graduall years, called Climactericke.\" (Plinius VII.xliv)\n\nIn Elizabethan England the climacteric numbers 9 and 7 were therefore \"considered unlucky numbers, unusually dangerous to human life\" (Fort 19).",
+      "worksCited": [
+        "Bennett, Josephine W. \"Jaques' Seven Years.\" *The Shakespeare Association Bulletin*, 1943,18.4, pp. 168-174.",
+        "\"climacteric, *adj*. I\" Def. 2. *OED Online*. OUP, Sept. 2016. Web. 10 December 2016.",
+        "Cummin, William. \"Lectures on Forensic Medicine.\" *London Medical Gazette*. Vol. 19. London: London Longman, Brown, Owen and Longmans, 1837. 65–73. Print. Weekly Journal of Medicine and the Collateral Sciences 19.",
+        "Fort, J. A. „The Order and Chronology of Shakespeare's Sonnets.\" *The Review of English Studies*, 1933, 9.33, pp. 19-23.",
+        "Plinius, C. *The History of the World, commonly called the Naturall Historie of C. Plinius*.Trans. Hammond. 1601."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "intertextuality",
+      "body": "Shakespeare's knowledge of the climacteric numbers gets obvious in the beginning monologue of Act II of *As You Like It* (II.VII), which resembles Hippocrates’ division of man’s life into seven ages: infancy, boyhood, puberty, youth, manhood, senescence, and decrepitude (cf. Cummin 70). In As You Like It Jacques similarly delineates the seven stages of a man's life, reflecting that “man in his time plays many parts, / His acts being seven ages”: “infant … schoolboy … lover … soldier … justice … pantaloon” and lastly, old age, which he describes as a “second childishness” (II.VII.140-68). The oppressing theme of a perpetual ageing process that is only interrupted by death is enforced by the numbering of the two sonnets.",
+      "worksCited": [
+        "“climacteric, *adj*. I” Def. 2. *OED Online*. OUP, Sept. 2016. Web. 10 December 2016.",
+        "Cummin, William. “Lectures on Forensic Medicine.” *London Medical Gazette*. Vol. 19.London: London Longman, Brown, Owen and Longmans, 1837. 65–73. Print. Weekly Journal of Medicine and the Collateral Sciences 19.",
+        "Shakespeare, William. *As You Like It*. Ed. Juliet Dusinberre. London: Thomson Learning, 2006."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T15:45:22.879Z",
+  "updatedAt": "2026-03-20T21:45:09.542Z"
+}

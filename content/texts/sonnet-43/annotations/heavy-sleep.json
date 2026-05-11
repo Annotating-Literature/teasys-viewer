@@ -1,0 +1,24 @@
+{
+  "id": "heavy-sleep",
+  "anchorText": "heavy sleep",
+  "anchorStart": 516,
+  "anchorEnd": 527,
+  "authors": [
+    "Liubov Bolshakova"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The phrase \"heavy sleep\" is associated with deep sleep. The adjective ‘heavy' can also stand for \"slow, sluggish, dull\" (Schmidt 5) and \"weary, drowsy, sleepy\" (Schmidt 6). ",
+      "worksCited": [
+        "\"heavy, adj.\". *OED Online*. Oxford UP, Dec 2016. ",
+        "Schmidt, Alexander. *Shakespeare Lexicon*. Cosimo Classics, 2007. "
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T09:51:03.960Z",
+  "updatedAt": "2026-03-17T09:51:56.449Z"
+}

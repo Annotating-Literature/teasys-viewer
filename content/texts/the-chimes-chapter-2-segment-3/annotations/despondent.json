@@ -1,0 +1,33 @@
+{
+  "id": "despondent",
+  "anchorText": "despondent",
+  "anchorStart": 5424,
+  "anchorEnd": 5434,
+  "authors": [
+    "Svenja Brank",
+    "Isabella Krapf",
+    "Sophie Klassen"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "If someone is despondent, they are \"characterized by loss of heart or resolution[...]\" (cf. \"despondent, *adj*. and *n*.\"A.1).",
+      "worksCited": [
+        "\"despondent, *adj*. and *n*.\" *OED Online*, Oxford University Press, June 2021, www.oed.com/view/Entry/51011. Accessed 2 August 2021."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Sir Joseph Bowley is the self-proclaimed \"Poor Man's Friend\", and he pretends that it is his duty to provide parental guidance for the poor (110). Before Toby mentions his debts, Sir Joseph talks about wanting to encourage people like Toby to strive for a better life; however, his reproachful reaction shows that he lacks empathy towards the real struggles of the poor (111-114).",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, OUP, 2008, pp. 85-162."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-07T15:10:35.444Z",
+  "updatedAt": "2026-05-07T15:11:51.235Z"
+}

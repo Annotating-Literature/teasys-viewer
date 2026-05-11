@@ -1,0 +1,12 @@
+{
+  "id": "the-raven",
+  "title": "The Raven",
+  "author": "Edgar Allan Poe",
+  "year": 1845,
+  "category": "Gothic",
+  "type": "poetry",
+  "parentId": null,
+  "order": null,
+  "createdAt": "2026-03-15T17:00:31.625Z",
+  "updatedAt": "2026-03-15T17:00:31.625Z"
+}

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Break of Day</title>
+          <author>John Donne</author>
+        </titleStmt>
+        <publicationStmt><p>TEASys Viewer</p></publicationStmt>
+        <sourceDesc><p>Annotating Literature, Tübingen University</p></sourceDesc>
+      </fileDesc>
+    </teiHeader>
+  <text><body><div><anchor xml:id="s-break-of-day"/><anchor xml:id="e-break-of-day"/>‘Tis true, ‘tis day, what though it be?
+O <anchor xml:id="s-wilt"/>wilt<anchor xml:id="e-wilt"/> <anchor xml:id="s-thou"/>thou<anchor xml:id="e-thou"/> therefore rise from me?
+Why should we rise because ‘tis <anchor xml:id="s-light"/>light<anchor xml:id="e-light"/>?
+Did we lie down because ‘twas night?
+Love, which in spite of <anchor xml:id="s-darkness"/>darkness<anchor xml:id="e-darkness"/> brought us <anchor xml:id="s-hither"/>hither<anchor xml:id="e-hither"/>,
+Should in despite of light keep us together.
+Light hath no tongue, but is <anchor xml:id="s-all-eye"/>all eye<anchor xml:id="e-all-eye"/>;
+If it could speak as well as spy,
+This were the worst that it could say,
+That being well I <anchor xml:id="s-fain"/>fain<anchor xml:id="e-fain"/> would stay,
+And that I loved my heart and honour so,
+That I would not from him, that had them, go.
+Must business thee from <anchor xml:id="s-hence"/>hence<anchor xml:id="e-hence"/> remove?
+Oh, that’s the worst <anchor xml:id="s-disease-of-love"/>disease of love<anchor xml:id="e-disease-of-love"/>,
+The poor, the <anchor xml:id="s-foul"/>foul<anchor xml:id="e-foul"/>, the false, love can
+<anchor xml:id="s-admit"/>Admit,<anchor xml:id="e-admit"/> but not the <anchor xml:id="s-busied"/>busied<anchor xml:id="e-busied"/> man.
+He which hath business, and makes love, doth do
+Such wrong, as when a married man <anchor xml:id="s-doth"/>doth<anchor xml:id="e-doth"/> <anchor xml:id="s-woo"/>woo<anchor xml:id="e-woo"/>.
+</div></body></text>
+  <standOff>
+      <listAnnotation>
+        
+          <annotation xml:id="ann-admit" from="#s-admit" to="#e-admit">
+            <respStmt><resp>annotator</resp><name>Johannes K�stner</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>(verb) to receive or accept (a person or thing)</p>
+                  <listBibl><bibl>&quot;admit, v., I.1.b.&quot; *OED Online*. Oxford University Press, December 2018. Web. 21 February 2019.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-all-eye" from="#s-all-eye" to="#e-all-eye">
+            <respStmt><resp>annotator</resp><name>Bela Metz</name><name>Julia Tagowzew</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>&quot;All eye&quot; is a metaphor for the sun. This singular eye donning the sky is watching and, through its gaze, symbolized by the light, disturbing the lovers.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#intratextuality">
+                  <p>&quot;‘All eye&apos; is energised here as a threatening ‘spy&apos;.&quot; (Robbins 142)</p>
+                  <listBibl><bibl>Donne, John. *The Complete Poems of John Donne : epigrams, verse letters to friends, love-lyrics, love-elegies, satire, religion poems, wedding celebrations, verse epistles to patronesses, commemorations and anniversaries*. Ed. Robin Robbins. Harlow; Munich: Longman Pearson, 2010. p. 142.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#intertextuality">
+                  <p>&quot;All eye&quot; was also an emblem of the deity, e.g. on the title-page of Ralegh&apos;s 1614 *History of the World*. (Robbins 142)
+
+*Walter Raleigh - History of the World (1614) - title page*
+The &quot;all eye&quot; is at the top at the page.
+https://archive.org/details/historyofworld00rale</p>
+                  <listBibl><bibl>Donne, John. *The Complete Poems of John Donne : epigrams, verse letters to friends, love-lyrics, love-elegies, satire, religion poems, wedding celebrations, verse epistles to patronesses, commemorations and anniversaries*. Ed. Robin Robbins. Harlow; Munich: Longman Pearson, 2010. p. 142.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>In this context &quot;all eye&quot; could have a religious meaning since the expression was also used as a synonym of &quot;god&quot;. It is not only the sun and the light that spies for the lovers but also god who may look down upon them. This may result in an interpretation of the lovers as knowing that their affair is not appropriate, and therefore they feel observed/spied upon.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-break-of-day" from="#s-break-of-day" to="#e-break-of-day">
+            <respStmt><resp>annotator</resp><name>Julia Tagowzew</name><name>Bela Metz</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The time of day when sunlight first begins to appear.</p>
+                  <listBibl><bibl>&quot;break of day.&quot; *Merriam-Webster.com*. Merriam-Webster, 2011. 21 February 2019.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#form">
+                  <p>This poem consisting of three stanzas with six lines each is written entirely in rhyming couplets. The first two couplets of each sestet are in iambic tetrameter, while the last couplet of each sestet follows an iambic pentameter. As a result the addition of syllables to the last two lines of each stanza slows them down and gives them more weight.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#context">
+                  <p>It is unknown when the poem was written but presumably during the early 1590s. (Robbins 141)</p>
+                  <listBibl><bibl>Robbins, Robin. *The complete poems of John Donne : epigrams, verse letters to friends, love-lyrics, love-elegies, satire, religion poems, wedding celebrations, verse epistles to patronesses, commemorations and anniversaries*. Harlow; Munich: Longman Pearson, 2010. p. 141.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#form">
+                  <p>&quot;Break of Day&quot; is an *aubade*. It is a love poem or a song which welcomes the arrival of the dawn or complains about it. Often they are adulterous or illicit lovers, who don&apos;t want to separate but don&apos;t want to get caught either.</p>
+                  <listBibl><bibl>&quot;aubade.&quot; *Glossary of Poetic Terms*. Poetry Foundation, 2019. 21 February 2019.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>&quot;Break&quot; is an ambiguous term in the context of this poem. While the break of dawn is the start into a new day, it also brings with it the breaking apart of the couple sheltered by darkness during the night.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#textual-variants">
+                  <p>Break of Daye.
+perhaps by John Dowland
+
+Stay, O sweet, and do not rise,
+The light that shines comes from thine eyes;
+The day breaks not, it is my heart,
+Because that you and I must part.
+Stay, or else my joys will die,
+And perish in their infancie.
+
+In the 1669 edition and some MSS., the stanza attributed to Dowland (in a different meter and spoken by a man, and probably not written by Donne) precedes the three stanzas of this poem (Donne/Clements 11).</p>
+                  <listBibl><bibl>Donne, John. *The Poems of John Donne*. ed. Herbert Grierson. Oxford: OUP, 1964. p. 391</bibl><bibl>Donne, John. *John Donne&apos;s Poetry - Authoritative Texts &amp; Criticism*. Ed. Arthur L. Clements. New York: Norton, 1966. </bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#context">
+                  <p>First printed with music in W. Corkine&apos;s &quot;Second Book of Airs&quot; (1612). (J*ohn Donne The Complete English Poems*; ed. Albert J. Smith. London, Lane, 1974)
+
+&quot;Break of Day&quot; was set by William Corkine and appears in his Second Book of Ayres, 1612. It is set for voice and viol. (John Donne: *The Elegies and The Songs and Sonnets*, Appendix B. Ed. Helen Gardner. Oxford: Clarendon Press, 1965.)</p>
+                  <listBibl><bibl>Donne, John. *The Complete English Poems*; ed. Albert J. Smith. London, Lane, 1974.</bibl><bibl>Donne, John. &quot;Appendix B.&quot; *The Elegies and The Songs and Sonnets*. Ed. Helen Gardner. Oxford: Clarendon Press, 1965.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-busied" from="#s-busied" to="#e-busied">
+            <respStmt><resp>annotator</resp><name>Johannes K�stner</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>(adjective) busily occupied or engaged; actively employed.</p>
+                  <listBibl><bibl>&quot;busied, adj.&quot; *OED Online*. Oxford University Press, December 2018. Web. 21 February 2019.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-darkness" from="#s-darkness" to="#e-darkness">
+            <respStmt><resp>annotator</resp><name>Alina Teynil</name><name>Bela Metz</name></respStmt>
+            <date>2026-03-16</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>&quot;darkness&quot; is introduced in opposition to light and day.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The sun and its light is the antagonist in this poem. The &quot;[[break of day]]&quot; marks the rising of the sun, and hence the light is breaking up the lovers&apos; intimacy as the man has to leave his woman behind to pursue his business. However, while it is true that in the first stanza of the poem the sunlight threatens to split up the lovers whom its counterpart &quot;darkness&quot; had brought together, it changes into being personified by &quot;having no tongue&quot; and being &quot;[[all eye]]&quot; in the second stanza.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-disease-of-love" from="#s-disease-of-love" to="#e-disease-of-love">
+            <respStmt><resp>annotator</resp><name>Johannes K�stner</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The phrase is potentially ambiguous: &quot;disease of love&quot; may either refer to venereal diseases (&quot;morbus veneris&quot; was an early name for what later became known as syphilis; the Latin expression appeared first in 1527)  or the topos of love as a sickness (going back to ancient philosophy, for example in Lucretius&apos; *De Rerum Natura* and Cicero&apos;s *Tusculan Disputations*; it was well-established as a literary topos by the time of Donne).</p>
+                  <listBibl><bibl>Frith, John. &quot;Syphilis – Its early history and Treatment until Penicillin and the Debate on its Origins.&quot; *Journal of Military and Veterans&apos; Health* 20.4 (2012): n.p.</bibl><bibl>Rothaus Caston, Ruth. &quot;Love as Illness: Poets and Philosophers on Romantic Love.&quot; *The Classical Journal* 101.3 (2006): 271-98.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>In the case of this poem, the allusion to (actual) diseases of love (as in venereal diseases) is used for a comparison: what the female speaker goes through is worse than that. The forcefully parted lovers and the pains of the disease of love is analogous to, for example, Shakespeare&apos;s *Romeo and Juliet*. The lovers are torn apart by *vis major* (a larger power) that neither can do anything about, and what remains is the disease of a broken heart.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-doth" from="#s-doth" to="#e-doth">
+            <respStmt><resp>annotator</resp></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#textual-variants">
+                  <p>According to Albert J. Smith, this line&apos;s &quot;when [...] doth,&quot; was in some manuscripts printed as &quot;when [...] should&quot; or &quot;if [...] should.&quot;</p>
+                  <listBibl><bibl>Donne, John. *The Complete English Poems*. Ed. Albert J. Smith. London: Lane, 1974.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-fain" from="#s-fain" to="#e-fain">
+            <respStmt><resp>annotator</resp><name>Bela Metz</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>&quot;fain&quot;: adj. &amp; adv., archaic;
+
+here: adverb: gladly (esp. &quot;would fain&quot;).
+
+Paraphrase: &quot;That being well I gladly would stay.&quot;</p>
+                  <listBibl><bibl>&quot;fain.&quot; *The Concise Oxford Dictionary, 18th Edition*. Ed. R.E. Allen. Oxford: Clarendon Press, 1990.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-foul" from="#s-foul" to="#e-foul">
+            <respStmt><resp>annotator</resp><name>Johannes K�stner</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>(adjective) grossly offensive to the senses, physically loathsome; primarily with reference to the odour or appearance indicative of putridity or corruption.</p>
+                  <listBibl><bibl>&quot;foul, adj., n., and adv.&quot; *OED Online*. Oxford University Press, December 2018. Web. 21 February 2019.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-hence" from="#s-hence" to="#e-hence">
+            <respStmt><resp>annotator</resp><name>Bela Metz</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>&quot;hence&quot;: adv., archaic: from here; from this place.
+
+Paraphrase: &quot;Must business thee from here remove&quot;</p>
+                  <listBibl><bibl>&quot;hence.&quot; *The Concise Oxford Dictionary, 18th Edition*. Ed. R.E. Allen. Oxford: Clarendon Press, 1990.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-hither" from="#s-hither" to="#e-hither">
+            <respStmt><resp>annotator</resp><name>Bela Metz</name></respStmt>
+            <date>2026-03-16</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>&quot;hither&quot;: adv. &amp; adj., formal;
+
+adv.:to or towards this place</p>
+                  <listBibl><bibl>&quot;hither.&quot; *The Concise Oxford Dictionary, 18th Edition*. Ed. R. E. Allen. Oxford: Clarendon Press, 1990.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-light" from="#s-light" to="#e-light">
+            <respStmt><resp>annotator</resp><name>Alina Teynil</name></respStmt>
+            <date>2026-03-16</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>Personification of &quot;light&quot; which is a metaphor for &quot;day&quot;. &quot;Light hath no tongue, but is [[all eye]]&quot; means that the day itself is unable to speak, but the light at daytime is able to make things visible, therefore light = day is able to spy but not to speak.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-thou" from="#s-thou" to="#e-thou">
+            <respStmt><resp>annotator</resp><name>Bela Metz</name></respStmt>
+            <date>2026-03-16</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>obj. thee; poss. thy or thyne; pl. ye or you
+
+second person singular pronoun, now replaced by &quot;you&quot; except in some formal, liturgical, dialect, and poetic uses.</p>
+                  <listBibl><bibl>&quot;thou.&quot; *The Concise Oxford Dictionary, 18th Edition*. Ed. R.E. Allen. Oxford: Clarendon Press, 1990</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-wilt" from="#s-wilt" to="#e-wilt">
+            <respStmt><resp>annotator</resp><name>Bela Metz</name></respStmt>
+            <date>2026-03-16</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>archaic, 2nd person sing. of &quot;will&quot;.</p>
+                  <listBibl><bibl>&quot;wilt.&quot; *The Concise Oxford Dictionary, 18th Edition*. Ed. R.E. Allen. Oxford: Clarendon Press, 1990</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-woo" from="#s-woo" to="#e-woo">
+            <respStmt><resp>annotator</resp><name>Bela Metz</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>1. court; seek the hand or love of (a woman).
+
+2. try to win (fame, fortune, etc.).
+
+3. seek the favour or support of.
+
+4. coax or importune.</p>
+                  <listBibl><bibl>&quot;woo.&quot; *The Concise Oxford Dictionary, 18th Edition*.  Ed. R.E. Allen.Oxford: Clarendon Press, 1990</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#context">
+                  <p>The complaint of lovers parted by the dawn was popular with the Provençal poets in the twelfth century, who frequently put speeches or whole lyrics in the mouth of the women. Donne does it in only one other poem, &quot;Self Love&quot; (Smith, however, in his edition states that &quot;modern editors have not felt confident&quot; about the authorship attribution to John Donne) (Donne/Smith 399, note to &quot;Self Love&quot;).
+
+&quot;Break of day&quot; is spoken by a woman and this is in the tradition of popular not courtly, song. It descends from the Provençal &quot;aube,&quot; the dialogue of lovers parted by the dawn (see Donne/Gardner 158).</p>
+                  <listBibl><bibl>Donne, John. *The Complete English Poems*. Ed. Albert J. Smith. London: Lane, 1974.</bibl><bibl>Donne, John. *The Elegies and The Songs and Sonnets*. Ed. Helen Gardner. Oxford: Clarendon Press, 1965.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+      </listAnnotation>
+    </standOff>
+</TEI>

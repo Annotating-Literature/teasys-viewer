@@ -1,0 +1,48 @@
+{
+  "id": "mandrake-root",
+  "anchorText": "mandrake-root",
+  "anchorStart": 235,
+  "anchorEnd": 248,
+  "authors": [
+    "Hannah Paxian"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "The root of the poisonous and narcotic plant Mandragora officinarum was \"formerly credited with magi¬cal and medicinal properties esp. because of the supposedly human shape of its forked […] root\" (\"man¬drake, n.\"). It was used to promote conception, as a narcotic, an aphrodisiac, and a cathartic (i.e., to clear and liberate).\n\nIn the 16th and 17th century, \"mandrake\" was also used figuratively for \"an unpleasant or unwanted person or thing; something to be rooted up, a pestilential growth\" (\"mandrake, n.\").\n\nFor an image of a mandrake root see https://assets2.merriam-webster.com/mw/static/art/dict/mandrake.gif",
+      "worksCited": [
+        "\"mandrake, n.\" *OED Online*. Oxford UP, September 2014. Web. 12 November 2014. http://www.oed.com/view/Entry/113338?redirectedFrom=mandrake#eid"
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "The mandrake is mentioned twice in the Old Testament, presumably as a fertility drug and an aphrodisiac (see Ferber 122). In ancient Greece and Rome it was thought that the seemingly human-shaped root was in the power of dark spirits: \"It could be safely uprooted only in the moonlight, after appropriate prayer and ritual, by a black dog attached to the plant by a cord\" (\"mandrake,\" *Encyclopædia Britannica*). After the dog had died of the shriek, the root could be used for beneficent purposes such as to sedate, to anaesthetize (cf. Hambel 56), to induce love and to increase sexual desire (see Roth 15), but also to poison, to drive insane and to kill (cf. Müller 619).\n\nIn medieval times the mandrake was thought to shriek when pulled from the ground to cause the madness or death of whoever uprooted it (\"mandrake,\" *Encyclopædia Britannica*). \"According to a fable mandrakes grew under the gallows fertilized by the urine or semen from a hanged thief\" (Müller 622). In the early modern period, William Shakespeare and John Donne, for example, refer to the mandrake and its magical powers (\"mandrake, n.\" OED Online); whether in their time, \"educated men did not believe such things any more\" (Robbins 193) is still being discussed among scholars (cf. Dickson 73).",
+      "worksCited": [
+        "Dickson, Donald R., ed. *John Donne's Poetry*. New York: Norton, 2007. Print.",
+        "Ferber, Michael. \"Mandrake.\" *A Dictionary of Literary Symbols*. Ed. Michael Ferber. Cambridge: \tCambridge UP, 2007. 122. Print.",
+        "Hambel, Vera. \"Die alte Heydnische Abgöttische Fabel von der Alraun.\" *Verwendung und Bedeutung der  \tAlraune in Geschichte und Gegenwart*. Dipl. thesis. Universität Passau, 2002. Passau: Lehrstuhl \tfür Volkskunde der Universität Passau, 2003. Print.",
+        "\"mandrake\". *Encyclopædia Britannica. Encyclopædia Britannica Online*. Encyclopædia Britannica Inc., \t2014. Web. 12 Nov. 2014. .",
+        "\"mandrake, n.\" *OED Online*. Oxford UP, September 2014. Web. 12 November 2014. http://www.oed.com/view/Entry/113338?redirectedFrom=mandrake#eid",
+        "Müller, Jürgen. \"Love Potions and the Ointment of Witches: Historical Aspects of the Nightshade Alkaloids.\" *Journal of Toxicology -- Clinical Toxicology* 36.6 (1998): 617-27. Informa Healthcare. Informa Plc. Web. 29 Jan. 2015. http://informahealthcare.com/doi/pdf/10.3109/15563659809028060. ",
+        "Robbins, Robin, ed. *The Poems of John Donne. Epigrams, Verse Letters to Friends, Love-lyrics, Love-elegies, Satire*. Harlow: Pearson/Longman, 2008. Print.",
+        "\nRoth, Udo. \"Alraune.\" *Metzler Lexikon literarischer Symbole*. Ed. Günter Buber and Joachim Jacob. \tStuttgart, Weimar: Metzler, 2008. 15-16. Print."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "The leaves and fruit of *Mandragora officinarum* contain several poisonous alkaloids (Müller 619). Taken in middle range doses, these cause hallucinations (Müller 617). Higher doses lead to the depression of the central nervous system (Vlachos and Poulos 521) and of the respiratory process (Müller 617) – com¬pare the comrade's \"gaping\" (Rickword l. 9). Severe poisoning results in the arrest of the respiratory process and, consequently, death (Müller 617).\n\nThe mandrake root's narcotic properties might relate to the comrade's apathy and stand in sharp con-trast to its aphrodisiac properties and the speaker's intention to \"rouse\" him (Rickword 6). See also: [[get-with-child-a-mandrake-root]].",
+      "worksCited": [
+        "Müller, Jürgen. \"Love Potions and the Ointment of Witches: Historical Aspects of the Nightshade Alkaloids.\" *Journal of Toxicology -- Clinical Toxicology* 36.6 (1998): 617-27. Informa Healthcare. Informa Plc. Web. 29 Jan. 2015. http://informahealthcare.com/doi/pdf/10.3109/15563659809028060 ",
+        "Rickword, Edgell. \"Trench Poets.\" *The New Oxford Book of War Poetry*. Ed. Jon Stallworthy. Oxford: Oxford UP, 2014. 223. Print.",
+        "Vlachos, Paul, and Louis Poulos. \"A Case of Mandrake Poisoning.\" *Clinical Toxicology*. 19.5 (1982): 521-\t22. Informa Healthcare. Informa PIc. Web. 29 Jan. 2015. http://informahealthcare.com/doi/pdf/10.3109/15563658208992510"
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:45:40.974Z",
+  "updatedAt": "2026-03-21T01:31:44.169Z"
+}

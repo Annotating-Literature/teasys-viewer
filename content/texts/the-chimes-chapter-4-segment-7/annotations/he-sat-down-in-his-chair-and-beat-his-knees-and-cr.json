@@ -1,0 +1,19 @@
+{
+  "id": "he-sat-down-in-his-chair-and-beat-his-knees-and-cr",
+  "anchorText": "He sat down in his chair and beat his knees and cried; he sat down in his chair and beat his knees and laughed; he sat down in his chair and beat his knees and laughed and cried together",
+  "anchorStart": 185,
+  "anchorEnd": 371,
+  "authors": [],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "This passage here has a special rhythm, which Dickens also uses in other parts of *The Chimes*.\n\nHe sat down in his chair and beat his knees and cried;\n  - o -        B   - o -      B     o      B    o     B       o      B\n\nhe sat down in his chair and beat his knees and laughed;\n  - o -        B     - o -     B    o      B   o       B        o     B\n\nhe sat down in his chair and beat his knees and laughed\n  - o -       B    - o -      B    o      B    o     B        o      B\n\nand cried together;\no         B    o    B  o\n\nFor other examples of a similar rhythm in *The Chimes*, see [[toby-veck-toby-veck-keep-a-good-heart-toby]] and [[he-saw-them-young]].",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-09T11:31:27.008Z",
+  "updatedAt": "2026-05-09T11:33:13.767Z"
+}

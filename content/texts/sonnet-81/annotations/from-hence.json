@@ -1,0 +1,31 @@
+{
+  "id": "from-hence",
+  "anchorText": "From hence",
+  "anchorStart": 83,
+  "anchorEnd": 93,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "In this line, \"hence\" most likely means \"from this place\" (\"hence, adv.\" Def. I.1a). However, it could also be used in a temporal rather than a spatial sense and mean \"[f]rom this time onward\" (\"hence, adv.\" Def. II.4a).",
+      "worksCited": [
+        "\"hence, adv.\" Def. II.4a. *OED Online*. OUP, Sept. 2016. Web. 2 Dec. 2016."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "If we read \"hence\" as \"from this place\", it does not become clear what ‘this place' refers to. There are three possibilities:\n\n**(1)** The place could be the sonnet/ sonnet sequence. In this case, a paraphrase could be: ‘Your memory will from now on forever be connected with this sonnet/sonnet sequence; death cannot separate your name from it'.\n\n**(2)** The place could also be the world/ society/ humanity (cf. \"hence, adv.\" Def. I.3a): In this case, a paraphrase could be: ‘Because my verses have made your memory immortal, your death will not make the world forget you'.\n\n**(3)** The two readings can also be connected: ‘Your memory will forever be connected with this sonnet / sonnet sequence, and as long as the world reads it, your name will not be forgotten by society'. This interpretation is closely related to the ending couplet of sonnet 18: \"So long as men can breathe or eyes can see, / So long lives this, and this gives life to thee.\" For more connections between the sonnets 18 and 81 see the note on the poem's title (cf. Level 2 Interpretation [[sonnet-81]]).\n\nOne might also detect the implication that ‘From hence your memory death cannot take, but something else can (e.g. the world's refusal to read the sonnets)'. This emphasises that the immortality of the addressee depends on future readers (cf. Level 1 Language [[eyes-not-yet-created]]) and cannot be seen as ensured.",
+      "worksCited": [
+        "\"hence, adv.\" *OED Online*. OUP, Sept. 2016. Web. 2 Dec. 2016."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T15:40:51.237Z",
+  "updatedAt": "2026-03-18T15:43:32.598Z"
+}

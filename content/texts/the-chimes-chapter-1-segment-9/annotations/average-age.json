@@ -1,0 +1,33 @@
+{
+  "id": "average-age",
+  "anchorText": "average age",
+  "anchorStart": 242,
+  "anchorEnd": 253,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "The mean duration of life in London during the 1840s was 37 years (*Fifth Annual Report* xxiv). The life expectancy of poor people like Toby was even lower (cf. Picard 180).\n\nUsing the information gathered in the *Fourth Annual Report* on the population of London, one can calculate that men aged from 60 to 65 years accounted for only ca 2.5 % of the total male population (cf. 13).",
+      "worksCited": [
+        "*Fifth Annual Report of the Registrar-General of Births, Deaths, and Marriages in England*. London: Clowes and Sons, 1843. Print.",
+        "*Fourth Annual Report of the Registrar-General of Births, Deaths, and Marriages in England*. London: Clowes and Sons, 1842. Print.",
+        "Picard, Liza. *Victorian London. The Life of a City 1840-1870*. London: Weidenfeld & Nicolson, 2005. Print."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "In the 1840s, most [[ticket-porters]] were old men. Henry Mayhew explains that \"some are very old, and none are under 40\" (366). The reason for this was that, from the 1830s onwards, no new ticket porters were admitted into the Fellowship of Ticket Porters and Tacklehouse Porters as their business ceased to be profitable.",
+      "worksCited": [
+        "Mayhew, Henry. *London Labour and the London Poor*. Vol. 3. London: Griffin, Bohn, and Company, 1861. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-06T21:13:13.320Z",
+  "updatedAt": "2026-05-06T21:14:54.934Z"
+}

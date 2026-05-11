@@ -1,0 +1,28 @@
+{
+  "id": "all-through-the-night",
+  "anchorText": "All through the night",
+  "anchorStart": 121,
+  "anchorEnd": 142,
+  "authors": [
+    "Svenja Brank",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "Line 5 is ambiguous as it is unclear to whom “your” refers to. It could either refer to the sky, the sky is personified in this reading and the stars are understood as the eyes *of* the sky. “[Y]our” could, however, also refer to a “divine” being (l. 8). The stars are then understood as eyes *in* the sky that gaze down into the speaker’s eyes. The metaphorical gazing down into one another’s eyes could further suggest a romantic attachment.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The intimate relationship the speaker shares with the stars during the night is emphasized by the connotations the metaphor evokes.\nOne possible interpretation for this relationship could be the notion of two lovers looking deeply into each other’s eyes, while another interpretation arises in the third stanza of the poem when the relationship is revealed to be also of a maternal nature [hyperlink to “I was at peace and drank your beams as they were life to me”]. Moreover, the speaker could be imagining the stars to be the eyes of a divine god-like being. All of these interpretations can be regarded as aspects of the relationship the speaker shares with the stars, representing its loving as well as nurturing, and even divine nature.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T23:35:42.273Z",
+  "updatedAt": "2026-03-20T00:36:39.901Z"
+}

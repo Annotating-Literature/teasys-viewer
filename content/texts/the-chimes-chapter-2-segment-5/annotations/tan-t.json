@@ -1,0 +1,31 @@
+{
+  "id": "tan-t",
+  "anchorText": "’Tan’t",
+  "anchorStart": 2229,
+  "anchorEnd": 2235,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "*‘Tan't* here means \"it is not\" (cf. Gerson 32).",
+      "worksCited": [
+        "Gerson, Stanley. *Sound and Symbol in the Dialogue of the Works of Charles Dickens*. Stockolm et al. : Almqvist & Wiksell, 1967. Print."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "While the omission of the i of the word \"it\" is very prevalent in Shakespearean texts, this spelling/pronunciation was \"clearly dialectical\" in the nineteenth century (Gerson 33). Thus, Dickens's omission of the i is \"mainly restricted to provincial characters\" (ibid.). ‘Tan't also occurs in *The Posthumous Papers of the Pickwick Club, David Copperfield*, and *Hard Times* (cf. ibid.).",
+      "worksCited": [
+        "Gerson, Stanley. *Sound and Symbol in the Dialogue of the Works of Charles Dickens*. Stockolm et al. : Almqvist & Wiksell, 1967. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-07T18:41:50.392Z",
+  "updatedAt": "2026-05-07T18:42:43.398Z"
+}

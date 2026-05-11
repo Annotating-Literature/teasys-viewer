@@ -1,0 +1,41 @@
+{
+  "id": "lilly",
+  "anchorText": "Lilly",
+  "anchorStart": 3792,
+  "anchorEnd": 3797,
+  "authors": [
+    "Sandra Wetzel",
+    "Julia Schatz"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"Lilly\" is the short version of [[lilian]]. Further information on the latter can be found here.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "In floriography, the lily is a symbol of \"purity; virginity; the purified soul; heavenly bliss; peace; … innocence\" (Olderr 127). Because of these attributions, it is often used in Christian contexts as \"the flower of the Virgin [Mary],\" serving as a symbol of chastity and innocence; saints are also often depicted carrying the lily to signify their holiness (Ferguson 33).",
+      "worksCited": [
+        "Ferguson, George. *Signs & Symbols in Christian Art*. Oxford University Press, 1961.",
+        "Olderr, Steven. *Symbolism: A Comprehensive Dictionary*. 2nd ed., McFarland, 2012."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "In *The Chimes*, Lilian's nickname is \"Lilly\" (Dickens 118, 132), which has both the floral connotation and the symbolism connected to it. Like the flower that the name stands for, Lilian's character is depicted as innocent, pure and peaceful: she is repeatedly described as beautiful (\"beautiful face\", 117; \"pretty\", 118; \"so pretty and so young\", 132; \"sweet\", 141), which refers to her youthful innocence and to the notion that she is not only outwardly pretty but also pure at heart. This link is reinforced by the encouraging, almost angelic effect she has on the adults around her (e.g., \"She has a beautiful face […] I've thought so, when my hearth was very cold, and cupboard very bare\", 118; \"so peacefully and happily\", 123). Therefore, Lilian not only embodies the abstract virtues of purity and peace that the lily signifies, but she also lives up to the Christian values that the flower's symbolism insinuates: her saint-like depiction is corroborated as she prays for the people around her (Dickens 121). Therefore, Lilian's character indeed personifies the symbolic traits of the lily as they are described in Olderr: \"purity; virginity; the purified soul; heavenly bliss; peace; […] innocence\" (127).",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\"* A Christmas Carol and other Christmas Books*, edited by Robert Douglas-Fairhurst, Oxford University Press, 2006, pp. 85-162.",
+        "Olderr, Steven. *Symbolism: A Comprehensive Dictionary*. 2nd ed., McFarland, 2012.",
+        "*The Bible*. Authorized King James Version, Cambridge University Press, 2020, kingjamesbibleonline.org. Accessed 12 May 2020."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-07T18:47:44.635Z",
+  "updatedAt": "2026-05-07T18:49:34.852Z"
+}

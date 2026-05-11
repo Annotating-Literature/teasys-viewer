@@ -1,0 +1,35 @@
+{
+  "id": "what-needst-thou-have-no-more-covering-than-a-man",
+  "anchorText": "“What needst thou have no more covering than a man?”",
+  "anchorStart": 500,
+  "anchorEnd": 552,
+  "authors": [
+    "Britta Maria Kobus",
+    "Mergül Başaran",
+    "Katherina Sotiriou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "intertextuality",
+      "body": "The speaker quotes the last line of the elegy \"To his mistress going to bed\", written by John [[donne]].\n\nLink to the full text: http://www.luminarium.org/sevenlit/donne/elegy20.php",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "In the sexually charged [[elegies]] \"To his mistress going to bed\" the speaker is soliciting his mistress into taking off her clothes and sharing the bed with him. Despite the sexual content of the elegy that bears resemblance to Ovid, here the arts of love (*Ars amatoria*) merge semantically more into the \"arts of war\" (Hadfield 52), as the male speaker describes the seduction in the terms of a military campaign (cf. l. 25-29; see Bell 208). The lover speaks like as if he were an \"imperial ruler\" discovering his conquered territory (Hadfield 53) and its riches, while the female body becomes the land that is waiting to be colonized. In this metaphorical sense the uncovering, the laying down of the clothing then becomes a symbol for the letting down of barriers, resulting in the invasion of the country (see Loomba 73).\n\nIn his last line \" What needst thou have more cov'ring than a man\" John Donne alludes to the Bible (1 Cor 11:3-7): there, a man who covers his head when praying or prophesizing dishonours himself, but a woman who does the same with her head covered, honours herself. Man does not have to cover his head because he is \"glory of God,\" while the woman \"is the glory of the man\". Donne reverses these statements of St. Paul; in lines 34 and 35 (\"As souls unbodied, bodies unclothed must be/To taste whole joys.\"), he wittily states \"that she needs no more cloths than he does\", and that she does not need more \"covering\" than him (see Guibbory 136). The soul's covering is the body, while the body's covering is the clothing – therefore to find true joy she should let down her clothing, her cover.",
+      "worksCited": [
+        "Bell, Ilona. \"Gender Matters: The Women in Donne's Poems.\" *The Cambridge Companion to John Donne*. Ed. Achsah Guibbory. Cambridge: CUP, 2006. 201-16.",
+        "Guibbory, Achsah. \"Erotic Poetry.\" *The Cambridge Companion to John Donne*. Ed. Achsah Guibbory. Cambridge: CUP, 2006. 133-47.",
+        "Hadfield, Andrew. \"Literary Contexts: Predecessors and Contemporaries.\" *The Cambridge Companion to John Donne*. Ed. Achsah Guibbory. Cambridge: CUP, 2006. 49-64.",
+        "Loomba, Ania. *Colonialism/Postcolonialism*. London: Routledge, 1998. ",
+        "*King James Bible* 1.Cor.11.3-7. Web. 28 Jan.2015. http:// www.kingjamesbibleonline.org/1-Corinthians-Chapter-11"
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:35:38.607Z",
+  "updatedAt": "2026-03-21T01:32:53.176Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "woo",
+  "anchorText": "woo",
+  "anchorStart": 733,
+  "anchorEnd": 736,
+  "authors": [
+    "Bela Metz"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "1. court; seek the hand or love of (a woman).\n\n2. try to win (fame, fortune, etc.).\n\n3. seek the favour or support of.\n\n4. coax or importune.",
+      "worksCited": [
+        "\"woo.\" *The Concise Oxford Dictionary, 18th Edition*.  Ed. R.E. Allen.Oxford: Clarendon Press, 1990"
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "The complaint of lovers parted by the dawn was popular with the Provençal poets in the twelfth century, who frequently put speeches or whole lyrics in the mouth of the women. Donne does it in only one other poem, \"Self Love\" (Smith, however, in his edition states that \"modern editors have not felt confident\" about the authorship attribution to John Donne) (Donne/Smith 399, note to \"Self Love\").\n\n\"Break of day\" is spoken by a woman and this is in the tradition of popular not courtly, song. It descends from the Provençal \"aube,\" the dialogue of lovers parted by the dawn (see Donne/Gardner 158).",
+      "worksCited": [
+        "Donne, John. *The Complete English Poems*. Ed. Albert J. Smith. London: Lane, 1974.",
+        "Donne, John. *The Elegies and The Songs and Sonnets*. Ed. Helen Gardner. Oxford: Clarendon Press, 1965."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T00:02:39.786Z",
+  "updatedAt": "2026-03-17T00:03:41.314Z"
+}

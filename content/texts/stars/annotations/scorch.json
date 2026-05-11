@@ -1,0 +1,36 @@
+{
+  "id": "scorch",
+  "anchorText": "scorch",
+  "anchorStart": 623,
+  "anchorEnd": 629,
+  "authors": [
+    "Svenja Brank",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "In the *Oxford English Dictionary* the verb „scorch” is defined as heating up a surface until it remains dry or discoloured, as well as “to burn superficially” (“scorch”, *v*.1 1. a.). The verb “scorch” is also ascribed another, rather violent, meaning of slashing sth. with a knife (“scorch”, *v*.3).",
+      "worksCited": [
+        "\"scorch, *v*.1.\"*OED Online*, Oxford University Press, June 2021, www.oed.com/view/Entry/173020. Accessed 8 July 2021."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "intratextuality",
+      "body": "In “Stars” the sun scorches the “tranquil cheek” (l. 19). The sun’s rays are experienced as unpleasant and even hurtful by the speaker throughout the poem (cf. [[dazzling sun]]). This becomes further evident in the penultimate stanza: “And hide me from the hostile light, // That does not warm, but burn” (l. 43-44).",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The associations of violence evoked by the verb further emphasize the contrast between the calm, nurturing night-time and the threatening day-time. In the lines: “And scorch with fire, the tranquil cheek, // Where your cool radiance fell?” (l. 19-20) this contrast is established by opposing the hurtful fire of the sun with the cool radiance of the night. The tranquil cheek, which can either be read as the speaker’s cheek or as a metaphor for the face of the earth, is passive, while the scorching sun is active and violent.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-19T10:13:23.857Z",
+  "updatedAt": "2026-03-20T00:37:14.162Z"
+}

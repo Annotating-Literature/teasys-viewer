@@ -1,0 +1,23 @@
+{
+  "id": "myriad",
+  "anchorText": "myriad",
+  "anchorStart": 707,
+  "anchorEnd": 713,
+  "authors": [
+    "Svenja Brank"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "A myriad was a measuring unit that used to denote the number ten thousand in ancient Greece (cf. \"myriad, *n*. and *adj*.\" A.*n*.1.a.) and that has now evolved to define \"a countless number of specified things\" (\"myriad, *n*. and *adj*.\" 2.b.). The meaning in *The Chimes* no longer denotes a specific number, but emphasizes the uncountability of the number of figures that Trotty sees. For more information on the effect this measuring unit has in *The Chimes* see here.",
+      "worksCited": [
+        "\"myriad, *n*. and *adj*.\"* OED Online*, Oxford University Press, September 2021, www.oed.com/view/Entry/124538. Accessed 24 November 2021."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-08T15:09:19.182Z",
+  "updatedAt": "2026-05-08T15:10:37.122Z"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "shadow",
+  "anchorText": "shadow",
+  "anchorStart": 209,
+  "anchorEnd": 215,
+  "authors": [
+    "Natalia Christoforou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The term ‘shadow' in this sonnet cannot be reduced to one single meaning. Literally speaking, a shadow is an \"image cast by a body intercepting light\" (*OED* II). Metaphorically, it can refer to a hollow representation, \"an unreal appearance; a delusive semblance […]; a vain and unsubstantial object of pursuit\" (*OED* 6a), or to \"a spectral form, [a] phantom\" (*OED* 7). In the seventeenth century, ‘shadow' was also another term for \"an actor or a play\" (*OED* 6b) and it was often employed by Shakespeare in this sense: see, for example, \"Life's but a walking shadow, a poor player\" (*Macbeth* V.v.24 qtd. in Duncan-Jones 196n5), or Puck's epilogue in *A Midsummer Night's Dream*: \"If we shadows have offended,/ Think but this, and all is mended:/ That you have but slumbered here/ While these visions did appear\" (V.i.413-416).",
+      "worksCited": [
+        "Duncan-Jones, Katherine (ed.). *Shakespeare's Sonnets*. The Arden Shakespeare, Third Series (Rev. ed.), Bloomsbury, 2010.",
+        "\"shadow, n.\". *OED Online*. Oxford UP, June 2017. ",
+        "Shakespeare, William. *A Midsummer Night's Dream*. Ed. Sukanta Chaudhuri, The Arden Shakespeare, Bloomsbury, 2017."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "Since Aristotle and all the way through to the early modern period, dreams were thought of as primarily visual (Clark 302) and were closely associated with the faculties of imagination and memory. It was believed that once the eye perceived an actual object, this produced a likeness of itself in the mind – what Aristotle called a ‘species' (cf. Level 2 Context [[and-darkly-bright-are-bright-in-dark-directed]]). Subsequently, the species travelled in the form of a mental impression from the outer to the inner senses in order to be examined by common sense, to be stored in memory and, eventually, to be retrieved by the imagination at will (cf. Clark 15; Rossky 50-51). Dreams were one of those products of imagination; they were defined as \"vision[s] presented to the interior senses\" (Dupleix qtd. in Clark 302-303) and projected during sleep before the inner eye, similar to a theatrical performance (cf. Level 2 Context [[form-happy-show]]). Since antiquity, dreams were thought to be \"caused by traces of the species left behind in the internal senses by the waking perceptions of the external ones, once the latter were no longer active\" (Clark 301). The reproduced ‘species' or ‘phantasm' could also be referred to as a ‘shadow' (Clark 15).\n\nDreams were often considered to disclose what most occupied the mind and to provide an insight into the dreamer's innermost desires. Dreaming about a beloved thus suggested an impassioned – often forlorn – fixation on the object of desire and was a common motif in early modern courtly poetry. It offered a paradoxical fulfilment of an otherwise unrequited love, as the painful absence of the loved one was compensated by the presence of the dream image (cf. Alt 117).",
+      "worksCited": [
+        "Alt, Peter-André. *Der Schlaf der Vernunft: Literatur und Traum in der Kulturgeschichte der Neuzeit*. C.H. Beck, 2011.",
+        "Clark, Stuart. *Vanities of the Eye: Vision in Early Modern European Culture*. Oxford UP, 2007.",
+        "Rossky, William. \"Imagination in the English Renaissance: Psychology and Poetic\". *Studies in the Renaissance*, Vol. 5, The U of Chicago P on behalf of the Renaissance Society of America, 1950, pp. 49-73. *The University of Chicago Press Journals*, doi: 10.2307/2856974."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "As Wickert in her article \"Das Schattenmotiv bei Shakespeare\" asserts, the motif of the shadow was often used by Shakespeare and was favoured for its multi-layeredness and its ample associations (cf. 274; Level 2 Intertextuality [[then-thou-whose-shadow-shadows-doth-make-bright]]). In Sonnet 43, the shadow plays a central role and is directly evoked five times in different variations: \"shadow\" (l. 5), \"shadows\" (l. 5), \"thy shadow's form\" (l. 6), \"thy shade\" (l. 8), \"thy fair imperfect shade\" (l. 11).\n\nWithin the context of eyes emitting light, evoked in l. 4 (cf. Level 2 Context [[and-darkly-bright-are-bright-in-dark-directed]]), the first reference to ‘shadow' can be understood literally as the image cast by the addressee's body when exposed to the speaker's radiant gaze. Yet, the conceit is much more complex than that. Taking place in the realm of dreams, the shadow is also the incorporeal mental image of the addressee – the ‘species' – produced before the speaker's inner eye (cf. Level 2 Context [[form-happy-show]]); it is \"an unreal appearance; a delusive semblance […]; a vain and unsubstantial object of pursuit\" (OED 6a) compared to the real addressee. The shadow can therefore be understood as an actor impersonating the addressee on the stage of dramatic dream action which is created and directed by and for the speaker before his inner eye. Furthermore, in the dreadful darkness of \"dead night\" (l. 11), the shadow might carry some uncanny implications and remind momentarily of ghosts or spirits (cf. Level 2 Interpretation [[in-dead-night]]), even though this possibility is not pursued any further in this sonnet.",
+      "worksCited": [
+        "\"shadow, n.\". *OED Online*. Oxford UP, June 2017. Accessed July 2017.",
+        "Wickert, Maria. \"Das Schattenmotiv bei Shakespeare\". *Anglia: Zeitschrift für englische Philologie*, N.F. 59=71, 1952/3, pp. 274-309. *DigiZeitschriften*. "
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T20:43:29.816Z",
+  "updatedAt": "2026-03-17T20:51:03.233Z"
+}

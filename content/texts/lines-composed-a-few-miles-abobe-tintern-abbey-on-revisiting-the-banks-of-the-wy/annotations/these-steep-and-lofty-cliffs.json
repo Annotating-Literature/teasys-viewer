@@ -1,0 +1,36 @@
+{
+  "id": "these-steep-and-lofty-cliffs",
+  "anchorText": "these steep and lofty cliffs",
+  "anchorStart": 195,
+  "anchorEnd": 223,
+  "authors": [
+    "Sandra Wetzel",
+    "Pavlina Papadopoulou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "In this line – along with line 7: \"Thoughts of more deep seclusion\" –, an element of the Sublime makes its appearance as the description of nature evokes strong feelings of awe, and even terror. Edmund Burke, in his treatise on aesthetics in 1757, defines the Sublime as follows: \"Whatever is fitted in any sort to excite the ideas of pain and danger, that is to say, whatever is in any sort terrible, or is conversant with terrible objects, or operates in a manner analogous to terror, is a source of the sublime; that is, it is productive of the strongest emotions which the mind is capable of feeling\" (Burke 39).",
+      "worksCited": [
+        "Burke, Edmund. *A Philosophical Enquiry into the Origin of Our Ideas of the Sublime and Beautiful* (1757). Cambridge University Press, 2014."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Cliffs can be said to be among the most staggering parts of nature, their precipices impress into the landscape the power that nature holds. The mere sight of them can be said to take the observers (i.e. readers) into \"thoughts of more deep seclusion\" (v.7), inspired by the greatness and awe the cliffs represent. This very seclusion could also refer to the separation the cliffs provide. It is not just the vastness of cliffs that is so impressive but also the notion of dividing one thing from another, which may formerly have belonged together that leads to that feeling of \"seclusion\".",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "intratextuality",
+      "body": "The aesthetic concept of the Sublime is mentioned again in the poem, when the speaker comments that \"[t]o them [he] may have owed another gift, /Of aspect more sublime; that blessed mood\" (v. 37-38) and further down \"[a] presence that disturbs me with the joy / Of elevated thoughts; a sense sublime / Of something far more deeply interfused\" (v. 96-98).",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T17:53:53.285Z",
+  "updatedAt": "2026-03-16T17:55:31.585Z"
+}

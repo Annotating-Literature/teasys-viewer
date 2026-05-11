@@ -1,0 +1,33 @@
+{
+  "id": "not-to-live-upon-enough",
+  "anchorText": "not to live upon enough",
+  "anchorStart": 5070,
+  "anchorEnd": 5093,
+  "authors": [
+    "Lauren Fröhlich"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "intratextuality",
+      "body": "Lilian is referring to Meg's work as a seamstress. Seamstresses often worked under particularly hard conditions and only made little money (cf. here).",
+      "worksCited": []
+    },
+    {
+      "level": 1,
+      "category": "form",
+      "body": "The phrase \"not to live upon enough\" is inverted. The reader would expect the expression \"not enough to live upon\". This inverted expression contains a contradiction and is contrasted by the phrase \"just enough to toil upon\", which follows shortly after and whose syntactical structure is unmarked and not inverted. This contrast emphasises the difference between \"live\" and \"toil\": Trotty and Meg have \"just enough to toil upon\" but not enough to (really) live.\n\nThe first part of the sentence \"not to heap us riches, not to live grandly or gaily, not to live upon enough, however coarse\" depicts a listing from rich to poor living conditions and brings forth a parallelism of the individual phrases through anaphoric expressions with „not to\" while making them become worse and worse. This first listing is a *tricolon diminuens* because it is made up of three clauses of similar length. This listing is followed by another such listing that is, however, contrastive to the first, introduced by \"but\": \"but to earn us bread; to scape together just enough to toil upon, and want upon, and keep alive in us the consciousness of our hard fate.\" The repetition of \"to\" connects the second phrase with the first. The living conditions are first described as increasingly worse, to be followed by that which is required for the sustenance of the poor. This whole passage is pleonastic in that it is used to convey one single idea, namely utter poverty.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The form of the sentence underlines and emphasises the dire living and working conditions Meg and Lilian experience in Trotty's vision (cf. here).",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-08T16:04:32.289Z",
+  "updatedAt": "2026-05-08T16:05:38.889Z"
+}

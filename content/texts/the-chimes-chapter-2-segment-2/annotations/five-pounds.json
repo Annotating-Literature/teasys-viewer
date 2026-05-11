@@ -1,0 +1,24 @@
+{
+  "id": "five-pounds",
+  "anchorText": "five pounds",
+  "anchorStart": 1718,
+  "anchorEnd": 1729,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "The price of five pounds for two votes in a charity election is not unusually high. For example, a one-time donor to the Infant Orphan Asylum of Dalston even had to pay five guineas (i.e. slightly more than five pounds) for only one vote (cf. (Kanazawa 359). (One pound had the value of 20 shillings, while one guinea had the value of 21 shillings, cf. [link to currency annotation]).\n\nA man with an average income in the 1840s had to work approx. 33 days in order to earn five pounds, an agricultural labourer, earning less than the average income, even had to work approx. 54 days. (cf. Clark 6). This shows how much money Lady Bowley is able to dispense of.",
+      "worksCited": [
+        "Clark, Gregory. *Average Earnings and Retail Prices, UK, 1209-2010*. 30 Oct. 2011. Web. Accessed 11 Dec. 2016. https://www.measuringworth.com/datasets/ukearncpi/earnstudynew.pdf",
+        "Kanazawa, Shusaku. \"'To Vote or not to Vote': Charity Voting and the Other Side of Subscriber Democracy in Victorian England.\" *English Historical Review* 131.549 (April 2016): 353-383. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-06T21:34:59.531Z",
+  "updatedAt": "2026-05-06T21:36:37.809Z"
+}

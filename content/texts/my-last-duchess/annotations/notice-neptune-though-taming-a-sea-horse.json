@@ -1,0 +1,34 @@
+{
+  "id": "notice-neptune-though-taming-a-sea-horse",
+  "anchorText": "Notice Neptune, though, Taming a sea-horse",
+  "anchorStart": 2417,
+  "anchorEnd": 2460,
+  "authors": [
+    "Minella Fernandes",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "This sculpture of Neptune is possibly also fictional, like its sculptor. However, it is not an unusual reference since Neptune was often associated with power and seen in various works in control of sea-horses. \n\nIt is also important to take into account that the sea-horse being referred to is not the tiny creature we know today, but instead a hippocamp, a mythical creature belonging to the sea that is half horse and half fish (\"hippocamp, *n*.\"). They were often seen as vehicles of the sea gods. One of the best representations of this is the famous Trevi fountain in Rome.",
+      "worksCited": [
+        "Augst, Alexander. “Trevi Fountain, Rome, Italy”. *Wikipedia*, August 2004, en.wikipedia.org/wiki/Hippocampus_(mythology). Accessed 10 August 2022.",
+        "\"hippocamp, *n*.\" *OED Online*, Oxford University Press, June 2022, www.oed.com/view/Entry/87154. Accessed 29 June 2022."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "There are at least two possible readings of these lines, one being that the representation of Neptune taming the seahorse is a symbolic reference to the dynamic shared by the duke and his wife; his controlling nature towards her and his eventual subjugation of her life, by giving his final commands (cf. Level 2 Interpretation [[i-gave-commands-then-all-smiles-stopped-together]]) to put an end to all smiles (line 46). George Monteiro refers to it as a “personal allegory” (Monteiro 235-236) and points out the significance of the duke’s pleasure in seeing himself as Neptune and the fact that “he has chosen to view himself in a show of force” (Monteiro 236). The words “for me” convey that it was specifically commissioned by the duke as yet another piece of art, along with the painting, to emphasize his power and authority. \nAlternatively, F. Kleinschmit von Lengefeld suggests that the purpose of these lines is nothing more than to depict the duke’s nonchalance (Kleinschmit von Lengefeld 15-16). Correspondingly, the line shows that he treats the duchess’s painting as just another piece of art in his gallery and not anything special.",
+      "worksCited": [
+        "Kleinschmit von Lengefeld, F. *Die Lyrik R. Brownings vor dem Jahre 1868*. Marburg, 1925. Accessed 29 Jun. 2022.",
+        "Monteiro, George. “Browning’s ‘My Last Duchess.’” *Victorian Poetry*, vol. 1, no. 3, 1963, pp. 234–37. *JSTOR*, www.jstor.org/stable/40001200. Accessed 29 Jun. 2022."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-20T00:45:52.312Z",
+  "updatedAt": "2026-03-20T00:57:44.379Z"
+}

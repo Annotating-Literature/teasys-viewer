@@ -1,0 +1,51 @@
+{
+  "id": "form-happy-show",
+  "anchorText": "form happy show",
+  "anchorStart": 271,
+  "anchorEnd": 286,
+  "authors": [
+    "Natalia Christoforou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "The phrase \"form happy show\" can be read as syntactically ambiguous. According to standard English grammar, the subject of a sentence (\"thy shadow's form\" (l. 6) in this case) has to be principally succeeded by a verb: ‘form (v.) happy (adj.) show (n.)'. In poetic forms, however, the rules of syntax – being not as rigid – could allow for the possibility of a structural inversion: ‘form (n.) happy (adj.) show (v.)' in the sense of ‘show (a) happy form'.\n\nRegardless of whether this is an inversion or not, the placement of ‘form' is deliberate as it results in an aesthetic doubling with \"shadow's form\" (l. 6). Following conventional syntactical rules, the repetition would be another instance of a ‘polyptoton' (cf. Level 2 Form [[shadow-shadows]]) as the same word would vary in word class (noun vs. verb).",
+      "worksCited": []
+    },
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The term ‘show', either as a verb or a noun, refers to \"[t]he action or an act of displaying, exhibiting, or presenting something\" (*OED* \"show,n.1\" 1a). It is often associated with public ‘spectacle' and \"theatrical performance[s]\" (*OED* \"show, n.1\" 15b,c; cf. *OED* \"show, v.\" 4b) and, sometimes, it can imply superficiality and intentional deceit: \"[a] false, misleading, or illusory appearance **of** a quality, emotion, etc.; a semblance\" (*OED* \"show, n.1\" 3b; cf. Booth 204n6). Another, by now obsolete, meaning that might prove relevant to the interpretation of the sonnet would be that of \"[a] phantom, a vision, an apparition\" (*OED* \"show, n.1\" †22). As an example of this use, the *OED* cites Shakespeare's Cymbeline: \"As I slept, me thought Great Iupiter vpon his Eagle back'd Appear'd to me, with other sprightly shewes Of mine owne Kindred\" (**V**.vi.429 qtd. in *OED* \"show, n.1\" 22).",
+      "worksCited": [
+        "\"show, n.1\". *OED Online*. Oxford UP, June 2017.",
+        "\"show, v.\". *OED Online*. Oxford UP, June 2017."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "Since the Middle Ages, it was common to think of the human mind in spatial and architectural terms. The Italian philosopher Giulio Camillo, in his work *L'Idea del Teatro*, was the first to establish a connection between the mental space occupied by memory and the theatre. Shakespeare's contemporaries Robert Fludd and John Willis adopted Camillo's model and were probably inspired by actual \"public theatres of early modern London\" (Wilder 1). In fact, Frances Yates, in *The Art of Memory*, goes as far as to argue that the Globe Theatre may have served as a model for Fludd's memory theatre (Wilder 15; Alt 78-79). According to this model, images of memory, imagination and dreams are acted out on a stage before the inner eye:\n\n\"Describing Camillo's theatre to Erasmus, Viglius Zuichemus writes that Camillo \"called it a theatre because it can be seen with the eyes of the body\" – that is, Camillo's memory theatre is a \"theatre\" not so much because it resembles the structures in which plays were performed as because it literalizes the Greek root of the word \"theatre,\" which mean \"seeing.\" Through the use of physical objects, real or imagined, this \"memory theatre\" places the mind on display\" (Wilder 56).\n\nThus, in this inner performance, the one remembering, imagining or dreaming is, paradoxically, at once the audience and the actor, the seer and the seen (cf. Bauer and Zirker 8). ",
+      "worksCited": [
+        "Alt, Peter-André. *Der Schlaf der Vernunft: Literatur und Traum in der Kulturgeschichte der Neuzeit*. C.H. Beck, 2011.",
+        "Bauer, Matthias and Angelika Zirker. \"Shakespeare und die Bilder der Vorstellung: ‘The soul's imaginary sight' im 27. Sonett. *\"Diesseits des \"Laokoon\": Funktionen literarischer Intermedialität in der Frühen Neuzeit*, Hg. Jörg Robert und Wolf Gerhard Schmidt. In press.",
+        "Wilder, Lina Perkins. *Shakespeare's Memory Theatre: Recollection, Properties and Character*. Cambridge UP, 2010."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "Both Duncan-Jones and Evans keep the interpretation of this phrase quite simple: \"create a joyful spectacle\" (Duncan-Jones 196n6) and \"produce a (comparatively) felicitous (‘happy') appearance\" (Evans 144n6). Booth's interpretation is indeed similar (\"create a joyous spectacle, be a pleasing sight\" (204n6)), even though he does briefly inform his readers of the possible negative undertones of ‘show'.\n\nA show may, at times, imply a mere external display and illusion instead of sincerity and reality. Although there is no evidence in the sonnet that the speaker could be criticising the addressee for being dishonest, the choice of ‘show' might momentarily strike a dissonant chord in this otherwise glorifying tribute to the beloved. This uncertainty is enhanced by the potential syntactical ambiguity of the phrase \"form-happy-show\" (cf. Level 1 Form) (l. 6) which manages to somewhat blur the boundaries between \"the illusoriness of show and the reality of form\" (Cormack 253).\n\nCombined with [[shadow]] which used to be a word for ‘actor' at the time, the connection of ‘show' with the theatre is plausible. The image of the addressee invoked in the speaker's dreams, is presented like an actor on a mental stage. In the context of \"the clear day\" (l. 7), the addressee seems to maintain his role as a performer and one has the impression that the world of dreams penetrates reality.\n\nFinally, an interesting possibility is that ‘show' is meant in the sense of ‘ghost' (cf. Level 1 Language), as it reminds of the uncanny, yet unspoken, subtext of [[shadow]].",
+      "worksCited": [
+        "Booth, Stephen (ed.). *Shakespeare's Sonnets*. Yale UP, 1977.",
+        "Cormack, Bradin. \"Tender Distance: Latinity and Desire in Shakespeare's Sonnets\". *A Companion to Shakespeare's Sonnets*, Ed. Michael Schoenfeldt. Malden, Blackwell Publishing, 2007, pp. 242-260.",
+        "Duncan-Jones, Katherine (ed.). *Shakespeare's Sonnets*. The Arden Shakespeare, Third Series (Rev. ed.), Bloomsbury, 2010.",
+        "Evans, G. Blakemore (ed.). *The Sonnets*. The New Cambridge Shakespeare, Cambridge UP, 2006."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T10:30:50.717Z",
+  "updatedAt": "2026-03-17T20:20:53.511Z"
+}

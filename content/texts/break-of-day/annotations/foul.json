@@ -1,0 +1,23 @@
+{
+  "id": "foul",
+  "anchorText": "foul",
+  "anchorStart": 586,
+  "anchorEnd": 590,
+  "authors": [
+    "Johannes K�stner"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "(adjective) grossly offensive to the senses, physically loathsome; primarily with reference to the odour or appearance indicative of putridity or corruption.",
+      "worksCited": [
+        "\"foul, adj., n., and adv.\" *OED Online*. Oxford University Press, December 2018. Web. 21 February 2019."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T00:01:05.141Z",
+  "updatedAt": "2026-03-17T00:01:31.714Z"
+}

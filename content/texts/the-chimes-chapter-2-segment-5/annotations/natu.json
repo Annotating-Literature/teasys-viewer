@@ -1,0 +1,21 @@
+{
+  "id": "natu",
+  "anchorText": "natu’",
+  "anchorStart": 1723,
+  "anchorEnd": 1728,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "For information about Will Fern's pronunciation see the annotation about [[misfortun]].",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-07T18:40:49.023Z",
+  "updatedAt": "2026-05-07T18:41:01.590Z"
+}

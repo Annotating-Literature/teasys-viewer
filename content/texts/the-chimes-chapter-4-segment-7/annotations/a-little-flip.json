@@ -1,0 +1,49 @@
+{
+  "id": "a-little-flip",
+  "anchorText": "a little flip",
+  "anchorStart": 4477,
+  "anchorEnd": 4490,
+  "authors": [
+    "Svenja Brank",
+    "Diana Nowicki"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "A \"flip\" is a \"mixture of beer and spirit sweetened with sugar and heated with a hot iron\" (\"flip n.1\", 2).",
+      "worksCited": [
+        "\"flip, n.1.\" *OED Online*, Oxford University Press, September 2020, www.oed.com/view/Entry/71650. Accessed 8 December 2020."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "form",
+      "body": "Dickens uses a meiosis here, a \"figure of speech by which something is intentionally presented as smaller, less important, etc., than it really is\" (\"meiosis, n.\", 1a): In reality, the \"little flip\" is not little at all. Quite the opposite, the pitcher is \"of terrific size\" (Dickens 159), it \"steam[s] and smoke[s] and reek[s] like a volcano\" (Dickens 159), and the man carrying it is \"faint\" from carrying so much weight (Dickens 159).",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*. Ed. Robert Douglas-Fairhurst. Oxford University Press, 2008, pp. 85-162.",
+        "\"meiosis, n.\" *OED Online*, Oxford University Press, December 2020, www.oed.com/view/Entry/115952. Accessed 2 January 2021."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The text tells us that \"Mrs. Chickenstalker's notion of a little flip, did honour to her character\" (Dickens 159). This remark implies that Mrs. Chickenstalker is generous, as she brings such a large gift to Meg's wedding, but she downplays the gesture, being humble. She has clearly taken a liking to Meg, which is also reflected in the speech she gives when bringing the flip: \"I couldn't rest on the last night of the Old Year without coming to wish you joy\" (Dickens 159).",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*. Ed. Robert Douglas-Fairhurst. Oxford University Press, 2008, pp. 85-162."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "intratextuality",
+      "body": "Mrs. Chickenstalker's kindness especially towards Meg is also shown earlier in the story when she displays compassion for Meg and Richard in Trotty's dream, defending them in front of her husband (cf. Dickens 147-151).",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*. Ed. Robert Douglas-Fairhurst. Oxford University Press, 2008, pp. 85-162."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-09T11:33:32.952Z",
+  "updatedAt": "2026-05-09T11:35:10.083Z"
+}

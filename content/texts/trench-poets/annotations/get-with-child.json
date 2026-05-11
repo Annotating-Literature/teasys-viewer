@@ -1,0 +1,25 @@
+{
+  "id": "get-with-child",
+  "anchorText": "Get with child",
+  "anchorStart": 218,
+  "anchorEnd": 232,
+  "authors": [
+    "Tobias Janiak",
+    "Michelle Nowers",
+    "Hannah Paxian"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"Get someone with child\" is an archaic idiomatic expression and means, \"Make a woman pregnant\" (\"Get. Phrases, 10\").",
+      "worksCited": [
+        "\"Get. Phrases, 10\" *Oxford Dictionaries*. Oxford UP, 2015. Web. 11 February 2015. http://www.oxforddictionaries.com/definition/english/get"
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:44:46.518Z",
+  "updatedAt": "2026-03-16T23:45:28.733Z"
+}

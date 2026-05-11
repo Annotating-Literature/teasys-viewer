@@ -1,0 +1,30 @@
+{
+  "id": "chitterlings",
+  "anchorText": "chitterlings",
+  "anchorStart": 3260,
+  "anchorEnd": 3272,
+  "authors": [
+    "Svenja Brank",
+    "Anke Sternkopf"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Chitterlings, chiefly used in the plural form, are the smaller intestines of pigs or other animals like cattle. Mostly prepared as food by frying or boiling, it may be served as a kind of sausage, filled with mince- meat or force-meat (cf. \"chitterling, *n*.\", 1.a.).",
+      "worksCited": [
+        "\"chitterling, *n*.\" *OED Online*, Oxford University Press, December 2021,\nwww.oed.com/view/Entry/31959. Acessed 24 January 2022."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "It can be assumed that chitterlings, being part of the animal's intestines and thus cheap left-over meat, were mostly eaten by poor people, such as Meg and Toby.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-05T17:48:45.987Z",
+  "updatedAt": "2026-05-05T17:49:45.093Z"
+}

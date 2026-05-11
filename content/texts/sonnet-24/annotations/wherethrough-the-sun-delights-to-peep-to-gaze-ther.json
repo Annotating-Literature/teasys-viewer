@@ -1,0 +1,31 @@
+{
+  "id": "wherethrough-the-sun-delights-to-peep-to-gaze-ther",
+  "anchorText": "wherethrough the sun Delights to peep, to gaze therein on thee",
+  "anchorStart": 488,
+  "anchorEnd": 551,
+  "authors": [
+    "Natalia Christoforou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "The eyes were often related to the sun. See, for example, \"The eye […] is the sunne of this little world [=the body]\" (Richard Banister qtd. in Clark 10) and Shakespeare's sonnet 18 \"Sometime too hot the eye of heaven shines\" (l. 5).",
+      "worksCited": [
+        "Clark, Stuart. *Vanities of the Eye: Vision in Early Modern European Culture*. Oxford University Press, 2007."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The image of sunrays coming in through the windows of the \"bosom's shop\" (l. 7) coexists with the metaphorical level, where the sun may be paralleled with the eyes of the addressee sending out visual rays and penetrating the speaker's breast. Though quite unlikely, Margaret Healy adds a religious, or rather hermetic, dimension to the line, in that she detects a possible pun with ‘son'. She assumes thus that the line could also hint at \"Christ the Son, often symbolized by the Sun, [as] the creative life power, [as] Love stoking the fires of desire\" (Healy 163).",
+      "worksCited": [
+        "Healy, Margaret. \"Inner Looking, Alchemy and the Creative Imagination\". *Shakespeare, Alchemy and the Creative Imagination: The Sonnets and A Lover's Complaint*, Cambridge University Press, 2011, pp. 157-194."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T15:08:17.151Z",
+  "updatedAt": "2026-03-18T15:09:27.647Z"
+}

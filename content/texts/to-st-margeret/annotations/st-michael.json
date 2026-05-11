@@ -1,0 +1,53 @@
+{
+  "id": "st-michael",
+  "anchorText": "St Michael",
+  "anchorStart": 44,
+  "anchorEnd": 54,
+  "authors": [
+    "Amina Gall"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "\"St Michael\" refers to the archangel Michael. He is explicitly mentioned in both the Old and the New Testament (Da 10:13, 21; 12:1, Jud 9; Rev 12:7-9). He is also often associated with the angel that led the Israelites through the wilderness (Ex 23:20, 21, 23; 32:34; 33:2, cf. de Voragine 587). The most relevant Bible verses for the poem are probably [Revelation 12:7-9](https://www.thekingsbible.com/Bible/66/12) where he is depicted as leading the angels into the battle against the dragon. In art, Michael is mostly represented as slaying a dragon or weighing souls (Farmer 309).",
+      "worksCited": [
+        "de Voragine, Jacobus, et al. *The Golden Legend : Readings on the Saints*. Princeton University Press, 2012. ",
+        "Farmer, David. \"Michael\". *Oxford Dictionary of Saints*, 5thed., Oxford University Press, 2011, pp. 308-309.",
+        "*The Bible*. King James Bible. Online Study Bible. <http://www.thekingsbible.com>"
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "Based on both the Old and the New Testament, in Christian tradition four roles are assigned to the archangel Michael: \"to fight against Satan; to protect the souls of the faithful from Satan and his minions, especially at the hour of death; to defend God's chosen people […] and to call away souls from earth and bring them to judgement\" (Johnson 105). The figure of St. Michael is strongly linked to the final judgement, mainly through these named functions (weighing the souls and slaying the dragon). Additionally, he announces the end of time with a blast from his trumpet (Johnson 104). From these various roles, Johnson concludes a duality of his character: He is both \"the ruthless commander of the celestial troops who smites the enemies of the Lord, and the merciful angel who intercedes on our behalf\" (107). According to the Legenda Aurea, \"Michael receives the souls of the saints and leads them into the paradise of joy\" (de Voragine 587). ",
+      "worksCited": [
+        "de Voragine, Jacobus, et al. *The Golden Legend : Readings on the Saints*. Princeton University Press, 2012. ",
+        "Johnson, Richard F. *Saint Michael the Archangel in Medieval English Legend*. The Boydell Press, 2005."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "context",
+      "body": "Michael is most commonly represented in art as a young man, dressed in white or armour, bearing a lance and a shield and fighting the dragon (Brewer 901). In images of the final judgement, he is represented with scales to weigh the souls of the risen dead (Brewer 901). This representation was frequent in medieval art but became less common with time. Still, this image appears again and again in (early modern) religious poetry, however, often without Michael being explicitly mentioned (e.g. in John Donne's \"Thou hast made me and shall thy work decay\", l. 8). This might be due to the fact that although England became predominantly Protestant, elements of earlier creed did not disappear and were still part of the culture and the religious beliefs of many (see also the author's background). ",
+      "worksCited": [
+        "de Voragine, Jacobus, et al. *The Golden Legend: Readings on the Saints*. Princeton University Press, 2012. ",
+        "Johnson, Richard F. *Saint Michael the Archangel in Medieval English Legend*. The Boydell Press, 2005.",
+        "\"Michael, St.\" *Brewer's Dictionary of Phrase and Fable*, revised by John Ayto. 17th ed. Cassell Publishers Ltd., 2005 p. 901."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "The poem seems to focus on Michael's role as the dragon slayer since Michael and the titular St. Margaret are frequently pictured with dragons, just like the third saint mentioned in the poem, St. George (Brewer 413). Furthermore, the poem explicitly mentions Margaret's fight against a dragon in line 8 while comparing her to St. Michael and St. George. Through the symbolic function of the dragon in the bible, it is usually identified with the devil. Consequently, in Christian art (and therefore arguably also in Christian writing) the dragon may also symbolise sin in general. Hence, the depiction of a Christian figure slaying a dragon may allegorically represent the triumph of the Christian hero over evil (Brewer 569).",
+      "worksCited": [
+        "\"Dragon\". *Brewer's Dictionary of Phrase and Fable*, revised by John Ayto. 17th ed. Cassell Publishers Ltd., 2005, pp. 413-414.",
+        "\"George\". *Brewer's Dictionary of Phrase and Fable*, revised by John Ayto. 17th ed. Cassell Publishers Ltd., 2005, p. 569."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T08:38:41.248Z",
+  "updatedAt": "2026-03-21T01:37:55.584Z"
+}

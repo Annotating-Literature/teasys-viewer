@@ -1,0 +1,32 @@
+{
+  "id": "bright-in-dark-directed",
+  "anchorText": "bright in dark directed",
+  "anchorStart": 166,
+  "anchorEnd": 189,
+  "authors": [
+    "Heike Ortlieb",
+    "Natalia Christoforou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "The phrase \"bright in dark directed\" (l. 4) works as an antithesis, since it is what *The Princeton Encyclopedia of Poetry and Poetics* describes as a \"juxtaposition of contraries\" (58) and it echoes the preceding oxymoron \"[[darkly-bright]]\" in the same line. (For further information on the whole line, cf. \"[[and-darkly-bright-are-bright-in-dark-directed]]\" (l. 4)).",
+      "worksCited": [
+        "\"Antithesis\". *The Princeton Encyclopedia of Poetry and Poetics*. Ed. Roland Greene et al., Fourth Edition, Princeton UP, 2012, pp. 58-59."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The antithesis \"bright in dark directed\" (l. 4) stresses the blurring of light and darkness. The eyes unite both and the trope emphasises the idea that there is something bright to be found in this darkness. Yet, it is unclear what kind of darkness the speaker is talking about. It could be the darkness of the night, as this is the time when people go to sleep and close their eyes. Given that \"But\" in line 3 introduces a shift away from \"day\" (l. 2), the night-reading would make sense. However, it is equally possible that the speaker refers to the darkness perceived upon closing one's eyes. Instead of seeing nothing (or only blackness), the closing of the eyes allows the speaker to see something brightly and clearly. As the eyes are \"directed\", it can be assumed that the image he sees is not random, but evoked deliberately.\n\nIngram paraphrases the expression as \"alertly directed in the darkness\" (100), indicating the dynamic towards the dark and a certain purpose to do so: whenever the eyes of the speaker are closed, the desired image would appear brightly in his imagination. However, Ingram's following remark on this line \"[h]ere the adverb [bright] balances ‘darkly'\" (100) is to be criticised: describing the effect of ‘bright' as a balance is too weak, as it also creates tension and bewilderment instead of merely re-establishing harmony. The speaker is neither in a place of darkness nor of light. Describing this in-between state as a ‘balance' would neglect the tension created by the semantics and rhetorical figures of the poem: they all indicate that the speaker is torn between positive and negative emotions (cf. [[and-darkly-bright-are-bright-in-dark-directed]]).",
+      "worksCited": [
+        "Ingram, W. G., and Theodore Redpath (eds.). *Shakespeare's Sonnets*. U of London P, 1964."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T13:26:44.620Z",
+  "updatedAt": "2026-03-17T20:15:52.458Z"
+}

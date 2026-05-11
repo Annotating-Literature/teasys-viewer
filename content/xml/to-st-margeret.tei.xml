@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>To St Margeret</title>
+          <author>Henry Constable</author>
+        </titleStmt>
+        <publicationStmt><p>TEASys Viewer</p></publicationStmt>
+        <sourceDesc><p>Annotating Literature, Tübingen University</p></sourceDesc>
+      </fileDesc>
+    </teiHeader>
+  <text><body><div><anchor xml:id="s-st-margeret"/><anchor xml:id="e-st-margeret"/>Fair <anchor xml:id="s-amazon"/>Amazon<anchor xml:id="e-amazon"/> of heaven, who took’st in hand
+<anchor xml:id="s-st-michael"/>St Michael<anchor xml:id="e-st-michael"/> and <anchor xml:id="s-st-george"/>St George<anchor xml:id="e-st-george"/> to imitate,
+And for <anchor xml:id="s-a-tyrants-love-transformed-to-hate"/>a tyrant’s love transformed to hate<anchor xml:id="e-a-tyrants-love-transformed-to-hate"/>
+Wast for thy lily faith retained in band:
+Alone on foot and with thy naked hand
+Thou didst like Michael and his host, and that
+For which on horse arm’d George we celebrate
+Whilst thou like them a <anchor xml:id="s-dragon"/>dragon<anchor xml:id="e-dragon"/> didst withstand.
+Behold my soul, shut in my body’s jail,
+The which the drake of hell gapes to devour!
+Teach me, O Virgin, how thou didst prevail!
+Virginity, thou say’st, was all thine aid.
+Give me then purity instead of power,
+And let my soul, maid chaste, pass for a maid.
+</div></body></text>
+  <standOff>
+      <listAnnotation>
+        
+          <annotation xml:id="ann-a-tyrants-love-transformed-to-hate" from="#s-a-tyrants-love-transformed-to-hate" to="#e-a-tyrants-love-transformed-to-hate">
+            <respStmt><resp>annotator</resp><name>Franziska Fezer</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#context">
+                  <p>The &quot;tyrant&apos;s love&quot; may refer to the Governor that is mentioned in the legend of St. Margaret the Virgin. He asked for her hand in marriage, expecting her to renounce Christianity. Upon her refusal to become his wife and give up her faith, he had her tortured and eventually executed. </p>
+                  <listBibl><bibl>de Voragine, Jacobus. *The Golden Legend. Readings on the Saints*. Princeton University Press, 20129, pp. 368-370.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The tyrant might also be connected to the dragon mentioned in the poem as the ‘drake of hell&apos; (l. 11) and therefore refer to the devil himself. In the legend of St. Margaret according to de Voragine, the dragon is presented to Margaret whilst in prison as the true enemy, and therefore exposing the devil, and not the Governor, as her actual opponent (de Voragine 369). The referential underspecification may, however, also refer to a link between governor and dragon, making them both symbols of the devil.</p>
+                  <listBibl><bibl>de Voragine, Jacobus. *The Golden Legend. Readings on the Saints*. Princeton University Press, 20129, pp. 368-370.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-amazon" from="#s-amazon" to="#e-amazon">
+            <respStmt><resp>annotator</resp><name>Franziska Fezer</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#context">
+                  <p>In Greek mythology, the amazons were a class of female warriors living either in Scythia or Africa, fighting with bow and arrow. These communities consisted of women only who had their right breasts burnt off in order to make it easier to draw the bow; the word ‘amazon&apos; accordingly derives from the Greek *a*- (not) and *mastos* (breast). The term is also used to describe women with traits traditionally ascribed to men, such as physical strength and a talent for warfare. </p>
+                  <listBibl><bibl>&quot;Amazon.&quot; *Brewer&apos;s Dictionary of Phrase &amp; Fable*, edited by John Ayto, Cassell Publishers Ltd., 2005, p. 37.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-dragon" from="#s-dragon" to="#e-dragon">
+            <respStmt><resp>annotator</resp><name>admin</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#context">
+                  <p>The dragon is a common metaphor for the devil going back to Revelation 12:9: &quot;And the great dragon was cast out, that old serpent, called the Devil, and Satan, which deceiveth the whole world: he was cast out into the earth, and his angels were cast out with him.&quot; (KJV, see also St Michael). Through this biblical connection of the devil with a dragon, the latter became a common symbol of sin and paganism in the Middle Ages (Brewer 413). In religious contexts, the terms ‘dragon&apos; and ‘serpent&apos; are often used interchangeably (Brewer 413). </p>
+                  <listBibl><bibl>*The Bible*. King James Bible. Online Study Bible. &lt;http://www.thekingsbible.com&gt;</bibl><bibl>&quot;Dragon&quot;. *Dictionary of Phrase and Fable*. Cassell Publishers Ltd., 2005 pp. 413-414.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#intratextuality">
+                  <p>There are different versions of how St. Margaret the Virgin slayed the dragon. One version states that she signed a cross at the dragon, which caused the beast to vanish. Another version claims that Margaret was swallowed by the dragon and she was able to save herself by making the sign of the cross, upon which &quot;the dragon burst open and the virgin emerged unscathed&quot; (369). However, de Voragine comments on the latter version that it is to be considered &quot;apocryphal and not to be taken seriously&quot; (369).
+
+The dragon also features in the legends of St. Michael and St. George.</p>
+                  <listBibl><bibl>de Voragine, Jacobus. *The Golden Legend: Readings on the Saints*. Princeton University Press, 2012.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-st-george" from="#s-st-george" to="#e-st-george">
+            <respStmt><resp>annotator</resp><name>Amina Gall</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#context">
+                  <p>Like the titular St Margaret and the archangel Michael, St George is considered a dragon slayer. According to the *Legenda Aurea*, he killed a dragon that was terrorising the city of Silena. As a condition for his help against the dragon, he told the people of Silena to believe in Christ and be baptised, which led to &quot;twenty thousand [being] baptized, not counting the women and children&quot; (204). The *Legenda Aurea* also chronicles his death as a martyr in Lydda during the reign of Diocletian and Maximilian (cf. Farmer 181).</p>
+                  <listBibl><bibl>de Voragine, Jacobus, et al. *The Golden Legend: Readings on the Saints*. Princeton University Press, 2012. </bibl><bibl>Farmer, David. &quot;George&quot;. *Oxford Dictionary of Saints*, 5th ed., Oxford University Press, 2011, pp. 181-182.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-st-margeret" from="#s-st-margeret" to="#e-st-margeret">
+            <respStmt><resp>annotator</resp><name>Franziska Fezer</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#context">
+                  <p>&quot;St. Margaret&quot; may refer to various different saints. Based on the biography of Henry Constable and intertextual references, the most likely candidates are either St. Margaret the Virgin, also called Margaret of Antioch or Saint Marina the Great Martyr, or St. Margaret of Scotland.
+
+
+- **St. Margaret the Virgin (c. 289 - 304)** is famous for refusing to renounce Christianity and slaying a dragon in the process. She was beheaded at age 15 and is the patron saint of women in labour. Her Saint&apos;s Day is the 20th of June.
+
+
+- **St. Margaret of Scotland (c. 1045 - 1093)** was an English princess and Scottish queen. As the wife of Malcolm III, she adjusted the ways of the Scottish church to those of the Roman Catholic church under whose influence she had grown up. After losing her husband and her eldest son to the Battle of Alnwick, she died of grief. She was declared a saint in 1250. Her Saint&apos;s Day is the 16th of November.
+
+
+However, the context of the poem strongly suggests that the poem refers to St. Margaret the Virgin (despite the fact that Constable had strong Scottish connections and converted to [Catholicism](http://https//en.wikipedia.org/wiki/Henry_Constable)).</p>
+                  <listBibl><bibl>de Voragine, Jacobus. *The Golden Legend: Readings on the Saints*. Princeton University Press, 2019, pp. 368-370</bibl><bibl>Wikipedia Contributors. &quot;Saint Margaret of Scotland.&quot; *Wikipedia*, Wikimedia Foundation, 19 May 2019, en.wikipedia.org/wiki/Saint_Margaret_of_Scotland. Accessed 1 Aug. 2019.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#context">
+                  <p>St. Margaret the Virgin is mentioned by Blessed Jacobus de Voragine in his hagiography, Golden Legend (*Legenda Aurea*). She was born in 289 in Antioch, Pisidia (today Turkey), to a Pagan priest father and was raised by a Christian nurse. Upon embracing Christianity and pledging her virginity to God, she was disowned by her father. Refusing to renounce her faith following a marriage proposal, she was tortured by her suitor. Thrown into prison, Margaret asked God to show her the demon she was fighting against. When it came to her in the shape of a dragon, she signed a cross at it, and it vanished. Upon her second refusal to renounce her faith, Margaret was tortured again, of which she emerged unharmed once more, which caused bystanders to convert. Afraid of more people following this example, the authorities sentenced Margaret to death.</p>
+                  <listBibl><bibl>de Voragine, Jacobus. *The Golden Legend: Readings on the Saints*. Princeton University Press, 2012.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-st-michael" from="#s-st-michael" to="#e-st-michael">
+            <respStmt><resp>annotator</resp><name>Amina Gall</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#context">
+                  <p>&quot;St Michael&quot; refers to the archangel Michael. He is explicitly mentioned in both the Old and the New Testament (Da 10:13, 21; 12:1, Jud 9; Rev 12:7-9). He is also often associated with the angel that led the Israelites through the wilderness (Ex 23:20, 21, 23; 32:34; 33:2, cf. de Voragine 587). The most relevant Bible verses for the poem are probably [Revelation 12:7-9](https://www.thekingsbible.com/Bible/66/12) where he is depicted as leading the angels into the battle against the dragon. In art, Michael is mostly represented as slaying a dragon or weighing souls (Farmer 309).</p>
+                  <listBibl><bibl>de Voragine, Jacobus, et al. *The Golden Legend : Readings on the Saints*. Princeton University Press, 2012. </bibl><bibl>Farmer, David. &quot;Michael&quot;. *Oxford Dictionary of Saints*, 5thed., Oxford University Press, 2011, pp. 308-309.</bibl><bibl>*The Bible*. King James Bible. Online Study Bible. &lt;http://www.thekingsbible.com&gt;</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#context">
+                  <p>Based on both the Old and the New Testament, in Christian tradition four roles are assigned to the archangel Michael: &quot;to fight against Satan; to protect the souls of the faithful from Satan and his minions, especially at the hour of death; to defend God&apos;s chosen people […] and to call away souls from earth and bring them to judgement&quot; (Johnson 105). The figure of St. Michael is strongly linked to the final judgement, mainly through these named functions (weighing the souls and slaying the dragon). Additionally, he announces the end of time with a blast from his trumpet (Johnson 104). From these various roles, Johnson concludes a duality of his character: He is both &quot;the ruthless commander of the celestial troops who smites the enemies of the Lord, and the merciful angel who intercedes on our behalf&quot; (107). According to the Legenda Aurea, &quot;Michael receives the souls of the saints and leads them into the paradise of joy&quot; (de Voragine 587). </p>
+                  <listBibl><bibl>de Voragine, Jacobus, et al. *The Golden Legend : Readings on the Saints*. Princeton University Press, 2012. </bibl><bibl>Johnson, Richard F. *Saint Michael the Archangel in Medieval English Legend*. The Boydell Press, 2005.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#context">
+                  <p>Michael is most commonly represented in art as a young man, dressed in white or armour, bearing a lance and a shield and fighting the dragon (Brewer 901). In images of the final judgement, he is represented with scales to weigh the souls of the risen dead (Brewer 901). This representation was frequent in medieval art but became less common with time. Still, this image appears again and again in (early modern) religious poetry, however, often without Michael being explicitly mentioned (e.g. in John Donne&apos;s &quot;Thou hast made me and shall thy work decay&quot;, l. 8). This might be due to the fact that although England became predominantly Protestant, elements of earlier creed did not disappear and were still part of the culture and the religious beliefs of many (see also the author&apos;s background). </p>
+                  <listBibl><bibl>de Voragine, Jacobus, et al. *The Golden Legend: Readings on the Saints*. Princeton University Press, 2012. </bibl><bibl>Johnson, Richard F. *Saint Michael the Archangel in Medieval English Legend*. The Boydell Press, 2005.</bibl><bibl>&quot;Michael, St.&quot; *Brewer&apos;s Dictionary of Phrase and Fable*, revised by John Ayto. 17th ed. Cassell Publishers Ltd., 2005 p. 901.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>The poem seems to focus on Michael&apos;s role as the dragon slayer since Michael and the titular St. Margaret are frequently pictured with dragons, just like the third saint mentioned in the poem, St. George (Brewer 413). Furthermore, the poem explicitly mentions Margaret&apos;s fight against a dragon in line 8 while comparing her to St. Michael and St. George. Through the symbolic function of the dragon in the bible, it is usually identified with the devil. Consequently, in Christian art (and therefore arguably also in Christian writing) the dragon may also symbolise sin in general. Hence, the depiction of a Christian figure slaying a dragon may allegorically represent the triumph of the Christian hero over evil (Brewer 569).</p>
+                  <listBibl><bibl>&quot;Dragon&quot;. *Brewer&apos;s Dictionary of Phrase and Fable*, revised by John Ayto. 17th ed. Cassell Publishers Ltd., 2005, pp. 413-414.</bibl><bibl>&quot;George&quot;. *Brewer&apos;s Dictionary of Phrase and Fable*, revised by John Ayto. 17th ed. Cassell Publishers Ltd., 2005, p. 569.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+      </listAnnotation>
+    </standOff>
+</TEI>

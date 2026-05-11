@@ -1,0 +1,23 @@
+{
+  "id": "fain",
+  "anchorText": "fain",
+  "anchorStart": 387,
+  "anchorEnd": 391,
+  "authors": [
+    "Bela Metz"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"fain\": adj. & adv., archaic;\n\nhere: adverb: gladly (esp. \"would fain\").\n\nParaphrase: \"That being well I gladly would stay.\"",
+      "worksCited": [
+        "\"fain.\" *The Concise Oxford Dictionary, 18th Edition*. Ed. R.E. Allen. Oxford: Clarendon Press, 1990."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T00:00:27.798Z",
+  "updatedAt": "2026-03-17T00:00:50.754Z"
+}

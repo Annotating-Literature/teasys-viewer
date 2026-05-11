@@ -1,0 +1,38 @@
+{
+  "id": "lines-composed-a-few-miles-abobe-tintern-abbey-on-",
+  "anchorText": "Lines Composed a Few Miles abobe Tintern Abbey, On Revisiting the Banks of the Wye during a Tour",
+  "anchorStart": -111,
+  "anchorEnd": -15,
+  "authors": [
+    "Pavlina Papadopoulou",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "In his Fenwick Notes, Wordsworth explains that: “No poem of mine was composed under circumstances more pleasant for me to remember than this: I began it upon leaving Tintern, after crossing the Wye, and concluded it just as I was entering Bristol in the evening, after a ramble of four or five days, with my sister. Not a line of it was altered, and not any part of it written down till I reached Bristol” (Wordsworth 66). This pleasure finds expression in many instances in his poem; it especially resonates with the speaker’s exclamation in the last two lines, which brings things full circle, referring from the title of the poem to its very ending:\n\n“And this green pastoral landscape, were to me\nMore dear, both for themselves and for thy sake!” (*v*.162)",
+      "worksCited": [
+        "Wordsworth, William. *The Fenwick Notes of William Wordsworth.* Edited by Jared R. Curtis. Pbk. ed. Humanities-Ebooks, 2008."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "form",
+      "body": "The first two words of the title “Lines Composed” seem to be rather unspecified by Wordsworth himself and do not give any detailed hint as to the form and genre of the poem.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "According to Wu, “[i]n conversation and correspondence Wordsworth and his circle usually referred to the poem as “Tintern Abbey”” (Wu 415). However, Tintern Abbey, except for in the title, is not mentioned again in the course of the poem.",
+      "worksCited": [
+        "Wu, Duncan, editor. *Romanticism: An Anthology*. 4th ed. Blackwell Anthologies, 2012."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-20T09:46:44.732Z",
+  "updatedAt": "2026-03-20T09:48:22.446Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "shuttlecock",
+  "anchorText": "shuttlecock",
+  "anchorStart": 1820,
+  "anchorEnd": 1831,
+  "authors": [
+    "Miriam Herberger",
+    "Marina Kirillova"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "A shuttlecock is \"a small piece of cork, or similar light material, fitted with a crown or circle of feathers\" (\"shuttlecock, *n*.\" 1.). It is a piece of sports equipment necessary to play *jeu de volant*, battledore, or shuttlecock. All of these games are predecessors to modern-day badminton which still uses the shuttlecock to bat from one player to another.\n\n*The Thesaurus of Traditional English Metaphors* also lists \"shuttlecock\" as a metaphor from the mid-seventeenth century that refers to \"an unsettled life where a person is frequently moved from one home or job to another\" (568).",
+      "worksCited": [
+        "\"shuttlecock, *n*.\" *OED Online*, Oxford University Press, September 2023.",
+        "\"shuttlecock.\" *Thesaurus of Traditional English Metaphors*. Edited by P. R. Wilkinson, 2nd ed., Routledge, 2002."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Based on the entry in the *Thesaurus of Traditional English Metaphors*, Dickens's use of shuttlecock to describe Toby's involuntary movement in this text passage may be read as a metaphorical reference to the inherent uncertainties in Toby's way of life. Being a \"ticket-porter\" (Dickens 89), Toby has to wait and hope for people, like Alderman Cute, to hire him to deliver letters or goods. Since his work as a ticket porter is based on commission, Toby only gets paid when he makes a delivery. The lack of a stable income and its dire consequences for Toby are referred to repeatedly in *The Chimes* – even before the text passage that compares Toby to a shuttlecock. For example, Toby's poverty and the resulting insecurity shows itself in his shabby clothes (90), his debts with Mrs. Chickenstalker (114), and in his astonishment at his daughter Meg, who earns her money with commission-based needlework, but who is able to afford dinner for the both of them (97).",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, Oxford University Press, 2006.",
+        "\"shuttlecock.\" *Thesaurus of Traditional English Metaphors*. Edited by P. R. Wilkinson, 2nd ed., Routledge, 2002."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-07T18:01:29.688Z",
+  "updatedAt": "2026-05-07T18:05:27.480Z"
+}

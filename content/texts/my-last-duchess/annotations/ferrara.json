@@ -1,0 +1,35 @@
+{
+  "id": "ferrara",
+  "anchorText": "FERRARA",
+  "anchorStart": 0,
+  "anchorEnd": 7,
+  "authors": [
+    "Minella Fernandes",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "According to Louis Friedland, the poem is loosely based on the life of Alfonso II d’Este, the last Duke of Ferrara from 1533 to 1598. He married Lucrezia di Cosimo Medici, daughter of the renowned and very well-established Medici family, her father being the Duke of Florence at the time. His marriage to Lucrezia was, as in the case of most aristocratic marriages, one of political alliance (Friedland 668-670). \nAlternatively, John Rea argues that the duke is based on Vespasiano Gonzago, Duke of Sabbioneta, fifty miles from Ferrara. He was married to Diana, the daughter of Don Antonio di Cardona. Vespasiano was suspicious of Diana’s unusual liveliness, believing her to be unfaithful, and eventually ordered for her to be killed (Rea 120-121). Friedland counters this argument by saying that Browning specifically added the location ‘Ferrara’ to the poem, which is why, according to Friedland, it makes little sense to dismiss this indication, especially when Ferrara offers a perfect example for Browning’s duke (Friedland 659).",
+      "worksCited": [
+        "Friedland, Louis S. “Ferrara and ‘My Last Duchess.’” *Studies in Philology*, vol. 33, no. 4, University of North Carolina Press, 1936, pp. 656–84. *JSTOR*, www.jstor.org/stable/4172343. Accessed 10 Aug. 2022.",
+        "Rea, John D. “My Last Duchess.” *Studies in Philology*, vol. 29, no. 1, 1932, pp. 120–22. *JSTOR*, www.jstor.org/stable/4172159. Accessed 30 Jun. 2022."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "We cannot say with certainty who the duke in the poem is based on since Browning never confirmed this. However, Friedland’s argument is the most plausible among academic discussions, and several scholars such as Barbara Baines, Mary K. Ruby and Marie Rose Napierkowsky agree with him that the duke is based on Alfonso II. \nAlfonso was originally promised marriage to Maria, the elder sister of Lucrezia, which did not take place due to Maria’s death at the age of 17. 14-year-old Lucrezia, consequently, was declared his bride instead of her older sister. The duke was not very pleased upon seeing her for the first time and expressed no great interest in her. He left for France within three days of their wedding and did not reunite with his bride until almost two years later (Friedland 669-671). Lucrezia died in 1561, just three years after their marriage. Her early and sudden death led to the wide speculation that she was poisoned by her husband. According to Friedland, Count Litta, genealogist of Italian families, claims that it was “through motives of jealousy” that the duchess was poisoned (Friedland 672), similar to the duke’s motive in Browning’s poem. \nFollowing her death, Alfonso went on to marry Lady Barbara, sister of Ferdinand II, Count of Tyrol. The negotiation of this marriage with the count’s chief emissary Nikolaus Madruz aligns with the marriage negotiation depicted in the poem. The only difference is the fact that the Count of Tyrol was actually the brother of Barbara, and not the father, as presented in the poem (Friedland 680-682).",
+      "worksCited": [
+        "Baines, Barbara J. “‘My Last Duchess’ and ‘the Duches of Malfi.’” *Studies in Browning and His Circle*, vol. 11, no. 2, Armstrong Browning Library, Baylor University, 1983, p. 23. *JSTOR*, www.jstor.org/stable/45285141. Accessed 30 Jun. 2022.",
+        "Friedland, Louis S. “Ferrara and ‘My Last Duchess.’” *Studies in Philology*, vol. 33, no. 4, University of North Carolina Press, 1936, pp. 656–84. *JSTOR*, www.jstor.org/stable/4172343. Accessed 30 Jun. 2022.",
+        "Ruby, Mary K., and Marie Rose Napierkowski. “My Last Duchess.” *Poetry for Students*, vol. 1, Gale Research, 1998, p. 169."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-20T00:23:33.583Z",
+  "updatedAt": "2026-03-20T00:33:04.366Z"
+}

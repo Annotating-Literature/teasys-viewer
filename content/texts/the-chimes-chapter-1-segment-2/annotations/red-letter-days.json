@@ -1,0 +1,41 @@
+{
+  "id": "red-letter-days",
+  "anchorText": "red-letter days",
+  "anchorStart": 1853,
+  "anchorEnd": 1868,
+  "authors": [
+    "Svenja Brank",
+    "Isabella Krapf"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "A \"red-letter day\" is \"a saint's day or other Christian festival\" usually marked in the calendar with red letters (cf. \"red-letter, *n*.\" C.2.a.).",
+      "worksCited": [
+        "\"red-letter, *n*.\" *OED Online*, Oxford University Press, September 2009, https://www.oed.com/view/Entry/160392?redirectedFrom=redletter+days#eid26385735, Accessed 15 February 2022."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "The tradition of red lettering derives from antiquity and medieval manuscripts which included the use of red pigments to indicate significant letters (cf. \"rubricate, *v*.\"). The red-letter day contrasts the black-letter day, which is an \"inauspicious day\" in the Christian calendar marked in black letters (cf. \"black letter day, *n*.\" C.3.).",
+      "worksCited": [
+        "\"black-letter day, *n*.\" *OED Online*, Oxford University Press, September 2011, https://www.oed.com/view/Entry/19739#eid19239038, Accessed 15 February 2022.",
+        "\"rubricate, *v*.\" *OED Online*, Oxford University Press, March 2011, https://www.oed.com/view/Entry/168399, Accessed 27 October 2021."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "By comparing Toby's windy workdays to \"red-letter days\", the narrator plays with the bad connotation of storms that usually cause a great amount of discomfort for those who are caught up in them (89). According to Toby, windy weather is \"a sort of holiday\", because, to him, it serves as a distraction from hunger and negative thoughts (89). The passage thus suggests that the windy weather causes him bodily discomforts which reach such high levels of intensity that they drown all other discomforts, making it a ‘holiday' for other problems. By contrast, for example, Toby describes wet weather as the \"days that tried him\" (90). The narrator's rather cynical description of Toby's personal red-letter days on the external level of communication highlights not only the protagonist's unwaveringly optimistic nature, despite all adversities set before him, but, in a straightforward example, illustrates what living at a subsistence level means for those concerned.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, OUP, 2008, pp. 85-162."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-04T19:40:35.411Z",
+  "updatedAt": "2026-05-04T19:42:29.979Z"
+}

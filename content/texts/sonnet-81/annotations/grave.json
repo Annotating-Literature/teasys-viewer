@@ -1,0 +1,30 @@
+{
+  "id": "grave",
+  "anchorText": "grave",
+  "anchorStart": 304,
+  "anchorEnd": 309,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "intratextuality",
+      "body": "In this sonnet, one can find many terms related to the semantic field of burial. In line one, the \"[[epitaph]]\" is mentioned, which can be an inscription upon a tombstone. The speaker also asserts that he will rot in the earth (cf. 2) and that he will only get a \"[[common-grave]]\" (7). The addressee, however, will be \"entombed in men's eyes\" (8) and the speaker's writings will be his [[monument]] (9).",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Throughout the sonnet, the speaker contrasts his own final resting place with that of the addressee: He will rot in a \"common grave\" (7), implying that nothing will remain of him and that he will be utterly forgotten (as [[common-graves]] were often unmarked. In contrast, the addressee will have a grave of honour in the speaker's verses: They will be his monument (for the different meanings of \"monument\" in Shakespeare's time see the note on \"[[monument]]\", l. 9), suggesting that they display his name or even his effigy. Thus, the memory of the addressee will be preserved.\n\nThe speaker seems to neglect the fact that those who read the \"monument\" will not only remember the person it commemorates (the addressee) but also its creator (the speaker). It is ironic that the \"monument\", i.e. the sonnet sequence, has only Shakespeare's name on its title page while the young man's name cannot be ascertained (cf. Rippl 429n36). (For an overview over different theories regarding the identity of the mysterious Mr. W.H. to whom the sequence is dedicated see Duncan-Jones 51-69). Hence, in reality it is the speaker's name (if we choose to identify the speaker as Shakespeare) that has \"immortal life\" (5) rather than the addressee's.",
+      "worksCited": [
+        "Duncan-Jones, Katherine, ed. *Shakespeare's Sonnets*. Rev. ed. London et al.: Bloomsbury Arden Shakespeare, 2015. Print.",
+        "Rippl, Gabriele. \"'That in black ink my love may still shine bright'. Shakespeare's Sonnets and the Question of Media in Early Modern England.\" *Scripta volant, verba manent: Schriftkulturen in Europa zwischen 1500 und 1900 = Les cultures de l'ecrit en Europe entre 1500 et 1900*. Ed. Alfred Messerli and Roger Chartier. Basel: Schwabe, 2007. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T15:50:48.350Z",
+  "updatedAt": "2026-03-18T15:53:11.616Z"
+}

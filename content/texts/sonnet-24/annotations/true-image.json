@@ -1,0 +1,37 @@
+{
+  "id": "true-image",
+  "anchorText": "true image",
+  "anchorStart": 245,
+  "anchorEnd": 255,
+  "authors": [
+    "Natalia Christoforou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "intratextuality",
+      "body": "The \"true image\" (l. 6) seems to be referring back to the Platonic ‘Urbild' alluded to in l. 2 with \"[[thy-beautys-form]]\".",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "intertextuality",
+      "body": "In sonnet 45 from Spenser's *Amoretti*, the speaker invites his mistress to look inside his heart in order to find her \"semblant true\" (l. 4):\n\n\"and in my self, my inward self I mean,\nmost lively like behold your semblant true.\nWithin my heart, though hardly it can show\nthing so divine to view of earthly eye,\nthe fair Idea of your celestial hue\" (ll. 3-7 qtd. in Krieger 83).",
+      "worksCited": [
+        "Krieger, Murray. \"The Mirror as Window in Shakespeare's Sonnets\". *A Window to Criticism: Shakespeare's Sonnets and Modern Poetics*, Princeton University Press, 1964, pp. 73-117."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "The image may be ‘true' in proportions, hence according to the laws of perspective or ‘true' to life, hence realistic. Moreover, the adjective calls to mind Plato's theory of Forms and to the ideal's essential truth as opposed to its shadow. It is only when viewed \"through the painter\" that the image of the beloved is elevated in the sphere of forms (Krieger 81f). However, by pairing ‘true' with ‘image', the phrase acquires an oxymoronic touch: an image, no matter how realistic, is always an artificial representation of truth.",
+      "worksCited": [
+        "Krieger, Murray. \"The Mirror as Window in Shakespeare's Sonnets\". *A Window to Criticism: Shakespeare's Sonnets and Modern Poetics*, Princeton University Press, 1964, pp. 73-117."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T14:43:23.854Z",
+  "updatedAt": "2026-03-18T14:46:30.488Z"
+}

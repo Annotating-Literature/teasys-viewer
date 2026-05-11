@@ -1,0 +1,38 @@
+{
+  "id": "pilgrimage",
+  "anchorText": "pilgrimage",
+  "anchorStart": 572,
+  "anchorEnd": 582,
+  "authors": [],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"A journey (usually of a long distance) to a sacred place undertaken as an act of religious devotion\" (Brewer's Dictionary 550). It can also refer to the place to which a pilgrimage is made.",
+      "worksCited": [
+        "Brewer, Ebenezer Cobham, and John Ayto. \"Pilgrimage.\" *Brewer's Dictionary of Phrase & Fable*. New York: Collins, 2005. p. 550. Print."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The speaker compares the finding of a woman \"true and fair\" to the religious concept of pilgrimage, thereby presenting that said woman as something divine and almost otherworldly. Donne's love poetry, in general, is permeated by religious concepts and language and \"either representing religious myths or mythologizing the real\" (Cruickshank 49). Though the conjunction of sexuality and religion might seem contradictory at first, for Donne, those were not mutually exclusive. Thus,the love for a woman or a wife led to love for God (Bennet 141). By remarking that \"such a pilgrimage were sweet\", the speaker admits that he would actually like to go through the lengths of such a pilgrimage (i.e. ride then thousand days and nights) in order to find a woman that is \"true and fair\" and, by extension, hasn't lost all hopes when it comes to genuine love. This short remark seemingly breaks, even if only for a short amount of time, with the bitter and cynical tone of the poem and reveals the conflicting emotions of the speaker.",
+      "worksCited": [
+        "Bennet, Joan. \"The Love Poetry of John Donne.\" *Songs and Sonets*. Ed. Julian Lovelock. By John Donne. London: MacMillan, 1973. pp. 134-56. Print.",
+        "Cruickshank, Frances. *Verse and Poetics in George Herbert and John Donne*. Farnham: Ashgate, 2010."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "context",
+      "body": "During Donne's lifetime, a shift of values occurred by which sexuality was now sanctified by marriage. Before that, sexuality in and outside of marriage was considered sinful by doctrines of church and contemporary morality (cf. Bennet 139). Judging by the recurring themes of love and lust in Donne's works, sex outside of marriage was unproblematic as long as a \"union of soul and body\" would be achieved (ibid. 145).",
+      "worksCited": [
+        "Bennet, Joan. \"The Love Poetry of John Donne.\" *Songs and Sonets*. Ed. Julian Lovelock. By John Donne. London: MacMillan, 1973. pp. 134-56. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:15:08.699Z",
+  "updatedAt": "2026-03-16T23:16:53.066Z"
+}

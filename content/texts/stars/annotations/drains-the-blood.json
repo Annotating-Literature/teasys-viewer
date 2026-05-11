@@ -1,0 +1,36 @@
+{
+  "id": "drains-the-blood",
+  "anchorText": "drains the blood",
+  "anchorStart": 1534,
+  "anchorEnd": 1550,
+  "authors": [
+    "Svenja Brank",
+    "Sophia Smolinski"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "The line carries an ambiguous meaning: draining blood can be understood as (1) a brutal act of murder or (2) a, now outdated, method to heal somebody.",
+      "worksCited": []
+    },
+    {
+      "level": 1,
+      "category": "intratextuality",
+      "body": "The ambiguous nature of the sun in the poem is also addressed in the following line: “Drinks tears instead of dew” (l. 46).",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The ambiguity of the line is characteristic of Emily Brontë’s poetry, as confrontations between points of view or conflicting emotions are vital in her writing (cf. Alexander and Smith 389). “Stars” portrays an opposition between the calm and peaceful night and the hostile daylight. The ambiguity of ‘draining blood’ further strengthens the contrasts and oppositions in the poem, as it does not only ascribe a negative connotation to the daylight, draining the blood of men, but allows two possible readings to coexist. In this line, as well as the following line, it is unclear whether the sun is described as a destructive or healing force. She could be murderous, but maybe only to the speaker or her imagination, or she could have healing powers and bring relief to suffering men. In the same manner, drinking the tears of suffering men could refer to a metaphorical reveling in men’s suffering or could be understood as a drying of tears, which would link back to the sun’s healing powers.",
+      "worksCited": [
+        "Alexander, Christine and Smith, Margaret. *The Oxford Companion to the Brontë’s*. Oxford University Press, 2018."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T23:40:01.801Z",
+  "updatedAt": "2026-03-20T00:36:51.093Z"
+}

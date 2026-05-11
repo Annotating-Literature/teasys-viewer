@@ -1,0 +1,41 @@
+{
+  "id": "born-bad",
+  "anchorText": "born bad",
+  "anchorStart": 2969,
+  "anchorEnd": 2977,
+  "authors": [
+    "Abdulkadir Sen",
+    "Marina Kirillova"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "Being \"born bad\" is inextricably tied to the poor working class, and in that way the phrase is used within an essentialist view of the social classes.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, OUP, 2008, pp. 85-162."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "intratextuality",
+      "body": "The deterministic conception of poor people's inherent depravity, here in the form of being \"born bad\" uttered by Trotty, will appear later again on page 104 with Alderman Cute's passage to \"Put boys without shoes and stockings Down\". Through this and Alderman Cute's passages Dickens criticizes deterministic views on poverty.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, OUP, 2008, pp. 85-162."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "When the reader has a closer look at the preceding sentences wherein Trotty uses the pronouns *we* and *us* to differentiate himself and people like him as a class distinct from the rest of society, it becomes clear that he is a class-conscious character. Michael Shelden argues that through this character Dickens foregrounds the dominant ideas about poor people as Other in the Victorian era (cf. Shelden 330). Through Trotty Dickens aims to criticize the social order of the nineteenth century in more general terms. Whereas on page 93 Trotty still seems to have hope for a new life and a fairer order in the new year (cf. Shelden 347), here he seems to have lost hope as he reiterates \"We are born bad\". The inability of Trotty and his class to change for the better necessitates him to find an answer to his questions. Trotty finds a rather ironic one that prevents further ruminations: determinism and fate.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, OUP, 2008, pp. 85-162.",
+        "Shelden, Michael. \"Dickens, ‘The Chimes,' and the Anti-Corn Law League.\" *Victorian Studies*, vol. 25, no. 3, 1982, pp. 329–53. *JSTOR*, http://www.jstor.org/stable/3827202."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-05T19:55:42.683Z",
+  "updatedAt": "2026-05-05T19:57:46.966Z"
+}

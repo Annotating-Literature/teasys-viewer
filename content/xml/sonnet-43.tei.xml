@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Sonnet 43</title>
+          <author>William Shakespeare</author>
+        </titleStmt>
+        <publicationStmt><p>TEASys Viewer</p></publicationStmt>
+        <sourceDesc><p>Annotating Literature, Tübingen University</p></sourceDesc>
+      </fileDesc>
+    </teiHeader>
+  <text><body><div>When <anchor xml:id="s-most-i-wink"/>most I wink<anchor xml:id="e-most-i-wink"/>, then do mine eyes best <anchor xml:id="s-see"/>see<anchor xml:id="e-see"/>;
+For all the day they view things <anchor xml:id="s-unrespected"/>unrespected<anchor xml:id="e-unrespected"/>,
+But when I sleep, in dreams they <anchor xml:id="s-look-on"/>look on<anchor xml:id="e-look-on"/> thee,
+<anchor xml:id="s-and-darkly-bright-are-bright-in-dark-directed"/>And, <anchor xml:id="s-darkly-bright"/>darkly bright<anchor xml:id="e-darkly-bright"/>, are <anchor xml:id="s-bright-in-dark-directed"/>bright in dark directed<anchor xml:id="e-and-darkly-bright-are-bright-in-dark-directed"/><anchor xml:id="e-bright-in-dark-directed"/>.
+<anchor xml:id="s-then-thou-whose-shadow2-shadows2-doth-make-bright"/>Then thou, whose<anchor xml:id="s-shadow-shadows"/> <anchor xml:id="s-shadow"/>shadow<anchor xml:id="e-shadow"/> <anchor xml:id="s-shadows"/>shadows<anchor xml:id="e-shadow-shadows"/><anchor xml:id="e-shadows"/> doth make bright,<anchor xml:id="e-then-thou-whose-shadow2-shadows2-doth-make-bright"/>
+How would <anchor xml:id="s-thy-shadows-form"/>thy shadow’s form<anchor xml:id="e-thy-shadows-form"/> <anchor xml:id="s-form-happy-show"/>form happy show<anchor xml:id="e-form-happy-show"/>
+<anchor xml:id="s-to-the-clear-day-with-thy-much-clearer-light"/>To the clear day with thy much clearer light,<anchor xml:id="e-to-the-clear-day-with-thy-much-clearer-light"/>
+When <anchor xml:id="s-to-unseeing-eyes-thy-shade-shines-so"/>to unseeing eyes thy <anchor xml:id="s-shade"/>shade<anchor xml:id="e-shade"/> shines so<anchor xml:id="e-to-unseeing-eyes-thy-shade-shines-so"/>?
+How would (I say) mine eyes be blessed made
+By looking on thee in the living day,
+When <anchor xml:id="s-in-dead-night"/>in dead night<anchor xml:id="e-in-dead-night"/> thy fair <anchor xml:id="s-imperfect-shade"/>imperfect shade<anchor xml:id="e-imperfect-shade"/>
+Through <anchor xml:id="s-heavy-sleep"/>heavy sleep<anchor xml:id="e-heavy-sleep"/> on <anchor xml:id="s-sightless-eyes"/>sightless eyes<anchor xml:id="e-sightless-eyes"/> doth stay?
+<anchor xml:id="s-all-days-are-nights-to-see-till-i-see-thee"/>All days are nights to see till I see thee,<anchor xml:id="e-all-days-are-nights-to-see-till-i-see-thee"/>
+<anchor xml:id="s-and-nights-bright-days-when-dreams-do-show-thee-me"/>And nights bright days when dreams do show thee me.<anchor xml:id="e-and-nights-bright-days-when-dreams-do-show-thee-me"/>1
+</div></body></text>
+  <standOff>
+      <listAnnotation>
+        
+          <annotation xml:id="ann-all-days-are-nights-to-see-till-i-see-thee" from="#s-all-days-are-nights-to-see-till-i-see-thee" to="#e-all-days-are-nights-to-see-till-i-see-thee">
+            <respStmt><resp>annotator</resp><name>Liubov Bolshakova</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#form">
+                  <p>Day and night are used as metaphors for emotional states. The speaker juxtaposes contrasting images (&quot;days are nights&quot; (l. 13)), which is the case of an antithesis.
+
+Also, in this line, one encounters a diacope, which is the repetition of a word with one or several words in between: &quot;[…] see till I see […]&quot;. This creates an internal rhyme, which stands next to a second internal rhyme within the same line in &quot;see thee&quot;.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The speaker reckons that all days are like nights to him until he sees the addressee in person, not only his ‘shade&apos;. The days are compared to nights probably to show that the days have become dark and dismal to the speaker&apos;s sight, because the addressee&apos;s image only lights up his life with his beauty (fair shade). Thus, &quot;[c]ompared with the empty real day, the real night of vivid dreams is desirable&quot; (Vendler 223).</p>
+                  <listBibl><bibl>Vendler, Helen. *The Art of Shakespeare&apos;s Sonnets*. The Belknap P, 1997. </bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-and-darkly-bright-are-bright-in-dark-directed" from="#s-and-darkly-bright-are-bright-in-dark-directed" to="#e-and-darkly-bright-are-bright-in-dark-directed">
+            <respStmt><resp>annotator</resp><name>admin</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#form">
+                  <p>Booth (203) provides a detailed list of figures to be found in this sonnet, with line 4 containing most of them. These include an &quot;antithesis: […] *bright, dark* (4)&quot; and a &quot;diacope (repetition of a word with one or a few words in between); *bright, are bright* (4)&quot;. Furthermore, he lists an &quot;antimetabole (inversion of the order of repeated words): *darkly bright, are bright in dark* (4)&quot;, as well as a polyptoton consisting of the variants &quot;darkly&quot; and &quot;dark&quot;. *The Princeton Encyclopedia of Poetry and Poetics* describes the polyptoton as a &quot;word in many cases&quot; (1086), which means that it &quot;repeat[s] a word or words by varying their word class&quot; (1086).</p>
+                  <listBibl><bibl>Booth, Stephen (ed.). *Shakespeare&apos;s Sonnets*. Yale UP, 1977.</bibl><bibl>&quot;Polyptoton&quot;. *The Princeton Encyclopedia of Poetry and Poetics*. Ed. Roland Greene et al., Fourth Edition, Princeton UP, 2012, pp. 1086-1087.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#context">
+                  <p>**Theories of vision and the role of the eyes**
+
+Booth explains that &quot;in the Renaissance eyes were generally thought of as giving off light&quot; (203). Duncan-Jones&apos; annotation on this line mentions the notion that light moves in both ways, as &quot;[e]yes were thought of as emitting light, as well as receiving it&quot; (196). Hammond gives slightly more details on this by pointing out that &quot;Renaissance theories of vision held either that the eyes send out rays which connect with the object seen, or that the object sends out rays which connect with the eyes&quot; (194). All three remarks are hints that theories of vision are vital for a better understanding of the intentionally puzzling line.
+
+In *Vanities of the Eye* (2007), Stuart Clark provides a detailed discussion of the historical development of theories about vision and the eyes and points out that there were controversial discussions during Shakespeare&apos;s time around this topic. In chapter 1, going back to Greek antiquity, Clark names Aristotle and Plato as two of the main sources for the ancient hierarchy of the senses, which gave the eyes a special preference over the other sense organs (9). This ocularcentrism included an extramission theory of vision, which means that the process of seeing things was imagined as the result of the &quot;projective power of the soul to […] produce objects of vision&quot; (17). According to this Greek idea, &quot;perceptions were ‘encoded&apos; as *phantasmata*, ‘representations&apos;&quot; (11), which &quot;could [then] be ‘seen&apos; by the ‘eye&apos; of the mind and resulted in a &quot;mental picture&quot; (11).
+
+Centuries later, a shift from extra- to intromission theories became dominant: &quot;[I]ntromission itself [was] largely preferred in optical theory after the thirteenth century&quot; (20). Clark describes intromission as being based on &quot;the projective power of objects to emit their own likenesses and then have them propagated through a medium and replicated in the faculties of sense&quot; (17). A crucial element of this approach was the &quot;doctrine of *species*&quot; (15), which &quot;radiated out from […] objects into […] the aire, transmitting images […] to the eye&quot; (15). In this theoretical framework, the eyes are not active emitters of light or projections. Instead, &quot;objects act on passive recipients, leaving impressions in their senses and intellects which translate into conceptual images&quot; (15, emphasis in original), and the eyes are &quot;reduced to […] a passive receiver&quot; (20).
+
+According to Clark&apos;s accounts, the sixteenth and seventeenth century, then, made the most decisive shift towards a dominance of intromission theories. Yet, simultaneously, &quot;new importance and attention [were] given to the human imagination&quot; (39). The previously common idea of the eyes being merely recipients of images projected by objects was increasingly challenged, and scholars and writers discussed the issue of &quot;the extent to which sight is a constructed medium and the eye not the innocent, objective reporter of the world but its creator and interpreter&quot; (39). In this tension between objective and subjective influences in the process of perception, imagination &quot;became the single mediator between the corporeal soul and the corporeal human body&quot; (43), acknowledging both the real world that could be seen and the influence of the human mind on these perceptions. As Clark puts it, &quot;[imagination] was, indeed, the ‘eye&apos; of the mind, in the sense that, in an ocularcentric psychology, the rational powers were deemed to ‘see&apos; the external world only via its agency&quot; (46).
+
+This acknowledgement of the subjective element in the perception of things in the world also gave rise to doubts about the reliability of visual impressions, and &quot;serious anxieties about [the imagination&apos;s] capacity to mislead and deceive&quot; (45f.). Chapter 2 of *Vanities of the Eye* discusses how theories of vision were also crucial for contemporary studies of mental illnesses such as delusions, or the condition of melancholy (cf. Level 3 Question).</p>
+                  <listBibl><bibl>Booth, Stephen (ed.). *Shakespeare&apos;s Sonnets*. Yale UP, 1977.</bibl><bibl>Clark, Stuart. *Vanities of the Eye: Vision in Early Modern European Culture*. Oxford UP, 2007.</bibl><bibl>Duncan-Jones, Katherine (ed.). *Shakespeare&apos;s Sonnets*. The Arden Shakespeare, Third Series (Rev. ed.), Bloomsbury, 2010.</bibl><bibl>Hammond, Paul (ed.). *Shakespeare&apos;s Sonnets: an Original-Spelling Text*. Oxford UP, 2012.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>Given the importance of ocularcentrism in its historical context, the elements of visual perception in the poem are not merely ornamental or signs of rhetorical playfulness. On the contrary, they are strong indicators for the speaker&apos;s psychological and emotional state.
+
+The antimetabole &quot;And darkly bright, are bright in dark directed&quot; (l. 4) is only one of several instances in this poem in which the boundaries of light and dark (or of day and night) are blurred: it is no longer possible to make a clear distinction between what is bright, dimmed or dark. However, this does not create a gloomy or threatening atmosphere. Innes argues that Sonnet 43 &quot;tries to make the conflation of night and day into something positive&quot; (165): The speaker is not a victim of darkness, but actively provokes it and shapes his own perception in order to be able to see the image he desires. While doing so, he states a clear preference of mental images over those which he sees in the real world during the day. Hunter goes even further in attributing positivity to this line by pointing out that it is &quot;not merely a piece of wordplay but also a triumphant dance of words expressing a lover&apos;s delight&quot; (158).</p>
+                  <listBibl><bibl>Hunter, G.K. &quot;The Dramatic Technique in Shakespeare&apos;s Sonnets&quot;. *Essays in Criticism*, vol. 3, no. 2, 1953, pp. 152-164. Oxford Academic Journals, doi: 10.1093/eic/III.2.152. </bibl><bibl>Innes, Paul. *Shakespeare and the English Renaissance Sonnet*. Macmillan, 1997.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#questions">
+                  <p>The speaker needs to exclude all other visual impressions so that he can see the mental image of the addressee. However, the brightness of this image does not expel the darkness. Instead, both dark and bright elements remain in the sonnet. Bearing in mind the contemporary ideas about the importance of eyesight and visual perception on the mental condition, the speaker&apos;s eyes &quot;in dark directed&quot; (l. 4) can be seen as a reference to melancholy sufferers whose eyes were believed to look into blackness (cf. Level 2 Context; Clark 59). According to Clark, there was an awareness of the impact of the mind on the process of creating images (cf. 60). Whereas the brightly-shining images of the beloved are a proof of this positive influence and the happiness they bring, at the same time, the dark elements can illustrate the speaker&apos;s woe, pensiveness or scepticism. Does Sonnet 43 then portray both the joy of the imagination and the suffering caused by the knowledge that this image is not real (cf. Level 2 Interpretation [[bright-in-dark-directed]])? The eyes are directed in darkness, and although this is associated with a &quot;happy show&quot; (l. 6), some doubts remain as to whether it is to be interpreted as exclusively positive, given that there could still be a subtext of melancholy underlying this praise of bright imagery.</p>
+                  <listBibl><bibl>Clark, Stuart. *Vanities of the Eye: Vision in Early Modern European Culture*. Oxford UP, 2007.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-and-nights-bright-days-when-dreams-do-show-thee-me" from="#s-and-nights-bright-days-when-dreams-do-show-thee-me" to="#e-and-nights-bright-days-when-dreams-do-show-thee-me">
+            <respStmt><resp>annotator</resp><name>Liubov Bolshakova</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The phrase ‘bright day&apos; refers to daytime, esp. &quot;in terms of its clarity, purity, brightness, etc.; a light like that of day&quot; (*OED* 21).</p>
+                  <listBibl><bibl>&quot;day, n.&quot;. *OED Online*. Oxford UP, March 2017.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#form">
+                  <p>The main dispute in this line is caused by the word order of &quot;do show thee me&quot;. The sense here should be &quot;show thee to me&quot; but the rhythm (a stress on *me*) and the idiom ordinarily dictate &quot;show me to thee&quot; (Booth 205). Duncan-Jones also suggests that the possible need for a rhyme prompted this syntactical ambiguity (&quot;show me to you&quot; and &quot;show you to me&quot;), which has &quot;the odd effect of leaving the final stress on *me* rather than *thee*&quot; (Duncan-Jones 196).</p>
+                  <listBibl><bibl>Booth, Stephen (ed.). *Shakespeare&apos;s Sonnets*. Yale UP, 1977. </bibl><bibl>Duncan-Jones, Katherine (ed.). *Shakespeare&apos;s Sonnets*. The Arden Shakespeare, Third Series (Rev. ed.), Bloomsbury, 2010.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The line juxtaposes the nights and bright days to emphasize that the speaker sees the addressee when dreaming (in night) as clear as in daytime (bright days). By using metaphorical images, the speaker conveys his happiness (cf. Level 1 Form [[all-days-are-nights-to-see-till-i-see-thee]]) to see the addressee&apos;s image; his days are like nights because he is sad because he does not see the addressee. The dream acts as a medium to evoke the addressee&apos;s image, thus, the phrase can be interpreted as &quot;I am dependent on dreams to show you to me&quot; (Vendler 224).</p>
+                  <listBibl><bibl>Vendler, Helen. *The Art of Shakespeare&apos;s Sonnets*. The Belknap P, 1997. </bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#intratextuality">
+                  <p>The whole poem is considered to be a work of &quot;elaborate wordplay&quot; (Vendler 39): brightness and darkness (l. 4), shadow and form (ll. 5, 6), day and night (ll. 7, 10, 11, 13, 14). They are emphasised by using words of the same roots, repeating similar words in different meanings and playing with the oxymorons. This play with contrasting images and concepts underpins the general impression of paradox between dreams and reality. Booth suggests that &quot;the recurring themes of this sonnet – things that are the opposite of what they would normally be expected to be, and the distinction between images or shadows of objects and the objects themselves – are played out stylistically in an intense display of antithesis and a range of rhetorical devices of repetition that make the language of the poem suggest mirror images&quot; (203).</p>
+                  <listBibl><bibl>Booth, Stephen (ed.). *Shakespeare&apos;s Sonnets*. Yale UP, 1977.</bibl><bibl>Vendler, Helen. *The Art of Shakespeare&apos;s Sonnets*. The Belknap P, 1997.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-bright-in-dark-directed" from="#s-bright-in-dark-directed" to="#e-bright-in-dark-directed">
+            <respStmt><resp>annotator</resp><name>Heike Ortlieb</name><name>Natalia Christoforou</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#form">
+                  <p>The phrase &quot;bright in dark directed&quot; (l. 4) works as an antithesis, since it is what *The Princeton Encyclopedia of Poetry and Poetics* describes as a &quot;juxtaposition of contraries&quot; (58) and it echoes the preceding oxymoron &quot;[[darkly-bright]]&quot; in the same line. (For further information on the whole line, cf. &quot;[[and-darkly-bright-are-bright-in-dark-directed]]&quot; (l. 4)).</p>
+                  <listBibl><bibl>&quot;Antithesis&quot;. *The Princeton Encyclopedia of Poetry and Poetics*. Ed. Roland Greene et al., Fourth Edition, Princeton UP, 2012, pp. 58-59.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The antithesis &quot;bright in dark directed&quot; (l. 4) stresses the blurring of light and darkness. The eyes unite both and the trope emphasises the idea that there is something bright to be found in this darkness. Yet, it is unclear what kind of darkness the speaker is talking about. It could be the darkness of the night, as this is the time when people go to sleep and close their eyes. Given that &quot;But&quot; in line 3 introduces a shift away from &quot;day&quot; (l. 2), the night-reading would make sense. However, it is equally possible that the speaker refers to the darkness perceived upon closing one&apos;s eyes. Instead of seeing nothing (or only blackness), the closing of the eyes allows the speaker to see something brightly and clearly. As the eyes are &quot;directed&quot;, it can be assumed that the image he sees is not random, but evoked deliberately.
+
+Ingram paraphrases the expression as &quot;alertly directed in the darkness&quot; (100), indicating the dynamic towards the dark and a certain purpose to do so: whenever the eyes of the speaker are closed, the desired image would appear brightly in his imagination. However, Ingram&apos;s following remark on this line &quot;[h]ere the adverb [bright] balances ‘darkly&apos;&quot; (100) is to be criticised: describing the effect of ‘bright&apos; as a balance is too weak, as it also creates tension and bewilderment instead of merely re-establishing harmony. The speaker is neither in a place of darkness nor of light. Describing this in-between state as a ‘balance&apos; would neglect the tension created by the semantics and rhetorical figures of the poem: they all indicate that the speaker is torn between positive and negative emotions (cf. [[and-darkly-bright-are-bright-in-dark-directed]]).</p>
+                  <listBibl><bibl>Ingram, W. G., and Theodore Redpath (eds.). *Shakespeare&apos;s Sonnets*. U of London P, 1964.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-darkly-bright" from="#s-darkly-bright" to="#e-darkly-bright">
+            <respStmt><resp>annotator</resp><name>Heike Ortlieb</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>For ‘darkly&apos;, the *OED* suggests the meaning of &quot;in the dark; in secrecy, secretly&quot; (*OED* 1), with line 4 of this sonnet being offered as the first example of this usage.</p>
+                  <listBibl><bibl>&quot;darkly, adv.&quot; *OED Online*. Oxford UP, March 2017. </bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#form">
+                  <p>The phrase &quot;darkly bright&quot; is an oxymoron as it &quot;yokes together two seemingly contradictory elements&quot; – darkness and brightness (cf. [[bright in dark directed]])– in order to form a &quot;condensed paradox&quot; (Princeton 988).</p>
+                  <listBibl><bibl>&quot;Oxymoron&quot;. *The Princeton Encyclopedia of Poetry and Poetics*. Ed. Roland Greene et al., Fourth Edition, Princeton UP, 2012, pp. 988-999.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>&quot;[D]arkly bright&quot; in line 4 of the poem refers to the color or degree of brightness of the speaker&apos;s eyes. The oxymoron makes it impossible to determine whether the eyes are dark yet sparkling, or bright yet darkened or blurred. Bearing in mind the suggested meaning of ‘darkly&apos;, the phrase can also be read in the sense that the eyes can see (brightly) in the dark. This description bestows an enigmatic quality to the speaker&apos;s eyes. For more context on theories of vision, cf. &quot;[[and-darkly-bright-are-bright-in-dark-directed]]&quot; (l.4).</p>
+                  <listBibl><bibl>Clark, Stuart. *Vanities of the Eye: Vision in Early Modern European Culture*. Oxford UP, 2007.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-form-happy-show" from="#s-form-happy-show" to="#e-form-happy-show">
+            <respStmt><resp>annotator</resp><name>Natalia Christoforou</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#form">
+                  <p>The phrase &quot;form happy show&quot; can be read as syntactically ambiguous. According to standard English grammar, the subject of a sentence (&quot;thy shadow&apos;s form&quot; (l. 6) in this case) has to be principally succeeded by a verb: ‘form (v.) happy (adj.) show (n.)&apos;. In poetic forms, however, the rules of syntax – being not as rigid – could allow for the possibility of a structural inversion: ‘form (n.) happy (adj.) show (v.)&apos; in the sense of ‘show (a) happy form&apos;.
+
+Regardless of whether this is an inversion or not, the placement of ‘form&apos; is deliberate as it results in an aesthetic doubling with &quot;shadow&apos;s form&quot; (l. 6). Following conventional syntactical rules, the repetition would be another instance of a ‘polyptoton&apos; (cf. Level 2 Form [[shadow-shadows]]) as the same word would vary in word class (noun vs. verb).</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The term ‘show&apos;, either as a verb or a noun, refers to &quot;[t]he action or an act of displaying, exhibiting, or presenting something&quot; (*OED* &quot;show,n.1&quot; 1a). It is often associated with public ‘spectacle&apos; and &quot;theatrical performance[s]&quot; (*OED* &quot;show, n.1&quot; 15b,c; cf. *OED* &quot;show, v.&quot; 4b) and, sometimes, it can imply superficiality and intentional deceit: &quot;[a] false, misleading, or illusory appearance **of** a quality, emotion, etc.; a semblance&quot; (*OED* &quot;show, n.1&quot; 3b; cf. Booth 204n6). Another, by now obsolete, meaning that might prove relevant to the interpretation of the sonnet would be that of &quot;[a] phantom, a vision, an apparition&quot; (*OED* &quot;show, n.1&quot; †22). As an example of this use, the *OED* cites Shakespeare&apos;s Cymbeline: &quot;As I slept, me thought Great Iupiter vpon his Eagle back&apos;d Appear&apos;d to me, with other sprightly shewes Of mine owne Kindred&quot; (**V**.vi.429 qtd. in *OED* &quot;show, n.1&quot; 22).</p>
+                  <listBibl><bibl>&quot;show, n.1&quot;. *OED Online*. Oxford UP, June 2017.</bibl><bibl>&quot;show, v.&quot;. *OED Online*. Oxford UP, June 2017.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#context">
+                  <p>Since the Middle Ages, it was common to think of the human mind in spatial and architectural terms. The Italian philosopher Giulio Camillo, in his work *L&apos;Idea del Teatro*, was the first to establish a connection between the mental space occupied by memory and the theatre. Shakespeare&apos;s contemporaries Robert Fludd and John Willis adopted Camillo&apos;s model and were probably inspired by actual &quot;public theatres of early modern London&quot; (Wilder 1). In fact, Frances Yates, in *The Art of Memory*, goes as far as to argue that the Globe Theatre may have served as a model for Fludd&apos;s memory theatre (Wilder 15; Alt 78-79). According to this model, images of memory, imagination and dreams are acted out on a stage before the inner eye:
+
+&quot;Describing Camillo&apos;s theatre to Erasmus, Viglius Zuichemus writes that Camillo &quot;called it a theatre because it can be seen with the eyes of the body&quot; – that is, Camillo&apos;s memory theatre is a &quot;theatre&quot; not so much because it resembles the structures in which plays were performed as because it literalizes the Greek root of the word &quot;theatre,&quot; which mean &quot;seeing.&quot; Through the use of physical objects, real or imagined, this &quot;memory theatre&quot; places the mind on display&quot; (Wilder 56).
+
+Thus, in this inner performance, the one remembering, imagining or dreaming is, paradoxically, at once the audience and the actor, the seer and the seen (cf. Bauer and Zirker 8). </p>
+                  <listBibl><bibl>Alt, Peter-André. *Der Schlaf der Vernunft: Literatur und Traum in der Kulturgeschichte der Neuzeit*. C.H. Beck, 2011.</bibl><bibl>Bauer, Matthias and Angelika Zirker. &quot;Shakespeare und die Bilder der Vorstellung: ‘The soul&apos;s imaginary sight&apos; im 27. Sonett. *&quot;Diesseits des &quot;Laokoon&quot;: Funktionen literarischer Intermedialität in der Frühen Neuzeit*, Hg. Jörg Robert und Wolf Gerhard Schmidt. In press.</bibl><bibl>Wilder, Lina Perkins. *Shakespeare&apos;s Memory Theatre: Recollection, Properties and Character*. Cambridge UP, 2010.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>Both Duncan-Jones and Evans keep the interpretation of this phrase quite simple: &quot;create a joyful spectacle&quot; (Duncan-Jones 196n6) and &quot;produce a (comparatively) felicitous (‘happy&apos;) appearance&quot; (Evans 144n6). Booth&apos;s interpretation is indeed similar (&quot;create a joyous spectacle, be a pleasing sight&quot; (204n6)), even though he does briefly inform his readers of the possible negative undertones of ‘show&apos;.
+
+A show may, at times, imply a mere external display and illusion instead of sincerity and reality. Although there is no evidence in the sonnet that the speaker could be criticising the addressee for being dishonest, the choice of ‘show&apos; might momentarily strike a dissonant chord in this otherwise glorifying tribute to the beloved. This uncertainty is enhanced by the potential syntactical ambiguity of the phrase &quot;form-happy-show&quot; (cf. Level 1 Form) (l. 6) which manages to somewhat blur the boundaries between &quot;the illusoriness of show and the reality of form&quot; (Cormack 253).
+
+Combined with [[shadow]] which used to be a word for ‘actor&apos; at the time, the connection of ‘show&apos; with the theatre is plausible. The image of the addressee invoked in the speaker&apos;s dreams, is presented like an actor on a mental stage. In the context of &quot;the clear day&quot; (l. 7), the addressee seems to maintain his role as a performer and one has the impression that the world of dreams penetrates reality.
+
+Finally, an interesting possibility is that ‘show&apos; is meant in the sense of ‘ghost&apos; (cf. Level 1 Language), as it reminds of the uncanny, yet unspoken, subtext of [[shadow]].</p>
+                  <listBibl><bibl>Booth, Stephen (ed.). *Shakespeare&apos;s Sonnets*. Yale UP, 1977.</bibl><bibl>Cormack, Bradin. &quot;Tender Distance: Latinity and Desire in Shakespeare&apos;s Sonnets&quot;. *A Companion to Shakespeare&apos;s Sonnets*, Ed. Michael Schoenfeldt. Malden, Blackwell Publishing, 2007, pp. 242-260.</bibl><bibl>Duncan-Jones, Katherine (ed.). *Shakespeare&apos;s Sonnets*. The Arden Shakespeare, Third Series (Rev. ed.), Bloomsbury, 2010.</bibl><bibl>Evans, G. Blakemore (ed.). *The Sonnets*. The New Cambridge Shakespeare, Cambridge UP, 2006.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-heavy-sleep" from="#s-heavy-sleep" to="#e-heavy-sleep">
+            <respStmt><resp>annotator</resp><name>Liubov Bolshakova</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The phrase &quot;heavy sleep&quot; is associated with deep sleep. The adjective ‘heavy&apos; can also stand for &quot;slow, sluggish, dull&quot; (Schmidt 5) and &quot;weary, drowsy, sleepy&quot; (Schmidt 6). </p>
+                  <listBibl><bibl>&quot;heavy, adj.&quot;. *OED Online*. Oxford UP, Dec 2016. </bibl><bibl>Schmidt, Alexander. *Shakespeare Lexicon*. Cosimo Classics, 2007. </bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-imperfect-shade" from="#s-imperfect-shade" to="#e-imperfect-shade">
+            <respStmt><resp>annotator</resp><name>Liubov Bolshakova</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#intratextuality">
+                  <p>The word ‘shade&apos; is repeated in the poem with the same root but with different flexions in ll. 5, 6, 8, which creates a polyptoton stretching across these four lines.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The adjective ‘imperfect&apos; can be defined as &quot;wanting some quality or attribute necessary to […] ideal character&quot; or something &quot;defective and faulty&quot; (*OED* 2), especially opposed to the earlier ‘clear&apos; and ‘clearer&apos; (l. 7) visions of the addressee in the poem.
+
+The word ‘shade&apos; can have the same meaning as ‘shadow&apos; in l. 5: &quot;an unreal appearance; a delusive semblance or image; a vain and unsubstantial object of pursuit&quot; (*OED* 6a), especially contrasted with substance, i.e. the actual object that casts the shadow. Moreover, with a possible play on ‘ghost&apos; (cf. Level 2 Interpretation [[in-dead-night]]) one can argue that shade has the meaning of &quot;a spectre, [or] phantom&quot; (*OED* 6b).</p>
+                  <listBibl><bibl>&quot;imperfect, adj.&quot;. *OED Online*. Oxford UP, Dec 2016.</bibl><bibl>&quot;shade, n.&quot;. *OED Online*. Oxford UP, Dec 2016. </bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#intertextuality">
+                  <p>The poem is often interpreted in the context of a sequence with the failings of the friend, which occurs in Shakespeare&apos;s Sonnet 33. These two poems might refer to the same addressee.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>The paradoxical representation of a ‘fair&apos;, yet ‘imperfect&apos;, image of the addressee implies the suggestion of seeing in a dream in which one cannot always see things as detailed as when being awake. When saying &quot;imperfect shade&quot; the speaker means the dream image &quot;which is deficient, [and] less-than-whole because unreal&quot; (Paterson 130). While dreaming, one might perceive the images &quot;as only the shadow of the reality&quot; (Evans 144). Thus, it is an imperfect – in the sense of blurred or incomplete – representation of the addressee&apos;s image in the speaker&apos;s dream, and not a physical actuality (Hammond: &quot;because not substantial like the Boy&apos;s body&quot; (194n11); Vendler: &quot;its radical imperfection as a substitute for real presence is admitted&quot; (224)). The speaker&apos;s imagination is reproducing only a likeness of reality.
+
+Considering a possible intertextual connection with Sonnet 33 (cf. Level 2 Intertextuality), another interpretation of the phrase can be suggested. &quot;[I]mperfect shade&quot; can here also refer to a recollection of the allusions to the young man&apos;s moral defects in 33.5 and, according to Duncan-Jones, can be interpreted as &quot;the image of you, beautiful despite your moral imperfection&quot; (196). This representation of &quot;imperfect shade&quot; seems to stand out from the previous interpretation, because it excludes the speaker&apos;s dreaming the image of the addressee.</p>
+                  <listBibl><bibl>Duncan-Jones, Katherine (ed.). *Shakespeare&apos;s Sonnets*. The Arden Shakespeare, Third Series (Rev. ed.), Bloomsbury, 2010. </bibl><bibl>Evans, G. Blakemore (ed.). *The Sonnets*. The New Cambridge Shakespeare, Cambridge UP, 1996. </bibl><bibl>Hammond, Paul (ed.). *Shakespeare&apos;s Sonnets*. Oxford UP, 2012.</bibl><bibl>Paterson, Don. *Reading Shakespeare&apos;s Sonnets: A New Commentary by Don Paterson*. Faber &amp; Faber, 2010. </bibl><bibl>Vendler, Helen. *The Art of Shakespeare&apos;s Sonnets*. The Belknap P, 1997. </bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-in-dead-night" from="#s-in-dead-night" to="#e-in-dead-night">
+            <respStmt><resp>annotator</resp><name>Liubov Bolshakova</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>According to the *OED*, ‘dead&apos; describes night as a period of day &quot;without animation, vigour or activity; quiet, dull; lifeless&quot; (16a). Therefore, the expression &quot;dead night&quot; can refer to a part of the night of the most intense quietness, darkness, etc. *The Farlex Dictionary of Idioms* suggests that the phrase &quot;in/at the dead of night&quot; means &quot;in or during the middle of the night&quot;. </p>
+                  <listBibl><bibl>&quot;dead, adj.&quot; *OED Online*. Oxford UP, Dec 2016. </bibl><bibl>&quot;In the dead of night&quot;. *Farlex Dictionary of Idioms*. 2015. Farlex, Inc.  </bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The actions that take place in the &quot;dead of night&quot; happen during the quietest and darkest period of a day. Moreover, &quot;dead night&quot; can elicit nocturnal visions and ghostly images within the semantic field of the recurring ‘shadows&apos; (ll. 5, 6, 11). The editors Evans (144) and Booth (205) agree that the meaning of shade as a ‘ghost&apos; may well impinge on a reader&apos;s understanding triggered by nocturnal images. Thus, we can agree with Duncan-Jones&apos; interpretation of &quot;dead night&quot; as a &quot;night-time, which is associated with death and lifeless phantoms&quot; (196).</p>
+                  <listBibl><bibl>Booth, Stephen (ed.). *Shakespeare&apos;s Sonnets*. Yale UP, 1977. </bibl><bibl>Duncan-Jones, Katherine (ed.). *Shakespeare&apos;s Sonnets*. The Arden Shakespeare, Third Series (Rev. ed.), Bloomsbury, 2010.  </bibl><bibl>Evans, G. Blakemore (ed.). *The Sonnets*. The New Cambridge Shakespeare. Cambridge UP, 1996.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-look-on" from="#s-look-on" to="#e-look-on">
+            <respStmt><resp>annotator</resp><name>Ayla Kahl</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>‘To look on’ means that one directs her/his sight &quot;in observation or contemplation; esp. to watch without participating, to be a spectator or observer&quot; (*OED* 1a). </p>
+                  <listBibl><bibl>&quot;look, v.&quot;. *OED Online*. Oxford UP, Dec 2016.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The speaker is able to see the addressee in his dream (&quot;they look on thee&quot;, line 3), i.e. to see a projected image of the addressee before his inner eye. This interpretation would also tie in with the definition provided on L1, according to which the speaker would be the observer. Furthermore, the idea of observation is taken up again later in the poem (cf. [[form-happy-show]]).</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-most-i-wink" from="#s-most-i-wink" to="#e-most-i-wink">
+            <respStmt><resp>annotator</resp><name>Ayla Kahl</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The verb ‘to wink&apos; means &quot;to close one&apos;s eyes&quot;; a meaning that is now obsolete (*OED* 1a). ‘To wink&apos; can also be used as a synonym for &quot;to blink&quot; which describes the action of &quot;open[ing] and shut[ing] one&apos;s eyes momentarily&quot; (*OED* 2). Possible other meanings also are &quot;to sleep&quot;, &quot;to slumber&quot; or to &quot;have the eyes closed in sleep&quot; (*OED* 3).</p>
+                  <listBibl><bibl>&quot;wink, v.1&quot;. *OED Online*. Oxford UP, Dec 2016. </bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>A possible interpretation is that ‘to wink&apos; was used as a synonym for &quot;to blink&quot; (*OED* 2). One could suggest that the speaker is able to see better when blinking more often. This could be compared to looking into the sun or a bright light, and being able to see better when blinking rapidly. Because of the explicit mentioning of sleeping and dreaming in line 3 of the poem (&quot;But when I sleep, in dreams they look on thee&quot;), a different interpretation would be more fitting.
+
+The use of the word ‘to wink&apos; can also be interpreted as having the eyes closed in sleep which would suggest that the speaker is able to see the clearest when he is asleep or has his eyes closed. This, however, is a paradox since one cannot physically see with one&apos;s eyes closed. The reader may assume that the speaker of the poem is asleep and dreaming which is also confirmed in line 3. The word ‘most&apos; in this phrase indicates that the speaker is able to see best when he sleeps deeply. Booth suggests that ‘wink&apos; in this context means to shut one&apos;s eyes or to sleep (203). This reading is also corroborated by Evans who paraphrases the passage as: &quot;when I sleep most deeply&quot; (144).</p>
+                  <listBibl><bibl>Booth, Stephen (ed.). *Shakespeare&apos;s Sonnets*. Yale UP, 1977.</bibl><bibl>Evans, G. Blakemore (ed.). *The Sonnets*. The New Cambridge Shakespeare, Cambridge UP, 2006. </bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-see" from="#s-see" to="#e-see">
+            <respStmt><resp>annotator</resp><name>Ayla Kahl</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The verb ‘to see&apos; does not only mean that one is perceiving their surroundings through their eyes. According to the *OED*, it can also mean &quot;to behold (visual objects) in imagination, or in a dream or vision&quot; (1e). Therefore, the semantic meaning of ‘to see&apos; goes beyond the eyes&apos; mere physical abilities.</p>
+                  <listBibl><bibl>&quot;see, v.&quot;. *OED Online*. Oxford UP, Dec 2016.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#context">
+                  <p>In the early modern period, people had a different notion of vision and the act of seeing than we have today. It was believed that one could not only physically see while being awake and conscious, but also while being asleep. Seeing a person in one&apos;s sleep was not seen as a dream, a creation of the subconscious mind, but as a real depiction of the other person.
+
+Campbell argues that seeing in these sleeping visions was &quot;considered far deeper and ‘truer&apos;&quot; (34). This phenomenon goes back to the idea of an inner eye (cf. [[and-darkly-bright-are-bright-in-dark-directed]]). This idea is based on the understanding that what was once perceived by the physical eye would be memorised, and could be revisited via the inner eye.</p>
+                  <listBibl><bibl>Campbell, Mary Baine. &quot;The Inner Eye: Early Modern Dreaming and Disembodied Sight.&quot; *Dreams, Dreamers, and Visions*, edited by Ann Marie Plane and Leslie Tuttle, U of Pennsylvania P, 2013, pp. 34-48.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The speaker claims to be able to see best in his dreams. This is due to the belief in an inner eye that enables to see objects even with one&apos;s eyes closed. The object that the speaker sees is the addressee of the poem. This is revealed in line 3: &quot;in dreams they [the eyes] look on thee&quot;. The image of the addressee is therefore projected before the speaker&apos;s inner eye. This experience is not a physical, but a psychological one. </p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-shade" from="#s-shade" to="#e-shade">
+            <respStmt><resp>annotator</resp><name>Heike Ortlieb</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>In this context, shade is what the *OED* describes as &quot;[a]n unsubstantial image of something real […]&quot; (Def. II.5.b). Here, the ‘shade&apos; is the image of the beloved. However, the same *OED* definition also indicates that this image has the qualities of &quot;an unreal appearance; something that has only a fleeting existence, or that has become reduced almost to nothing&quot;. ‘Shade[s]&apos; and ‘shadow[s]&apos; repeatedly occur in the poem and contribute to the permanent play on bright and dark elements (cf. l. 5 &quot;shadow shadows&quot;, l. 8 &quot;shade shines&quot; and l. 11 &quot;fair imperfect shade&quot;).</p>
+                  <listBibl><bibl>&quot;shade, n.&quot;. *OED Online*. Oxford UP, March 2017.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>Though unsubstantial and associated with darkness, it can be argued that a shade is not as dark as a shadow (ll. 5, 6). In this respect, there is a tendency towards brightness with the change from shadows (ll. 5, 6) to shades (ll. 8, 11) which then culminates in &quot;bright days&quot; (l. 14).
+
+Vendler also points out that lines 1-10 &quot;all brighten as they end&quot; (224), followed by the &quot;only two lines in the body of the poem&quot; (224) in which this dynamic works the other way around. She attributes both &quot;desire and frustration&quot; (225) to the couplet, and argues that after this downward progression, the sonnet ends with &quot;the up-driven push of desire&quot; (225) in the couplet.</p>
+                  <listBibl><bibl>Vendler, Helen. *The Art of Shakespeare&apos;s Sonnets*. Belknap P, 1997.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-shadow-shadows" from="#s-shadow-shadows" to="#e-shadow-shadows">
+            <respStmt><resp>annotator</resp><name>Natalia Christoforou</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#form">
+                  <p>The emphatic repetition &quot;shadow shadows&quot; in this line is an example of both a polyptoton and an antanaclasis. A polyptoton (Gr. for &quot;word in many cases&quot;) is a form-related figure of repetition where the repeated word varies in terms of word class or inflection (&quot;Polyptoton&quot; 1086). Antanaclasis (Gr. for ‘reflection&apos;) is a semantic-related figure of repetition where the repeated word &quot;shift[s] in meaning&quot; (&quot;Polyptoton&quot; 1086).</p>
+                  <listBibl><bibl>&quot;Polyptoton&quot;. *The Princeton Encyclopedia of Poetry and Poetics*. Ed. Roland Greene et al., Fourth Edition, Princeton UP, 2012, pp. 1086-1087. </bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#form">
+                  <p>The two rhetorical figures, polyptoton and antanaclasis, overlap in this line. The repetition &quot;shadow shadows&quot; (l. 5) is a polyptoton in that the two, otherwise identical, nouns differ in grammatical number. However, on the level of their semantic meaning, the antanaclasis becomes relevant. Although ‘shadow&apos; and ‘shadows&apos; share much in their connotations, they actually refer to two different things: the shadow of the addressee as opposed to the shadows (or darkness) that the addressee makes bright. Polyptoton and antanaclasis are closely related figures and, whenever a word is repeated in a different form and with a different meaning, they are often used interchangeably (&quot;Polyptoton&quot; 1086).
+
+According to *The Princeton Encyclopedia of Poetry and Poetics*, Shakespeare was quite fond of such playful devices, as they &quot;[increased] patterning without wearying the ear&quot;, and lines 4-7 of Sonnet 43 are cited as an illustrative example of his deliberate and diligent use thereof (&quot;Polyptoton&quot; 1086).</p>
+                  <listBibl><bibl>&quot;Polyptoton&quot;. *The Princeton Encyclopedia of Poetry and Poetics*. Ed. Roland Greene et al., Fourth Edition, Princeton UP, 2012, pp. 1086-1087.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-shadow" from="#s-shadow" to="#e-shadow">
+            <respStmt><resp>annotator</resp><name>Natalia Christoforou</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The term ‘shadow&apos; in this sonnet cannot be reduced to one single meaning. Literally speaking, a shadow is an &quot;image cast by a body intercepting light&quot; (*OED* II). Metaphorically, it can refer to a hollow representation, &quot;an unreal appearance; a delusive semblance […]; a vain and unsubstantial object of pursuit&quot; (*OED* 6a), or to &quot;a spectral form, [a] phantom&quot; (*OED* 7). In the seventeenth century, ‘shadow&apos; was also another term for &quot;an actor or a play&quot; (*OED* 6b) and it was often employed by Shakespeare in this sense: see, for example, &quot;Life&apos;s but a walking shadow, a poor player&quot; (*Macbeth* V.v.24 qtd. in Duncan-Jones 196n5), or Puck&apos;s epilogue in *A Midsummer Night&apos;s Dream*: &quot;If we shadows have offended,/ Think but this, and all is mended:/ That you have but slumbered here/ While these visions did appear&quot; (V.i.413-416).</p>
+                  <listBibl><bibl>Duncan-Jones, Katherine (ed.). *Shakespeare&apos;s Sonnets*. The Arden Shakespeare, Third Series (Rev. ed.), Bloomsbury, 2010.</bibl><bibl>&quot;shadow, n.&quot;. *OED Online*. Oxford UP, June 2017. </bibl><bibl>Shakespeare, William. *A Midsummer Night&apos;s Dream*. Ed. Sukanta Chaudhuri, The Arden Shakespeare, Bloomsbury, 2017.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#context">
+                  <p>Since Aristotle and all the way through to the early modern period, dreams were thought of as primarily visual (Clark 302) and were closely associated with the faculties of imagination and memory. It was believed that once the eye perceived an actual object, this produced a likeness of itself in the mind – what Aristotle called a ‘species&apos; (cf. Level 2 Context [[and-darkly-bright-are-bright-in-dark-directed]]). Subsequently, the species travelled in the form of a mental impression from the outer to the inner senses in order to be examined by common sense, to be stored in memory and, eventually, to be retrieved by the imagination at will (cf. Clark 15; Rossky 50-51). Dreams were one of those products of imagination; they were defined as &quot;vision[s] presented to the interior senses&quot; (Dupleix qtd. in Clark 302-303) and projected during sleep before the inner eye, similar to a theatrical performance (cf. Level 2 Context [[form-happy-show]]). Since antiquity, dreams were thought to be &quot;caused by traces of the species left behind in the internal senses by the waking perceptions of the external ones, once the latter were no longer active&quot; (Clark 301). The reproduced ‘species&apos; or ‘phantasm&apos; could also be referred to as a ‘shadow&apos; (Clark 15).
+
+Dreams were often considered to disclose what most occupied the mind and to provide an insight into the dreamer&apos;s innermost desires. Dreaming about a beloved thus suggested an impassioned – often forlorn – fixation on the object of desire and was a common motif in early modern courtly poetry. It offered a paradoxical fulfilment of an otherwise unrequited love, as the painful absence of the loved one was compensated by the presence of the dream image (cf. Alt 117).</p>
+                  <listBibl><bibl>Alt, Peter-André. *Der Schlaf der Vernunft: Literatur und Traum in der Kulturgeschichte der Neuzeit*. C.H. Beck, 2011.</bibl><bibl>Clark, Stuart. *Vanities of the Eye: Vision in Early Modern European Culture*. Oxford UP, 2007.</bibl><bibl>Rossky, William. &quot;Imagination in the English Renaissance: Psychology and Poetic&quot;. *Studies in the Renaissance*, Vol. 5, The U of Chicago P on behalf of the Renaissance Society of America, 1950, pp. 49-73. *The University of Chicago Press Journals*, doi: 10.2307/2856974.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>As Wickert in her article &quot;Das Schattenmotiv bei Shakespeare&quot; asserts, the motif of the shadow was often used by Shakespeare and was favoured for its multi-layeredness and its ample associations (cf. 274; Level 2 Intertextuality [[then-thou-whose-shadow-shadows-doth-make-bright]]). In Sonnet 43, the shadow plays a central role and is directly evoked five times in different variations: &quot;shadow&quot; (l. 5), &quot;shadows&quot; (l. 5), &quot;thy shadow&apos;s form&quot; (l. 6), &quot;thy shade&quot; (l. 8), &quot;thy fair imperfect shade&quot; (l. 11).
+
+Within the context of eyes emitting light, evoked in l. 4 (cf. Level 2 Context [[and-darkly-bright-are-bright-in-dark-directed]]), the first reference to ‘shadow&apos; can be understood literally as the image cast by the addressee&apos;s body when exposed to the speaker&apos;s radiant gaze. Yet, the conceit is much more complex than that. Taking place in the realm of dreams, the shadow is also the incorporeal mental image of the addressee – the ‘species&apos; – produced before the speaker&apos;s inner eye (cf. Level 2 Context [[form-happy-show]]); it is &quot;an unreal appearance; a delusive semblance […]; a vain and unsubstantial object of pursuit&quot; (OED 6a) compared to the real addressee. The shadow can therefore be understood as an actor impersonating the addressee on the stage of dramatic dream action which is created and directed by and for the speaker before his inner eye. Furthermore, in the dreadful darkness of &quot;dead night&quot; (l. 11), the shadow might carry some uncanny implications and remind momentarily of ghosts or spirits (cf. Level 2 Interpretation [[in-dead-night]]), even though this possibility is not pursued any further in this sonnet.</p>
+                  <listBibl><bibl>&quot;shadow, n.&quot;. *OED Online*. Oxford UP, June 2017. Accessed July 2017.</bibl><bibl>Wickert, Maria. &quot;Das Schattenmotiv bei Shakespeare&quot;. *Anglia: Zeitschrift für englische Philologie*, N.F. 59=71, 1952/3, pp. 274-309. *DigiZeitschriften*. </bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-shadows" from="#s-shadows" to="#e-shadows">
+            <respStmt><resp>annotator</resp><name>Natalia Christoforou</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>Apart from the other meanings and connotations attached to &apos;[[shadow]]&apos;, the word &apos;shadows&apos;, when in plural, also explicitly refers to &quot;the darkness of night&quot; (*OED* 2a).</p>
+                  <listBibl><bibl>&quot;shadow, n.&quot;. *OED Online*. Oxford UP, June 2017.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-sightless-eyes" from="#s-sightless-eyes" to="#e-sightless-eyes">
+            <respStmt><resp>annotator</resp><name>Liubov Bolshakova</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The word ‘sightless&apos; means &quot;unable to see; destitute of the power of sight&quot; or can refer to blindness (*OED* 1a).</p>
+                  <listBibl><bibl>&quot;sightless, adj.&quot;. *OED Online*. Oxford UP, Dec 2016. </bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#intertextuality">
+                  <p>A similar image occurs in Sonnet 27 &quot;Presents thy shadow to my *sightless* view&quot; (l. 10). The sonnets both revolve around the haunting ‘shadow&apos; during the night-time, which evokes rueful feelings in the addressee&apos;s absence. In Sonnet 43, the eyes are ‘sightless&apos; because the speaker is sleeping, whereas in Sonnet 27 the eyes seem to be blind due to the surrounding darkness.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>The speaker is able to see the addressee (at least his &quot;imperfect shade&quot;(l. 11)), despite being in a deep sleep (cf. Level 2 Interpretation [[most-i-wink]]) and, thus, being physically ‘sightless&apos;. Vendler argues that &quot;the poem […] gets darker as the seeing eyes become unseeing and then sightless, and as the shade darkens from shin[ing] brightness to imperfect[ion]&quot; (223). Indeed, throughout the poem the speaker slowly falls asleep (‘wink&apos;), and gradually, he starts dreaming of the addressee (cf. Level 2 Interpretation [[shade]]).</p>
+                  <listBibl><bibl>Vendler, Helen. *The Art of Shakespeare&apos;s Sonnets*. The Belknap P, 1997. </bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-then-thou-whose-shadow2-shadows2-doth-make-bright" from="#s-then-thou-whose-shadow2-shadows2-doth-make-bright" to="#e-then-thou-whose-shadow2-shadows2-doth-make-bright">
+            <respStmt><resp>annotator</resp><name>Natalia Christoforou</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#form">
+                  <p>This is, at first sight, a paradoxical image as it is impossible for a shadow, typically associated with darkness, to illuminate something. Considering, however, the multiplicity of semantic layers inherent to the term &quot;[[shadow]]&quot; (l. 5) – a dark outline, a hollow representation, a ghostly image or an actor – as well as to the phrase &quot;[to] make bright&quot; (l. 5; cf. Level 1 Language) – to illuminate, to cheer up or to make beautiful, the line gains in complexity and is not to be read solely as a paradoxon.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The meaning one would immediately associate with the phrase &quot;make bright&quot; (l. 5) would be ‘to illuminate&apos; (cf. Duncan-Jones 196n5; Evans 144n5). Nevertheless, it can also be understood figuratively to mean ‘to cheer someone up&apos; (cf. &quot;bright, adj. and n.&quot; *OED* 7a), or, as an archaism, to mean ‘to make beautiful or fair&apos; (cf. *OED* 3).</p>
+                  <listBibl><bibl>&quot;bright, adj. and n.&quot;. *OED Online*. Oxford UP, June 2017.</bibl><bibl>Duncan-Jones, Katherine (ed.). *Shakespeare&apos;s Sonnets*. The Arden Shakespeare, Third Series (Rev. ed.), Bloomsbury, 2010.</bibl><bibl>Evans, G. Blakemore (ed.). *The Sonnets*. The New Cambridge Shakespeare, Cambridge UP, 2006.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#intratextuality">
+                  <p>This is the third occurrence of the word ‘bright&apos; in the sonnet. In the previous line, the adjective is repeated twice when referring to the eyes of the speaker: &quot;[a]nd darkly bright, are bright in dark directed&quot; (l. 4). In line 5, ‘bright&apos; is repeated once more, this time however, combined with an active verb (&quot;make bright&quot;) and referring to the addressee&apos;s shadow.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#intertextuality">
+                  <p>Considering that the phrase &quot;make bright&quot; might also imply that the addressee&apos;s shadow has a beautifying impact on &quot;the darkness of [the] night&quot; (&quot;shadow, n.&quot; *OED* 2a; cf. Level 1 Language), one might argue that line 5 is reminiscent of Shakespeare&apos;s Sonnet 27. In 27, the shadow of the addressee is not only bright &quot;like a jewel&quot; (l. 11), but it also has the ability to &quot;[make] black night beauteous&quot; (l. 12), much like in Sonnet 43. The only difference seems to be that the speaker in Sonnet 27 is still awake - his wandering thoughts &quot;keep [his] drooping eyelids open wide&quot; (l. 7) - while the speaker in Sonnet 43 is asleep and dreaming of the addressee.
+
+The image further recalls the radiant ‘shadow&apos; (l. 10) from Sonnet 27 which, &quot;like a jewel hung in ghastly night&quot; (l. 11), has the power to emit light and transform darkness. The motif is also evoked in similar terms in *Romeo and Juliet*, where Juliet is described as someone who is capable of even &quot;teach[ing] the torches to burn bright. / It seems she hangs upon the cheek of night / Like a rich jewel in an Ethiop&apos;s ear;&quot; (I.V.43-45) and elaborated further in the balcony scene:
+
+&quot;But soft, what light through yonder window breaks?
+It is the east, and Juliet is the sun.
+[...]
+Two of the fairest stars in all the heaven,
+Having some business, do entreat her eyes
+To twinkle in their spheres till they return.
+What if her eyes were there, they in her head?
+The brightness of her cheek would shame those stars
+As daylight doth a lamp. Her eyes in heaven
+Would through the airy region stream so bright
+That birds would sing and think it were not night&quot; (II.ii.2-22).
+
+Yet, this idea of the image of the beloved shedding light onto the speaker&apos;s darkness is not solely reserved to Shakespeare&apos;s imagination, but seems to be part of a general tradition. For example, in Sidney&apos;s Sonnet 38 from his sequence *Astrophil and Stella*, &quot;Stella&apos;s image&quot; (l. 6; p. 149) perceived in the speaker&apos;s dreams appears to be shining (after all, ‘Stella&apos; in Latin means ‘star&apos;). Further, in Spenser&apos;s *Amoretti*, Sonnet 66, the speaker exclaims along the same lines: &quot;For now your light doth more it selfe dilate, / And in my darknesse greater doth appeare&quot; (ll. 11-12; p. 614).</p>
+                  <listBibl><bibl>&quot;shadow, n.&quot;. *OED Online*. Oxford UP, June 2017.</bibl><bibl>Shakespeare, William. *Romeo and Juliet*. Ed. René Weis. The Arden Shakespeare, Third Series, Bloomsbury, 2012.</bibl><bibl>Sidney, Sir Philip. &quot;Sonnet 38&quot;. *Sir Philip Sidney&apos;s An Apology for Poetry and Astrophil and Stella: Texts and Contexts*. Ed. Peter C. Herman and Glen Allen, College Publishing, 2001. pp. 149-150.</bibl><bibl>Spenser, Edmund. &quot;Sonnet 66&quot;. *A Norton Critical Edition: Edmund Spenser&apos;s Poetry*. Third Edition, Ed. Hugh Maclean and Anne Lake Prescott, W. W. Norton &amp; Company, 1968, pp. 613-614.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>This multi-layered phrase is a brilliant token of how Shakespeare managed to play with different nuances and evoke different images that allowed for different interpretations without necessarily cancelling each other.
+
+At first sight, this is a paradoxical statement, as a shadow, being itself a dark outline, cannot possibly illuminate anything. Nevertheless, the motif of the radiant shadow of the beloved, emanating light into the speaker&apos;s inner darkness, seems to have been part of the contemporary love imagery and rhetoric (cf. Level 2 Intertextuality). In the reversed hierarchical relationship common to love sonnets of the time, the wooer fashions himself as dependent and subordinate to the object of pursuit, and the addressee is attributed with the power to bring light into the speaker&apos;s life. ‘To make bright&apos; (cf. Level 1 Language) may very well be understood metaphorically as in ‘to enliven&apos; and ‘make one happier&apos;, or even ‘to make more beautiful&apos;.
+
+The choice of consecutively repeating the same word &quot;shadow shadows&quot; (l. 5) while essentially referring to two disparate images (the radiant ‘shadow&apos; of the addressee as opposed to the ‘shadows&apos; of the night and the gloominess of the speaker) blurs even more the boundaries between light and darkness in this sonnet. Paradoxically, &quot;it becomes possible to place shadow ad libitum at both sides of the anthithesis&quot; (Wickert 282, my translation).</p>
+                  <listBibl><bibl>Wickert, Maria. &quot;Das Schattenmotiv bei Shakespeare&quot;. *Anglia: Zeitschrift für englische Philologie*, N.F. 59=71, 1952/3, pp. 274-309. *DigiZeitschriften*.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-thy-shadows-form" from="#s-thy-shadows-form" to="#e-thy-shadows-form">
+            <respStmt><resp>annotator</resp><name>Natalia Christoforou</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>‘Form&apos; may generally refer to the visible shape of something (*OED* 1a), or, more specifically, to a bodily frame &quot;considered in respect to its outward shape and appearance&quot; (*OED* 3). In the seventeenth century, the term could also be used to refer not only to a material body, but also to &quot;an image, representation, or likeness&quot; thereof (*OED* †2). In Platonic philosophy, a form is the ideal state of a thing or a concept (cf. Bruce n.pag.; *OED* 4a).</p>
+                  <listBibl><bibl>Bruce, Ian. &quot;Plato&apos;s Theory of Forms&quot;. *ccs.neu.edu*, Northeastern University - College of Computer and Information Science, 1998.</bibl><bibl>&quot;form, n.&quot;. *OED Online*. Oxford UP, June 2017. </bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#context">
+                  <p>The distinction between shadow and form was quite popular in the Renaissance as Platonic thought was re-discovered and re-interpreted at the time. Plato&apos;s theory of forms, evoked in a number of his works, assumes that there is a world or a dimension beyond human reality that contains &quot;the ideal or archetypal forms of all things and concepts&quot; (Bruce n.pag.). In Book 7 of *The Republic*, Plato elaborates on this idea and comes up with an allegory known as ‘the allegory of the cave&apos;. According to this conception, human beings are inhabiting a cave and what they perceive as their immediate reality is just a shadow of the outside world reflected on the illuminated walls of their confined abode. The cave represents the world of senses and the outside represents the world of forms. It is only through &quot;true knowledge&quot; achieved by philosophical contemplation that one can &quot;[perceive] the forms directly, with [one&apos;s] mind&apos;s eye&quot; (Bruce n.pag.).
+
+In Neoplatonic thought, the notion of contemplation is broadened to include the intense contemplation of sensible things, such as a &quot;person of rare beauty&quot;, which would then lead the way up to the world of forms (Jones 10). Under these premises, imagining or dreaming about a beloved constituted &quot;the first step towards a higher form of love&quot; (Wickert 283, my translation).</p>
+                  <listBibl><bibl>Bruce, Ian. &quot;Plato&apos;s Theory of Forms&quot;. *ccs.neu.edu*, Northeastern University - College of Computer and Information Science, 1998.</bibl><bibl>Jones, Thomas O. *The Influence of Marsilio Ficino (1433-1494) on Elizabethan Literature: Christopher Marlowe and William Shakespeare*. Vol. 1, Edwin Mellen P, 2013. eBook Collection. </bibl><bibl>Wickert, Maria. &quot;Das Schattenmotiv bei Shakespeare&quot;. *Anglia: Zeitschrift für englische Philologie*, N.F. 59=71, 1952/3, pp. 274-309. DigiZeitschriften.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>‘Form&apos; in this phrase is ambiguous. On the one hand, it could refer either to the shape of the addressee&apos;s actual shadow in the literal sense, or to the outline of the shadow image appearing in the speaker&apos;s dream. On the other hand, ‘form&apos; could refer to the original substantial body of the addressee of which the shadow is but a reflection.
+
+The latter interpretation is favoured both by Evans (&quot;your real, physical shape (‘form&apos;) which produces this mental image (‘shadow&apos;)&quot; (144n6)) and by Booth (&quot;the model for the image, the reality of which the shadow is an image, body, self&quot; (204n6)). Similarly, Catherine Duncan-Jones paraphrases &quot;thy shadow&apos;s form&quot; (l. 6) as &quot;the substance behind your imagined image&quot; (196n6), yet ‘substance&apos; itself is an ambiguous term. Substance could either refer to the physical &quot;material of which a body is formed&quot; (*OED* 7a), as Booth and Evans suggest, or it could refer to the immaterial &quot;essence of a thing&quot; (*OED* 6b) that could be associated with the Platonic form.
+
+Duncan-Jones, perhaps undeliberately, identifies this inherent ambiguity of the word ‘form&apos; that becomes even more complicated when combined with the ambiguous ‘shadow&apos;. While the context of the &quot;clear day&quot; (l. 7) suggests that &quot;thy shadow&apos;s form&quot; (l. 5) most probably refers to the addressee&apos;s real bodily presence, the Neoplatonic context still implies that this presence could be compared to a Platonic ideal.</p>
+                  <listBibl><bibl>Booth, Stephen (ed.). *Shakespeare&apos;s Sonnets*. Yale UP, 1977.</bibl><bibl>Duncan-Jones, Katherine (ed.). *Shakespeare&apos;s Sonnets*. The Arden Shakespeare, Third Series (Rev. ed.), Bloomsbury, 2010.</bibl><bibl>Evans, G. Blakemore (ed.). *The Sonnets*. The New Cambridge Shakespeare, Cambridge UP, 2006.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-to-the-clear-day-with-thy-much-clearer-light" from="#s-to-the-clear-day-with-thy-much-clearer-light" to="#e-to-the-clear-day-with-thy-much-clearer-light">
+            <respStmt><resp>annotator</resp><name>Natalia Christoforou</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#form">
+                  <p>The repetition of the adjective ‘clear&apos; in its comparative form ‘clearer&apos; in this line is again an example of a polyptoton, as the repeated word varies in terms of inflection (&quot;Polyptoton&quot; 1086).</p>
+                  <listBibl><bibl>&quot;Polyptoton&quot;. *The Princeton Encyclopedia of Poetry and Poetics*. Ed. Roland Greene et al., Fourth Edition, Princeton UP, 2012, pp. 1086-1087. </bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The expression &quot;clear day&quot; (l. 7) is an archaic idiom meaning a &quot;fully light, bright&quot; day as &quot;opposed to **dusk** or** twilight**&quot; (*OED* 2a).</p>
+                  <listBibl><bibl> &quot;clear, adj., adv., and n.&quot;. *OED Online*. Oxford UP, June 2017.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>In combination with ‘light&apos;, the adjective ‘clear&apos; underlines &quot;the vividness or intensity&quot; of the light&apos;s brightness (*OED* 1a). When opposed to a blurry, &quot;imperfect&quot; (l. 10) shadow (ll. 5, 6, 10), the &quot;much clearer light&quot; (l. 7) could also mean more &quot;sharp&quot;, distinctly delineated (*OED* 6), or even &quot;more perfect, more complete&quot; (Booth 204n7; cf. *OED* 17). In the context of this sonnet, the second instance of ‘clear&apos; could additionally stand for &quot;cheerful&quot; (*OED* 2d) – which would link back to &quot;form *happy* show&quot; (l. 6); &quot;beautiful&quot; (*OED* 4c) – which would link back to one plausible interpretation of &quot;make bright&quot; (l. 5) (cf. Level 1 Language [[then-thou-whose-shadow-shadows-doth-make-bright]]); and &quot;innocent&quot; (*OED* 15a) – which could maybe allude to a moral dimension otherwise not openly addressed. </p>
+                  <listBibl><bibl>Booth, Stephen (ed.). *Shakespeare&apos;s Sonnets*. Yale UP, 1977.</bibl><bibl>&quot;clear, adj., adv., and n.&quot;. *OED Online*. Oxford UP, June 2017.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>The unequivocal brightness of &quot;the clear day&quot; and the &quot;much clearer light&quot; (l. 7) of the addressee in this line are set in sharp contrast to the ambiguous interplay of darkness and light in the preceding lines of the sonnet. It is clearly no longer night and we are no longer in the realm of dreams. This means that the &quot;clear day&quot; (l. 7) refers to reality and the &quot;much clearer light&quot; (l. 7) refers to the real addressee.
+
+The structure of this clause is ambiguous as far as the comparative is concerned. On the one hand, the use of the same adjective (clear-clearer) seems to underline the relationship between the light of the day and the metaphorical light of the beloved and to encourage a comparison between the two (see, for example, this line from Sidney&apos;s Arcadia: &quot;Thy [i.e. Phoebus&apos;s = the sun&apos;s] beames I like, but her cleare rayes I love&quot; (qtd. in Evans 144n7)). On the other hand, a more likely comparison would be between the dream image and its pendant in real life.
+
+The addressee&apos;s &quot;shadow&quot; (l. 5) in the speaker&apos;s dreams has the ability to illuminate the darkness (cf. Level 1 Language [[then-thou-whose-shadow-shadows-doth-make-bright]]). In reality, then, the addressee&apos;s light must be much brighter and much sharper, or metaphorically, much more cheerful, beautiful or innocent than the dream image. A ‘clearer light,&apos; in the sense of &quot;more perfect, more complete&quot; (Booth 204n7), could refer to the Platonic form in the sense of an ideal archetype (cf. Level 3 Interpretation [[thy-shadows-form]]).</p>
+                  <listBibl><bibl>Booth, Stephen (ed.). *Shakespeare&apos;s Sonnets*. Yale UP, 1977</bibl><bibl>Evans, G. Blakemore (ed.). *The Sonnets*. The New Cambridge Shakespeare, Cambridge UP, 2006.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-to-unseeing-eyes-thy-shade-shines-so" from="#s-to-unseeing-eyes-thy-shade-shines-so" to="#e-to-unseeing-eyes-thy-shade-shines-so">
+            <respStmt><resp>annotator</resp><name>Heike Ortlieb</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#form">
+                  <p>This phrase contains several indicators of contradiction. First of all, the capacity of the eyes to see is negated by the adjective &quot;unseeing&quot;, and yet the iambic pentameter in this line stresses -*see*- in &quot;unseeing&quot;, and &quot;eyes&quot;. Furthermore, the &quot;shade&quot; that &quot;shines&quot; is an oxymoron, as shade normally implies the absence of light and therefore cannot shine.
+
+Another element to be noted is the emphasis on &quot;shade shines&quot; by the alliteration repeating the initial /ʃ/ sound. Although it is not stressed in the iambic pentameter pattern, this sound repetition draws the readers&apos; attention to &quot;shines&quot;.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>&quot;Unseeing eyes&quot; (l. 8) which perceive someone&apos;s shade are contradictory upon first sight. However, as paradoxical as this expression might seem, it makes sense in the logic of the sonnet and especially in connection to line 1: the &quot;unseeing eyes&quot; are the ones that &quot;wink&quot; (l. 1) ([[most-i-wink]]). The prerequisite for perceiving the ‘shade&apos; of the beloved is this shift from seeing normally to blindness: by closing them, the speaker&apos;s eyes become ‘unseeing&apos;, and only then can the image of the beloved ‘shine&apos; in his imagination – this is how he &quot;best see[s[]&quot; (l. 1).
+
+Although the phrase includes this paradox of seeing and not seeing as well as an emphasis on seeing and shining, it also indicates that the image seen by the poet is not perfect. The connotation of a ‘shade&apos; in this sense is that it is an image of something in the world, but an unreal and fleeting one (cf. Level 1 Language [[shade]]). Although it ‘shines&apos;, the ‘shade&apos; of the beloved is not the same as the real person and can therefore not be an ideal substitute for the absence of the latter (cf. Level 3 Interpretation [[imperfect-shade]]). On the other hand, there is brightness assigned to this image (&quot;shines&quot; (l. 8)) and the syntactic unit of lines 6-8 suggests that looking at it would make the poet &quot;happy&quot; (l. 6).
+
+Considering these aspects, this phrase in the middle part of the sonnet seems to oscillate between positive and negative, with sight and brightness on one, and blindness and darker qualities on the other end. As some elements become brighter whereas other become darker, it could be argued that this part of the poem indicates the alternation of the speaker&apos;s feelings: they sometimes have a tendency towards sadness, sometimes towards happiness. This in-between stage is also pointed out by Vendler in her illustration of how the sonnet &quot;gets darker&quot; (223): the unseeing eyes are a first indicator of a deteriorating eyesight, as the eyes change from being ‘see&apos;ing (l. 1) to ‘unseeing&apos; (l. 8) and, finally, to ‘sightless&apos; (l. 12).
+
+However, the lines themselves tend to get brighter towards their end, which again results in a blurring of darkness and light which makes it hard for readers to decide which one of them is the predominant one. This can be seen as a continuation of l. 4, which has already raised the question of which one of the two emotions appears more strongly (cf. Level 3 Question [[and-darkly-bright-are-bright-in-dark-directed]]).</p>
+                  <listBibl><bibl>Vendler, Helen. *The Art of Shakespeare&apos;s Sonnets*. Belknap P, 1997.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-unrespected" from="#s-unrespected" to="#e-unrespected">
+            <respStmt><resp>annotator</resp><name>Ayla Kahl</name></respStmt>
+            <date>2026-03-17</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The adjective ‘unrespected&apos; describes something that is &quot;not held in respect or regard&quot; (*OED* 2). Other annotations of ‘unrespected&apos; in previous editions paraphrase the term as &quot;unvalued&quot; (Duncan-Jones 196), &quot;ignored&quot; (Booth 203), or &quot;unnoticed&quot; (Hammond 194).</p>
+                  <listBibl><bibl>Booth, Stephen (ed.). *Shakespeare&apos;s Sonnets*. Yale UP, 1977. </bibl><bibl>Duncan-Jones, Katherine (ed.). *Shakespeare&apos;s Sonnets*. The Arden Shakespeare, Third Series (Rev. ed.), Bloomsbury, 2010. </bibl><bibl>Hammond, Paul (ed.). *Shakespeare&apos;s Sonnets: an Original-Spelling Text*. Oxford UP, 2012.</bibl><bibl>&quot;unrespected, adj.&quot;. *OED Online*. Oxford UP, Dec 2016.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The speaker describes how he &quot;view[s] things unrespected&quot; (l. 2) all day. These things seem to be less important to the speaker than the sight of the addressee. The line can be interpreted in two different ways, depending on the paraphrase chosen. In the first interpretation, the reader is aware of his surroundings, in the second he is not.
+
+First, ‘unrespected&apos; can be substituted with &quot;ignored&quot; (Booth 203), which would suggest that the speaker observes his surroundings, but deems the things to be unimportant and actively chooses to ignore them. Evans supports this reading, paraphrasing ‘unrespected&apos; as &quot;not worthy of respect&quot; but also as &quot;unregarded, not carefully observed&quot; (144).
+
+Second, ‘unrespected&apos; could be substituted with &quot;unnoticed&quot; (Hammond 194). This reading would indicate that the speaker does not even observe or notice the things around him. </p>
+                  <listBibl><bibl>Booth, Stephen (ed.). *Shakespeare&apos;s Sonnets*. Yale UP, 1977.</bibl><bibl>Evans, G. Blakemore (ed.). *The Sonnets*. The New Cambridge Shakespeare, Cambridge UP, 2006.</bibl><bibl>Hammond, Paul (ed.). *Shakespeare&apos;s Sonnets: an Original-Spelling Text*. Oxford UP, 2012.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+      </listAnnotation>
+    </standOff>
+</TEI>

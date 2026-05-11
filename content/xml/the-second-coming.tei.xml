@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>The Second Coming</title>
+          <author>William Butler Yeats</author>
+        </titleStmt>
+        <publicationStmt><p>TEASys Viewer</p></publicationStmt>
+        <sourceDesc><p>Annotating Literature, Tübingen University</p></sourceDesc>
+      </fileDesc>
+    </teiHeader>
+  <text><body><div>Turning and turning in the <anchor xml:id="s-widening-gyre"/>widening gyre<anchor xml:id="e-widening-gyre"/>   
+<anchor xml:id="s-the-falcon-cannot-hear-the-falconer"/>The falcon cannot hear the falconer<anchor xml:id="e-the-falcon-cannot-hear-the-falconer"/>;
+Things fall apart; the centre cannot hold;
+<anchor xml:id="s-mere-anarchy-is-loosed-upon-the-world"/>Mere anarchy is loosed upon the world<anchor xml:id="e-mere-anarchy-is-loosed-upon-the-world"/>,
+The <anchor xml:id="s-blood-dimmed-tide"/>blood-dimmed tide<anchor xml:id="e-blood-dimmed-tide"/> is loosed, and everywhere   
+The <anchor xml:id="s-ceremony-of-innocence"/><anchor xml:id="s-ceremony"/>ceremony<anchor xml:id="e-ceremony"/> of innocence<anchor xml:id="e-ceremony-of-innocence"/> is drowned;
+The best lack all conviction, while the worst   
+Are full of passionate intensity.
+
+Surely some revelation is at hand;
+Surely <anchor xml:id="s-the-second-coming"/>the Second Coming<anchor xml:id="e-the-second-coming"/> is at hand.   
+The Second Coming! Hardly are those words out   
+When a vast image out of *Spiritus Mundi*
+Troubles my sight: somewhere in sands of the desert   
+A shape with lion body and the head of a man,   
+A gaze blank and pitiless as the sun,   
+Is moving its slow thighs, while all about it   
+Reel shadows of the indignant desert birds.   
+The darkness drops again; but now I know   
+That twenty centuries of stony sleep
+Were vexed to nightmare by a rocking cradle,   
+And what rough beast, its hour come round at last,   
+Slouches towards Bethlehem to be born?
+</div></body></text>
+  <standOff>
+      <listAnnotation>
+        
+          <annotation xml:id="ann-blood-dimmed-tide" from="#s-blood-dimmed-tide" to="#e-blood-dimmed-tide">
+            <respStmt><resp>annotator</resp><name>Irina Savić</name><name>Ilea Rahn</name></respStmt>
+            <date>2026-03-03</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>In earlier manuscripts, “blood-dimmed tide” was “‘the blood stained flood”’ [NLI 13,588 (14), 4r] (Yeats 155). The tide that is loosened is made dim with blood.</p>
+                  <listBibl><bibl>Yeats, W. B. *Michael Robartes and the Dancer: Manuscript Materials*. Edited by Thomas Francis Parkinson and Anne Brannen, Cornell University Press, 1994.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The change from stained to dimmed points to a dark future of the world as the meaning of dimmed is “rendered dim” (“Dimmed, *Adj*.”).
+
+“Blood-dimmed tide” refers to the forces of death and destruction that are unleashed at the end of an era ( see [[the-second-coming]]). As the era is coming to an end the forces are growing stronger (Ellmann 258-59).
+The noun “tide” evokes the feeling of overwhelming power, a natural force of destruction. This force is so strong that it will overwhelm the world, and the chaos and destruction that ensue cannot be stopped anymore.</p>
+                  <listBibl><bibl>“Dimmed, *Adj*.” *Oxford English Dictionary*, Oxford UP, June 2025, doi.org/10.1093/OED/2798170032. 26.09.2025.</bibl><bibl>Ellmann, Richard. *The Identity of Yeats by Richard Ellmann*. Farber and Farber, 1983.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>This phrase, in addition, refers to the contemporary world situation – more specifically WWI, the rising forces of fascism, and the Russian Revolution. The latter had a major impact on Yeats, particularly the brutal massacre of the Romanov family. In this context, the tide can also be read as representing the revolutionaries, the Bolsheviks (Ellmann 257-58).</p>
+                  <listBibl><bibl>Ellmann, Richard. *The Identity of Yeats by Richard Ellmann*. Faber and Faber, 1983.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#intertextuality">
+                  <p>Yeats uses a similar expression in his later poem “The Gyres”: “Irrational streams of blood are staining earth” (line 5), similarly indicating the chaos and destruction of the world.</p>
+                  
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-ceremony-of-innocence" from="#s-ceremony-of-innocence" to="#e-ceremony-of-innocence">
+            <respStmt><resp>annotator</resp><name>Irina Savić</name><name>Ilea Rahn</name></respStmt>
+            <date>2026-03-03</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#textual-variants">
+                  <p>In his early draft of the poem, Yeats referred to Queen Marie Antoinette as “‘ceremonious innocence”’ (Yeats xxiii) after gaining inspiration from Burke and his work *Reflections on the French Revolution*.</p>
+                  <listBibl><bibl>Yeats, W. B. *Michael Robartes and the Dancer: Manuscript Materials.* Edited by Thomas Parkinson and Anne Brannen, Cornell University Press, 1994.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#context">
+                  <p>Yeats was deeply moved by the revolutions in the world; the French Revolution being one of them. He was troubled by its brutality and the murder of the royal family. Her death represents the end of societal and ethical values (Vannini 330). Later on, he made this reference less clear in order to widen the symbolic meaning (see [[mere-anarchy-is-loosed-upon-the-world]]).</p>
+                  <listBibl><bibl>Vannini, Simona. “Echoes of the Ancestors: Literary Reverberations in Yeats’s ‘The Second Coming.’” *The Canadian Journal of Irish Studies*, vol. 25, no. 1/2, 1999, pp. 323–36. JSTOR, doi.org/10.2307/25515278. Accessed 21 Sept. 2025.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#intertextuality">
+                  <p>The idea of ceremonious innocence is similarly picked up in Yeats’ poem “A prayer for my Daughter” in stanza 10, lines 77–78 “How but in custom and in ceremony Are innocence and beauty born?“ (Stallworthy 25; Yeats 193).</p>
+                  <listBibl><bibl>Stallworthy, Jon. *Between the Lines: Yeats’s Poetry in the Making*. Clarendon Press, 1971.</bibl><bibl>Yeats, W. B. *Michael Robartes and the Dancer: Manuscript Materials*. Edited by Thomas Parkinson and Anne Brannen, Cornell University Press, 1994. </bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The ceremony of innocence carries the meaning of a shared social or moral order of purity and peace. In the context of Christianity, it may represent baptism as a ceremony that maintains order and innocence, as both represent a moral order that maintains peace and purity. Because the ceremony of innocence is drowned, it means that this order has collapsed. This is further stressed when connected to the lines “The best lack all conviction, white the worst / Are full of passionate intensity” (7–8). Those that fight for peace and order of purity are passive, which lets the destructive forces actively destroy the moral order of the society.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>A female figure reigns over “the ceremony of innocence”, though is not explicitly shown in the poem, only referenced (Deane 179). Yeats views the word in opposites, so if the Second Coming is the male figure that is coming to power, there is a female power that is losing its power.
+
+The ceremony being drowned reflects Yeats’ idea of one rising power and another declining. The Second Coming is about the rise of the male power while the female power ruling over the innocence is declining as it is drowned (Deane 179). The word “drowned” stresses the male power to being more powerful than the female and overpowering her, and is thus equivalent to violence, barbarism and destruction, while the female power represents the social and moral order of the world. In his work *A Vision*, Yeats talks about the male and female-gendered gyres that interact with each other, one being born while the other is dying (Mann 138).</p>
+                  <listBibl><bibl>Deane, Seamus. “Boredom and apocalypse a national paradigm.” *Strange Country*, 25 Feb. 1999, pp. 145–197</bibl><bibl>Mann, Neil, et al. *W.B. Yeats’s A Vision: Explications and Contexts*. Clemson University Digital Press, 2012.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-ceremony" from="#s-ceremony" to="#e-ceremony">
+            <respStmt><resp>annotator</resp><name>Irina Savić</name><name>Ilea Rahn</name></respStmt>
+            <date>2026-03-03</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>A ceremony is a multitude or a set of actions according to customs, traditions or official rules. It usually involves specific cultural, social or religious behaviours or rituals (“Ceremony, *n.*”, Sense 3).</p>
+                  <listBibl><bibl>“Ceremony, *n.*” Oxford English Dictionary, Oxford UP, June 2025, doi.org/10.1093/OED/1180259794. Accessed 5 Oct. 2025.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-mere-anarchy-is-loosed-upon-the-world" from="#s-mere-anarchy-is-loosed-upon-the-world" to="#e-mere-anarchy-is-loosed-upon-the-world">
+            <respStmt><resp>annotator</resp><name>Irina Savić</name><name>Ilea Rahn</name></respStmt>
+            <date>2026-03-03</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#textual-variants">
+                  <p>In the early versions of Yeats’ manuscript, the line “mere anarchy is loosed upon the world” first started as “Yet when/ the mob fawns upon the murderer [?s]” (NL1 13,588 (14), lr) (Yeats 147). The dash “/” shows Yeats’ thought process while working through his manuscripts as he crosses out the word “while” and leaves in “when”. However, he ultimately also decides against using “when”. This was expanded upon and changed to: “scarcely is armed tyranny fallen when When-an the mob bred [?anarchy] take[?s] it place.” (NLI 13,588 (14), 2r) (Yeats 151). This verse underwent several changes until it took its final published shape.</p>
+                  <listBibl><bibl>Yeats, W. B. *Michael Robartes and the Dancer: Manuscript Materials*. Edited by Thomas Francis Parkinson and Anne Brannen, Cornell University Press, 1994.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#context">
+                  <p>Yeats was deeply interested and appalled by the revolutions that took place in Europe – the revolutions in Germany, Russia and especially France deeply upset him (Deane 178). The murder of Marie Antoinette left the biggest impact on Yeats as he directly mentions it in his early manuscripts, in the version [NLI 13,588 (14), 2r]: “For this Marie Antoin ette has Most [?brutally] [?died], &amp;-no Burke has spoken [?to the] has [?cried] With his voice” (Yeats 151).</p>
+                  <listBibl><bibl>Deane, Seamus. *Strange Country: Modernity and Nationhood in Irish Writing since 1790*. Oxford University Press, 2006, pp. 178-79.</bibl><bibl>Yeats, W. B. *Michael Robartes and the Dancer: Manuscript Materials*. Edited by Thomas Francis Parkinson and Anne Brannen, Cornell University Press, 1994.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>“The mob” was changed to “anarchy” in order to give the poem a broader symbolic and thematic reach. The mob is associated with a group, and the use of the determiner ‘the’ points to a specific one.  With the change from “mob” to “anarchy”, the thematic reach widens, since the concept of anarchy describes a state of disorder or absence of something, but is broad enough to not be restrictive (“Anarchy, *n.*”, Sense 2.). The adjective ‘mere’ expands the symbol, as it conveys absoluteness, and by omitting Marie Antoinette, the poem is not tied to only one historical reference, enabling the apocalyptic images in the poem.</p>
+                  <listBibl><bibl>“Anarchy, *n.*” *Oxford English Dictionary*, Oxford UP, June 2025, doi.org/10.1093/OED/2013728889. Accessed 25 Sept. 2025.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-the-falcon-cannot-hear-the-falconer" from="#s-the-falcon-cannot-hear-the-falconer" to="#e-the-falcon-cannot-hear-the-falconer">
+            <respStmt><resp>annotator</resp><name>Irina Savić</name><name>Ilea Rahn</name></respStmt>
+            <date>2026-03-03</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>In his early manuscripts, Yeats uses the word “‘hawk”’ in “The hawk can no more hear the falconer” [NLI 13,588 (14), 2r]. This is changed early in the manuscripts to add more assonance to the poem (Vannini 326).</p>
+                  <listBibl><bibl>Vannini, Simona. “Echoes of the Ancestors: Literary Reverberations in Yeats’s ‘The Second Coming.’” *The Canadian Journal of Irish Studies*, vol. 25, no. 1/2, 1999, pp. 323–36. JSTOR, doi.org/10.2307/25515278. Accessed 26 Sept. 2025.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#context">
+                  <p>In falconry, the falconer communicates with the falcon through a shared set of communicative practices (Schroer 41). The communication is built and learned through intense training of the falconer and falcon by establishing a strong bond where both the falcon and falconer become attuned to the other. In order for the communication to work, the falcon must be able to see the falconer. In that context, it is preferable to have the falcon stay in close proximity to the falconer in order to see the signals clearly.</p>
+                  <listBibl><bibl>Schroer, S. A. *On the Wing: Exploring Human-Bird Relationships in Falconry Practice*. 2015. University of Aberdeen. PhD dissertation. </bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#context">
+                  <p>While hawks and falcons are both birds of prey, their symbolism is slightly different. The hawk usually symbolizes logic, awareness and intellect (Stallworthy 18–21). In politics, however, the hawk stands for someone who advocates for warlike policies, involving the military and aggression, which can be related to the contemporary world of the First World War. The falcon, by contrast, stands for nobility, noble power and victory marked by its speed and ambition (Kleiter and Wolf 186). In agreement with the hawk’s military connotations, however, the falcon as a hunting bird is also related to warrior-like practices.</p>
+                  <listBibl><bibl>Kleiter, Christine and Gerhard Wolf. &quot;The Falcon, the Eagle and the Owl: Raptors’ and Falconers’ Gaze between Practice, Theory and Art(s)&quot;. *Visual Engagements: Image Practices and Falconry*, edited by Yannis Hadjinicolaou, *De Gruyter*, 2020, pp. 164-195. doi.org/10.1515/9783110618587-010. Accessed 5 Oct. 2025.</bibl><bibl>Stallworthy, Jon. *Between the Lines: Yeat’s Poetry in the Making*. Claredon Press, 1965.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The relationship between the falcon and falconer is marked by authority and partnership. Based on trust and mutual understanding, the falcon listens to the commands of the falconer. As the falcon cannot hear the falconer anymore, the relationship is broken; an ill-omen of the coming anarchy (Ferber 96). Their cooperation is doomed, as the falcon flies further away. This can also be related to line 4 “mere anarchy is loosed upon the world” to show the chaos and destruction that is unleashed as the order of control breaks down. 
+
+Furthermore, here the falcon’s connotation of military power can be put in relation to the symbol of control, seen in the control being lost with the falcon flying further away, as warlike behaviour is more favoured. This is related to the context of the First World War, as it was widely regarded as a war without logic, resulting in countless deaths for no reason as it got out of control (Mueller 8, 18). 
+</p>
+                  <listBibl><bibl>Ferber, Michael. *A Dictionary of Literary Symbols*. 2nd Ed., Cambridge UP, 2007.    </bibl><bibl>Mueller, John. “Changing Attitudes towards War: The Impact of the First World War.” *British Journal of Political Science*, vol. 21, no. 1, 1991, pp. 1–28. JSTOR, www.jstor.org/stable/193753. Accessed 8 Oct. 2025.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>In addition to its literal meaning, the line also has an allegorical dimension to it. In the context of Christianity, the falcon refers to the Christian era coming to an end. The falcon represents the people, in relation to the falconer, who represents Christ and Christianity. Jesus Christ is traditionally represented as a leader in Christianity, always guiding the people. In falconry the falconer represents authority or a guiding presence, which in the context of Christianity mirrors Jesus Christ. The people have gone astray so far from Christ that they can no longer hear him and his teachings: “The falcon represents man, present civilisation, becoming out of touch with Christ, whose birth was the revelation which marked the beginning of the two thousand years of Christianity” (Jeffares 242).</p>
+                  <listBibl><bibl>Jeffares, A. N. “Michael Robartes and the Dancer, the Second Coming.” *Commentary on the Collected Poems of W. B. Yeats*, Macmillan, London, UK, 1968.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-the-second-coming" from="#s-the-second-coming" to="#e-the-second-coming">
+            <respStmt><resp>annotator</resp><name>Irina Savić</name><name>Ilea Rahn</name></respStmt>
+            <date>2026-03-03</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The title is a reference to the Second Coming in the Christian religion: “[the] Second Coming of Christ. The prophesied return of Christ to earth at the Last Judgment.” (“Second Coming, *n.*”, Sense 1). Furthermore, it is related to “[t]he events described in the revelation of St John; the Second Coming of Christ and the ultimate destruction of the world” (“Apocalypse, *n.*”, Sense 3.a.). It is also understood as a disaster resulting in drastic, irreversible damage “to human society or the environment” (“Apocalypse, *n.*”, Sense 3.b.).</p>
+                  <listBibl><bibl>“Apocalypse, *n.*” *Oxford English Dictionary*, Oxford UP, June 2025, doi.org/10.1093/OED/2355444502. Accessed 10 June 2025.</bibl><bibl>“Second Coming, *n.*” *Oxford English Dictionary*, Oxford UP, July 2023, doi.org/10.1093/OED/1061497653. Accessed 10 June 2025</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#textual-variants">
+                  <p>In the first draft of the poem, there is no ‘second coming’ as Yeats originally used “second birth” as the poem’s working title (Yeats 151–57).</p>
+                  <listBibl><bibl>Yeats, W. B. *Michael Robartes and the Dancer: Manuscript Materials*. Edited by Thomas Francis Parkinson and Anne Brannen, Cornell University Press, 1994. </bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#intertextuality">
+                  <p>The Second Coming has its origin in the Christian Bible, more precisely the Book of Revelation. In Christianity, the Book of Revelation mentions the Second Coming of Jesus Christ and the apocalypse that takes place: “[...] his wrath is come [...]” (*King James Version*, Revelation 6:17), “[...] for the time is come for thee to reap [...]” (*King James Version*, Revelation 14:15). 	</p>
+                  <listBibl><bibl>*The Bible*, King James, Version, HarperCollins Christian Publishing, Inc., 1979.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#intratextuality">
+                  <p>The world that was once known is coming to a violent end; as seen in the line 3 “Things fall apart”, line 4 “Mere anarchy is loosed upon the world”, line 6 “The ceremony of innocence is drowned”. The world order is collapsing in every aspect, be it moral, political or cultural. However, with the end of the world, there is also a new beginning; a new era that will be born. This provides a hopeful note in the poem of a possible better new age that will come. The lines 9 and 10 of the poem point to something emerging from this destruction “Surely some revelation is at hand;/ Surely the Second Coming is at hand”. The new era is most likely to be one of irrational force, represented by “A shape with lion body and the head of a man, / A gaze blank and pitiless as the sun” (Lines 14,15). The shape is going to be born as told in the last two lines of the poem 21–22 “And what rough beast, its hour come round at last / Slouches towards Bethlehem to be born?”. In Christianity, Jesus Christ was born in Bethlehem, and now the beast will be born there too, reflecting Yeat’s idea of a new age coming- a second birth. This rough beast indicates the entering of the new era; however, it is left unsaid what the said beast will bring, having potential for both a better and worse era to come.
+
+Bethlehem is the birthplace of Jesus Christ in Christianity, mentioned in the poem in the line 22 “Slouches towards Bethlehem to be born?” (Yeats 187).</p>
+                  <listBibl><bibl>Yeats, W. B., and Richard J. Finneran. *The Collected Poems of W. B. Yeats Revised Second Edition*. New York: Simon and Schuster, 1996. </bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>The Second Coming is related to Judgment Day, when all souls will be judged by God. The Book of Revelation deals with the end of times before the return of Jesus Christ, describing the different stages of the end of the world. The Second Coming of Jesus Christ will happen as a way to set the world right, as the first coming of Jesus was a result of the world’s wrongdoings and the need for riddance of sin. This Second Coming of Jesus Christ and the apocalypse are closely tied together, since the second coming is both a reward for the faithful and a punishment for sinners, though it also brings a new creation, a new birth.
+
+In accordance with the Christian idea that the second coming is a reward for the faithful and punishment for the unfaithful, the fact that humanity is enduring the apocalyptic event presents humanity as unfaithful and deserving of punishment for their sins. If humanity was still faithful, they wouldn’t be living through the Second Coming which is actually their punishment. The Second Coming is a consequence of the world’s degeneration. This relates to the poem’s idea that one era is coming to an end and a new one being born out of its ruins.
+
+“Second birth” combined with the mention of Bethlehem in line 22 evokes the association with the virgin birth which was later reused in the poem “‘Leda and the Swan”’, in which there is mention of sexual violation by Zeus in the shape of a swan (Deane 179). Looking at the “‘rough beast”’ in line 21 reinforces the understanding of the change from birth to coming. The beast is not yet born, it is still in the process of coming to the point of birth after a violation of the order.</p>
+                  <listBibl><bibl>Deane, Seamus. *Strange Country: Modernity and Nationhood in Irish Writing since 1790*. Oxford University Press, 2006, p. 178-79.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#intratextuality">
+                  <p>While the Second Coming is regarded as a reward and a punishment for the faithful, Yeats uses apocalyptic imagery “blood-dimmed tide” (line 5), “anarchy loosed upon the world” (line 4), “rough beast” (line 21) to represent the Second Coming as the end of the world, neither punishment nor reward. Humanity has turned away from God and did not follow his teachings.</p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>The Second Coming further represents the end of an era of a civilization. In his work *A Vision*, Yeats explains how he sees the beginnings and endings of civilisations, represented by two gyres (cf [[widening-gyre]]). Through the gyres, Yeats explains his understanding of the world and history. The beginning of an era of history is represented by the beginning point of the gyre, and as time passes the gyre spins further away from the starting point. Half way through the first gyre, a new gyre begins. As the first gyre comes to an end, the second one rises and develops further. The second coming itself represents the second rising gyre. The poem addresses the end of one era, represented by the end stages of one gyre. 
+
+Furthermore, in his work *A Vision*, Yeats writes about the end of the Christian era after 2000 years and the rise of a new religion. Following his philosophy and view on history from A Vision, it is conclusive that the new religion will be the opposite to the Christian religion, the next “antithetical religion” (Mann 15).</p>
+                  <listBibl><bibl>Hühn, Peter. “14. W. B. Yeats: ‘The second coming.’” *The Narratological Analysis of Lyric Poetry*, 31 Dec. 2005, pp. 177–186, doi.org/10.1515/9783110897623.177. Accessed 18 June 2025.</bibl><bibl>Mann, Neil, et al. *W.B. Yeats’s A Vision: Explications and Contexts*. Clemson University Digital Press, 2012. Yeats, W. B. *Collected Poems*. Macmillan, 1950.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#context">
+                  <p>On a different note, Yeats lived during and after World War I and wrote the poem shortly after the end of WWI. In the then contemporary context, the Second Coming can be applied to the context of the First World War, with the apocalyptic images, violence and state of anarchy. Line 4 of the poem “mere anarchy is loosed upon the world”, line 5 “the blood-dimmed tide is loosed” and line 6 “the ceremony of innocence is drowned” all evoke war images of violence and battle (Yeats 187).</p>
+                  <listBibl><bibl>Yeats, W. B., and Richard J. Finneran. *The Collected Poems of W. B. Yeats Revised Second Edition*. New York: Simon and Schuster, 1996. </bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+          <annotation xml:id="ann-widening-gyre" from="#s-widening-gyre" to="#e-widening-gyre">
+            <respStmt><resp>annotator</resp><name>Irina Savić</name><name>Ilea Rahn</name></respStmt>
+            <date>2026-03-03</date>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#language">
+                  <p>The noun “gyre” expresses “[a] turning round, revolution, whirl; a circular or spiral turn” (“Gyre, *n.*”)</p>
+                  <listBibl><bibl>“Gyre, *n.*” Oxford English Dictionary, Oxford UP, June 2025, doi.org/10.1093/OED/6232189409. Accessed 28 September 2025.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="1">
+                <div type="category" ana="#textual-variants">
+                  <p>In the manuscripts, Yeats used the words “the wide gyre” [NLI 13,588 (14), 4r] (Yeats 155). This was later changed to the final version “the widening gyre”. The change from ‘wide’ to ‘widening’ indicates that the action is still in process and not yet finished. </p>
+                  <listBibl><bibl>Yeats, W. B. *Michael Robartes and the Dancer: Manuscript Materials.* Edited by Thomas Francis Parkinson and Anne Brannen, Cornell University Press, 1994.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#interpretation">
+                  <p>Yeats was concerned with the end of the Christian era after 2000 years of its existence. He explains this by using the gyre. The birth of the Christian era is the very centre of one gyre, and as time passes the gyre spins into wider circles (Yeats 15). The spinning of larger circles over time indicates the slow collapse of the Christian era, moving further and further away from the original teachings of its religion. The ending of the Christian era is catastrophic and the speaker uses images that allude to Christian view of the Apocalypse (“blood-dimmed tide” (l.5), “a shape with lion body and the head of a man” (l.14), “rough beast”(l.21)). In his work *A Vision*, Yeats describes the interaction of two gyres; as one moves towards its end, a second one is born and thus the cycle begins anew.</p>
+                  <listBibl><bibl>Yeats, W. B. *W. B. Yeats’s “A Vision”: Explications and Contexts*. Edited by Neil Mann et al., Liverpool University Press, 2012. JSTOR, www.jstor.org/stable/j.ctt1gn6dj6. Accessed 28 Sept. 2025.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#context">
+                  <p>WWI saw the collapse of the world order. Most of the world fell into a violent conflict resulting in a death toll and brutality never seen before. The gyre shows this exact collapse of the world order as it unravels further away from the centre that has been keeping it together. Yeats, like many of his contemporaries, was disillusioned by the Great War, seeing the pointlessness in the war and the dying of the young soldiers (Saurav 191). The war and needless death are another sign of the loss of world order. </p>
+                  
+                </div>
+              </div>
+            
+              <div type="level" n="2">
+                <div type="category" ana="#intertextuality">
+                  <p>The hawk (see [[the-falcon-cannot-hear-the-falconer]]) and his flight through the gyre may reference the Geryon from Dante’s “Inferno”: “In Cary’s translation Geryon moves in wheeling gyres: Of ample circuit, easy thy descent… / As falcon that hath long been on the wind / But lure nor bird hath seen, while in despair / The falconer cries ‘Ah me! Thou stoop’st to earth’.” (Jeffares 241, 142). Henry Francis Cary is the translator Jeffares mentions and using his translation, the movement in both figures is one of the gyre.</p>
+                  <listBibl><bibl>Jeffares, A. N. “Michael Robartes and the Dancer, the Second Coming.” *Commentary on the Collected Poems of W. B. Yeats*, Macmillan, London, UK, 1968.</bibl></listBibl>
+                </div>
+              </div>
+            
+              <div type="level" n="3">
+                <div type="category" ana="#interpretation">
+                  <p>The Geryon is a transitional creature that does not belong to one single circle of Hell, but rather exists between two. Its flight is a liminal moment. The flight of the hawk in the gyre can also be viewed as a similar kind of liminal moment – it is a transition between two circles and transition between two eras: the end of the Christian, the primary West and the birth and rise of the antithetical East (Nohrnberg 137).</p>
+                  <listBibl><bibl>Nohrnberg, James C. “The Descent of Geryon: The Moral System of Inferno XVI-XXXI.” *Dante Studies, with the Annual Report of the Dante Society*, no. 114, 1996, pp. 129–87. JSTOR, www.jstor.org/stable/40166599. Accessed 2 July 2025.</bibl></listBibl>
+                </div>
+              </div>
+            
+          </annotation>
+        
+      </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,21 @@
+{
+  "id": "fair",
+  "anchorText": "fair",
+  "anchorStart": 522,
+  "anchorEnd": 526,
+  "authors": [],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"Beautiful to the eye; of pleasing form or appearance; good-looking.\"",
+      "worksCited": [
+        "Weiner, E. S. C., and J. A. Simpson. *The Oxford English Dictionary*. 2nd ed. Oxford: Clarendon, \t1989. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:14:21.438Z",
+  "updatedAt": "2026-03-16T23:14:42.568Z"
+}

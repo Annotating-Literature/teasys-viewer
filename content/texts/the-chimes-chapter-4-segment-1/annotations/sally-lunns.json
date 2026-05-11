@@ -1,0 +1,31 @@
+{
+  "id": "sally-lunns",
+  "anchorText": "Sally Lunns.",
+  "anchorStart": 5656,
+  "anchorEnd": 5668,
+  "authors": [],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"Sally Lunns\" is an abbreviation for \"Sally Lunn buns\". It is a baked good, similar to the French brioche. Sally Lunns are yeast-raised, white wheat flour bread buns made with added egg and butter (\"Sally Lunns\").\n\nFor a picture see: http://www.sallylunns.co.uk/wp-content/uploads/2013/05/sallylunnbun1.jpg?2419e6",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "There are numerous theories about the origin of Sally Lunns. The most prominent theory is displayed by Sally Lunn's Historic Eating House, a teahouse, museum and the oldest house in Bath. According to them, the Sally Lunn bun was created by Huguenot refugee Solange Luyon who came to England in 1680 and was called Sally Lunn due to her new environment's mispronunciation of French. She found work in the kitchen of a bakery in Lilliput Alley where she created those special buns and sold them on the street. They became very popular in Georgian England and since then many bakers all over the world tried to replicate the original recipe. However, Sally Lunn's Historic Eating House is said to be the only one that bakes according to the original secret recipe (\"Meet Sally Lunn\").\n\nAnother theory claims that Sally Lunn Buns are an anglicised version of the French breakfast cake \"Solimemne\". In 1845, Eliza Acton, cook and author of \"Modern Cookery for Private Families\", refers to \"Solimemne - A rich French breakfast cake, or Sally Lunn\" (\"Sally Lunn\"). Yet, one more theory combines even both and speaks of an anonymous French baker, around 1775, who sold her special buns on the street of Bath. Through her cries \"solilem!\" she was called Sally Lunn (\"Sally Lunn\").\n\nThough the place of origin is known to be Bath, it is not possible to pinpoint the time in which Sally Lunns became common in England. However one of the earliest mentionings dates back to \"a poem printed in ʽThe Caledonian Mercuryʼ on 9 August 1776 which says of Dublin; ʽSally Lun and saffron cake are thereʼ\" (qtd. in \"Sally Lunn\"; \"William Preston\" 372). The Sally Lunn bun is often confused with the \"London Bath Bun\" (short: \"Bath Bun\") which was created in 1851 and is smaller, more doughy and sweeter in taste than a Sally Lunn (\"Meet Sally Lunn\").",
+      "worksCited": [
+        "Dickens, Charles. *A Christmas Carol and Other Christmas Books*. Ed. Robert Douglas-Fairhurst. Oxford: OUP, 2008. Print.",
+        " \"Meet Sally Lunn\". *Sally Lunn's Historic Eating House*. n.p. n.d. Web. 11 Dec. 2014. http://www.sallylunns.co.uk/history/meet-sally-lunn/",
+        " \"Sally Lunn\". *The Foods of England Project*. n.p. 19/07/2014. Web. 11 Dec. 2014. http://www.foodsofengland.co.uk/sallylunn.htm",
+        "„The Sally Lunn Bun\". *Photograph. Sally Lunn's Historic Eating House*. May 2013. Web. 11 May 2015.",
+        "\"William Preston (1753-1776-1844) from: An heroic Epistle from Donna Teresa Pinna ӱ Ruiz\". *Verse in English from Eighteenth-Ccentury Ireland*. Ed. Andrew Carpenter. Cork: Cork UP, 1998. 369-375. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-09T09:40:26.065Z",
+  "updatedAt": "2026-05-09T09:42:10.819Z"
+}

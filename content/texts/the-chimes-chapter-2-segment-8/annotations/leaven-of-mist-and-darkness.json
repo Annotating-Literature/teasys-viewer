@@ -1,0 +1,51 @@
+{
+  "id": "leaven-of-mist-and-darkness",
+  "anchorText": "leaven of mist and darkness",
+  "anchorStart": 2122,
+  "anchorEnd": 2149,
+  "authors": [
+    "Verena West",
+    "Marina Kirillova"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Usually \"leaven\" refers to \"a raising agent, e.g. yeast\" (\"leaven, *n*.\" 1.a.) or in a more general sense to \"any substance that produces (supposed) fermentation\" (\"leaven, *n*.\" 1.b.).\n\nTrotty describes the \"leaven\" to consist of the following features: \"The house-tops, [...] the smoking chimneys, [...] the blurr and blotch of lights\" which are \"kneaded up together in a leaven of mist and darkness\" (Dickens 124). This description indicates a figurative use of \"leaven\" here, such as \"a tinge or admixture (of some quality)\" (\"leaven, *n*.\" 2.a.). The leaven does not appear to be an active agent, but more so the product resulting from mixing the aforementioned aspects of the city.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhust, Oxford UP, 2008.",
+        "\"leaven, *n*.\". *Oxford English Dictionary*, Oxford University Press, July 2023, . Accessed 26 November 2023."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "Characterizing the houses and all that he sees as a \"leaven of mist and darkness\" can be interpreted as a reflection of the effects of industrialization on the city of London (Dickens 124).\n\nThere are multiple references to nineteenth-century London that mention the poor air quality and fog in the city, including Dickens' own descriptions. In \"Bleak House\" for example, \"the streets were so full of dense brown smoke that scarcely anything was to be seen\" (Flanders 204). Since, \"the population increased and coal fires spread [...] by the early 1830s,\" there was a massive \"dark smoke\" looming over the city on a regular basis (203). These fogs are mentioned in \"almost every description of London [...] from the start of the century\" and were often described as \"omnipresent\" (203).\n\nWhile the fog certainly refers to the \"mist\" Dickens describes, the mentioned \"darkness\" can also be attributed to the heavy smog across London, since \"it was most commonly the same shade as coal smoke\" (204). The air quality \"deteriorated through the century, so did the water\" and these effects of industrialization were even referred to as \"the London atmosphere\" (204). In this scene, Trotty indeed oversees the city from \"an arched window in the tower\" and observes \"the house-tops\" and \"the smoking chimneys\" which directly contribute to the visible air pollution (Dickens 124).",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhust, Oxford UP, 2008.",
+        "Flanders, Judith. *The Victorian City: Everyday Life in Dickens' London*. London: Atlantic Books, 2012."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Trotty ascends the church stairs until he stands at an \"arched window in the tower\", from which he is able to overlook what appears to him as the entire city. Toby's sight follows how the different aspects of the city landscape, such as the \"housetops\", \"smoking chimneys\" and \"blurr and blotch of the lights\" all contribute to one mass, which is described in terms of dough – \"kneaded together\" – and as \"leaven\" (Dickens 124).\n\nThe enumeration of the different aspects of the city characterizes these in a manner similar to a list of ingredients for a recipe. The description of a \"leaven of mist and darkness\" (124) indicates moreover the leaven of the city to be the result, the \"admixture\" (\"leaven, *n*.\" 2.a.) here and not the \"raising ingredient\"(\"leaven, *n*.\" 1.a.).\n\nThe \"leaven of mist and darkness\" (Dickens 124), in its literal meaning, as in the mist of the chimneys as well as the darkness of the winter night, signifies the indistinct mass of houses and dwellings that came with industrialization and resulted in the polluted atmosphere of the city.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhust, Oxford UP, 2008.",
+        "\"leaven, *n*.\". *Oxford English Dictionary*, Oxford University Press, July 2023, . Accessed 26  November 2023."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "Within *The Chimes* there is a recurring idea of a \"born bad\" (Dickens 102) nature of people. Throughout the story Trotty grapples with the idea that working class people are born bad and whether this only applies to the working class (see [[born-bad]], Level 2 – Interpretation]). While Trotty ultimately comes to the realization that poor people are not born bad and predestined to a certain life due to their \"bad\" nature, Trotty does not yet hold this sentiment in this particular scene. The perception of the man-made effects he observes, such as the smoke and air pollution, could contribute to his negative view of the people within the city. The leaven of \"mist and darkness\" may hence also indicate the dusty city as a negative result of human actions. It is therefore anything but a neutral description of the city landscape and instead casts a moral judgment over the actions of people, which negatively affect the air quality within the city.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhust, Oxford UP, 2008."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-08T10:16:05.406Z",
+  "updatedAt": "2026-05-08T10:19:16.312Z"
+}

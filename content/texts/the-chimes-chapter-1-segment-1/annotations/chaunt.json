@@ -1,0 +1,31 @@
+{
+  "id": "chaunt",
+  "anchorText": "chaunt",
+  "anchorStart": 2122,
+  "anchorEnd": 2128,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Another spelling of \"chant\", which means: \"To sing, warble. arch. or poet.\" (\"chant, v. 1. a.\").\n\nThe word also has religious connotations: \"To recite musically . . . to sing to a chant, as the Psalms, etc., in public worship\" (\"chant, v. 4.\").",
+      "worksCited": [
+        "\"chant, v.\" *OED Online*, OUP. Dec. 2013. Web. 18 Dec. 2013."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "As \"chaunt\" also has religious connotations, it is possible that the wind is imitating a priest singing psalms at the altar (cf. Dickens 87).",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*. Ed. Robert Douglas-Fairhurst. Oxford: OUP, 2008. 85-162. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-04T19:07:18.154Z",
+  "updatedAt": "2026-05-04T19:08:16.747Z"
+}

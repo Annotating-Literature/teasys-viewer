@@ -1,0 +1,39 @@
+{
+  "id": "nor-wester",
+  "anchorText": "Nor’ Wester",
+  "anchorStart": 4715,
+  "anchorEnd": 4726,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Saying \"Nor' Wester\" instead of \"North Wester\" when referring to wind coming from the north-west is traditionally associated with seamen (cf. Gerson 248).",
+      "worksCited": [
+        "Gerson, Stanley. *Sound and Symbol in the Dialogue of the Works of Charles Dickens*. Stockholm Studies in English 16. Stockholm et al.: Almqvist & Wiksell, 1967. Print."
+      ]
+    },
+    {
+      "level": 1,
+      "category": "context",
+      "body": "Wind from the north-west is usually said to be very strong (cf. \"north-wester, n.\" Def. 1).",
+      "worksCited": [
+        "\"north-wester, n.\" Def. 1. *OED Online*. OUP, Dec. 2016. Web. 22 January 2017."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "**1. Word Choice**\nIt is possible that the narrator uses a term that is associated with seamen because it is mentioned in the context of a woman thinking about her husband at sea.\n\n**2. Significance of this passage for *The Chimes***\nThe whole passage emphasises the benign (and possibly supernatural) qualities of the chimes: In order to console and encourage the despondent, they chime loud enough to drown even the noise of a \"blustering Nor' Wester\". Thus, the sound of the chimes is portrayed as having exceptional powers, as this wind is usually associated with a very strong gale (cf. \"north-wester, n.\" Def. 1). For further aspects relating to this power, see [[toby-veck]] (Level 2 - Interpretation and Level 3 - Interpretation).",
+      "worksCited": [
+        "\"north-wester, n.\" Def. 1. *OED Online*. OUP, Dec. 2016. Web. 22 January 2017."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-04T19:22:58.432Z",
+  "updatedAt": "2026-05-04T19:25:03.486Z"
+}

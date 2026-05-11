@@ -1,0 +1,32 @@
+{
+  "id": "cottage-ground",
+  "anchorText": "cottage-ground",
+  "anchorStart": 447,
+  "anchorEnd": 461,
+  "authors": [
+    "Sandra Wetzel",
+    "Pavlina Papadopoulou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "In the year 1798, when the poem was written, the region Wordsworth describes, was, in fact, an industrial one. However, he decides to disregard this fact throughout the poem, for the sake of his art and the particular poetics he pursued: according to Wu, the poet writes in the *Preface of Lyrical Ballads* that \"[l]ow and rustic life was generally chosen because in that condition the essential passions of the heart find a better soil in which they can attain their maturity, are less under restraint, and speak a plainer and more emphatic language\" (Wu 507).",
+      "worksCited": [
+        "Wu, Duncan, editor. *Romanticism: An Anthology*. 4th ed. Blackwell Anthologies, 2012."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "The poem takes the stance that humanity can coexist with nature and need not interfere with it in any significant way. Signs of human habitation, such as \"cottage-ground\" (v.11), seem to blend in with the landscape which is portrayed as unaffected by human presence. Wu summarizes this stance as follows: \"Wordsworth thought his work engaged fully with life as it was lived\" (Wu 23).",
+      "worksCited": [
+        "Wu, Duncan, editor. *Romanticism: An Anthology*. 4th ed. Blackwell Anthologies, 2012."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T16:55:28.744Z",
+  "updatedAt": "2026-03-16T16:57:52.069Z"
+}

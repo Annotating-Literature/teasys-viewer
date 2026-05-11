@@ -1,0 +1,40 @@
+{
+  "id": "the-cord-of-existence",
+  "anchorText": "the cord of existence",
+  "anchorStart": 465,
+  "anchorEnd": 486,
+  "authors": [
+    "Miriam Herberger",
+    "Marina Kirillova"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "context",
+      "body": "The phrase \"cord of existence\" refers to the idea of life being symbolized by a thread. This idea originates in ancient Greek mythology and revolves around three minor goddesses called the Fates or Moirai (ancient Greek *μοῖρα*; meaning \"lots, destinies\"). The Fates are in charge of observing the destiny of any mortal being, \"particularly with regard to the timing of their death\" (Hard 27). They are traditionally portrayed as weavers spinning the threads of mortal life. Each thread the Fates spin \"is or carries on it\" the destiny of one mortal being, and once a thread is cut the respective life is ended (Hard 28). While Homer only refers to the goddesses by the underspecified plural of the Fates, Hesiod and other later Greek writers mention their names as being Atropos, Klotho, and Lachesis, and even speak of a \"division of labour\" between them \"with Klotho spinning the thread, Lachesis determining its allotted length, and Atropos cutting it off pitilessly at the time of a person's death\" (Hard 28).",
+      "worksCited": [
+        "Hard, Robin. *The Routledge Handbook of Greek Mythology*. Routledge, 2004."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "Instead of simply referring to his death by using that word, Sir Joseph Bowley calls life \"the cord of existence\" and describes death as the breaking of it (Dickens 109). This choice of words alludes to the Fates of Greek mythology, who watch over the destiny of any person by spinning and cutting their threads of life. Sir Joseph's statement, thus, indicates him claiming that the class system and his high position in it are neither the results of coincidence, nor man-made inequality, but destined to be like this by a higher power (i.e. God, see [[ordained]] Level 2 – Interpretation). At the same time, he shows off his learning and thus pronounces a further claim to superiority.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, Oxford University Press, 2006."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "The exchange between Sir Joseph Bowley, Mr. Fish, and Toby, and especially Sir Joseph's choice of words, is used to characterize Sir Joseph. Sir Joseph, a \"stately gentleman\" (Dickens 109), belongs to the upper classes of society and thinks himself to be better than others because of that. This belief is mirrored by Sir Joseph's language which is marked by a preference for lofty diction and allusions to classical learning. Thus, Sir Joseph refuses the basic verb ‘cut,' which is supplied by his secretary Mr. Fish, in preference for the more sophisticated ‘sever' and alludes to Greek mythology by using the phrase \"the cord of existence\" to describe life and death (109).\n\nBefore Sir Joseph settles on the phrase ‘to sever the cord of existence' to describe death, his speech is halted by his search for words as indicated by his stuttering: \"So if death was to – to ––\" (109). Moreover, Sir Joseph reacts \"with great asperity\" to his secretary's attempts to help by proposing the simple ‘cut' (109). Both Sir Joseph's refusal to speak in plain English and his momentary inability to sound as highbrow as he would like to suggest a certain pretentiousness in his way of speaking. Dickens thus satirizes Sir Joseph as a member of the supposedly sophisticated upper-class who not only reveals his affectations in the way in which he acts, but also the underlying elitism and snobbism that cause him to act like that in the first place.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*, edited by Robert Douglas-Fairhurst, Oxford University Press, 2006."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-06T21:28:32.820Z",
+  "updatedAt": "2026-05-06T21:34:41.887Z"
+}

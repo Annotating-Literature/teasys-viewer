@@ -1,0 +1,23 @@
+{
+  "id": "em",
+  "anchorText": "’em",
+  "anchorStart": 1254,
+  "anchorEnd": 1257,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Unlike many of the other words used in this paragraph that deviate from standard spelling, \"'em\" is not an indicator of social status in Dickens. In his works, users of the colloquial \"‘em\" belong to \"all kinds of social classes\" (Gerson 251). Among other characters created by Dickens who often use \" ‘em\" are Sam Weller (*The Posthumous Papers of the Pickwick Club*), Tapley (*Martin Chuzzlewit*), Boffin (*Our Mutual Friend*), Blackpool and Bounderby (*Hard Times*) (cf. ibid.).",
+      "worksCited": [
+        "Gerson, Stanley. *Sound and Symbol in the Dialogue of the Works of Charles Dickens*. Stockolm et al. : Almqvist & Wiksell, 1967. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-07T18:35:31.789Z",
+  "updatedAt": "2026-05-07T18:36:16.068Z"
+}

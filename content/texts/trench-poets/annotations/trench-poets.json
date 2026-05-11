@@ -1,0 +1,51 @@
+{
+  "id": "trench-poets",
+  "anchorText": "Trench Poets",
+  "anchorStart": -12,
+  "anchorEnd": 0,
+  "authors": [
+    "Mirjam Haas",
+    "Susanne Riecker"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "The title \"Trench Poets\" is ambiguous. It can refer to soldier poets of the First World War who often wrote directly from the trenches, drawing on their experiences during the war. However, the title could also refer to the poets read \"within\" the trenches, here [[donne]] and Tennyson (cf. Level 3 Context [[maud]]), rather than referring to the poets \"of\" the trenches, i.e. Rickword.",
+      "worksCited": []
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "The term \"trench poets\" as a sub-group of \"war poets\" seems to have been developed instead of being coined by a specific person. The epithet \"trench poet\" probably originated in the fact that poetry by soldiers at the front often appeared in so-called trench newspapers, for instance the The Wipers Times, which was published by British soldiers (cf. Lee). The term is now used widely (see, for instance, the entry on \"War poets\" in the *Oxford Dictionary of National Biography*, or *The Short Story and the First World War* by Ann-Marie Einhaus).",
+      "worksCited": [
+        "Lee, Stuart. \"Trench Poetry.\" *University of Oxford*. 2013. Web. 29 Jan. 2015."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "context",
+      "body": "\"Trench poets\" was published in 1921 in a collection of Rickword's poetry called *Behind the Eyes*. Rickword wrote these poems after the war had ended, \"reflecting on the experience rather than writing directly out of the experience\" (see Schmidt/Young). Still, he had been a soldier and knew what he was writing about. He was a \"trench poet,\" a soldier poet of World War I (Lusty 201). The \"trench poets\" included mostly young, unknown poets like Sassoon, Owen and Rickword himself who could, through their personal experience, write about the horrors of war in an \"authentic voice\" (Lusty 199), picturing war with all its atrocities, and creating a counter-image to pro-war propaganda.",
+      "worksCited": [
+        "Lusty, Heather. \"Shaping The National Voice: Poetry Of WWI.\" *Journal Of Modern Literature* 30.1 (2006): 199-209. MLA International Bibliography. Web. 6 Jan. 2015.",
+        "Schmidt, Michael, and Allan Young. \"A Conversation with Edgell Rickword.\" *Poetry Magazines*. Web. 8 Jan 2015."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "intertextuality",
+      "body": "The poets alluded to in the text are John [[donne]] and Alfred Tennyson (cf. Level 3 Context [[maud]]). In Donne's Elegy \"The Autumnal,\" he mentions trenches in relation to lovers (link to Luminarium): \"Yet lies not Love dead here, but here doth sit, / Vow'd to this trench, like an anachorite\" (15-16).",
+      "worksCited": []
+    },
+    {
+      "level": 3,
+      "category": "intratextuality",
+      "body": "One might read the title \"Trench Poets\" as self-referential to the speaker and his [[chum]] in the poem. What they have in common, apart from being soldiers, is possibly that they are both poets. In the last line, the speaker says that \"rats ate his thumbs\" (24), indicating that the chum's ability to write has been taken away. If we accept this line of reasoning, the speaker and chum in the poem might relate to war poets in general, of which some survived the war (e.g. Rickword and Siegfried Sassoon) whereas others did not (e.g. Wilfred Owen).",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-20T21:26:13.485Z",
+  "updatedAt": "2026-03-20T21:34:14.798Z"
+}

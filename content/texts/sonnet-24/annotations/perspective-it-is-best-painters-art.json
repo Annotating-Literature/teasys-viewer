@@ -1,0 +1,44 @@
+{
+  "id": "perspective-it-is-best-painters-art",
+  "anchorText": "perspective it is best painter's art",
+  "anchorStart": 138,
+  "anchorEnd": 174,
+  "authors": [
+    "Natalia Christoforou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "\"Perspective\" can have several different meanings. In the seventeenth century, it was a term for the \"science of optics\" (*OED* †1) formulated by Euclid. In the context of painting, a ‘perspective' can be \"[a] picture drawn or painted according to the rules of perspective\" (3b) or, on the contrary, \"[a] picture or figure designed to appear distorted or confused except when viewed from a certain position\" (2b). Etymologically, it is composed of the latin ‘per' (=through) and ‘specere' (=look at) (Vendler 142; cf. (*OED* †II)).\n\nThis line has been syntactically quite puzzling for the modern reader. The referential ambiguity of \"it\" can only be resolved if we decide on whether \"perspective\" is used here as a noun or an adverb. Reading it as a noun, the ‘it' in the sentence would refer back to ‘perspective' and, even though grammatically correct for Elizabethan ears (Mead 241), it would practically be superfluous. Reading it as an adjective (also acceptable in Elizabethan grammar (Booth 173n4)), the ‘it' would refer to the picture of \"thy beauty's form\" (l. 2).",
+      "worksCited": [
+        "\"perspective, n.\". *OED Online*, Oxford University Press, December 2018, www.oed.com/view/Entry/141520. Accessed January 2019.",
+        "Vendler, Helen. *The Art of Shakespeare's Sonnets*. Belknap, 1997."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "The mathematician Euclid attempted to explain the mechanics of vision in terms of geometry. He introduced the concept of a \"visual pyramid\", the apex of which was envisioned in the eye and the base in the perceived object (Gilman 16).\n\nBased on these Euclidean optics, Leon Battista Alberti developed in the fifteenth century a model of \"prospectiva pingendi\" or \"prospectiva artificialis\" (Gilman 16f). In his treatise *Della Pittura*, he presented his idea of applying those same geometrical rules in pictorial representation in order to manipulate the viewer's perception and create the illusion of depth. Painting according to Alberti's rigid laws of perspective came to be known as \"costruzione leggitima\" (Gilman 17).\n\nThe growing interest in the art of linear perspective triggered also an interest in the opposite direction. The unveiling of the mathematics of art offered a range of possibilities and enabled experimentation that drifted away from realistic depiction. An ‘anamorphosis', for example, was a \"systematically distorted\" image that revealed its realistic proportions only when viewed from a particular point of view (Gilman 36). Shakespeare seems to have been familiar with this kind of anamorphotic art, as this passage from *Richard II* reveals:\n\n\"Each substance of a grief hath twenty shadows\nWhich shows like grief itself but is not so,\nFor sorrow's eyes, glazèd with blinding tears,\nDivides one thing entire to many objects,\nLike perspectives, which rightly gazed upon\nShow nothing but confusion; eyed awry\nDistinguish form\" (II.ii.14-20).",
+      "worksCited": [
+        "Gilman, Ernest B. *The Curious Perspective: Literary and Pictorial Wit in the Seventeenth Century*. Yale University Press, 1978.",
+        "Shakespeare, William. *King Richard II*. Ed. Andrew Gurr, The New Cambridge Shakespeare, Cambridge University Press, 2003."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "The polysemy of the word ‘perspective' and the referential ambiguity of ‘it' in this phrase allow for an array of different interpretations: (1) the knowledge of optics and the art of creating the illusion of depth is a skill needed by the best of painters; (2) drawing a picture (a) according to the laws of linear perspective or (b) in anamorphic perspective is a skill only the best painters possess; (3) when seen ‘perspectively', the picture is the best a painter can make (cf. Booth 173n4; Evans 137n4).\n\nPictures drawn in linear or in anamorphic perspective both rely on illusion, the latter one maybe more obviously so than the former. Linear perspective makes use of the science of optics and the laws of geometry to create a sense of depth and distance for the viewer standing in front of the two-dimensional surface. Anamorphic perspective demands from the viewer to adjust their point of view in order to make sense of the pictorial composition. To see a thing perspectively or \"\"in perspective\" is to see it from the proper vantage point, at a sufficient distance to make it fully manifest or properly set in its context, to see it clearly, unambiguously, in short, truly\" (Gilman 29). The latter possibility would also prepare for the etymological play with perspective – per-specere – see through – \"through the painter must you see\" (l. 5) (cf. Vendler 142). The painter's ideal skill for the sonnet's speaker is to be able to deceive the eye and make the viewer believe they are looking at the perfect picture from where they are standing at, cunningly distracting from the fact that even the most perfectly executed reproduction will always be falling short from \"know[ing] […] the heart\" (l. 14).",
+      "worksCited": [
+        "Booth, Stephen (ed.). *Shakespeare's Sonnets*. Yale University Press, 1977.",
+        "Evans, G. Blakemore (ed.). *The Sonnets*. The New Cambridge Shakespeare, Cambridge University Press, 2006.",
+        "Mead, Stephen X. \"Shakespeare's Play with Perspective: Sonnet 24, Hamlet, Lear\". *Studies in Philology* 109.3, Spring 2012, pp. 225-257. *EBSCOhost*, doi: 10.1353/sip.2012.0021 Titel anhand dieser DOI in Citavi-Projekt übernehmen. Accessed March 2017.",
+        "Vendler, Helen. *The Art of Shakespeare's Sonnets*. Belknap, 1997."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-18T14:38:28.216Z",
+  "updatedAt": "2026-03-18T14:41:37.240Z"
+}

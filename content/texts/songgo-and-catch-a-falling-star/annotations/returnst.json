@@ -1,0 +1,19 @@
+{
+  "id": "returnst",
+  "anchorText": "return’st",
+  "anchorStart": 410,
+  "anchorEnd": 419,
+  "authors": [],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Second person singular of the verb \"return\" in the present tense.",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-16T23:12:34.786Z",
+  "updatedAt": "2026-03-16T23:12:46.904Z"
+}

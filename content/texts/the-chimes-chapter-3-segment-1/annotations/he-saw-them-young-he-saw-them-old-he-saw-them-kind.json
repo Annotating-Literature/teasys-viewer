@@ -1,0 +1,19 @@
+{
+  "id": "he-saw-them-young-he-saw-them-old-he-saw-them-kind",
+  "anchorText": "He saw them young, he saw them old, he saw them kind, he saw them cruel",
+  "anchorStart": 1862,
+  "anchorEnd": 1933,
+  "authors": [],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "form",
+      "body": "In this passage, Dickens again employs a specific speech rhythm:\n\nHe saw them young, he saw them old,\n o    B      o        B       o    B      o    B\n\nhe saw them kind, he saw them cruel,\no    B      o       B      o    B    o      B [o]\n\nFor further examples of this rhythm in *The Chimes* see [Links einfügen].",
+      "worksCited": []
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-08T15:17:08.839Z",
+  "updatedAt": "2026-05-08T15:17:49.935Z"
+}

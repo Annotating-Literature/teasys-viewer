@@ -1,0 +1,44 @@
+{
+  "id": "thy-shadows-form",
+  "anchorText": "thy shadow’s form",
+  "anchorStart": 253,
+  "anchorEnd": 270,
+  "authors": [
+    "Natalia Christoforou"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "‘Form' may generally refer to the visible shape of something (*OED* 1a), or, more specifically, to a bodily frame \"considered in respect to its outward shape and appearance\" (*OED* 3). In the seventeenth century, the term could also be used to refer not only to a material body, but also to \"an image, representation, or likeness\" thereof (*OED* †2). In Platonic philosophy, a form is the ideal state of a thing or a concept (cf. Bruce n.pag.; *OED* 4a).",
+      "worksCited": [
+        "Bruce, Ian. \"Plato's Theory of Forms\". *ccs.neu.edu*, Northeastern University - College of Computer and Information Science, 1998.",
+        "\"form, n.\". *OED Online*. Oxford UP, June 2017. "
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "The distinction between shadow and form was quite popular in the Renaissance as Platonic thought was re-discovered and re-interpreted at the time. Plato's theory of forms, evoked in a number of his works, assumes that there is a world or a dimension beyond human reality that contains \"the ideal or archetypal forms of all things and concepts\" (Bruce n.pag.). In Book 7 of *The Republic*, Plato elaborates on this idea and comes up with an allegory known as ‘the allegory of the cave'. According to this conception, human beings are inhabiting a cave and what they perceive as their immediate reality is just a shadow of the outside world reflected on the illuminated walls of their confined abode. The cave represents the world of senses and the outside represents the world of forms. It is only through \"true knowledge\" achieved by philosophical contemplation that one can \"[perceive] the forms directly, with [one's] mind's eye\" (Bruce n.pag.).\n\nIn Neoplatonic thought, the notion of contemplation is broadened to include the intense contemplation of sensible things, such as a \"person of rare beauty\", which would then lead the way up to the world of forms (Jones 10). Under these premises, imagining or dreaming about a beloved constituted \"the first step towards a higher form of love\" (Wickert 283, my translation).",
+      "worksCited": [
+        "Bruce, Ian. \"Plato's Theory of Forms\". *ccs.neu.edu*, Northeastern University - College of Computer and Information Science, 1998.",
+        "Jones, Thomas O. *The Influence of Marsilio Ficino (1433-1494) on Elizabethan Literature: Christopher Marlowe and William Shakespeare*. Vol. 1, Edwin Mellen P, 2013. eBook Collection. ",
+        "Wickert, Maria. \"Das Schattenmotiv bei Shakespeare\". *Anglia: Zeitschrift für englische Philologie*, N.F. 59=71, 1952/3, pp. 274-309. DigiZeitschriften."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "‘Form' in this phrase is ambiguous. On the one hand, it could refer either to the shape of the addressee's actual shadow in the literal sense, or to the outline of the shadow image appearing in the speaker's dream. On the other hand, ‘form' could refer to the original substantial body of the addressee of which the shadow is but a reflection.\n\nThe latter interpretation is favoured both by Evans (\"your real, physical shape (‘form') which produces this mental image (‘shadow')\" (144n6)) and by Booth (\"the model for the image, the reality of which the shadow is an image, body, self\" (204n6)). Similarly, Catherine Duncan-Jones paraphrases \"thy shadow's form\" (l. 6) as \"the substance behind your imagined image\" (196n6), yet ‘substance' itself is an ambiguous term. Substance could either refer to the physical \"material of which a body is formed\" (*OED* 7a), as Booth and Evans suggest, or it could refer to the immaterial \"essence of a thing\" (*OED* 6b) that could be associated with the Platonic form.\n\nDuncan-Jones, perhaps undeliberately, identifies this inherent ambiguity of the word ‘form' that becomes even more complicated when combined with the ambiguous ‘shadow'. While the context of the \"clear day\" (l. 7) suggests that \"thy shadow's form\" (l. 5) most probably refers to the addressee's real bodily presence, the Neoplatonic context still implies that this presence could be compared to a Platonic ideal.",
+      "worksCited": [
+        "Booth, Stephen (ed.). *Shakespeare's Sonnets*. Yale UP, 1977.",
+        "Duncan-Jones, Katherine (ed.). *Shakespeare's Sonnets*. The Arden Shakespeare, Third Series (Rev. ed.), Bloomsbury, 2010.",
+        "Evans, G. Blakemore (ed.). *The Sonnets*. The New Cambridge Shakespeare, Cambridge UP, 2006."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-03-17T10:27:09.836Z",
+  "updatedAt": "2026-03-17T10:30:40.528Z"
+}

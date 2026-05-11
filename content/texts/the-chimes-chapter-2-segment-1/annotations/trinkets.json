@@ -1,0 +1,23 @@
+{
+  "id": "trinkets",
+  "anchorText": "trinkets",
+  "anchorStart": 2758,
+  "anchorEnd": 2766,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "In Dickens's time, the world had several meanings, but in this context it most likely means \"[a] small ornament or fancy article, usually an article of jewellery for personal adornment\" (\"trinket, n.1.\").",
+      "worksCited": [
+        "\"trinket, n.1\" Def. 2. *OED Online*, OUP. Sep. 2013. Web. 14 Nov. 2013."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-06T21:21:40.088Z",
+  "updatedAt": "2026-05-06T21:22:05.272Z"
+}

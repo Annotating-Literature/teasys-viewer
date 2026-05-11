@@ -1,0 +1,23 @@
+{
+  "id": "steeple",
+  "anchorText": "steeple",
+  "anchorStart": 2445,
+  "anchorEnd": 2452,
+  "authors": [
+    "Svenja Brank"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "A steeple is a tower that is on top of a religious building, such as churches or temples. The steeple usually contains the bells of the church (cf. \"steeple, *n*.1\" 2.a.).",
+      "worksCited": [
+        "\"steeple, *n*.1\" *OED Online*, Oxford University Press, June 2021,\nwww.oed.com/view/Entry/189597. Accessed 7 June 2021"
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-04T19:19:50.453Z",
+  "updatedAt": "2026-05-04T19:20:30.779Z"
+}

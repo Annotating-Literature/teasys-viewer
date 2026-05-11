@@ -1,0 +1,50 @@
+{
+  "id": "pinking-and-eyelet-holing",
+  "anchorText": "pinking and eyelet-holing",
+  "anchorStart": 1747,
+  "anchorEnd": 1772,
+  "authors": [
+    "Miriam Lahrsow"
+  ],
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "category": "language",
+      "body": "Both of these words refer to the decorating of leather or cloth; ‘to pink' means to \"cut a scalloped or zigzag edge on (a piece of fabric)\" (\"pink, v.1.\"). In this context, ‘eyelet' means a small round hole \"worked for decorative effect in a piece of embroidery, knitting, etc.\" (\"eyelet n.1. a.\").\n\nPhotograph of a pinked pincushion. Victoria and Albert Museum: http://collections.vam.ac.uk/item/O166264/pin-cushion-unknown/#",
+      "worksCited": [
+        "\"eyelet, n.\" *OED Online*. OUP, September 2014. Web. 1 October 2014.",
+        "\"pink, v.1.\" *OED Online*. OUP, Dec. 2015. Web. 23 Jan. 2016."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "context",
+      "body": "In Dickens's time, needlework such as pinking and eyelet-holing was only done by women (cf. Kortsch 30-31). The only exceptions were professional tailors, which were usually male (cf. Kortsch 31). Furthermore, fancy sewing such as pinking and eyelet-holing (i.e. sewing that was not functional but decorative) was primarily done by upper-class women, while middle- and lower-class women were mostly concerned with plain sewing (e.g. \"constructing garments, mending, and darning\") (Kortsch 6; cf. 31).\n\nThus, Lady Bowley tries to make lower-class men and boys adopt the employment of upper-class women and girls.",
+      "worksCited": [
+        "Kortsch, Christine Bayles. *Dress Culture in Late Victorian Women's Fiction. Literacy, Textiles, and Activism*. London and New York: Routledge, 2016. Print."
+      ]
+    },
+    {
+      "level": 2,
+      "category": "interpretation",
+      "body": "It was mostly upper-class women who produced needlework that was decorative (like pinking and eyelet holing) rather than functional (cf. Kortsch 6; 31). Thus, contemporary readers would have been highly amused at the idea of male rural workers and boys performing the task of upper-class women and girls.\n\nWill Fern shows the same reaction: He objects that he is no \"great girl\" and makes clear that, unlike Lady Bowley, he does not consider pinking and eyelet holing a \"nice evening employment\" for boys and men (Dickens 112). This passage demonstrates how little Lady Bowley understands of the needs of poor people like Will Fern [link to Lady Bowely's song annotation Level 1 – Interpretation]. It is possible that she already expected some kind of opposition from the village men and boys, as she makes them sing a song while working that starts with the line \"O let us love our occupations\" (Dickens 112)\n\nLady Bowley's misguided charitable activities run contrary to what Dickens himself advised: Paupers' children should get a \"sound ‘industrial' training\", which would later help them to find a job and prevent them from remaining poor throughout their life (Collins 81). Thus, for boys it would have been much more helpful and practical to be introduced to farming or a trade than doing needlework (cf. Collins 81).",
+      "worksCited": [
+        "Collins, Philip. *Dickens and Education*. London: Macmillan, 1964. Print.",
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*. Ed. Robert Douglas-Fairhurst. Oxford: OUP, 2008. 85-162. Print.",
+        "Kortsch, Christine Bayles. *Dress Culture in Late Victorian Women's Fiction. Literacy, Textiles, and Activism*. London and New York: Routledge, 2016. Print."
+      ]
+    },
+    {
+      "level": 3,
+      "category": "interpretation",
+      "body": "Lady Bowley's attempt to get men and boys interested in needlework is only one example of how The Chimes satirises the rich characters' misguided attempts to understand and improve the living conditions of the lower classes. Throughout the story, Alderman Cute, Joseph Bowley, and Lady Bowley are presented as patronising the poor and ignorant of their real problems and needs. Furthermore, all three of them are shown to act from ulterior motives rather than from wanting to help the poor.\n\nLady Bowley does not only try to force her idea of a \"nice evening employment\" on others, but she also supports a voting charity for her own \"excitement\" rather than for supporting those in need (Dickens 112; 110).\n\nAlderman Cute often behaves very condescendingly towards his inferiors. He believes that there \"is not the least mystery or difficulty in dealing with this sort of people\" and he explains to Toby that he must not tell him that he has not enough to eat, \"because I know better\" (Dickens 102). Cute also claims that it is his \"place to give advice\" to Meg, because he is a [[justice]] (Dickens 104).\n\nSir Joseph even goes a step further and asserts: \"You [Toby] needn't trouble yourself to think about anything. I will think for you; I know what is good for you; I am your perpetual parent (see [[paternalism]])\" (111).\n\nAlderman Cute and the Bowleys never try to learn anything about the actual living conditions of the poor. The three are convinced that they know everything about the lower classes and that they have to put their own views into practice, no matter how unhelpful or even harmful they may be to those in need. Their charitable work is not driven by benevolence and compassion, rather, they see it as a way to assert their own superiority.",
+      "worksCited": [
+        "Dickens, Charles. \"The Chimes.\" *A Christmas Carol and Other Christmas Books*. Ed. Robert Douglas-Fairhurst. Oxford: OUP, 2008. 85-162. Print."
+      ]
+    }
+  ],
+  "crossRefs": [],
+  "createdAt": "2026-05-07T15:06:43.454Z",
+  "updatedAt": "2026-05-07T15:10:11.622Z"
+}

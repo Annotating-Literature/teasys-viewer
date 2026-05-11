@@ -38,7 +38,6 @@
 		"@types/uuid": "^10.0.0",
 		"autoprefixer": "^10.4.27",
 		"marked": "^17.0.3",
-		"node-addon-api": "^8.7.0",
 		"postcss": "^8.5.6",
 		"svelte": "^5.51.0",
 		"svelte-check": "^4.4.2",

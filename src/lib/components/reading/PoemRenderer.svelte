@@ -21,7 +21,7 @@
     <div class="mb-10">
         {#if poem.title !== "Untitled"}
             <h2
-                class="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-6"
+                class="text-2xl font-semibold text-gray-900 mb-6"
             >
                 {#if poem.titleStart !== undefined && poem.titleEnd !== undefined}
                     {#each getSegmentsForRange(poem.titleStart, poem.titleEnd) as segment}

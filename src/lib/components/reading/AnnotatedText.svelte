@@ -69,7 +69,7 @@
 		</div>
 	</div>
 {:else}
-	<div class="text-lg leading-loose text-gray-800">
+	<div class="text-lg md:text-xl leading-[1.8] text-gray-800 text-pretty">
 		{#if title}
 			<h2
 				class="text-2xl font-semibold text-gray-900 mb-6 font-serif cursor-pointer rounded-sm px-1"

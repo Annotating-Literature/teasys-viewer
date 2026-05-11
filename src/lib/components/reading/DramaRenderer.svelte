@@ -35,7 +35,7 @@
         {#each act.scenes as scene}
             <div class="mb-6">
                 <h3
-                    class="text-xl font-medium text-gray-800 dark:text-gray-100 mb-4"
+                    class="text-xl font-medium text-gray-800 mb-4"
                 >
                     {#if scene.titleStart !== undefined && scene.titleEnd !== undefined}
                         {#each getSegmentsForRange(scene.titleStart, scene.titleEnd) as segment}
@@ -65,7 +65,7 @@
                             </div>
                             <p>
                                 <strong
-                                    class="font-bold text-gray-600 dark:text-gray-300 text-m font-sans uppercase tracking-wide"
+                                    class="font-bold text-gray-600 text-m font-sans uppercase tracking-wide"
                                     >{block.speaker}:</strong
                                 >
                                 <span class="ml-2">

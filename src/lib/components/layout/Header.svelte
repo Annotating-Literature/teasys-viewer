@@ -102,9 +102,9 @@
 						>
 					</div>
 					<span
-						class="text-lg font-semibold text-gray-900 dark:text-gray-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors"
+						class="text-lg font-semibold text-gray-900 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors"
 					>
-						TEASys<span class="text-gray-500 dark:text-gray-400 font-normal"
+						TEASys<span class="text-gray-500 font-normal"
 							>Viewer</span
 						>
 					</span>
@@ -119,13 +119,13 @@
 								onclick={(e) => toggleDropdown(item.label, e)}
 								aria-expanded={activeDropdown === item.label}
 								aria-haspopup="true"
-								class="text-[15px] font-serif font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors py-2 flex items-center gap-1"
+								class="text-[15px] font-serif font-medium text-gray-600 hover:text-gray-900 dark:hover:text-white transition-colors py-2 flex items-center gap-1"
 							>
 								{item.label}
 								<svg
 									class="w-3.5 h-3.5 text-gray-400 transition-transform {activeDropdown ===
 									item.label
-										? 'rotate-180 text-gray-600 dark:text-gray-200'
+										? 'rotate-180 text-gray-600'
 										: ''}"
 									fill="none"
 									viewBox="0 0 24 24"
@@ -150,7 +150,7 @@
 										{/if}
 										<a
 											href={child.href}
-											class="block px-4 py-2.5 text-[14px] font-serif font-medium text-gray-600 dark:text-gray-300 hover:bg-primary-50 dark:hover:bg-primary-900/30 hover:text-gray-900 dark:hover:text-white transition-colors border-b border-gray-50 dark:border-white/5 last:border-0"
+											class="block px-4 py-2.5 text-[14px] font-serif font-medium text-gray-600 hover:bg-primary-50 dark:hover:bg-primary-900/30 hover:text-gray-900 dark:hover:text-white transition-colors border-b border-gray-50 dark:border-white/5 last:border-0"
 											onclick={() =>
 												(activeDropdown = null)}
 											>{child.label}</a
@@ -162,7 +162,7 @@
 					{:else}
 						<a
 							href={item.href}
-							class="text-[15px] font-serif font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors py-2"
+							class="text-[15px] font-serif font-medium text-gray-600 hover:text-gray-900 dark:hover:text-white transition-colors py-2"
 						>
 							{item.label}
 						</a>

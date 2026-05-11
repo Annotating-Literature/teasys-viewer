@@ -1,7 +1,11 @@
 <script lang="ts">
 	import ThemeToggle from "./ThemeToggle.svelte";
 	import { MAIN_NAV, type NavItem } from "$lib/config/navigation";
+	import { SITE } from "$lib/config/site";
 	import { focusTrap } from "$lib/actions/focusTrap";
+
+	const [namePrimary, ...nameRest] = SITE.name.split(' ');
+	const nameSecondary = nameRest.join(' ');
 	import type { PageMetadata } from "$lib/types/page";
 
 	let { user, availableTypes = [], pages = [] } = $props<{
@@ -93,20 +97,22 @@
 		<div class="flex justify-between items-center h-16">
 			<div class="shrink-0 flex items-center gap-3">
 				<a href="/" class="flex items-center gap-2 group">
-					<div
-						class="w-8 h-8 rounded-lg bg-linear-to-br from-primary-500 to-primary-700 flex items-center justify-center shadow-sm text-white"
-					>
-						<span
-							class="text-white font-serif text-xl font-bold leading-none"
-							>Θ</span
+					{#if SITE.logoImage}
+						<img src={SITE.logoImage} alt="{SITE.name} logo" class="w-8 h-8 object-contain" />
+					{:else}
+						<div
+							class="w-8 h-8 rounded-lg bg-linear-to-br from-primary-500 to-primary-700 flex items-center justify-center shadow-sm text-white"
 						>
-					</div>
+							<span
+								class="text-white font-serif text-xl font-bold leading-none"
+								>{SITE.logoMark}</span
+							>
+						</div>
+					{/if}
 					<span
 						class="text-lg font-semibold text-gray-900 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors"
 					>
-						TEASys<span class="text-gray-500 font-normal"
-							>Viewer</span
-						>
+						{namePrimary}{#if nameSecondary}<span class="text-gray-500 font-normal">{nameSecondary}</span>{/if}
 					</span>
 				</a>
 			</div>

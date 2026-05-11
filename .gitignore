@@ -22,11 +22,15 @@ Thumbs.db
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
-# Local dev databases (Wrangler D1 emulation + any local SQLite files)
+# Local dev databases (Wrangler D1 emulation + local SQLite files)
 data/
 
-# Dev artifacts
-dev.log
+# Temp / generated files
+migration-data.sql
+.tmp-sync-up.sql
+*.log
+logs/
 
-# VS Code
-.vscode/
+# Backup archives
+*.zip
+*.tar.gz

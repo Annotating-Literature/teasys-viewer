@@ -27,3 +27,6 @@ data/
 
 # Dev artifacts
 dev.log
+
+# VS Code
+.vscode/

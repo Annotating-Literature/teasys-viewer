@@ -20,7 +20,7 @@
 		jsonLd?: Record<string, unknown> | null;
 	} = $props();
 
-	const fullTitle = title ? `${title} — ${SITE.name}` : SITE.name;
+	const fullTitle = $derived(title ? `${title} — ${SITE.name}` : SITE.name);
 	const canonicalUrl = $derived(
 		SITE.siteUrl ? `${SITE.siteUrl}${canonical || $page.url.pathname}` : ''
 	);

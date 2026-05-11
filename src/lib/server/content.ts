@@ -85,7 +85,9 @@ export async function getText(db: D1Database, textId: string): Promise<{ metadat
 	if (!isValidSlug(textId)) throw new Error('Invalid text ID');
 	const row = await db.prepare('SELECT * FROM texts WHERE id = ?').bind(textId).first<TextRow>();
 	if (!row) throw new Error('Text not found');
-	return { metadata: rowToMetadata(row), rawText: row.raw_text };
+	// Normalize line endings to prevent offset drift with browser DOM selections
+	const rawText = row.raw_text ? row.raw_text.replace(/\r/g, '') : '';
+	return { metadata: rowToMetadata(row), rawText };
 }
 
 export async function getAnnotationCount(db: D1Database, textId: string): Promise<number> {
@@ -168,8 +170,9 @@ export async function saveTextMetadata(db: D1Database, metadata: TextMetadata): 
 
 export async function saveTextContent(db: D1Database, textId: string, text: string): Promise<void> {
 	if (!isValidSlug(textId)) throw new Error('Invalid text ID');
+	const normalizedText = text.replace(/\r/g, '');
 	await db.prepare('UPDATE texts SET raw_text = ?, updated_at = ? WHERE id = ?')
-		.bind(text, new Date().toISOString(), textId).run();
+		.bind(normalizedText, new Date().toISOString(), textId).run();
 }
 
 // --- Author Profiles ---

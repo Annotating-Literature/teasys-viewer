@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { untrack } from "svelte";
 	import type { Annotation, AnnotationLevel } from "$lib/types/annotation";
 	import LevelEditor from "./LevelEditor.svelte";
 
@@ -28,7 +29,7 @@
 		onCancel,
 	}: Props = $props();
 
-	let formData = $state<Annotation>(JSON.parse(JSON.stringify(annotation)));
+	let formData = $state<Annotation>(untrack(() => JSON.parse(JSON.stringify(annotation))));
 	let activeLevelIndex = $state(0);
 	let newAuthorInput = $state("");
 
@@ -77,7 +78,7 @@
 <div class="space-y-5">
 	<!-- Authors -->
 	<div>
-		<label class="block text[13px] font-medium text-gray-600 mb-1"
+		<label for="authors-input" class="block text[13px] font-medium text-gray-600 mb-1"
 			>Authors</label
 		>
 		<div class="flex flex-wrap gap-1.5 mb-2">
@@ -95,6 +96,7 @@
 		</div>
 		<div class="flex gap-2">
 			<input
+				id="authors-input"
 				type="text"
 				list="author-suggestions"
 				class="flex-1 px-3 py-2 text-m border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all placeholder:text-gray-500"

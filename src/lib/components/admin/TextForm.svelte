@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { invalidateAll } from "$app/navigation";
 	let {
 		existingCategories = [],
 		collections = [],
@@ -30,13 +31,13 @@
 			if (!res.ok) {
 				const body = await res
 					.json()
-					.catch(() => ({ error: "Unknown error" }));
-				throw new Error(body.error || "Failed to create text");
+					.catch(() => ({ error: "Unknown error" })) as any;
+				throw new Error(body?.error || "Failed to create text");
 			}
 
 			form.reset();
 			categoryValue = "";
-			window.location.reload();
+			invalidateAll();
 		} catch (err) {
 			error =
 				err instanceof Error ? err.message : "Failed to create text";

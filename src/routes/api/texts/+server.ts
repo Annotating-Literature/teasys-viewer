@@ -20,7 +20,7 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 	const year = Number(data.get('year'));
 	const category = data.get('category') as string;
 	const type = data.get('type') as 'poetry' | 'prose' | 'drama' | 'collection';
-	const textContent = (data.get('textContent') as string) || '';
+	const textContent = ((data.get('textContent') as string) || '').replace(/\r/g, '');
 	const parentId = data.get('parentId') as string | null;
 	const order = Number(data.get('order'));
 

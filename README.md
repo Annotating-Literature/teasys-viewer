@@ -1,6 +1,6 @@
 # TEASys Viewer
 
-A web application for reading and annotating literary texts with multi-level scholarly annotations. Built for the [TEASys](https://teasys.de) (Teaching and Exploring Annotated Structures) project.
+A web application for reading and annotating literary texts with multi-level scholarly annotations. Built for the [TEASys](https://annotating-literature.org) (Teaching and Exploring Annotated Structures) project.
 
 Supports two deployment targets:
 - **Cloudflare Pages + D1 + R2** (recommended)
@@ -230,6 +230,6 @@ You are free to use, modify, and redistribute this software, including for comme
 1. The copyright notice and licence text are included in all copies.
 2. Any publicly accessible deployment displays a visible link to the original repository ([https://github.com/noc-tae/teasys-viewer](https://github.com/noc-tae/teasys-viewer)) — for example in the footer, about page, or attribution page.
 
-The `/attribution` route (linked from the footer) satisfies condition 2 out of the box. Do not remove it.
+The `/attribution` route (linked from the footer) satisfies condition 2 out of the box. Do not remove it without adding another way to comply with condition 2.
 
 See [`LICENSE`](./LICENSE) for the full text.

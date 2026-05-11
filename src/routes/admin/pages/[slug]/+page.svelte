@@ -43,7 +43,7 @@
                 body: formData,
             });
             if (!res.ok) throw new Error("Upload failed");
-            const result = await res.json();
+            const result = (await res.json()) as { url: string };
 
             insertAtCursor(`![${file.name.split(".")[0]}](${result.url}${imageAlignment})`);
         } catch (error) {

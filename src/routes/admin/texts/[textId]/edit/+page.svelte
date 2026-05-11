@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { untrack } from "svelte";
 	import Breadcrumbs from "$lib/components/layout/Breadcrumbs.svelte";
 
 	let { data } = $props();
@@ -6,13 +7,13 @@
 	let saving = $state(false);
 	let errorMsg = $state<string | null>(null);
 
-	let title = $state(data.text.metadata.title);
-	let author = $state(data.text.metadata.author);
-	let year = $state(data.text.metadata.year || "");
-	let category = $state(data.text.metadata.category);
-	let rawText = $state(data.text.rawText);
+	let title = $state(untrack(() => data.text.metadata.title));
+	let author = $state(untrack(() => data.text.metadata.author));
+	let year = $state(untrack(() => data.text.metadata.year || ""));
+	let category = $state(untrack(() => data.text.metadata.category));
+	let rawText = $state(untrack(() => data.text.rawText));
 
-	const canEditContent = data.annotationCount === 0;
+	const canEditContent = $derived(data.annotationCount === 0);
 
 	async function handleSubmit(e: SubmitEvent) {
 		e.preventDefault();

@@ -47,7 +47,7 @@ export const POST: RequestHandler = async ({ request, locals, params }) => {
 			version: data.version ?? 1,
 			createdAt: data.createdAt || new Date().toISOString(),
 			updatedAt: new Date().toISOString()
-		};
+		} as any;
 
 		await saveAnnotation(db, context, params.textId, newAnnotation);
 		return json(newAnnotation, { status: 201 });

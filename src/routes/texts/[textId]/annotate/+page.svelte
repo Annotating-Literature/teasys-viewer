@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { invalidateAll } from "$app/navigation";
 	import type { PageData } from "./$types";
 	import type { Annotation } from "$lib/types/annotation";
 	import AnnotatedText from "$lib/components/reading/AnnotatedText.svelte";
@@ -69,11 +70,11 @@
 			if (!res.ok) {
 				const body = await res
 					.json()
-					.catch(() => ({ error: "Unknown error" }));
-				throw new Error(body.error || "Failed to save");
+					.catch(() => ({ error: "Unknown error" })) as any;
+				throw new Error(body?.error || "Failed to save");
 			}
 
-			window.location.reload();
+			invalidateAll();
 		} catch (e) {
 			error = e instanceof Error ? e.message : "Save failed";
 			console.error("Save failed:", e);
@@ -92,7 +93,7 @@
 				},
 			);
 			if (!res.ok) throw new Error("Failed to delete");
-			window.location.reload();
+			invalidateAll();
 		} catch (e) {
 			error = e instanceof Error ? e.message : "Delete failed";
 		}

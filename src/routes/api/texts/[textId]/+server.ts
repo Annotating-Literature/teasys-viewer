@@ -53,6 +53,9 @@ export const DELETE: RequestHandler = async ({ params, locals }) => {
 
 	try {
 		const db = locals.db;
+		// Delete children's annotations and children first (handles collections)
+		await db.prepare('DELETE FROM annotations WHERE text_id IN (SELECT id FROM texts WHERE parent_id = ?)').bind(params.textId).run();
+		await db.prepare('DELETE FROM texts WHERE parent_id = ?').bind(params.textId).run();
 		await db.prepare('DELETE FROM annotations WHERE text_id = ?').bind(params.textId).run();
 		await db.prepare('DELETE FROM texts WHERE id = ?').bind(params.textId).run();
 		return new Response(null, { status: 204 });

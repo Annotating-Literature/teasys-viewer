@@ -141,7 +141,7 @@
 		/>
 	{/if}
 
-	<TextHeader textMetadata={data.text.metadata} user={data.user} />
+	<TextHeader textMetadata={data.text.metadata} user={data.user} parentText={data.parentText} />
 
 	<!-- Two-column layout or Table of Contents -->
 	{#if data.text.metadata.type === "collection"}
@@ -202,6 +202,36 @@
 					{/if}
 				</div>
 			</div>
+
+			<!-- Prev/Next navigation for collection parts -->
+			{#if data.prevText || data.nextText}
+				<nav class="flex items-center justify-between mt-8 pt-6 border-t border-gray-200/60">
+					{#if data.prevText}
+						<a
+							href={`/texts/${data.prevText.id}`}
+							class="flex items-center gap-2 text-sm text-gray-500 hover:text-primary-600 transition-colors group max-w-[45%]"
+						>
+							<svg class="w-4 h-4 shrink-0 group-hover:-translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+							</svg>
+							<span class="truncate font-serif">{data.prevText.title}</span>
+						</a>
+					{:else}
+						<div></div>
+					{/if}
+					{#if data.nextText}
+						<a
+							href={`/texts/${data.nextText.id}`}
+							class="flex items-center gap-2 text-sm text-gray-500 hover:text-primary-600 transition-colors group max-w-[45%]"
+						>
+							<span class="truncate font-serif text-right">{data.nextText.title}</span>
+							<svg class="w-4 h-4 shrink-0 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+							</svg>
+						</a>
+					{/if}
+				</nav>
+			{/if}
 
 			<!-- Right: Annotation panel (sticky, scrollable) -->
 			{#if data.annotations.length > 0}

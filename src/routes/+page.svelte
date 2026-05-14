@@ -17,26 +17,24 @@
 		collection: "Collections & Extended Texts",
 	};
 
-	// Group texts: type → category → texts
+	// Group texts: type → author → texts
 	const groupedByType = $derived.by(() => {
 		const result: {
 			type: string;
-			categories: { name: string; texts: any[] }[];
+			authors: { name: string; texts: any[] }[];
 		}[] = [];
 		for (const type of typeOrder) {
 			const textsOfType = data.groupedTexts[type] ?? [];
 			if (textsOfType.length === 0) continue;
-			// Group by category within type
-			const catMap: Record<string, any[]> = {};
+			const authorMap: Record<string, any[]> = {};
 			for (const t of textsOfType) {
-				const cat = t.category || "Uncategorized";
-				if (!catMap[cat]) catMap[cat] = [];
-				catMap[cat].push(t);
+				if (!authorMap[t.author]) authorMap[t.author] = [];
+				authorMap[t.author].push(t);
 			}
-			const categories = Object.entries(catMap)
+			const authors = Object.entries(authorMap)
 				.sort((a, b) => a[0].localeCompare(b[0]))
 				.map(([name, texts]) => ({ name, texts }));
-			result.push({ type, categories });
+			result.push({ type, authors });
 		}
 		return result;
 	});
@@ -130,24 +128,21 @@
 						<div class="flex-1 h-px bg-gray-200"></div>
 					</div>
 
-					<!-- Categories within type -->
+					<!-- Authors within type -->
 					<div class="space-y-10">
-						{#each group.categories as cat}
+						{#each group.authors as authorGroup}
 							<div>
 								<div class="flex items-center gap-4 mb-5 pl-1">
-									<h3
-										class="text-[11px] font-bold text-gray-500 uppercase tracking-[0.2em]"
-									>
-										{cat.name}
+									<h3 class="text-[11px] font-bold text-gray-500 uppercase tracking-[0.2em]">
+										<a
+											href={`/authors/${slugify(authorGroup.name)}`}
+											class="hover:text-primary-600 transition-colors"
+										>{authorGroup.name}</a>
 									</h3>
-									<div
-										class="flex-1 border-t border-dashed border-gray-200"
-									></div>
+									<div class="flex-1 border-t border-dashed border-gray-200"></div>
 								</div>
-								<div
-									class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
-								>
-									{#each cat.texts as text}
+								<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+									{#each authorGroup.texts as text}
 										<div
 											class="group block relative p-6 bg-surface-card backdrop-blur-sm
 									       border border-gray-200/60 rounded-xl
@@ -166,19 +161,11 @@
 													{text.title}
 												</a>
 											</h4>
-											<p
-												class="text-m text-gray-500 dark:text-gray-400 mt-2 relative z-10"
-											>
-												<a
-													href={`/authors/${slugify(text.author)}`}
-													class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
-													>{text.author}</a
-												>{#if text.year}<span
-														class="text-gray-500 dark:text-gray-500 mx-1.5"
-													>
-														·
-													</span>{text.year}{/if}
-											</p>
+											{#if text.year}
+												<p class="text-m text-gray-500 dark:text-gray-400 mt-2 relative z-10">
+													{text.year}
+												</p>
+											{/if}
 										</div>
 									{/each}
 								</div>

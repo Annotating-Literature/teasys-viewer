@@ -2,23 +2,29 @@
 	import Breadcrumbs from "$lib/components/layout/Breadcrumbs.svelte";
 	import { slugify } from "$lib/utils/slug";
 
-	let { textMetadata, user } = $props<{
+	let { textMetadata, user, parentText = null } = $props<{
 		textMetadata: any;
 		user: any;
+		parentText?: any;
 	}>();
+
+	const crumbs = $derived(
+		parentText
+			? [
+				{ label: "Library", href: "/" },
+				{ label: parentText.title, href: `/texts/${parentText.id}` },
+				{ label: textMetadata.title },
+			]
+			: [
+				{ label: "Library", href: "/" },
+				{ label: textMetadata.author, href: `/authors/${slugify(textMetadata.author)}` },
+				{ label: textMetadata.title },
+			]
+	);
 </script>
 
 <div class="mb-8">
-	<Breadcrumbs
-		crumbs={[
-			{ label: "Library", href: "/" },
-			{
-				label: textMetadata.author,
-				href: `/authors/${slugify(textMetadata.author)}`,
-			},
-			{ label: textMetadata.title },
-		]}
-	/>
+	<Breadcrumbs {crumbs} />
 	<div class="flex items-start justify-between">
 		<div>
 			<h1 class="text-3xl sm:text-4xl font-bold tracking-tight text-gray-900 leading-tight">

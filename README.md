@@ -35,7 +35,7 @@ Supports two deployment targets:
 ## Installation
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/noc-tae/teasys-viewer.git
 cd teasys-viewer
 npm install
 ```
@@ -43,6 +43,7 @@ npm install
 If you have VIPS installed, sharp will insist on being built from source, which will fail and is a terrible default that will hopefully be changed soon.
 
 In that case, pass `SHARP_IGNORE_GLOBAL_LIBVIPS=1` before `npm install`
+
 ---
 
 ## Deploying to Cloudflare Pages

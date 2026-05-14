@@ -137,7 +137,7 @@ async function main() {
 			const destFile = join(authorDir, `portrait.${ext}`);
 			process.stdout.write(`  Downloading portrait for ${author.slug}... `);
 			try {
-				execSync(`wrangler r2 object get teasys-portraits/${author.portrait_key} --file="${destFile}"`, {
+				execSync(`wrangler r2 object get teasys-portraits/${author.portrait_key} --remote --file="${destFile}"`, {
 					stdio: 'pipe'
 				});
 				console.log('✓');
